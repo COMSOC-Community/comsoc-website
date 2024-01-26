@@ -1,6 +1,7 @@
 ---
 layout: default
 title: COMSOC
+permalink: what-is-comsoc
 ---
 
 # What is Computational Social Choice?
