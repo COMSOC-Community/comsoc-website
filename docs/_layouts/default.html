@@ -7,26 +7,51 @@
 </head>
 <body>
 
-<div>
-    Computational Social Choice
-</div>
+<header>
+    <span>Computational Social Choice</span>
+</header>
 
-<div id="menu">
-    <a href="{{ "/" | relative_url }}">Home</a>
-    <a href="{{ "what-is-comsoc" | relative_url }}">What is COMSOC?</a>
-    <a href="{{ "workshops" | relative_url }}">COMSOC Workshops</a>
-    <a href="{{ "steering-committee" | relative_url }}">Steering Committee</a>
-    <a href="{{ "video-seminar" | relative_url }}">COMSOC Video Seminar</a>
-    <a href="{{ "related-events" | relative_url }}">Related Events</a>
-    <a href="{{ "theses" | relative_url }}">PhD Theses</a>
-    <a href="{{ "special-issues" | relative_url }}">Special Issues</a>
-    <a href="{{ "data-tools" | relative_url }}">Data &amp; Tools</a>
-    <a href="{{ "links" | relative_url }}">Links</a>
-    <a href="{{ "mailing-list" | relative_url }}">Mailing List</a>
-    <a href="{{ "contact" | relative_url }}">Contact</a>
-</div>
+<main>
+    <div>
+        <nav id="main-menu-wrap">
+            <ul id="main-menu">
+                <li><a href="{{ "/" | relative_url }}"><span>COMSOC</span></a></li>
+                <li>
+                    <span>Community</span>
+                    <ul class="submenu">
+                        <li><a href="{{ "steering-committee" | relative_url }}"><span>Steering Committee</span></a></li>
+                        <li><a href="{{ "mailing-list" | relative_url }}"><span>Mailing List</span></a></li>
+                        <li><a href="{{ "contact" | relative_url }}"><span>Contact</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Science</span>
+                    <ul class="submenu">
+                        <li><a href="{{ "workshops" | relative_url }}"><span>COMSOC Workshops</span></a></li>
+                        <li><a href="{{ "video-seminar" | relative_url }}"><span>COMSOC Video Seminar</span></a></li>
+                        <li><a href="{{ "related-events" | relative_url }}"><span>Related Events</span></a></li>
+                        <li><a href="{{ "special-issues" | relative_url }}"><span>Special Issues</span></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Resources</span>
+                    <ul class="submenu">
+                        <li><a href="{{ "data-tools" | relative_url }}"><span>Data &amp; Tools</span></a></li>
+                        <li><a href="{{ "theses" | relative_url }}"><span>PhD Theses</span></a></li>
+                        <li><a href="{{ "links" | relative_url }}"><span>Links</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-{{ content }}
+    <div id="main-content">
+        {{ content }}
+    </div>
+</main>
 
+<footer>
+
+</footer>
 </body>
 </html>
