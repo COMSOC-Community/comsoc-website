@@ -1,0 +1,21 @@
+---
+layout: default
+title: COMSOC
+---
+
+# The COMSOC Website
+
+Computational social choice is an interdisciplinary field of study
+at the interface of social choice theory and computer science,
+promoting an exchange of ideas in both directions. On the one hand, it is
+concerned with the application of techniques developed in computer science,
+such as complexity analysis or algorithm design, to the study of social choice
+mechanisms, such as voting procedures or fair division algorithms. On the
+other hand, computational social choice is concerned with importing concepts
+from social choice theory into computing. For instance, social welfare
+orderings originally developed to analyse the quality of resource allocations
+in human society are equally well applicable to problems in multiagent systems
+or network design.
+([Find out more!](what-is-comsoc.html))
+
+Use the menu on the left to find out more about the biannual COMSOC workshops, related events, and various other activities of the international COMSOC research community.
