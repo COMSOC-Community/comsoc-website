@@ -19,7 +19,7 @@
 - name: Yuliya A. Veselova
   affiliation: Maastricht University
   year: 2023
-  url: theses/phd-veselova.pdf
+  url: assets/theses/phd-veselova.pdf
   title: Information, Interaction and Manipulation in Voting
   supervisors:
     - Hans Peters
@@ -36,7 +36,7 @@
 - name: Joe Singleton
   affiliation: Cardiff University
   year: 2023
-  url: theses/phd-singleton.pdf
+  url: assets/theses/phd-singleton.pdf
   title: "Trustworthiness and Expertise: Social Choice and Logic-based Perspectives"
   supervisors:
     - Richard Booth
@@ -60,7 +60,7 @@
 - name: Paul Gölz
   affiliation: Carnegie Mellon University
   year: 2022
-  url: theses/phd-goelz.pdf
+  url: assets/theses/phd-goelz.pdf
   title: "Social Choice for Social Good: Proposals for Democratic Innovation from Computer Science"
   supervisors:
     - Ariel Procaccia
@@ -68,7 +68,7 @@
 - name: Robin Weishaupt
   affiliation: University of Düsseldorf
   year: 2022
-  url: theses/phd-weishaupt.pdf
+  url: assets/theses/phd-weishaupt.pdf
   title: "Deciding the Uncertain: Axiomatic Aspects of Fair Division and Computational Complexity Studies in Computational Social Choice and Graph Theory"
   supervisors:
     - Jörg Rothe
@@ -77,7 +77,7 @@
 - name: Anna Maria Kerkmann
   affiliation: University of Düsseldorf
   year: 2022
-  url: theses/phd-kerkmann.pdf
+  url: assets/theses/phd-kerkmann.pdf
   title: An Axiomatic and Computational Analysis of Altruism, Fairness, and Stability in Coalition Formation Games
   supervisors:
     - Jörg Rothe
@@ -93,7 +93,7 @@
 - name: Anson Kahng
   affiliation: Carnegie Mellon University
   year: 2021
-  url: theses/phd-kahng.pdf
+  url: assets/theses/phd-kahng.pdf
   title: Computational Perspectives on Democracy
   supervisors:
     - Ariel Procaccia
@@ -109,7 +109,7 @@
 - name: Marc Neveling
   affiliation: University of Düsseldorf
   year: 2021
-  url: theses/phd-neveling.pdf
+  url: assets/theses/phd-neveling.pdf
   title: A Computational Complexity Study of Various Types of Electoral Control, Cloning, and Bribery
   supervisors:
     - Jörg Rothe
@@ -118,7 +118,7 @@
 - name: Cynthia Maushagen
   affiliation: University of Düsseldorf
   year: 2021
-  url: theses/phd-maushagen.pdf
+  url: assets/theses/phd-maushagen.pdf
   title: "Wahlbetrug mit festen und variablen Präferenzen: Eine Komplexitätsanalyse von Kontroll- und Bestechungsproblemen"
   supervisors:
     - Jörg Rothe
@@ -135,7 +135,7 @@
 - name: Tyrone Strangway
   affiliation: University of Toronto
   year: 2020
-  url: theses/phd-strangway.pdf
+  url: assets/theses/phd-strangway.pdf
   title: "Three Ways to Get Your Way: Strategize, Gerrymander, Party"
   supervisors:
     - Allan Borodin
@@ -144,7 +144,7 @@
 - name: John Livieratos
   affiliation: National and Kapodistrian University of Athens
   year: 2020
-  url: theses/phd-livieratos.pdf
+  url: assets/theses/phd-livieratos.pdf
   title: "Constraint Satisfaction Problems: Probabilistic Approach and Applications to Social Choice Theory"
   supervisors:
     - Lefteris Kirousis
@@ -161,7 +161,7 @@
 - name: Hilmar Schadrack
   affiliation: University of Düsseldorf
   year: 2019
-  url: theses/phd-schadrack.pdf
+  url: assets/theses/phd-schadrack.pdf
   title: "A User's Theory: How to Model Agents of Online Debates"
   supervisors:
     - Dorothea Baumeister
@@ -169,7 +169,7 @@
 - name: Krzysztof Sornat
   affiliation: University of Wrocław
   year: 2019
-  url: theses/phd-sornat.pdf
+  url: assets/theses/phd-sornat.pdf
   title: Approximation Algorithms for Multiwinner Elections and Clustering Problems
   supervisors:
     - Jarosław Byrka
@@ -187,7 +187,7 @@
 - name: Dominik Peters
   affiliation: University of Oxford
   year: 2019
-  url: theses/phd-peters.pdf
+  url: assets/theses/phd-peters.pdf
   title: Fair Division of the Commons
   supervisors:
     - Edith Elkind
@@ -203,7 +203,7 @@
 - name: Gerdus Benadè
   affiliation: Carnegie Mellon University
   year: 2019
-  url: theses/phd-benade.pdf
+  url: assets/theses/phd-benade.pdf
   title: Equity and Efficiency in Computational Social Choice
   supervisors:
     - Ariel Procaccia
@@ -219,7 +219,7 @@
 - name: Anaëlle Wilczynski
   affiliation: Université Paris Dauphine, LAMSADE
   year: 2019
-  url: theses/phd-wilczynski.pdf
+  url: assets/theses/phd-wilczynski.pdf
   title: Interaction among Agents via a Social Network in Computational Social Choice
   supervisors:
     - Laurent Gourvès
@@ -228,7 +228,7 @@
 - name: Rupert Freeman
   affiliation: Duke University
   year: 2018
-  url: theses/phd-freeman.pdf
+  url: assets/theses/phd-freeman.pdf
   title: Eliciting and Aggregating Information for Better Decision Making
   supervisors:
     - Vincent Conitzer
@@ -244,7 +244,7 @@
 - name: Bas Dietzenbacher
   affiliation: Tilburg University
   year: 2018
-  url: theses/phd-dietzenbacher.pdf
+  url: assets/theses/phd-dietzenbacher.pdf
   title: Egalitarian Allocation Principles
   supervisors:
     - Peter Borm
@@ -268,7 +268,7 @@
 - name: Nhan-Tam Nguyen
   affiliation: University of Düsseldorf
   year: 2017
-  url: theses/phd-ntnguyen.pdf
+  url: assets/theses/phd-ntnguyen.pdf
   title: "Fair and Square: Issues of Fairness and Computation in Partition Problems"
   supervisors:
     - Jörg Rothe
@@ -284,7 +284,7 @@
 - name: Palash Dey
   affiliation: Indian Institute of Science, Bangalore
   year: 2017
-  url: theses/phd-dey.pdf
+  url: assets/theses/phd-dey.pdf
   title: Resolving the Complexity of Some Fundamental Problems in Computational Social Choice
   supervisors:
     - Y. Narahari
@@ -293,7 +293,7 @@
 - name: Anja Rey
   affiliation: University of Düsseldorf
   year: 2016
-  url: theses/phd-rey.pdf
+  url: assets/theses/phd-rey.pdf
   title: "Beyond Intractability: A Computational Complexity Analysis of Various Types of Influence and Stability in Cooperative Games"
   supervisors:
     - Jörg Rothe
@@ -301,7 +301,7 @@
 - name: Nisarg Shah
   affiliation: Carnegie Mellon University
   year: 2016
-  url: theses/phd-shah.pdf
+  url: assets/theses/phd-shah.pdf
   title: Optimal Social Decision Making
   supervisors:
     - Ariel Procaccia
@@ -309,7 +309,7 @@
 - name: Marina Bannikova
   affiliation: Universitat Rovira i Virgili
   year: 2016
-  url: theses/phd-bannikova.pdf
+  url: assets/theses/phd-bannikova.pdf
   title: Collective Decision-making under the Influence of Bribers and Temporal Constraints
   supervisors:
     - Antonio Quesada
@@ -334,7 +334,7 @@
 - name: Nathanaël Barrot
   affiliation: Université Paris Dauphine, LAMSADE
   year: 2016
-  url: theses/phd-barrot.pdf
+  url: assets/theses/phd-barrot.pdf
   title: Sur les Aspects Computationnels du Vote par Approbation
   supervisors:
     - Jérôme Lang
@@ -343,7 +343,7 @@
 - name: Amirali Salehi-Abari
   affiliation: University of Toronto
   year: 2016
-  url: theses/phd-salehi-abari.pdf
+  url: assets/theses/phd-salehi-abari.pdf
   title: Group Decision Making and Preference Learning on Social Networks
   supervisors:
     - Craig Boutilier
@@ -351,7 +351,7 @@
 - name: Andrea Loreggia
   affiliation: University of Padova
   year: 2016
-  url: theses/phd-loreggia.pdf
+  url: assets/theses/phd-loreggia.pdf
   title: Iterative Voting, Control and Sentiment Analysis
   supervisors:
     - Francesca Rossi
@@ -359,7 +359,7 @@
 - name: Lena Schend
   affiliation: University of Düsseldorf
   year: 2016
-  url: theses/phd-schend.pdf
+  url: assets/theses/phd-schend.pdf
   title: "From Election Fraud to Finding the Dream Team: A Study of the Computational Complexity in Voting Problems and Stability in Hedonic Games"
   supervisors:
     - Jörg Rothe
@@ -415,7 +415,7 @@
 - name: Omer Lev
   affiliation: Hebrew University of Jerusalem
   year: 2015
-  url: theses/phd-lev.pdf
+  url: assets/theses/phd-lev.pdf
   title: "Agent Modeling of Human Interaction: Stability, Dynamics and Cooperation"
   supervisors:
     - Jeff Rosenschein
@@ -439,7 +439,7 @@
 - name: Aris Filos-Ratsikas
   affiliation: Aarhus University
   year: 2015
-  url: theses/phd-filos-ratsikas.pdf
+  url: assets/theses/phd-filos-ratsikas.pdf
   title: Social Welfare in Algorithmic Mechanism Design without Money
   supervisors:
     - Peter Bro Miltersen
@@ -447,7 +447,7 @@
 - name: Simina Brânzei
   affiliation: Aarhus University
   year: 2015
-  url: theses/phd-branzei.pdf
+  url: assets/theses/phd-branzei.pdf
   title: Computational Fair Division
   supervisors:
     - Peter Bro Miltersen
@@ -464,7 +464,7 @@
 - name: Lihi Naamani-Dery
   affiliation: Ben Gurion University of the Negev
   year: 2015
-  url: theses/phd-dery.pdf
+  url: assets/theses/phd-dery.pdf
   title: Preference Elicitation for Group Decisions using Voting Theory
   supervisors:
     - Meir Kalech
@@ -490,7 +490,7 @@
 - name: Swaprava Nath
   affiliation: Indian Institute of Science, Bangalore
   year: 2013
-  url: theses/phd-nath.pdf
+  url: assets/theses/phd-nath.pdf
   title: Mechanism Design for Strategic Crowdsourcing
   supervisor: Y. Narahari
 
@@ -511,14 +511,14 @@
 - name: Trung Thanh Nguyen
   affiliation: University of Düsseldorf
   year: 2013
-  url: theses/phd-ttnguyen.pdf
+  url: assets/theses/phd-ttnguyen.pdf
   title: Approximability and Inapproximability of Social Welfare Optimization in Multiagent Resource Allocation
   supervisor: Jörg Rothe
 
 - name: Reyhaneh Reyhani
   affiliation: University of Auckland
   year: 2013
-  url: theses/phd-reyhani.pdf
+  url: assets/theses/phd-reyhani.pdf
   title: Strategic Manipulation in Voting Systems
   supervisor: Mark C. Wilson
 
@@ -532,7 +532,7 @@
 - name: Svetlana Obraztsova
   affiliation: Nanyang Technological University
   year: 2012
-  url: theses/phd-obraztsova.pdf
+  url: assets/theses/phd-obraztsova.pdf
   title: Essays on the Complexity of Voting Manipulation
   supervisors:
     - Edith Elkind
@@ -541,14 +541,14 @@
 - name: Markus Brill
   affiliation: Technische Universität München
   year: 2012
-  url: theses/phd-brill.pdf
+  url: assets/theses/phd-brill.pdf
   title: "Set-Valued Solution Concepts in Social Choice and Game Theory: Axiomatic and Computational Aspects"
   supervisor: Felix Brandt
 
 - name: Dorothea Baumeister
   affiliation: University of Düsseldorf
   year: 2012
-  url: theses/phd-baumeister.pdf
+  url: assets/theses/phd-baumeister.pdf
   title: "Computational Complexity in Three Areas of Computational Social Choice: Possible Winners, Unidirectional Covering Sets, and Judgment Aggregation"
   supervisor: Jörg Rothe
 
@@ -562,14 +562,14 @@
 - name: Nicholas Mattei
   affiliation: University of Kentucky
   year: 2012
-  url: theses/phd-mattei.pdf
+  url: assets/theses/phd-mattei.pdf
   title: "Decision Making Under Uncertainty: Theoretical and Empirical Results on Social Choice, Manipulation, and Bribery"
   supervisor: Judy Goldsmith
 
 - name: İrem Bozbay
   affiliation: Maastricht University
   year: 2012
-  url: theses/phd-bozbay.pdf
+  url: assets/theses/phd-bozbay.pdf
   title: Bargaining and Judgment Aggregation
   supervisors:
     - Hans Peters
@@ -578,7 +578,7 @@
 - name: Marija Slavkovik
   affiliation: University of Luxembourg
   year: 2012
-  url: theses/phd-slavkovik.pdf
+  url: assets/theses/phd-slavkovik.pdf
   title: Judgment Aggregation for Multiagent Systems
   supervisors:
     - Gabriella Pigozzi
@@ -587,14 +587,14 @@
 - name: Lirong Xia
   affiliation: Duke University
   year: 2011
-  url: theses/phd-xia.pdf
+  url: assets/theses/phd-xia.pdf
   title: "Computational Voting Theory: Game-Theoretic and Combinatorial Aspects"
   supervisor: Vincent Conitzer
 
 - name: Souvik Roy
   affiliation: Maastricht University
   year: 2010
-  url: theses/phd-roy.pdf
+  url: assets/theses/phd-roy.pdf
   title: Manipulability, Decomposability, and Rationalizability
   supervisors:
     - Hans Peters
@@ -603,14 +603,14 @@
 - name: Nadja Betzler
   affiliation: University of Jena
   year: 2010
-  url: theses/phd-betzler.pdf
+  url: assets/theses/phd-betzler.pdf
   title: A Multivariate Complexity Analysis of Voting Problems
   supervisor: Rolf Niedermeier
 
 - name: Mingyu Guo
   affiliation: Duke University
   year: 2010
-  url: theses/phd-guo.pdf
+  url: assets/theses/phd-guo.pdf
   title: Computationally Feasible Approaches to Automated Mechanism Design
   supervisor: Vincent Conitzer
 
@@ -624,7 +624,7 @@
 - name: Gábor Erdélyi
   affiliation: University of Düsseldorf
   year: 2009
-  url: theses/phd-erdelyi.pdf
+  url: assets/theses/phd-erdelyi.pdf
   title: The Control Complexity of Sincere-strategy Preference-based Approval Voting and of Fallback Voting, and a Study of Optimal Lobbying and Junta Distributions for SAT
   supervisor: Jörg Rothe
 
@@ -638,7 +638,7 @@
 - name: Haris Aziz
   affiliation: University of Warwick
   year: 2009
-  url: theses/phd-aziz.pdf
+  url: assets/theses/phd-aziz.pdf
   title: Algorithmic and Complexity Aspects of Simple Coalitional Games
   supervisors:
     - Mike Paterson
@@ -647,14 +647,14 @@
 - name: Piotr Faliszewski
   affiliation: University of Rochester
   year: 2008
-  url: theses/phd-faliszewski.pdf
+  url: assets/theses/phd-faliszewski.pdf
   title: "Manipulation of Elections: Algorithms and Infeasibility Results"
   supervisor: Lane A. Hemaspaandra
 
 - name: Ariel Procaccia
   affiliation: Hebrew University of Jerusalem
   year: 2008
-  url: theses/phd-procaccia.pdf
+  url: assets/theses/phd-procaccia.pdf
   title: "Computational Voting Theory: Of the Agents, By the Agents, For the Agents"
   supervisor: Jeff Rosenschein
 
@@ -678,14 +678,14 @@
 - name: Alon Altman
   affiliation: Technion
   year: 2007
-  url: theses/phd-altman.pdf
+  url: assets/theses/phd-altman.pdf
   title: The Axiomatic Approach to Ranking Systems
   supervisor: Moshe Tennenholtz
 
 - name: Maria Silvia Pini
   affiliation: University of Padova
   year: 2007
-  url: theses/phd-pini.pdf
+  url: assets/theses/phd-pini.pdf
   title: Reasoning with Preferences and Uncertainty
   supervisor: Francesca Rossi
 
@@ -701,6 +701,6 @@
 - name: Vincent Conitzer
   affiliation: Carnegie Mellon University
   year: 2006
-  url: theses/phd-conitzer.pdf
+  url: assets/theses/phd-conitzer.pdf
   title: Computational Aspects of Preference Aggregation
   supervisor: Tuomas Sandholm
