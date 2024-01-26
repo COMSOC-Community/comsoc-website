@@ -1,0 +1,54 @@
+------------------------------------------------------------------------
+CALL FOR BIDS TO HOST COMSOC-2014
+
+We are now soliciting bids to host COMSOC-2014, the 5th International
+Workshop on Computational Social Choice.  In the previous editions
+(2006 in Amsterdam, 2008 in Liverpool, 2010 in Duesseldorf, and 2012
+in Krakow), COMSOC has been held as a 3-day meeting, attracting
+between roughly 80 and 100 participants, featuring 5 invited talks and
+between around 35 and 40 contributed papers (all of which were
+presented during plenary sessions).  In 2008 and 2010, the workshop
+was preceded by an extra day devoted to introductory tutorials, which
+were attended by around 50 participants each.
+
+If you would like to propose to host COMSOC-2014, please email your
+bid to the members of the COMSOC Steering Committee:
+Felix Brandt <brandtf@in.tum.de>,
+Joerg Rothe <rothe@cs.uni-duesseldorf.de>,
+Piotr Faliszewski <faliszew@agh.edu.pl>, and
+Vince Conitzer <conitzer@cs.duke.edu>
+no later than 31 January 2013.  Your proposal should cover the
+following issues:
+
+(1) Location and facilities: Where do you propose to hold COMSOC-2014?
+Please state both the city and the exact location, and comment on the
+suitability of the available facilities (rooms) for the scientific
+program as well as the coffee breaks.  Please also comment on
+accessibility and attractiveness of the location, and on the
+availability of suitable (including low budget) accommodation.
+
+(2) Organisation: Who would be the main local organizer of
+COMSOC-2014?  Which organization (e.g., university) would be hosting
+the workshop?  Please also comment on local research groups that would
+benefit from attracting COMSOC-2014.
+
+(3) Schedule: What dates do you suggest?  The workshop should take
+place between early summer and fall in 2014.  Are there any local
+constraints?  Are you aware of any other international events that may
+constrain the choice of dates?  What schedule do you suggest for the
+paper reviewing procedure?
+
+(4) Budget: How do you intend to finance the workshop?  Please provide
+a preliminary budget.  Expenses to keep in mind include: invited
+speakers; printing of proceedings; coffee breaks; lunch; social
+dinner; possibly room and equipment hire; possibly secretarial and
+administrative support.  What level of registration fees do you
+anticipate and what would they cover?  (Please check out the previous
+editions of COMSOC for comparison.)
+
+Finally, please include any other issues that you consider important.
+
+All potential proposers are encouraged to contact us informally before
+submitting their bid.  Please do not hesitate to get in touch with any
+questions that you may have.
+------------------------------------------------------------------------

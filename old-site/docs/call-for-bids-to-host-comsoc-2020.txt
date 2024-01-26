@@ -1,0 +1,72 @@
+------------------------------------------------------------------------
+CALL FOR BIDS TO HOST COMSOC-2020
+
+We are now soliciting bids to host COMSOC-2020, the 8th International
+Workshop on Computational Social Choice. In previous years, COMSOC has
+been held as a 3-day meeting, attracting around 100 participants, featuring
+3-5 invited talks and a little under 60 contributed papers (some of which
+were presented as posters in the last edition of the workshop). In 2008 and
+2010 the workshop was preceded by an extra day devoted to introductory
+tutorials, and in 2016 by an industry day. These events were attended by
+more than half of the workshop participants.
+
+If you would like to host COMSOC-2020, please email your bid to:
+
+ Lirong Xia <xial@cs.rpi.edu> (primary contact for bidding)
+
+or to one or more of the other members of the COMSOC steering committee:
+
+- Edith Elkind <elkind@cs.ox.ac.uk>
+- Umberto Grandi <umberto.grandi@ut-capitole.fr>
+- Jeff Rosenschein <jeff@cs.huji.ac.il>
+
+The bid should arrive no later than *31 December 2018*. We encourage
+everyone to apply, however please bear in mind the following:
+
+We aim for COMSOC to move between areas geographically convenient for
+large groups of t he COMSO C community members. Currently, we identify
+two such areas: Europe and North America (but, as the community grows,
+we would like to include Australia/Asia in this list as well). Since
+COMSOC-2018 took place in North America, we give preference to locations
+in Europe for hosting COMSOC-2020.
+
+If we receive several bids (in particular, if we receive bids for hosting
+COMSOC outside of Europe), we may offer the interested bidder to organize
+COMSOC-2022. Please indicate in your bid if you would be willing to host
+COMSOC-2022.
+
+Your bid should consider the following issues:
+
+(1) Location and facilities: Where do you propose to hold COMSOC-2020?
+Please state both the city and the exact location, and comment on the
+suitability of the available facilities (rooms) for the scientific
+programme as well as the coffee breaks. Please also comment on accessibility
+and attractiveness of the location, and on the availabil ity of s uitable
+(including low budget) accommodation and transport.
+
+(2) Organisation: Who would be the main local organizer of COMSOC-2020?
+Which organisation (e.g., university) would be hosting the workshop?
+Please also comment on local research groups that would benefit from
+attracting COMSOC.
+
+(3) Schedule: What dates do you suggest? The workshop should take place
+in or around June 2020. Are there any local constraints? Are you aware of
+any other international events that may constrain the choice of dates?
+What schedule do you suggest for the paper reviewing procedure?
+
+(4) Budget: How do you intend to finance the workshop? Please provide a
+preliminary budget. Expenses to keep in mind include: invited speakers;
+coffee breaks; lunch; social dinner; possibly room and equipment hire;
+possibly secretarial and administrative support, possibly printing of the
+proceedings. What level of registration fees do you ant icipate and what
+would they cover? Please make sure that the costs are as low as possibly,
+preferably no higher than those for COMSOC-2018.
+
+Finally, please include any other issues that you consider important.
+
+All potential proposers are encouraged to contact us informally before
+submitting their bid. Please do not hesitate to get in touch with any
+questions that you may have.
+------------------------------------------------------------------------
+
+

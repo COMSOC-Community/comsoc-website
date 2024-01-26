@@ -1,0 +1,119 @@
+body { 
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 14px; 
+  line-height: 20px;
+  margin: 6px 0px;
+  color: #999999;
+  background-color: #FFFFFF; 
+}
+
+p, table, ul, li {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 14px; 
+  line-height: 20px;
+  margin: 12px 0px;
+  color: #666666;
+} 
+
+div#top {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-weight: bold;  
+  font-size: 32px; 
+  line-height: 60px;    
+  margin: 0px 0px;
+  color: #FFFFFF;
+  background-color: #998877;
+  text-align: center;
+}
+
+div#footer {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 12px; 
+  line-height: 12px;    
+  margin: 4px 4px;
+  color: #999999;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 1px 0px;
+  color: #998877;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 1px 0px;
+  color: #998877;
+}
+
+a:link {
+  color: #EE9955;
+}
+
+a:visited {
+  color: #EE9955;
+}
+
+a:active {
+  color: #998877;
+}
+
+a:hover {
+  color: #998877;
+}
+
+
+div#menu a {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 14px; 
+  line-height: 18px;
+  color: #EE9955;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  width: 160px;
+  text-align: left;
+  background-color: #EEEEEE;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+div#menu a:hover {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 14px; 
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  width: 160px;
+  text-align: left;
+  background-color: #998877;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+div#menu a:active {
+  font-family: georgia, verdana, arial, "ms sans serif", sans-serif; 
+  font-size: 14px; 
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  padding: 4px;
+  width: 160px;
+  text-align: left;
+  background-color: #998877;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+

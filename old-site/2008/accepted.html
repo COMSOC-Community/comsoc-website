@@ -1,0 +1,1126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>COMSOC-2008: 2nd International Workshop on Computational Social Choice</title>
+
+<script language="javascript">
+
+var myflag = false;
+
+function toggleAbstract(id) {
+	if(myflag) {
+		myflag = false;
+		return(true);}
+	var xxx = document.getElementById(id);
+	if(xxx.style.display == 'none')
+		xxx.style.display = 'block';
+	else xxx.style.display = 'none';
+	return(false);}
+
+</script>
+
+
+<link rel="stylesheet" href="COMSOC-2008_files/comsoc.css" type="text/css">
+
+<style id="page-skin" type="text/css">
+
+div.clickme {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 1.8em;
+  padding: 0em 0em 0em 0em;
+}
+
+div.authors {
+  font-size: 1.0em;
+  margin-left: 2em;
+  padding: 0em 0em 0em 0em;
+}
+
+div.home {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #A0A0A0;
+  background: #E5E5FF;
+  padding: 3px;
+  float: right;
+}
+
+div.imgs {
+  float: right;
+  text-align: right;
+}
+
+div.abstract {
+  clear: right;
+  text-align: justify;
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+  padding-top: 4px;
+  width: 600px;
+  margin-top: 5px;
+  background: #F2F2FF;
+}
+
+td { padding: 5px; vertical-align: top; }
+
+tr.odd { background-color:#E5E5FF; }
+
+img {
+  border: 0px;
+  vertical-align: top;
+}
+
+ 
+</style>
+
+</head>
+<body>
+
+<center>
+
+<!-- top banner starts here -->
+<table border="0" cellpadding="0" cellspacing="0" width="850">
+<tbody><tr><td background="COMSOC-2008_files/liverpool.jpg" height="220" valign="top">
+
+  <div id="top">
+  2nd International Workshop on Computational Social Choice<br>
+  Liverpool, 3-5 September 2008  
+  </div>
+</td></tr>
+</tbody></table>
+<!-- top banner ends here -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="850">
+<tbody><tr><td height="2"></td></tr>
+<tr valign="top">
+
+<!-- menu starts here -->
+<td align="left" width="175">
+  <div id="menu">
+  <a href="./index.html">Introduction</a>
+<!--  <a href="./programme.html">Programme</a>
+  <a href="./proceedings.html">Proceedings</a>
+  <a href="./photos-1.html">Photos</a> -->
+  <a href="./invited.html">Invited Speakers</a>
+  <a href="./tutorials.html">Tutorials on Sept 2nd</a>
+  <a href="accepted.html">Accepted Papers</a>
+  <a href="./pc.html">Committees</a>
+  <a href="./cfp.html">Call for Papers</a>
+  <a href="./submission.html">Paper Submission</a>
+  <a href="./dates.html">Important Dates</a>
+  <a href="./registration.html">Registration</a>
+  <a href="./location.html">Location</a>
+  <a href="./travel.html">Travel and Accommodation</a>
+<!--  <a href="./sponsors.html">Sponsors</a> -->
+  <a href="http://staff.science.uva.nl/~ulle/COMSOC-2006/index.html">COMSOC-2006</a>
+  <a href="./contact.html">Contact</a>  
+  </div>  
+</td>
+<!-- menu ends here -->
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td width="100%">
+<!-- page content starts here -->
+
+<h1>COMSOC-2008 Accepted papers</h1>
+
+<p>Click on a title to see the abstract; clicking again toggles it off.
+(This facility was borrowed from Mihai P&#259;tra&#351;cu's publications page.)</p>
+
+<table width="100%">
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper5");'>Complexity of comparison of influence of players in simple games</div>
+<div class="authors">
+<a target="_top" href="http://go.warwick.ac.uk/harisaziz">Haris Aziz</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper5">
+Coalitional voting games appear in different forms in multi-agent
+systems, social choice and threshold logic. In this paper, the
+complexity of comparison of influence between players in coalitional
+voting games is characterized. The possible representations of simple
+games considered are simple games represented by winning coalitions,
+minimal winning coalitions, weighted voting game or a multiple
+weighted voting game. The influence of players is gauged from the
+viewpoint of basic player types, desirability relations and classical
+power indices such as Shapley-Shubik index, Banzhaf index, Holler
+index, Deegan-Packel index and Chow parameters. Among other results,
+it is shown that for a simple game represented by minimal winning
+coalitions, although it is easy to verify whether a player has zero or
+one voting power, computing the Banzhaf value of the player is
+#P-complete. Moreover, it is proved that multiple weighted voting
+games are the only representations for which it is NP-hard to verify
+whether the game is linear or not. For a simple game with a set <i>W<sup>m</sup></i>
+of minimal winning coalitions and <i>n</i> players, a
+<i>O(n.|W<sup>m</sup>|+n<sup>2</sup>log(n))</i> algorithm is presented which returns no if the
+game is non-linear and returns the strict desirability ordering
+otherwise. The complexity of transforming simple games into compact
+representations is also examined.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper7");'>On the Complexity of Rationalizing Behavior</div>
+<div class="authors">
+<a target="_top" href="http://www.econ.upf.es/~apesteguia/">Jose Apesteguia</a> and
+<a target="_top" href="http://pareto.uab.es/mballester">Miguel A. Ballester</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper7">
+We study the complexity of rationalizing choice behavior. We do so by
+analyzing two polar cases, and a number of intermediate ones. In our
+most structured case, that is where choice behavior is defined in
+universal choice domains and satisfies the weak axiom of revealed
+preference, finding the complete preorder rationalizing choice
+behavior is a simple matter. In the polar case, where no restric- tion
+whatsoever is imposed, either on choice behavior or on choice domain,
+finding the complete preorders that rationalize behavior turns out to
+be intractable. We show that the task of finding the rationalizing
+complete preorders is equivalent to a graph problem. This allows the
+search for existing algorithms in the graph theory literature, for the
+rationalization of choice.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper8");'>
+The Cost and Windfall of Manipulability
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cs.cmu.edu/~aothman/">Abraham Othman</a> and
+<a target="_top" href="http://www.cs.cmu.edu/~sandholm">Tuomas Sandholm</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper8">
+A mechanism is manipulable if it is in agents’ best interest to
+misrepresent their private information (lie) to the center. We provide
+the first formal treatment of the windfall of manipulability, the
+seemingly paradoxical quality by which the failure of any agent to
+play their best manipulation yields a strictly better result than an
+optimal truthful mechanism. We dub such mechanisms manipulation
+optimal. We prove that any manipulation-optimal mechanism can have at
+most one manipulable type per agent. We show the existence of
+manipulation-optimal multiagent mechanisms with the goal of social
+welfare maximization, but not in dominant strategies when agents are
+anonymous and the mechanism is symmetric, the most common setting. For
+this setting, we show the existence of manipulation-optimal mechanisms
+when the goal is affine welfare maximization.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper12");'>
+On Voting Caterpillars: Approximating Maximum Degree in a Tournament by Binary Trees
+</div>
+<div class="authors">
+<a target="_top" href="http://www.tcs.ifi.lmu.de/~fischerf">Felix Fischer</a>,
+<a target="_top" href="http://www.cs.huji.ac.il/~arielpro">Ariel Procaccia</a> and
+<a target="_top" href="http://www.huji.ac.il/~salex">Alex Samorodnitsky</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper12">
+Voting trees describe an iterative procedure for selecting a single
+vertex from a tournament. It has long been known that there is no
+voting tree that always singles out a vertex with maximum degree. In
+this paper, we study the power of voting trees in approximating the
+maximum degree. We give upper and lower bounds on the worst-case ratio
+between the degree of the vertex chosen by a tree and the maximum
+degree, both for the deterministic model concerned with a single fixed
+tree, and for randomizations over arbitrary sets of trees. Our main
+positive result is a randomization over surjective trees of polynomial
+size that provides an approximation ratio of at least 1/2. The proof
+is based on a connection between a randomization over caterpillar
+trees and a rapidly mixing Markov chain.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper13");'>
+Coalition Structures in Weighted Voting Games
+</div>
+<div class="authors">
+Georgios Chalkiadakis, Edith Elkind and Nick Jennings
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper13">
+Weighted voting games are a popular model of collaboration in
+multiagent systems. In such games, each agent has a weight
+(intuitively corresponding to resources he can contribute), and a
+coalition of agents wins if its total weight meets or exceeds a given
+threshold.  Even though coalitional stability in such games is
+important, existing research has nonetheless only considered the
+stability of the grand coalition.  In this paper, we introduce a model
+for weighted voting games with coalition structures. This is a natural
+extension in the context of multiagent systems, as several groups of
+agents may be simultaneously at work, each serving a different task.
+We then proceed to study stability in this context.  First, we define
+the CS-core, a notion of the core for such settings, discuss its
+non-emptiness, and relate it to the traditional notion of the core in
+weighted voting games.  We then investigate its computational
+properties.  We show that, in contrast with the traditional setting,
+it is computationally hard to decide whether a game has a non-empty
+CS-core, or whether a given outcome is in the CS-core.  However, we
+then provide an efficient algorithm that verifies whether an outcome
+is in the CS-core if all weights are small (polynomially bounded).
+Finally, we also suggest heuristic algorithms for checking the
+non-emptiness of the CS-core.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper14");'>
+A Deontic Logic for Socially Optimal Norms
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cs.uu.nl/~broersen">Jan Broersen</a>,
+<a target="_top" href="http://www.phil.uu.nl/~rosja/">Rosja Mastop</a>,
+<a target="_top" href="http://www.cs.uu.nl/staff/jj.html">John-Jules Meyer</a> and
+<a target="_top" href="http://people.cs.uu.nl/paolo/">Paolo Turrini</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper14">
+The paper discusses the interaction properties between preference and
+choice of coalitions in a strategic interaction.  A language is
+presented to talk about the conflict between coalitionally optimal and
+socially optimal choices.  Norms are seen as social constructions that
+enable to enforce socially desirable outcomes.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper16");'>
+How to Rig Elections and Competitions
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cs.biu.ac.il/~hazonn">Noam Hazon</a>,
+<a target="_top" href="http://www.csc.liv.ac.uk/~ped/">Paul E. Dunne</a>,
+Sarit Kraus and
+<a target="_top" href="http://www.csc.liv.ac.uk/~mjw">Michael Wooldridge</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper16">
+We investigate the extent to which it is possible to rig the agenda of
+an election or competition so as to favor a particular candidate in
+the presence of imperfect information about the preferences of the
+electorate. We assume that what is known about an electorate is the
+probability that any given candidate will beat another.  As well as
+presenting some analytical results relating to the complexity of
+finding and verifying agenda, we develop heuristics for agenda
+rigging, and investigate the performance of these heuristics for both
+randomly generated data and real-world data from tennis and basketball
+competitions.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper17");'>
+Llull and Copeland Voting Computationally Resist Bribery and Control
+</div>
+<div class="authors">
+Piotr Faliszewski,
+Edith Hemaspaandra,
+Lane A. Hemaspaandra and
+<a target="_top" href="http://ccc.cs.uni-duesseldorf.de/~rothe/">J&ouml;rg Rothe</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper17">
+<p>
+Control and bribery are settings in which an external agent seeks to
+influence the outcome of an election.  Constructive control of
+elections refers to attempts by an agent to, via such actions as
+addition/deletion/partition of candidates or voters, ensure that a
+given candidate wins.  Destructive control refers to attempts by an
+agent to, via the same actions, preclude a given candidate's victory.
+An election system in which an agent can affect the result and in
+which recognizing the inputs on which the agent can succeed is NP-hard
+(respectively, polynomial-time solvable) is said to be resistant
+(respectively, vulnerable) to the given type of control.  Aside from
+election systems with an NP-hard winner problem, the only systems
+previously known to be resistant to all the standard control types are
+highly artificial election systems created by hybridization.
+</p>
+<p>
+We study a parameterized version of Copeland voting, denoted by
+Copeland<sup>&alpha;</sup>, where the parameter &alpha; is a rational number
+between 0 and 1 that specifies how ties are valued in the pairwise
+comparisons of candidates.  In every previously studied constructive
+or destructive control scenario, we determine which of resistance or
+vulnerability holds for Copeland<sup>&alpha;</sup> for each rational &alpha;, 0
+&le; &alpha; &le; 1.  In particular, we prove that Copeland<sup>0.5</sup>, the
+system commonly referred to as ``Copeland voting,'' provides full
+resistance to constructive control.  Among the systems with a
+polynomial-time winner problem, this is the first natural election
+system proven to have full resistance to constructive control.  In
+addition, we prove that both Copeland<sup>0</sup> and Copeland<sup>1</sup> (interestingly,
+the latter is an election system developed by the thirteenth-century
+mystic Ramon Llull) are resistant to all the standard types of
+constructive control other than one variant of addition of
+candidates. Moreover, we show that for each rational \&alpha;, 0 &le;
+&alpha; &le; 1, Copeland<sup>&alpha;</sup> voting is fully resistant to bribery
+attacks, and we establish fixed-parameter tractability of bounded-case
+control for Copeland<sup>&alpha;</sup>.
+</p>
+<p>
+We also study Copeland<sup>&alpha;</sup>
+elections under more flexible models such as microbribery and extended
+control, we integrate the potential irrationality of voter preferences
+into many of our results, and we prove our results in both the
+unique-winner and the nonunique-winner model. Our vulnerability
+results for microbribery are proven via a technique involving min-cost
+network flow.
+</p>
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper20");'>
+Welfare properties of argumentation-based semantics
+</div>
+<div class="authors">
+Kate Larson and
+<a target="_top" href="http://homepages.inf.ed.ac.uk/irahwan/">Iyad Rahwan</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper20">
+Since its introduction in the mid-nineties, Dung's theory of abstract
+argumentation frameworks has been influential in artificial
+intelligence. Dung viewed arguments as abstract entities with a binary
+defeat relation among them. This enabled extensive analysis of
+different (semantic) argument acceptance criteria. However, little
+attention was given to comparing such criteria in relation to the
+preferences of self-interested agents who may have conflicting
+preferences over the final status of arguments. In this paper, we
+define a number of agent preference relations over argumentation
+outcomes. We then analyse different argument evaluation rules taking
+into account the preferences of individual agents. Our framework and
+results inform the mediator (e.g. judge) to decide which argument
+evaluation rule (i.e. semantics) to use given the type of agent
+population involved.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper22");'>
+Approval-rating systems that never reward insincerity
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cse.wustl.edu/~legrand/">Rob LeGrand</a> and
+<a target="_top" href="http://www.cse.wustl.edu/~cytron/">Ron K. Cytron</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper22">
+<p>
+Electronic communities are relying increasingly on the results of
+continuous polls to rate the effectiveness of their members and
+offerings.  Sites such as eBay and Amazon solicit feedback about
+merchants and products, with prior feedback and results-to-date
+available to participants before they register their approval ratings.
+In such a setting, participants are understandably prone to exaggerate
+their approval or disapproval, so as to move the average rating in a
+favored direction.
+</p>
+<p>
+We explore several protocols that solicit approval ratings and report
+a consensus outcome without rewarding insincerity.  One such system is
+rationally optimal while still reporting an outcome based on the the
+usual notion of averaging.  That system allows all participants to
+manipulate the outcome in turn.  Although multiple equilibria exist
+for that system, they all report the same average approval rating as
+their outcome.  We generalize our results to obtain a range of
+declared-strategy voting systems suitable for approval-rating polls.
+</p>
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper24");'>
+Extending the Theorem of Gibbard and Satterthwaite
+</div>
+<div class="authors">
+Arkadii Slinko and Shaun White
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper24">
+We extend the Gibbard-Satterthwaite theorem in the following way. We
+prove that an onto, non-dictatorial social choice rule which is
+employed to choose one of at least three alternatives is safely
+manipulable by a single voter.  This means that on occasion a voter
+will have an incentive to make a strategic vote and know that he will
+not be worse off regardless of how other voters with similar
+preferences would vote, sincerely or not.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper27");'>
+Equilibria in Social Belief Removal
+</div>
+<div class="authors">
+Richard Booth and <a target="_top" href="http://ksg.meraka.org.za/~tmeyer">Thomas Meyer</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper27">
+In studies of multi-agent interaction, especially in game theory, the
+notion of <i>equilibrium</i> often plays a prominent role. A typical
+scenario for the <i>belief merging</i> problem is one in which several
+agents pool their beliefs together to form a consistent ``group''
+picture of the world. The aim of this paper is to define and study new
+notions of equilibria in belief merging. To do so, we assume the
+agents arrive at consistency via the use of a <i>social belief
+removal</i> function, in which each agent, using his own <i>individual</i>
+removal function, removes some belief from his stock of beliefs. We
+examine several notions of equilibria in this setting, assuming a
+general framework for individual belief removal due to Booth et al. We
+look at their inter-relations as well as prove their existence or
+otherwise. We also show how our equilibria can be seen as a
+generalisation of the idea of taking maximal consistent subsets of
+agents.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper29");'>
+Dodgson's Rule: Approximations and Absurdity
+</div>
+<div class="authors">
+<a target="_top" href="http://www.dansted.org/turtle/index.html">John McCabe-Dansted</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper29">
+With the Dodgson rule, cloning the electorate can change the winner,
+which Young (1977) considers an "absurdity". We show that removing
+this absurdity results in a new rule (DC) for which we can compute the
+winner in Polynomial time, unlike the traditional Dodgson rule. We
+introduce two related rules (DR and D&). Dodgson did not explicitly
+propose the "Dodgson rule" (Tideman, 1987); we argue that DC and DR
+are better realizations of the principle behind the Dodgson rule than
+the traditional Dodgson rule. These rules, especially D&, are also
+effective approxima- tions to the traditional Dodgson's rule. We show
+that, unlike the rules we have considered previously, the DC, DR and
+D& scores differ from the Dodgson score by no more than a fixed
+amount, and thus these new rules converge to Dodgson under any
+reasonable assumption on voter behaviour.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper31");'>
+Informational requirements of social choice rules
+</div>
+<div class="authors">
+Shin Sato
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper31">
+The needed amount of information to make a social choice is the cost
+of information processing, and it is a practically important feature
+of social choice rules. We introduce informational aspects into the
+analysis of social choice rules and prove that (i) if an anonymous,
+neutral, and monotonic social choice rule operates on minimal
+informational requirements, then it is a supercorrespondence of either
+the plurality rule or the antiplurality rule, and (ii) if the social
+choice rule is furthermore Pareto efficient, then it is a
+supercorrespondence of the plurality rule.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper32");'>
+A Computational Analysis of the Tournament Equilibrium Set
+</div>
+<div class="authors">
+<a target="_top" href="http://www.tcs.ifi.lmu.de/~brandtf/">Felix Brandt</a>,
+<a target="_top" href="http://www.tcs.ifi.lmu.de/~fischerf">Felix Fischer</a>,
+Paul Harrenstein and
+Maximilian Mair.
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper32">
+A recurring theme in the mathematical social sciences is how to select
+the "most desirable" elements given a binary dominance relation on a
+set of alternatives. Schwartz's tournament equilibrium set (TEQ) ranks
+among the most intriguing, but also among the most enigmatic,
+tournament solutions proposed so far in this context. Due to its
+unwieldy recursive definition, little is known about TEQ.  In
+particular, its monotonicity remains an open problem to date. Yet, if
+TEQ were to satisfy monotonicity, it would be a very attractive
+solution concept refining both the Banks set and Dutta's minimal
+covering set. We show that the problem of deciding whether a given
+alternative is contained in TEQ is NP-hard. Furthermore, we propose a
+heuristic that significantly outperforms the naive algorithm for
+computing TEQ. Early experimental results support the conjecture that
+TEQ is indeed monotonic.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper33");'>
+Computing the Degree of Manipulability in the Case of Multiple Choice
+</div>
+<div class="authors">
+Fuad Aleskerov, Daniel Karabekyan, Remzi Sanver and Vyacheslav Yakuba
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper33">
+The problem of the manipulability of known social choice rules in the
+case of multiple choice is considered. Several concepts of expanded
+preferences (preferences over the sets of alternatives)are
+elaborated. As a result of this analysis ordinal and nonordinal
+methods of preferences expanding are de?fined. The notions of the
+degree of manipulability are extended to the case under study. Using
+the results of theoretical investigation, 22 known social choice rules
+are studied via computational experiments to reveal their degree of
+manipulability.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper34");'>
+Negotiation as Pointwise Merging
+</div>
+<div class="authors">
+Sébastien Konieczny and Ramon Pino Perez
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper34">
+In the logic based framework of knowledge representation and reasoning
+many operators have been defined in order to capture different kinds
+of change: revision, update, merging and many others.  There are close
+links between revision, update, and merging.  Merging operators can be
+considered as extensions of revision operators to multiple belief
+bases.  And update operators can be considered as pointwise revision,
+looking at each model of the base, instead of taking the base as a
+whole.  Thus, a natural question is the following one: Are there
+natural operators that are pointwise merging, just as update are
+pointwise revision?  The goal of this work is to give a positive
+answer to this question.  In order to do that, we introduce a new
+class of operators: the confluence operators.  These new operators can
+be useful for modelling negotiation processes.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper35");'>
+Complexity of Unweighted Coalitional Manipulation Under Some Common Voting Rules
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cs.duke.edu/~lxia">Lirong Xia</a>,
+<a target="_top" href="http://www.cs.duke.edu/~conitzer/">Vincent Conitzer</a>,
+<a target="_top" href="http://www.cs.huji.ac.il/~arielpro">Ariel Procaccia</a> and
+<a target="_top" href="http://www.cs.huji.ac.il/~jeff">Jeffrey Rosenschein</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper35">
+In this paper, we study the computational complexity of the unweighted
+coalitional manipulation (UCM) problem under some common voting
+rules. We show that the UCM problem under maximin is NP-complete.  We
+also show that the UCM problem under ranked pairs is NP-complete, even
+if there is only one manipulator.  Finally, we present a
+polynomial-time algorithm for the UCM problem under Bucklin.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper36");'>
+Divide and Conquer: False-Name Manipulations in Weighted Voting Games
+</div>
+<div class="authors">
+Edith Elkind and
+<a target="_top" href="http://www.cs.huji.ac.il/~yori">Yoram Bachrach</a>.
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper36">
+Weighted voting is a well-known model of cooperation among agents in
+decision-making domains. In such games, each of the players has a
+weight, and a coalition of players wins the game if its total weight
+meets or exceeds a given quota. In such games, the player's ability to
+influence the outcome of the game is related to its weight, but not
+always directly proportional to it. Usually, the agents' power is
+measured using a <i>power index</i>, such as e.g., Shapley--Shubik
+index.  In this paper, we study how the agent can manipulate its
+voting power (as measured by Shapley--Shubik power index) by
+distributing his weight among several false identities. We call this
+behavior a <i>false-name manipulation</i>. We show that such
+manipulations can indeed increase an agent's power and provide upper
+and lower bounds on the effects of such manipulations. We then study
+this issue from the computational perspective, and show that checking
+whether a beneficial split exists is NP-hard. We also discuss
+efficient algorithms for restricted cases of this problem, as well as
+randomized algorithms for the general case.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper37");'>
+A fair payoff distribution for myopic rational agents
+</div>
+<div class="authors">
+<a target="_top" href="http://staff.science.uva.nl/~stephane">St&eacute;phane Airiau</a> and
+Sandip Sen
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper37">
+We consider the case of self-interested agents that are willing to
+form coalitions for increasing their individual rewards.  We assume
+that each agent gets an individual payoff which depends on the
+coalition structure (CS) formed.  We consider a CS to be stable if no
+agent has an incentive to change coalition from this CS. Stability is
+a desirable property of a CS: if agents form a stable CS, they do not
+spend further time and effort in selecting or changing CSs.  When no
+stable CSs exist, rational agents will be changing coalitions forever
+unless some agents accept suboptimal results.  When stable CSs exist,
+they may not be unique, and choosing one over the other will give an
+unfair advantage to some agents. In addition, it may not be possible
+to reach a stable CS from any CS using a sequence of myopic rational
+actions.  We provide a payoff distribution scheme that is based on the
+expected utility of a rational myopic agent (an agent that changes
+coalitions to maximize immediate reward) given a probability
+distribution over the initial CS.  Agents share the utility from a
+social welfare maximizing CS proportionally to the expected utility of
+the agents, which guarantees that agents receives at least as much as
+their expected utility from myopic behavior.  This ensures sufficient
+incentives for the agents to use our protocol.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper38");'>
+A geometric approach to judgment aggregation
+</div>
+<div class="authors">
+<a target="_top" href="http://www.uni-graz.at/fwiwww/home-eng/staff/klamler.html">Christian Klamler</a> and
+Daniel Eckert
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper38">
+Don Saari developed a geometric approach to the analysis of voting
+paradoxes such as the Condorcet paradox or Arrow's general possibility
+theorem. In this paper we want to extend this approach to judgment
+aggregation. In particular we will use Saari's representation cubes to
+provide a geometric presentation of profiles and majority rule
+outcomes. We will then show how profile decompositions can be used to
+derive restrictions on the set of profiles that guarantee consistent
+majority outcomes. Finally, the geometric approach is used to
+determine the likelihood of inconsistencies.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper39");'>
+A Qualitative Vickrey Auction
+</div>
+<div class="authors">
+<a target="_top" href="http://www.harrenstein.nl/">Paul Harrenstein</a>,
+Tam&aacute;s M&aacute;hr and
+<a target="_top" href="http://www.st.ewi.tudelft.nl/~mathijs/">Mathijs de Weerdt</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper39">
+The negative conclusions of the Gibbard-Satterthwaite theorem&mdash;that
+only dictatorial social choice functions are non-manipulable&mdash;can be
+overcome by restricting the class of admissible preference profiles. A
+common approach is to assume that the preferences of the agents can be
+represented by <i>quasilinear utility functions</i>. This restriction
+allows for the positive results of the Vickrey auction and the
+Vickrey-Clarke-Groves mechanism. Quasilinear preferences, however,
+involve the controversial assumption that there is some commonly
+desired commodity or numeraire&mdash;money, shells, beads, etcetera&mdash;the
+utility of which is commensurable with the utility of the other
+alternatives in question. We propose a generalization of the Vickrey
+auction, which does not assume the agents' preferences being
+quasilinear but still has some of its desirable properties. In this
+auction a bid can be any alternative, rather than just a monetary
+bid. Such an auction is also applicable to situations where no
+numeraire is available, when there is a fixed budget, or when money is
+no issue. In the presence of quasilinear preferences, however, the
+traditional Vickrey turns out to be a special case. In order to
+sidestep the Gibbard-Satterthwaite theorem, we restrict the
+preferences of the bidders. We show that this qualitative Vickrey
+auctions always has a dominant strategy equilibrium, which moreover
+invariably yields a weakly Pareto efficient outcome.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper40");'>
+Three-sided stable matchings with cyclic preferences and the kidney exchange problem
+</div>
+<div class="authors">
+<a target="_top" href="http://www.dcs.gla.ac.uk/~pbiro/">Peter Biro</a> and
+<a target="_top" href="http://www.dcs.gla.ac.uk/~mcdermid">Eric McDermid</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper40">
+Knuth (1976) asked whether the stable matching problem can be
+generalised to three dimensions i. e., for families containing a man,
+a woman and a dog. Subsequently, several authors considered the
+three-sided stable matching problem with cyclic preferences, where men
+care only about women, women only about dogs, and dogs only about
+men. In this paper we prove that if the preference lists may be
+incomplete, then the problem of deciding whether a stable matching
+exists, given an instance of three-sided stable matching problem with
+cyclic preferences is NP-complete. Considering an alternative
+stability criterion, strong stability, we show that the problem is
+NP-complete even for complete lists. These problems can be regarded as
+special types of stable exchange problems, therefore these results
+have relevance in some real applications, such as kidney exchange
+programs.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper43");'>
+Compiling the votes of a subelectorate
+</div>
+<div class="authors">
+Yann Chevaleyre,
+<a target="_top" href="http://www.irit.fr/recherches/RPDMP/persos/Jerome.html">J&eacute;r&ocirc;me Lang</a>,
+<a target="_top" href="http://www.lamsade.dauphine.fr/~maudet/">Nicolas Maudet</a> and
+Guillaume Ravilly-Abadie
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper43">
+In many practical situations where agents vote for making a common
+decision, the votes do not come all together at the same time (for
+instance, when voting about a date for a meeting, it often happens
+that one or two participants express their preferences later than
+others). In such situations, we might want to preprocess the
+information given by the subelectorate (consisting of those voters who
+have expressed their votes) so as to ``compile'' the known votes for
+the time when the latecomers will have expressed their votes. We study
+the amount of space necessary to such a compilation, in function of
+the voting rule used, the number of candidates, the number of voters
+who have already expressed their votes and the number of remaining
+voters. We position our results with respect to existing work,
+noticeably on vote elicitation and communication complexity.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper44");'>
+Approximability of Manipulating Elections
+</div>
+<div class="authors">
+Eric Brelsford,
+<a target="_top" href="http://www.cs.rochester.edu/~pfali">Piotr Faliszewski</a>,
+<a target="_top" href="http://www.cs.rit.edu/~eh/">Edith Hemaspaandra</a>,
+Henning Schnoor and
+Ilka Schnoor
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper44">
+In this paper, we set up a framework to study approximation of
+manipulation, control, and bribery in elections. We show existence of
+approximation algorithms (even fully polynomial time approximation
+schemes) as well as obtain inapproximability results. In particular,
+we show that a large subclass of scoring protocols admits
+fully-polynomial time approximation schemes for the coalitional
+weighted manipulation problem and that if certain families of scoring
+protocols (e.g., veto) admitted such approximation schemes then P =
+NP.  We also show that bribery for Borda count is NP-complete and that
+there is no approximation algorithm that achieves even a polynomial
+approximation ratio for bribery in Borda count for the case where
+voters have prices.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper45");'>
+Alternatives to Truthfulness are Hard to Recognize
+</div>
+<div class="authors">
+<a target="_top" href="http://www.dia.unisa.it/professori/auletta/">Vincenzo Auletta</a>,
+<a target="_top" href="http://www.dia.unisa.it/~penna">Paolo Penna</a>,
+<a target="_top" href="http://www.dia.unisa.it/~giuper">Giuseppe Persiano</a> and
+<a target="_top" href="http://www.csc.liv.ac.uk/~carven/">Carmine Ventre</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper45">
+<p>
+The central question in mechanism design is how to implement a given
+social choice function. One of the most studied concepts is that of
+<i>truthful</i> implementations in which truth-telling is always the
+best response of the players.  The Revelation Principle says that one
+can focus on truthful implementations without loss of generality (if
+there is no truthful implementation then there is no implementation at
+all). Green and Laffont (1986) showed that, in the scenario in which
+players' responses can be <i>partially verified</i>, the revelation
+principle holds only in some particular cases.
+</p>
+<p>
+When the Revelation Principle does not hold, non-truthful
+implementations become interesting since they might be the only way to
+implement a social choice function of interest.  In this work we show
+that, although non-truthful implementations may exist, they are hard
+to find. Namely, it is NP-hard to decide if a given social choice
+function can be implemented in a non-truthful manner, or even if it
+can be implemented at all.  This is in contrast to the fact that
+truthful implementability can be recognized efficiently, even when
+partial verification of the agents is allowed.  Our results also show
+that there is no ``simple'' characterization of those social choice
+functions for which it is worth looking for non-truthful
+implementations.
+</p>
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper46");'>
+Computing Spanning Trees in a Social Choice Context
+</div>
+<div class="authors">
+Andreas Darmann,
+<a target="_top" href="http://www.uni-graz.at/fwiwww/home-eng/staff/klamler.html">Christian Klamler</a> and
+Ulrich Pferschy
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper46">
+This paper combines social choice theory with discrete
+optimization. We assume that individuals have preferences over edges
+of a graph that need to be aggregated. The goal is to find the
+socially best spanning tree. As ranking all spanning trees is becoming
+infeasible even for small numbers of vertices and/or edges of a graph,
+our interest lies in finding algorithms that determine a socially
+"best" spanning tree in a simple manner. This problem is closely
+related to the minimum (or maximum) spanning tree problem. The main
+result in this paper shows that for the various underlying set ranking
+rules discussed in this paper, using a greedy algorithm to determine
+the maximal spanning tree based on such a group ranking will always
+provide the "best" spanning tree.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper47");'>
+Computing Kemeny Rankings, Parameterized by the Average KT-Distance
+</div>
+<div class="authors">
+Nadja Betzler,
+Michael Fellows,
+<a target="_top" href="http://www-fs.informatik.uni-tuebingen.de/~guo/">Jiong Guo</a>,
+<a target="_top" href="http://theinf1.informatik.uni-jena.de/">Rolf Niedermeier</a> and
+Frances A. Rosamond
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper47">
+The computation of Kemeny scores is central to many applications in
+the context of rank aggregation. Unfortunately, the problem is
+NP-hard. Extending our previous work (AAIM08), we show that the Kemeny
+score of an election can be computed efficiently whenever the average
+pairwise distance between two input votes is not too large. In other
+words, Kemeny Score is fixed-parameter tractable with respect to the
+parameter "average pairwise Kendall-Tau distance <i>d<sub>a</sub></i>". We describe a
+fixed-parameter algorithm with running time <i>O<sup>*</sup>(4<sup>d_a</sup>)</i>.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper48");'>
+Judgment Aggregation as Maximization of Epistemic and Social Utility
+</div>
+<div class="authors">
+Szymon Klarman
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper48">
+In the paper we restate the discursive dilemma and relate it to
+another well-known problem regarding the rational acceptance of
+logically connected propositions &mdash; the lottery paradox. We recall
+how the latter has been tackled by I. Levi in the decision-theoretic
+framework and consider the possibility of applying a similar approach
+to the judgment aggregation problem. Finally, we propose a method of
+aggregation built on the concepts of epistemic and social utility of
+accepting a collective judgment, which accounts for such parameters
+&mdash; arguably of importance for aggregation tasks &mdash; as the factual
+truth of the propositions, reliability of agents, information content
+(completeness) of possible collective judgments and the level of
+agreement between the agents. We claim that the expected utility of
+accepting a collective judgment depends on the degree to which all
+those objectives are satisfied and that groups of rational agents aim
+at maximizing it, while solving a judgment aggregation problems.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper49");'>
+Aggregating Referee Scores: an Algebraic Approach
+</div>
+<div class="authors">
+<a target="_top" href="http://haenni.shorturl.com/">Rolf Haenni</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper49">
+This paper presents a quantitative solution to the problem of
+aggregating referee scores for documents submitted to peer-reviewed
+conferences or scientific journals. The proposed approach is a
+particular application of the Dempster-Shafer theory to a very
+restricted setting, from which an interesting algebraic framework
+results. The paper investigates the algebraic properties of this
+framework and shows how to apply it to the score aggregation and
+document ranking problems.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper50");'>
+From Preferences to Judgments and Back
+</div>
+<div class="authors">
+Davide Grossi
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper50">
+The paper studies the interrelationships of the Preference Aggregation
+and Judgment Aggregation problems from the point of view of logical
+semantics. The result of the paper is twofold. On the one hand, the
+Preference Aggregation problem is viewed as a special case of the
+Judgment Aggregation one. On the other hand, the Judgment Aggregation
+problem is viewed as a special case of the Preference Aggregation
+one. As an example, it is shown how to import an impossibility result
+from each framework to the other. This shows how the aggregation of
+preferences and judgments can be viewed as two faces of a same coin.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper51");'>
+Computing the nucleolus of weighted voting games
+</div>
+<div class="authors">
+<a target="_top" href="http://pasechnik.info">Dmitrii Pasechnik</a> and
+Edith Elkind
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper51">
+Weighted voting games (WVG) are coalitional games in which an agent's
+contribution to a coalition is given by his <i>weight</i>, and a
+coalition wins if its total weight meets or exceeds a given quota.
+These games model decision-making in political bodies as well as
+collaboration and surplus division in multiagent domains.  The
+computational complexity of various solution concepts for weighted
+voting games received a lot of attention in recent years. In
+particular, Elkind et al.~\cite{eggw} studied the complexity of
+stability-related solution concepts in WVGs, namely, of the core, the
+least core, and the nucleolus.  While they have completely
+characterized the algorithmic complexity of the core and the least
+core, for the nucleolus they have only provided an NP-hardness result.
+In this paper, we solve an open problem posed in~\cite{eggw} by
+showing that the nucleolus can be computed in pseudopolynomial time,
+i.e., there exists an algorithm that correctly computes the nucleolus
+and runs in time polynomial in the number of players $n$ and the
+maximum weight <i>W</i>.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper56");'>
+Sincere-Strategy Preference-Based Approval Voting Fully Resists Constructive
+Control and Broadly Resists Destructive Control 
+</div>
+<div class="authors">
+Gabor Erdelyi,
+Markus Nowak and
+<a target="_top" href="http://ccc.cs.uni-duesseldorf.de/~rothe/">J&ouml;rg Rothe</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper56">
+We study sincere-strategy preference-based approval voting (SP-AV), a
+system proposed by Brams and Sanver [Electoral Studies, 25(2):287-305,
+2006], with respect to procedural control. In such control scenarios,
+an external agent seeks to change the outcome of an election via
+actions such as adding/deleting/partitioning either candidates or
+voters. SP-AV combines the voters' preference rankings with their
+approvals of candidates, and we adapt it here so as to keep its useful
+features with respect to approval strategies even in the presence of
+control actions. We prove that this system is computationally
+resistant (i.e., the corresponding control problems are NP-hard) to 19
+out of 22 types of constructive and destructive control. Thus, SP-AV
+has more resistances to control, by three, than is currently known for
+any other natural voting system with a polynomial-time winner
+problem. In particular, SP-AV is (after Copeland voting, see
+Faliszewski et al. [AAIM-2008, Springer LNCS 5034, pp. 165-176, 2008])
+the second natural voting system with an easy winner-determination
+procedure that is known to have full resistance to constructive
+control, and unlike Copeland voting it in addition displays broad
+resistance to destructive control.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper57");'>
+Social Welfare Functions That Score Rankings and Maximum Likelihood Estimation
+</div>
+<div class="authors">
+<a target="_top" href="http://www.cs.duke.edu/~conitzer/">Vincent Conitzer</a>,
+Matthew Rognlie and
+<a target="_top" href="http://www.cs.duke.edu/~lxia">Lirong Xia</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper57">
+A social welfare function (SWF) takes a set of votes (linear orders
+over a set of alternatives) as input, and produces one or more
+rankings (also linear orders over the alternatives) as output.  Such
+functions have many applications, for example, aggregating the
+preferences of multiple agents, or merging rankings (of, say,
+webpages) into a single ranking.  The key issue is choosing an SWF to
+use.  One natural and previously studied approach is to assume that
+there is an unobserved ``correct'' ranking, and the votes are noisy
+estimates of this.  Then, we can use the SWF that always chooses the
+maximum likelihood estimate (MLE) of the correct ranking.  In this
+paper, we define simple ranking scoring functions (SRSFs) and show
+that the class of neutral SRSFs is exactly the class of neutral SWFs
+that are MLEs for some noise model.  We also define extended ranking
+scoring functions (ERSFs) and show a condition under which these
+coincide with SRSFs.  We study key properties such as consistency and
+continuity, and consider some example SWFs.  In particular, we study
+Single Transferable Vote (STV), a commonly used SWF, showing that it
+is an ERSF but not an SRSF, thereby clarifying the extent to which it
+is an MLE function.  This also gives a new perspective on how ties
+should be broken under STV.  We leave some open questions.
+</div></center></td></tr>
+
+<tr class="odd"><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper58");'>
+On the Agenda Control Problem for Knockout Tournaments
+</div>
+<div class="authors">
+Thuc Vu, Alon Altman and Yoav Shoham
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper58">
+Knockout tournaments are very common in practice for various settings
+such as sport events and sequential pairwise elimination elections. In
+this paper, we investigate the computational aspect of tournament
+agenda control, i.e., finding the agenda that maximizes the chances of
+a target player winning the tournament. We consider several modelings
+of the problem based on different constraints that can be placed on
+the structure of the tournament or the model of the players. In each
+setting, we analyze the complexity of finding the solution and show
+how it varies depending on the modelings of the problem. In general,
+constraints on the tournament structure make the problem become
+harder.
+</div></center></td></tr>
+
+<tr><td colspan=2>
+<div class="clickme" onclick='return toggleAbstract("paper62");'>
+Majority voting on restricted domains: a summary
+</div>
+<div class="authors">
+<a target="_top" href="http://www.personeel.unimaas.nl/f.dietrich/">Franz Dietrich</a> and
+<a target="_top" href="http://personal.lse.ac.uk/LIST">Christian List</a>
+</div>
+<center>
+<div  class="abstract" style="display:none;" id="paper62">
+In judgment aggregation, unlike preference aggregation, not much is
+known about domain restrictions that guarantee consistent majority
+outcomes. We introduce several conditions on individual judgments
+sufficient for consistent majority judgments. Some are based on global
+orders of propositions or individuals, others on local orders, still
+others not on orders at all. Some generalize classic social-choice-
+theoretic domain conditions, others have no counterpart. Our most
+general condition generalizes Seni's triplewise value-restriction,
+itself the most general classic condition. We also give a new
+characterization theorem: for a large class of domains, if there
+exists any aggregation function satisfying some democratic conditions,
+then majority voting is the unique such function. Taken together, our
+results provide new support for the robustness of majority rule.
+</div></center></td></tr>
+
+</table>
+
+
+
+</body>
+</html>
+
+
+<!-- page content ends here -->
+</td>
+</tr>
+</tbody></table>
+
+
+<!-- footer starts here -->
+<table border="0" cellpadding="0" cellspacing="0" width="850">
+<tbody><tr><td bgcolor="#998877" height="3"></td></tr>
+<tr><td><div id="footer">last modified on
+
+Thursday, 10th July 08, 15:50 BST
+(<a href="mailto:P.W.Goldberg@liverpool.ac.uk">P. Goldberg</a>)
+</div></td></tr>
+</tbody></table>
+<!-- footer ends here -->
+
+</center>
+
+</body></html>
