@@ -16,18 +16,18 @@ The [COMSOC workshop series](workshops.html) is coordinated by a Steering Commit
 
 ## Past Committee Members
 
-- [Ulle Endriss](http://www.illc.uva.nl/~ulle/) (ILLC, University of Amsterdam): 2006-2012
-- [J&eacute;r&ocirc;me Lang](http://www.lamsade.dauphine.fr/~lang/) (LAMSADE, Paris-Dauphine University): 2006-2012
-- [Vincent Conitzer](http://www.cs.duke.edu/~conitzer/) (Duke University): 2012-2014
-- [J&ouml;rg Rothe](http://ccc.cs.uni-duesseldorf.de/~rothe/) (University of D&uuml;sseldorf): 2012-2014
-- [Felix Brandt](http://dss.in.tum.de/staff/brandt.html) (Technical University Munich): 2012-2016
-- [Piotr Faliszewski](http://home.agh.edu.pl/~faliszew/) (AGH University of Science and Technology): 2012-2016
-- [Ariel Procaccia](http://www.cs.cmu.edu/~arielpro/) (Carnegie Mellon University): 2014-2018
-- [Toby Walsh](http://www.cse.unsw.edu.au/~tw/) (NICTA and University of New South Wales): 2014-2018
+- [Ulle Endriss](https://staff.fnwi.uva.nl/u.endriss/) (ILLC, University of Amsterdam): 2006-2012
+- [J&eacute;r&ocirc;me Lang](https://www.lamsade.dauphine.fr/~lang/) (LAMSADE, Paris-Dauphine University): 2006-2012
+- [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/) (Duke University): 2012-2014
+- [J&ouml;rg Rothe](https://ccc.cs.uni-duesseldorf.de/~rothe/) (University of D&uuml;sseldorf): 2012-2014
+- [Felix Brandt](https://www.cs.cit.tum.de/en/dss/brandt/) (Technical University Munich): 2012-2016
+- [Piotr Faliszewski](https://home.agh.edu.pl/~faliszew/) (AGH University of Science and Technology): 2012-2016
+- [Ariel Procaccia](https://procaccia.info/) (Carnegie Mellon University): 2014-2018
+- [Toby Walsh](https://www.cse.unsw.edu.au/~tw/) (NICTA and University of New South Wales): 2014-2018
 - [Umberto Grandi](https://www.irit.fr/~Umberto.Grandi/) (IRIT, University of Toulouse): 2016-2021
-- [Jeff Rosenschein](http://www.cs.huji.ac.il/~jeff/) (Hebrew University of Jerusalem): 2016-2021
+- [Jeff Rosenschein](https://www.cs.huji.ac.il/~jeff/) (Hebrew University of Jerusalem): 2016-2021
 - [Edith Elkind](https://www.cs.ox.ac.uk/people/edith.elkind/) (University of Oxford): 2018-2023
-- [Lirong Xia](http://www.cs.rpi.edu/~xial/) (Rensselaer Polytechnic Institute): 2018-2023
+- [Lirong Xia](https://www.cs.rpi.edu/~xial/) (Rensselaer Polytechnic Institute): 2018-2023
 
 ## Responsibilities of the Committee
 

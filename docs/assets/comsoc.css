@@ -53,7 +53,7 @@ body {
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 #main-content {
@@ -148,6 +148,7 @@ Main Menu
 #main-menu > li > span, #main-menu > li > a > span {
   display: block;
   padding: 10px 50px 10px 20px;
+  white-space: nowrap;
 }
 
 .submenu {

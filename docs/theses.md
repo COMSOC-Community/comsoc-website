@@ -7,8 +7,12 @@ title: Theses
 
 This is an (incomplete) list of PhD theses in the field of computational social choice, listed in inverse chronological order. I welcome suggestions for further additions; just send me an <a href="mailto:ulle.endriss@uva.nl">email</a>.
 
+{% assign theses_by_year = site.data.theses | group_by: "year" %}
+
+{% for year in theses_by_year %}
+<h2>{{ year.name }}</h2>
 <ul>
-    {% for thesis in site.data.theses %}
+    {% for thesis in year.items %}
         <li>
             {{ thesis.name }} ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
             <a href="{{ thesis.url }}">{{ thesis.title }}</a> <br>
@@ -23,4 +27,4 @@ This is an (incomplete) list of PhD theses in the field of computational social 
         </li>
     {% endfor %}
 </ul>
-
+{% endfor %}
