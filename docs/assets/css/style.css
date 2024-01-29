@@ -56,26 +56,31 @@ main {
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 1023px) {
-  main {
-    flex-direction: column;
-  }
-}
-
 #main-content {
   padding-left: 30px;
   padding-right: 50px;
 }
 
+
+@media screen and (max-width: 1023px) {
+  main {
+    flex-direction: column;
+  }
+
+  #main-content {
+    padding-right: 30px;
+  }
+}
+
 h1 {
   font-weight: bold;
-  margin: 1px 0px;
+  margin: 1px 0;
   color: #998877;
 }
 
 h3 {
   font-weight: bold;
-  margin: 1px 0px;
+  margin: 1px 0;
   color: #998877;
 }
 
@@ -105,7 +110,7 @@ header {
   color: #FFFFFF;
   background-color: #998877;
   text-align: center;
-  padding: 25px 0;
+  padding: 25px 25px;
   margin-bottom: 40px;
 }
 
@@ -175,7 +180,6 @@ Main Menu
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
     cursor: pointer;
   }
 
