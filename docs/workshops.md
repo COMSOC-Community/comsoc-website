@@ -37,7 +37,7 @@ These workshops occur biannually, with the exception of 2020 due to the COVID-19
   ( [Proceedings](assets/proceedings/comsoc2010.pdf) )  
   Düsseldorf, 13-16 September 2010
 
-- [COMSOC-2008: 2nd International Workshop on Computational Social Choice](workshop2008/)  
+- [COMSOC-2008: 2nd International Workshop on Computational Social Choice](archive/comsoc-2008/)  
   ( [Proceedings](assets/proceedings/comsoc2008.pdf) )  
   Liverpool, 2-5 September 2008
 

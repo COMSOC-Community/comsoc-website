@@ -56,13 +56,6 @@
     - Noam Hazon
   pdf_file: MeirNizri.pdf
 
-- title: Learning Preference Distributions From Pairwise Comparisons
-  authors:
-    - Gokcan Tatli
-    - Yi Chen
-    - Ramya Korlakai Vinayak
-  pdf_file: TatliEtAl.pdf
-
 - title: The Tukey Median as Ex-Ante Condorcet Winner
   authors:
     - Klaus Nehring
@@ -323,12 +316,12 @@
     - Erel Segal-Halevi
   pdf_file: DvirGilor.pdf
 
-- title: Influencing Games Through DRL
+- title: Deep Reinforcement Learning and InfluencedGames
   authors:
     - Colin Brady
     - Rica Gonen
     - Genadi Rabinovich
-  pdf_file: BradyGonenRabinovich.pdf
+  pdf_file: RicaGonen.pdf
 
 - title: Structure of single-peaked preferences
   authors:
