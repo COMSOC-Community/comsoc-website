@@ -12,7 +12,7 @@ title: Events
   - [Summer Schools organised by COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/)  
     Budapest 2013, Caen 2014, Grenoble 2014, San Sebasti&aacute;n 2016
 
-  - [COST-ADT Doctoral School on Computational Social Choice](estoril-2010/)  
+  - [COST-ADT Doctoral School on Computational Social Choice](archive/estoril-2010/)  
     Estoril, 9-14 April 2010
 
     
