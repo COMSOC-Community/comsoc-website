@@ -56,6 +56,12 @@ main {
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 1023px) {
+  main {
+    flex-direction: column;
+  }
+}
+
 #main-content {
   padding-left: 30px;
   padding-right: 50px;
@@ -110,6 +116,10 @@ Main Menu
 #main-menu-wrap {
 }
 
+#main-menu-toggle {
+  display: none; /* Hide the toggle button by default on larger screens */
+}
+
 #main-menu {
   list-style-type: none;
   margin: 0;
@@ -149,4 +159,31 @@ Main Menu
   display: block;
   padding: 10px 50px 10px 20px;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 1023px) {
+  #main-menu-wrap {
+    margin-bottom: 30px;
+  }
+
+  #main-menu-toggle {
+    display: block;
+  }
+
+  #main-menu-toggle-button {
+    background-color: #998877;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #main-menu > li:not(:first-child) {
+    display: none;
+  }
+
+  #main-menu.show > li:not(:first-child) {
+    display: block;
+  }
 }

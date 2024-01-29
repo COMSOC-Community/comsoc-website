@@ -15,6 +15,7 @@
     <div>
         <nav id="main-menu-wrap">
             <ul id="main-menu">
+                <li id="main-menu-toggle"><span id="main-menu-toggle-button">&#9776; Menu</span></li>
                 <li><a href="{{ "/" | relative_url }}"><span>About</span></a></li>
                 <li><a href="{{ "community" | relative_url }}"><span>The Community</span></a></li>
                 <li><a href="{{ "workshops" | relative_url }}"><span>Workshops Series</span></a></li>
@@ -34,5 +35,17 @@
 <footer>
 
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.getElementById('main-menu-toggle-button');
+        const mainMenu = document.getElementById('main-menu');
+
+        menuToggle.addEventListener('click', function () {
+            mainMenu.classList.toggle('show');
+        });
+    });
+</script>
+
 </body>
 </html>
