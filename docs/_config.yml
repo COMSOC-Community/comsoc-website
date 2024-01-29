@@ -58,5 +58,5 @@ plugins:
 #  workshop2008:
 #    output: true
 
-#exclude:
-#  - workshop2008
+exclude:
+  - workshop2008
