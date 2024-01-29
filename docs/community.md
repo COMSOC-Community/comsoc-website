@@ -3,6 +3,10 @@ layout: default
 title: Steering Committee
 ---
 
+# Mailing List
+
+Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc) for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/).
+
 # Steering Committee
 
 The [COMSOC workshop series](workshops.html) is coordinated by a Steering Committee. This committee consists of four members of the COMSOC research community. By default, these are the PC chairs of the two previous editions of the workshop, although the community may choose to appoint alternative candidates during its Business Meeting at the workshop.

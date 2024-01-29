@@ -3,9 +3,9 @@ layout: default
 title: Events
 ---
 
-# Related Events
+# Related Venues
 
-- Summer Schools
+## Summer Schools
   - [COST-ADT Doctoral School on Computational Social Choice](estoril-2010/)  
     Estoril, 9-14 April 2010
 
@@ -15,7 +15,7 @@ title: Events
   - [Summer School on Computational Social Choice](https://events.illc.uva.nl/comsoc-school-2023/)  
     Amsterdam, 17-21 July 2023
 
-- Dagstuhl Seminars on Topics in Computational Social Choice at Schloss Dagstuhl
+## Dagstuhl Seminars on Topics in Computational Social Choice
   - [Computational Issues in Social Choice](http://www.dagstuhl.de/07431/)  
     21-26 October 2007
 
@@ -37,7 +37,7 @@ title: Events
   - [Algorithms for Participatory Democracy](http://www.dagstuhl.de/22271/)  
     3-8 July 2022
 
-- AAMAS Workshop on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)
+## AAMAS Workshop on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)
   - [1st Workshop: EXPLORE-2014](http://www.explore14.preflib.org/)  
     Paris, 6 May 2014
 
@@ -50,9 +50,30 @@ title: Events
   - [4th Workshop: EXPLORE-2017](http://www.explore-2017.preflib.org/)  
     S&atilde;o Paulo, 9 May 2017
 
-- Other Workshops
+## Other Workshops
   - [Session on COMSOC](http://research.illc.uva.nl/COMSOC/FET11/) at the European Future Technologies Conference FET'11  
     Budapest, 4 May 2011
 
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](IJCAI-2011/)  
     Barcelona, 16 July 2011
+
+## Journal Special Issues
+
+- **Special Issue of the *Mathematical Logic Quarterly***
+  - Topic: "Logic and Complexity in Computational Social Choice"
+  - [Call for Papers](http://ccc.cs.uni-duesseldorf.de/~rothe/MLQ-special-issue-CFP)
+  - Published as [Issue 4](https://onlinelibrary.wiley.com/toc/15213870/2009/55/4) of Volume 55 in August 2009.
+
+- **Special Issue of the *Journal of Autonomous Agents and Multiagent Systems***
+  - Topic: "Computational Social Choice"
+  - [Call for Papers](assets/docs/jaamas-flyer.pdf)
+  - Published as [Issue 1](https://link.springer.com/journal/10458/volumes-and-issues/22-1) of Volume 22 in January 2011.
+
+- **Special Issue of *Mathematical Social Sciences***
+  - Topic: "Computational Foundations of Social Choice"
+  - Published as [Issue 1](https://www.sciencedirect.com/journal/mathematical-social-sciences/vol/64/issue/1) of Volume 64 in July 2012.
+
+- **Special Issue of *Annals of Mathematics and Artificial Intelligence***
+  - Topic: "Algorithms, Approximation, and Empirical Studies in Behavioral and Computational Social Choice"
+  - Published as [Issues 1-3](http://link.springer.com/journal/10472/68/1/page/1) of Volume 68 in July 2013.
+
