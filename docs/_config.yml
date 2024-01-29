@@ -53,10 +53,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-#collections:
-#  workshop2008:
-#    output: true
-
-exclude:
-  - workshop2008

@@ -15,7 +15,7 @@ This is an (incomplete) list of PhD theses in the field of computational social 
     {% for thesis in year.items %}
         <li>
             {{ thesis.name }} ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
-            <a href="{{ thesis.url }}">{{ thesis.title }}</a> <br>
+            <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>
             {% if thesis.supervisors.size == 1 %}
                 Supervisor: {{ thesis.supervisors[0] }}
             {% else %}

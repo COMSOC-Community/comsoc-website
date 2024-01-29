@@ -1,0 +1,363 @@
+- title: Cycles and Intractability in Social Choice Theory
+  authors:
+    - William Zwicker
+  pdf_file: ZwickerCOMSOC2016.pdf
+
+- title: Pareto optimal matchings of students to courses in the presence of prerequisites
+  authors:
+    - Katarina Cechlarova
+    - Bettina Klaus
+    - David Manlove
+  pdf_file: CechlarovaEtAlCOMSOC2016.pdf
+
+- title: Who Can Win a Single-Elimination Tournament?
+  authors:
+    - Michael P. Kim
+    - Warut Suksompong
+    - Virginia Vassilevska Williams
+  pdf_file: KimEtAlCOMSOC2016.pdf
+
+- title: "Fairness in voting: the tale of Blotto's lieutenants"
+  authors:
+    - Alessandra Casella
+    - Jean-Francois Laslier
+    - Antonin Macé
+  pdf_file: CasellaEtAlCOMSOC2016.pdf
+
+- title: Proving the Incompatibility of Efficiency and Strategyproofness via SMT Solving
+  authors:
+    - Florian Brandl
+    - Felix Brandt
+    - Christian Geist
+  pdf_file: BrandlEtAlCOMSOC2016.pdf
+
+- title: Agenda Separability in Judgment Aggregation
+  authors:
+    - Jerome Lang
+    - Marija Slavkovik
+    - Srdjan Vesic
+  pdf_file: LangEtAlCOMSOC2016.pdf
+
+- title: Arguing about Voting Rules
+  authors:
+    - Olivier Cailloux
+    - Ulle Endriss
+  pdf_file: CaillouxEndrissCOMSOC2016.pdf
+
+- title: Parameterized Complexity Results for the Kemeny Rule in Judgment Aggregation
+  authors:
+    - Ronald de Haan
+  pdf_file: HaanCOMSOC2016.pdf
+
+- title: On Voting and Facility Location
+  authors:
+    - Michal Feldman
+    - Amos Fiat
+    - Iddan Golomb
+  pdf_file: FeldmanEtAlCOMSOC2016.pdf
+
+- title: Bounds on Manipulation by Merging in Weighted Voting Games
+  authors:
+    - Ramoni Lasisi
+    - Abibat Lasisi
+  pdf_file: LasisiLasisiCOMSOC2016.pdf
+
+- title: Strong and Weak Acyclicity in Iterative Voting
+  authors:
+    - Reshef Meir
+  pdf_file: MeirCOMSOC2016.pdf
+
+- title: Ordinal power relations and social rankings
+  authors:
+    - Stefano Moretti
+    - Meltem Ozturk
+  pdf_file: MorettiOzturkCOMSOC2016.pdf
+
+- title: Analyzing games with ambiguous types using the MINthenMAX decision model
+  authors:
+    - Ilan Nehama
+  pdf_file: NehamaCOMSOC2016.pdf
+
+- title: Rules for Choosing Societal Tradeoffs
+  authors:
+    - Vincent Conitzer
+    - Rupert Freeman
+    - Markus Brill
+    - Yuqian Li
+  pdf_file: ConitzerEtAlCOMSOC2016.pdf
+
+- title: Condorcet Domains and Median Graphs
+  authors:
+    - Clemens Puppe
+    - Arkadii Slinko
+  pdf_file: PuppeSlinkoCOMSOC2016.pdf
+
+- title: Fair Social Choice in Dynamic Settings
+  authors:
+    - Rupert Freeman
+    - Seyed Majid Zahedi
+    - Vincent Conitzer
+  pdf_file: FreemanEtAlCOMSOC2016.pdf
+
+- title: Computing Pareto Optimal Committees
+  authors:
+    - Haris Aziz
+    - Jerome Lang
+    - Jerome Monnot
+  pdf_file: AzizLangMonnotCOMSOC2016.pdf
+
+- title: Altruistic Hedonic Games
+  authors:
+    - Nhan-Tam Nguyen
+    - Anja Rey
+    - Lisa Rey
+    - Jorg Rothe
+    - Lena Schend
+  pdf_file: NguyenEtAlCOMSOC2016.pdf
+
+- title: Verification in Incomplete Argumentation Frameworks
+  authors:
+    - Dorothea Baumeister
+    - Daniel Neugebauer
+    - Jorg Rothe
+    - Hilmar Schadrack
+  pdf_file: BaumeisterEtAlCOMSOC2016.pdf
+
+- title: Natural Interviewing Equilibria for Stable Matching
+  authors:
+    - Joanna Drummond
+    - Allan Borodin
+    - Kate Larson
+  pdf_file: DrummondEtAlCOMSOC2016.pdf
+
+- title: Strategy-Proofness of Scoring Allocation Correspondences
+  authors:
+    - Nhan-Tam Nguyen
+    - Dorothea Baumeister
+    - Jorg Rothe
+  pdf_file: NguyenEtAlCOMSOC2016.pdf
+
+- title: "Single-peakedness Based on the Net Preference Matrix: Characterization and Algorithms"
+  authors:
+    - Olivier Spanjaard
+    - Paul Weng
+  pdf_file: SpanjaardWengCOMSOC2016.pdf
+
+- title: Pareto optimal matchings with lower quotas
+  authors:
+    - Katarina Cechlarova
+    - Tamás Fleiner
+  pdf_file: CechlarovaFleinerCOMSOC2016.pdf
+
+- title: Bayesian Estimators As Voting Rules
+  authors:
+    - Lirong Xia
+  pdf_file: XiaCOMSOC2016.pdf
+
+- title: "The Single-Peaked Domain Revisited: A Simple Global Characterization"
+  authors:
+    - Clemens Puppe
+  pdf_file: PuppeCOMSOC2016.pdf
+
+- title: Learning Mixtures of Plackett-Luce models
+  authors:
+    - Zhibing Zhao
+    - Peter Piech
+    - Lirong Xia
+  pdf_file: ZhaoEtAlCOMSOC2016.pdf
+
+- title: Misrepresentation in District Voting
+  authors:
+    - Yoram Bachrach
+    - Omer Lev
+    - Yoad Lewenberg
+    - Yair Zick
+  pdf_file: BacharachEtAlCOMSOC2016.pdf
+
+- title: "Divide and Conquer: Using Geographic Manipulation to Win District-Based Elections"
+  authors:
+    - Yoad Lewenberg
+    - Omer Lev
+  pdf_file: LewenbergLevCOMSOC2016.pdf
+
+- title: How effective can simple ordinal peer grading be?
+  authors:
+    - Ioannis Caragiannis
+    - George Krimpas
+    - Alexandros Voudouris
+  pdf_file: CaragiannisEtAlCOMSOC2016.pdf
+
+- title: Recognising Multidimensional Euclidean Preferences
+  authors:
+    - Dominik Peters
+  pdf_file: PetersCOMSOC2016.pdf
+
+- title: How Hard Is It to Control a Group?
+  authors:
+    - Yongjie Yang
+    - Dinko Dimitrov
+  pdf_file: YangDimitrovCOMSOC2016.pdf
+
+- title: Efficiency and Sequenceability in Fair Division of Indivisible Goods with Additive Preferences
+  authors:
+    - Sylvain Bouveret
+    - Michel Lemaître
+  pdf_file: BouveretLemaitreCOMSOC2016.pdf
+
+- title: Truth-revealing voting rules for large populations
+  authors:
+    - Matias Nunez
+    - Marcus Pivato
+  pdf_file: NunezPivatoCOMSOC2016.pdf
+
+- title: On Truthful Mechanisms for Maximin Share Allocations
+  authors:
+    - Georgios Amanatidis
+    - Georgios Birmpas
+    - Evangelos Markakis
+  pdf_file: AmanatidisEtAlCOMSOC2016.pdf
+
+- title: Object allocation problems under constraints
+  authors:
+    - Laurent Gourves
+    - Carlos Martinhon
+    - Jerome Monnot
+  pdf_file: GourvesEtAlCOMSOC2016.pdf
+
+- title: Conditional and Sequential Approval Voting on Combinatorial Domains
+  authors:
+    - Nathanaël Barrot
+    - Jerome Lang
+  pdf_file: BarrotLangCOMSOC2016.pdf
+
+- title: A Majoritarian Representative Voting System
+  authors:
+    - Pietro Speroni di Fenizio
+    - Daniele A. Gewurz
+  pdf_file: SperoniGewurzCOMSOC2016.pdf
+
+- title: Structure in Dichotomous Preferences
+  authors:
+    - Edith Elkind
+    - Martin Lackner
+  pdf_file: ElkindLacknerCOMSOC2016.pdf
+
+- title: Borda, Condorcet, and Pareto optimality in ordinal group activity selection
+  authors:
+    - Andreas Darmann
+  pdf_file: DarmannCOMSOC2016.pdf
+
+- title: Proportional Borda Allocations
+  authors:
+    - Andreas Darmann
+    - Christian Klamler
+  pdf_file: DarmannKlamlerCOMSOC2016.pdf
+
+- title: Majority Graphs of Assignment Problems and Properties of Popular Random Assignments
+  authors:
+    - Felix Brandt
+    - Johannes Hofbauer
+    - Martin Suderland
+  pdf_file: BrandtHofbauerSuderlandCOMSOC2016.pdf
+
+- title: Optimal Reallocation under Additive and Ordinal Preferences
+  authors:
+    - Haris Aziz
+    - Peter Biro
+    - Jerome Lang
+    - Julien Lesca
+    - Jerome Monnot
+  pdf_file: AzizEtAlCOMSOC2016.pdf
+
+- title: Committee Scoring Rules
+  authors:
+    - Piotr Faliszewski
+    - Piotr Skowron
+    - Arkadii Slinko
+    - Nimrod Talmon
+  pdf_file: FaliszewskiEtAlCOMSOC2016.pdf
+
+- title: Analyzing the Practical Relevance of Voting Paradoxes via Ehrhart Theory, Computer Simulations, and Empirical Data
+  authors:
+    - Felix Brandt
+    - Christian Geist
+    - Martin Strobel
+  pdf_file: BrandtGeistStrobelCOMSOC2016.pdf
+
+- title: "The one-dimensional Euclidean preferences: Finitely many forbidden substructures are not enough"
+  authors:
+    - Jiehua Chen
+    - Kirk Pruhs
+    - Gerhard J. Woeginger
+  pdf_file: ChenEtAlCOMSOC2016.pdf
+
+- title: "And the winner is ... Chevalier de Borda: Neural networks vote according to Borda's Rule"
+  authors:
+    - Dávid Burka
+    - Clemens Puppe
+    - László Szepesváry
+    - Attila Tasnadi
+  pdf_file: BurkaEtAlCOMSOC2016.pdf
+
+- title: Axiomatic Characterization of Committee Scoring Rules
+  authors:
+    - Piotr Skowron
+    - Piotr Faliszewski
+    - Arkadii Slinko
+  pdf_file: SkowronEtAlCOMSOC2016.pdf
+
+- title: Incremental Approval Voting for Multi-agent Knapsack Problems
+  authors:
+    - Nawal Benabbou
+    - Patrice Perny
+  pdf_file: BenabbouPernyCOMSOC2016.pdf
+
+- title: "Edge-Compressed Majority Graph: Where Social Choice Meets Information Visualization"
+  authors:
+    - Nikos Karanikolas
+    - Renaud Blanch
+    - Sylvain Bouveret
+  pdf_file: KaranikolasEtAlCOMSOC2016.pdf
+
+- title: Doodle Poll Games
+  authors:
+    - Svetlana Obraztsova
+    - Maria Polukarov
+    - Zinovi Rabinovich
+    - Edith Elkind
+  pdf_file: ObraztsovaEtAlCOMSOC2016.pdf
+
+- title: Automated Verification for Functional and Relational Properties of Voting Rules
+  authors:
+    - Bernhard Beckert
+    - Thorsten Bormer
+    - Michael Kirsten
+    - Till Neuber
+    - Mattias Ulbrich
+  pdf_file: BeckertEtAlCOMSOC2016.pdf
+
+- title: Complexity of Manipulative Actions When Voting with Ties
+  authors:
+    - Zack Fitzsimmons
+    - Edith Hemaspaandra
+  pdf_file: FitzsimmonsHemaspaandraCOMSOC2016.pdf
+
+- title: "The Random Pairs Voting Rule: Introduction and Evaluation With a Large Dataset"
+  authors:
+    - Jeremy Hansen
+  pdf_file: HansenCOMSOC2016.pdf
+
+- title: "Equilibria of Plurality Voting: Lazy and Truth-biased Voters"
+  authors:
+    - Edith Elkind
+    - Evangelos Markakis
+    - Svetlana Obraztsova
+    - Piotr Skowron
+  pdf_file: ElkindEtAlCOMSOC2016.pdf
+
+- title: Refinement and randomised versions of some tournament solutions
+  authors:
+    - Justin Kruger
+    - Stéphane Airiau
+    - Jérôme Lang
+  pdf_file: KrugerEtAlCOMSOC2016.pdf
