@@ -1,0 +1,128 @@
+**********************************************************************
+
+                           Call for Papers
+
+      2nd International Workshop on Computational Social Choice
+                            (COMSOC-2008)
+
+                     Liverpool, 3-5 September 2008
+
+               http://www.csc.liv.ac.uk/~pwg/COMSOC-2008/
+
+**********************************************************************
+AIMS AND SCOPE
+**********************************************************************
+
+Computational social choice is  an interdisciplinary field of study at
+the interface  of social  choice theory and  computer science.   It is
+concerned  with the  application  of computational  techniques to  the
+study of social choice mechanisms,  and with the integration of social
+choice paradigms into computing. The aim of the COMSOC workshops is to
+bring  together the  different communities  that have  been addressing
+such issues: computer scientists interested in computational issues in
+social   choice;  people  working   in  artificial   intelligence  and
+multiagent systems  who are using  ideas from social choice  theory to
+organise societies of artificial software agents; logicians interested
+in  the logic-based  specification and  analysis of  social procedures
+(social software);  and last but  not least people coming  from social
+choice theory itself.
+
+COMSOC-2008 is funded by an  EPSRC research grant, which will allow us
+to  bring in  a number  of prominent  scientists as  invited speakers,
+whilst keeping registration fees very low.
+
+**********************************************************************
+INVITED SPEAKERS
+**********************************************************************
+
+COMSOC-2008   will   feature  invited   talks   by  Salvador   Barbera
+(Barcelona),  Rohit  Parikh   (CUNY),  Tuomas  Sandholm  (CMU),  Moshe
+Tennenholtz (Technion), and William Thomson (Rochester).
+
+**********************************************************************
+PAPER SUBMISSIONS
+**********************************************************************
+
+Submissions of  full papers describing original  or recently published
+work on all aspects of computational social choice are invited. Topics
+of interest include, but are not limited to:
+
+ o complexity-theoretic analysis of voting procedures
+ o computational aspects of fair division 
+ o cake-cutting algorithms
+ o distributed negotiation in multiagent system
+ o preference representation in combinatorial domains
+ o computational aspects of preference aggregation rules
+ o preference elicitation
+ o social choice and constraint programming
+ o social choice and the web: ranking systems
+ o belief and judgement aggregation
+ o computational aspects of coalition formation
+ o social choice under uncertainty
+ o logics for collective decision making
+ o logic-based verification of social procedures
+ o communication complexity of social choice mechanisms
+ o computational issues in mechanism design
+
+Paper submission  is electronic  via the workshop  website (submission
+deadline: 3rd  June 2008).   Papers (of around  5000 words)  should be
+formatted according to  the instructions soon to be  made available at
+the workshop  website. All  submitted papers will  be reviewed  by the
+programme committee.   Accepted papers  will be collected  in informal
+workshop  notes, printed  copies of  which  will be  available at  the
+workshop.  To accommodate the publishing needs of different scientific
+communities, we stress that authors will retain the copyright of their
+papers  and   that  submitting   to  COMSOC-2008  does   not  preclude
+publication  of  the  same  material  in  a  journal  or  in  archival
+conference  proceedings.  Submission  is restricted  to one  paper per
+principal  author  (each  accepted  paper  should be  presented  by  a
+different author).  Please contact  either one of the programme chairs
+in case of any questions:
+
+ o Ulle Endriss  (ulle@illc.uva.nl)
+ o Paul Goldberg (p.w.goldberg@liverpool.ac.uk)
+
+**********************************************************************
+COLOCATED EVENT
+**********************************************************************
+
+COMSOC-2008 will  take place immediately  after a workshop  on "Market
+Based Control",  supported by the EPSRC-funded  "Market Based Control"
+project   (http://www.marketbasedcontrol.com).    This  meeting   will
+feature talks by several  guest speakers (inlcuding Sarit Kraus, David
+Parkes and  Peter Stone),  and COMSOC-2008 participants  are cordially
+invited to attend.
+
+**********************************************************************
+IMPORTANT DATES
+**********************************************************************
+
+ o Paper submission deadline: 3 June 2008
+ o Notification of authors: 7 July 2008
+ o Camera-ready papers due: 1 August 2008
+ o Workshop dates: 3-5 September 2008
+
+**********************************************************************
+PROGRAMME COMMITTEE and LOCAL ORGANISERS
+**********************************************************************
+
+ o Felix Brandt                  o Wiebe van der Hoek
+ o Vincent Conitzer              o Peter McBurney
+ o Edith Elkind                  o Michael Wooldridge
+ o Ulle Endriss (co-chair)
+ o Paul Goldberg (co-chair)
+ o Lane Hemaspaandra
+ o Sebastien Konieczny
+ o Jerome Lang
+ o Christian List
+ o Vangelis Markakis
+ o Vahab Mirrokni
+ o Gabriella Pigozzi
+ o Francesca Rossi
+ o Remzi Sanver
+ o Arkadii Slinko
+ o Michael Trick
+ o Berthold Voecking
+ o William S. Zwicker
+
+**********************************************************************
