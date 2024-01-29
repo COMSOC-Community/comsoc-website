@@ -102,7 +102,7 @@
   authors:
     - Hadi Hosseini
     - Kate Larson
-  pdf_file: KawanaLarsonCOMSOC2018.pdf
+  pdf_file: HosseiniLarsonCOMSOC2018.pdf
 
 - title: "Optimization-Based Voting Rule Design: The Closer to Utopia the Better"
   authors:
@@ -124,7 +124,7 @@
     - Po-Ting Ling
     - Hung-Lung Wang
     - Kun-Mao Chao
-  pdf_file: LingEtAlCOMSOC2018.pdf
+  pdf_file: LinEtAlCOMSOC2018.pdf
 
 - title: "Goal-Based Collective Decisions: Axiomatics and Computational Complexity"
   authors:
@@ -143,18 +143,18 @@
 
 - title: Impact of the Number of Neutrals on Stability Concepts in Friends Oriented Hedonic Games
   authors:
-    - Kazunori Ota
     - Nathanaël Barrot
+    - Kazunori Ota
     - Yuko Sakurai
     - Makoto Yokoo
-  pdf_file: OtaEtAlCOMSOC2018.pdf
+  pdf_file: BarrotEtAlCOMSOC2018.pdf
 
 - title: Exploring the No-Show Paradox for Condorcet Extensions Using Ehrhart Theory and Computer Simulations
   authors:
     - Felix Brandt
     - Johannes Hofbauer
     - Martin Strobel
-  pdf_file: BrandtEtAlCOMSOC2018.pdf
+  pdf_file: BrandtHofbauerStrobelCOMSOC2018.pdf
 
 - title: The Price of Deception in Spatial Social Choice
   authors:
@@ -212,7 +212,7 @@
     - Jakub Sliwinski
     - Yair Zick
     - Ayumi Igarashi
-  pdf_file: SliwinskiEtAlCOMSOC2018.pdf
+  pdf_file: IgarashiEtAlCOMSOC2018.pdf
 
 - title: Learning Hedonic Games
   authors:
@@ -258,7 +258,7 @@
     - Elizabeth Silver
     - Chris Guest
     - Richard de Rozario
-  pdf_file: SilverEtAlCOMSOC2018.pdf
+  pdf_file: SilverRozarioCOMSOC2018.pdf
 
 - title: Simplified Group Activity Selection
   authors:
@@ -344,7 +344,7 @@
   authors:
     - Vijay Menon
     - Kate Larson
-  pdf_file: MenonlarsonCOMSOC2018.pdf
+  pdf_file: MenonLarsonCOMSOC2018.pdf
 
 - title: Very Hard Electoral Control Problems
   authors:
