@@ -14,7 +14,6 @@ title: Events
 
   - [COST-ADT Doctoral School on Computational Social Choice](archive/estoril-2010/)  
     Estoril, 9-14 April 2010
-
     
 ## Dagstuhl Seminars on Topics in Computational Social Choice
   - [Algorithms for Participatory Democracy](http://www.dagstuhl.de/22271/)  
@@ -53,7 +52,7 @@ title: Events
     Paris, 6 May 2014
 
 ## Other Workshops
-  - [IJCAI Workshop on Social Choice and Artificial Intelligence](IJCAI-2011/)  
+  - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
 
   - [Session on COMSOC](http://research.illc.uva.nl/COMSOC/FET11/) at the European Future Technologies Conference FET'11  
