@@ -54,9 +54,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-collections:
-  workshop2008:
-    output: true
+#collections:
+#  workshop2008:
+#    output: true
 
-exclude:
-  - workshop2008
+#exclude:
+#  - workshop2008
