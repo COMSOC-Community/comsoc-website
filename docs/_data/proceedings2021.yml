@@ -1,0 +1,500 @@
+- title: Deliberation and Epistemic Democracy
+  authors:
+    - Huihui Ding
+    - Marcus Pivato
+  pdf_file: DingPivato.pdf
+
+- title: Strongly Budget Balanced Auctions for Multi-Sided Markets
+  authors:
+    - Rica Gonen
+    - Erel Segal-Halevi
+  pdf_file: GonenEtAl.pdf
+
+- title: On the Indecisiveness of Kelly-Strategyproof Social Choice Functions
+  authors:
+    - Felix Brandt
+    - Martin Bullinger
+    - Patrick Lederer
+  pdf_file: BrandtEtAl.pdf
+
+- title: Finding and Recognizing Popular Coalition Structures
+  authors:
+    - Felix Brandt
+    - Martin Bullinger
+  pdf_file: BrandtBullinger.pdf
+
+- title: Approximate Group Fairness for Clustering
+  authors:
+    - Bo Li
+    - Lijun Li
+    - Ankang Sun
+    - Chenhao Wang
+    - Yingfan Wang
+  pdf_file: LiEtAl.pdf
+
+- title: The Smoothed Satisfaction of Voting Axioms
+  authors:
+    - Lirong Xia
+  pdf_file: Xia.pdf
+
+- title: "For One and All: Individual and Group Fairness in the Allocation of Indivisible Goods"
+  authors:
+    - Jonathan Scarlett
+    - Nicholas Teh
+    - Yair Zick
+  pdf_file: ScarlettEtAl.pdf
+
+- title: Weighted Envy-Freeness in Indivisible Item Allocation
+  authors:
+    - Mithun Chakraborty
+    - Ayumi Igarashi
+    - Warut Suksompong
+    - Yair Zick
+  pdf_file: ChakrabortyEtAl.pdf
+
+- title: Fair and efficient collective decisions via nondeterministic proportional consensus
+  authors:
+    - Jobst Heitzig
+    - Forest W. Simmons
+  pdf_file: HeitzigEtAl.pdf
+
+- title: Reaping the Informational Surplus in Bayesian Persuasion
+  authors:
+    - Ronen Gradwohl
+    - Niklas Hahn
+    - Martin Hoefer
+    - Rann Smorodinsky
+  pdf_file: GradwohlEtAl.pdf
+
+- title: "Threshold Task Games: Theory, Platform and Experiments"
+  authors:
+    - Kobi Gal
+    - Ta Duy Nguyen
+    - Quang Nhat Tran
+    - Yair Zick
+  pdf_file: GalEtAl.pdf
+
+- title: Modeling Voters in Multi-Winner Approval Voting
+  authors:
+    - Jaelle Scheuerman
+    - Jason Harman
+    - Nicholas Mattei
+    - K. Brent Venable
+  pdf_file: ScheuermanEtAl.pdf
+
+- title: Nash Welfare and Facility Location
+  authors:
+    - Alexander Lam
+    - Haris Aziz
+    - Toby Walsh
+  pdf_file: LamEtAl.pdf
+
+- title: Worst Case in Voting and Bargaining
+  authors:
+    - Anna Bogomolnaia
+    - Ron Holzman
+    - Herve Moulinlin
+  pdf_file: BogomolnaiaEtAl.pdf
+
+- title: Approximate and Strategyproof Maximin Share Allocation of Chores with Ordinal Preferences
+  authors:
+    - Haris Aziz
+    - Bo Li
+    - Xiaowei Wu
+  pdf_file: AziEtAl.pdf
+
+- title: Election Score Can Be Harder Than Winner
+  authors:
+    - Zack Fitzsimmons
+    - Edith Hemaspaandra
+  pdf_file: FitzsimmonsHemaspaandra.pdf
+
+- title: Every choice function is pro-con rationalizable
+  authors:
+    - Serhat Dogan
+    - Kemal Yildiz
+  pdf_file: DoganYildiz.pdf
+
+- title: The Smoothed Likelihood of Doctrinal Paradoxes
+  authors:
+    - Ao Liu
+    - Lirong Xia
+  pdf_file: LiuEtAl.pdf
+
+- title: Strategy-Proofness implies Minimal Participation if Voting is Costly
+  authors:
+    - Michael Mueller
+    - Clemens Puppe
+  pdf_file: MuellerPuppe.pdf
+
+- title: Indecision Modeling
+  authors:
+    - Duncan C McElfresh
+    - Lok Chan
+    - Kenzie Doyle
+    - Walter Sinnott-Armstrong
+    - Vincent Conitzer
+    - Jana Schaich Borg
+    - John P Dickerson
+  pdf_file: McElfreshEtAl.pdf
+
+- title: Fair Cake-Cutting Algorithms with Real Land-Value Data
+  authors:
+    - Itay Shtechman
+    - Rica Gonen
+    - Erel Segal-HaLevi
+  pdf_file: ShtechmanEtAl.pdf
+
+- title: Decision Scoring Rules
+  authors:
+    - Caspar Oesterheld
+    - Vincent Conitzer
+  pdf_file: OesterheldConitzer.pdf
+
+- title: Mitigating Manipulation in Peer Review via Randomized Reviewer Assignments
+  authors:
+    - Steven Jecmen
+    - Hanrui Zhang
+    - Ryan Liu
+    - Nihar B. Shah
+    - Vincent Conitzer
+    - Fei Fang
+  pdf_file: JecmenEtAl.pdf
+
+- title: Loss Functions, Axioms, and Peer Review
+  authors:
+    - Ritesh Noothigattu
+    - Nihar B. Shah
+    - Ariel Procaccia
+  pdf_file: NoothigattuEtAl.pdf
+
+- title: "United for Change: Deliberative Coalition Formation to Change the Status Quo"
+  authors:
+    - Edith Elkind
+    - Davide Grossi
+    - Ehud Shapiro
+    - Nimrod Talmon
+  pdf_file: ElkindEtAl.pdf
+
+- title: A Closer Look at the Cake-Cutting Foundations through the Lens of Measure Theory
+  authors:
+    - Peter Kern
+    - Daniel Neugebauer
+    - Jörg Rothe
+    - René L. Schilling
+    - Dietrich Stoyan
+    - Robin Weishaupt
+  pdf_file: KernEtAl.pdf
+
+- title: On Approximate Envy-Freeness for Indivisible Chores and Mixed Resources
+  authors:
+    - Umang Bhaskar
+    - AR Sricharan
+    - Rohit Vaish
+  pdf_file: BhaskarEtAl.pdf
+
+- title: Complexity of Sequential Rules in Judgment Aggregation
+  authors:
+    - Dorothea Baumeister
+    - Linus Boes
+    - Robin Weishaupt
+  pdf_file: BaumeisterEtAl.pdf
+
+- title: Relaxed Notions of Condorcet-Consistency and Efficiency for Strategyproof Social Decision Schemes
+  authors:
+    - Felix Brandt
+    - Patrick Lederer
+    - René Romen
+  pdf_file: BrandtEtAl.pdf
+
+- title: Four Faces of Altruistic Hedonic Games
+  authors:
+    - Anna Maria Kerkmann
+    - Jörg Rothe
+  pdf_file: KerkmannEtAl.pdf
+
+- title: Complexity of Scheduling and Predicting Round-Robin Tournaments
+  authors:
+    - Dorothea Baumeister
+    - Tobias Hogrebe
+  pdf_file: BaumeisterEtAl.pdf
+
+- title: Online selection of diverse committees
+  authors:
+    - Virginie Do
+    - Jamal Atif
+    - Jérôme Lang
+    - Nicolas Usunier
+  pdf_file: DoEtAl.pdf
+
+- title: Primarily About Primaries
+  authors:
+    - Allan Borodin
+    - Omer Lev
+    - Nisarg Shah
+    - Tyrone Strangway
+  pdf_file: BorodinEtAl-1.pdf
+
+- title: Learning preferences in an accumulation-to-threshold model of decision making
+  authors:
+    - Taher Rahgooy
+    - K. Brent Venable
+    - Jerome R. Busemeyer
+  pdf_file: RahgooyEtAl.pdf
+
+- title: "Mind the Gap: Cake Cutting With Separation"
+  authors:
+    - Edith Elkind
+    - Erel Segal-Halevi
+    - Warut Suksompong
+  pdf_file: ElkindEtAl.pdf
+
+- title: Approval-Based Apportionment
+  authors:
+    - Markus Brill
+    - Paul Gölz
+    - Dominik Peters
+    - Ulrike Schmidt-Kraepelin
+    - Kai Wilker
+  pdf_file: BrillEtAl.pdf
+
+- title: "Perpetual Voting: The Axiomatic Lens"
+  authors:
+    - Martin Lackner
+    - Jan Maly
+  pdf_file: LacknerMaly.pdf
+
+- title: Efficient Computation and Strategic Control in Conditional Approval Voting
+  authors:
+    - Markakis Evangelos
+    - Papasotiropoulos Georgios
+  pdf_file: EvangelosEtAl.pdf
+
+- title: Equitable Division of a Path
+  authors:
+    - Neeldhara Misra
+    - Chinmay Sonar
+    - P. R. Vaidyanathan
+    - Rohit Vaish
+  pdf_file: MisraEtAl.pdf
+
+- title: Tracking Truth by Weighting Proxies in Liquid Democracy
+  authors:
+    - Yuzhe Zhang
+    - Davide Grossi
+  pdf_file: ZhangEtAl.pdf
+
+- title: "Selecting Matchings via Multiwinner Voting: How Structure Defeats a Large Candidate Space"
+  authors:
+    - Niclas Boehmer
+    - Markus Brill
+    - Ulrike Schmidt-Kraepelin
+  pdf_file: BoehmerEtAl.pdf
+
+- title: Designing Participatory Budgeting Mechanisms Grounded in Judgment Aggregation
+  authors:
+    - Simon Rey
+    - Ulle Endriss
+    - Ronald de Haan
+  pdf_file: ReyEtAl.pdf
+
+- title: Dynamic Proportional Rankings
+  authors:
+    - Jonas Israel
+    - Markus Brill
+  pdf_file: IsraelBrill.pdf
+
+- title: Manipulation of Opinion Polls to Influence Iterative Elections
+  authors:
+    - Dorothea Baumeister
+    - Ann-Kathrin Selker
+    - Anaelle Wilczynski
+  pdf_file: BaumeisterEtAl.pdf
+
+- title: Behavioral Stable Marriage Problems
+  authors:
+    - Andrea Martin
+    - Kristen Brent Venable
+    - Nicholas Mattei
+  pdf_file: MartinEtAl.pdf
+
+- title: Proportional Representation under Single-Crossing Preferences Revisited
+  authors:
+    - Andrei Constantinescu
+    - Edith Elkind
+  pdf_file: ConstantinescuEtAl.pdf
+
+- title: On (Coalitional) Exchange-Stable Matching
+  authors:
+    - Jiehua Chen
+    - Adrian Chmurovic
+    - Fabian Jogl
+    - Manuel Sorge
+  pdf_file: ChenEtAl.pdf
+
+- title: "Winner Robustness via Swap- and Shift-Bribery: Parameterized Counting Complexity and Experiments"
+  authors:
+    - Niclas Boehmer
+    - Robert Bredereck
+    - Piotr Faliszewski
+    - Rolf Niedermeier
+  pdf_file: BoehmerEtAl.pdf
+
+- title: Putting a Compass on the Map of Elections
+  authors:
+    - Niclas Boehmer
+    - Robert Bredereck
+    - Piotr Faliszewski
+    - Rolf Niedermeier
+    - Stanisław Szufa
+  pdf_file: BoehmerEtAl.pdf
+
+- title: "The Price is (Probably) Right: Learning Market Equilibria from Samples"
+  authors:
+    - Omer Lev
+    - Neel Patel
+    - Vignesh Viswanathan
+    - Yair Zick
+  pdf_file: LevEtAl.pdf
+
+- title: "Guaranteeing Maximin Shares: Some Agents Left Behind"
+  authors:
+    - Hadi Hosseini
+    - Andrew Searns
+  pdf_file: HosseiniEtAl.pdf
+
+- title: "Keeping Your Friends Close: Land Allocation with Friends"
+  authors:
+    - Edith Elkind
+    - Neel Patel
+    - Alan Tsang
+    - Yair Zick
+  pdf_file: ElkindEtAl.pdf
+
+- title: Making Group Decisions from Natural Language-Based Preferences
+  authors:
+    - Farhad Mohsin
+    - Lei Luo
+    - Wufei Ma
+    - Inwon Kang
+    - Zhibing Zhao
+    - Ao Liu
+    - Rohit Vaish
+    - Lirong Xia
+  pdf_file: MohsinEtAl.pdf
+
+- title: "High Dimensional Model Explanations: An Axiomatic Approach"
+  authors:
+    - Neel Patel
+    - Martin Strobel
+    - Yair Zick
+  pdf_file: PatelEtAl.pdf
+
+- title: Finding Fair and Efficient Allocations When Valuations Don’t Add Up
+  authors:
+    - Nawal Benabbou
+    - Mithun Chakraborty
+    - Ayumi Igarashi
+    - Yair Zick
+  pdf_file: BenabbouEtAl.pdf
+
+- title: "The Borda Class: An Axiomatic Study of the Borda Rule on Top-Truncated Preferences"
+  authors:
+    - Zoi Terzopoulou
+    - Ulle Endriss
+  pdf_file: TerzopoulouEndriss.pdf
+
+- title: "Little House (Seat) on the Prairie: Compactness, Gerrymandering, and Population Distribution"
+  authors:
+    - Allan Borodin
+    - Omer Lev
+    - Nisarg Shah
+    - Tyrone Strangway
+  pdf_file: BorodinEtAl-2.pdf
+
+- title: Multistage Committee Elections
+  authors:
+    - Robert Bredereck
+    - Till Fluschnik
+    - Andrzej Kaczmarczyk
+  pdf_file: BredereckEtAl.pdf
+
+- title: Worst-case Bounds on Power vs. Proportion in Weighted Voting Games with an Application to False-name Manipulation
+  authors:
+    - Yotam Gafni
+    - Ron Lavi
+    - Moshe Tennenholtz
+  pdf_file: GafniEtAl.pdf
+
+- title: Unified Fair Allocation for Indivisible Goods and Chores via Copies
+  authors:
+    - Yotam Gafni
+    - Xin Huang
+    - Ron Lavi
+    - Inbal Talgam-Cohen
+  pdf_file: GafniEtAl.pdf
+
+- title: Best-of-Both-Worlds Fair-Share Allocations
+  authors:
+    - Moshe Babaioff
+    - Tomer Ezra
+    - Uriel Feige
+  pdf_file: BabaioffEtAl.pdf
+
+- title: On social networks that support learning
+  authors:
+    - Itai Arieli
+    - Fedor Sandomirskiy
+    - Rann Smorodinsky
+  pdf_file: ArieliEtAl.pdf
+
+- title: (Almost Full) EFX Exists for Four Agents (and Beyond)
+  authors:
+    - Ben Berger
+    - Avi Cohen
+    - Michal Feldman
+    - Amos Fiat
+  pdf_file: BergerEtAl.pdf
+
+- title: Fair-Share Allocations for Agents with Arbitrary Entitlements
+  authors:
+    - Moshe Babaioff
+    - Tomer Ezra
+    - Uriel Feige
+  pdf_file: BabaioffEtAl.pdf
+
+- title: Proportional Participatory Budgeting with Cardinal Utilities
+  authors:
+    - Dominik Peters
+    - Grzegorz Pierczyński
+    - Piotr Skowron
+  pdf_file: PetersEtAl-1.pdf
+
+- title: Market-Based Explanations of Collective Decisions
+  authors:
+    - Dominik Peters
+    - Grzegorz Pierczyński
+    - Nisarg Shah
+    - Piotr Skowron
+  pdf_file: PetersEtAl-2.pdf
+
+- title: "Evaluating Committees for Representative Democracies: the Distortion and Beyond"
+  authors:
+    - Michał Jaworski
+    - Piotr Skowron
+  pdf_file: JaworskiEtAl.pdf
+
+- title: An Analysis of Approval-Based Committee Rules for 2D-Euclidean Elections
+  authors:
+    - Michał Tomasz Godziszewski
+    - PAweł Batko
+    - Piotr Skowron
+    - Piotr Faliszewski
+  pdf_file: GodziszewskiEtAl.pdf
+
+- title: Proportional Approval Voting, Harmonic k-Median, and Negative Association
+  authors:
+    - Jarosław Byrka
+    - Piotr Skowron
+    - Krzysztof Sornat
+  pdf_file: ByrkaEtAl.pdf

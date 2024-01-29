@@ -119,9 +119,9 @@
     - Benjamin C Lee
   pdf_file: FreemanEtAlCOMSOC2018.pdf
 
-- title: Determining a social choice with respect to linear preferences
+- title: Computing a Condorcet winner of a 1-Euclidean election
   authors:
-    - Po-Ting Ling
+    - Po-Ting Lin
     - Hung-Lung Wang
     - Kun-Mao Chao
   pdf_file: LinEtAlCOMSOC2018.pdf
@@ -209,9 +209,9 @@
 
 - title: Statistically Stable Communities with Limited Interactions
   authors:
+    - Ayumi Igarashi
     - Jakub Sliwinski
     - Yair Zick
-    - Ayumi Igarashi
   pdf_file: IgarashiEtAlCOMSOC2018.pdf
 
 - title: Learning Hedonic Games
@@ -256,7 +256,6 @@
 - title: Adaptive voting aggregation for partial ballots in crowdsourcing
   authors:
     - Elizabeth Silver
-    - Chris Guest
     - Richard de Rozario
   pdf_file: SilverRozarioCOMSOC2018.pdf
 

@@ -28,15 +28,27 @@ The .yml format for a thesis is as presented on this example:
     - Jan Maly
 ```
 
+### Modify/Add Proceedings of a COMSOC Workshop
+
+The proceedings of the COMSOC Workshops are described in a .yml file.
+To add the proceedings of a new workshop create a file `docs/_data/proceedingsYEAR.yml` where `YEAR` corresponds to the year of the workshop.
+
+
 ### Add a static HTML website
 
-To serve a standalone HTML website form the Jekyll project, perfom the following steps:
+To serve a standalone HTML website form the Jekyll project, perform the following steps:
 
-- In the `docs/_collections` folder, add an html file corresponding to the website you are adding, for instnace `website.html`
+- In the `docs/_collections` folder, add an HTML file corresponding to the website you are adding, for instnace `website.html`
 - The content of `docs/_collections/website.html` should be:
 ```
 ---
 permalink: /URL_TO_WEBSITE/:title
 ---
 ```
-Where `URL_TO_WEBSITE` represents the path used 
+Where `URL_TO_WEBSITE` is the path at which the website is anchored.
+
+- Create a folder `docs/website` where `website` is the name of the HTML representing the collection.
+- Dump the content of the website in the folder.
+- You are done.
+
+This is useful to serve old COMSOC Workshop websites for instance.
