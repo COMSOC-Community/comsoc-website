@@ -59,4 +59,4 @@ collections:
     output: true
 
 exclude:
-  - _workshop2008
+  - workshop2008
