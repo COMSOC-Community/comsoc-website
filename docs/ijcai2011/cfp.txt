@@ -1,0 +1,125 @@
+**********************************************************************
+CALL FOR PAPERS:
+IJCAI Workshop on Social Choice and Artificial Intelligence
+Barcelona, 16 July 2011 (part of the IJCAI-2011 workshop programme)
+URL: http://www.illc.uva.nl/COMSOC/IJCAI-2011/
+**********************************************************************
+	
+The  IJCAI Workshop on  Social Choice  and Artificial  Intelligence is
+part  of  the  workshop  programme  of the  22nd  International  Joint
+Conference  on Artificial  Intelligence  (IJCAI-2011), to  be held  in
+Barcelona  in July  2011.  We  invite submissions  on  all aspects  of
+computational  social choice,  particularly contributions  focusing on
+questions at the interface of social choice and AI and position papers
+addressing new challenges and research directions for our field.
+
+**********************************************************************
+TOPICS OF INTEREST
+**********************************************************************
+
+Social  choice  theory  is  the  study of  mechanisms  for  collective
+decision  making,  such as  election  systems  or  protocols for  fair
+division.  Computational  social  choice  addresses  problems  at  the
+interface  of social choice  theory with  computer science,  either by
+using concepts and methods from social choice theory to solve problems
+arising in  computer science  (such as webpage  ranking), or  by using
+techniques from computer science to solve (or reformulate) problems of
+social  choice  (such  as  designing  social  choice  rules  that  are
+computationally hard to manipulate).
+
+We  welcome  submissions  on   all  aspects  of  computational  social
+choice.  On top  of this,  we specifically  invite papers  focusing on
+questions at the interface of social choice and AI. Topics of interest
+will therefore include, but not be limited to:
+
+* Social  Choice, Knowledge  Representation  and Automated  Reasoning:
+  What  are  suitable languages  to  formally  and compactly  describe
+  social choice problems? How do  we best reason about these problems?
+  What automated  reasoning techniques are available to  verify that a
+  given social choice procedure satisfies a given property and to what
+  extent can  we automatically verify  or discover theorems  in social
+  choice theory?
+
+* Social  Choice, Search,  Planning and  Constraints: How  do  we best
+  exploit techniques  developed in AI search,  planning and constraint
+  programming to solve  computationally intractable problems in social
+  choice?
+
+* Social Choice and Multiagent Systems: How should we adapt the formal
+  apparatus developed in social  choice theory to model group decision
+  making  amongst autonomous  software agents  (e.g., in  view  of how
+  preferences are modelled,  what properties of aggregation procedures
+  are desirable,  etc.)? What are  best practices for  applying social
+  choice techniques in multiagent systems?
+
+* Social Choice and Uncertainty:  What can approaches developed in the
+  Uncertainty  in AI  community contribute  to the  problem  of making
+  collective  choices when various  parameters of  the decision  to be
+  made   are  uncertain   (e.g.,  incomplete   preferences,  uncertain
+  consequences of collective decisions, etc.)?
+
+* Social  Choice and  AI  Applications: How  can computational  social
+  choice benefit application areas that are widely studied in AI, such
+  as recommender systems, Internet search engines, question answering,
+  ontology merging, and more?
+
+**********************************************************************
+PAPER SUBMISSION AND PROCEEDINGS
+**********************************************************************
+
+We invite  the submission  of technical papers  (up to 6  pages, IJCAI
+format) describing  original and unpublished work as  well as position
+papers  (up to  2 pages,  IJCAI format)  discussing open  problems and
+research  challenges or  outlining new  directions for  our  field. We
+specifically   welcome   technical  papers   reporting   on  work   in
+progress. Position  papers will be evaluated on  their originality and
+perceived   appeal   to  the   target   audience   of  the   workshop;
+interdisciplinary work is especially welcome.
+
+All submissions will be  reviewed by the programme committee. Accepted
+contributions will  be included in the informal  workshop notes, which
+will be  distributed at the workshop  (in electronic form).  We do not
+plan  to edit formally  published proceedings.  Instead, we  hope that
+authors will be able to use the feedback received during the reviewing
+process  and  the  workshop  itself  when  preparing  their  work  for
+submission to an archival conference or a journal at a later time.
+
+Details regarding the submission procedure and formatting instructions
+are available at the workshop website.
+
+**********************************************************************
+IMPORTANT DATES
+**********************************************************************
+
+* Submission deadline: Wednesday, 6 April 2011
+* Paper notifications: Friday, 6 May 2011
+* Final papers due:    Monday, 16 May 2011
+* Workshop:            Saturday, 16 July 2011
+
+**********************************************************************
+PROGRAMME COMMITTEE
+**********************************************************************
+
+* Craig Boutilier
+* Ioannis Caragiannis
+* Vincent Conitzer
+* Edith Elkind (co-chair)
+* Ulle Endriss (co-chair)
+* Gabor Erdelyi
+* Piotr Faliszewski
+* Paul Harrenstein
+* Wiebe van der Hoek
+* Sebastien Konieczny
+* Sarit Kraus
+* Jerome Lang (co-chair)
+* Fangzhen Lin
+* Ariel Procaccia
+* Jeff Rosenschein
+* Francesca Rossi
+* Moshe Tennenholtz
+* Toby Walsh 
+
+**********************************************************************
+
+
+

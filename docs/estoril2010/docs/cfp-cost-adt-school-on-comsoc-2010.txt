@@ -1,0 +1,65 @@
+**********************************************************************
+* COST-ADT Doctoral School on Computational Social Choice in Estoril *
+**********************************************************************
+
+CALL FOR PARTICIPATION
+
+The European Science Foundation's  COST Action on Algorithmic Decision
+Theory will  sponsor a doctoral school on  Computational Social Choice
+during 9-14 April 2010 in Estoril, near Lisbon, Portugal.
+
+All interested PhD  students (as well as junior  postdocs and advanced
+MSc students)  working in fields such as  Computational Social Choice,
+(classical) Social Choice Theory  and related branches of Mathematical
+Economics,   Multiagent  Systems,   Artificial   Intelligence,  Logic,
+Theoretical  Computer  Science, as  well  as  Operations Research  and
+Decision Analysis, are  encouraged to apply (by submitting  a CV and a
+short cover letter).
+
+The  doctoral  school can  accommodate  up  to  30 participants.   The
+registration fee  is EUR 225  (full pension).  Applications  should be
+received by the end of January  2010. To apply, please email the local
+organisers at figueira@ist.utl.pt (Jose Rui Figueira).
+
+The programme will consist of three  courses (3 x 90min each) and five
+invited  talks (90min  each).  On  top of  this, there  will  be ample
+opportunity  for participants to  present their  own work  and receive
+feedback. The three courses are:
+
+* Christian Klamler (University of Graz, AT)
+  Introduction to Social Choice and Voting / Geometry of Voting
+
+* Jerome Lang (CNRS and LAMSADE, Univ. Paris-Dauphine, FR)
+  Computational and Communicational Aspects of Voting
+
+* Ulle Endriss (ILLC, University of Amsterdam, NL)
+  Fair Division
+
+The five invited talks are:
+
+* Jose Rui Figueira (IST, Technical University of Lisbon, PT)
+  History of Social Choice Theory
+
+* Felix Brandt (University of Munich, DE)
+  From Arrow's Impossibility to Schwartz's Tournament Equilibrium Set
+
+* Sebastien Konieczny (CNRS and CRIL, Univ. Artois, FR)
+  Information Fusion and Social Choice 
+
+* Thierry Marchant (Ghent University, BE)
+  From Social Choice to Multi-Criteria Decision Analysis 
+
+* Stefano Moretti (LAMSADE, Univ. Paris-Dauphine, FR)
+  Power Indices and Game Theory (with Applications in Bioinformatics)
+
+The doctoral school will start on  Friday 9 April 2010 after lunch and
+end on Wednesday 14 April  2010 with lunch. For further information on
+the COST Action on Algorithmic Decision Theory and the doctoral school
+please visit http://www.algodec.org.
+
+To find out more about the field of Computational Social Choice please
+visit http://www.illc.uva.nl/COMSOC/what-is-comsoc.html.
+
+**********************************************************************
+
+

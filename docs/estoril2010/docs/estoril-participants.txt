@@ -1,0 +1,58 @@
+COST-ADT Doctoral School on Computational Social Choice
+Eden Hotel, Estoril, Portugal, 9-14 April 2010 
+
+LIST OF PARTICIPANTS
+
+Jose Rui Figueira, Instituto Superior Tecnico, Lisbon, Portugal
+Ulle Endriss, ILLC, University of Amsterdam, The Netherlands
+Jerome Lang, CNRS and LAMSADE, Univ. Paris-Dauphine, Paris, France 
+Christian Klamler, Institute of Public Economics, University of Graz, Austria
+Felix Brandt, Computer Science, University of Munich, Germany
+Sebastien Konieczny, CRIL-CNRS, Univ. d'Artois, Lens, France
+Thierry Marchant, Department of Data Analysis, Ghent University, Belgium
+Stefano Moretti, LAMSADE, Univ. Paris-Dauphine, Paris, France 
+Ana Alexandra Andrade, LNEG-UMOSE, Lisbon, Portugal
+Haris Aziz, Computer Science, University of Munich, Germany
+Dorothea Baumeister, Informatics, University of Duesseldorf, Germany
+Robert Bredereck, Informatics, University of Jena, Germany
+Felix Breuer, Mathematics and Informatics, Freie Universitaet Berlin, Germany 
+Markus Brill, Computer Science, University of Munich, Germany
+Olivier Cailloux, Laboratoire Genie Industriel, Ecole Centrale Paris, France
+Burak Can, Maastricht University, The Netherlands
+Britta Dorn, Informatics, University of Tuebingen, Germany
+Lachlan Thomas Dufton, Computer Science, University of Waterloo, Canada
+Paul Duetting, EPFL Lausanne, Switzerland
+Augusto Eusebio, Polytechnic Institute of Leiria, Portugal 
+Christian Geist, ILLC, University of Amsterdam, The Netherlands
+Umberto Grandi, ILLC, University of Amsterdam, The Netherlands
+Dora Huszar, Behavioural Ecology, University of Debrecen, Hungary
+Milosz Kadzinski, Computing Science, Poznan University of Technology, Poland 
+Nikos Karanikolas, Computer Engineering and Informatics, University of Patras, Greece
+Bartosz Kozlowski, Control and Computation Engineering, Warsaw University of Technology, Poland 
+Julien Lesca, Laboratoire d'Informatique de Paris 6, France
+Charles Lumet, ONERA, Toulouse, France
+Sergio Manzano Perez, IIIA-CSIC, Barcelona, Spain
+Joao Guerra Martins, New University of Lisbon, Portugal
+Dorota Marciniak, Instituto Superior Tecnico, Lisbon, Portugal
+Olfa Meddeb, LARODEC, Institut Superieur de Gestion de Tunis, Tunisia
+Shilan Mistry, Smith School of Enterprise and the Environment, University of Oxford, UK
+Leyla Mohseninejad, University Medical Center Groningen, The Netherlands
+Marco Montes de Oca, IRIDIA, Univ. Libre de Bruxelles, Belgium 
+Antoine Nongaillard, LIFL-SMAC, University of Lille, France
+Chiara Novello, Politecnico di Torino, Italy
+Hector Palacios, Universidad Simon Bolivar, Venezuela 
+Truls Andre Pedersen, University of Bergen, Norway
+Luisa Paolotti, University of Perugia, Italy
+Marc Pujol, IIIA-CSIC, Barcelona, Spain
+Jose G. Robledo, Universidad de Guadalajara, Mexico
+Anna Roubickova, Computer Science, Free University of Bozen-Bolzano, Italy
+Lucia Rocchi, University of Perugia, Italy
+Julien Roland, CoDE-SMG, Univ. Libre de Bruxelles, Belgium
+Hans Georg Seedig, IBIS, Technical University of Munich, Germany
+Marija Slavkovik, University of Luxembourg, Luxembourg
+Pietro Speroni di Fenizio, Informatics Engineering, University of Coimbra, Portugal 
+Taiki Todo, ISEE, Kyushu University, Japan
+Genoveva Uskova-Werner, Production and Logictics, University of Goettingen, Germany
+Andrea Voriskova, CULS, Czech University of Life Science in Prague, Czech Republic 
+Julian Zappala, Agents Lab, University of Nottingham, UK
+

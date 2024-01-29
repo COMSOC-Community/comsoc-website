@@ -177,7 +177,7 @@
 - name: Arianna Novaro
   affiliation: Université Toulouse III Paul Sabatier
   year: 2019
-  url: http://thesesups.ups-tlse.fr/4499/
+  url: https://theses.hal.science/tel-02626791v1/document
   title: Collective Decision-Making with Goals
   supervisors:
     - Umberto Grandi
@@ -407,7 +407,7 @@
 - name: Nimrod Talmon
   affiliation: Technische Universität Berlin
   year: 2015
-  url: http://zutot.co.nf/thesis/thesis.pdf
+  url: https://d-nb.info/1156180945/34
   title: Algorithmic Aspects of Manipulation and Anonymization in Social Choice and Social Networks
   supervisors:
     - Rolf Niedermeier
@@ -455,7 +455,7 @@
 - name: Piotr Skowron
   affiliation: University of Warsaw
   year: 2015
-  url: http://www.mimuw.edu.pl/wiadomosci/aktualnosci/doktoraty/pliki/piotr_skowron/ps-dok.pdf
+  url: https://www.depotuw.ceon.pl/bitstream/handle/item/1022/main.pdf?sequence=1
   title: Resource Allocation in Selfish and Cooperative Distributed Systems
   supervisors:
     - Piotr Faliszewski
@@ -474,7 +474,7 @@
 - name: Martin Lackner
   affiliation: TU Vienna
   year: 2014
-  url: http://www.ub.tuwien.ac.at/diss/AC11731615.pdf
+  url: https://repositum.tuwien.at/handle/20.500.12708/2602
   title: Detecting Structure in Permutations and Preferences
   supervisors:
     - Reinhard Pichler

@@ -12,7 +12,7 @@ layout: default
             {% for author in paper.authors %}
                 {{ author }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
             {% endfor %}<br>
-            <a href="assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
+            <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
         </li>
     {% endfor %}
 </ul>
