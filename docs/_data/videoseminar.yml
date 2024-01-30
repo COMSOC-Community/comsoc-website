@@ -1,4 +1,5 @@
 - date: 2024-01-18
+  chair: Florian Brandl
   presentations:
     - title: "Project-Fair and Truthful Mechanisms for Budget Aggregation"
       speaker:
@@ -27,12 +28,15 @@
         start by focusing on PrefLib, presenting its recent developments. The general ComSoC ecosystem will then be
         presented, with a special emphasis on recently developed tools. Finally, I will propose a general discussion
         on how to organize and valorize such tools.
+
 - date: 2023-12-14
+  chair: Dominik Peters
   presentations:
     - title: "Fair Division With Imperfectly Rational Agents"
       speaker:
         name: "Alexandros Psomas"
         affiliation: "Purdue"
+        url: https://www.alexpsomas.com/
       abstract: >
         We consider the fundamental problem of allocating a set of indivisible goods among strategic agents with
         additive valuation functions. It is well known that, in the absence of monetary transfers, Pareto efficient
@@ -49,6 +53,7 @@
       speaker:
         name: "Paul Gölz"
         affiliation: "SLMath"
+        url: https://paulgoelz.de/
       abstract: >
         Traditionally, social choice theory has only been applicable to choices among a few predetermined
         alternatives but not to more complex decisions such as collectively selecting a textual statement. We
@@ -61,11 +66,13 @@
         as free-form text, for instance in an online deliberative process.
 
 - date: 2022-11-16
+  chair: Nisarg Shah
   presentations:
     - title: "Learning-Augmented Mechanism Design"
       speaker:
         name: "Vasilis Gkatzelis"
         affiliation: "Drexel"
+        url: https://www.cs.drexel.edu/~vg399/
       abstract: >
         This talk will introduce the model of “learning-augmented mechanism design” (or “mechanism design with
         predictions”), which is an alternative model for the design and analysis of mechanisms in strategic settings.
@@ -83,6 +90,7 @@
       speaker:
         name: "Fatih Kızılkaya"
         affiliation: "USC"
+        url: https://scholar.google.com/citations?user=f_vqj2MAAAAJ&hl=en
       abstract: >
         The metric distortion framework posits that n voters and m candidates are jointly embedded in a metric space
         such that voters rank candidates that are closer to them higher. A voting rule’s purpose is to pick a candidate
@@ -106,11 +114,13 @@
         metric distortion 3.
 
 - date: 2022-10-19
+  chiar: Vincent Merlin and Anaëlle Wilczynski
   presentations:
     - title: "Condorcet consistency and pairwise justifiability under variable agendas"
       speaker:
         name: "Dolors Berga"
         affiliation: "Girona"
+        url: https://sites.google.com/view/dolorsberga/main-page
       abstract: >
         Consider the following principle regarding the performance of collective choice rules. "If a rule selects
         alternative x in situation 1, and alternative y in situation 2, there must be an alternative z, and some member
@@ -129,6 +139,7 @@
       speaker:
         name: "Oliviero Nardi"
         affiliation: "TU Wien"
+        url: https://olinarr.github.io/
       abstract: >
         The problem of fairly allocating a set of indivisible items is a well-known challenge in the field of
         (computational) social choice. In this scenario, there is a fundamental incompatibility between notions of
@@ -147,26 +158,28 @@
       joint_work: "Ayumi Igarashi, Martin Lackner, Arianna Novaro"
 
 - date: 2023-09-21
+  title: "Rump session"
+  chair: Dominik Peters
   presentations:
-    - title: "Rump session"
-      speakers:
-        - "Erel Segal-Halevi"
-        - "Reshef Meir"
-        - "Georgios Papasotiropoulos"
-        - "Jan Maly"
-        - "Chris Dong"
-        - "Nicholas Teh"
-        - "Soroush Ebadian"
-        - "Ben Armstrong"
-        - "Chinmay Sonar"
-        - "Shivika Narang"
+    - title: "Erel Segal-Halevi"
+    - title: "Reshef Meir"
+    - title: "Georgios Papasotiropoulos"
+    - title: "Jan Maly"
+    - title: "Chris Dong"
+    - title: "Nicholas Teh"
+    - title: "Soroush Ebadian"
+    - title: "Ben Armstrong"
+    - title: "Chinmay Sonar"
+    - title: "Shivika Narang"
 
 - date: 2023-06-09
+  chair: Nisarg Shah
   presentations:
     - title: "Algorithmic Contract Design"
       speaker:
         name: "Michal Feldman"
         affiliation: "Tel Aviv"
+        url: https://www.mfeldman.sites.tau.ac.il/
       abstract: >
         Contract design captures situations where a principal delegates the execution of a costly task to an agent. To
         complete the task, the agent chooses an action from a set of costly actions. The principal can only observe the
@@ -182,6 +195,7 @@
       speaker:
         name: "Moshe Babaioff"
         affiliation: "Hebrew University"
+        url: https://sites.google.com/view/babaioff/about-me
       abstract: >
         We consider the problem of fairly allocating a set of indivisible goods to equally entitled agents, with no
         monetary transfers. A share function maps a pair of agent valuation and number of agents to a non-negative
@@ -195,11 +209,13 @@
       joint_work: "Uri Feige"
 
 - date: 2023-05-12
+  chair: Nisarg Shah
   presentations:
     - title: "Robustness in Elections and Participatory Budgeting: Experiments and Counting Complexity"
       speaker:
         name: "Niclas Boehmer"
         affiliation: "TU Berlin"
+        url: https://sites.google.com/view/niclas-boehmer/home
       abstract: >
         Robustness measures for election winners - such as the margin of victory, the score difference, or the minimum
         cost of a successful destructive bribery - are typically worst-case focused. In this talk, we explore a new
@@ -218,37 +234,37 @@
       speaker:
         name: "Jugal Garg"
         affiliation: "Univ. of Illinois at Urbana-Champaign"
+        url: https://jugal.ise.illinois.edu/
       abstract: >
         Fair division is an age-old problem of allocating a set of goods among agents with preferences in a fair and
         efficient manner. It arises naturally in a wide range of real-life settings, from interpersonal to international
         conflicts. I will talk about some recent exciting developments in this area, based on
         https://arxiv.org/abs/2211.03883.
-      joint_work: null  # The provided abstract does not mention specific collaborators.
 
 - date: 2023-04-21
+  chair: Anaëlle Wilczynski
   presentations:
-    - title: "Condorcet consistency and pairwise justifiability under variable agendas"
+    - title: "Distributing Mixed Items Fairly: A Lexicographic Excursion"
       speaker:
-        name: "Dolors Berga"
-        affiliation: "Girona"
+        name: "Hadi Hosseini"
+        affiliation: "Penn State"
+        url: https://faculty.ist.psu.edu/hadi/
       abstract: >
-        Consider the following principle regarding the performance of collective choice rules. "If a rule selects
-        alternative x in situation 1, and alternative y in situation 2, there must be an alternative z, and some member
-        of society whose appreciation of z relative to x has increased when going from situation 1 to situation 2." This
-        principle requires a minimal justification for the fall of x in the consideration of society: someone must have
-        decreased its appreciation relative to some other possible alternative. On appropriately restricted domains,
-        pairwise justifiability, along with anonymity and neutrality, characterizes Condorcet consistent rules, thus
-        providing a foundation for the choice of the alternatives that win by majority over all others in pairwise
-        comparisons, when they exist. We study the consequences of imposing this requirement of pairwise justifiability
-        on a large class of collective choice rules that includes social choice and social welfare functions as
-        particular cases. When preference profiles are unrestricted, it implies dictatorship, and both Arrow's and the
-        Gibbard-Satterthwaite's theorems become corollaries of our general result.
-      joint_work: "S. Barberà, B. Moreno, A. Nicolò"
+        Fair division of indivisible items encompasses a wide range of real-world applications. The discrete nature of this problem
+        has given rise to several intriguing approximate notions such as envy-freeness up to any item (EFX), envy-freeness up to one
+        item (EF1), and maximin share guarantee (MMS).  In this talk, I will focus on fair allocation of mixture of goods and chores under
+        lexicographic preferences. I will argue that this class of preferences is natural, common in computational social choice and AI,
+        and more importantly, elevates our understanding of computational and structural challenges in achieving fairness.  In particular,
+        I will i) demonstrate the non-existence and intractability of achieving EFX, ii) identify natural subclasses of preferences for which
+        positive results can be obtained (along with Pareto optimality), and iii) discuss some of the remaining challenges in achieving other
+        fairness notions and pushing beyond this domain. The negative results immediately carry over to additive valuations while the positive
+        results highlight the challenges of achieving fair and efficient allocations of mixed items.
 
     - title: "Superiority of Instantaneous Decisions in Thin Dynamic Matching Markets"
       speaker:
         name: "Martin Bullinger"
         affiliation: "TU Munich"
+        url: https://www.cs.ox.ac.uk/people/martin.bullinger/
       abstract: >
         We study a dynamic matching procedure where homogeneous agents arrive at random according to a Poisson process
         and form edges at random yielding a sparse market. Agents leave according to a certain departure distribution and
@@ -262,11 +278,13 @@
       joint_work: "Johannes Bäumler, Stefan Kober, Donghao Zhu"
 
 - date: 2023-02-17
+  chair: Dominik Peters
   presentations:
     - title: "Representation with Incomplete Votes"
       speaker:
         name: "Daniel Halpern"
         affiliation: "Harvard"
+        url: https://daniel-halpern.com/
       abstract: >
         Platforms for online civic participation rely heavily on methods for condensing thousands of comments into a
         relevant handful based on whether participants agree or disagree with them. We argue that these methods should
@@ -285,6 +303,7 @@
       speaker:
         name: "Marc Fleurbaey"
         affiliation: "Paris School of Economics / CNRS"
+        url: https://sites.google.com/site/marcfleurbaey/Home
       abstract: >
         How to evaluate and compare social prospects when there may be a risk on i) the actual allocation people will
         receive; ii) the existence of these future people; and iii) their preferences? This paper investigates this
@@ -300,20 +319,22 @@
       joint_work: "Stéphane Zuber"
 
 - date: 2023-01-13
+  chair: Ulle Endriss
   presentations:
     - title: "Proportional Participatory Budgeting: an Experimental View"
       speaker:
         name: "Piotr Skowron"
         affiliation: "Warsaw"
+        url: https://www.mimuw.edu.pl/~ps219737/
       abstract: >
         We compare election methods for participatory budgeting based on data coming from real elections, focusing on
         comparing the Method of Equal Shares with the methods that are currently used by cities.
-      joint_work: null  # The provided abstract does not mention specific collaborators.
 
     - title: "A Model of Repeated Collective Decisions (Slides)"
       speaker:
         name: "Antonin Macé"
         affiliation: "Paris"
+        url: https://sites.google.com/site/antoninmace/
       abstract: >
         The theory of repeated games offers a compelling rationale for cooperation in a variety of environments. Yet,
         its consequences for collective decision-making have been largely unexplored. In this paper, we propose a
@@ -327,11 +348,13 @@
       joint_work: "Matthias Dahm, Nicolás Porteiro"
 
 - date: 2022-12-09
+  chair: Vincent Merlin
   presentations:
     - title: "Coalitional Manipulation of Voting Rules: Simulations on Empirical Data"
       speaker:
         name: "François Durand"
         affiliation: "Nokia Bell Labs"
+        url: https://cv.hal.science/fradurand
       abstract: >
         Using computer simulations based on empirical data, we show that seven voting rules that we call the IRV family 
         (Instant-Runoff Voting, exhaustive ballot, Condorcet-IRV, Benham, Smith-IRV, Tideman, and Woodall) are less sensitive 
@@ -343,6 +366,7 @@
       speaker:
         name: "Zoi Terzopoulou"
         affiliation: "Saint-Etienne"
+        url: https://www.zoiterzopoulou.com/
       abstract: >
         Consider settings in which agents with incomplete preferences need to make a collective decision, like a group of 
         organizers needing to agree on an online platform for their upcoming conference, without having full preferences about 
@@ -354,11 +378,13 @@
       joint_work: "Sirin Botan, Simon Rey (published in the proceedings of IJCAI-2022)"
 
 - date: 2022-11-11
+  chair: Ulle Endriss
   presentations:
     - title: "From Juries to Markets: Collective Truth-tracking by Voting and by Wagering"
       speaker:
         name: "Davide Grossi"
         affiliation: "Groningen and Amsterdam"
+        url: https://davidegrossi.me/
       abstract: >
         In this talk I will introduce on-going work on establishing formal relationships between weighted majority elections 
         and information markets in a binary truth-tracking setting. I will present correspondence results showing how weighted 
@@ -370,6 +396,7 @@
       speaker:
         name: "Manon Revel"
         affiliation: "MIT"
+        url: https://manrev.github.io/manon/
       abstract: >
         Proposals to change the size of the Congress, update ballot types, channel decisions through citizens' assemblies or 
         participatory budgeting are being actively researched and tested. Liquid democracy is making its way to the democratic 
@@ -380,11 +407,13 @@
         and interpret how that informs further real-world testing and deployment of liquid democratic procedures.
 
 - date: 2022-10-14
+  chair: Bill Zwicker
   presentations:
     - title: "Fair Division of House Chores"
       speaker:
         name: "Ayumi Igarashi"
         affiliation: "NII Tokyo"
+        url: https://sites.google.com/site/eigarashayumi/home
       abstract: >
         Division of house chores can be a great source of conflicts. For example, some studies have reported that inequity in the 
         division of household labor can cause significant stress to couples in the home. This raises the fundamental question of 
@@ -398,6 +427,7 @@
       speaker:
         name: "Alexandros Voudouris"
         affiliation: "Essex"
+        url: https://www.alexvoudouris.com/
       abstract: >
         We extend the framework of metric distortion to multiwinner voting. There are n agents and m alternatives located in an 
         underlying metric space. The exact distances between agents and alternatives are unknown. Instead, each agent provides a 
@@ -411,11 +441,13 @@
       joint_work: "Ioannis Caragiannis and Nisarg Shah"
 
 - date: 2022-09-23
+  chair: Vincent Merlin
   presentations:
     - title: "Perpetual Voting"
       speaker:
         name: "Martin Lackner"
         affiliation: "TU Wien"
+        url: https://martin.lackner.xyz/
       abstract: >
         Perpetual voting is a new formalism to support long-term collective decision making. The corresponding perpetual voting rules 
         take the history of previous decisions into account and---due to this additional information---can offer fairness guarantees 
@@ -428,6 +460,7 @@
       speaker:
         name: "Anaëlle Wilczynski"
         affiliation: "CentraleSupélec"
+        url: https://anaellewilczynski.pages.centralesupelec.fr/website/
       abstract: >
         We consider the problem of the conjoint selection and allocation of projects to a population of agents, e.g., students are 
         assigned papers and shall present them to their peers. The selection can be constrained either by quotas over subcategories 
@@ -438,11 +471,18 @@
       joint_work: "Khaled Belahcène and Vincent Mousseau"
 
 - date: 2022-06-09
+  chair: Piotr Faliszewski
+  title: Special Session in Memory of Rolf Niedermeier and Gerhard J. Woeginger
+  comment: >
+    Recently, we lost two central and esteemed researchers that were part of the COMSOC community: Rolf Niedermeier (*1966 † 2022) and
+    Gerhard J. Woeginger (*1964 † 2022). We are dedicating this special session to their memory. Matthias Bentert and Robert Bredereck
+    will give two short memorial speeches about Rolf and Gerhard, and present results from recent collaborations.
   presentations:
     - title: "An Adaptive Version of Brandes' Algorithm for Betweenness Centrality"
       speaker:
         name: "Matthias Bentert"
         affiliation: "TU Berlin"
+        url: https://www.uib.no/en/persons/Matthias.Bentert
       abstract: >
         Betweenness centrality measures the relative importance of a vertex in a graph in terms of how many shortest paths pass 
         through it. It is one of the most important concepts in network analysis and the well-known algorithm of Brandes [Journal of 
@@ -458,6 +498,7 @@
       speaker:
         name: "Robert Bredereck"
         affiliation: "TU Clausthal"
+        url: https://robert.bredereck.info/
       abstract: >
         We consider the following decision-making scenario: a society of voters has to find an agreement on a set of proposals, 
         and every single proposal is to be accepted or rejected. Each voter supports a certain subset of the proposals—the favorite 
@@ -467,63 +508,75 @@
       joint_work: "Noga Alon, Jiehua Chen, Stefan Kratsch, Rolf Niedermeier, Gerhard J. Woeginger"
 
 - date: 2022-05-19
+  chair: Dominik Peters
+  title: Oldies but Goodies II
+  comment: >
+    For this special session, we invited each speaker to talk about "an older piece of work that never garnered the attention it deserved".
+    Each of our four distinguished speakers will have 10 minutes to make their case (plus 5 minutes for questions).
   presentations:
     - title: "Games with Perception"
       speaker:
         name: "Annick Laruelle"
         affiliation: "Bilbao"
-      paper: "Elena Iñarra, Annick Laruelle, and Peio Zuazo-Garin. Games with Perception. Journal of Mathematical Psychology, 2015."
+        url: https://www.ikerbasque.net/en/annick-laruelle
 
     - title: "Designing Social Choice Mechanisms Using Machine Learning"
       speaker:
         name: "Lirong Xia"
         affiliation: "RPI"
-      paper: "Lirong Xia. Designing Social Choice Mechanisms Using Machine Learning. Proceedings of the 12th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2013."
+        url: https://www.cs.rpi.edu/~xial/
 
     - title: "On Coalitions and Stable Winners in Plurality"
       speaker:
         name: "Reshef Meir"
         affiliation: "Technion"
-      paper: "Dvir Falik, Reshef Meir and Moshe Tennenholtz. On Coalitions and Stable Winners in Plurality. Proceedings of the 8th Workshop on Internet and Network Economics (WINE), 2012."
+        url: https://reshef.net.technion.ac.il/
 
     - title: "The Structure of Strategy-proof Social Choice. Part I: General Characterization and Possibility Results on Median Spaces"
       speaker:
         name: "Klaus Nehring"
         affiliation: "UC Davis"
-      paper: "Klaus Nehring and Clemens Puppe. The Structure of Strategy-proof Social Choice. Part I: General Characterization and Possibility Results on Median Spaces. Journal of Economic Theory, 2007."
+        url: https://faculty.econ.ucdavis.edu/faculty/nehring/index.html
 
 - date: 2022-04-14
+  chair: Bill Zwicker
+  title: Oldies but Goodies I
+  comment: >
+    For this special session, we invited each speaker to talk about "an older piece of work that never garnered the attention it deserved".
+    Each of our four distinguished speakers will have 10 minutes to make their case (plus 5 minutes for questions).
   presentations:
     - title: "K-Player Additive Extension of Two-Player Games with an Application to the Borda Electoral Competition Game"
       speaker:
         name: "Jean-François Laslier"
         affiliation: "Paris"
-      paper: "Gilbert Laffond, Jean-François Laslier, and Michel Le Breton. K-Player Additive Extension of Two-Player Games with an Application to the Borda Electoral Competition Game. Theory and Decision, 2000."
+        url: https://sites.google.com/site/jflaslierhomepage/
 
     - title: "Power Measures Derived from the Sequential Query Process"
       speaker:
         name: "Mark C. Wilson"
         affiliation: "Amherst"
-      paper: "Geoffrey Pritchard, Reyhaneh Reyhani, and Mark C. Wilson. Power Measures Derived from the Sequential Query Process. Mathematical Social Sciences, 2013."
+        url: https://markcwilson.site/
 
     - title: "Compiling the Votes of a Subelectorate"
       speaker:
         name: "Jérôme Lang"
         affiliation: "Paris"
-      paper: "Yann Chevaleyre, Jérôme Lang, Nicolas Maudet, and Guillaume Ravilly-Abadie. Compiling the Votes of a Subelectorate. Proceedings of the 21st International Joint Conference on Artificial Intelligence (IJCAI), 2009."
+        url: https://www.lamsade.dauphine.fr/~lang/
 
     - title: "An Efficient and Almost Budget Balanced Cost Sharing Method"
       speaker:
         name: "Hervé Moulin"
         affiliation: "Glasgow"
-      paper: "Hervé Moulin. An Efficient and Almost Budget Balanced Cost Sharing Method. Games and Economic Behavior, 2010."
+        url: https://www.gla.ac.uk/schools/business/staff/hervemoulin/
 
 - date: 2022-03-10
+  chair: Ulle Endriss
   presentations:
     - title: "Picking Sequences and Monotonicity in Weighted Fair Division"
       speaker:
         name: "Warut Suksompong"
         affiliation: "Singapore"
+        url: https://www.comp.nus.edu.sg/~warut/
       abstract: >
         We study the problem of fairly allocating indivisible items to agents with different entitlements, which captures, for example, 
         the distribution of ministries among political parties in a coalition government. Our focus is on picking sequences derived from 
@@ -538,6 +591,7 @@
       speaker:
         name: "Stefan Napel"
         affiliation: "Bayreuth"
+        url: https://www.vwl4.uni-bayreuth.de/en/team/napel_stefan/
       abstract: >
         Committee decisions on three or more alternatives depend on the adopted voting method and the underlying distribution of votes 
         (e.g., voting weights, party seats, individual shareholdings). Based on structural analysis of how voting weights affect the 
@@ -548,30 +602,33 @@
       joint_work: "Sascha Kurz and Alexander Mayer."
 
 - date: 2022-02-17
+  chair: Dominik Peters
   presentations:
     - title: "Locally fair partitioning"
       speaker:
         name: "Kamesh Munagala"
         affiliation: "Duke"
+        url: https://www.kameshmunagala.org/home
       abstract: >
         We model the societal task of redistricting political districts as a fair partitioning problem: Given a set of n points in the plane, 
         each belonging to one of two parties, and a parameter k, our goal is to compute a partition of the plane into regions so that each 
-        region contains roughly n/k points. The partition should satisfy a notion of ``local'' fairness, which is related to the notion of 
+        region contains roughly n/k points. The partition should satisfy a notion of 'local' fairness, which is related to the notion of 
         core, a well-studied concept in cooperative game theory. A region is associated with the majority party for that region, and a point 
-        in that region is ``unhappy" if it belongs to the minority party. A group of roughly n/k contiguous points is called a deviating 
+        in that region is 'unhappy' if it belongs to the minority party. A group of roughly n/k contiguous points is called a deviating 
         group with respect to the partition if a majority of points in this group are unhappy. The partition is locally fair if there is no 
         deviating group. The talk focuses on the case when points lie in one dimension, and the problem is non-trivial even in this case. 
-        We consider both adversarial and ``beyond worst-case" settings for this problem. For the former, we characterize the input parameters 
+        We consider both adversarial and 'beyond worst-case' settings for this problem. For the former, we characterize the input parameters 
         for which a locally fair partition always exists, and for which it does not. We then consider beyond worst case input models where 
-        there are ``runs'' of red and blue points. For such clustered inputs, we show that an approximate locally fair partition exists if 
+        there are 'runs' of red and blue points. For such clustered inputs, we show that an approximate locally fair partition exists if 
         we allow some regions to have smaller sizes. We also present a polynomial-time algorithm for computing a locally fair partition if 
         one exists. Time permitting, we will present preliminary empirical results on real-world maps.
-      joint_work: "Pankaj K. Agarwal, Shao-Heng Ko, and Erin Taylor."
+      joint_work: "Pankaj K. Agarwal, Shao-Heng Ko, and Erin Taylor"
 
     - title: "Are You Smarter Than a Random Expert? The Robust Aggregation of Substitutable Signals"
       speaker:
         name: "Eric Neyman"
         affiliation: "Columbia"
+        url: https://sites.google.com/view/ericneyman/
       abstract: >
         The problem of aggregating expert forecasts is ubiquitous in fields as wide-ranging as machine learning, economics, climate science, 
         and national security. Despite this, our theoretical understanding of this question is fairly shallow. This paper initiates the study 
@@ -583,20 +640,29 @@
         random expert. We then consider a more permissive setting, in which the aggregator has access to the prior. We show that by averaging 
         the experts' forecasts and then extremizing the average by moving it away from the prior by a constant factor, the aggregator's 
         performance guarantee is substantially better than is possible without knowledge of the prior.
-      joint_work: "Tim Roughgarden."
+      joint_work: "Tim Roughgarden"
 
 - date: 2022-01-13
+  chair: Vincent Merlin
   presentations:
     - title: "Efficient, Fair, and Incentive-Compatible Healthcare Rationing"
       speaker:
         name: "Florian Brandl"
         affiliation: "Bonn"
+        url: http://brandlf.com/
+      abstract: >
+        Rationing of healthcare resources has emerged as an important issue, which has been discussed by medical experts, policy-makers, and the general
+        public. We consider a rationing problem where medical units are to be allocated to patients. Each unit is reserved for one of several categories
+        and each category has a priority ranking of the patients. We present an allocation rule that respects the priorities, complies with the eligibility
+        requirements, allocates the largest feasible number of units, and does not incentivize agents to hide that they qualify through a category. The
+        rule characterizes all possible allocations that satisfy the first three properties and is polynomial-time computable.
       joint_work: "Haris Aziz."
 
     - title: "Multiwinner Candidacy Games"
       speaker:
         name: "Maria Polukarov"
         affiliation: "London"
+        url: https://www.kcl.ac.uk/people/maria-polukarov
       abstract: >
         In strategic candidacy games, both voters and candidates have preferences over the set of possible election outcomes, and candidates 
         may strategically withdraw from the election in order to manipulate the result in their favour. In this work, we extend the candidacy 
@@ -606,507 +672,805 @@
       joint_work: "Svetlana Obraztsova, Edith Elkind, and Marek Grzesiuk."
 
 - date: 2021-12-09
+  chair: Ulle Endriss
   presentations:
     - title: "The Complexity of Learning Approval-Based Multiwinner Voting Rules"
       speaker:
         name: "Iannis Caragiannis"
         affiliation: "Aarhus"
-      joint_work: "Karl Fehrs."
+        url: https://cs.au.dk/~iannis/
+      abstract: >
+        We study the PAC learnability of multiwinner voting, focusing on the class of approval-based committee scoring (ABCS) rules. These are
+        voting rules applied on profiles with approval ballots, where each voter approves some of the candidates. ABCS rules adapt positional
+        scoring rules in single-winner voting by assuming that each committee of k candidates collects from each voter a score, that depends on
+        the size of the voter's ballot and on the size of its intersection with the committee. Then, committees of maximum score are the winning ones.
+        Our goal is to learn a target rule (i.e., to learn the corresponding scoring function) using information about the winning committees of a small
+        number of sampled profiles. Despite the existence of exponentially many outcomes compared to single-winner elections, we show that the sample
+        complexity is still low: a polynomial number of samples carries enough information for learning the target committee with high confidence and accuracy.
+        Unfortunately, even simple tasks that need to be solved for learning from these samples are intractable. We prove that deciding whether there exists some
+        ABCS rule that makes a given committee winning in a given profile is a computationally hard problem. Our results extend to the class of sequential Thiele
+        rules, which have received attention due to their simplicity.
+      joint_work: "Karl Fehrs"
 
     - title: "Fair Division of Electricity"
       speaker:
         name: "Erel Segal-Halevi"
         affiliation: "Ariel"
-      joint_work: "Dinesh Kumar Baghel."
+        url: https://erelsgl.github.io/
+      abstract: >
+        The supply of electricity in developing countries is often insufficient to satisfy the total demand of all households. This raises the question of
+        how to fairly divide the electricity among the households, taking into accounts their different demands and utilities in different times. I will
+        show the connections of this problem to classic combinatorial and social choice problems such as bin packing, fractional approval voting, cake-cutting
+        and consensus division. As this is a work in progress, the talk will contain more questions than answers.
+      joint_work: "Dinesh Kumar Baghel"
 
 - date: 2021-11-11
+  chair: Edith Elkind
   presentations:
     - title: "Characterizing the Top Cycle via Strategyproofness"
       speaker:
         name: "Patrick Lederer"
         affiliation: "Munich"
-      joint_work: "Felix Brandt."
+        url: https://www.cs.cit.tum.de/en/dss/members/patrick-lederer/
+      abstract: >
+        Gibbard and Satterthwaite have shown that the only single-valued social choice functions (SCFs) that satisfy non-imposition (i.e., the function’s range coincides with its codomain) and strategyproofness (i.e., voters are never better off by misrepresenting their preferences) are dictatorships. In this paper, we consider set-valued social choice correspondences (SCCs) that are strategyproof according to Fishburn's preference extension and, in particular, the top cycle, an attractive SCC that returns the maximal elements of the transitive closure of the weak majority relation. Our main theorem implies that, under mild conditions, the top cycle is the only non-imposing strategyproof SCC whose outcome only depends on the quantified pairwise comparisons between alternatives. This result effectively turns the Gibbard-Satterthwaite impossibility into a complete characterization of the top cycle by moving from SCFs to SCCs. It is obtained as a corollary of a more general characterization of strategyproof SCCs.
+      joint_work: "Felix Brandt"
       paper_link: "https://arxiv.org/abs/2108.04622"
 
     - title: "On Interim Envy-Free Allocation Lotteries"
       speaker:
         name: "Maria Kyropoulou"
         affiliation: "Essex"
-      joint_work: "Ioannis Caragiannis, Panagiotis Kanellopoulos."
+        url: https://www.essex.ac.uk/people/KYROP21400/maria-kyropoulou
+      abstract: >
+        With very few exceptions, recent research in fair division has mostly focused on deterministic allocations. Deviating from this trend, we study the fairness notion of interim envy-freeness (iEF) for lotteries over allocations, which serves as a sweet spot between the too stringent notion of ex-post envy-freeness and the very weak notion of ex-ante envy-freeness. iEF is a natural generalization of envy-freeness to random allocations in the sense that a deterministic envy-free allocation is iEF (when viewed as a degenerate lottery). It is also certainly meaningful as it allows for a richer solution space, which includes solutions that are provably better than envy-freeness according to several criteria. Our analysis relates iEF to other fairness notions as well, and reveals tradeoffs between iEF and efficiency. Even though several of our results apply to general fair division problems, we are particularly interested in instances with equal numbers of agents and items where allocations are perfect matchings of the items to the agents. Envy-freeness can be trivially decided and (when it can be achieved, it) implies full efficiency in this setting. Although computing iEF allocations in matching allocation instances is considerably more challenging, we show how to compute them in polynomial time, while also maximizing several efficiency objectives. Our algorithms use the ellipsoid method for linear programming and efficient solutions to a novel variant of the bipartite matching problem as a separation oracle. We also study the extension of interim envy-freeness notion when payments to or from the agents are allowed. We present a series of results on two optimization problems, including a generalization of the classical rent division problem to random allocations using interim envy-freeness as the solution concept.
+      joint_work: "Ioannis Caragiannis and Panagiotis Kanellopoulos"
 
 - date: 2021-10-14
+  chair: Bill Zwicker
   presentations:
     - title: "Fractional Matchings under Preferences: Stability and Optimality"
       speaker:
         name: "Jiehua Chen"
         affiliation: "Vienna"
+        url: https://www.ac.tuwien.ac.at/jchen/about/
+      abstract: >
+        We study generalizations of stable matching in which agents may be matched fractionally; this models time-sharing assignments. We focus on the so-called ordinal stability and cardinal stability, and investigate the computational complexity of finding an ordinally stable or cardinally stable fractional matching which either maximizes the social welfare (i.e., the overall utilities of the agents) or the number of fully matched agents (i.e., agents whose matching values sum up to one). We complete the complexity classification of both optimization problems for both ordinal stability and cardinal stability, distinguishing between the marriage (bipartite) and roommates (non-bipartite) cases and the presence or absence of ties in the preferences. In particular, we prove a surprising result that finding a cardinally stable fractional matching with maximum social welfare is NP-hard even for the marriage case without ties. This answers an open question and exemplifies a rare variant of stable marriage that remains hard for preferences without ties. We also complete the picture of the relations of the stability notions and derive structural properties. 
 
     - title: "Fairness in Random Assignment"
       speaker:
         name: "Conal Duddy"
         affiliation: "Cork"
+        url: https://www.cubsucc.com/faculty-directory/conal-duddy/
+      abstract: >
+        In the random assignment problem, there are n agents and n indivisible objects.  Each agent has a preference ordering over the objects.  We seek a method of assigning one object to each agent, using some randomisation to achieve fairness.  The central solutions in the literature are Random Priority and the Serial Rule.  In this talk, I will propose a new fairness principle and solution for this problem. 
 
 - date: 2021-09-09
+  chair: Ulle Endriss
   presentations:
     - title: "Securing Election Outcomes: The Good, the Bad, and the Reality"
       speaker:
         name: "Svetlana Obraztsova"
         affiliation: "Singapore"
+      abstract: >
+        Complexity of voting manipulation is one of the most important topics in computational social choice. In this talk, two new approaches to this problem will be shown. In the beginning a two-stage voting manipulation scenario will be considered. First, a malicious party (an attacker) attempts to manipulate the election outcome in favor of a preferred candidate by changing the vote counts in some of the voting districts. Afterwards, another party (a defender), which cares about the voters' wishes, demands a recount in a subset of the manipulated districts, restoring their vote counts to their original values. The resulting Stackelberg game for the case where votes are aggregated using two variants of the Plurality rule will be described, and an almost complete picture of the complexity landscape will be shown, both from the attacker's and from the defender's perspective. In the second part of talk the computational problem of constructive election control via issue selection will be covered. In this problem, a party decides which political issues to focus on to ensure victory for the favored candidate.
 
     - title: "Voting Behavior in One-Shot and Iterative Multiple Referenda"
       speaker:
         name: "Ali Ozkes"
         affiliation: "Paris"
-      joint_work: "Umberto Grandi, Jérôme Lang, Stéphane Airiau."
-      paper_link: "https://ssrn.com/abstract=3747713"
+        url: https://ozkesali.github.io/
+      abstract: >
+        We consider a set of voters making a collective decision via simultaneous vote on two binary issues. Voters' preferences are captured by payoffs assigned to combinations of outcomes for each issue and they can be nonseparable: a voter's preference over an issue might be dependent on the other issue. When the collective decision in this context is reached by voting on both issues at the same time, multiple election paradoxes may arise, as studied extensively in the theoretical literature. In this paper we pursue an experimental approach and investigate the impact of iterative voting, in which groups deliberate by repeating the voting process until a final outcome is reached. Our results from experiments run in the lab show that voters tend to have an optimistic rather than a pessimistic behaviour when casting a vote on a non-separable issue and that iterated voting may in fact improve the social outcome. We provide the first comprehensive empirical analysis of individual and collective behavior in the multiple referendum setting.
+      joint_work: "Umberto Grandi, Jérôme Lang and Stéphane Airiau"
+      links:
+        - "https://ssrn.com/abstract=3747713"
 
 - date: 2021-07-16
+  chair: Ulle Endriss
   presentations:
     - title: "The Probability of Disputable Outcomes under Direct and Indirect Elections"
       speaker:
         name: "Vincent Merlin"
         affiliation: "Caen"
+        url: https://crem.univ-rennes.fr/interlocuteurs/vincent-merlin
+      abstract: >
+        Defenders of the Electoral College routinely invoke a traditional argument to reject proposals for a national popular vote.  Granted, they say, Florida in 2000 was a national nightmare, but the agony would be far greater if such a dispute extended over the entire nation.  Proponents of a direct vote reply by conjecturing that the Electoral College increases the frequency of disputable elections.  Indeed, the 2020 US presidential election was another instance of disputable election on the legal front.  We investigate whether we should expect disputable outcomes to be more frequent under the present US indirect system as compared with a direct vote and, if so, by how much.   We use two methods: an historical analysis of actual outcomes in presidential elections, and an a priori formal model borrowed from Social Choice Theory (IAC).  Depending on the thresholds one posits for disputability, the historical analysis shows that disputable elections have been about two to six times more frequent under the Electoral College. In a model where all the states have the same population the IAC model produces an impressively compatible intermediate ratio of 4:1. We also explore the impact of differences in the population of the states on the likelihood of legal disputes.
+      joint_work: "Jack Nagel and Théo Duchemin"
 
     - title: "Modeling Voters in Multi-Winner Approval Voting"
       speaker:
         name: "Nicholas Mattei"
         affiliation: "Tulane"
-      joint_work: "Jaelle Scheuerman, Jason Harman, K. Brent Venable."
+        url: https://sse.tulane.edu/nicholas-mattei
+      abstract: >
+        In many real world situations, collective decisions are made using voting and, in scenarios such as committee or board elections, employing voting rules that return multiple winners. In multi-winner approval voting (AV), an agent submits a ballot consisting of approvals for as many candidates as they wish, and winners are chosen by tallying up the votes and choosing the top-k candidates receiving the most approvals. In many scenarios, an agent may manipulate the ballot they submit in order to achieve a better outcome by voting in a way that does not reflect their true preferences. In complex and uncertain situations, agents may use heuristics instead of incurring the additional effort required to compute the manipulation which most favors them. In this paper, we examine voting behavior in single-winner and multi-winner approval voting scenarios with varying degrees of uncertainty using behavioral data obtained from Mechanical Turk. We find that people generally manipulate their vote to obtain a better outcome, but often do not identify the optimal manipulation. There are a number of predictive models of agent behavior in the social choice and psychology literature that are based on cognitively plausible heuristic strategies.  We show that the existing approaches do not adequately model our real-world data. We propose a novel model that takes into account the size of the winning set and human cognitive constraints; and demonstrate that this model is more effective at capturing real-world behaviors in multi-winner approval voting scenarios.
+      joint_work: "Jaelle Scheuerman, Jason Harman, K. Brent Venable"
 
 - date: 2021-07-02
+  chair: Edith Elkind and Dominik Peters
+  title: "Rump Session"
   presentations:
-    - title: "Rump Session"
-      speakers:
-        - "Farhad Mohsin (RPI)"
-        - "Sonja Kraiczy (Oxford)"
-        - "Michał T. Godziszewski (Warsaw)"
-        - "Eyal Leizerovich (BGU)"
-        - "Neel Karia (IIT Kharagpur)"
-        - "Fatima Umar (Rochester)"
-        - "Péter Biró (Budapest)"
-        - "Sricharan AR (Chennai)"
+    - "Farhad Mohsin (RPI)"
+    - "Sonja Kraiczy (Oxford)"
+    - "Michał T. Godziszewski (Warsaw)"
+    - "Eyal Leizerovich (BGU)"
+    - "Neel Karia (IIT Kharagpur)"
+    - "Fatima Umar (Rochester)"
+    - "Péter Biró (Budapest)"
+    - "Sricharan AR (Chennai)"
 
 - date: 2021-06-25
+  chair: Edith Elkind
   presentations:
     - title: "Stable Matching Games"
       speaker:
         name: "Rida Laraki"
         affiliation: "Paris/Liverpool"
-      joint_work: "Felipe Garrido-Lucero."
+        url: https://sites.google.com/site/ridalaraki/
+      abstract: >
+        Gale and Shapley introduced a matching problem between two sets of agents where each agent on one side has an exogenous preference over the agents of the other side. They defined a matching as stable if no unmatched pair can both improve their utility by forming a new pair. They proved, algorithmically, the existence of a stable matching. Shapley and Shubik, as well as many others, extended the model by allowing monetary transfers. We offer a further extension by assuming that matched couples obtain their payoff endogenously as the outcome of a strategic game they have to play in a usual non-cooperative sense (without commitment) or in a semi-cooperative way (with commitment, as the outcome of a bilateral binding contract in which each player is responsible of his/her part of the contract). Depending on whether the players can commit or not, we define in each case a solution concept which combines Gale-Shapley pairwise external stability with a (generalized) Nash equilibrium internal stability. In each case, we give the necessary and sufficient conditions for the set of stable allocations to be non-empty, we study its geometry (full/semi-lattice), and provide an algorithm which converges to its maximal element. Finally, we prove that our second model—with commitment—encompasses and refines most of the literature (matching with monetary transfers as well as matching with contracts).
+      joint_work: "Felipe Garrido-Lucero"
 
     - title: "John Nash meets Jorge Hirsch: Scale Invariant Citation Indices"
       speaker:
         name: "Bill Zwicker"
         affiliation: "Union College"
-      joint_work: "Josep Freixas, Roger Hoerl."
+        url: https://www.union.edu/mathematics/faculty-staff/william-s-zwicker
+      abstract: >
+        A number of citation indices have been proposed for measuring and ranking the research publication records of scholars. Some of the best-known indices, such as those proposed by Hirsch and Woeginger, are designed to reward most highly those records that strike some balance between productivity (number of papers published) and impact (frequency with which those papers are cited). A large number of rarely cited publications will not score well, nor will a very small number of heavily cited papers. We propose several new citation indices, each resting on the notion of scale invariance, as introduced by John Nash in his solution of the two-person bargaining problem. Our main focus is on one of these—a scale invariant version of the Hirsch index. We argue that it has advantages over the original; it produces fairer rankings within subdisciplines, is more decisive (discriminates more finely, yielding fewer ties) and more dynamic (growing over time via more frequent, smaller increments). Simulations with Poisson noise suggest that scale invariance reduces the number of "accidental" reversals, wherein random irregularities cause researcher A to receive a lower index value than B, although A's productivity and impact are both slightly higher than B's. Moreover, we provide an axiomatic characterization of the scale invariant Hirsch index, via axioms that bear a close relationship, in discrete analogue, to those used by Nash. This argues for the mathematical naturality of the new index.
+      joint_work: "Josep Freixas and Roger Hoerl"
 
 - date: 2021-05-28
+  chair: Ulle Endriss
   presentations:
     - title: "Swap Dynamics in Single-Peaked Housing Markets"
       speaker:
         name: "Nicolas Maudet"
         affiliation: "Paris"
-      joint_work: "Aurélie Beynier, Simon Rey, Parham Shams."
+        url: https://nmaudet.gitlab.io/
+      abstract: >
+        We consider a set of voters making a collective decision via simultaneous vote on two binary issues. Voters' preferences are captured by payoffs assigned to combinations of outcomes for each issue and they can be nonseparable: a voter's preference over an issue might be dependent on the other issue. When the collective decision in this context is reached by voting on both issues at the same time, multiple election paradoxes may arise, as studied extensively in the theoretical literature. In this paper we pursue an experimental approach and investigate the impact of iterative voting, in which groups deliberate by repeating the voting process until a final outcome is reached. Our results from experiments run in the lab show that voters tend to have an optimistic rather than a pessimistic behaviour when casting a vote on a non-separable issue and that iterated voting may in fact improve the social outcome. We provide the first comprehensive empirical analysis of individual and collective behavior in the multiple referendum setting.
+      joint_work: "Aurélie Beynier, Simon Rey, Parham Shams"
 
     - title: "Expansion Consistency in Voting"
       speaker:
         name: "Eric Pacuit"
         affiliation: "Maryland"
-      joint_work: "Wes Holliday."
+        url: https://pacuit.org/
+      abstract: >
+        Sen introduced the gamma condition, also known as expansion consistency, as  part of a  characterization of  choice functions representable by a binary relation. Following Bordes, we consider expansion as an axiom on voting methods—as well as a natural weakening of expansion hinted at by Bordes, which we call binary expansion.   Surveying standard voting methods, there is an apparent connection between the degree of resoluteness of a voting method and whether it satisfies (binary) expansion.   We explain this observation with a new impossibility theorem: There is no voting method satisfying anonymity, neutrality, binary expansion, and an axiom we call quasi-resoluteness, which requires a single winner in any profile without tied margins.   Finally, we explore the frequency with which some voting methods violate binary expansion using computer simulations.
+      joint_work: "Wes Holliday"
 
 - date: 2021-05-14
+  chair: Vincent Merlin
   presentations:
     - title: "Algorithmic Techniques for Necessary and Possible Winners"
       speaker:
         name: "Julia Stoyanovich"
         affiliation: "New York"
-      joint_work: "Vishal Chakraborty, Théo Delemazure, Benny Kimelfeld, Phokion Kolaitis, Kunal Relia."
+        url: https://stoyanovich.org/
+      abstract: >
+        We investigate the practical aspects of computing the necessary and possible winners in elections over incomplete voter preferences.  In the case of the necessary winners, we show how to implement and accelerate the polynomial-time algorithm of Xia and Conitzer.  In the case of the possible winners, where the problem is NP-hard, we give a natural reduction to Integer Linear Programming (ILP) for all positional scoring rules and implement it in a leading commercial optimization solver.  Further, we devise optimization techniques to minimize the number of ILP executions and, oftentimes, avoid them altogether. We conduct a thorough experimental study that includes the construction of a rich benchmark of election data based on real and synthetic data.  Our  findings suggest that, the worst-case intractability of the possible winners notwithstanding, the algorithmic techniques presented here scale well and can be used to compute the possible winners in realistic scenarios.
+      joint_work: "Vishal Chakraborty, Théo Delemazure, Benny Kimelfeld, Phokion Kolaitis, Kunal Relia"
 
     - title: "Searching, Sorting, and Cake Cutting in Rounds"
       speaker:
         name: "Simina Brânzei"
         affiliation: "Purdue"
+        url: https://simina.info/
+      abstract: >
+        We consider a set of voters making a collective decision via simultaneous vote on two binary issues. Voters' preferences are captured by payoffs assigned to combinations of outcomes for each issue and they can be nonseparable: a voter's preference over an issue might be dependent on the other issue. When the collective decision in this context is reached by voting on both issues at the same time, multiple election paradoxes may arise, as studied extensively in the theoretical literature. In this paper we pursue an experimental approach and investigate the impact of iterative voting, in which groups deliberate by repeating the voting process until a final outcome is reached. Our results from experiments run in the lab show that voters tend to have an optimistic rather than a pessimistic behaviour when casting a vote on a non-separable issue and that iterated voting may in fact improve the social outcome. We provide the first comprehensive empirical analysis of individual and collective behavior in the multiple referendum setting.
 
 - date: 2021-04-23
+  chair: Edith Elkind
   presentations:
     - title: "Semantics and Complexity of Queries on Election Databases"
       speaker:
         name: "Phokion Kolaitis"
         affiliation: "UC Santa Cruz & IBM"
+        url: https://users.soe.ucsc.edu/~kolaitis/
+      abstract: >
+        Election databases are the main elements of a new framework that aims to create bridges between the computational social choice and the data management communities. An election database contains incomplete information about the preferences of voters (in the form of partial orders), alongside with standard database relations that provide contextual information.  The availability of the relational context allows for the formulation of sophisticated queries about voting rules, candidates, winners, issues, and positions on issues. We introduce the necessary answer semantics and the possible answer semantics to queries on election databases and explore the computational complexity of query evaluation under these semantics.
       joint_work: "Benny Kimelfeld, Julia Stoyanovich, Muhammad Tibi"
     - title: "Opinion Diffusion with Heterogeneous Agents in a Dynamic Network"
       speaker:
         name: "Judy Goldsmith"
         affiliation: "Kentucky"
+        url: https://www.cs.uky.edu/~goldsmit/
+      abstract: >
+        I will present recent work with Patrick Shepherd and Mia Weaver on modeling opinion diffusion in networks with homophilic, heterophilic, and adversarial agents.  We assume that the network can apply triadic closure, but agents can unfriend each other in order to increase their utility.  This work serves to highlight Shepherd's social network software package, which can also support simulations in any social-network-based social choice processes. I will briefly mention our ongoing work on modeling individuals' willingness to confront biased remarks, and on learning agent strategies for epidemic responses.
       joint_work: "Isaac Batts, Abigail Folberg, Emory Hufbauer, Jennifer Hunt, Hana Khamfroush, Patrick Shepherd, Mia Weaver, Angela Zhang"
 
 - date: 2021-04-09
   presentations:
     - title: "Rump Session"
       speaker: null
-      joint_work: null
 
 - date: 2021-03-25
+  chair: Bill Zwicker
   presentations:
     - title: "A Natural Adaptive Process for Collective Decision-Making"
       speaker:
         name: "Felix Brandt"
         affiliation: "Munich"
+        url: https://www.cs.cit.tum.de/en/dss/brandt/
+      abstract: >
+        Consider an urn filled with balls, each labelled with one of several possible collective decisions. Now, draw two balls from the urn, let a random voter pick her more preferred as the collective decision, relabel the losing ball with the collective decision, put both balls back into the urn, and repeat. In order to prevent the permanent disappearance of some types of balls, a randomly drawn ball is labelled with a random collective decision once in a while. We prove that the empirical distribution of collective decisions converges towards the outcome of a celebrated probabilistic voting rule proposed by Peter C. Fishburn (Rev. Econ. Stud., 51(4), 1984). The proposed procedure has analogues in nature recently studied in biology, physics, and chemistry. It is more flexible than traditional voting rules because it does not require a central authority, elicits very little information, and allows agents to arrive, leave, and change their preferences over time.
       joint_work: "Florian Brandl"
     - title: "The Median Rule in Judgment Aggregation: Extension to Weighted Judgment Contexts"
       speaker:
         name: "Klaus Nehring"
         affiliation: "UC Davis"
+        url: https://faculty.econ.ucdavis.edu/faculty/nehring/
+      abstract: >
+        A judgement aggregation rule takes the views of a collection of voters over a set of interconnected issues and yields a logically consistent collective view. The median rule is a judgement aggregation rule that selects the logically consistent view which minimizes the average distance to the views of the voters (where the "distance" between two views is the number of issues on which they disagree). In the special case of preference aggregation, this is called the Kemeny rule. We show that, under appropriate regularity conditions, the median rule is the unique judgement aggregation rule which satisfies three axioms: Ensemble Supermajority Efficiency, Reinforcement, and Continuity. Our analysis covers aggregation problems in which the consistency restrictions on input and output judgements may differ. We also allow for issues to be weighted, and provide numerous examples in which issue weights arise naturally. The generalization to the weighted case requires non-trivial combinatorial conditions on the structure of the input and output spaces.
       joint_work: "Marcus Pivato"
 
 - date: 2021-03-11
+  chair: Jérôme Lang
   presentations:
     - title: "Stable Fractional Matchings"
       speaker:
         name: "Rohit Vaish"
         affiliation: "Mumbai"
+        url: https://rohitvaish.in/
+      abstract: >
+        In this talk, I will discuss a generalization of the classical stable matching problem that allows for cardinal preferences (as opposed to ordinal) and fractional matchings (as opposed to integral). In this cardinal setting, stable fractional matchings can have much higher social welfare than their integral counterparts. This motivates the natural question of understanding the computational complexity of finding an optimal (i.e., welfare-maximizing) stable fractional matching. I will present simple approximation algorithms for this problem with weak welfare guarantees and show that, somewhat surprisingly, achieving better approximations is computationally hard. To the best of our knowledge, these are the first computational complexity results for stable fractional matchings. I will also discuss some structural observations as well as directions for future research.
       joint_work: "Ioannis Caragiannis, Aris Filos-Ratsikas, Panagiotis Kanellopoulos"
+      links:
+        - https://arxiv.org/abs/1902.06698
     - title: "Scalable Equilibrium Computation in Multi-agent Influence Games on Networks"
       speaker:
         name: "John Dickerson"
         affiliation: "Maryland"
+        url: https://jpdickerson.com/
+      abstract: >
+        In games of influence, agents have limited advertising budget to influence the initial predisposition of nodes in some network towards their products, but the eventual decisions of the nodes are determined by the stationary state of DeGroot opinion dynamics on the network, which takes over after the seeding. In multi-agent systems, how should agents spend their budgets to seed the network to maximize their utility in anticipation of other advertising agents and the network dynamics? In this talk, we will discuss our recent polynomial-time, scalable algorithm for equilibrium computation in multi-agent influence games on networks, extending work of Bindel, Kleinberg, and Oren (2015) from the single-agent to the multi-agent setting. Specifically, we showed that Nash equilibria of this game are pure and (under weak assumptions) unique, and can be computed in polynomial time. We will also discuss a preliminary test of our model in the two-agent case on random graphs, where equilibria can be computed using mirror descent.
       joint_work: "Fotini Christia, Michael Curry, Constantinos Daskalakis, Erik Demaine, MohammadTaghi Hajiaghayi, Adam Hesterberg, Marina Knittel, Aidan Milliff"
 
 - date: 2021-02-25
+  chair: Vincent Merlin
   presentations:
     - title: "Pure Strategy Nash Equilibrium in the Spatial Model with Valence: Existence and Characterization"
       speaker:
         name: "Ashley Piggins"
         affiliation: "Galway"
+        url: https://www.universityofgalway.ie/our-research/people/business-and-economics/ashleypiggins/
+      abstract: >
+        Pure strategy Nash equilibria (PSNE) almost never exist in spatial majority voting games when the number of positional dimensions is at least two.  This is a persisting foundational issue with the spatial model.  However, positive results are possible when we add a valence parameter to the model.  For example, it is known that an equilibrium exists in a majority voting game if and only if the radius of the yolk, a classic concept in the spatial theory, is less than the square root of the valence parameter.  We prove a general theorem that enables us to characterize the set of all PSNE for every spatial voting game with valence.  We complement this by establishing an equilibrium existence theorem based on a new concept, the b-yolk.
       joint_work: "Mathieu Martin, Zéphirin Nganmeni, Élise F. Tchouante"
     - title: "Distortion-Information Tradeoffs in Social Choice and Matching via Queries"
       speaker:
         name: "Aris Filos-Ratsikas"
         affiliation: "Liverpool"
+        url: https://arisfilosratsikas.com/
+      abstract: >
+        Aggregating the preferences of individuals into a collective decision is the core subject of study of social choice theory. In 2006, Procaccia and Rosenschein considered a utilitarian social choice setting, where the agents have explicit numerical values for the alternatives, yet they only report their linear orderings over them. To compare different aggregation mechanisms, Procaccia and Rosenschein introduced the notion of distortion, which quantifies the inefficiency of using only ordinal information when trying to maximize the social welfare, i.e., the sum of the underlying values of the agents for the chosen outcome. Since then, this research area has flourished and bounds on the distortion have been obtained for a wide variety of fundamental scenarios. However, the vast majority of the existing literature is focused on the case where nothing is known beyond the ordinal preferences of the agents over the alternatives.  We take a more expressive approach, and consider mechanisms that are allowed to further ask a few cardinal queries in order to gain partial access to the underlying values that the agents have for the alternatives. With this extra power, we design new deterministic mechanisms that achieve significantly improved distortion bounds and, in many cases, outperform the best-known randomized ordinal mechanisms. We consider both the setting of general social choice and one-sided matching, and provide bounds on the possible tradeoffs between the distortion and the amount of information elicited.
       joint_work: "Georgios Amanatidis, Georgios Birmpas, Alexandros Voudouris"
 
 - date: 2021-02-11
+  chair: Bill Zwicker
   presentations:
     - title: "Dynamically Rational Judgment Aggregation"
       speaker:
         name: "Franz Dietrich"
         affiliation: "Paris"
+        url: http://www.franzdietrich.net/
+      abstract: >
+        A key goal in judgment aggregation theory has always been to make collective judgments rational. So far, rationality has been understood in purely static terms: as coherence of judgments at a given time, where 'coherence' could for instance mean consistency, or completeness, or deductive closure, or combinations thereof. By contrast, this paper studies whether and how collective judgments can be dynamically rational, so that they respond well to new information, i.e., change rationally when information is learnt by everyone. Formally, we call a judgment aggregation rule dynamically rational with respect to a given revision operator if, whenever all individuals revise their judgments in light of some information (a proposition), then the new aggregate judgments are the old ones revised in light of this information. In short, aggregation and revision commute. We establish a general impossibility theorem: as long as the propositions on the agenda are sufficiently interconnected, no judgment aggregation rule with standard properties is dynamically rational with respect to any revision operator satisfying mild conditions (familiar from belief revision theory). The theorem is a counterpart for dynamic rationality of known impossibility theorems for static rationality. Turning to possibilities, the paper then makes a first attempt to restore dynamic rationality, by showing that certain rules ('hierarchy rules') generate dynamic rationality with respect to special ('hierarchical') revision operators. Like the familiar 'priority rules', such rules are guided by priorities between the propositions.
       joint_work: "Christian List"
-      link: "http://franzdietrich.net/Papers/DietrichList-DynamicallyRationalJA.pdf"
+      links:
+        - "http://franzdietrich.net/Papers/DietrichList-DynamicallyRationalJA.pdf"
     - title: "Two-Stage Majoritarian Choice"
       speaker:
         name: "Sean Horan"
         affiliation: "Montréal"
+        url: https://sites.google.com/site/smhoran/
+      abstract: >
+        We propose a class of decisive collective choice rules that rely on an exogenous linear ordering to partition the majority relation into two acyclic relations. The first relation is used to make a shortlist of the feasible alternatives before the second is used to make a final choice. Rules in this class are characterized by four properties: two classical rationality requirements (Sen's expansion consistency and Manzini and Mariotti's weak WARP); and adaptations of two natural collective choice conditions (Arrow's independence of irrelevant alternatives and Saari and Barney's no preference reversal bias). These rules also satisfy a number of other desirable properties, including a version of May's positive responsiveness.
       joint_work: "Yves Sprumont"
 
 - date: 2021-01-28
+  chair: Edith Elkind
   presentations:
     - title: "Multiagent Ranked Delegations in Voting"
       speaker:
         name: "Umberto Grandi"
         affiliation: "Toulouse"
+        url: https://www.irit.fr/~Umberto.Grandi/
+      abstract: >
+        We propose a generalisation of liquid democracy in which a voter can either vote directly on the issues at stake, delegate her vote to another voter, or express complex delegations to a set of trusted voters. By requiring a ranking of desirable delegations and a backup vote from each voter, we are able to put forward and compare algorithms to solve delegation cycles and obtain a final collective decision.
       joint_work: "Rachael Colley, Arianna Novaro"
     - title: "Participatory Budgeting with Project Interactions"
       speaker:
         name: "Nimrod Talmon"
         affiliation: "Ben-Gurion"
+        url: https://sites.google.com/view/zutot/
+      abstract: >
+        Participatory budgeting systems allow city residents to jointly decide on projects they wish to fund using public money, by letting residents vote on such projects. While participatory budgeting is gaining popularity, existing aggregation methods do not take into account the natural possibility of project interactions, such as substitution and complementarity effects. Here we take a step towards fixing this issue by augmenting the standard model of participatory budgeting with a partition over the projects where we model the type and extent of project interactions within each part using certain functions. We study the computational complexity of finding bundles that maximize voter utility, as defined with respect to such functions. Motivated by the desire to incorporate project interactions in real-world participatory budgeting systems, we identify certain cases that admit efficient aggregation in the presence of such project interactions.
       joint_work: "Pallavi Jain, Krzysztof Sornat"
 
 - date: 2021-01-14
+  chair: Ulle Endriss
   presentations:
     - title: "Testing Axioms against Human Reward Divisions in Cooperative Games"
       speaker:
         name: "Kate Larson"
         affiliation: "Waterloo"
+        url: https://cs.uwaterloo.ca/~klarson/
+      abstract: >
+        Axiomatic approaches are an appealing method for designing fair allocation algorithms, as they provide a formal structure for reasoning about and rationalizing individual decisions. However, to make these algorithms useful in practice, their axioms must appropriately capture social norms. We explore this tension between fairness axioms and socially acceptable decisions in the context of cooperative game theory for the fair division of rewards.  We use two crowdsourced experiments to study people’s impartial reward divisions in cooperative games, focusing on games that systematically vary the values of the single-player coalitions. Our results show that people select rewards that are remarkably consistent, but place much more emphasis on the single-player coalitions than the Shapley value does. Further, their reward divisions violate both the null player and additivity axioms but support weaker axioms. We argue for a more general methodology of testing axioms against experimental data, retaining some of the conceptual simplicity of the axiomatic approach while still using people’s opinions to drive the design of algorithms.
       joint_work: "Greg d'Eon"
     - title: "On Rational Choice from Lists of Sets"
       speaker:
         name: "Ernesto Savaglio"
         affiliation: "Pescara"
+        url: https://sites.google.com/site/ernestonasavaglio/home
+      abstract: >
+        We analyse the rationality of a Decision Maker (DM) who chooses from lists of sets of alternatives. A new class of choice functions, representing DM's choice behaviour, and a novel rationality axiom named No-Regret (NR) are introduced. We show that the NR property, which suggests ignoring alternatives disregarded in a previous choice procedure, is related to the famous rationality axioms Outcast, Heritage and Path-independence. Such relationships depend on implementations of choice functions on lists of sets by means of the standard choice function on alternatives. We point out that No-Regret is a rationality criterion that encompasses these compelling properties of the classical choice model and extends them to the more general framework of choice from lists of sets of alternatives.
       joint_work: "Gleb Koshevoy"
 
 - date: 2020-12-17
+  chair: Piotr Faliszewski
+  presentations:
+    - title: "Axiomatic Characterization of PageRank"
+      speaker:
+        name: "Oskar Skibski"
+        affiliation: "Warsaw"
+        url: https://www.mimuw.edu.pl/~oski/
+      abstract: >
+        We study the problem of identifying the most important nodes in a network. We propose to use an axiomatic approach to build a theoretical foundation for choosing a centrality measure in a specific setting. We propose six simple properties and prove that PageRank is the only centrality measure that satisfies all of them. Our axiomatization is the first axiomatic characterization of PageRank in its general form in the literature.
+      joint_work: "Tomasz Was"
+    - title: "Bounding Distortion under Metric Preferences using Awareness of Voter Passion"
+      speaker:
+        name: "Elliot Anshelevich"
+        affiliation: "RPI"
+        url: https://www.cs.rpi.edu/~eanshel/
+      abstract: >
+        Distortion measures the inefficiency of using only ordinal information when attempting to select an optimal outcome, instead of the unknown numerical information. For example, in social choice applications, agents may have numerical costs for each of the possible alternatives, but the mechanism must decide on a good alternative based only on the ordinal preferences of the agents which are induced by the underlying costs. In this talk, I will address bounding distortion under metric preferences, i.e., under the assumption that the agent costs form a metric space and thus obey the triangle inequality. I will specifically focus on how a small amount of additional information about agent preferences can greatly reduce distortion, and the resulting information-distortion tradeoffs.
+      joint_work: "Ben Abramowitz and Wennan Zhu"
+
+- date: 2020-12-03
+  chair: Edith Elkind
   presentations:
     - title: "The Maximin Support Method: An Extension of the D'Hondt Method to Approval-Based Multiwinner Elections"
       speaker:
         name: "Markus Brill"
         affiliation: "Berlin"
+        url: https://sites.google.com/site/brillmarkus/
+      abstract: >
+        We propose the maximin support method, a novel extension of the D'Hondt apportionment method to approval-based multiwinner elections. The maximin support method is a sequential procedure that aims to maximize the support of the least supported elected candidate. It can be computed efficiently and satisfies (adjusted versions of) the main properties of the original D'Hondt method: house monotonicity, population monotonicity, and proportional representation. We also establish a close relationship between the maximin support method and alternative D'Hondt extensions due to Phragmén.
       joint_work: "Luis Sánchez-Fernández, Norberto Fernández García, Jesús A. Fisteus"
     - title: "Maximizing the Spread of an Opinion in Few Steps: Opinion Diffusion in Non-Binary Networks"
       speaker:
         name: "Robert Bredereck"
         affiliation: "Berlin"
-      joint_work: null
+        url: https://robert.bredereck.info/
+      abstract: >
+        We consider the setting of asynchronous opinion diffusion with majority threshold: given a social network with each agent assigned to one opinion, an agent will update its opinion if the majority of its neighbors agree on a different opinion. The stabilized final outcome highly depends on the sequence in which agents update their opinion. We are interested in optimistic sequences−sequences that maximize the spread of a chosen opinion. We complement known results for two opinions where optimistic sequences can be computed in time and length linear in the number of agents. We analyze upper and lower bounds on the length of optimistic sequences, showing quadratic bounds in the general and linear bounds in the acyclic case. Moreover, we show that in networks with more than two opinions determining a spread-maximizing sequence becomes intractable; surprisingly, already with three opinions the intractability results hold in highly restricted cases, e.g., when each agent has at most three neighbors, when looking for a short sequence, or when we aim for approximate solutions.
 
 - date: 2020-11-12
+  chair: Vincent Merlin
   presentations:
     - title: "Universal Guarantees in Bargaining"
       speaker:
         name: "Hervé Moulin"
         affiliation: "Glasgow"
+        url: https://www.gla.ac.uk/schools/business/staff/hervemoulin/
+      abstract: >
+        In the n-person bargaining model, the familiar Mid-point Domination property guarantees my worst utility if I have a 1/n-th chance of dictating the outcome. Another natural Guarantee gives to each participant the right to veto her fair share of outcomes. Yet another sets the disagreement utility at the arithmetic average of all outcomes. Maintaining equal treatment of agents and outcomes, and vNM utilities, the set of such Guarantees is of infinite dimension even with two agents and three outcomes. The natural subset of rank-additive Guarantees is of finite dimension, and in two-agent problems it boils down to the convex combinations of the veto Guarantees above. But more complicated options are  feasible among three or more agents.
       joint_work: "Anna Bogomolnaia"
     - title: "Voter Coordination in Large Elections: A Case for Approval Voting"
       speaker:
         name: "Matías Núñez"
         affiliation: "Paris"
-      joint_work: "François Durand, Antonin Macé"
+        url: https://sites.google.com/site/matiasnunezrodriguez/
+      abstract: >
+        We study the potential for voter coordination in large elections. Drawing on equilibrium analysis and numerical simulations, we compare the three most basic rules for 3-candidate elections, under which voters may vote for exactly one candidate (Plurality Voting), for exactly two candidates (Anti-Plurality) or for one or two candidates (Approval Voting). As well-known since Duverger (1951), Plurality Voting allows for voter coordination, but the election is indeterminate: at least two candidates are plausible winners. By contrast, coordination always fails under Anti-Plurality Voting. We further show that Approval voting always permits coordination when a Condorcet winner exists, and also ensures that, in most cases, only this normatively appealing candidate can be elected. At the heart of our numerical results lies a novel algorithm computing voter best replies in a large election.
+      joint_work: "François Durand and  Antonin Macé"
 
 - date: 2020-10-29
+  chair: Vincent Merlin
   presentations:
     - title: "Guarantees in Fair Division"
       speaker:
         name: "Anna Bogomolnaia"
         affiliation: "Glasgow"
+        url: https://www.gla.ac.uk/schools/business/staff/annbogomolnaia/
+      abstract: >
+        We consider a fair division problem, with n agents and a set Ω to divide. An individual "guarantee" is a utility level which an agent is regarded as entitled to. It only depends on her preferences and exogenous rights, and on physical constraints of the division problem: the set Ω and the number n of participants (but it should not depend on preferences or other characteristics of other agents). For example, if Ω is a finite set of divisible goods and preferences are non-negative convex, a compelling symmetric and feasible guarantee is individual's utility of (1/n)Ω. If  Ω is arbitrary but preferences are additive non-negative, it would be (1/n)-th of the individual's utility of the whole Ω. We consider a general case, when utilities are continuous, but neither convex nor monotonic, or even positive. In a "cake-cutting" problem, we can always guarantee each agent her minmax utility: that of her best share in the worst possible partition. It is lower than her maxmin utility (that of her worst share in the best possible partition), that cannot always be guaranteed to all agents (even for n=2). Moreover, a little-known generalization of the Divide and Choose algorithm to any number n of agents implements this guarantee with a simple sequence of cuts and queries. These findings rely on the equi-partition lemma, which shows that, for any n and any continuous utility u on a bounded measurable Ω in Euclidean space, one can always find a partition of Ω in n elements with identical utility. This is a highly non-trivial mathematical result, proven in a companion paper by R. Karasev and S. Avvakumov.
       joint_work: "Hervé Moulin"
     - title: "Evolutionary Foundations of the Universalisation Ethics, with Political Applications"
       speaker:
         name: "Jean-François Laslier"
         affiliation: "Paris"
+        url: https://sites.google.com/site/jflaslierhomepage/
+      abstract: >
+        In this talk I will describe the "Homo moralis" model of partial Kantian morality, its evolutionary roots (genetics and culture) and its philosophical interpretation (the universalisation principle). I will present behavioural and political implications for three classical problems in the theory of voting: the divided majority problem, the costly participation dilemma, and the strategic revelation of information.
       joint_work: "Ingela Alger"
 
 - date: 2020-10-15
+  chair: Bill Zwicker
   presentations:
     - title: "What's New in Altruistic Hedonic Games?"
       speaker:
         name: "Jörg Rothe"
         affiliation: "Düsseldorf"
-      joint_work: null
+        url: https://ccc.cs.uni-duesseldorf.de/~rothe/
+      abstract: >
+        Hedonic games are coalition formation games where players have preferences over the coalitions they may join. Considering not only the players’ own (friend-oriented) preferences but also their friends’ preferences in such games, Nguyen et al. (AAMAS'16) introduced and studied three degrees of altruistic hedonic games based on selfish-first, equal-treatment, and altruistic-treatment preferences, which depend on the order in which players look at their own or their friends’ preferences. In this talk, a related approach due to Wiechers and Rothe (STAIRS'20) will be presented: By replacing the average by the minimum in their definitions, we introduce the corresponding minimum-based variants of the same three degrees of altruism. As innocent as this definitional change appears, it is as fundamental as switching from utilitarian to egalitarian social welfare. We study this novel concept of altruism in hedonic games in terms of the common notions of stability in such games, and the related decision problems in terms of their computational complexity.  We also briefly mention an extension, due to Kerkmann and Rothe (IJCAI'20), of the model of altruism in hedonic games to coalition formation games in general.
     - title: "The Smoothed Possibility of Social Choice"
       speaker:
         name: "Lirong Xia"
         affiliation: "RPI"
-      joint_work: null
+        url: https://www.cs.rpi.edu/~xial/
+      abstract: >
+        We develop a framework to leverage the smoothed complexity analysis by Spielman and Teng (2004) to circumvent paradoxes and impossibility theorems in social choice, motivated by the low-stakes, large-scale, and frequently-used modern applications of social choice powered by AI and ML. For Condorcet's paradox, we prove that the smoothed likelihood of the paradox either vanishes at an exponential rate as the number of agents increases, or does not vanish at all. For the folklore impossibility theorem on the non-existence of voting rules that simultaneously satisfy anonymity and neutrality, we characterize the rate for the impossibility to vanish, to be either polynomially fast or exponentially fast. We also propose a novel easy-to-compute tie-breaking mechanism that optimally preserves anonymity and neutrality for even number of alternatives in natural settings. Our results illustrate the smoothed possibility of social choice—even though the paradox and the impossibility theorem hold in the worst case, they may not be a big concern in practice. The main technical tool we developed is a dichotomous characterization of the smoothed likelihood for a Poisson multinomial variable to satisfy a system of linear inequalities, which might be of independent interest and can be used to study various other events in social choice, such as the likelihood of tied elections, likelihood of (weak) Condorcet winner(s) and Condorcet cycles, etc.
       links:
         - "https://arxiv.org/abs/2006.06875"
         - "https://www.cs.rpi.edu/~xial/Files/Smoothed_Ties.pdf"
+
 - date: 2020-10-08
+  chair: Bill Zwicker
   presentations:
     - title: "Proportional Participatory Budgeting with Cardinal Utilities"
       speaker:
         name: "Dominik Peters"
         affiliation: "Harvard"
+        url: https://www.dominik-peters.de/
+      abstract: >
+        We study voting rules for participatory budgeting, where a group of voters collectively decides which projects should be funded using a common budget. We allow the projects to have arbitrary costs, and the voters to have arbitrary additive valuations over the projects. We formulate two axioms that guarantee proportional representation to groups of voters with common interests. To the best of our knowledge, all known rules for participatory budgeting do not satisfy either of the two axioms; in addition we show that the most prominent proportional rules for committee elections (such as Proportional Approval Voting) cannot be adapted to arbitrary costs nor to additive valuations so that they would satisfy our axioms of proportionality. We construct a simple and attractive voting rule that satisfies one of our axioms (for arbitrary costs and arbitrary additive valuations), and that can be evaluated in polynomial time. We prove that our other stronger axiom is also satisfiable, though by a computationally more expensive and less natural voting rule.
       joint_work: "Grzegorz Pierczyński, Piotr Skowron"
-      link: "https://arxiv.org/abs/2008.13276"
+      links:
+        - "https://arxiv.org/abs/2008.13276"
     - title: "Sharing the Revenues from Broadcasting Sports Leagues"
       speaker:
         name: "Juan D. Moreno-Ternero"
         affiliation: "Seville"
+        url: https://sites.google.com/site/jmorenoternero/
+      abstract: >
+        We study the problem of sharing the revenues raised from the collective sale of broadcasting rights for sports leagues. We take the axiomatic approach and derive focal rules, arising from polar estimations of teams' loyal viewers, as well as compromises among them. We bring some of the testable implications from our axiomatic analysis to the real case of European football leagues.
       joint_work: "Gustavo Bergantiños"
       link: "https://mpra.ub.uni-muenchen.de/101139/"
 
 - date: 2020-10-01
+  chair: Edith Elkind
   presentations:
     - title: "Strategy-Proof Mechanisms for Facility Location"
       speaker:
         name: "Toby Walsh"
         affiliation: "Sydney"
-      joint_work: null
+        url: https://www.cse.unsw.edu.au/~tw/
+      abstract: >
+        Facility location is a fundamental problem in social choice with a number of practical application. In this talk, I study the impact on extending mechanisms for locating facilities on the line to mechanisms for locating facilities in Euclidean or Manhattan space. I consider three fundamental axiomatic properties: anonymity, which is a simple fairness property; Pareto optimality, which is one of the most fundamental efficiency properties; and strategy-proofness, which ensures agents have no incentive to mis-report their location. I also consider how well strategy-proof mechanisms can approximate the optimal welfare.
     - title: "Beyond Majority: Label Ranking Ensembles based on Voting Rules"
       speaker:
         name: "Lihi Dery"
         affiliation: "Ariel"
-      joint_work: "Havi Werbin, Erez Shmueli"
-      link: "https://doi.org/10.1016/j.eswa.2019.06.022"
+        url: https://hul.ariel.ac.il/wp/lihi-dery/
+      abstract: >
+        Label ranking is a machine learning problem that is concerned with predicting the order of a set of labels for an object.  Examples include: (a) predicting a ranked list of preferences for a given person, (b) providing an ordered list of the most suitable advertisements for a given Facebook profile, and even (c) predicting the most drug-resistant mutations in a genome. Ensemble models are a common machine learning technique that collects the results of multiple simple models and combines them into a single aggregated output, thus enhancing performance. We propose to apply voting rules as the aggregation technique for label ranking ensembles. Furthermore, we propose a novel aggregation method for label ranking ensembles that learns the best voting rule to be used in each setting. An evaluation of the proposed method shows that it obtains prediction performance that is significantly higher than that of the aggregation techniques currently used by state-of-the-art label ranking ensembles.
+      joint_work: "Havi Werbin and Erez Shmueli"
+      links:
+        - "https://doi.org/10.1016/j.eswa.2019.06.022"
 
 - date: 2020-09-24
+  chair: Ulle Endriss
+  title: "Rump Session"
+
+- date: 2020-09-17
+  chair: Bill Zwicker
   presentations:
-    - title: "Rump Session"
-      speaker: null
-      joint_work: null
     - title: "Multilabeled Versions of Sperner's and Fan's Lemmas and Applications"
       speaker:
         name: "Francis Su"
         affiliation: "Harvey Mudd"
+        url: https://math.hmc.edu/su/
+      abstract: >
+        We propose a general technique related to the polytopal Sperner lemma for proving old and new multilabeled versions of Sperner's lemma. A notable application of this technique yields a cake-cutting theorem where the number of players and the number of pieces can be independently chosen. We also prove multilabeled versions of Fan's lemma, a combinatorial analogue of the Borsuk-Ulam theorem, and exhibit applications to fair division and graph coloring.
       joint_work: "Frédéric Meunier"
-      link: "https://doi.org/10.1137/18M1192548"
+      links:
+        - https://epubs.siam.org/doi/10.1137/18M1192548
     - title: "Learning through the Grapevine: The Impact of Noise and the Breadth and Depth of Social Networks"
       speaker:
         name: "Matthew O. Jackson"
         affiliation: "Stanford"
-      joint_work: "Suraj Malladi, David McAdams"
-      link: "https://ssrn.com/abstract=3269543"
+        url: https://web.stanford.edu/~jacksonm/
+      abstract: >
+        We examine how well people learn when information is noisily relayed from person to person; and we study how communication platforms can improve learning without censoring or fact-checking messages. We analyze learning as a function of social network depth (how many times information is relayed) and breadth (the number of relay chains accessed). Noise builds up as depth increases, so learning requires greater breadth. In the presence of mutations (deliberate or random) and transmission failures of messages, we characterize sharp thresholds for breadths above which receivers learn fully and below which they learn nothing. When there is uncertainty about mutation rates, optimizing learning requires either capping depth, or if that is not possible, limiting breadth by capping the number of people to whom someone can forward a message. Limiting breadth cuts the number of messages received but also decreases the fraction originating further from the receiver, and so can increase the signal to noise ratio. Finally, we extend our model to study learning from message survival: e.g., people are more likely to pass messages with one conclusion than another. We find that as depth grows, all learning comes from either the total number of messages received or from the content of received messages, but the learner does not need to pay attention to both.
+      joint_work: "Suraj Malladi and David McAdams"
+      links:
+        - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269543
 
-- date: 2020-09-17
+- date: 2020-09-10
+  chair: Ulle Endriss
   presentations:
     - title: "Unanimous and Strategy-proof Probabilistic Rules for Single-peaked Preference Profiles on Graphs"
       speaker:
         name: "Hans Peters"
         affiliation: "Maastricht"
+        url: https://cris.maastrichtuniversity.nl/en/persons/hans-peters
+      abstract: >
+        Finitely many agents have preferences on a finite set of alternatives, single-peaked with respect to a connected graph with these alternatives as vertices. A probabilistic rule assigns to each preference profile a probability distribution over the alternatives. First, all unanimous and strategy-proof probabilistic rules are characterized when the graph is a tree. These rules are uniquely determined by their outcomes at those preference profiles where all peaks are on leafs of the tree, and thus extend the known case of a line graph. Second, it is shown that every unanimous and strategy-proof probabilistic rule is random-dictatorial if and only if the graph has no leafs. Finally, the two results are combined to obtain a general characterization for every connected graph by using its block tree representation.
       joint_work: "Souvik Roy, Soumyarup Sadhukan"
-      link: null
     - title: "Bayesian Social Aggregation with Accumulating Evidence"
       speaker:
         name: "Marcus Pivato"
         affiliation: "Cergy"
-      joint_work: null
-      link: "Working Paper"
+        url: https://sites.google.com/site/marcuspivato/
+      abstract: >
+        How should we aggregate the ex ante preferences of Bayesian agents with heterogeneous beliefs? Suppose the state of the world is described by a random process that unfolds over time. Different agents have different beliefs about the probabilistic laws governing this process. As new information is revealed over time by the process, agents update their beliefs and preferences via Bayes rule. Consider a Pareto principle that applies only to preferences which remain stable in the long run under these updates. I show that this "eventual Pareto" principle implies that the social planner must be a utilitarian. But it does not impose any relationship between the beliefs of the individuals and those of the planner.
+      links:
+        - https://drive.google.com/file/d/18L1uA2OStIMu-uHNBEvW8NYYv8rk0OfP/view
 
-- date: 2020-09-10
+- date: 2020-09-04
+  chair: Ulle Endriss
   presentations:
     - title: "Manipulation of Opinion Polls to Influence Iterative Elections"
       speaker:
         name: "Dorothea Baumeister"
         affiliation: "Düsseldorf"
-      joint_work: "Ann-Kathrin Selker, Anaëlle Wilczynski"
-      link: null
+        url: https://sites.google.com/view/dorothea-baumeister
+      abstract: >
+        In classical elections, voters only submit their ballot once, whereas in iterative voting, the ballots may be changed iteratively. In this talk I consider the case where a social network represents an underlying structure between the voters, meaning that each voter can see her neighbors' ballots. In addition, there is a polling agency, which publicly announces the result for the initial vote. I will present results on the manipulative power of the polling agency for the destructive case.
+      joint_work: "Ann-Kathrin Selker and Anaëlle Wilczynski"
     - title: "Fair Cake Division Under Monotone Likelihood Ratios"
       speaker:
         name: "Siddharth Barman"
         affiliation: "Bangalore"
+        url: https://www.csa.iisc.ac.in/~barman/
+      abstract: >
+        The cake-cutting problem provides a model for addressing fair allocation of a divisible resource (metaphorically, the cake) among agents with distinct preferences. Classic results of Stromquist (1980) and Su (1999) show that envy-free (fair) cake divisions are guaranteed to exist under mild conditions. These strong existential results essentially follow from fixed-point theorems and stand without an algorithmic counterpart; Stromquist (2008) has shown that an envy-free cake division with contiguous pieces cannot be computed in bounded time. In this talk I will present a result which complements these existential (and non-constructive) guarantees by way of developing efficient cake-cutting algorithms for a broad class of valuations. In particular, our algorithmic result holds when the agents' valuations are induced by linear translations of any log-concave function, such as Gaussian, exponential, linear, or binomial.
       joint_work: "Nidhi Rathi"
-      link: "https://arxiv.org/abs/2006.00481"
+      links:
+        - "https://arxiv.org/abs/2006.00481"
 
 - date: 2020-08-20
+  chair: Edith Elkind
   presentations:
     - title: "Manipulation in Secret Sharing"
       speaker:
         name: "Arkadii Slinko"
         affiliation: "Auckland"
+        url: https://www.math.auckland.ac.nz/~slinko/
+      abstract: >
+        Secret sharing is a cryptographic implementation of a power-sharing agreement in society. At the centre of it is 'the secret', which is a string of 0 and 1 by knowing which a certain activity can be launched: accessing a bitcoin wallet; launching a nuclear warhead; signing a message on behalf of a large organisation, e.g., Adobe. The power structure is given by the set of authorised coalitions−coalitions who are authorised to launch the activity. We consider the digital forensics aspects of secret sharing.  Sometimes an investigation is needed to establish: Who made this suspicious transaction with bitcoins? Who signed this offensive letter? Who opened a certain vault? We investigate the problem of framing, which occurs when a coalition is able to calculate the share of a participant who does not belong to it.  In the extreme case one authorised coalition can calculate shares of another authorised coalition and use the secret  in some way blaming another authorised coalition for their action. We show that in any efficient and secure secret-sharing scheme framing is unavoidable.
       joint_work: "Yvo Desmedt, Songbao Mo"
-      link: null
     - title: "The Vigilant Eating Rule: A General Approach for Probabilistic Economic Design with Constraints"
       speaker:
         name: "Haris Aziz"
         affiliation: "Sydney"
+        url: https://sites.google.com/site/harisaziz/
+      abstract: >
+        We consider the problem of probabilistic allocation of objects under ordinal preferences. Our main contribution is an allocation mechanism, called the vigilant eating rule (VER), that applies to nearly arbitrary distributional constraints. It is constrained ordinally-efficient, can be computed efficiently for a large class of constraints, and treats agents equally if they have the same preferences and are subject to the same constraints. When the set of feasible allocations is convex, we also present a characterization of our rule based on ordinal egalitarianism. Our general results concerning VER do not just apply to allocation problems but to any collective choice problem in which agents have ordinal preferences over discrete outcomes. As a case study, we assume objects have priorities for agents and apply VER to sets of probabilistic allocations that are constrained by stability. VER coincides with the (extended) probabilistic serial rule when priorities are flat and the agent-proposing deterministic deferred acceptance algorithm when preferences and priorities are strict. While VER always returns a stable and constrained efficient allocation, it fails to be strategyproof, unconstrained efficient, and envy-free. We show, however, that each of these three properties is incompatible with stability and constrained efficiency.
       joint_work: "Florian Brandl"
 
 - date: 2020-07-23
+  chair: Bill Zwicker
+  comment: >
+    This July many of us were hoping to travel to Israel for the 8th International Workshop on Computational Social Choice. This is a special session, with two speakers from Israel, organised to mark this occasion.
   presentations:
     - title: "A Market-Inspired Bidding Scheme for Peer Review Paper Assignment"
       speaker:
         name: "Reshef Meir"
         affiliation: "Technion"
-      joint_work: "Natan Kaminsky, Jérôme Lang, Julien Lesca, Nicholas Mattei"
-      link: null
+        url: https://reshef.net.technion.ac.il/
+      abstract: >
+        We propose a market-inspired bidding scheme for the assignment of paper reviews in large academic conferences. The primary contribution is an analysis of the incentives of reviewers during the bidding phases, when reviewers have private costs and some information about the demand for each paper, and want to obtain the best possible k  papers for a predetermined k. We show that by assigning budgets to reviewers and a 'price' for every paper that is (roughly) inversely proportional to its  demand, the best response of a reviewer is to bid sincerely, i.e., on her most favorite papers, and match the budget even when it is not enforced.  Finally, we show via extensive simulations on bidding data from real conferences, that our suggested bidding scheme would substantially improve the assignment, under several common assignment algorithms.
+      joint_work: "Natan Kaminsky, Jérôme Lang, Julien Lesca and Nicholas Mattei"
     - title: "New Quantitative and Qualitative Aspects of Social Choice Theory"
       speaker:
         name: "Gil Kalai"
         affiliation: "Jerusalem"
-      joint_work: null
+        url: http://www.ma.huji.ac.il/~kalai/
+      abstract: >
+        Arrow's theorem is a far-reaching extension of Condorcet's paradox for the majority rule to general voting rules. We will ask to what extent other properties of the majority rule have such wide extensions, and what are some properties of the majority rule that distinguish it from other voting rules. 
 
 - date: 2020-07-10
+  chair: Dominik Peters
   presentations:
     - title: "The Core for Housing Markets with Limited Externalities"
       speaker:
         name: "Bettina Klaus"
         affiliation: "Lausanne"
+        url: https://www.bklaus.net/
+      abstract: >
+        We  propose a variant of the housing market model à la Shapley and Scarf (1974) that incorporates a limited form of externality in consumption; that is, agents care both about their own consumption (selfish preferences) and about the agent who receives their endowment (altruistic preferences). First, we consider different domains of preference relations by taking selfish and altruistic aspects of preferences into account (separable preferences, additive separable preferences, and selfish and/or altruistic lexicographic preferences) and several results regarding the core for such housing markets are collected. Second, if preferences are either selfish lexicographic or altruistic lexicographic, we characterize the corresponding top trading cycles rule by individual rationality, Pareto optimality, and strategy-proofness. Since on the lexicographic preference domains the core can be multi-valued, our characterization sheds light on the fact that the properties that also characterized the strict core rule for Shapley-Scarf housing markets (Ma, 1994) characterize the top trading cycles rule and not the strict core rule (or correspondence).
       joint_work: "Claudia Meo"
-      link: null
     - title: "We Need a Little More Space: A Few More Spatial Problems"
       speaker:
         name: "Omer Lev"
         affiliation: "Ben-Gurion"
-      joint_work: "Zack Fitzsimmons, Alexander Karpov, Svetlana Obraztsova"
+        url: https://tzin.bgu.ac.il/~omerlev/
+      abstract: >
+        Spatial models in voting have received a lot of attention in recent years, both in the physical sense (e.g., gerrymandering) as well as the conceptual sense (e.g., distortion). We will show two separate threads of spatial problems, which have received less attention recently. One deals with the well-known Hotelling-Downs model, adapted to the more common (in COMSOC literature) winner-take-all setting. We characterize Nash equilibria for multiple voting rules, and try to measure the "amount" of equilibria, by measuring the probability of randomly reaching a NE. The second deals with the problem of placing voting locations, in which we show many settings of the problem are difficult even to approximate (but a few are not!). Both problems present a rich set of questions which require further exploration.
+      joint_work: "Zack Fitzsimmons, Alexander Karpov and Svetlana Obraztsova"
 
 - date: 2020-07-03
+  chair: Edith Elkind
   presentations:
     - title: "Collective Decision Making under Incomplete Knowledge: Possible and Necessary Solutions: Survey Talk"
       speaker:
         name: "Jérôme Lang"
         affiliation: "Paris"
-      joint_work: null
+        url: https://www.lamsade.dauphine.fr/~lang/
+      abstract: >
+        Solution concepts in collective decision making are usually defined assuming complete knowledge of individuals' preferences and of the mechanism used for aggregating them. This is often impractical or unrealistic. Under incomplete knowledge, a solution advocated by many consists in  quantifying over all completions of the incomplete preference profile (or all instantiations of the incompletely specified mechanism). Voting rules can be 'modalized' this way (leading to the notions of possible and necessary winners), and also efficiency and fairness notions in fair division, stability concepts in coalition formation, and more. The talk will give a very brief survey of works along this line, focusing on examples.
     - title: "Axiomatic Justification of Election Outcomes"
       speaker:
         name: "Ulle Endriss"
         affiliation: "Amsterdam"
+        url: https://staff.fnwi.uva.nl/u.endriss/
+      abstract: >
+        In social choice theory, we routinely attempt to justify the use of a given voting rule on axiomatic grounds. In this talk, I instead want to ask the question of what it might mean to directly justify an election outcome on axiomatic grounds. A possible answer, I will argue, is that a justification has two parts: a set of normative principles (meaning, axioms) and a step-by-step explanation of how those principles force us to choose the outcome in question for a given profile of preferences. I will also discuss recent work on the use of tools from the field of automated reasoning to compute such justifications.
       joint_work: "Arthur Boixel"
-      link: "http://www.ifaamas.org/Proceedings/aamas2020/pdfs/p168.pdf"
+      links:
+        - https://www.ifaamas.org/Proceedings/aamas2020/pdfs/p168.pdf
 
 - date: 2020-06-26
+  chair: Andrei Gomberg
+  comment: >
+    This June many of us were hoping to travel to Mexico for the 15th Meeting of the Society for Social Choice and Welfare. To mark this occasion we are organising two special sessions with speakers from Mexico as well as some of the original keynote speakers. This is the second of these sessions.
   presentations:
     - title: "Who Cares More: Allocation with Diverse Preference Intensities"
       speaker:
         name: "Leeat Yariv"
         affiliation: "Princeton"
-      joint_work: "Pietro Ortoleva, Evgenii Safonov"
-      link: null
+        url: https://www.lyariv.com/
+      abstract: >
+        Goods and services—public housing, medical appointments, schools—are often allocated to individuals who rank them similarly but differ in their preference intensities. We characterize optimal allocation rules in such settings, considering both the case in which individual preferences are known and ones in which they need to be elicited. Several insights emerge. First-best allocations may involve allocating to some agents lotteries between very high-ranked and very low-ranked goods. When preference intensities are private information, second-best allocations always involve such lotteries and, crucially, may coincide with first-best allocations. Second-best allocations may also entail disposal of services. We also discuss market-based alternative approach and show how it differs.
+      joint_work: "Pietro Ortoleva abd Evgenii Safonov"
     - title: "Time-Consistent Rational Inattention is Entropic"
       speaker:
         name: "Tetsuya Hoshino"
         affiliation: "ITAM"
-      joint_work: null
+        url: https://sites.google.com/view/tetsuyahoshino
+      abstract: >
+        We study a dynamic rational inattention problem in which, each period, an agent acquires costly information about an evolving state and chooses an action. A dynamic rational inattention problem is time-consistent if its value function satisfies the dynamic programming principle. The main result is that if every dynamic rational inattention problem is time-consistent then the cost function is entropic—that is, linear in the reduction in entropy of beliefs. This result corresponds to the converse to Steiner, Stewart, and Matějka (2017), who showed that every dynamic rational inattention problem with entropy costs is time-consistent. 
 
 - date: 2020-06-19
+  chair: Vincent Merlin
+  comment: >
+    This June many of us were hoping to travel to Mexico for the 15th Meeting of the Society for Social Choice and Welfare. To mark this occasion we organised two special sessions with speakers from Mexico as well as some of the original keynote speakers. This is the first of these sessions.
   presentations:
     - title: "Electoral Maldistricting"
       speaker:
         name: "Roman Pancs"
         affiliation: "ITAM"
-      joint_work: "Andrei Gomberg, Tridib Sharma"
-      link: null
+        url: https://sites.google.com/site/romanspancs/
+      abstract: >
+        We introduce the framework to examine, both theoretically and empirically, (geographic) electoral maldistricting. Maldistricting is defined as electoral districting in pursuit of a policy or incumbency objective at the expense of social welfare. Thanks to a revelation principle-like property of our environment, analysis is performed on the set of implementable (via some districting) legislatures. Implementable legislatures are characterized multiply, including in terms of their informativeness about voter ideology. Maldistricting is quantified by an observed legislature’s distance from welfare-maximizing legislatures relative to the maldistricted ones.  If voter turnout can vary across geographic locations, electoral districting becomes more delicate.
+      joint_work: "Andrei Gomberg and Tridib Sharma"
     - title: "All Sequential Allotment Rules are Obviously Strategy-proof"
       speaker:
         name: "Jordi Massó"
         affiliation: "Barcelona"
-      joint_work: "Pablo Arribillaga, Alejandro Neme"
-      link: null
+        url: https://sites.google.com/view/jordi-masso/home
+      abstract: >
+        For the division problem with single-peaked preferences (Sprumont, 1991) we show that all sequential allotment rules, identified by Barberà, Jackson and Neme (1997) as the class of strategy-proof, efficient and replacement-monotonic rules, are also obviously strategy-proof. Although obvious strategy-proofness is in general more restrictive than strategy-proofness, this is not the case in this setting.
+      joint_work: "Pablo Arribillaga and Alejandro Neme"
 
 - date: 2020-06-05
+  chair: Vincent Merlin
   presentations:
     - title: "Resolving the Optimal Metric Distortion Conjecture"
       speaker:
         name: "Nisarg Shah"
         affiliation: "Toronto"
-      joint_work: null
-      link: null
+        url: https://www.cs.toronto.edu/~nisarg/
+      abstract: >
+        In the metric distortion framework of voting, voters and candidates lie in a metric space, and each voter ranks the candidates by their distance from her. The voting rule takes only the preference rankings as input, and picks a candidate that approximately minimizes the total distance from the voters. The distortion of a rule is its worst-case approximation ratio. A major conjecture in this framework is that the optimal deterministic voting rule has distortion 3. We resolve this conjecture positively by constructing a new voting rule that has distortion 3. We do so by proving a novel lemma about matching rankings of candidates to candidates, which may be of independent interest. We also provide parametric distortion bounds and improved bounds for randomized rules.
     - title: "Fairness in Kidney Exchange Programmes"
       speaker:
         name: "Péter Biró"
         affiliation: "Budapest"
-      joint_work: null
+        url: https://mechanismdesign.eu/biro/
+      abstract: >
+        Most of the large European countries are operating national kidney exchange programmes (KEPs) with various policies and performances. The primal objective is always to maximise the number of transplants, but increased attention is being paid to the quality of transplants as well, especially when compatible or ABO-incompatible pairs are incentivised to join these programmes instead of conducting a direct transplant. We argue that the concept of stability can play an important role in future applications due to individual fairness and incentive considerations. Furthermore, fairness concepts can also become crucial at country level when multiple countries are joining their pools. In this talk we will review the recent developments on the aspects of individual and collective fairness for KEPs from both theoretical and practical point of views, starting with a story from the 2008 COMSOC conference. 
 
 - date: 2020-05-29
+  chair: Bill Zwicker
   presentations:
     - title: "Resolution Rules in a System of Financially Linked Firms"
       speaker:
         name: "Gabrielle Demange"
         affiliation: "Paris"
-      joint_work: null
+        url: https://www.parisschoolofeconomics.eu/en/demange-gabrielle/
+      abstract: >
+        The reimbursement abilities of firms holding liabilities on each other are intertwined, potentially generating coordination failures and defaults through uncontrolled contagion. In stress episodes, these linkages thus call for an orderly resolution, as implemented by a regulatory authority assigning the amount each firm within the system reimburses to each other one. The paper studies such resolution by considering 'rules', assuming their primary goal is to avoid default on external debts, say, banks' defaults on deposits. The main objective is to investigate what proportionality means for a rule, taking into account various legal and informational constraints.
     - title: "A Learning Framework for Distribution-Based Game-Theoretic Solution Concepts"
       speaker:
         name: "Yair Zick"
         affiliation: "Singapore"
+        url: https://people.cs.umass.edu/~yzick/
+      abstract: >
+        The past few years have seen several works on learning economic solutions from data; these include optimal auction design, function optimization, stable payoffs in cooperative games and more. In this work, we provide a unified learning-theoretic methodology for modeling such problems, and establish tools for determining whether a given economic solution concept can be learned from data. Our learning theoretic framework generalizes a notion of function space dimension -- the graph dimension -- adapting it to the solution concept learning domain. We identify sufficient conditions for the PAC learnability of solution concepts, and show that results in existing works can be immediately derived using our methodology. Finally, we apply our methods in other economic domains, yielding a novel notion of PAC competitive equilibrium and PAC Condorcet winners.
       joint_work: "Tushant Jha"
 
-- date: 2020-05-22
+- date: 2020-05-15
+  title: "Rump Session"
+
+- date: 2020-05-15
+  chair: Haris Aziz
+  presentations:
+    - title: "Game-Theoretic Analysis for Two-Sided Matching with Resource Allocation"
+      speaker:
+        name: "Makoto Yokoo "
+        affiliation: "Kyushu University"
+        url: https://sites.google.com/view/makoto-yokoo/
+      abstract: >
+        In this work, we consider a student-project-resource matching-allocation problem, where students have preferences over projects and the projects have preferences over students. Although students are many-to-one matched to projects, indivisible resources are many-to-one allocated to projects whose capacities are endogenously determined by the resources allocated to them. Traditionally, this problem is decomposed into two separate problems: (1) resources are allocated to projects based on expectations (resource allocation problem), and (2) students are matched to projects based on the capacities determined in the previous problem (matching problem).  Although both problems are well-understood, if the expectations used in the first are incorrect, we obtain a suboptimal outcome. Thus, this problem must be solved as a whole without dividing it in two parts.  We show that no strategyproof mechanism satisfies fairness (i.e., no student has justified envy) and weak efficiency requirements on students' welfare. Given this impossibility result, we develop a new strategyproof mechanism that strikes a good balance between fairness and efficiency and assess it by experiments.
+    - title: "Fair Division of Mixed Divisible and Indivisible Goods"
+      speaker:
+        name: "Xiaohui Bei"
+        affiliation: "Nanyang Technological University"
+        url: https://people.cs.umass.edu/~yzick/
+      abstract: >
+        In this talk, we will discuss the challenges of defining fairness and designing fair division algorithms when the resources to be allocated contain both divisible and indivisible goods. Classic fairness notions such as envy-freeness (EF) and envy-freeness up to one good (EF1) cannot be directly applied to the mixed goods setting. We propose a new fairness notion envy-freeness for mixed goods (EFM), which is a direct generalization of both EF and EF1 to the mixed goods setting. We show that an EFM allocation always exists for any number of agents and discuss how to find an ε-EFM allocation in polynomial time in the Robertson-Webb model.
+      joint_work: "Zihao Li, Jinyan Liu, Shengxin Liu, and Xinhang Lu"
+
+- date: 2020-05-08
+  chair: Edith Elkind
   presentations:
     - title: "Popular Roommate Assignments"
       speaker:
         name: "Ágnes Cseh"
         affiliation: "Potsdam"
-      joint_work: null
-      link: "https://arxiv.org/abs/1807.01112"
+        url: https://sites.google.com/site/csehagnes88/
+      abstract: >
+        Popularity is an optimality notion that connects the Condorcet criterion known from voting with stability known from matchings under preferences. The popular roommates problem is defined on a non-bipartite graph, where each vertex submits a strictly ordered preference list of its neighbors. A matching M is popular if there is no matching N such that vertices that prefer N to M outnumber those that prefer M to N. The complexity of finding a popular matching had been open for a long time before its solution last year. In this talk, we review recent progress on complexity, approximation, and algorithms for this problem.
+      links:
+        - "https://arxiv.org/abs/1807.01112"
     - title: "A Solution to the Two-person Implementation Problem"
       speaker:
         name: "Remzi Sanver"
         affiliation: "Paris"
-      joint_work: "Jean-François Laslier, Matías Núñez"
+        url: https://sanver.bilgi.edu.tr/
+      abstract: >
+        We propose strike mechanisms as a solution to the classical problem of Hurwicz and Schmeidler (1978) and Maskin (1999) according to which, in two-person societies, no Pareto efficient rule is Nash-implementable. A strike mechanism specifies the number of alternatives that each player vetoes. Each player simultaneously casts these vetoes and the mechanism selects randomly one alternative among the unvetoed ones. For strict preferences over alternatives and under a very weak condition for extending preferences over lotteries, these mechanisms are deterministic-in-equilibrium. They Nash-implement a class of Pareto efficient social choice rules called Pareto-and-veto rules. Moreover, under mild richness conditions on the domain of preferences over lotteries, any Pareto efficient Nash-implementable rule is a Pareto-and-veto rule and hence is implementable through a strike mechanism.
+      joint_work: "Jean-François Laslier and Matías Núñez"
 
-- date: 2020-05-15
+- date: 2020-05-01
+  chair: Ulle Endriss
   presentations:
     - title: "Drawing a Map of Elections in the Space of Statistical Cultures"
       speaker:
         name: "Piotr Faliszewski"
         affiliation: "Kraków"
-      joint_work: "Stanislaw Szufa, Piotr Skowron, Nimrod Talmon, Arkadii Slinko"
-      link: null
+        url: https://home.agh.edu.pl/~faliszew/
+      abstract: >
+        We consider the problem of forming a testbed of elections to be used for various election-related experiments (such as testing algorithms or estimating the frequency of a given phenomenon). We seek elections that come from well-known statistical distributions and are as diverse as possible. To this end, we define a (pseudo)metric over elections, generate a large set of election instances, and measure distances between them, to assess how diverse they are. We argue that our metric is a reasonable choice, and we show how the resulting set of elections can be used to evaluate election-related algorithms.
+      joint_work: "Stanislaw Szufa, Piotr Skowron, Nimrod Talmon and Arkadii Slinko"
     - title: "Strategy-Proofness implies Minimal Participation if Voting is Costly"
       speaker:
         name: "Clemens Puppe"
         affiliation: "Karlsruhe"
+        url: https://micro.econ.kit.edu/english/puppe.php
+      abstract: >
+        We study a model in which agents with single-peaked preferences can participate in a costly voting procedure to determine the value of a one-dimensional variable. We show that, for all positive participation cost and all profiles of individual preferences, there exists a generically unique equilibrium with one single participant whenever the voting mechanism is strategy-proof, anonymous, and responsive in the sense that the outcome reacts to a unanimous move of the votes of all agents in the same direction. Since this single participant is never the median voter, we obtain as a corollary that no deterministic mechanism can implement the median if all participants vote according to their unique dominant strategy; even worse, the peak of the single participant in equilibrium is maximally far away from the median voter. By contrast, there are simple probabilistic strategy-proof mechanisms that yield the median as outcome. Inspired by this observation, we investigate if the median can be ‘approximately implemented’ by a natural deterministic counterpart, and come to a negative conclusion.
       joint_work: "Michael Müller"
+      links:
+        - https://surfdrive.surf.nl/files/index.php/s/XxEjQZo2isaJbVU
 
-- date: 2020-05-01
+- date: 2020-04-24
+  chair: Dominik Peters
   presentations:
     - title: "Computational Social Choice for Moral Artificial Intelligence"
       speaker:
         name: "Vincent Conitzer"
         affiliation: "Duke"
-      joint_work: "Lok Chan, Yuan Deng, John Dickerson, Kenzie Doyle, Rachel Freedman, Max Kramer, Duncan McElfresh, Jana Schaich Borg, Walter Sinnott-Armstrong, Hanrui Zhang"
-      link: null
+        url: https://www.cs.cmu.edu/~conitzer/
+      abstract: >
+        Many algorithms in AI require an objective function to be specified.  When such an algorithm is to be deployed in the real world, it is often not obvious what the objective function should be.  For example, there are often nontrivial ethical tradeoffs.  Generally, stakeholders will disagree on how these should be made.  Moreover, even for themselves, they will generally not be able to write down a complete objective function; perhaps at most, they can be asked to make a few judgments on some concrete examples.  How do we aggregate these individual judgments into an objective function for the algorithm to use?
+      joint_work: "Lok Chan, Yuan Deng, John Dickerson, Kenzie Doyle, Rachel Freedman, Max Kramer, Duncan McElfresh, Jana Schaich Borg, Walter Sinnott-Armstrong and Hanrui Zhang"
     - title: "Keeping Your Friends Close: Land Allocation with Friends"
       speaker:
         name: "Edith Elkind"
         affiliation: "Oxford"
-      joint_work: "Neel Patel, Alan Tsang, Yair Zick"
-      link: "https://arxiv.org/abs/2003.03558"
+        url: https://www.cs.ox.ac.uk/people/edith.elkind/
+      abstract: >
+        We examine the problem of assigning plots of land to prospective buyers who prefer living next to their friends. They care not only about the plot they receive, but also about their neighbors. This externality results in a highly non-trivial problem structure, as both friendship and land value play a role in determining agent behavior. We examine mechanisms that guarantee truthful reporting of both land values and friendships. We propose variants of random serial dictatorship (RSD) that can offer both truthfulness and welfare guarantees. Interestingly, our social welfare guarantees are parameterized by the value of friendship: if these values are low, enforcing truthful behavior results in poor welfare guarantees and imposes significant constraints on agents' choices; if they are high, we achieve good approximation to the optimal social welfare.
+      joint_work: "Neel Patel, Alan Tsang and Yair Zick"
+      links:
+        - "https://arxiv.org/abs/2003.03558"
