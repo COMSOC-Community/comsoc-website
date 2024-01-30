@@ -26,3 +26,5 @@ Methods from social choice theory may face challenges when dealing with a large 
 - Y. Chevaleyre, U. Endriss, J. Lang, and N. Maudet. [A Short Introduction to Computational Social Choice](http://staff.science.uva.nl/~ulle/pubs/files/ChevaleyreEtAlSOFSEM2007.pdf). In *Proceedings of the 33rd Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM-2007)*, LNCS 4362, Springer-Verlag, 2007.
 
 - F. Brandt, V. Conitzer, U. Endriss, J. Lang, and A.D. Procaccia, editors. [Handbook of Computational Social Choice](http://www.cambridge.org/download_file/951600). Cambridge University Press, 2016.
+
+- U. Endriss, editor. [Trends Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/Book/). AI Access, 2017.

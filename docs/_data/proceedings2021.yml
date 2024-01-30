@@ -15,7 +15,7 @@
     - Felix Brandt
     - Martin Bullinger
     - Patrick Lederer
-  pdf_file: BrandtEtAl.pdf
+  pdf_file: BrandtEtAl-2.pdf
 
 - title: Finding and Recognizing Popular Coalition Structures
   authors:
@@ -174,7 +174,7 @@
     - Davide Grossi
     - Ehud Shapiro
     - Nimrod Talmon
-  pdf_file: ElkindEtAl.pdf
+  pdf_file: ElkindEtAl-3.pdf
 
 - title: A Closer Look at the Cake-Cutting Foundations through the Lens of Measure Theory
   authors:
@@ -198,14 +198,14 @@
     - Dorothea Baumeister
     - Linus Boes
     - Robin Weishaupt
-  pdf_file: BaumeisterEtAl.pdf
+  pdf_file: BaumeisterEtAl-1.pdf
 
 - title: Relaxed Notions of Condorcet-Consistency and Efficiency for Strategyproof Social Decision Schemes
   authors:
     - Felix Brandt
     - Patrick Lederer
     - René Romen
-  pdf_file: BrandtEtAl.pdf
+  pdf_file: BrandtEtAl-1.pdf
 
 - title: Four Faces of Altruistic Hedonic Games
   authors:
@@ -217,7 +217,7 @@
   authors:
     - Dorothea Baumeister
     - Tobias Hogrebe
-  pdf_file: BaumeisterEtAl.pdf
+  pdf_file: BaumeisterHogrebe.pdf
 
 - title: Online selection of diverse committees
   authors:
@@ -247,7 +247,7 @@
     - Edith Elkind
     - Erel Segal-Halevi
     - Warut Suksompong
-  pdf_file: ElkindEtAl.pdf
+  pdf_file: ElkindEtAl-1.pdf
 
 - title: Approval-Based Apportionment
   authors:
@@ -289,7 +289,7 @@
     - Niclas Boehmer
     - Markus Brill
     - Ulrike Schmidt-Kraepelin
-  pdf_file: BoehmerEtAl.pdf
+  pdf_file: BoehmerEtAl-2.pdf
 
 - title: Designing Participatory Budgeting Mechanisms Grounded in Judgment Aggregation
   authors:
@@ -309,7 +309,7 @@
     - Dorothea Baumeister
     - Ann-Kathrin Selker
     - Anaelle Wilczynski
-  pdf_file: BaumeisterEtAl.pdf
+  pdf_file: BaumeisterEtAl-2.pdf
 
 - title: Behavioral Stable Marriage Problems
   authors:
@@ -338,7 +338,7 @@
     - Robert Bredereck
     - Piotr Faliszewski
     - Rolf Niedermeier
-  pdf_file: BoehmerEtAl.pdf
+  pdf_file: BoehmerEtAl-3.pdf
 
 - title: Putting a Compass on the Map of Elections
   authors:
@@ -347,7 +347,7 @@
     - Piotr Faliszewski
     - Rolf Niedermeier
     - Stanisław Szufa
-  pdf_file: BoehmerEtAl.pdf
+  pdf_file: BoehmerEtAl-1.pdf
 
 - title: "The Price is (Probably) Right: Learning Market Equilibria from Samples"
   authors:
@@ -369,7 +369,7 @@
     - Neel Patel
     - Alan Tsang
     - Yair Zick
-  pdf_file: ElkindEtAl.pdf
+  pdf_file: ElkindEtAl-2.pdf
 
 - title: Making Group Decisions from Natural Language-Based Preferences
   authors:
@@ -424,7 +424,7 @@
     - Yotam Gafni
     - Ron Lavi
     - Moshe Tennenholtz
-  pdf_file: GafniEtAl.pdf
+  pdf_file: GafniEtAl-2.pdf
 
 - title: Unified Fair Allocation for Indivisible Goods and Chores via Copies
   authors:
@@ -432,7 +432,7 @@
     - Xin Huang
     - Ron Lavi
     - Inbal Talgam-Cohen
-  pdf_file: GafniEtAl.pdf
+  pdf_file: GafniEtAl-1.pdf
 
 - title: Best-of-Both-Worlds Fair-Share Allocations
   authors:
