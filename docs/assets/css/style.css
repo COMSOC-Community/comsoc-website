@@ -114,8 +114,19 @@ header {
   color: #FFFFFF;
   background-color: #998877;
   text-align: center;
-  padding: 25px 25px;
+  padding: 25px;
   margin-bottom: 40px;
+}
+
+/* ===
+Footer
+=== */
+
+footer {
+  color: #FFFFFF;
+  background-color: #998877;
+  text-align: center;
+  padding: 5px 20px;
 }
 
 /* ======

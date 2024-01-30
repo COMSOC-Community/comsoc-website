@@ -61,6 +61,9 @@ Where `URL_TO_WEBSITE` is the path at which the website is anchored.
 
 This is useful to serve old COMSOC Workshop websites for instance.
 
+Note that Server Side Includes like `<!--#include file="header.html" -->` are not supported.
+If you have a website that uses them, you should first flatten it.
+
 ## Development
 
 The website is developped in Jekyll to provide easy integration with the GitHub tools. 
