@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Steering Committee
+title: Community | COMSOC
 ---
 
 # Mailing List

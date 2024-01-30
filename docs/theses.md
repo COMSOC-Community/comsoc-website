@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Theses
+title: Theses | COMSOC
 ---
 
 # PhD Theses
 
-This is an (incomplete) list of PhD theses in the field of computational social choice, listed in inverse chronological order. I welcome suggestions for further additions; just send me an <a href="mailto:ulle.endriss@uva.nl">email</a>.
+This is an (incomplete) list of PhD theses in the field of computational social choice, listed in inverse chronological order.
+Suggestions for further additions are more than welcome, ping us on <a href="https://github.com/Simon-Rey/comsoc-website">GitHub</a>.
 
 {% assign theses_by_year = site.data.theses | group_by: "year" %}
 

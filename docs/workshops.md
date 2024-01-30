@@ -1,6 +1,6 @@
 ---
 layout: default
-title: COMSOC Workshop
+title: Workshop Series | COMSOC
 ---
 
 # The COMSOC Workshop Series
@@ -26,7 +26,7 @@ These workshops occur biannually, with the exception of 2020 due to the COVID-19
   Toulouse, 22-24 June 2016
 
 - [COMSOC-2014: 5th International Workshop on Computational Social Choice](http://www.cs.cmu.edu/~arielpro/comsoc-14/)  
-  ( [Proceedings](proceedings/comsoc-2014/) )  
+  ( [Proceedings](proceedings/2014/) )  
   Pittsburgh, 23-25 June 2014
 
 - [COMSOC-2012: 4th International Workshop on Computational Social Choice](http://home.agh.edu.pl/~faliszew/COMSOC-2012/)  

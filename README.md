@@ -1,5 +1,13 @@
-# comsoc-website
-The main website for the ComSoC community
+# The COMSOC Cumminity Website
+
+This is the main website used by the Computation Social Choice (COMSOC) research community.
+This website is intended to serve as a general presentation platform of COMSOC while also
+providing all kinds of relevant resources and information to COMSOC researchers.
+
+This website is made for the community *by* the community. If you want to 
+contribute to its development, or think that some changes are needed, please use this 
+GitHub page (or contact us if you don't know what to do). General instructions for the
+most common modifications are provided below.
 
 ## How To
 
@@ -52,3 +60,44 @@ Where `URL_TO_WEBSITE` is the path at which the website is anchored.
 - You are done.
 
 This is useful to serve old COMSOC Workshop websites for instance.
+
+## Development
+
+The website is developped in Jekyll to provide easy integration with the GitHub tools. 
+It should be relatively easy for anyone to make some changes even if they are not very
+familiar with Jekyll.
+
+All the source files for the website are placed in the `docs` folder (because of GitHub 
+Page requirements).
+
+### Layouts
+
+The general layouts of the pages are described in the `_layouts` folder. These layours
+define the general structure of every page.
+
+### Pages
+
+All pages are described in markdown files mostly located in the root of the `docs` folder.
+
+They all start with such a header that indicates which layout together with additional
+information:
+
+```
+---
+layout: default
+title: This is the Title of the Page
+---
+```
+
+Note that markdown files can incorporate HTML tags if you need more flexibility on the
+display.
+
+### Style
+
+The CSS style sheet is located in the `assets/css` folder.
+
+### Data
+
+Many pages (theses, video seminars, proceedings...) are automatically constructed
+based on some data. These data files are located in the `_data` folder. They are
+all `.yml` file which syntax can be easily deduced from an example.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: COMSOC
+title: Computation Social Choice
 ---
 
 # What is Computational Social Choice?

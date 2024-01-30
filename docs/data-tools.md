@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data & Tools
+title: Data & Tools | COMSOC
 ---
 
 # Data & Tools

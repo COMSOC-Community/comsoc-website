@@ -8,7 +8,7 @@
   authors:
     - Rica Gonen
     - Erel Segal-Halevi
-  pdf_file: GonenEtAl.pdf
+  pdf_file: GonenSegalHalevi.pdf
 
 - title: On the Indecisiveness of Kelly-Strategyproof Social Choice Functions
   authors:
@@ -56,7 +56,7 @@
   authors:
     - Jobst Heitzig
     - Forest W. Simmons
-  pdf_file: HeitzigEtAl.pdf
+  pdf_file: HeitzigSimmons.pdf
 
 - title: Reaping the Informational Surplus in Bayesian Persuasion
   authors:
@@ -119,7 +119,7 @@
   authors:
     - Ao Liu
     - Lirong Xia
-  pdf_file: LiuEtAl.pdf
+  pdf_file: LiuXia.pdf
 
 - title: Strategy-Proofness implies Minimal Participation if Voting is Costly
   authors:
@@ -211,7 +211,7 @@
   authors:
     - Anna Maria Kerkmann
     - Jörg Rothe
-  pdf_file: KerkmannEtAl.pdf
+  pdf_file: KerkmannRothe.pdf
 
 - title: Complexity of Scheduling and Predicting Round-Robin Tournaments
   authors:
@@ -282,7 +282,7 @@
   authors:
     - Yuzhe Zhang
     - Davide Grossi
-  pdf_file: ZhangEtAl.pdf
+  pdf_file: ZhangGrossi.pdf
 
 - title: "Selecting Matchings via Multiwinner Voting: How Structure Defeats a Large Candidate Space"
   authors:
@@ -322,7 +322,7 @@
   authors:
     - Andrei Constantinescu
     - Edith Elkind
-  pdf_file: ConstantinescuEtAl.pdf
+  pdf_file: ConstantinescuElkind.pdf
 
 - title: On (Coalitional) Exchange-Stable Matching
   authors:
@@ -482,7 +482,7 @@
   authors:
     - Michał Jaworski
     - Piotr Skowron
-  pdf_file: JaworskiEtAl.pdf
+  pdf_file: JaworskiSkowron.pdf
 
 - title: An Analysis of Approval-Based Committee Rules for 2D-Euclidean Elections
   authors:

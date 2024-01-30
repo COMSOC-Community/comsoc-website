@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Events
+title: Related Venues | COMSOC
 ---
 
 # Related Venues
+
+We provide below an non-exhausted list of related venues that can be of interest to COMSOC researchers.
 
 ## Summer Schools
   - [Summer School on Computational Social Choice](https://events.illc.uva.nl/comsoc-school-2023/)  

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Video Seminar
+title: Video Seminar | COMSOC
 ---
 
 # COMSOC Video Seminar
