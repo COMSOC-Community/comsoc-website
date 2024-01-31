@@ -209,3 +209,16 @@ Main Menu
     display: block;
   }
 }
+
+/* ===============
+Video Seminar Page
+=============== */
+
+.video-seminar-event-title {
+  padding: 15px 0;
+  border-block-end: 1px #998877 solid;
+}
+
+.video-seminar-event-title > .video-link {
+  font-size: smaller;
+}
