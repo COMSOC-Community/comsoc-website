@@ -15,7 +15,7 @@ Suggestions for further additions are more than welcome, ping us on <a href="htt
 <ul>
     {% for thesis in year.items %}
         <li>
-            {{ thesis.name }} ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
+            <strong>{{ thesis.name }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
             <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>
             {% if thesis.supervisors.size == 1 %}
                 Supervisor: {{ thesis.supervisors[0] }}

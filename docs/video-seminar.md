@@ -44,12 +44,17 @@ to present and attend.
 {% if presentation.joint_work %}<p>Joint work with: {{ presentation.joint_work }}</p>{% endif %}
 
 {% if presentation.links %}
+{% if presentation.links.size > 1 %}
 <ul>
 {% for link in presentation.links %}
 <li><a href="{{ link }}">{{ link }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<p><a href="{{ presentation.links[0] }}">{{ presentation.links[0] }}</a></p>
 {% endif %}
+{% endif %}
+
 </div>
 {% endfor %}
 </div>
