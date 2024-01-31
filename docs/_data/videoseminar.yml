@@ -1394,8 +1394,7 @@
         for any n and any continuous utility u on a bounded measurable Ω in Euclidean space, one can always find a partition of Ω in n elements with 
         identical utility. This is a highly non-trivial mathematical result, proven in a companion paper by R. Karasev and S. Avvakumov.
       joint_work: "Hervé Moulin"
-      links:
-        - https://drive.google.com/file/d/1ADKz3zKLYK3srX8ekRnFsiGpf3seWBPZ/view
+      slides_link: https://drive.google.com/file/d/1ADKz3zKLYK3srX8ekRnFsiGpf3seWBPZ/view
     - title: "Evolutionary Foundations of the Universalisation Ethics, with Political Applications"
       speaker:
         name: "Jean-François Laslier"
@@ -1407,7 +1406,7 @@
         problems in the theory of voting: the divided majority problem, the costly participation dilemma, and the strategic revelation of information.
       joint_work: "Ingela Alger"
       links:
-        - https://drive.google.com/file/d/1ESWEMZtPqguSshQPsTEmpZwjm2XQQkGE/view
+      slides_link: https://drive.google.com/file/d/1ESWEMZtPqguSshQPsTEmpZwjm2XQQkGE/view
 
 - date: 2020-10-15
   chair: Bill Zwicker
@@ -1429,8 +1428,7 @@
         study this novel concept of altruism in hedonic games in terms of the common notions of stability in such games, and the related decision 
         problems in terms of their computational complexity.  We also briefly mention an extension, due to Kerkmann and Rothe (IJCAI'20), of the model
         of altruism in hedonic games to coalition formation games in general.
-      video_links:
-        - https://drive.google.com/file/d/1pg2YsQiAK8dJSFmo3lk2cpjhj1KIeuOk/view
+      slides_link: https://drive.google.com/file/d/1pg2YsQiAK8dJSFmo3lk2cpjhj1KIeuOk/view
     - title: "The Smoothed Possibility of Social Choice"
       speaker:
         name: "Lirong Xia"
@@ -1450,7 +1448,7 @@
       links:
         - "https://arxiv.org/abs/2006.06875"
         - "https://www.cs.rpi.edu/~xial/Files/Smoothed_Ties.pdf"
-        - https://drive.google.com/file/d/1_b1GSzT86xPZ1yK9hvyb47y-LBv9AqgC/view
+      slides_link: https://drive.google.com/file/d/1_b1GSzT86xPZ1yK9hvyb47y-LBv9AqgC/view
 
 - date: 2020-10-08
   chair: Bill Zwicker
@@ -1481,7 +1479,7 @@
       joint_work: "Grzegorz Pierczyński, Piotr Skowron"
       links:
         - "https://arxiv.org/abs/2008.13276"
-        - https://drive.google.com/file/d/1FIf5mSVR9twiUwzYvbXj2oldueFKTUOF/view
+      slides_link: https://drive.google.com/file/d/1FIf5mSVR9twiUwzYvbXj2oldueFKTUOF/view
     - title: "Sharing the Revenues from Broadcasting Sports Leagues"
       speaker:
         name: "Juan D. Moreno-Ternero"
@@ -1497,7 +1495,7 @@
       joint_work: "Gustavo Bergantiños"
       links:
         - "https://mpra.ub.uni-muenchen.de/101139/"
-        - https://drive.google.com/file/d/1iGgc-VBwK1zhVW0Bj3hizABTPuR-dphK/view
+      slides_link: https://drive.google.com/file/d/1iGgc-VBwK1zhVW0Bj3hizABTPuR-dphK/view
 
 - date: 2020-10-01
   chair: Edith Elkind
@@ -1516,8 +1514,7 @@
         fairness property; Pareto optimality, which is one of the most fundamental efficiency properties; and strategy-proofness,
         which ensures agents have no incentive to mis-report their location. I also consider how well strategy-proof mechanisms
         can approximate the optimal welfare.
-      links:
-        - https://drive.google.com/file/d/1Cc9dd226FtYU6J0JR1xZDZ1_Ep6XRSqA/view
+      slides_link: https://drive.google.com/file/d/1Cc9dd226FtYU6J0JR1xZDZ1_Ep6XRSqA/view
     - title: "Beyond Majority: Label Ranking Ensembles based on Voting Rules"
       speaker:
         name: "Lihi Dery"
@@ -1536,7 +1533,7 @@
       joint_work: "Havi Werbin and Erez Shmueli"
       links:
         - "https://doi.org/10.1016/j.eswa.2019.06.022"
-        - https://drive.google.com/file/d/1bums8d9Olr_PxVEnXzIwmRy9BwAiAs4X/view
+      slides_link: https://drive.google.com/file/d/1bums8d9Olr_PxVEnXzIwmRy9BwAiAs4X/view
 
 - date: 2020-09-24
   chair: Ulle Endriss
@@ -1572,7 +1569,7 @@
       joint_work: "Frédéric Meunier"
       links:
         - https://epubs.siam.org/doi/10.1137/18M1192548
-        - https://drive.google.com/file/d/1kFmQy72CXKd4N__3u8BTyKUj8JJ_WDI0/view
+      slides_link: https://drive.google.com/file/d/1kFmQy72CXKd4N__3u8BTyKUj8JJ_WDI0/view
     - title: "Learning through the Grapevine: The Impact of Noise and the Breadth and Depth of Social Networks"
       speaker:
         name: "Matthew O. Jackson"
@@ -1595,7 +1592,7 @@
       joint_work: "Suraj Malladi and David McAdams"
       links:
         - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3269543
-        - https://drive.google.com/file/d/1SDYDiMBWryU-V3SRWuGZuT5WwjOyTJXH/view
+      slides_link: https://drive.google.com/file/d/1SDYDiMBWryU-V3SRWuGZuT5WwjOyTJXH/view
 
 - date: 2020-09-10
   chair: Ulle Endriss
@@ -1617,8 +1614,7 @@
         Finally, the two results are combined to obtain a general characterization for every connected graph by using
         its block tree representation.
       joint_work: "Souvik Roy and Soumyarup Sadhukan"
-      links:
-        - https://drive.google.com/file/d/1YQq_2cKIYX0Xb9eldIZtV0XiriYNpzIV/view
+      slides_link: https://drive.google.com/file/d/1YQq_2cKIYX0Xb9eldIZtV0XiriYNpzIV/view
     - title: "Bayesian Social Aggregation with Accumulating Evidence"
       speaker:
         name: "Marcus Pivato"
@@ -1634,7 +1630,7 @@
         of the individuals and those of the planner.
       links:
         - https://drive.google.com/file/d/18L1uA2OStIMu-uHNBEvW8NYYv8rk0OfP/view
-        - https://drive.google.com/file/d/1FuI6659Zb1nyitUny5KBn67y9OlON3px/view
+      slides_link: https://drive.google.com/file/d/1FuI6659Zb1nyitUny5KBn67y9OlON3px/view
 
 - date: 2020-09-04
   chair: Ulle Endriss
@@ -1653,8 +1649,7 @@
         which publicly announces the result for the initial vote. I will present results on the manipulative power of the
         polling agency for the destructive case.
       joint_work: "Ann-Kathrin Selker and Anaëlle Wilczynski"
-      links:
-        - https://drive.google.com/file/d/1YHnlMxqYtL0PFBjsVQLfskvYuDQTw-KO/view
+      slides_link: https://drive.google.com/file/d/1YHnlMxqYtL0PFBjsVQLfskvYuDQTw-KO/view
     - title: "Fair Cake Division Under Monotone Likelihood Ratios"
       speaker:
         name: "Siddharth Barman"
@@ -1673,7 +1668,7 @@
       joint_work: "Nidhi Rathi"
       links:
         - "https://arxiv.org/abs/2006.00481"
-        - https://drive.google.com/file/d/1rFQIAAarMMkWAwMYWkKgfKF9w50gHGdD/view
+      slides_link: https://drive.google.com/file/d/1rFQIAAarMMkWAwMYWkKgfKF9w50gHGdD/view
 
 - date: 2020-08-20
   chair: Edith Elkind
@@ -1698,8 +1693,7 @@
         coalition and use the secret  in some way blaming another authorised coalition for their action. We show that in
         any efficient and secure secret-sharing scheme framing is unavoidable.
       joint_work: "Yvo Desmedt and Songbao Mo"
-      links:
-        - https://drive.google.com/file/d/1I_eTF0aPsQjcU78xHLSsMtmJynplNOMI/view
+      slides_link: https://drive.google.com/file/d/1I_eTF0aPsQjcU78xHLSsMtmJynplNOMI/view
     - title: "The Vigilant Eating Rule: A General Approach for Probabilistic Economic Design with Constraints"
       speaker:
         name: "Haris Aziz"
@@ -1719,8 +1713,7 @@
         constrained efficient allocation, it fails to be strategyproof, unconstrained efficient, and envy-free. We show, 
         however, that each of these three properties is incompatible with stability and constrained efficiency.
       joint_work: "Florian Brandl"
-      links:
-        - https://drive.google.com/file/d/1ju9-N6jZKV4hTKfkW0LZ_4UL1cv4eDVB/view
+      slides_link: https://drive.google.com/file/d/1ju9-N6jZKV4hTKfkW0LZ_4UL1cv4eDVB/view
 
 - date: 2020-07-23
   chair: Bill Zwicker
@@ -1745,8 +1738,7 @@
         simulations on bidding data from real conferences, that our suggested bidding scheme would substantially improve
         the assignment, under several common assignment algorithms.
       joint_work: "Natan Kaminsky, Jérôme Lang, Julien Lesca and Nicholas Mattei"
-      links:
-        - https://drive.google.com/file/d/1kJYx3mf2GPvG0L_Xb7A7eRu209gp6TWD/view
+      slides_link: https://drive.google.com/file/d/1kJYx3mf2GPvG0L_Xb7A7eRu209gp6TWD/view
     - title: "New Quantitative and Qualitative Aspects of Social Choice Theory"
       speaker:
         name: "Gil Kalai"
@@ -1780,8 +1772,7 @@
         Shapley-Scarf housing markets (Ma, 1994) characterize the top trading cycles rule and not the strict core rule
         (or correspondence).
       joint_work: "Claudia Meo"
-      links:
-        - https://drive.google.com/file/d/1QtEWTe0mczOEsmpWO51lCVE3sCx6S_H3/view
+      slides_link: https://drive.google.com/file/d/1QtEWTe0mczOEsmpWO51lCVE3sCx6S_H3/view
     - title: "We Need a Little More Space: A Few More Spatial Problems"
       speaker:
         name: "Omer Lev"
@@ -1797,8 +1788,7 @@
         are difficult even to approximate (but a few are not!). Both problems present a rich set of questions which
         require further exploration.
       joint_work: "Zack Fitzsimmons, Alexander Karpov and Svetlana Obraztsova"
-      links:
-        - https://drive.google.com/file/d/1hnu2d6DA1Xwk67YotMJSzRNGoe0-9Bbz/view
+      slides_link: https://drive.google.com/file/d/1hnu2d6DA1Xwk67YotMJSzRNGoe0-9Bbz/view
 
 - date: 2020-07-03
   chair: Edith Elkind
@@ -1818,8 +1808,7 @@
         this way (leading to the notions of possible and necessary winners), and also efficiency and fairness notions in 
         fair division, stability concepts in coalition formation, and more. The talk will give a very brief survey of works
         along this line, focusing on examples.
-      links:
-        - https://drive.google.com/file/d/1HfqsEkucnKbWxeGnITmwn8fDrgr3itX1/view
+      slides_link: https://drive.google.com/file/d/1HfqsEkucnKbWxeGnITmwn8fDrgr3itX1/view
     - title: "Axiomatic Justification of Election Outcomes"
       speaker:
         name: "Ulle Endriss"
@@ -1835,7 +1824,7 @@
       joint_work: "Arthur Boixel"
       links:
         - https://www.ifaamas.org/Proceedings/aamas2020/pdfs/p168.pdf
-        - https://drive.google.com/file/d/1DNWFjGarpCd8MCQuNb-BgjEJlY_M1TqI/view
+      slides_link: https://drive.google.com/file/d/1DNWFjGarpCd8MCQuNb-BgjEJlY_M1TqI/view
 
 - date: 2020-06-26
   chair: Andrei Gomberg
@@ -1873,8 +1862,7 @@
         inattention problem is time-consistent then the cost function is entropic—that is, linear in the reduction in
         entropy of beliefs. This result corresponds to the converse to Steiner, Stewart, and Matějka (2017), who showed 
         that every dynamic rational inattention problem with entropy costs is time-consistent.
-      links:
-        - https://drive.google.com/file/d/1ciu31O-Si-OWPRE6-WgG3ljWdU8L61TS/view
+      slides_link: https://drive.google.com/file/d/1ciu31O-Si-OWPRE6-WgG3ljWdU8L61TS/view
 
 - date: 2020-06-19
   chair: Vincent Merlin
@@ -1910,8 +1898,7 @@
         replacement-monotonic rules, are also obviously strategy-proof. Although obvious strategy-proofness is in 
         general more restrictive than strategy-proofness, this is not the case in this setting.
       joint_work: "Pablo Arribillaga and Alejandro Neme"
-      links:
-        - https://drive.google.com/file/d/1xv2BMTFdApVMW2BBVBET7NGboqYz7WOr/view
+      slides_link: https://drive.google.com/file/d/1xv2BMTFdApVMW2BBVBET7NGboqYz7WOr/view
 
 - date: 2020-06-05
   chair: Vincent Merlin
@@ -1932,8 +1919,7 @@
         has distortion 3. We do so by proving a novel lemma about matching rankings of candidates to candidates, which
         may be of independent interest. We also provide parametric distortion bounds and improved bounds for randomized
         rules.
-      links:
-        - https://drive.google.com/file/d/18X2h_5PkNFGAJqT7TfJLyG55jEFg-Pa5/view
+      slides_link: https://drive.google.com/file/d/18X2h_5PkNFGAJqT7TfJLyG55jEFg-Pa5/view
     - title: "Fairness in Kidney Exchange Programmes"
       speaker:
         name: "Péter Biró"
@@ -1949,8 +1935,7 @@
         are joining their pools. In this talk we will review the recent developments on the aspects of individual and 
         collective fairness for KEPs from both theoretical and practical point of views, starting with a story from the
         2008 COMSOC conference.
-      links:
-        - https://drive.google.com/file/d/10a5Y5in89TX9O076E-EEYGpiL1_lNt6g/view
+      slides_link: https://drive.google.com/file/d/10a5Y5in89TX9O076E-EEYGpiL1_lNt6g/view
 
 - date: 2020-05-29
   chair: Bill Zwicker
@@ -1970,8 +1955,7 @@
         primary goal is to avoid default on external debts, say, banks' defaults on deposits. The main objective is to
         investigate what proportionality means for a rule, taking into account various legal and informational 
         constraints.
-      links:
-        - https://drive.google.com/file/d/1DzASb4qzzbF9LDV2gKKAP5KaBBG1EHA3/view
+      slides_link: https://drive.google.com/file/d/1DzASb4qzzbF9LDV2gKKAP5KaBBG1EHA3/view
     - title: "A Learning Framework for Distribution-Based Game-Theoretic Solution Concepts"
       speaker:
         name: "Yair Zick"
@@ -2027,8 +2011,7 @@
         show that no strategyproof mechanism satisfies fairness (i.e., no student has justified envy) and weak 
         efficiency requirements on students' welfare. Given this impossibility result, we develop a new strategyproof
         mechanism that strikes a good balance between fairness and efficiency and assess it by experiments.
-      links:
-        - https://drive.google.com/file/d/1OuNMMpA8zU6KLNDLOqTTDniT8PaJKTw6/view
+      slides_link: https://drive.google.com/file/d/1OuNMMpA8zU6KLNDLOqTTDniT8PaJKTw6/view
     - title: "Fair Division of Mixed Divisible and Indivisible Goods"
       speaker:
         name: "Xiaohui Bei"
@@ -2063,7 +2046,7 @@
         progress on complexity, approximation, and algorithms for this problem.
       links:
         - "https://arxiv.org/abs/1807.01112"
-        - https://drive.google.com/file/d/1G7XWY_-ed4P93uMgDmQSVytw5dInNXH1/view
+      slides_link: https://drive.google.com/file/d/1G7XWY_-ed4P93uMgDmQSVytw5dInNXH1/view
     - title: "A Solution to the Two-person Implementation Problem"
       speaker:
         name: "Remzi Sanver"
@@ -2119,7 +2102,7 @@
       joint_work: "Michael Müller"
       links:
         - https://surfdrive.surf.nl/files/index.php/s/XxEjQZo2isaJbVU
-        - https://drive.google.com/file/d/10f84Nyuy8HL_CmDlzvWCAogTbhyoM1v8/view
+      slides_link: https://drive.google.com/file/d/10f84Nyuy8HL_CmDlzvWCAogTbhyoM1v8/view
 
 - date: 2020-04-24
   chair: Dominik Peters
@@ -2141,8 +2124,7 @@
       joint_work: >
         Lok Chan, Yuan Deng, John Dickerson, Kenzie Doyle, Rachel Freedman, Max Kramer, Duncan McElfresh, 
         Jana Schaich Borg, Walter Sinnott-Armstrong and Hanrui Zhang
-      links:
-        - https://drive.google.com/file/d/1tZGDn40Etd_pVtf5jFZYIHpfQtVbYm2B/view
+      slides_link: https://drive.google.com/file/d/1tZGDn40Etd_pVtf5jFZYIHpfQtVbYm2B/view
     - title: "Keeping Your Friends Close: Land Allocation with Friends"
       speaker:
         name: "Edith Elkind"
@@ -2160,4 +2142,4 @@
       joint_work: "Neel Patel, Alan Tsang and Yair Zick"
       links:
         - "https://arxiv.org/abs/2003.03558"
-        - https://drive.google.com/file/d/1XHgQayu2LDD0RszG7xTHDHpmQcJ_QPpF/view
+      slides_link: https://drive.google.com/file/d/1XHgQayu2LDD0RszG7xTHDHpmQcJ_QPpF/view

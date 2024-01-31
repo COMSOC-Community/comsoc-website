@@ -215,10 +215,43 @@ Video Seminar Page
 =============== */
 
 .video-seminar-event-title {
-  padding: 15px 0;
-  border-block-end: 1px #998877 solid;
+  padding: 25px 0;
+  border-top: 1px #EE9955 solid;
+  display: flex;
 }
 
-.video-seminar-event-title > .video-link {
+.video-seminar-event-title .toggle-arrow {
+  margin-left: auto;
+}
+
+.video-seminar-event-title .video-link {
+  font-size: smaller;
+}
+
+.video-seminar-event-content {
+  display: none;
+}
+
+.video-seminar-event-content.show {
+  display: block;
+}
+
+.video-seminar-event-title.show {
+  padding-bottom: 0;
+}
+
+.video-seminar-presentation:not(:last-child) {
+  border-bottom: 1px #998877 solid;
+}
+
+.video-seminar-event-header {
+  border-bottom: 1px #998877 solid;
+}
+
+.video-seminar-presentation-title {
+  font-weight: bold;
+}
+
+.video-seminar-presentation-title > .slides-link{
   font-size: smaller;
 }

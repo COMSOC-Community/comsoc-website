@@ -5,25 +5,31 @@ title: Video Seminar | COMSOC
 
 # COMSOC Video Seminar
 
-The [COMSOC Video Seminar](https://comsocseminar.org/), launched in April 2020, is an international
+The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank"}, launched in April 2020, is an international
 seminar series on social choice taking place online. Researchers from all disciplines are welcome
 to present and attend.
 
-## Past Presentations
+## Past Events
 
 {% assign sorted_events = site.data.videoseminar | sort: '-date' %}
 {% for event in sorted_events %}
 <div class="video-seminar-event">
 <h3 class="video-seminar-event-title">
-{{ event.date }}: {% if event.title %}{{ event.title }}{% else %}{% for presentation in event.presentations %}{{ presentation.speaker.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endif %}
-{% if event.video_links %}{% for link in event.video_links %}<a class="video-link" href="{{ link }}">[Video{% if event.video_links.size > 1 %} {{ forloop.index }}{% endif %}]</a> {% endfor %}{% endif %}
+    <span>
+        {{ event.date }}: {% if event.title %}{{ event.title }}{% else %}{% for presentation in event.presentations %}{{ presentation.speaker.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endif %}
+        {% if event.video_links %}{% for link in event.video_links %}<a class="video-link" href="{{ link }}" target="_blank">[Video{% if event.video_links.size > 1 %} {{ forloop.index }}{% endif %}]</a> {% endfor %}{% endif %}
+    </span>
+    <span class="toggle-arrow">&#9662;</span>
 </h3>
 
 <div class="video-seminar-event-content">
 
-{% if event.chair %}<p>Session chair: {{ event.chair }}</p>{% endif %}
-
+{% if event.chair or event.comment %}
+<div class="video-seminar-event-header">
+{% if event.chair %}<p class="video-seminar-event-chair">Session chair: {{ event.chair }}</p>{% endif %}
 {% if event.comment %}<p>{{ event.comment }}</p>{% endif %}
+</div>
+{% endif %}
 
 {% for presentation in event.presentations %}
 
@@ -31,7 +37,7 @@ to present and attend.
 
 {% if presentation.speaker %}<p>{% if presentation.speaker.url %}<a href="{{ presentation.speaker.url }}">{% endif %}{{ presentation.speaker.name }}{% if presentation.speaker.url %}</a>{% endif %} {% if presentation.speaker.affiliation %}({{ presentation.speaker.affiliation }}){% endif %}</p>{% endif %}
 
-{% if presentation.title %}<p>{{ presentation.title }}</p>{% endif %}
+{% if presentation.title %}<p class="video-seminar-presentation-title">{{ presentation.title }}{% if presentation.slides_link %} <a class="slides-link" href="{{ presentation.slides_link }}" taget="_blank">[Slides]</a>{% endif %}</p>{% endif %}
 
 {% if presentation.abstract %}<p>{{ presentation.abstract }}</p>{% endif %}
 
@@ -45,7 +51,21 @@ to present and attend.
 </ul>
 {% endif %}
 </div>
-</div>
 {% endfor %}
 </div>
+</div>
 {% endfor %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const titles = document.querySelectorAll('.video-seminar-event-title');
+    titles.forEach(function (title) {
+        title.addEventListener('click', function () {
+            console.log("Clicked!");
+            const content = title.nextElementSibling;
+            content.classList.toggle('show');
+            title.classList.toggle('show');
+        });
+    });
+});
+</script>
