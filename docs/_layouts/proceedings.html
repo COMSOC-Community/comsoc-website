@@ -9,24 +9,25 @@ layout: default
     Workshop Series</a>.
 </p>
 
+
+{% assign data_key = "proceedings" | append: page.year %}
+{% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
+{% for pub_type in papers_per_pub_type %}
+
+{% if papers_per_pub_type.size > 1 %}
+<h2>{{ pub_type.name | capitalize }}</h2>
+{% endif %}
+
+{% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
 <ul>
-    {% assign data_key = "proceedings" | append: page.year %}
-    {% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
-    {% for pub_type in papers_per_pub_type %}
-
-    {% if papers_per_pub_type.size > 1 %}
-    <h2>{{ pub_type.name }}</h2>
-    {% endif %}
-
-    {% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
-    {% for paper in sorted_papers %}
-        <li>{{ paper.title }}<br>
-            {% for author in paper.authors %}
-                {{ author }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
-            {% endfor %}<br>
-            <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
-        </li>
-    {% endfor %}
-
-    {% endfor %}
+{% for paper in sorted_papers %}
+    <li>{{ paper.title }}<br>
+        {% for author in paper.authors %}
+            {{ author }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
+        {% endfor %}<br>
+        <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
+    </li>
+{% endfor %}
 </ul>
+
+{% endfor %}
