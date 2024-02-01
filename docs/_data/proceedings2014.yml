@@ -5,6 +5,7 @@
     - Jerome Lang
   pdf_file: SkowronFaliszewskiLang2014.pdf
   sort_key: SkowronFaliszewskiLang
+  accepted_as: presentation
 
 - title: "Large-Scale Decision-Making via Small Group Interactions: The Importance of Triads"
   authors:
@@ -12,6 +13,7 @@
     - David Lee
   pdf_file: GoelLee2014.pdf
   short_key: GoelLee
+  accepted_as: presentation
 
 - title: Approval Voting Behavior in Doodle Polls
   authors:
@@ -20,12 +22,14 @@
     - David Parkes
   pdf_file: ZouMeirParkes2014.pdf
   sort_key: ZouMeirParkes
+  accepted_as: presentation
 
 - title: Universal and Symmetric Scoring Rules for Binary Relations
   authors:
     - William Zwicker
   pdf_file: Zwicker2014.pdf
   sort_key: Zwicker
+  accepted_as: presentation
 
 - title: Voting with Rank Dependent Scoring Rules
   authors:
@@ -35,6 +39,7 @@
     - Patrice Perny
   pdf_file: GoldsmithLangMatteiPerny2014.pdf
   sort_key: GoldsmithLangMatteiPerny
+  accepted_as: presentation
 
 - title: Axiomatic and Computational Aspects of Scoring Allocation Rules for Indivisible Goods
   authors:
@@ -47,18 +52,21 @@
     - Abdallah Saffidine
   pdf_file: BaumeisterBouveretLangNguyenNguyenRotheSaffidine2014.pdf
   sort_key: BaumeisterBouveretLangNguyenNguyenRotheSaffidine
+  accepted_as: presentation
 
 - title: The Maximum Likelihood Approach to Voting on Social Networks
   authors:
     - Vincent Conitzer
   pdf_file: Conitzer2014.pdf
   sort_key: Conitzer
+  accepted_as: presentation
 
 - title: Statistical Properties of Social Choice Mechanisms
   authors:
     - Lirong Xia
   pdf_file: Xia2014.pdf
   sort_key: Xia
+  accepted_as: presentation
 
 - title: A Non-Parametric Test of Stochastic Preferences
   authors:
@@ -67,6 +75,7 @@
     - Frits Spieksma
   pdf_file: SmeuldersRegenwetterSpieksma2014.pdf
   sort_key: SmeuldersRegenwetterSpieksma
+  accepted_as: presentation
 
 - title: Mechanism Design for Fair Division
   authors:
@@ -75,6 +84,7 @@
     - Gagan Goel
   pdf_file: ColeGkatzelisGoel2014.pdf
   sort_key: ColeGkatzelisGoel
+  accepted_as: presentation
 
 - title: Manipulating Picking Sequences
   authors:
@@ -82,6 +92,7 @@
     - Jerome Lang
   pdf_file: BouveretLang2014.pdf
   sort_key: BouveretLang
+  accepted_as: presentation
 
 - title: Maximizing Nash Product Social Welfare in Allocating Indivisible Goods
   authors:
@@ -89,12 +100,14 @@
     - Joachim Schauer
   pdf_file: DarmannSchauer2014.pdf
   sort_key: DarmannSchauer
+  accepted_as: presentation
 
 - title: Agendas with Priority
   authors:
     - Sean Horan
   pdf_file: Horan2014.pdf
   sort_key: Horan
+  accepted_as: presentation
 
 - title: On the Axiomatic Characterization of Runoff Voting Rules
   authors:
@@ -103,6 +116,7 @@
     - Vincent Conitzer
   pdf_file: FreemanBrillConitzer2014.pdf
   sort_key: FreemanBrillConitzer
+  accepted_as: presentation
 
 - title: The Weak Axiom of Revealed Preference for Collective Households
   authors:
@@ -113,6 +127,7 @@
     - Fabrice Talla Nobibon
   pdf_file: SmeuldersCherchyeDeRockSpieksmaTallaNobibon2014.pdf
   sort_key: SmeuldersCherchyeDeRockSpieksmaTallaNobibon
+  accepted_as: presentation
 
 - title: A Local-Dominance Theory of Voting Equilibria
   authors:
@@ -121,6 +136,7 @@
     - Jeffrey Rosenschein
   pdf_file: MeirLevRosenschein2014.pdf
   sort_key: MeirLevRosenschein
+  accepted_as: presentation
 
 - title: Analysis of Equilibria in Iterative Voting Schemes
   authors:
@@ -131,6 +147,7 @@
     - Jeffrey Rosenschein
   pdf_file: RabinovichObraztsovaLevMarkakisRosenschein2014.pdf
   sort_key: RabinovichObraztsovaLevMarkakisRosenschein
+  accepted_as: presentation
 
 - title: "On the Convergence of Iterative Voting: How Restrictive Should Restricted Dynamics Be?"
   authors:
@@ -141,6 +158,7 @@
     - Nick Jennings
   pdf_file: ObraztsovaMarkakisPolukarovRabinovichJennings2014.pdf
   sort_key: ObraztsovaMarkakisPolukarovRabinovichJennings
+  accepted_as: presentation
 
 - title: Parameterized Complexity Results for Agenda Safety in Judgment Aggregation
   authors:
@@ -149,6 +167,7 @@
     - Stefan Szeider
   pdf_file: EndrissHaanSzeider2014.pdf
   sort_key: EndrissHaanSzeider
+  accepted_as: presentation
 
 - title: Complexity of Manipulative Attacks in Judgment Aggregation for Premise-Based Quota Rules
   authors:
@@ -158,6 +177,7 @@
     - Joerg Rothe
   pdf_file: BaumeisterErdelyiErdelyiRothe2014.pdf
   sort_key: BaumeisterErdelyiErdelyiRothe
+  accepted_as: presentation
 
 - title: Interval Methods for Judgment Aggregation in Argumentation
   authors:
@@ -166,6 +186,7 @@
     - Iyad Rahwan
   pdf_file: BoothAwadRahwan2014.pdf
   sort_key: BoothAwadRahwan
+  accepted_as: presentation
 
 - title: Weighted Simple Games as Access Structures of Ideal Secret Sharing Schemes
   authors:
@@ -173,6 +194,7 @@
     - Arkadii Slinko
   pdf_file: HameedSlinko2014.pdf
   sort_key: HameedSlinko
+  accepted_as: presentation
 
 - title: The Shapley Value in Budgeted Games
   authors:
@@ -182,6 +204,7 @@
     - Udi Weinsberg
   pdf_file: BhagatKimMuthukrishnanWeinsberg2014.pdf
   sort_key: BhagatKimMuthukrishnanWeinsberg
+  accepted_as: presentation
 
 - title: On the Effects of Priors in Weighted Voting Games
   authors:
@@ -191,6 +214,7 @@
     - Yoram Bachrach
   pdf_file: OrenFilmusZickBachrach2014.pdf
   sort_key: OrenFilmusZickBachrach
+  accepted_as: presentation
 
 - title: Non Myopic Collaborators (nearly) Get Their Way
   authors:
@@ -200,6 +224,7 @@
     - Peter Key
   pdf_file: ZickBachrachKashKey2014.pdf
   sort_key: ZickBachrachKashKey
+  accepted_as: presentation
 
 - title: A Control Dichotomy for Pure Scoring Rules
   authors:
@@ -208,6 +233,7 @@
     - Henning Schnoor
   pdf_file: HemaspaandraHemaspaandraSchnoor2014.pdf
   sort_key: HemaspaandraHemaspaandraSchnoor
+  accepted_as: presentation
 
 - title: "Control in the Presence of Manipulators: Cooperative and Competitive Cases"
   authors:
@@ -216,6 +242,7 @@
     - Lane A. Hemaspaandra
   pdf_file: FitzsimmonsHemaspaandraHemaspaandra2014.pdf
   sort_key: FitzsimmonsHemaspaandraHemaspaandra
+  accepted_as: presentation
 
 - title: Strategic Voting and Strategic Candidacy
   authors:
@@ -223,6 +250,7 @@
     - Vincent Conitzer
   pdf_file: BrillConitzer2014.pdf
   sort_key: BrillConitzer
+  accepted_as: presentation
 
 - title: Soft Constraints in Stable Matching Problems
   authors:
@@ -232,6 +260,7 @@
     - Kristen Brent Venable
   pdf_file: DeCaroPiniRossiVenable2014.pdf
   sort_key: DeCaroPiniRossiVenable
+  accepted_as: presentation
 
 - title: Preference Elicitation and Interview Minimization in Stable Matchings
   authors:
@@ -239,6 +268,7 @@
     - Craig Boutilier
   pdf_file: DrummondBoutilier2014.pdf
   sort_key: DrummondBoutilier
+  accepted_as: presentation
 
 - title: Stable Invitations
   authors:
@@ -246,6 +276,7 @@
     - Yoav Shoham
   pdf_file: LeeShoham2014.pdf
   sort_key: LeeShoham
+  accepted_as: presentation
 
 - title: Games Gibbard-Satterthwaite Manipulators Play
   authors:
@@ -255,6 +286,7 @@
     - Arkadii Slinko
   pdf_file: ElkindGrandiRossiSlinko2014.pdf
   sort_key: ElkindGrandiRossiSlinko
+  accepted_as: presentation
 
 - title: Iterated Regret Minimization in Voting Games
   authors:
@@ -262,6 +294,7 @@
     - Mark Wilson
   pdf_file: EmeryWilson2014.pdf
   sort_key: EmeryWilson
+  accepted_as: presentation
 
 - title: Pre-Vote Negotiations and Binary Voting with Constraints
   authors:
@@ -270,6 +303,7 @@
     - Paolo Turrini
   pdf_file: GrandiGrossiTurrini2014.pdf
   sort_key: GrandiGrossiTurrini
+  accepted_as: presentation
 
 - title: Finding Strategyproof Social Choice Functions via SAT Solving
   authors:
@@ -277,6 +311,7 @@
     - Christian Geist
   pdf_file: BrandtGeist2014.pdf
   sort_key: BrandtGeist
+  accepted_as: presentation
 
 - title: "DEMOCRATIX: A Declarative Approach to Winner Determination"
   authors:
@@ -284,6 +319,7 @@
     - Andreas Pfandler
   pdf_file: CharwatPfandler2014.pdf
   sort_key: CharwatPfandler
+  accepted_as: presentation
 
 - title: Voting with CP-nets Using a Probabilistic Preference Structure
   authors:
@@ -295,3 +331,4 @@
     - K. Brent Venable
   pdf_file: CornelioGrandiGoldsmithMatteiRossiVenable2014.pdf
   sort_key: CornelioGrandiGoldsmithMatteiRossiVenable
+  accepted_as: presentation

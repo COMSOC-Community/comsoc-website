@@ -4,12 +4,14 @@
     - Edith Hemaspaandra
   pdf_file: FitzsimmonsHemaspaandraCOMSOC2018.pdf
   sort_key: FitzsimmonsHemaspaandra
+  accepted_as: presentation
 
 - title: Leximax and leximin extension rules for ranking sets as final outcomes with null alternatives
   authors:
     - Takashi Kurihara
   pdf_file: KuriharaCOMSOC2018.pdf
   sort_key: Kurihara
+  accepted_as: poster
 
 - title: Multi-Issue Opinion Diffusion under Constraints
   authors:
@@ -18,6 +20,7 @@
     - Laurent Perrussel
   pdf_file: GrandiEtAlCOMSOC2018.pdf
   sort_key: GrandiBotanPerrussel
+  accepted_as: presentation
 
 - title: A Quantitative Analysis of Multi-Winner Rules
   authors:
@@ -25,6 +28,7 @@
     - Piotr Skowron
   pdf_file: LacknerSkowronCOMSOC2018.pdf
   sort_key: LacknerSkowron
+  accepted_as: presentation
 
 - title: Social Choice with Non Quasi-linear Utilities
   authors:
@@ -33,6 +37,7 @@
     - David C. Parkes
   pdf_file: MaEtAlCOMSOC2018.pdf
   sort_key: MaMeirParkes
+  accepted_as: presentation
 
 - title: Peer reviewing and manipulation under uncertainty
   authors:
@@ -40,6 +45,7 @@
     - Paolo Turrini
   pdf_file: CarverTurriniCOMSOC2018.pdf
   sort_key: CarverTurrini
+  accepted_as: poster
 
 - title: Democratic Fair Allocation of Indivisible Goods
   authors:
@@ -47,6 +53,7 @@
     - Warut Suksompong
   pdf_file: SegalHaleviSuksompongCOMSOC2018.pdf
   sort_key: SegalHaleviSuksompong
+  accepted_as: presentation
 
 - title: "\"Reverse Gerrymandering\": a Decentralized Model for Multi-Group Decision Making"
   authors:
@@ -54,6 +61,7 @@
     - Yoad Lewenberg
   pdf_file: LevLewenbergCOMSOC2018.pdf
   sort_key: LevLewenberg
+  accepted_as: poster
 
 - title: A Better Algorithm for Societal Tradeoffs
   authors:
@@ -62,6 +70,7 @@
     - Vincent Conitzer
   pdf_file: ZhangEtAlCOMSOC2018.pdf
   sort_key: ZhangChengConitzer
+  accepted_as: poster
 
 - title: "Big City vs. the Great Outdoors: Voter Distribution and How it Affects Gerrymandering"
   authors:
@@ -71,6 +80,7 @@
     - Tyrone Strangway
   pdf_file: BorodinEtAlCOMSOC2018.pdf
   sort_key: BorodinLevShahStrangway
+  accepted_as: presentation
 
 - title: The Assignment Problem with Diversity Constraints with an application to Ethnic Integration in Public Housing
   authors:
@@ -81,6 +91,7 @@
     - Yair Zick
   pdf_file: BenabbouEtAlCOMSOC2018.pdf
   sort_key: BenabbouChakrabortyHoSliwinskiZick
+  accepted_as: presentation
 
 - title: How to Form Winning Coalitions in Mixed Human-Computer Settings
   authors:
@@ -90,6 +101,7 @@
     - Yair Zick
   pdf_file: MashEtAlCOMSOC2018.pdf
   sort_key: MashBachrachGalZick
+  accepted_as: presentation
 
 - title: "Resource Based Cooperative Games: Optimization, Fairness and Stability"
   authors:
@@ -97,6 +109,7 @@
     - Yair Zick
   pdf_file: NguyenZickCOMSOC2018.pdf
   sort_key: NguyenZick
+  accepted_as: poster
 
 - title: Personalised Rating
   authors:
@@ -105,6 +118,7 @@
     - Paolo Turrini
   pdf_file: GrandiEtAlCOMSOC2018.pdf
   sort_key: GrandiStewartTurrini
+  accepted_as: presentation
 
 - title: Trading Transforms of Non-weighted Simple Games and Integer Weights of Weighted Simple Games
   authors:
@@ -112,6 +126,7 @@
     - Tomomi Matsui
   pdf_file: KawanaMatsuiCOMSOC2018.pdf
   sort_key: KawanaMatsui
+  accepted_as: presentation
 
 - title: Strategyproof Quota Mechanisms for Multiple Assignment Problems
   authors:
@@ -119,6 +134,7 @@
     - Kate Larson
   pdf_file: HosseiniLarsonCOMSOC2018.pdf
   sort_key: HosseiniLarson
+  accepted_as: poster
 
 - title: "Optimization-Based Voting Rule Design: The Closer to Utopia the Better"
   authors:
@@ -127,6 +143,7 @@
     - Nimrod Talmon
   pdf_file: FaliszewskiEtAlCOMSOC2018.pdf
   sort_key: FaliszewskiSzufaTalmon
+  accepted_as: presentation
 
 - title: "Dynamic Proportional Sharing: A Game-Theoretic Approach"
   authors:
@@ -136,6 +153,7 @@
     - Benjamin C Lee
   pdf_file: FreemanEtAlCOMSOC2018.pdf
   sort_key: FreemanZahediConitzerLee
+  accepted_as: presentation
 
 - title: Computing a Condorcet winner of a 1-Euclidean election
   authors:
@@ -144,6 +162,7 @@
     - Kun-Mao Chao
   pdf_file: LinEtAlCOMSOC2018.pdf
   sort_key: LinWangChao
+  accepted_as: poster
 
 - title: "Goal-Based Collective Decisions: Axiomatics and Computational Complexity"
   authors:
@@ -153,6 +172,7 @@
     - Emiliano Lorini
   pdf_file: NovaroEtAlCOMSOC2018.pdf
   sort_key: NovaroGrandiLonginLorini
+  accepted_as: poster
 
 - title: Negotiation Strategies for Agents with Ordinal Preferences
   authors:
@@ -161,6 +181,7 @@
     - Sarit Kraus
   pdf_file: ErlichEtAlCOMSOC2018.pdf
   sort_key: ErlichHazonKraus
+  accepted_as: presentation
 
 - title: Impact of the Number of Neutrals on Stability Concepts in Friends Oriented Hedonic Games
   authors:
@@ -170,6 +191,7 @@
     - Makoto Yokoo
   pdf_file: BarrotEtAlCOMSOC2018.pdf
   sort_key: BarrotOtaSakuraiYokoo
+  accepted_as: poster
 
 - title: Exploring the No-Show Paradox for Condorcet Extensions Using Ehrhart Theory and Computer Simulations
   authors:
@@ -178,6 +200,7 @@
     - Martin Strobel
   pdf_file: BrandtHofbauerStrobelCOMSOC2018.pdf
   sort_key: BrandtHofbauerStrobel
+  accepted_as: poster
 
 - title: The Price of Deception in Spatial Social Choice
   authors:
@@ -185,6 +208,7 @@
     - Craig Tovey
   pdf_file: BaileyToveyCOMSOC2018.pdf
   sort_key: BaileyTovey
+  accepted_as: poster
 
 - title: "Closing the gap of control complexity in Borda elections: Solving twelve open cases"
   authors:
@@ -192,6 +216,7 @@
     - Jörg Rothe
   pdf_file: NevelingRotheCOMSOC2018.pdf
   sort_key: NevelingRothe
+  accepted_as: poster
 
 - title: Random Paths To Popularity In Two-Sided Matching
   authors:
@@ -199,6 +224,7 @@
     - Alexander Nesterov
   pdf_file: KondratevNesterovCOMSOC2018-1.pdf
   sort_key: KondratevNesterov
+  accepted_as: presentation
 
 - title: Weak Mutual Majority Criterion for Voting Rules
   authors:
@@ -206,6 +232,7 @@
     - Alexander Nesterov
   pdf_file: KondratevNesterovCOMSOC2018-2.pdf
   sort_key: KondratevNesterov
+  accepted_as: poster
 
 - title: "Fall if it lifts your teammate: a novel type of candidate manipulation"
   authors:
@@ -213,6 +240,7 @@
     - Justin Kruger
   pdf_file: SchneckenburgerKrugerCOMSOC2018.pdf
   sort_key: SchneckenburgerKruger
+  accepted_as: presentation
 
 - title: "Sequential Allocation Rules are Separable: Refuting a Conjecture on Scoring-Based Allocation of Indivisible Goods"
   authors:
@@ -220,6 +248,7 @@
     - Jörg Rothe
   pdf_file: KuckuckRotheCOMSOC2018.pdf
   sort_key: KuckuckRothe
+  accepted_as: poster
 
 - title: "Aggregating Incomplete Judgments: Axiomatisations for Scoring Rules"
   authors:
@@ -228,6 +257,7 @@
     - Ronald de Haan
   pdf_file: TerzopoulouEtAlCOMSOC2018.pdf
   sort_key: TerzopoulouEndrissHaan
+  accepted_as: presentation
 
 - title: Efficient Crowdsourcing via Proxy Voting
   authors:
@@ -237,6 +267,7 @@
     - Ofra Amir
   pdf_file: CohensiusEtAlCOMSOC2018.pdf
   sort_key: CohensiusPoratMeirAmir
+  accepted_as: presentation
 
 - title: Statistically Stable Communities with Limited Interactions
   authors:
@@ -245,6 +276,7 @@
     - Yair Zick
   pdf_file: IgarashiEtAlCOMSOC2018.pdf
   sort_key: IgarashiSliwinskiZick
+  accepted_as: presentation
 
 - title: Learning Hedonic Games
   authors:
@@ -252,6 +284,7 @@
     - Yair Zick
   pdf_file: SliwinskiZickCOMSOC2018.pdf
   sort_key: SliwinskiZick
+  accepted_as: poster
 
 - title: Broad Support in Two-Person Elections
   authors:
@@ -260,6 +293,7 @@
     - Min-Sun Kim
   pdf_file: CrismanEtAlCOMSOC2018.pdf
   sort_key: CrismanCuiKim
+  accepted_as: poster
 
 - title: Pairwise Liquid Democracy
   authors:
@@ -267,6 +301,7 @@
     - Nimrod Talmon
   pdf_file: BrillTalmonCOMSOC2018.pdf
   sort_key: BrillTalmon
+  accepted_as: poster
 
 - title: Need-Aware College Admissions and the Stability of Marriage
   authors:
@@ -275,6 +310,7 @@
     - Alireza Samadian
   pdf_file: BenderEtAlCOMSOC2018.pdf
   sort_key: BenderPruhsSamadian
+  accepted_as: poster
 
 - title: Robust Bounds on Choosing from Large Tournaments
   authors:
@@ -282,6 +318,7 @@
     - Warut Suksompong
   pdf_file: SaileSuksompongCOMSOC2018.pdf
   sort_key: SaileSuksompong
+  accepted_as: presentation
 
 - title: Comparing Approximate Relaxations of Envy-Freeness
   authors:
@@ -290,6 +327,7 @@
     - Evangelos Markakis
   pdf_file: AmanatidisEtAlCOMSOC2018.pdf
   sort_key: AmanatidisBirmpasMarkakis
+  accepted_as: presentation
 
 - title: Adaptive voting aggregation for partial ballots in crowdsourcing
   authors:
@@ -297,6 +335,7 @@
     - Richard de Rozario
   pdf_file: SilverRozarioCOMSOC2018.pdf
   sort_key: SilverRozario
+  accepted_as: poster
 
 - title: Simplified Group Activity Selection
   authors:
@@ -307,6 +346,7 @@
     - Sebastian Frederik Schneckenburger
   pdf_file: DarmannEtAlCOMSOC2018.pdf
   sort_key: DarmannDöckerDornLangSchneckenburger
+  accepted_as: presentation
 
 - title: "Voting with Ties: Strong Impossibilities via SAT Solving"
   authors:
@@ -315,6 +355,7 @@
     - Christian Stricker
   pdf_file: BrandtSaileStrickerCOMSOC2018.pdf
   sort_key: BrandtSaileStricker
+  accepted_as: presentation
 
 - title: "Positional Social Decision Schemes: Fair and Efficient Portioning"
   authors:
@@ -325,6 +366,7 @@
     - Jérôme Lang
   pdf_file: AiriauEtAlCOMSOC2018.pdf
   sort_key: AiriauAzizCaragiannisKrugerLang
+  accepted_as: presentation
 
 - title: Social Mechanisms for the Collective Engineering of Ontologies
   authors:
@@ -336,6 +378,7 @@
     - Oliver Kutz
   pdf_file: PorelloEtAlCOMSOC2018.pdf
   sort_key: PorelloTroquardPenalozaConfalonieriGallianiKutz
+  accepted_as: presentation
 
 - title: The Communication Burden of Single Transferable Vote, in Practice
   authors:
@@ -344,6 +387,7 @@
     - Jérôme Lang
   pdf_file: AyadiEtAlCOMSOC2018.pdf
   sort_key: AyadiBenAmorLang
+  accepted_as: presentation
 
 - title: Tradeoffs Between Information and Ordinal Approximation for Bipartite Matching
   authors:
@@ -351,6 +395,7 @@
     - Wennan Zhu
   pdf_file: AnshelevichZhuCOMSOC2018.pdf
   sort_key: AnshelevichZhu
+  accepted_as: presentation
 
 - title: Complexity of Verification in Incomplete Argumentation Frameworks
   authors:
@@ -360,6 +405,7 @@
     - Hilmar Schadrack
   pdf_file: BaumeisterNeugebauerRotheSchadrackCOMSOC2018.pdf
   sort_key: BaumeisterNeugebauerRotheSchadrack
+  accepted_as: presentation
 
 - title: Generalized Distance Bribery
   authors:
@@ -368,8 +414,9 @@
     - Lisa Rey
   pdf_file: BaumeisterHogrebeReyCOMSOC2018.pdf
   sort_key: BaumeisterHogrebeRey
+  accepted_as: poster
 
-- title: Inferring Users’ Choice Functions in Networked Social Systems Through Active Queries
+- title: Inferring Users' Choice Functions in Networked Social Systems Through Active Queries
   authors:
     - Abhijin Adiga
     - Chris J Kuhlman
@@ -379,6 +426,7 @@
     - Richard E. Stearns
   pdf_file: AdigaEtAlCOMSOC2018.pdf
   sort_key: AdigaKuhlmanMaratheRaviRosenkrantzStearns
+  accepted_as: poster
 
 - title: An Axiomatic and Empirical Analysis of Mechanisms for Online Organ Matching
   authors:
@@ -387,6 +435,7 @@
     - Toby Walsh
   pdf_file: MatteiEtAlCOMSOC2018.pdf
   sort_key: MatteiSaffidineWalsh
+  accepted_as: presentation
 
 - title: Robust and Approximately Stable Marriages under Partial Information
   authors:
@@ -394,6 +443,7 @@
     - Kate Larson
   pdf_file: MenonLarsonCOMSOC2018.pdf
   sort_key: MenonLarson
+  accepted_as: presentation
 
 - title: Very Hard Electoral Control Problems
   authors:
@@ -403,6 +453,7 @@
     - David Narvaez
   pdf_file: FitzsimmonsEtAlCOMSOC2018.pdf
   sort_key: FitzsimmonsHemaspaandraHooverNarvaez
+  accepted_as: presentation
 
 - title: Multiwinner Elections with Diversity Constraints
   authors:
@@ -413,6 +464,7 @@
     - Piotr Skowron
   pdf_file: BredereckEtAlCOMSOC2018.pdf
   sort_key: BredereckFaliszewskiIgarashiLacknerSkowron
+  accepted_as: presentation
 
 - title: Heuristic Voting as Ordinal Dominance Strategies
   authors:
@@ -422,12 +474,14 @@
     - Maria Polukarov
   pdf_file: LevEtAlCOMSOC2018.pdf
   sort_key: LevMeirObraztsovaPolukarov
+  accepted_as: presentation
 
 - title: Proportionality and Strategyproofness in Multiwinner Elections
   authors:
     - Dominik Peters
   pdf_file: PetersCOMSOC2018.pdf
   sort_key: Peters
+  accepted_as: presentation
 
 - title: Manipulations-resistant facility location mechanisms for ZV-line graphs
   authors:
@@ -436,9 +490,11 @@
     - Makoto Yokoo
   pdf_file: NehamaEtAlCOMSOC2018.pdf
   sort_key: NehamaTodoYokoo
+  accepted_as: poster
 
 - title: The Museum of Social Choice
   authors:
     - Kumap Nahro
   pdf_file: NahroCOMSOC2018.pdf
   sort_key: Nahro
+  accepted_as: presentation
