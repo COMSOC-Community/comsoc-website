@@ -4,9 +4,14 @@ layout: default
 
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
+<p>
+    These are the proceedings for the {{ page.year }} COMSOC workshop. This event is part of the <a href="workshops">COMSOC
+    Workshop Series</a>.
+</p>
+
 <ul>
     {% assign data_key = "proceedings" | append: page.year %}
-    {% assign sorted_papers = site.data[data_key] | sort: 'pdf_file' %}
+    {% assign sorted_papers = site.data[data_key] | sort: 'sort_key' %}
     {% for paper in sorted_papers %}
         <li>{{ paper.title }}<br>
             {% for author in paper.authors %}

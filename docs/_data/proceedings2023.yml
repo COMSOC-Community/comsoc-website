@@ -5,6 +5,7 @@
     - Erel Segal-Halevi
     - Warut Suksompong
   pdf_file: ErelSegal-Halevi.pdf
+  sort_key: BrandtGregerSegal-HaleviSuksompong
 
 - title: Strategic Voting in the Context of Stable-Matching of Teams
   authors:
@@ -12,12 +13,14 @@
     - Noam Hazon
     - Sarit Kraus
   pdf_file: LeoraSchmerler.pdf
+  sort_key: SchmerlerHazonKraus
 
 - title: Asymptotic Existence of Class Envy-free Matchings
   authors:
     - Tomohiko Yokoyama
     - Ayumi Igarashi
   pdf_file: TomohikoYokoyama.pdf
+  sort_key: YokoyamaIgarashi
 
 - title: The Method of Equal Shares for Participatory Budgeting
   authors:
@@ -25,6 +28,7 @@
     - Grzegorz Pierczyński
     - Piotr Skowron
   pdf_file: DominikPeters.pdf
+  sort_key: PetersPierczynskiSkowron
 
 - title: Proportionality in Approval-Based Participatory Budgeting
   authors:
@@ -34,6 +38,7 @@
     - Jan Maly
     - Jannik Peters
   pdf_file: JanMaly.pdf
+  sort_key: BrillForsterLacknerMalyPeters
 
 - title: Participatory Budgeting Designs for the Real World
   authors:
@@ -41,6 +46,7 @@
     - Gerdus Benade
     - Kobi Gal
   pdf_file: RoyFairstein.pdf
+  sort_key: FairsteinBenadeGal
 
 - title: Properties of the Mallows Model Depending on the Number of Alternatives
   authors:
@@ -48,6 +54,7 @@
     - Piotr Faliszewski
     - Sonja Kraiczy
   pdf_file: PiotrFaliszewski.pdf
+  sort_key: BoehmerFaliszewskiKraiczy
 
 - title: Improving the Perception of Fairness in Shapley-Based Allocations
   authors:
@@ -55,12 +62,14 @@
     - Amos Azaria
     - Noam Hazon
   pdf_file: MeirNizri.pdf
+  sort_key: NizriAzariaHazon
 
 - title: The Tukey Median as Ex-Ante Condorcet Winner
   authors:
     - Klaus Nehring
     - Clemens Puppe
   pdf_file: ClemensPuppe.pdf
+  sort_key: NehringPuppe
 
 - title: Finding Possible and Necessary Winners in Spatial Voting with Partial Information
   authors:
@@ -70,17 +79,20 @@
     - Hadas Shachnai
     - Benny Kimelfeld
   pdf_file: AviramImber.pdf
+  sort_key: ImberIsraelBrillShachnaiKimelfeld
 
 - title: Non Binary Social Choice
   authors:
     - Pierre Bardier
   pdf_file: PierreBardier.pdf
+  sort_key: Bardier
 
 - title: Evolutionary Foundation for Heterogeneity in Risk Aversion
   authors:
     - Yuval Heller
     - Ilan Nehama
   pdf_file: IlanNehama.pdf
+  sort_key: HellerNehama
 
 - title: A Random Dictator Is All You Need
   authors:
@@ -89,6 +101,7 @@
     - Inbal Talgam-Cohen
     - Konstantin Zabarnyi
   pdf_file: KonstantinZabarnyi.pdf
+  sort_key: ArieliBabichenkoTalgam-CohenZabarnyi
 
 - title: Frustratingly Easy Truth Discovery for Rank Aggregation
   authors:
@@ -99,12 +112,14 @@
     - Gal Cohensius
     - Lirong Xia
   pdf_file: ReshefMeir2.pdf
+  sort_key: MeirAmirBen-PoratShabatCohensiusXia
 
 - title: Strategy-Proof Participatory Budgeting via a VCG-Like Mechanism
   authors:
     - Jonathan Wagner
     - Reshef Meir
   pdf_file: JonathanWagner.pdf
+  sort_key: WagnerMeir
 
 - title: Limited Voting for More Diversity?
   authors:
@@ -112,11 +127,13 @@
     - Zoé Christoff
     - Davide Grossi
   pdf_file: MaaikeDVenema-Los.pdf
+  sort_key: Venema-LosChristoffGrossi
 
 - title: Proportionality Degree of Multiwinner Rules
   authors:
     - Piotr Skowron
   pdf_file: PiotrSkowron.pdf
+  sort_key: Skowron
 
 - title: Efficient Resource Allocation with Secretive Agents
   authors:
@@ -124,12 +141,14 @@
     - Rupert Freeman
     - Nisarg Shah
   pdf_file: RupertFreeman.pdf
+  sort_key: EbadianFreemanShah
 
 - title: Envy-free division of multi-layered cakes
   authors:
     - Ayumi Igarashi
     - Frédéric Meunier
   pdf_file: AyumiIgarashi.pdf
+  sort_key: IgarashiMeunier
 
 - title: "Leximin Approximation: From Single-Objective to Multi-Objective"
   authors:
@@ -138,6 +157,7 @@
     - Yonatan Aumann
     - Erel Segal-Halevi
   pdf_file: EdenHartman.pdf
+  sort_key: HartmanHassidimAumannSegal-Halevi
 
 - title: Social Media and Democracy
   authors:
@@ -145,6 +165,7 @@
     - Yuval Heller
     - Arye Hillman
   pdf_file: RonenGradwohl.pdf
+  sort_key: GradwohlHellerHillman
 
 - title: Identifying and Eliminating Majority Illusion in Social Networks
   authors:
@@ -154,12 +175,14 @@
     - Ramanujan Sridharan
     - Paolo Turrini
   pdf_file: GrzegorzLisowski.pdf
+  sort_key: GrandiKaneshLisowskiSridharanTurrini
 
 - title: Proxy Manipulation for Better Outcomes
   authors:
     - Gili Bielous
     - Reshef Meir
   pdf_file: GiliBielous.pdf
+  sort_key: BielousMeir
 
 - title: Socially Aware Coalition Formation with Bounded Coalition Size
   authors:
@@ -167,12 +190,14 @@
     - Amos Azaria
     - Noam Hazon
   pdf_file: ChayaLevinger.pdf
+  sort_key: LevingerAzariaHazon
 
 - title: Core-Stable Committees under Restricted Domains
   authors:
     - Grzegorz Pierczyński
     - Piotr Skowron
   pdf_file: GrzegorzPierczyński.pdf
+  sort_key: PierczynskiSkowron
 
 - title: Causes of Stability in Dynamic Coalition Formation
   authors:
@@ -180,6 +205,7 @@
     - Martin Bullinger
     - Anna Maria Kerkmann
   pdf_file: MartinBullinger.pdf
+  sort_key: BoehmerBullingerKerkmann
 
 - title: Voting behavior in one-shot and iterative multiple referenda
   authors:
@@ -188,6 +214,7 @@
     - Ali Özkes
     - Stephane Airiau
   pdf_file: JérômeLang.pdf
+  sort_key: GrandiLangOzkesAiriau
 
 - title: Fine-Grained Complexity and Algorithms for the Schulze Voting Method
   authors:
@@ -195,6 +222,7 @@
     - Virginia V Vassilevska Williams
     - Yinzhan Xu
   pdf_file: YinzhanXu.pdf
+  sort_key: SornatVassilevskaWilliamsXu
 
 - title: Toward fair and strategyproof tournament rules for tournaments with partially transferable utilities
   authors:
@@ -202,24 +230,28 @@
     - Ariel Schvartzman Cohenca
     - Eric Xue
   pdf_file: EricXue.pdf
+  sort_key: PennockCohencaXue
 
 - title: Characterizations of Sequential Valuation Rules
   authors:
     - Chris S Dong
     - Patrick Lederer
   pdf_file: ChrisSDong.pdf
+  sort_key: DongLederer
 
 - title: Refined Characterizations of Approval-Based Committee Scoring Rules
   authors:
     - Chris S Dong
     - Patrick Lederer
   pdf_file: PatrickLederer.pdf
+  sort_key: DongLederer2
 
 - title: Properties of Local Search PAV
   authors:
     - Sonja Kraiczy
     - Edith Elkind
   pdf_file: SonjaKraiczy.pdf
+  sort_key: KraiczyElkind
 
 - title: Strategyproofness and Proportionality in Party-Approval Multiwinner Elections
   authors:
@@ -229,12 +261,14 @@
     - Jonas Israel
     - Patrick Lederer
   pdf_file: ThéoDelemazure.pdf
+  sort_key: DelemazureDemeulemeesterEberlIsraelLederer
 
 - title: Cutsets and EF1 Fair Division of Graphs
   authors:
     - William S Zwicker
     - Jiehua Chen
   pdf_file: WilliamSZwicker.pdf
+  sort_key: ZwickerChen
 
 - title: Repeated Fair Allocation of Indivisible Items
   authors:
@@ -243,18 +277,21 @@
     - Oliviero Nardi
     - Arianna Novaro
   pdf_file: AriannaNovaro.pdf
+  sort_key: IgarashiLacknerNardiNovaro
 
 - title: Improved EFX approximation guarantees under ordinal-based assumptions
   authors:
     - Evangelos Markakis
     - Christodoulos Santorinaios
   pdf_file: EvangelosMarkakis.pdf
+  sort_key: MarkakisSantorinaios
 
 - title: "Social Mechanism Design: Making Maximally Acceptable Decisions"
   authors:
     - Ben Abramowitz
     - Nicholas Mattei
   pdf_file: BenAbramowitz.pdf
+  sort_key: AbramowitzMattei
 
 - title: Diversity, Agreement, and Polarization in Elections
   authors:
@@ -264,6 +301,7 @@
     - Stanisław Szufa
     - Tomasz Wąs
   pdf_file: AndrzejKaczmarczyk.pdf
+  sort_key: FaliszewskiKaczmarczykSornatSzufaWas
 
 - title: Spoiler Susceptibility in Party Elections
   authors:
@@ -272,12 +310,14 @@
     - Wojciech Słomczyński
     - Stanisław Szufa
   pdf_file: DariaBoratyn.pdf
+  sort_key: BoratynStolickiSlomczynskiSzufa
 
 - title: Host Community Respecting Refugee Housing
   authors:
     - Dušan Knop
     - Šimon Schierreich
   pdf_file: ŠimonSchierreich.pdf
+  sort_key: KnopSchierreich
 
 - title: Mitigating Skewed Bidding for Conference Paper Assignment
   authors:
@@ -286,6 +326,7 @@
     - Nicholas Mattei
     - Ofra Amir
   pdf_file: ReshefMeir.pdf
+  sort_key: RozencweigMeirMatteiAmir
 
 - title: Towards a Characterization of Random Serial Dictatorship
   authors:
@@ -293,6 +334,7 @@
     - Matthias Greger
     - René Romen
   pdf_file: RenéRomen.pdf
+  sort_key: BrandtGregerRomen
 
 - title: Fairness in Temporal Slot Assignment
   authors:
@@ -300,6 +342,7 @@
     - Sonja Kraiczy
     - Nicholas Teh
   pdf_file: NicholasTeh.pdf
+  sort_key: ElkindKraiczyTeh
 
 - title: Heuristics for Opinion Diffusion via Local Elections
   authors:
@@ -308,6 +351,7 @@
     - Roei Menashof
     - Nimrod Talmon
   pdf_file: RicaGonen2.pdf
+  sort_key: GonenKouteckyMenashofTalmon
 
 - title: Ascending-Price Mechanism for General Multi-Sided Markets
   authors:
@@ -315,6 +359,7 @@
     - Rica Gonen
     - Erel Segal-Halevi
   pdf_file: DvirGilor.pdf
+  sort_key: GilorGonenSegal-Halevi
 
 - title: Deep Reinforcement Learning and InfluencedGames
   authors:
@@ -322,17 +367,20 @@
     - Rica Gonen
     - Genadi Rabinovich
   pdf_file: RicaGonen.pdf
+  sort_key: BradyGonenRabinovich
 
 - title: Structure of single-peaked preferences
   authors:
     - Alexander Karpov
   pdf_file: AlexanderKarpov.pdf
+  sort_key: Karpov
 
 - title: False-name-proof and Strategy-proof Voting Rules under Separable Preferences
   authors:
     - Federico Fioravanti
     - Jordi Massó
   pdf_file: FedericoFioravanti.pdf
+  sort_key: FioravantiMasso
 
 - title: Fair Rent Division on a Budget Revisited
   authors:
@@ -342,24 +390,28 @@
     - Jérôme Lang
     - Anaëlle Wilczynski
   pdf_file: UmbertoGrandi.pdf
+  sort_key: AiriauGilbertGrandiLangWilczynski
 
 - title: Ties in Multiwinner Approval Voting
   authors:
     - Łukasz Janeczko
     - Piotr Faliszewski
   pdf_file: ŁukaszJaneczko.pdf
+  sort_key: JaneczkoFaliszewski
 
 - title: On fair allocation of indivisible goods to submodular agents
   authors:
     - Gilad Ben Uziahu
     - Uriel Feige
   pdf_file: GiladBenUziahu.pdf
+  sort_key: UziahuFeige
 
 - title: The Leximin Approach for a Sequence of Collective Decisions
   authors:
     - Ido Kahana
     - Noam Hazon
   pdf_file: IdoKahana.pdf
+  sort_key: KahanaHazon
 
 - title: When and How to Have Negative Regrets for Online Learners? Profits for Prediction Market Makers as an Example
   authors:
@@ -368,6 +420,7 @@
     - Chuang-Chieh Lin
     - Yu-Qin Lin
   pdf_file: Po-AnChen.pdf
+  sort_key: ChenLuLinLin
 
 - title: Fair division with splitting
   authors:
@@ -376,17 +429,20 @@
     - Erel Segal-Halevi
     - Dana Shapira
   pdf_file: SamuelBismuth.pdf
+  sort_key: BismuthMakarovSegal-HaleviShapira
 
 - title: "Forming a ranking from tied evaluations: a case of an online, interactive student peer assessment system"
   authors:
     - Lihi Dery
   pdf_file: LihiDery.pdf
+  sort_key: Dery
 
 - title: Election control for VCR Euclidean preferences
   authors:
     - Michał T Godziszewski
     - Jan Sznajd
   pdf_file: MichałTGodziszewski.pdf
+  sort_key: GodziszewskiSznajd
 
 - title: Learning Preference Distributions From Distance Measurements
   authors:
@@ -394,6 +450,7 @@
     - Robert Nowak
     - Ramya Korlakai Vinayak
   pdf_file: GokcanTatli.pdf
+  sort_key: TatliNowakVinayak
 
 - title: "Participatory Budgeting: Data, Tools and Analysis"
   authors:
@@ -406,6 +463,7 @@
     - Stanisław Szufa
     - Nimrod Talmon
   pdf_file: StanisławSzufa.pdf
+  sort_key: FaliszewskiFlisPetersPierczynskiSkowronStolickiSzufaTalmon
 
 - title: Reputation-based Persuasion Platforms
   authors:
@@ -413,6 +471,7 @@
     - Omer Madmon
     - Moshe Tennenholtz
   pdf_file: OmerMadmon.pdf
+  sort_key: ArieliMadmonTennenholtz
 
 - title: Stable Dinner Party Seating Arrangements
   authors:
@@ -420,6 +479,7 @@
     - Andrei Constantinescu
     - Roger Wattenhofer
   pdf_file: AndreiConstantinescu.pdf
+  sort_key: BerriaudConstantinescuWattenhofer
 
 - title: Nonparametric Methods for Detecting Gerrymandering in Multiparty Elections
   authors:
@@ -427,12 +487,14 @@
     - Wojciech Słomczyński
     - Stanisław Szufa
   pdf_file: DariuszStolicki.pdf
+  sort_key: StolickiSlomczynskiSzufa
 
 - title: Designing binary social decisions
   authors:
     - Margarita Kirneva
     - Matias Nuñez
   pdf_file: MargaritaKirneva.pdf
+  sort_key: KirnevaNunez
 
 - title: Proportionality Guarantees in Elections with Interdependent Issues
   authors:
@@ -441,6 +503,7 @@
     - Georgios Papasotiropoulos
     - Jannik Peters
   pdf_file: GeorgiosPapasotiropoulos.pdf
+  sort_key: BrillMarkakisPapasotiropoulosPeters
 
 - title: Condorcet Markets
   authors:
@@ -448,6 +511,7 @@
     - Nicholas Kees Dupuis
     - Davide Grossi
   pdf_file: DavideGrossi.pdf
+  sort_key: AiriauDupuisGrossi
 
 - title: Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules
   authors:
@@ -455,17 +519,20 @@
     - Virginia V Vassilevska Williams
     - Yinzhan Xu
   pdf_file: KrzysztofSornat.pdf
+  sort_key: SornatVassilevskaWilliamsXu2
 
 - title: Simultaneous manipulation under incomplete information
   authors:
     - Yuliya A. Veselova
     - Daniel Karabekyan
   pdf_file: DanielKarabekyan.pdf
+  sort_key: VeselovaKarabekyan
 
 - title: Designing egalitarian weighted voting games
   authors:
     - Fan Wu
   pdf_file: FanWu.pdf
+  sort_key: Wu
 
 - title: Polarization as Probabilistic Dependence
   authors:
@@ -473,6 +540,7 @@
     - Maria Polukarov
     - Carmine Ventre
   pdf_file: LukeThorburn.pdf
+  sort_key: ThorburnPolukarovVentre
 
 - title: Algorithmics of Egalitarian versus Equitable Sequences of Committees
   authors:
@@ -480,11 +548,13 @@
     - Till Fluschnik
     - Robert Bredereck
   pdf_file: RobertBredereck.pdf
+  sort_key: DeltlFluschnikBredereck
 
 - title: On the nucleolus of irreducible minimum cost spanning tree games
   authors:
     - Leanne Streekstra
   pdf_file: LeanneStreekstra.pdf
+  sort_key: Streekstra
 
 - title: Dynamic Fairness-Aware Recommendation through Multi-Agent Social Choice
   authors:
@@ -495,3 +565,4 @@
     - Nicholas Mattei
     - Robin Burke
   pdf_file: NicholasMattei.pdf
+  sort_key: AirdFarastuSunVoidaMatteiBurke

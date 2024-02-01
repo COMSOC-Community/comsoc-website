@@ -4,12 +4,14 @@
     - Piotr Faliszewski
     - Jerome Lang
   pdf_file: SkowronFaliszewskiLang2014.pdf
+  sort_key: SkowronFaliszewskiLang
 
 - title: "Large-Scale Decision-Making via Small Group Interactions: The Importance of Triads"
   authors:
     - Ashish Goel
     - David Lee
   pdf_file: GoelLee2014.pdf
+  short_key: GoelLee
 
 - title: Approval Voting Behavior in Doodle Polls
   authors:
@@ -17,11 +19,13 @@
     - Reshef Meir
     - David Parkes
   pdf_file: ZouMeirParkes2014.pdf
+  sort_key: ZouMeirParkes
 
 - title: Universal and Symmetric Scoring Rules for Binary Relations
   authors:
     - William Zwicker
   pdf_file: Zwicker2014.pdf
+  sort_key: Zwicker
 
 - title: Voting with Rank Dependent Scoring Rules
   authors:
@@ -30,6 +34,7 @@
     - Nicholas Mattei
     - Patrice Perny
   pdf_file: GoldsmithLangMatteiPerny2014.pdf
+  sort_key: GoldsmithLangMatteiPerny
 
 - title: Axiomatic and Computational Aspects of Scoring Allocation Rules for Indivisible Goods
   authors:
@@ -41,16 +46,19 @@
     - Joerg Rothe
     - Abdallah Saffidine
   pdf_file: BaumeisterBouveretLangNguyenNguyenRotheSaffidine2014.pdf
+  sort_key: BaumeisterBouveretLangNguyenNguyenRotheSaffidine
 
 - title: The Maximum Likelihood Approach to Voting on Social Networks
   authors:
     - Vincent Conitzer
   pdf_file: Conitzer2014.pdf
+  sort_key: Conitzer
 
 - title: Statistical Properties of Social Choice Mechanisms
   authors:
     - Lirong Xia
   pdf_file: Xia2014.pdf
+  sort_key: Xia
 
 - title: A Non-Parametric Test of Stochastic Preferences
   authors:
@@ -58,6 +66,7 @@
     - Michel Regenwetter
     - Frits Spieksma
   pdf_file: SmeuldersRegenwetterSpieksma2014.pdf
+  sort_key: SmeuldersRegenwetterSpieksma
 
 - title: Mechanism Design for Fair Division
   authors:
@@ -65,23 +74,27 @@
     - Vasilis Gkatzelis
     - Gagan Goel
   pdf_file: ColeGkatzelisGoel2014.pdf
+  sort_key: ColeGkatzelisGoel
 
 - title: Manipulating Picking Sequences
   authors:
     - Sylvain Bouveret
     - Jerome Lang
   pdf_file: BouveretLang2014.pdf
+  sort_key: BouveretLang
 
 - title: Maximizing Nash Product Social Welfare in Allocating Indivisible Goods
   authors:
     - Andreas Darmann
     - Joachim Schauer
   pdf_file: DarmannSchauer2014.pdf
+  sort_key: DarmannSchauer
 
 - title: Agendas with Priority
   authors:
     - Sean Horan
   pdf_file: Horan2014.pdf
+  sort_key: Horan
 
 - title: On the Axiomatic Characterization of Runoff Voting Rules
   authors:
@@ -89,6 +102,7 @@
     - Markus Brill
     - Vincent Conitzer
   pdf_file: FreemanBrillConitzer2014.pdf
+  sort_key: FreemanBrillConitzer
 
 - title: The Weak Axiom of Revealed Preference for Collective Households
   authors:
@@ -98,6 +112,7 @@
     - Frits Spieksma
     - Fabrice Talla Nobibon
   pdf_file: SmeuldersCherchyeDeRockSpieksmaTallaNobibon2014.pdf
+  sort_key: SmeuldersCherchyeDeRockSpieksmaTallaNobibon
 
 - title: A Local-Dominance Theory of Voting Equilibria
   authors:
@@ -105,6 +120,7 @@
     - Omer Lev
     - Jeffrey Rosenschein
   pdf_file: MeirLevRosenschein2014.pdf
+  sort_key: MeirLevRosenschein
 
 - title: Analysis of Equilibria in Iterative Voting Schemes
   authors:
@@ -114,6 +130,7 @@
     - Evangelos Markakis
     - Jeffrey Rosenschein
   pdf_file: RabinovichObraztsovaLevMarkakisRosenschein2014.pdf
+  sort_key: RabinovichObraztsovaLevMarkakisRosenschein
 
 - title: "On the Convergence of Iterative Voting: How Restrictive Should Restricted Dynamics Be?"
   authors:
@@ -123,6 +140,7 @@
     - Zinovi Rabinovich
     - Nick Jennings
   pdf_file: ObraztsovaMarkakisPolukarovRabinovichJennings2014.pdf
+  sort_key: ObraztsovaMarkakisPolukarovRabinovichJennings
 
 - title: Parameterized Complexity Results for Agenda Safety in Judgment Aggregation
   authors:
@@ -130,6 +148,7 @@
     - Ronald de Haan
     - Stefan Szeider
   pdf_file: EndrissHaanSzeider2014.pdf
+  sort_key: EndrissHaanSzeider
 
 - title: Complexity of Manipulative Attacks in Judgment Aggregation for Premise-Based Quota Rules
   authors:
@@ -138,6 +157,7 @@
     - Olivia J. Erdelyi
     - Joerg Rothe
   pdf_file: BaumeisterErdelyiErdelyiRothe2014.pdf
+  sort_key: BaumeisterErdelyiErdelyiRothe
 
 - title: Interval Methods for Judgment Aggregation in Argumentation
   authors:
@@ -145,12 +165,14 @@
     - Edmond Awad
     - Iyad Rahwan
   pdf_file: BoothAwadRahwan2014.pdf
+  sort_key: BoothAwadRahwan
 
 - title: Weighted Simple Games as Access Structures of Ideal Secret Sharing Schemes
   authors:
     - Ali Hameed
     - Arkadii Slinko
   pdf_file: HameedSlinko2014.pdf
+  sort_key: HameedSlinko
 
 - title: The Shapley Value in Budgeted Games
   authors:
@@ -159,6 +181,7 @@
     - S. Muthukrishnan
     - Udi Weinsberg
   pdf_file: BhagatKimMuthukrishnanWeinsberg2014.pdf
+  sort_key: BhagatKimMuthukrishnanWeinsberg
 
 - title: On the Effects of Priors in Weighted Voting Games
   authors:
@@ -167,6 +190,7 @@
     - Yair Zick
     - Yoram Bachrach
   pdf_file: OrenFilmusZickBachrach2014.pdf
+  sort_key: OrenFilmusZickBachrach
 
 - title: Non Myopic Collaborators (nearly) Get Their Way
   authors:
@@ -175,6 +199,7 @@
     - Ian Kash
     - Peter Key
   pdf_file: ZickBachrachKashKey2014.pdf
+  sort_key: ZickBachrachKashKey
 
 - title: A Control Dichotomy for Pure Scoring Rules
   authors:
@@ -182,6 +207,7 @@
     - Lane A. Hemaspaandra
     - Henning Schnoor
   pdf_file: HemaspaandraHemaspaandraSchnoor2014.pdf
+  sort_key: HemaspaandraHemaspaandraSchnoor
 
 - title: "Control in the Presence of Manipulators: Cooperative and Competitive Cases"
   authors:
@@ -189,12 +215,14 @@
     - Edith Hemaspaandra
     - Lane A. Hemaspaandra
   pdf_file: FitzsimmonsHemaspaandraHemaspaandra2014.pdf
+  sort_key: FitzsimmonsHemaspaandraHemaspaandra
 
 - title: Strategic Voting and Strategic Candidacy
   authors:
     - Markus Brill
     - Vincent Conitzer
   pdf_file: BrillConitzer2014.pdf
+  sort_key: BrillConitzer
 
 - title: Soft Constraints in Stable Matching Problems
   authors:
@@ -203,18 +231,21 @@
     - Francesca Rossi
     - Kristen Brent Venable
   pdf_file: DeCaroPiniRossiVenable2014.pdf
+  sort_key: DeCaroPiniRossiVenable
 
 - title: Preference Elicitation and Interview Minimization in Stable Matchings
   authors:
     - Joanna Drummond
     - Craig Boutilier
   pdf_file: DrummondBoutilier2014.pdf
+  sort_key: DrummondBoutilier
 
 - title: Stable Invitations
   authors:
     - Hooyeon Lee
     - Yoav Shoham
   pdf_file: LeeShoham2014.pdf
+  sort_key: LeeShoham
 
 - title: Games Gibbard-Satterthwaite Manipulators Play
   authors:
@@ -223,12 +254,14 @@
     - Francesca Rossi
     - Arkadii Slinko
   pdf_file: ElkindGrandiRossiSlinko2014.pdf
+  sort_key: ElkindGrandiRossiSlinko
 
 - title: Iterated Regret Minimization in Voting Games
   authors:
     - Miranda Emery
     - Mark Wilson
   pdf_file: EmeryWilson2014.pdf
+  sort_key: EmeryWilson
 
 - title: Pre-Vote Negotiations and Binary Voting with Constraints
   authors:
@@ -236,18 +269,21 @@
     - Davide Grossi
     - Paolo Turrini
   pdf_file: GrandiGrossiTurrini2014.pdf
+  sort_key: GrandiGrossiTurrini
 
 - title: Finding Strategyproof Social Choice Functions via SAT Solving
   authors:
     - Felix Brandt
     - Christian Geist
   pdf_file: BrandtGeist2014.pdf
+  sort_key: BrandtGeist
 
 - title: "DEMOCRATIX: A Declarative Approach to Winner Determination"
   authors:
     - Gunther Charwat
     - Andreas Pfandler
   pdf_file: CharwatPfandler2014.pdf
+  sort_key: CharwatPfandler
 
 - title: Voting with CP-nets Using a Probabilistic Preference Structure
   authors:
@@ -258,3 +294,4 @@
     - Francesca Rossi
     - K. Brent Venable
   pdf_file: CornelioGrandiGoldsmithMatteiRossiVenable2014.pdf
+  sort_key: CornelioGrandiGoldsmithMatteiRossiVenable

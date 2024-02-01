@@ -3,12 +3,14 @@
     - Huihui Ding
     - Marcus Pivato
   pdf_file: DingPivato.pdf
+  sort_key: DingPivato
 
 - title: Strongly Budget Balanced Auctions for Multi-Sided Markets
   authors:
     - Rica Gonen
     - Erel Segal-Halevi
   pdf_file: GonenSegalHalevi.pdf
+  sort_key: GonenSegalHalevi
 
 - title: On the Indecisiveness of Kelly-Strategyproof Social Choice Functions
   authors:
@@ -16,12 +18,14 @@
     - Martin Bullinger
     - Patrick Lederer
   pdf_file: BrandtEtAl-2.pdf
+  sort_key: BrandtBullingerLederer
 
 - title: Finding and Recognizing Popular Coalition Structures
   authors:
     - Felix Brandt
     - Martin Bullinger
   pdf_file: BrandtBullinger.pdf
+  sort_key: BrandtBullinger
 
 - title: Approximate Group Fairness for Clustering
   authors:
@@ -31,11 +35,13 @@
     - Chenhao Wang
     - Yingfan Wang
   pdf_file: LiEtAl.pdf
+  sort_key: LiLiSunWangWang
 
 - title: The Smoothed Satisfaction of Voting Axioms
   authors:
     - Lirong Xia
   pdf_file: Xia.pdf
+  sort_key: Xia
 
 - title: "For One and All: Individual and Group Fairness in the Allocation of Indivisible Goods"
   authors:
@@ -43,6 +49,7 @@
     - Nicholas Teh
     - Yair Zick
   pdf_file: ScarlettEtAl.pdf
+  sort_key: ScarlettTehZick
 
 - title: Weighted Envy-Freeness in Indivisible Item Allocation
   authors:
@@ -51,12 +58,14 @@
     - Warut Suksompong
     - Yair Zick
   pdf_file: ChakrabortyEtAl.pdf
+  sort_key: ChakrabortyIgarashiSuksompongZick
 
 - title: Fair and efficient collective decisions via nondeterministic proportional consensus
   authors:
     - Jobst Heitzig
     - Forest W. Simmons
   pdf_file: HeitzigSimmons.pdf
+  sort_key: HeitzigSimmons
 
 - title: Reaping the Informational Surplus in Bayesian Persuasion
   authors:
@@ -65,6 +74,7 @@
     - Martin Hoefer
     - Rann Smorodinsky
   pdf_file: GradwohlEtAl.pdf
+  sort_key: GradwohlHahnHoeferSmorodinsky
 
 - title: "Threshold Task Games: Theory, Platform and Experiments"
   authors:
@@ -73,6 +83,7 @@
     - Quang Nhat Tran
     - Yair Zick
   pdf_file: GalEtAl.pdf
+  sort_key: GalNguyenTranZick
 
 - title: Modeling Voters in Multi-Winner Approval Voting
   authors:
@@ -81,6 +92,7 @@
     - Nicholas Mattei
     - K. Brent Venable
   pdf_file: ScheuermanEtAl.pdf
+  sort_key: ScheuermanHarmanMatteiVenable
 
 - title: Nash Welfare and Facility Location
   authors:
@@ -88,6 +100,7 @@
     - Haris Aziz
     - Toby Walsh
   pdf_file: LamEtAl.pdf
+  sort_key: LamAzizWalsh
 
 - title: Worst Case in Voting and Bargaining
   authors:
@@ -95,6 +108,7 @@
     - Ron Holzman
     - Herve Moulinlin
   pdf_file: BogomolnaiaEtAl.pdf
+  sort_key: BogomolnaiaHolzmanMoulinlin
 
 - title: Approximate and Strategyproof Maximin Share Allocation of Chores with Ordinal Preferences
   authors:
@@ -102,30 +116,35 @@
     - Bo Li
     - Xiaowei Wu
   pdf_file: AziEtAl.pdf
+  sort_key: AzizLiWu
 
 - title: Election Score Can Be Harder Than Winner
   authors:
     - Zack Fitzsimmons
     - Edith Hemaspaandra
   pdf_file: FitzsimmonsHemaspaandra.pdf
+  sort_key: FitzsimmonsHemaspaandra
 
 - title: Every choice function is pro-con rationalizable
   authors:
     - Serhat Dogan
     - Kemal Yildiz
   pdf_file: DoganYildiz.pdf
+  sort_key: DoganYildiz
 
 - title: The Smoothed Likelihood of Doctrinal Paradoxes
   authors:
     - Ao Liu
     - Lirong Xia
   pdf_file: LiuXia.pdf
+  sort_key: LiuXia
 
 - title: Strategy-Proofness implies Minimal Participation if Voting is Costly
   authors:
     - Michael Mueller
     - Clemens Puppe
   pdf_file: MuellerPuppe.pdf
+  sort_key: MuellerPuppe
 
 - title: Indecision Modeling
   authors:
@@ -137,6 +156,7 @@
     - Jana Schaich Borg
     - John P Dickerson
   pdf_file: McElfreshEtAl.pdf
+  sort_key: McElfreshChanDoyleSinnottArmstrongConitzerBorgDickerson
 
 - title: Fair Cake-Cutting Algorithms with Real Land-Value Data
   authors:
@@ -144,12 +164,14 @@
     - Rica Gonen
     - Erel Segal-HaLevi
   pdf_file: ShtechmanEtAl.pdf
+  sort_key: ShtechmanGonenSegalHaLevi
 
 - title: Decision Scoring Rules
   authors:
     - Caspar Oesterheld
     - Vincent Conitzer
   pdf_file: OesterheldConitzer.pdf
+  sort_key: OesterheldConitzer
 
 - title: Mitigating Manipulation in Peer Review via Randomized Reviewer Assignments
   authors:
@@ -160,6 +182,7 @@
     - Vincent Conitzer
     - Fei Fang
   pdf_file: JecmenEtAl.pdf
+  sort_key: JecmenZhangLiuShahConitzerFang
 
 - title: Loss Functions, Axioms, and Peer Review
   authors:
@@ -167,6 +190,7 @@
     - Nihar B. Shah
     - Ariel Procaccia
   pdf_file: NoothigattuEtAl.pdf
+  sort_key: NoothigattuShahProcaccia
 
 - title: "United for Change: Deliberative Coalition Formation to Change the Status Quo"
   authors:
@@ -175,6 +199,7 @@
     - Ehud Shapiro
     - Nimrod Talmon
   pdf_file: ElkindEtAl-3.pdf
+  sort_key: ElkindGrossiShapiroTalmon
 
 - title: A Closer Look at the Cake-Cutting Foundations through the Lens of Measure Theory
   authors:
@@ -185,6 +210,7 @@
     - Dietrich Stoyan
     - Robin Weishaupt
   pdf_file: KernEtAl.pdf
+  sort_key: KernNeugebauerRotheSchillingStoyanWeishaupt
 
 - title: On Approximate Envy-Freeness for Indivisible Chores and Mixed Resources
   authors:
@@ -192,6 +218,7 @@
     - AR Sricharan
     - Rohit Vaish
   pdf_file: BhaskarEtAl.pdf
+  sort_key: BhaskarSricharanVaish
 
 - title: Complexity of Sequential Rules in Judgment Aggregation
   authors:
@@ -199,6 +226,7 @@
     - Linus Boes
     - Robin Weishaupt
   pdf_file: BaumeisterEtAl-1.pdf
+  sort_key: BaumeisterBoesWeishaupt
 
 - title: Relaxed Notions of Condorcet-Consistency and Efficiency for Strategyproof Social Decision Schemes
   authors:
@@ -206,18 +234,21 @@
     - Patrick Lederer
     - René Romen
   pdf_file: BrandtEtAl-1.pdf
+  sort_key: BrandtLedererRomen
 
 - title: Four Faces of Altruistic Hedonic Games
   authors:
     - Anna Maria Kerkmann
     - Jörg Rothe
   pdf_file: KerkmannRothe.pdf
+  sort_key: KerkmannRothe
 
 - title: Complexity of Scheduling and Predicting Round-Robin Tournaments
   authors:
     - Dorothea Baumeister
     - Tobias Hogrebe
   pdf_file: BaumeisterHogrebe.pdf
+  sort_key: BaumeisterHogrebe
 
 - title: Online selection of diverse committees
   authors:
@@ -226,6 +257,7 @@
     - Jérôme Lang
     - Nicolas Usunier
   pdf_file: DoEtAl.pdf
+  sort_key: DoAtifLangUsunier
 
 - title: Primarily About Primaries
   authors:
@@ -234,6 +266,7 @@
     - Nisarg Shah
     - Tyrone Strangway
   pdf_file: BorodinEtAl-1.pdf
+  sort_key: BorodinLevShahStrangway
 
 - title: Learning preferences in an accumulation-to-threshold model of decision making
   authors:
@@ -241,6 +274,7 @@
     - K. Brent Venable
     - Jerome R. Busemeyer
   pdf_file: RahgooyEtAl.pdf
+  sort_key: RahgooyVenableBusemeyer
 
 - title: "Mind the Gap: Cake Cutting With Separation"
   authors:
@@ -248,6 +282,7 @@
     - Erel Segal-Halevi
     - Warut Suksompong
   pdf_file: ElkindEtAl-1.pdf
+  sort_key: ElkindSegalHaleviSuksompong
 
 - title: Approval-Based Apportionment
   authors:
@@ -257,18 +292,21 @@
     - Ulrike Schmidt-Kraepelin
     - Kai Wilker
   pdf_file: BrillEtAl.pdf
+  sort_key: BrillGölzPetersSchmidtKraepelinWilker
 
 - title: "Perpetual Voting: The Axiomatic Lens"
   authors:
     - Martin Lackner
     - Jan Maly
   pdf_file: LacknerMaly.pdf
+  sort_key: LacknerMaly
 
 - title: Efficient Computation and Strategic Control in Conditional Approval Voting
   authors:
     - Evangelos Markakis
     - Georgios Papasotiropoulos
   pdf_file: MarkakisPapasotiropoulos.pdf
+  sort_key: MarkakisPapasotiropoulos
 
 - title: Equitable Division of a Path
   authors:
@@ -277,12 +315,14 @@
     - P. R. Vaidyanathan
     - Rohit Vaish
   pdf_file: MisraEtAl.pdf
+  sort_key: MisraSonarVaidyanathanVaish
 
 - title: Tracking Truth by Weighting Proxies in Liquid Democracy
   authors:
     - Yuzhe Zhang
     - Davide Grossi
   pdf_file: ZhangGrossi.pdf
+  sort_key: ZhangGrossi
 
 - title: "Selecting Matchings via Multiwinner Voting: How Structure Defeats a Large Candidate Space"
   authors:
@@ -290,6 +330,7 @@
     - Markus Brill
     - Ulrike Schmidt-Kraepelin
   pdf_file: BoehmerEtAl-2.pdf
+  sort_key: BoehmerBrillSchmidtKraepelin
 
 - title: Designing Participatory Budgeting Mechanisms Grounded in Judgment Aggregation
   authors:
@@ -297,12 +338,14 @@
     - Ulle Endriss
     - Ronald de Haan
   pdf_file: ReyEtAl.pdf
+  sort_key: ReyEndrissHaan
 
 - title: Dynamic Proportional Rankings
   authors:
     - Jonas Israel
     - Markus Brill
   pdf_file: IsraelBrill.pdf
+  sort_key: IsraelBrill
 
 - title: Manipulation of Opinion Polls to Influence Iterative Elections
   authors:
@@ -310,6 +353,7 @@
     - Ann-Kathrin Selker
     - Anaelle Wilczynski
   pdf_file: BaumeisterEtAl-2.pdf
+  sort_key: BaumeisterSelkerWilczynski
 
 - title: Behavioral Stable Marriage Problems
   authors:
@@ -317,12 +361,14 @@
     - Kristen Brent Venable
     - Nicholas Mattei
   pdf_file: MartinEtAl.pdf
+  sort_key: MartinVenableMattei
 
 - title: Proportional Representation under Single-Crossing Preferences Revisited
   authors:
     - Andrei Constantinescu
     - Edith Elkind
   pdf_file: ConstantinescuElkind.pdf
+  sort_key: ConstantinescuElkind
 
 - title: On (Coalitional) Exchange-Stable Matching
   authors:
@@ -331,6 +377,7 @@
     - Fabian Jogl
     - Manuel Sorge
   pdf_file: ChenEtAl.pdf
+  sort_key: ChenChmurovicJoglSorge
 
 - title: "Winner Robustness via Swap- and Shift-Bribery: Parameterized Counting Complexity and Experiments"
   authors:
@@ -339,6 +386,7 @@
     - Piotr Faliszewski
     - Rolf Niedermeier
   pdf_file: BoehmerEtAl-3.pdf
+  sort_key: BoehmerBredereckFaliszewskiNiedermeier
 
 - title: Putting a Compass on the Map of Elections
   authors:
@@ -348,6 +396,7 @@
     - Rolf Niedermeier
     - Stanisław Szufa
   pdf_file: BoehmerEtAl-1.pdf
+  sort_key: BoehmerBredereckFaliszewskiNiedermeierSzufa
 
 - title: "The Price is (Probably) Right: Learning Market Equilibria from Samples"
   authors:
@@ -356,12 +405,14 @@
     - Vignesh Viswanathan
     - Yair Zick
   pdf_file: LevEtAl.pdf
+  sort_key: LevPatelViswanathanZick
 
 - title: "Guaranteeing Maximin Shares: Some Agents Left Behind"
   authors:
     - Hadi Hosseini
     - Andrew Searns
   pdf_file: HosseiniSearns.pdf
+  sort_key: HosseiniSearns
 
 - title: "Keeping Your Friends Close: Land Allocation with Friends"
   authors:
@@ -370,6 +421,7 @@
     - Alan Tsang
     - Yair Zick
   pdf_file: ElkindEtAl-2.pdf
+  sort_key: ElkindPatelTsangZick
 
 - title: Making Group Decisions from Natural Language-Based Preferences
   authors:
@@ -382,6 +434,7 @@
     - Rohit Vaish
     - Lirong Xia
   pdf_file: MohsinEtAl.pdf
+  sort_key: MohsinLuoMaKangZhaoLiuVaishXia
 
 - title: "High Dimensional Model Explanations: An Axiomatic Approach"
   authors:
@@ -389,6 +442,7 @@
     - Martin Strobel
     - Yair Zick
   pdf_file: PatelEtAl.pdf
+  sort_key: PatelStrobelZick
 
 - title: Finding Fair and Efficient Allocations When Valuations Don’t Add Up
   authors:
@@ -397,12 +451,14 @@
     - Ayumi Igarashi
     - Yair Zick
   pdf_file: BenabbouEtAl.pdf
+  sort_key: BenabbouChakrabortyIgarashiZick
 
 - title: "The Borda Class: An Axiomatic Study of the Borda Rule on Top-Truncated Preferences"
   authors:
     - Zoi Terzopoulou
     - Ulle Endriss
   pdf_file: TerzopoulouEndriss.pdf
+  sort_key: TerzopoulouEndriss
 
 - title: "Little House (Seat) on the Prairie: Compactness, Gerrymandering, and Population Distribution"
   authors:
@@ -411,6 +467,7 @@
     - Nisarg Shah
     - Tyrone Strangway
   pdf_file: BorodinEtAl-2.pdf
+  sort_key: BorodinLevShahStrangway
 
 - title: Multistage Committee Elections
   authors:
@@ -418,6 +475,7 @@
     - Till Fluschnik
     - Andrzej Kaczmarczyk
   pdf_file: BredereckEtAl.pdf
+  sort_key: BredereckFluschnikKaczmarczyk
 
 - title: Worst-case Bounds on Power vs. Proportion in Weighted Voting Games with an Application to False-name Manipulation
   authors:
@@ -425,6 +483,7 @@
     - Ron Lavi
     - Moshe Tennenholtz
   pdf_file: GafniEtAl-2.pdf
+  sort_key: GafniLaviTennenholtz
 
 - title: Unified Fair Allocation for Indivisible Goods and Chores via Copies
   authors:
@@ -433,6 +492,7 @@
     - Ron Lavi
     - Inbal Talgam-Cohen
   pdf_file: GafniEtAl-1.pdf
+  sort_key: GafniHuangLaviTalgamCohen
 
 - title: Best-of-Both-Worlds Fair-Share Allocations
   authors:
@@ -440,6 +500,7 @@
     - Tomer Ezra
     - Uriel Feige
   pdf_file: BabaioffEtAl.pdf
+  sort_key: BabaioffEzraFeige
 
 - title: On social networks that support learning
   authors:
@@ -447,6 +508,7 @@
     - Fedor Sandomirskiy
     - Rann Smorodinsky
   pdf_file: ArieliEtAl.pdf
+  sort_key: ArieliSandomirskiySmorodinsky
 
 - title: (Almost Full) EFX Exists for Four Agents (and Beyond)
   authors:
@@ -455,6 +517,7 @@
     - Michal Feldman
     - Amos Fiat
   pdf_file: BergerEtAl.pdf
+  sort_key: BergerCohenFeldmanFiat
 
 - title: Fair-Share Allocations for Agents with Arbitrary Entitlements
   authors:
@@ -462,6 +525,7 @@
     - Tomer Ezra
     - Uriel Feige
   pdf_file: BabaioffEtAl.pdf
+  sort_key: BabaioffEzraFeige
 
 - title: Proportional Participatory Budgeting with Cardinal Utilities
   authors:
@@ -469,6 +533,7 @@
     - Grzegorz Pierczyński
     - Piotr Skowron
   pdf_file: PetersEtAl-1.pdf
+  sort_key: PetersPierczynskiSkowron
 
 - title: Market-Based Explanations of Collective Decisions
   authors:
@@ -477,12 +542,14 @@
     - Nisarg Shah
     - Piotr Skowron
   pdf_file: PetersEtAl-2.pdf
+  sort_key: PetersPierczynskiShahSkowron
 
 - title: "Evaluating Committees for Representative Democracies: the Distortion and Beyond"
   authors:
     - Michał Jaworski
     - Piotr Skowron
   pdf_file: JaworskiSkowron.pdf
+  sort_key: JaworskiSkowron
 
 - title: An Analysis of Approval-Based Committee Rules for 2D-Euclidean Elections
   authors:
@@ -491,6 +558,7 @@
     - Piotr Skowron
     - Piotr Faliszewski
   pdf_file: GodziszewskiEtAl.pdf
+  sort_key: GodziszewskiBatkoSkowronFaliszewski
 
 - title: Proportional Approval Voting, Harmonic k-Median, and Negative Association
   authors:
@@ -498,3 +566,4 @@
     - Piotr Skowron
     - Krzysztof Sornat
   pdf_file: ByrkaEtAl.pdf
+  sort_key: ByrkaSkowronSornat

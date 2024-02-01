@@ -7,7 +7,7 @@ title: Workshop Series | COMSOC
 
 The COMSOC workshop series aims to bring together diverse communities, including computer scientists interested in computational aspects of social choice, researchers in artificial intelligence and multiagent systems using social choice ideas for organizing artificial software agent societies, logicians interested in logic-based specification and analysis of social procedures, and experts in social choice theory.
 
-These workshops occur biannually, with the exception of 2020 due to the COVID-19 pandemic. The coordination is managed by a [Steering Committee](steering-committee.html).
+These workshops occur biannually, with the exception of 2020 due to the COVID-19 pandemic. The coordination is managed by a [Steering Committee](community).
 
 - [COMSOC-2023: 9th International Workshop on Computational Social Choice](https://www.bgu.ac.il/comsoc2023)  
   ( [Proceedings](proceedings/2023/) )  
