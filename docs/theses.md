@@ -14,7 +14,7 @@ Suggestions for further additions are more than welcome, ping us on <a href="htt
 <h2>{{ year.name }}</h2>
 <ul>
     {% for thesis in year.items %}
-        <li>
+        <li><p>
             <strong>{{ thesis.name }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
             <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>
             {% if thesis.supervisors.size == 1 %}
@@ -25,7 +25,7 @@ Suggestions for further additions are more than welcome, ping us on <a href="htt
                     {{ supervisor }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
                 {% endfor %}
             {% endif %}
-        </li>
+        </p></li>
     {% endfor %}
 </ul>
 {% endfor %}

@@ -5,7 +5,7 @@ layout: default
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
 <p>
-    These are the proceedings for the {{ page.year }} COMSOC workshop. This event is part of the <a href="workshops">COMSOC
+    These are the proceedings for the {{ page.year }} COMSOC workshop. This event is part of the <a href="/workshops">COMSOC
     Workshop Series</a>.
 </p>
 
@@ -21,12 +21,15 @@ layout: default
 {% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
 <ul>
 {% for paper in sorted_papers %}
-    <li>{{ paper.title }}<br>
+    <li><p>
+        {{ paper.title }}<br>
+        <strong>
         {% for author in paper.authors %}
             {{ author }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
-        {% endfor %}<br>
+        {% endfor %}
+        </strong><br>
         <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
-    </li>
+    </p></li>
 {% endfor %}
 </ul>
 
