@@ -10,7 +10,7 @@ all_years: [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
         {% if year == page.year %}
             <strong>{{ year }}</strong>
         {% else %}
-            <a href="{{ site.baseurl }}/proceedings/{{ year }}/">{{ year }}</a>
+            <a href="/proceedings/{{ year }}/">{{ year }}</a>
         {% endif %}
     {% unless forloop.last %}
         &#183;
@@ -19,7 +19,7 @@ all_years: [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 </p>
 
 <p>
-    These are the proceedings for the {{ page.year }} COMSOC workshop, an event part of the <a href="{{ site.baseurl }}/workshops">COMSOC
+    These are the proceedings for the {{ page.year }} COMSOC workshop, an event part of the <a href="/workshops">COMSOC
     Workshop Series</a>.
 </p>
 
@@ -36,7 +36,7 @@ all_years: [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 <p>The publication categories are:</p>
 <ul>
     {% for pub_type in papers_per_pub_type %}
-        <li><a href="#{{ pub_type.name }}">{{ pub_type.name  }}</a></li>
+        <li><a href="#{{ pub_type.name }}">{{ pub_type.name | capitalize }}</a></li>
     {% endfor %}
 </ul>
 
@@ -49,7 +49,7 @@ all_years: [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 {% for pub_type in papers_per_pub_type %}
 
 {% if papers_per_pub_type.size > 1 %}
-<h2 id="pub_type.name">{{ pub_type.name | capitalize }}</h2>
+<h2 id="{{ pub_type.name }}">{{ pub_type.name | capitalize }}</h2>
 {% endif %}
 
 {% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
