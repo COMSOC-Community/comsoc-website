@@ -111,6 +111,11 @@ img {
   text-align: center;
 }
 
+.hline {
+  border-top: 3px #EE9955 solid;
+  width: 100%;
+}
+
 /* ===
 Header
 === */
