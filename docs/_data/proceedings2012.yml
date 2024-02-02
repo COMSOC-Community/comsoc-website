@@ -49,12 +49,12 @@
 
 - title: "Goodness of fit measures for revealed preference tests: Complexity results and algorithms"
   authors:
-    - Bart Smeulders
-    - Frits Spieksma
     - Laurens Cherchye
     - Bram De Rock
-  pdf_file: Smeulders.pdf
-  sort_key: SmeuldersSpieksmaCherchyeRock
+    - Bart Smeulders
+    - Frits Spieksma
+  pdf_file: Cherchye.pdf
+  sort_key: CherchyeDeRockSmeuldersSpieksma
   accepted_as: presentation
 
 - title: The Possible Winner Problem with Uncertain Weights
@@ -187,12 +187,12 @@
 
 - title: Resistance to bribery when aggregating soft constraints
   authors:
-    - Alberto Amaran
+    - Alberto Maran
     - Maria Silvia Pini
     - Francesca Rossi
     - Kristen Brent Venable
-  pdf_file: Amaran.pdf
-  sort_key: AmaranPiniRossiVenable
+  pdf_file: Maran.pdf
+  sort_key: MaranPiniRossiVenable
   accepted_as: presentation
 
 - title: The Complexity of Nearly Single-Peaked Consistency

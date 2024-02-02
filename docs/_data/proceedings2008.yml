@@ -81,8 +81,8 @@
     - Gábor Erdélyi
     - Markus Nowak
     - Jörg Rothe
-  pdf_file: ErdelyiNowakRothe.pdf
-  sort_key: Erdelyi
+  pdf_file: Erdelyi.pdf
+  sort_key: ErdelyiNowakRothe
   accepted_as: presentation
 
 - title: Approximability of Manipulating Elections
@@ -102,8 +102,8 @@
     - Vincent Conitzer
     - Ariel Procaccia
     - Jeffrey Rosenschein
-  pdf_file: XiaConitzerProcacciaRosenschein.pdf
-  sort_key: Xia
+  pdf_file: Xia.pdf
+  sort_key: XiaConitzerProcacciaRosenschein
   accepted_as: presentation
 
 - title: A Qualitative Vickrey Auction
@@ -111,16 +111,16 @@
     - Paul Harrenstein
     - Tamás Máhr
     - Mathijs de Weerdt
-  pdf_file: HarrensteinMahrDeWeerdt.pdf
-  sort_key: Harrenstein
+  pdf_file: Harrenstein.pdf
+  sort_key: HarrensteinMahrDeWeerdt
   accepted_as: presentation
 
 - title: The Cost and Windfall of Manipulability
   authors:
     - Abraham Othman
     - Tuomas Sandholm
-  pdf_file: OthmanSandholm.pdf
-  sort_key: Othman
+  pdf_file: Othman.pdf
+  sort_key: OthmanSandholm
   accepted_as: presentation
 
 - title: On the Agenda Control Problem for Knockout Tournaments
@@ -183,7 +183,7 @@
   authors:
     - Franz Dietrich
     - Christian List
-  pdf_file: DietrichList.pdf
+  pdf_file: Dietrich.pdf
   sort_key: DietrichList
   accepted_as: presentation
 
