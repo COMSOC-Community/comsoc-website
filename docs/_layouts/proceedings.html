@@ -9,13 +9,19 @@ layout: default
     Workshop Series</a>.
 </p>
 
-<p>
-    The papers in the proceedings are categorised by their acceptance status (if there is more than one, for instance
-    "poster" and "presentation") and ordered by last name of the authors.
-</p>
-
 {% assign data_key = "proceedings" | append: page.year %}
 {% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
+
+<p>
+    The papers in the proceedings are
+    {% if papers_per_pub_type.size > 1 %}categorised by their acceptance status (e.g., "poster" and "presentation") and {% endif %}
+    ordered by last name of the authors.
+</p>
+
+{% if page.complete_proceedings %}
+<p><a href="{{ site.baseurl }}{{ page.complete_proceedings }}">[Full Proceedings]</a></p>
+{% endif %}
+
 {% for pub_type in papers_per_pub_type %}
 
 {% if papers_per_pub_type.size > 1 %}
