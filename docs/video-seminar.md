@@ -9,6 +9,10 @@ The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank"}, launch
 seminar series on social choice taking place online. Researchers from all disciplines are welcome
 to present and attend.
 
+The upcoming events are announced on the [website](https://comsocseminar.org/) of the seminar. A list of past events is
+available below. If you have spotted a mistake or want to update this list, check the 
+[GitHub repo](https://github.com/Simon-Rey/comsoc-website) of the website.
+
 ## Past Events
 
 {% assign sorted_events = site.data.videoseminar | sort: '-date' %}
@@ -16,7 +20,8 @@ to present and attend.
 <div class="video-seminar-event">
 <h3 class="video-seminar-event-title">
     <span>
-        {{ event.date }}: {% if event.title %}{{ event.title }}{% else %}{% for presentation in event.presentations %}{{ presentation.speaker.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endif %}
+        {{ event.date }}: 
+        {% if event.title %}{{ event.title }}{% else %}{% for presentation in event.presentations %}{{ presentation.speaker.name }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% endif %}
         {% if event.video_links %}{% for link in event.video_links %}<a class="video-link" href="{{ link }}" target="_blank">[Video{% if event.video_links.size > 1 %} {{ forloop.index }}{% endif %}]</a> {% endfor %}{% endif %}
     </span>
     <span class="toggle-arrow">&#9662;</span>
@@ -35,7 +40,7 @@ to present and attend.
 
 <div class="video-seminar-presentation">
 
-{% if presentation.speaker %}<p>{% if presentation.speaker.url %}<a href="{{ presentation.speaker.url }}">{% endif %}{{ presentation.speaker.name }}{% if presentation.speaker.url %}</a>{% endif %} {% if presentation.speaker.affiliation %}({{ presentation.speaker.affiliation }}){% endif %}</p>{% endif %}
+{% if presentation.speaker %}<p>{% if presentation.speaker.url %}<a href="{{ presentation.speaker.url }}" target="_blank">{% endif %}{{ presentation.speaker.name }}{% if presentation.speaker.url %}</a>{% endif %} {% if presentation.speaker.affiliation %}({{ presentation.speaker.affiliation }}){% endif %}</p>{% endif %}
 
 {% if presentation.title %}<p class="video-seminar-presentation-title">{{ presentation.title }}{% if presentation.slides_link %} <a class="slides-link" href="{{ presentation.slides_link }}" taget="_blank">[Slides]</a>{% endif %}</p>{% endif %}
 

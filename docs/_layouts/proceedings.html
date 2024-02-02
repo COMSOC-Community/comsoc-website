@@ -5,10 +5,14 @@ layout: default
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
 <p>
-    These are the proceedings for the {{ page.year }} COMSOC workshop. This event is part of the <a href="/workshops">COMSOC
+    These are the proceedings for the {{ page.year }} COMSOC workshop, an event part of the <a href="/workshops">COMSOC
     Workshop Series</a>.
 </p>
 
+<p>
+    The papers in the proceedings are categorised by their acceptance status (if there is more than one, for instance
+    "poster" and "presentation") and ordered by last name of the authors.
+</p>
 
 {% assign data_key = "proceedings" | append: page.year %}
 {% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
