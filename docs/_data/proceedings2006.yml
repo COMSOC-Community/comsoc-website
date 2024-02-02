@@ -1,0 +1,318 @@
+- title: The Computational Complexity of Choice Sets
+  authors:
+    - Felix Brandt
+    - Felix Fischer
+    - Paul Harrenstein
+  pdf_file: Brandt.pdf
+  sort_key: BrandtFischerHarrenstein
+  accepted_as: presentation
+
+- title: "Approval Voting: Local Search Heuristics and Approximation Algorithms for the Minimax Solution"
+  authors:
+    - Rob LeGrand
+    - Evangelos Markakis
+    - Aranyak Mehta
+  pdf_file: LeGrand.pdf
+  sort_key: LeGrandMarkakisMehta
+  accepted_as: presentation
+
+- title: Hybrid Elections Broaden Complexity-Theoretic Resistance to Control
+  authors:
+    - Edith Hemaspaandra
+    - Lane Hemaspaandra
+    - Jörg Rothe
+  pdf_file: Hemaspaandra.pdf
+  sort_key: HemaspaandraHemaspaandraRothe
+  accepted_as: presentation
+
+- title: Hybrid Voting Protocols and Hardness of Manipulation
+  authors:
+    - Edith Elkind
+    - Helger Lipmaa
+  pdf_file: Elkind.pdf
+  sort_key: ElkindLipmaa
+  accepted_as: presentation
+
+- title: The Complexity of Bribery in Elections
+  authors:
+    - Piotr Faliszewski
+    - Edith Hemaspaandra
+    - Lane Hemaspaandra
+  pdf_file: Faliszewski.pdf
+  sort_key: FaliszewskiHemaspaandraHemaspaandra
+  accepted_as: presentation
+
+- title: On Complexity of Lobbying in Multiple Referenda
+  authors:
+    - Robin Christian
+    - Mike Fellows
+    - Frances Rosamond
+    - Arkadii Slinko
+  pdf_file: Christian.pdf
+  sort_key: ChristianFellowsRosamondSlinko
+  accepted_as: presentation
+
+- title: Towards a Logic of Social Welfare
+  authors:
+    - Thomas Ågotnes
+    - Wiebe van der Hoek
+    - Michael Wooldridge
+  pdf_file: Agotnes.pdf
+  sort_key: AgotnesVanderHoekWooldridge
+  accepted_as: presentation
+
+- title: Social Choice and the Logic of Simple Games
+  authors:
+    - Tijmen Daniëls
+  pdf_file: Daniels.pdf
+  sort_key: Daniels
+  accepted_as: presentation
+
+- title: On the Robustness of Preference Aggregation in Noisy Environments
+  authors:
+    - Ariel Procaccia
+    - Jeffrey Rosenschein
+    - Gal Kaminka
+  pdf_file: Procaccia_1.pdf
+  sort_key: ProcacciaRosenscheinKaminka
+  accepted_as: presentation
+
+- title: Anonymous Voting and Minimal Manipulability
+  authors:
+    - Stefan Maus
+    - Hans Peters
+    - Ton Storcken
+  pdf_file: Maus.pdf
+  sort_key: MausPetersStorcken
+  accepted_as: presentation
+
+- title: Domains of Social Choice Functions on which Coalition Strategy-Proofness and Maskin Monotonicity are Equivalent
+  authors:
+    - Koji Takamiya
+  pdf_file: Takamiya.pdf
+  sort_key: Takamiya
+  accepted_as: presentation
+
+- title: Simulating the Effects of Misperception on the Manipulability of Voting
+  authors:
+    - Johann Mitlöhner
+    - Daniel Eckert
+    - Christian Klamler
+  pdf_file: Mitloehner.pdf
+  sort_key: MitlohnerEckertKlamler
+  accepted_as: presentation
+
+- title: Optimizing Streaming Applications with Self-Interested Users using M-DPOP
+  authors:
+    - Boi Faltings
+    - David Parkes
+    - Adrian Petcu
+    - Jeff Shneidman
+  pdf_file: Faltings.pdf
+  sort_key: FaltingsParkesPetcuShneidman
+  accepted_as: presentation
+
+- title: Weak Monotonicity and Bayes-Nash Incentive Compatibility
+  authors:
+    - Rudolf Müller
+    - Andrés Perea
+    - Sascha Wolf
+  pdf_file: Mueller.pdf
+  sort_key: MullerPereaWolf
+  accepted_as: presentation
+
+- title: Decentralization and Mechanism Design for Online Machine Scheduling
+  authors:
+    - Birgit Heydenreich
+    - Rudolf Müller
+    - Marc Uetz
+  pdf_file: Heydenreich.pdf
+  sort_key: HeydenreichMullerUetz
+  accepted_as: presentation
+
+- title: "QuickRank: A Recursive Ranking Algorithm"
+  authors:
+    - Amy Greenwald
+    - John Wicks
+  pdf_file: Greenwald.pdf
+  sort_key: GreenwaldWicks
+  accepted_as: presentation
+
+- title: Automated Design of Voting Rules by Learning from Examples
+  authors:
+    - Ariel Procaccia
+    - Aviv Zohar
+    - Jeffrey Rosenschein
+  pdf_file: Procaccia_2.pdf
+  sort_key: ProcacciaZoharRosenschein
+  accepted_as: presentation
+
+- title: Small Binary Voting Trees
+  authors:
+    - Michael Trick
+  pdf_file: Trick.pdf
+  sort_key: Trick
+  accepted_as: presentation
+
+- title: Some Results on Adjusted Winner
+  authors:
+    - Eric Pacuit
+    - Rohit Parikh
+    - Samer Salame
+  pdf_file: Pacuit.pdf
+  sort_key: PacuitParikhSalame
+  accepted_as: presentation
+
+- title: How to Allocate Hard Candies Fairly
+  authors:
+    - Marco Dall'Aglio
+    - Raffaele Mosca
+  pdf_file: DallAglio.pdf
+  sort_key: DallAglioMosca
+  accepted_as: presentation
+
+- title: Judgment Aggregation without Full Rationality
+  authors:
+    - Franz Dietrich
+    - Christian List
+  pdf_file: Dietrich.pdf
+  sort_key: DietrichList
+  accepted_as: presentation
+
+- title: Merging Judgments and the Problem of Truth-Tracking
+  authors:
+    - Gabriella Pigozzi
+    - Stephan Hartmann
+  pdf_file: Pigozzi.pdf
+  sort_key: PigozziHartmann
+  accepted_as: presentation
+
+- title: The Discursive Dilemma as a Lottery Paradox
+  authors:
+    - Igor Douven
+    - Jan-Willem Romeijn
+  pdf_file: Douven.pdf
+  sort_key: DouvenRomeijn
+  accepted_as: presentation
+
+- title: "Natural Rules for Optimal Debates: Preliminaries for a Combinatorial Exploration"
+  authors:
+    - Yann Chevaleyre
+    - Nicolas Maudet
+  pdf_file: Chevaleyre.pdf
+  sort_key: ChevaleyreMaudet
+  accepted_as: presentation
+
+- title: Approximability of Dodgson's Rule
+  authors:
+    - John Christopher McCabe-Dansted
+    - Geoffrey Pritchard
+    - Arkadii Slinko
+  pdf_file: McCabe.pdf
+  sort_key: McCabeDanstedPritchardSlinko
+  accepted_as: presentation
+
+- title: Guarantees for the Success Frequency of an Algorithm for Finding Dodgson Winners
+  authors:
+    - Christopher Homan
+    - Lane A. Hemaspaandra
+  pdf_file: Homan.pdf
+  sort_key: HomanHemaspaandra
+  accepted_as: presentation
+
+- title: On Determining Dodgson Winners by Frequently Self-Knowingly Correct Algorithms and in Average-Case Polynomial Time
+  authors:
+    - Jörg Rothe
+    - Holger Spakowski
+  pdf_file: Rothe.pdf
+  sort_key: RotheSpakowski
+  accepted_as: presentation
+
+- title: Bicriteria Models for Fair Resource Allocation
+  authors:
+    - Wlodzimierz Ogryczak
+  pdf_file: Ogryczak.pdf
+  sort_key: Ogryczak
+  accepted_as: presentation
+
+- title: Finding Leximin-Optimal Solutions using Constraint Programming
+  authors:
+    - Sylvain Bouveret
+    - Michel Lemaître
+  pdf_file: Bouveret.pdf
+  sort_key: BouveretLemaitre
+  accepted_as: presentation
+
+- title: The Distributed Negotiation of Egalitarian Allocations
+  authors:
+    - Paul-Amaury Matt
+    - Francesca Toni
+    - Dionysis Dionysiou
+  pdf_file: Matt.pdf
+  sort_key: MattToniDionysiou
+  accepted_as: presentation
+
+- title: Welfarism and the Assessments of Social Decision Rules
+  authors:
+    - Claus Beisbart
+    - Stephan Hartmann
+  pdf_file: Beisbart.pdf
+  sort_key: BeisbartHartmann
+  accepted_as: presentation
+
+- title: Equal Representation in Two-tier Voting Systems
+  authors:
+    - Nicola Maaser
+    - Stefan Napel
+  pdf_file: Maaser.pdf
+  sort_key: MaaserNapel
+  accepted_as: presentation
+
+- title: Eliciting Single-Peaked Preferences using Comparison Queries
+  authors:
+    - Vincent Conitzer
+  pdf_file: Conitzer.pdf
+  sort_key: Conitzer
+  accepted_as: presentation
+
+- title: Retrieving the Structure of Utility Graphs used in Multi-Item Negotiation through Collaborative Filtering
+  authors:
+    - Valentin Robu
+    - Han La Poutré
+  pdf_file: Robu.pdf
+  sort_key: RobuLaPoutre
+  accepted_as: presentation
+
+- title: A Generic Approach to Coalition Formation
+  authors:
+    - Krzysztof Apt
+    - Andreas Witzel
+  pdf_file: Apt.pdf
+  sort_key: AptWitzel
+  accepted_as: presentation
+
+- title: The Probability of Sen's Liberal Paradox
+  authors:
+    - Keith Dougherty
+    - Julian Edward
+  pdf_file: Dougherty.pdf
+  sort_key: DoughertyEdward
+  accepted_as: presentation
+
+- title: Voting Cycles in a Computational Electoral Competition Model with Endogenous Interest Groups
+  authors:
+    - Vjollca Sadiraj
+    - Jan Tuinstra
+    - Frans van Winden
+  pdf_file: Sadiraj.pdf
+  sort_key: SadirajTuinstraVanWinden
+  accepted_as: presentation
+
+- title: "Voting Systems and Automated Reasoning: The QBFEVAL Case Study"
+  authors:
+    - Massimo Narizzano
+    - Luca Pulina
+    - Armando Tacchella
+  pdf_file: Narizzano.pdf
+  sort_key: NarizzanoPulinaTacchella
+  accepted_as: presentation

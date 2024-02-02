@@ -1,0 +1,337 @@
+- title: How Many Vote Operations Are Needed to Manipulate A Voting System?
+  authors:
+    - Lirong Xia
+  pdf_file: Xia.pdf
+  sort_key: Xia
+  accepted_as: presentation
+
+- title: "Housing Markets with Indifferences: a Tale of Two Mechanisms"
+  authors:
+    - Haris Aziz
+    - Bart de Keijzer
+  pdf_file: Aziz.pdf
+  sort_key: AzizKeijzer
+  accepted_as: presentation
+
+- title: The Complexity of Online Manipulation of Sequential Elections
+  authors:
+    - Edith Hemaspaandra
+    - Lane A. Hemaspaandra
+    - Jörg Rothe
+  pdf_file: Hemaspaandra.pdf
+  sort_key: HemaspaandraRothe
+  accepted_as: presentation
+
+- title: Manipulation Under Voting Rule Uncertainty
+  authors:
+    - Edith Elkind
+    - Gábor Erdélyi
+  pdf_file: Elkind.pdf
+  sort_key: ElkindErdelyi
+  accepted_as: presentation
+
+- title: An Empirical Study of Voting Rules and Manipulation with Large Datasets
+  authors:
+    - Nicholas Mattei
+    - James Forshee
+    - Judy Goldsmith
+  pdf_file: Mattei.pdf
+  sort_key: MatteiForsheeGoldsmith
+  accepted_as: presentation
+
+- title: The Price of Neutrality for the Ranked Pairs Method
+  authors:
+    - Markus Brill
+    - Felix Fischer
+  pdf_file: Brill.pdf
+  sort_key: BrillFischer
+  accepted_as: presentation
+
+- title: "Goodness of fit measures for revealed preference tests: Complexity results and algorithms"
+  authors:
+    - Bart Smeulders
+    - Frits Spieksma
+    - Laurens Cherchye
+    - Bram De Rock
+  pdf_file: Smeulders.pdf
+  sort_key: SmeuldersSpieksmaCherchyeRock
+  accepted_as: presentation
+
+- title: The Possible Winner Problem with Uncertain Weights
+  authors:
+    - Dorothea Baumeister
+    - Magnus Roos
+    - Jörg Rothe
+    - Lena Schend
+    - Lirong Xia
+  pdf_file: Baumeister.pdf
+  sort_key: BaumeisterRoosRotheSchendXia
+  accepted_as: presentation
+
+- title: Possible and Necessary Winners of Partial Tournaments
+  authors:
+    - Haris Aziz
+    - Markus Brill
+    - Felix Fischer
+    - Paul Harrenstein
+    - Jérôme Lang
+    - Hans Georg Seedig
+  pdf_file: Aziz_2.pdf
+  sort_key: AzizBrillFischerHarrensteinLangSeedig
+  accepted_as: presentation
+
+- title: Exploiting Polyhedral Symmetries in Social Choice
+  authors:
+    - Achill Schürmann
+  pdf_file: Schuermann.pdf
+  sort_key: Schurmann
+  accepted_as: presentation
+
+- title: Bounding the Cost of Stability in Games with Restricted Interaction
+  authors:
+    - Reshef Meir
+    - Yair Zick
+    - Edith Elkind
+    - Jeffrey Rosenschein
+  pdf_file: Meir.pdf
+  sort_key: MeirZickElkindRosenschein
+  accepted_as: presentation
+
+- title: Graph Aggregation
+  authors:
+    - Ulle Endriss
+    - Umberto Grandi
+  pdf_file: Endriss.pdf
+  sort_key: EndrissGrandi
+  accepted_as: presentation
+
+- title: Analysis and Optimization of Multi-dimensional Percentile Mechanisms
+  authors:
+    - Xin Sui
+    - Craig Boutilier
+    - Tuomas Sandholm
+  pdf_file: Sui.pdf
+  sort_key: SuiBoutilierSandholm
+  accepted_as: presentation
+
+- title: Computing Socially-Efficient Cake Divisions
+  authors:
+    - Yonatan Aumann
+    - Yair Dombb
+    - Avinatan Hassidim
+  pdf_file: Aumann.pdf
+  sort_key: AumannDombbHassidim
+  accepted_as: presentation
+
+- title: "Voting with Partial Information: Minimal Sets of Questions to Decide an Outcome"
+  authors:
+    - Ning Ding
+    - Fangzhen Lin
+  pdf_file: Ding.pdf
+  sort_key: DingLin
+  accepted_as: presentation
+
+- title: College admissions with stable score-limits
+  authors:
+    - Peter Biro
+    - Sofya Kiselgof
+  pdf_file: Biro.pdf
+  sort_key: BiroKiselgof
+  accepted_as: presentation
+
+- title: Bribery and Control in Judgment Aggregation
+  authors:
+    - Dorothea Baumeister
+    - Gábor Erdélyi
+    - Olivia J. Erdélyi
+    - Jörg Rothe
+  pdf_file: Baumeister_2.pdf
+  sort_key: BaumeisterErdelyiErdelyiRothe
+  accepted_as: presentation
+
+- title: Being caught between a rock and a hard place in an election–voter deterrence by deletion of candidates
+  authors:
+    - Britta Dorn
+    - Dominikus Krüger
+  pdf_file: Dorn.pdf
+  sort_key: DornKruger
+  accepted_as: presentation
+
+- title: Aggregating Conditionally Lexicographic Preferences on Multi-Issue Domains
+  authors:
+    - Jérôme Lang
+    - Jérôme Mengin
+    - Lirong Xia
+  pdf_file: Lang.pdf
+  sort_key: LangMenginXia
+  accepted_as: presentation
+
+- title: Empirical Aspects of Plurality Election Equilibria
+  authors:
+    - David Thompson
+    - Omer Lev
+    - Kevin Leyton-Brown
+    - Jeffrey Rosenschein
+  pdf_file: Thompson.pdf
+  sort_key: ThompsonLevLeytonBrownRosenschein
+  accepted_as: presentation
+
+- title: On the Complexity of Voting Manipulation Under Randomized Tie-Breaking
+  authors:
+    - Svetlana Obraztsova
+    - Yair Zick
+    - Edith Elkind
+  pdf_file: Obraztsova.pdf
+  sort_key: ObraztsovaZickElkind
+  accepted_as: presentation
+
+- title: Resistance to bribery when aggregating soft constraints
+  authors:
+    - Alberto Amaran
+    - Maria Silvia Pini
+    - Francesca Rossi
+    - Kristen Brent Venable
+  pdf_file: Amaran.pdf
+  sort_key: AmaranPiniRossiVenable
+  accepted_as: presentation
+
+- title: The Complexity of Nearly Single-Peaked Consistency
+  authors:
+    - Gábor Erdélyi
+    - Martin Lackner
+    - Andreas Pfandler
+  pdf_file: Erdelyi.pdf
+  sort_key: ErdelyiLacknerPfandler
+  accepted_as: presentation
+
+- title: Models of Manipulation on Aggregation of Binary Evaluations
+  authors:
+    - Elad Dokow
+    - Dvir Falik
+  pdf_file: Dokow.pdf
+  sort_key: DokowFalik
+  accepted_as: presentation
+
+- title: Complexity and Approximability of Social Welfare Optimization in Multiagent Resource Allocation
+  authors:
+    - Nhan-Tam Nguyen
+    - Trung Thanh Nguyen
+    - Magnus Roos
+    - Jörg Rothe
+  pdf_file: Nguyen.pdf
+  sort_key: NguyenNguyenRoosRothe
+  accepted_as: presentation
+
+- title: Manipulating Two Stage Voting Rules
+  authors:
+    - Nina Narodytska
+    - Toby Walsh
+  pdf_file: Narodytska.pdf
+  sort_key: NarodytskaWalsh
+  accepted_as: presentation
+
+- title: Elicitation-free Protocols for Allocating Indivisible Goods
+  authors:
+    - Thomas Kalinowski
+    - Nina Narodytska
+    - Toby Walsh
+    - Lirong Xia
+  pdf_file: Kalinowski.pdf
+  sort_key: KalinowskiNarodytskaWalshXia
+  accepted_as: presentation
+
+- title: Online (Budgeted) Social Choice
+  authors:
+    - Brendan Lucier
+    - Joel Oren
+  pdf_file: Lucier.pdf
+  sort_key: LucierOren
+  accepted_as: presentation
+
+- title: Cost-sharing of continuous knapsacks
+  authors:
+    - Andreas Darmann
+    - Christian Klamler
+  pdf_file: Darmann.pdf
+  sort_key: DarmannKlamler
+  accepted_as: presentation
+
+- title: Group Activity Selection Problem
+  authors:
+    - Andreas Darmann
+    - Edith Elkind
+    - Sascha Kurz
+    - Jérôme Lang
+    - Joachim Schauer
+    - Gerhard Woeginger
+  pdf_file: Darmann_2.pdf
+  sort_key: DarmannElkindKurzLangSchauerWoeginger
+  accepted_as: presentation
+
+- title: On Elections with Robust Winners
+  authors:
+    - Dmitry Shiryaev
+    - Lan Yu
+    - Edith Elkind
+  pdf_file: Shiryaev.pdf
+  sort_key: ShiryaevYuElkind
+  accepted_as: presentation
+
+- title: The common structure of paradoxes in aggregation theory
+  authors:
+    - Umberto Grandi
+  pdf_file: Grandi.pdf
+  sort_key: Grandi
+  accepted_as: presentation
+
+- title: Robust Winners and Winner Determination Policies under Candidate Uncertainty
+  authors:
+    - Craig Boutilier
+    - Jérôme Lang
+    - Joel Oren
+    - Hector Palacios
+  pdf_file: Boutilier.pdf
+  sort_key: BoutilierLangOrenPalacios
+  accepted_as: presentation
+
+- title: Implementation by Agenda Voting
+  authors:
+    - Sean Horan
+  pdf_file: Horan.pdf
+  sort_key: Horan
+  accepted_as: presentation
+
+- title: Empathetic Social Choice on Social Networks
+  authors:
+    - Amirali Salehi-Abari
+    - Craig Boutilier
+  pdf_file: SalehiAbari.pdf
+  sort_key: SalehiAbariBoutilier
+  accepted_as: presentation
+
+- title: Coordination via Polling in Plurality Voting Games under Inertia
+  authors:
+    - Reyhaneh Reyhani
+    - Mark Wilson
+    - Javad Khazaei
+  pdf_file: Reyhani.pdf
+  sort_key: ReyhaniWilsonKhazaei
+  accepted_as: presentation
+
+- title: A characterization of the single-crossing domain
+  authors:
+    - Robert Bredereck
+    - Jiehua Chen
+    - Gerhard Woeginger
+  pdf_file: Bredereck.pdf
+  sort_key: BredereckChenWoeginger
+  accepted_as: presentation
+
+- title: Bounded single-peaked width and proportional representation
+  authors:
+    - Denis Cornaz
+    - Lucie Galand
+    - Olivier Spanjaard
+  pdf_file: Cornaz.pdf
+  sort_key: CornazGalandSpanjaard
+  accepted_as: presentation
