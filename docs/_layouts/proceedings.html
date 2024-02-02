@@ -1,8 +1,22 @@
 ---
 layout: default
+all_years: [2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 ---
 
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
+
+<p class="center-align">
+    {% for year in layout.all_years %}
+        {% if year == page.year %}
+            <strong>{{ year }}</strong>
+        {% else %}
+            <a href="proceedings/{{ year }}/">{{ year }}</a>
+        {% endif %}
+    {% unless forloop.last %}
+        &#183;
+    {% endunless %}
+    {% endfor %}
+</p>
 
 <p>
     These are the proceedings for the {{ page.year }} COMSOC workshop, an event part of the <a href="/workshops">COMSOC
@@ -18,14 +32,24 @@ layout: default
     ordered by last name of the authors.
 </p>
 
+{% if papers_per_pub_type.size > 1 %}
+<p>The publication categories are:</p>
+<ul>
+    {% for pub_type in papers_per_pub_type %}
+        <li><a href="#{{ pub_type.name }}">pub_type.name</a></li>
+    {% endfor %}
+</ul>
+
+{% endif %}
+
 {% if page.complete_proceedings %}
-<p><a href="{{ site.baseurl }}{{ page.complete_proceedings }}">[Full Proceedings]</a></p>
+<p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank">[Full Proceedings]</a></p>
 {% endif %}
 
 {% for pub_type in papers_per_pub_type %}
 
 {% if papers_per_pub_type.size > 1 %}
-<h2>{{ pub_type.name | capitalize }}</h2>
+<h2 id="pub_type.name">{{ pub_type.name | capitalize }}</h2>
 {% endif %}
 
 {% assign sorted_papers = pub_type.items | sort: 'sort_key' %}

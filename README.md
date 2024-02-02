@@ -42,6 +42,8 @@ The proceedings of the COMSOC Workshops are described in a .yml file.
 To add the proceedings of a new workshop create a file `docs/_data/proceedingsYEAR.yml` where `YEAR` corresponds to the year of the workshop.
 
 
+Add to the list in layout
+
 ### Add a static HTML website
 
 To serve a standalone HTML website form the Jekyll project, perform the following steps:
