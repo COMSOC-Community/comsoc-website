@@ -9,11 +9,13 @@ The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank"}, launch
 seminar series on social choice taking place online. Researchers from all disciplines are welcome
 to present and attend.
 
-The upcoming events are announced on the [website](https://comsocseminar.org/) of the seminar. A list of past events is
-available below. If you have spotted a mistake or want to update this list, check the 
-[GitHub repo](https://github.com/Simon-Rey/comsoc-website) of the website.
+The upcoming events are announced on the [website](https://comsocseminar.org/) of the seminar.
 
 ## Past Events
+
+We present below the past events of the video seminar below.
+If you spot a mistake or want to update this list, check the [GitHub repository](https://github.com/Simon-Rey/comsoc-website)
+for the procedure to follow.
 
 {% assign sorted_events = site.data.videoseminar | sort: '-date' %}
 {% for event in sorted_events %}

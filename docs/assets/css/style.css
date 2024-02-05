@@ -176,6 +176,7 @@ Main Menu
 
 #main-menu-wrap {
   margin-bottom: 40px;
+  font-size: larger;
 }
 
 #main-menu-toggle {
@@ -255,6 +256,7 @@ Video Seminar Page
 
 .video-seminar-event-title {
   padding: 25px 0;
+  padding-bottom: 0;
   border-top: 3px var(--color-frame-secondary) solid;
   display: flex;
 }
@@ -276,7 +278,7 @@ Video Seminar Page
 }
 
 .video-seminar-event-title.show {
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .video-seminar-presentation:not(:last-child) {

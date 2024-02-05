@@ -6,7 +6,7 @@ title: Community | COMSOC
 # The COMSOC Community
 
 The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
-communication channels. Events such as the [video seminars][/video-seminar] and the [COMSOC workshops](/workshops)
+communication channels. Events such as the [video seminars](video-seminar) and the [COMSOC workshops](/workshops)
 are regular meetup points offering easy opportunities to exchange ideas.
 
 The COMSOC community is committed to fostering an inclusive and diverse environment that values the
@@ -65,5 +65,8 @@ to receive in-depth feedback on their papers from the members of a dedicated PC;
 archival conferences; and that registration fees are very low (i.e., organizers must find substantial sponsorship to be
 able to offer an attractive program with several high-profile invited speakers).
 
-## Related Communities
+## Related Research Communities
 
+Being a interdisciplinary research field, COMSOC relates to many other research communities.
+The most important one being the social choice community. There are many exchange channels between
+the two communities, notably through the events organised by the [Society for Social Choice and Welfare](https://scwsociety.org/).
