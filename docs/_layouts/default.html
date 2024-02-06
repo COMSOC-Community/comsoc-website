@@ -11,39 +11,46 @@
 <body>
 
 <header>
-    <span>Computational Social Choice</span>
-</header>
-
-<main>
-    <div>
-        <nav id="main-menu-wrap">
-            <ul id="main-menu">
-                <li id="main-menu-toggle"><span id="main-menu-toggle-button">&#9776; Menu</span></li>
-                <li><a href="{{ "/" | relative_url }}"><span>About</span></a></li>
-                <li><a href="{{ "community" | relative_url }}"><span>The Community</span></a></li>
-                <li><a href="{{ "workshops" | relative_url }}"><span>Workshops Series</span></a></li>
-                <li><a href="{{ "video-seminar" | relative_url }}"><span>Video Seminar</span></a></li>
-                <li><a href="{{ "related-venues" | relative_url }}"><span>Related Venues</span></a></li>
-                <li><a href="{{ "theses" | relative_url }}"><span>PhD Theses</span></a></li>
-                <li><a href="{{ "data-tools" | relative_url }}"><span>Data &amp; Tools</span></a></li>
-            </ul>
-        </nav>
+    <div id="main-title-wrap">
+        <span id="main-title">
+            <a href="{{ "/" | relative_url }}">
+                <span id="main-title-long">Computational Social Choice</span>
+                <span id="main-title-short">COMSOC</span>
+            </a>
+        </span>
     </div>
 
+    <span id="main-menu-toggle-button">&#9776;</span>
+    <nav id="main-menu">
+        <ul id="main-menu-wrap">
+            <li class="main-menu-item"><a href="{{ "community" | relative_url }}">Community</a></li>
+            <li class="main-menu-item"><a href="{{ "workshops" | relative_url }}">Workshop</a></li>
+            <li class="main-menu-item"><a href="{{ "video-seminar" | relative_url }}">Seminar</a></li>
+            <li class="main-menu-item"><a href="{{ "related-venues" | relative_url }}">Events</a></li>
+            <li class="main-menu-item"><a href="{{ "related-venues" | relative_url }}">Publications</a></li>
+            <li class="main-menu-item"><a href="{{ "theses" | relative_url }}">Theses</a></li>
+            <li class="main-menu-item"><a href="{{ "data-tools" | relative_url }}">Tools</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<main>
     <div id="main-content">
         {{ content }}
     </div>
 </main>
 
 <footer>
-    <span><a href="https://github.com/Simon-Rey/comsoc-website"><img src="{{ site.baseurl }}/assets/images/github-mark-white.svg" alt="GitHub.com logo"> Github</a></span>
-    <span>&#169; <a href="https://simonrey.fr/">Simon Rey</a></span>
+    <span><a href="{{ "about" | relative_url }}">About this website</a></span>
+    <span><a href="https://github.com/Simon-Rey/comsoc-website"><img src="{{ site.baseurl }}/assets/images/github-mark-white.svg" alt="GitHub.com logo"> Edit on Github</a></span>
 </footer>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const menuToggle = document.getElementById('main-menu-toggle-button');
-        const mainMenu = document.getElementById('main-menu');
+        const mainMenu = document.getElementById('main-menu-wrap');
 
         menuToggle.addEventListener('click', function () {
             mainMenu.classList.toggle('show');
