@@ -66,6 +66,7 @@ body {
 }
 
 main {
+  flex: 1
 }
 
 #main-content {
@@ -270,10 +271,13 @@ footer {
   background-color: var(--color-frame-main);
   text-align: center;
   padding: 20px 0;
+  margin-top: 40px;
+}
+
+#footer-content {
   display: flex;
   justify-content: center;
   gap: 0 50px;
-  margin-top: 40px;
 }
 
 footer img {

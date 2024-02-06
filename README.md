@@ -1,4 +1,4 @@
-# The COMSOC Cumminity Website
+# The COMSOC Community Website
 
 This is the main website used by the Computation Social Choice (COMSOC) research community.
 This website is intended to serve as a general presentation platform of COMSOC while also
