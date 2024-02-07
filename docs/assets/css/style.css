@@ -2,7 +2,8 @@
 	--color-frame-main: #566b8b;
 	--color-frame-secondary: #d96a27;
 	--color-frame-tertiary: #5d5e60;
-	--color-background-light: white;
+	--color-background-verylight: white;
+	--color-background-light: #f0f3f5;
 	--color-background-dark: #dae2e7;
 }
 
@@ -12,7 +13,7 @@ Font Sizes
 ======= */
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -20,19 +21,19 @@ html {
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -57,7 +58,7 @@ Page layout
 ======== */
 
 body {
-  background-color: var(--color-background-light);
+  background-color: var(--color-background-verylight);
   margin: 0;
   padding: 0;
   display: flex;
@@ -74,7 +75,7 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-  background-color: var(--color-background-light);
+  background-color: var(--color-background-verylight);
 }
 
 section {
@@ -142,7 +143,7 @@ header {
 #main-title > a {
   text-decoration: none;
   color: inherit;
-  font-size: xxx-large;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
@@ -169,7 +170,7 @@ Main Menu
 ====== */
 
 #main-menu {
-  font-size: smaller;
+  font-size: 0.8rem;
   text-transform: uppercase;
   float: right;
   overflow: auto;
@@ -234,6 +235,7 @@ Main Menu
     float: none;
     width: 100%;
     height: auto;
+    font-size: 1.3rem;
   }
 
   #main-menu-wrap {
@@ -244,7 +246,6 @@ Main Menu
   .main-menu-item {
     display: block;
     border-top: 2px solid var(--color-background-dark);
-    padding: 30px 0;
   }
 
   .main-menu-item:last-child {
@@ -257,6 +258,11 @@ Main Menu
 
   .main-menu-item:not(:last-child) {
     margin-right: 0;
+  }
+
+  .main-menu-item > a {
+    display: block;
+    padding: 30px 0;
   }
 
   #main-menu-wrap {
@@ -306,11 +312,28 @@ footer a:hover {
 Video Seminar Page
 =============== */
 
+
+.video-seminar-event {
+  padding: 10px;
+  border-top: 2px var(--color-frame-secondary) solid;
+}
+
+.video-seminar-event:last-of-type {
+  border-bottom: 2px var(--color-frame-secondary) solid;
+}
+
+.video-seminar-event:nth-child(odd) {
+  background-color: var(--color-background-verylight);
+}
+
+.video-seminar-event:nth-child(odd) {
+  background-color: var(--color-background-light);
+}
+
 .video-seminar-event-title {
   padding: 25px 0;
-  padding-bottom: 0;
-  border-top: 3px var(--color-frame-secondary) solid;
   display: flex;
+  margin: 0;
 }
 
 .video-seminar-event-title .toggle-arrow {
@@ -318,7 +341,7 @@ Video Seminar Page
 }
 
 .video-seminar-event-title .video-link {
-  font-size: smaller;
+  font-size: 0.8rem;
 }
 
 .video-seminar-event-content {
@@ -327,10 +350,6 @@ Video Seminar Page
 
 .video-seminar-event-content.show {
   display: block;
-}
-
-.video-seminar-event-title.show {
-  padding-bottom: 10px;
 }
 
 .video-seminar-presentation:not(:last-child) {
@@ -346,7 +365,7 @@ Video Seminar Page
 }
 
 .video-seminar-presentation-title > .slides-link{
-  font-size: smaller;
+  font-size: 0.8rem;
 }
 
 /* =======
