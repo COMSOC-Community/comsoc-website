@@ -125,44 +125,44 @@ img {
 Header
 === */
 
+/* The header's height is designed to be 120px */
 header {
   color: #FFFFFF;
   background-color: var(--color-frame-main);
-  padding: 30px;
-  border-bottom: 4px solid var(--color-frame-secondary);
+  padding: 0 30px;
+  border-bottom: 5px solid var(--color-frame-secondary);
+}
+
+#comsoc-hands {
+  float: left;
+  height: 100px;
+  padding-top: 20px;
+}
+
+#main-title-wrap {
+  padding-left: 160px;
 }
 
 #main-title {
   float: left;
+  height: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-right: 20px;
   display: flex;
   align-items: center;
-  height: 60px;
+  /*text-shadow: 2px 2px var(--color-frame-secondary);*/
 }
 
 #main-title > a {
   text-decoration: none;
   color: inherit;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 #main-title > a:hover {
-  color: var(--color-frame-secondary);
-}
-
-#main-title-short {
-  display: none;
-}
-
-@media screen and (max-width: 1500px) {
-  #main-title-long {
-    display: none;
-  }
-
-  #main-title-short {
-    display: block;
-  }
+  color: var(--color-background-dark);
 }
 
 /* ======
@@ -170,17 +170,20 @@ Main Menu
 ====== */
 
 #main-menu {
+  float: right;
+  height: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 0.8rem;
   text-transform: uppercase;
-  float: right;
   overflow: auto;
   display: flex;
   align-items: center;
-  height: 60px;
 }
 
 #main-menu-wrap {
   margin: 0;
+  padding: 0;
 }
 
 #main-menu-toggle-button {
@@ -199,7 +202,7 @@ Main Menu
 }
 
 .main-menu-item > a:hover {
-  color: var(--color-frame-secondary);
+  color: var(--color-background-dark);
 }
 
 .main-menu-item:not(:first-child) {
@@ -210,24 +213,18 @@ Main Menu
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   #main-menu-toggle-button {
-    display: block;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  #main-menu-toggle-button {
-    background-color: var(--color-frame-main);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
     float: right;
-  }
-
-  #main-menu-home-button {
-    display: none;
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
   }
 
   #main-menu {
@@ -236,6 +233,8 @@ Main Menu
     width: 100%;
     height: auto;
     font-size: 1.3rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   #main-menu-wrap {
@@ -271,6 +270,17 @@ Main Menu
 
   #main-menu-wrap.show {
     display: block;
+    padding-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #comsoc-hands {
+    display: none;
+  }
+
+  #main-title-wrap {
+    padding-left: 0;
   }
 }
 

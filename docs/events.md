@@ -4,9 +4,9 @@ title: Events | COMSOC
 ---
 
 <section markdown="1">
-# Related Venues
+# Related Events
 
-We provide below an non-exhausted list of related venues that can be of interest to COMSOC researchers.
+We provide below a non-exhaustive list of related venues that can be of interest to COMSOC researchers.
 </section>
 
 <section markdown="1">
