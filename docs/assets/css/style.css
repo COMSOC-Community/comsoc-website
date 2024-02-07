@@ -403,15 +403,6 @@ Index Page
   display: inline-block;
 }
 
-.textbooks {
-  display: flex;
-  justify-content: space-around;
-}
-
-.textbooks img {
-  height: 200px;
-}
-
 /* ===========
 Workshops page
 =========== */
@@ -421,9 +412,6 @@ Workshops page
   border: 2px solid black;
   border-radius: 10px;
   height: 250px;
-}
-
-.workshop-wrapper:not(:last-of-type) {
   margin-bottom: 30px;
 }
 
@@ -451,4 +439,18 @@ Workshops page
   top: 0;
   left: 0;
   padding: 20px;
+}
+
+/* ==============
+Publications Page
+============== */
+
+.books-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.books-wrapper img {
+  height: 200px;
 }

@@ -61,9 +61,8 @@ We provide below an non-exhausted list of related venues that can be of interest
 </section>
 
 <section markdown="1">
-## Other Relevant Meet-ups
+## Other Events
   
-  - [COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/), a COST Action that ran from 2012 to 2016 and organised many events for COMSOC researchers
 
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
