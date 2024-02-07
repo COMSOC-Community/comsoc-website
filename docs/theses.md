@@ -3,14 +3,17 @@ layout: default
 title: Theses | COMSOC
 ---
 
+<section markdown="1">
 # PhD Theses
 
 This is an (incomplete) list of PhD theses in the field of computational social choice, listed in inverse chronological order.
 Suggestions for further additions are more than welcome, ping us on <a href="https://github.com/Simon-Rey/comsoc-website">GitHub</a>.
+</section>
 
 {% assign theses_by_year = site.data.theses | group_by: "year" %}
 
 {% for year in theses_by_year %}
+<section>
 <h2>{{ year.name }}</h2>
 <ul>
     {% for thesis in year.items %}
@@ -28,4 +31,5 @@ Suggestions for further additions are more than welcome, ping us on <a href="htt
         </p></li>
     {% endfor %}
 </ul>
+</section>
 {% endfor %}

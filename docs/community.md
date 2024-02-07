@@ -3,6 +3,7 @@ layout: default
 title: Community | COMSOC
 ---
 
+<section markdown="1">
 # The COMSOC Community
 
 The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
@@ -16,11 +17,15 @@ where everyone, regardless of race, ethnicity, gender identity, sexual orientati
 socio-economic background, feels welcomed, heard, and respected. Every member of the community is
 expected to act and behave in accordance with these principles and to provide equal opportunities for
 engagement, collaboration, and advancement within our community.
+</section>
 
+<section markdown="1">
 ## Mailing List
 
 Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target="_blank"} for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank"}.
+</section>
 
+<section markdown="1">
 ## Steering Committee
 
 The [COMSOC workshop series](workshops) is coordinated by a Steering Committee. This committee consists of four members of the COMSOC research community. By default, these are the PC chairs of the two previous editions of the workshop, although the community may choose to appoint alternative candidates during its Business Meeting at the workshop.
@@ -64,9 +69,12 @@ of interest; that both established researchers and newcomers to the field can pr
 to receive in-depth feedback on their papers from the members of a dedicated PC; that there is no attempt to compete with
 archival conferences; and that registration fees are very low (i.e., organizers must find substantial sponsorship to be
 able to offer an attractive program with several high-profile invited speakers).
+</section>
 
+<section markdown="1">
 ## Related Research Communities
 
 Being a interdisciplinary research field, COMSOC relates to many other research communities.
 The most important one being the social choice community. There are many exchange channels between
 the two communities, notably through the events organised by the [Society for Social Choice and Welfare](https://scwsociety.org/).
+</section>

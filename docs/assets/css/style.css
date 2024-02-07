@@ -69,18 +69,23 @@ main {
   flex: 1
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   background-color: var(--color-background-dark);
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   background-color: var(--color-background-light);
+}
+
+section {
+  padding: 20px 30px;
 }
 
 h1 {
   font-weight: bold;
   margin: 0;
   color: var(--color-frame-main);
+  text-align: center;
 }
 
 h2 {
@@ -124,7 +129,6 @@ header {
   color: #FFFFFF;
   background-color: var(--color-frame-main);
   padding: 30px;
-  margin-bottom: 40px;
 
 }
 
@@ -160,7 +164,6 @@ header {
     display: block;
   }
 }
-
 
 /* ======
 Main Menu
@@ -272,7 +275,7 @@ footer {
   background-color: var(--color-frame-main);
   text-align: center;
   padding: 20px 0;
-  margin-top: 40px;
+  margin: 0;
 }
 
 #footer-content {
@@ -350,7 +353,7 @@ Index Page
 }
 
 #group-photo-container > img {
-  height: 500px;
+  max-height: 500px;
 }
 
 .lettrine {

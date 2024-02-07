@@ -3,6 +3,7 @@ layout: default
 title: Video Seminar | COMSOC
 ---
 
+<section markdown="1">
 # COMSOC Video Seminar
 
 The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank"}, launched in April 2020, is an international
@@ -10,7 +11,9 @@ seminar series on social choice taking place online. Researchers from all discip
 to present and attend.
 
 The upcoming events are announced on the [website](https://comsocseminar.org/) of the seminar.
+</section>
 
+<section markdown="1">
 ## Past Events
 
 We present below the past events of the video seminar below.
@@ -67,6 +70,8 @@ for the procedure to follow.
 </div>
 </div>
 {% endfor %}
+
+</section>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {

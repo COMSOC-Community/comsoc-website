@@ -3,6 +3,7 @@ layout: default
 title: Workshop Series | COMSOC
 ---
 
+<section markdown="1">
 # The COMSOC Workshop Series
 
 The COMSOC workshop series aims to bring together diverse communities, including computer scientists interested in computational aspects of social choice, researchers in artificial intelligence and multiagent systems using social choice ideas for organizing artificial software agent societies, logicians interested in logic-based specification and analysis of social procedures, and experts in social choice theory.
@@ -44,3 +45,4 @@ These workshops occur biannually, with the exception of 2020 due to the COVID-19
 - [COMSOC-2006](http://staff.science.uva.nl/u.endriss/COMSOC-2006/){:target="_blank"}: **1st International Workshop on Computational Social Choice**  
   Amsterdam, 6-8 December 2006  
   [\[Proceedings\]](proceedings/2006/)
+</section>
