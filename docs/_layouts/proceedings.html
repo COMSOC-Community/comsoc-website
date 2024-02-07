@@ -3,6 +3,8 @@ layout: default
 all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 ---
 
+<section>
+
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
 <p class="center-align">
@@ -46,9 +48,11 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 <p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank">[Full Proceedings]</a></p>
 {% endif %}
 
-<div class="hline"></div>
+</section>
 
 {% for pub_type in papers_per_pub_type %}
+
+<section>
 
 {% if papers_per_pub_type.size > 1 %}
 <h2 id="{{ pub_type.name }}">{{ pub_type.name | capitalize }}</h2>
@@ -68,5 +72,7 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
     </p></li>
 {% endfor %}
 </ul>
+
+</section>
 
 {% endfor %}
