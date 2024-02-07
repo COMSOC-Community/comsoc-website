@@ -2,7 +2,7 @@
   authors:
     - Piotr Skowron
     - Piotr Faliszewski
-    - Jerome Lang
+    - Jérôme Lang
   pdf_file: SkowronFaliszewskiLang2014.pdf
   sort_key: SkowronFaliszewskiLang
   accepted_as: presentation
@@ -34,7 +34,7 @@
 - title: Voting with Rank Dependent Scoring Rules
   authors:
     - Judy Goldsmith
-    - Jerome Lang
+    - Jérôme Lang
     - Nicholas Mattei
     - Patrice Perny
   pdf_file: GoldsmithLangMatteiPerny2014.pdf
@@ -45,7 +45,7 @@
   authors:
     - Dorothea Baumeister
     - Sylvain Bouveret
-    - Jerome Lang
+    - Jérôme Lang
     - Nhan-Tam Nguyen
     - Trung Thanh Nguyen
     - Jörg Rothe
@@ -89,7 +89,7 @@
 - title: Manipulating Picking Sequences
   authors:
     - Sylvain Bouveret
-    - Jerome Lang
+    - Jérôme Lang
   pdf_file: BouveretLang2014.pdf
   sort_key: BouveretLang
   accepted_as: presentation

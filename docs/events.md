@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Related Venues | COMSOC
+title: Events | COMSOC
 ---
 
 <section markdown="1">

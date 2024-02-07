@@ -485,49 +485,56 @@
   year: 2014
   url: http://dx.doi.org/10.14279/depositonce-4450
   title: Multivariate Complexity Analysis of Team Management Problems
-  supervisor: Rolf Niedermeier
+  supervisors:
+    - Rolf Niedermeier
 
 - name: Swaprava Nath
   affiliation: Indian Institute of Science, Bangalore
   year: 2013
   url: assets/theses/phd-nath.pdf
   title: Mechanism Design for Strategic Crowdsourcing
-  supervisor: Y. Narahari
+  supervisors:
+    - Y. Narahari
 
 - name: Reshef Meir
   affiliation: Hebrew University of Jerusalem
   year: 2013
   url: http://www.cse.unsw.edu.au/~tw/meir.pdf
   title: "Mechanisms for Stability and Welfare: Increasing Cooperation among Self-interested Agents"
-  supervisor: Jeff Rosenschein
+  supervisors:
+    - Jeff Rosenschein
 
 - name: Magnus Roos
   affiliation: University of Düsseldorf
   year: 2013
   url: http://docserv.uni-duesseldorf.de/servlets/DocumentServlet?id=28146
   title: Algorithms and Complexity for Fair Division, Voting, and Peer Reviewing
-  supervisor: Jörg Rothe
+  supervisors:
+    - Jörg Rothe
 
 - name: Trung Thanh Nguyen
   affiliation: University of Düsseldorf
   year: 2013
   url: assets/theses/phd-ttnguyen.pdf
   title: Approximability and Inapproximability of Social Welfare Optimization in Multiagent Resource Allocation
-  supervisor: Jörg Rothe
+  supervisors:
+    - Jörg Rothe
 
 - name: Reyhaneh Reyhani
   affiliation: University of Auckland
   year: 2013
   url: assets/theses/phd-reyhani.pdf
   title: Strategic Manipulation in Voting Systems
-  supervisor: Mark C. Wilson
+  supervisors:
+    - Mark C. Wilson
 
 - name: Lachlan Dufton
   affiliation: University of Waterloo
   year: 2013
   url: http://hdl.handle.net/10012/7231
   title: Stochastic Mechanisms for Truthfulness and Budget Balance in Computational Social Choice
-  supervisor: Kate Larson
+  supervisors:
+    - Kate Larson
 
 - name: Svetlana Obraztsova
   affiliation: Nanyang Technological University
@@ -543,28 +550,32 @@
   year: 2012
   url: assets/theses/phd-brill.pdf
   title: "Set-Valued Solution Concepts in Social Choice and Game Theory: Axiomatic and Computational Aspects"
-  supervisor: Felix Brandt
+  supervisors:
+    - Felix Brandt
 
 - name: Dorothea Baumeister
   affiliation: University of Düsseldorf
   year: 2012
   url: assets/theses/phd-baumeister.pdf
   title: "Computational Complexity in Three Areas of Computational Social Choice: Possible Winners, Unidirectional Covering Sets, and Judgment Aggregation"
-  supervisor: Jörg Rothe
+  supervisors:
+    - Jörg Rothe
 
 - name: Umberto Grandi
   affiliation: University of Amsterdam, ILLC
   year: 2012
   url: https://hdl.handle.net/11245/1.377051
   title: Binary Aggregation with Integrity Constraints
-  supervisor: Ulle Endriss
+  supervisors:
+    - Ulle Endriss
 
 - name: Nicholas Mattei
   affiliation: University of Kentucky
   year: 2012
   url: assets/theses/phd-mattei.pdf
   title: "Decision Making Under Uncertainty: Theoretical and Empirical Results on Social Choice, Manipulation, and Bribery"
-  supervisor: Judy Goldsmith
+  supervisors:
+    - Judy Goldsmith
 
 - name: İrem Bozbay
   affiliation: Maastricht University
@@ -589,7 +600,8 @@
   year: 2011
   url: assets/theses/phd-xia.pdf
   title: "Computational Voting Theory: Game-Theoretic and Combinatorial Aspects"
-  supervisor: Vincent Conitzer
+  supervisors:
+    - Vincent Conitzer
 
 - name: Souvik Roy
   affiliation: Maastricht University
@@ -605,35 +617,40 @@
   year: 2010
   url: assets/theses/phd-betzler.pdf
   title: A Multivariate Complexity Analysis of Voting Problems
-  supervisor: Rolf Niedermeier
+  supervisors:
+    - Rolf Niedermeier
 
 - name: Mingyu Guo
   affiliation: Duke University
   year: 2010
   url: assets/theses/phd-guo.pdf
   title: Computationally Feasible Approaches to Automated Mechanism Design
-  supervisor: Vincent Conitzer
+  supervisors:
+    - Vincent Conitzer
 
 - name: Kshanti Greene
   affiliation: University of New Mexico
   year: 2010
   url: http://repository.unm.edu/handle/1928/10878
   title: Collective Belief Models for Representing Consensus and Divergence in Communities of Bayesian Decision-Makers
-  supervisor: George Luger
+  supervisors:
+    - George Luger
 
 - name: Gábor Erdélyi
   affiliation: University of Düsseldorf
   year: 2009
   url: assets/theses/phd-erdelyi.pdf
   title: The Control Complexity of Sincere-strategy Preference-based Approval Voting and of Fallback Voting, and a Study of Optimal Lobbying and Junta Distributions for SAT
-  supervisor: Jörg Rothe
+  supervisors:
+    - Jörg Rothe
 
 - name: Joel Uckelman
   affiliation: University of Amsterdam, ILLC
   year: 2009
   url: https://hdl.handle.net/11245/1.309718
   title: "More than the Sum of its Parts: Compact Preference Representation over Combinatorial Domains"
-  supervisor: Ulle Endriss
+  supervisors:
+    - Ulle Endriss
 
 - name: Haris Aziz
   affiliation: University of Warwick
@@ -649,21 +666,24 @@
   year: 2008
   url: assets/theses/phd-faliszewski.pdf
   title: "Manipulation of Elections: Algorithms and Infeasibility Results"
-  supervisor: Lane A. Hemaspaandra
+  supervisors:
+    - Lane A. Hemaspaandra
 
 - name: Ariel Procaccia
   affiliation: Hebrew University of Jerusalem
   year: 2008
   url: assets/theses/phd-procaccia.pdf
   title: "Computational Voting Theory: Of the Agents, By the Agents, For the Agents"
-  supervisor: Jeff Rosenschein
+  supervisors:
+    - Jeff Rosenschein
 
 - name: Rob LeGrand
   affiliation: Washington University in St. Louis
   year: 2008
   url: http://www.cs.angelo.edu/~rlegrand/research/dissertation.pdf
   title: Computational Aspects of Approval Voting and Declared-Strategy Voting
-  supervisor: Ron K. Cytron
+  supervisors:
+    - Ron K. Cytron
 
 - name: Sylvain Bouveret
   affiliation: ISAE Toulouse and University of Toulouse
@@ -680,14 +700,16 @@
   year: 2007
   url: assets/theses/phd-altman.pdf
   title: The Axiomatic Approach to Ranking Systems
-  supervisor: Moshe Tennenholtz
+  supervisors:
+    - Moshe Tennenholtz
 
 - name: Maria Silvia Pini
   affiliation: University of Padova
   year: 2007
   url: assets/theses/phd-pini.pdf
   title: Reasoning with Preferences and Uncertainty
-  supervisor: Francesca Rossi
+  supervisors:
+    - Francesca Rossi
 
 - name: Sylvia Estivie
   affiliation: Université Paris Dauphine, LAMSADE
@@ -703,4 +725,5 @@
   year: 2006
   url: assets/theses/phd-conitzer.pdf
   title: Computational Aspects of Preference Aggregation
-  supervisor: Tuomas Sandholm
+  supervisors:
+    - Tuomas Sandholm

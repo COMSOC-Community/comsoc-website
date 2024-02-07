@@ -57,7 +57,7 @@ permalink: /URL_TO_WEBSITE/:title
 ```
 Where `URL_TO_WEBSITE` is the path at which the website is anchored.
 
-- Create a folder `docs/website` where `website` is the name of the HTML representing the collection.
+- Create a folder `docs/archive/website` where `website` is the name of the HTML representing the collection.
 - Dump the content of the website in the folder.
 - You are done.
 

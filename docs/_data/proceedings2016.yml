@@ -43,7 +43,7 @@
 
 - title: Agenda Separability in Judgment Aggregation
   authors:
-    - Jerome Lang
+    - --color-background-verylight Lang
     - Marija Slavkovik
     - Srdjan Vesic
   pdf_file: LangEtAlCOMSOC2016.pdf
@@ -134,8 +134,8 @@
 - title: Computing Pareto Optimal Committees
   authors:
     - Haris Aziz
-    - Jerome Lang
-    - Jerome Monnot
+    - Jérôme Lang
+    - Jérôme Monnot
   pdf_file: AzizLangMonnotCOMSOC2016.pdf
   sort_key: AzizLangMonnot
   accepted_as: presentation
@@ -145,7 +145,7 @@
     - Nhan-Tam Nguyen
     - Anja Rey
     - Lisa Rey
-    - Jorg Rothe
+    - Jörg Rothe
     - Lena Schend
   pdf_file: NguyenEtAlCOMSOC2016.pdf
   sort_key: NguyenReyRotheSchend
@@ -155,7 +155,7 @@
   authors:
     - Dorothea Baumeister
     - Daniel Neugebauer
-    - Jorg Rothe
+    - Jörg Rothe
     - Hilmar Schadrack
   pdf_file: BaumeisterEtAlCOMSOC2016.pdf
   sort_key: BaumeisterNeugebauerRotheSchadrack
@@ -174,7 +174,7 @@
   authors:
     - Nhan-Tam Nguyen
     - Dorothea Baumeister
-    - Jorg Rothe
+    - Jörg Rothe
   pdf_file: NguyenEtAlCOMSOC2016.pdf
   sort_key: NguyenBaumeisterRothe
   accepted_as: presentation
@@ -289,7 +289,7 @@
   authors:
     - Laurent Gourves
     - Carlos Martinhon
-    - Jerome Monnot
+    - Jérôme Monnot
   pdf_file: GourvesEtAlCOMSOC2016.pdf
   sort_key: GourvesMartinhonMonnot
   accepted_as: presentation
@@ -297,7 +297,7 @@
 - title: Conditional and Sequential Approval Voting on Combinatorial Domains
   authors:
     - Nathanaël Barrot
-    - Jerome Lang
+    - Jérôme Lang
   pdf_file: BarrotLangCOMSOC2016.pdf
   sort_key: BarrotLang
   accepted_as: presentation
@@ -346,9 +346,9 @@
   authors:
     - Haris Aziz
     - Peter Biro
-    - Jerome Lang
+    - Jérôme Lang
     - Julien Lesca
-    - Jerome Monnot
+    - Jérôme Monnot
   pdf_file: AzizEtAlCOMSOC2016.pdf
   sort_key: AzizBiroLangLescaMonnot
   accepted_as: presentation

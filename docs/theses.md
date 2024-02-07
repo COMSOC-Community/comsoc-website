@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Theses | COMSOC
+title: PhD Theses | COMSOC
 ---
 
 <section markdown="1">

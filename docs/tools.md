@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data & Tools | COMSOC
+title: Tools | COMSOC
 ---
 
 <section markdown="1">

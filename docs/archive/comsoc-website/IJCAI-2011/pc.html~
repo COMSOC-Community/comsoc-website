@@ -1,0 +1,39 @@
+<!--#include file="header.html" -->
+
+<h1>Programme Committee</h1>
+
+<p>
+All submissions will be reviewed by members of the programme committee:<br>
+<table>
+<tr>
+<td><ul>
+<li>Craig Boutilier</li>
+<li>Ioannis Caragiannis</li>
+<li>Vincent Conitzer</li>
+<li>Edith Elkind (<i>co-chair</i>)</li>
+<li>Ulle Endriss (<i>co-chair</i>)</li>
+<li>Gabor Erdelyi</li>
+<li>Piotr Faliszewski</li>
+<li>Paul Harrenstein</li>
+<li>Wiebe van der Hoek</li>
+<ul></td>
+<td>&nbsp;&nbsp;</td>
+<td><ul>
+<li>S&eacute;bastien Konieczny</li>
+<li>Sarit Kraus</li>
+<li>J&eacute;r&ocirc;me Lang (<i>co-chair</i>)</li>
+<li>Fangzhen Lin</li>
+<li>Ariel Procaccia</li>
+<li>Jeff Rosenschein</li>
+<li>Francesca Rossi</li>
+<li>Moshe Tennenholtz</li>
+<li>Toby Walsh
+</ul></td>
+</tr>
+</table>
+</p>
+
+<!--#include file="footer-1.html" -->
+<!--#echo var="LAST_MODIFIED" -->
+<!--#include file="footer-2.html" -->
+
