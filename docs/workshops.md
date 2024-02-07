@@ -13,7 +13,7 @@ These workshops occur biannually, with the exception of 2020 due to the COVID-19
 {% assign sorted_workshops = site.data.workshops | sort: '-date' %}
 {% for workshop in sorted_workshops %}
 <div class="workshop-wrapper">
-<div class="workshop-image" style="background-image: url('{{ site.baseurl }}assets/images/workshops/{{ workshop.image }}');">
+<div class="workshop-image" style="background-image: url('{{ site.baseurl }}/assets/images/workshops/{{ workshop.image }}');">
 
 <div class="image-overlay"></div>
 
