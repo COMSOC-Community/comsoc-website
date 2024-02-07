@@ -69,12 +69,13 @@ main {
   flex: 1
 }
 
-#main-content {
-  padding: 0 30px;
-  width: 100%;
-  box-sizing: border-box;
+section:nth-child(even) {
+  background-color: var(--color-background-dark);
 }
 
+section:nth-child(odd) {
+  background-color: var(--color-background-light);
+}
 
 h1 {
   font-weight: bold;
@@ -343,6 +344,14 @@ Video Seminar Page
 /* =======
 Index Page
 ======= */
+
+#group-photo-container {
+  text-align: center;
+}
+
+#group-photo-container > img {
+  height: 500px;
+}
 
 .lettrine {
   background-color: var(--color-background-dark);
