@@ -1,0 +1,62 @@
+- year: 2023
+  edition: 9th International Workshop on Computational Social Choice
+  location: Beersheba
+  dates: 3-5 July
+  website_url: https://tzin.bgu.ac.il/~omerlev/comsoc.html
+  image: COMSOC_2023_banner.jpg
+
+- year: 2021
+  edition: 8th International Workshop on Computational Social Choice
+  location: Haifa and Online
+  dates: 7-10 June
+  website_url: https://comsoc2021.net.technion.ac.il/
+  image: COMSOC_2021_banner.jpg
+
+- year: 2018
+  edition: 7th International Workshop on Computational Social Choice
+  location: RPI, Troy, New York
+  dates: 25-27 June
+  website_url: https://www.cs.rpi.edu/~xial/COMSOC18/
+  image: COMSOC_2018_banner.jpg
+
+- year: 2016
+  edition: 6th International Workshop on Computational Social Choice
+  location: Toulouse
+  dates: 22-24 June
+  website_url: https://www.irit.fr/COMSOC-2016/
+  image: COMSOC_2016_banner.jpg
+
+- year: 2014
+  edition: 5th International Workshop on Computational Social Choice
+  location: Pittsburgh
+  dates: 23-25 June
+  website_url: https://www.cs.cmu.edu/~arielpro/comsoc-14/
+  image: COMSOC_2014_banner.jpg
+
+- year: 2012
+  edition: 4th International Workshop on Computational Social Choice
+  location: Kraków
+  dates: 11-13 September
+  website_url: https://home.agh.edu.pl/~faliszew/COMSOC-2012/
+  image: COMSOC_2012_banner.jpg
+
+- year: 2010
+  edition: 3rd International Workshop on Computational Social Choice
+  location: Düsseldorf
+  dates: 13-16 September
+  website_url: https://ccc.cs.uni-duesseldorf.de/COMSOC-2010/index.shtml
+  image: COMSOC_2010_banner.jpg
+
+- year: 2008
+  edition: 2nd International Workshop on Computational Social Choice
+  location: Liverpool
+  dates: 2-5 September
+  website_url: https://simon-rey.github.io/comsoc-website/archive/comsoc-2008/
+  image: COMSOC_2008_banner.jpg
+
+- year: 2006
+  edition: 1st International Workshop on Computational Social Choice
+  location: Amsterdam
+  dates: 6-8 December
+  website_url: https://staff.science.uva.nl/u.endriss/COMSOC-2006/
+  image: COMSOC_2006_banner.jpg

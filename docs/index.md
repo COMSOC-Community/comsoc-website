@@ -4,7 +4,9 @@ title: Computational Social Choice
 ---
 
 <section markdown="1">
+
 # What is Computational Social Choice?
+{: #comsoc}
 
 Computational Social Choice (COMSOC) has evolved as a dynamic interdisciplinary field of
 study at the interface of social choice theory and computer science, fostering an exchange of ideas
@@ -24,12 +26,16 @@ problems in multi-agent systems or network design
 </section>
 
 <section markdown="1">
+
 ## Interdisciplinarity by Design
+{: #interdisciplinarity}
 
 COMSOC is by design an interdisciplinary research field.
 It draws inspiration and methodologies from a diverse range of disciplines, including computer science,
 artificial intelligence, logic, political science, and economics. This interdisciplinary nature allows
 researchers to tackle complex problems in collective decision-making from multiple perspectives.
+
+<div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
 Social choice theory focuses on designing and analyzing methods for collective decision-making,
@@ -66,13 +72,20 @@ Feedback can be collected on voting rules and other aggregation mechanisms to de
 Numerical simulation and experiments with real-life data are also often run to offer experimental insights
 on the object of study: frequency of occurrence of specific phenomenon, satisfaction degree of a given
 property...
+
+</div>
+
 </section>
 
 <section markdown="1">
+
 ## Selected Topics
+{: #topics}
 
 COMSOC researchers engage in a broad range of research topics, all based on scenarios in which
 collective decisions are to be reached based on individual preferences.
+
+<div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="topics-header lettrine">Voting</span>
 The most classical research topic is (single-winner) voting, where a single candidate
@@ -107,6 +120,9 @@ This can be seen as aggregation problems over logical formulas, given the constr
 collective outcome needs to be logically consistent.
 Opinions here can take the form of a judgment (when investigating judgment aggregation) or beliefs
 (in the case of belief merging).
+
+</div>
+
 </section>
 
 <script>
