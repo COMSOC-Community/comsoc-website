@@ -7,7 +7,7 @@ title: Community | COMSOC
 # The COMSOC Community
 
 The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
-communication channels. Events such as the [video seminars](video-seminar) and the [COMSOC workshops](/workshops)
+communication channels. Events such as the [video seminars](video-seminar) and the [COMSOC workshops](workshops)
 are regular meetup points offering easy opportunities to exchange ideas.
 
 The COMSOC community is committed to fostering an inclusive and diverse environment that values the
