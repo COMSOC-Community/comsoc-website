@@ -12,8 +12,8 @@ most common modifications are provided below.
 ## How To
 
 This website has been designed so that maintaining is as easy as possible.
-The website is automatically updated after each push to the repository so all you have
-to do is to push your changes, wait a bit and see the outcome.
+The website is automatically updated after each push to the repository, so all you have
+to do is to push your changes, wait a bit, and check the outcome looks fine.
 
 Below is a description of how to perform the most common management tasks.
 
