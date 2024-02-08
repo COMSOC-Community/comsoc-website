@@ -27,7 +27,7 @@ coordination is managed by a [Steering Committee](#comsoc-workshop-steering-comm
 <h2><a href="{{ workshop.website_url }}">COMSOC-{{ workshop.year }}</a></h2>
 <p>{{ workshop.edition }}</p>
 <p>{{ workshop.location }}, {{ workshop.dates }} {{ workshop.year }}</p>
-<p><a href="{{ site.baseurl }}/proceedings/{{ workshop.year }}">[Proceedings]</a></p>
+<p><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">[Proceedings]</a></p>
 </div>
 
 </div>
@@ -81,5 +81,15 @@ of interest; that both established researchers and newcomers to the field can pr
 to receive in-depth feedback on their papers from the members of a dedicated PC; that there is no attempt to compete with
 archival conferences; and that registration fees are very low (i.e., organizers must find substantial sponsorship to be
 able to offer an attractive program with several high-profile invited speakers).
+
+</section>
+
+<section markdown="1">
+
+## Organising a COMSOC Workshop
+
+To get an idea of what is involved in organising the COMSOC Workshop, have a look at the (expired)
+[Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2023.txt)
+to host the 2023 edition.
 
 </section>
