@@ -34,7 +34,7 @@ We also use this website to archive old websites of the community (some of them 
 
 - [Old COMSOC website]({{ "archive/comsoc-website" | relative_url}})
 - [COMSOC Workshop 2006]({{ "archive/comsoc-2006" | relative_url}})
-- [COMSOC Workshop 2008]({{ "archive/comsoc-2006" | relative_url}})
+- [COMSOC Workshop 2008]({{ "archive/comsoc-2008" | relative_url}})
 - [COST-ADT Doctoral School on COMSOC 2010]({{ "archive/estoril-2010" | relative_url}})
 - [IJCAI Workshop on Social Choice and Artificial Intelligence 2011]({{ "archive/ijcai-2011" | relative_url}})
 - [Computational Social Choice at FET'11]({{ "archive/fet-2011" | relative_url}})
