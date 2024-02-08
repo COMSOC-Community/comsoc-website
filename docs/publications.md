@@ -3,18 +3,26 @@ layout: default
 title: Publications | COMSOC
 ---
 
-<section markdown="1">
+<section markdown="1" class="section-with-navs">
 
 # Publications
 
 We gather below interesting publications relating to COMSOC. Our goal is not to provide a list of
 COMSOC papers but rather more substantial publications.
 
+
+<div class="page-navigation-wrap">
+<div class="page-navigation">
+<span><a href="#books">Books</a></span>
+<span><a href="#special-issues">Special Issues</a></span>
+</div>
+</div>
 </section>
 
 <section markdown="1">
 
 ## Published Books
+{: #books }
 
 The following books offer comprehensive views of either COMSOC as a whole or some major research
 topics. Check them up!
@@ -43,6 +51,7 @@ topics. Check them up!
 <section markdown="1">
 
 ## Journal Special Issues
+{: #special-issues }
 
 Research related to COMSOC is being published in many different venues. Here is a list of journal
 special issues on COMSOC-related topics.
