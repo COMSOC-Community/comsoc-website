@@ -24,7 +24,7 @@ coordination is managed by a [Steering Committee](#comsoc-workshop-steering-comm
 <div class="image-overlay"></div>
 
 <div class="workshop-details">
-<h2><a href="{{ workshop.website_url }}">COMSOC-{{ workshop.year }}</a></h2>
+<h2><a href="{{ workshop.website_url }}" target="_blank">COMSOC-{{ workshop.year }}</a></h2>
 <p>{{ workshop.edition }}</p>
 <p>{{ workshop.location }}, {{ workshop.dates }} {{ workshop.year }}</p>
 <p><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">[Proceedings]</a></p>
