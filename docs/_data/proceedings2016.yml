@@ -3,7 +3,7 @@
     - William Zwicker
   pdf_file: ZwickerCOMSOC2016.pdf
   sort_key: Zwicker
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Pareto optimal matchings of students to courses in the presence of prerequisites
   authors:
@@ -12,7 +12,7 @@
     - David Manlove
   pdf_file: CechlarovaEtAlCOMSOC2016.pdf
   sort_key: CechlarovaKlausManlove
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Who Can Win a Single-Elimination Tournament?
   authors:
@@ -21,7 +21,7 @@
     - Virginia Vassilevska Williams
   pdf_file: KimEtAlCOMSOC2016.pdf
   sort_key: KimSuksompongVassilevskaWilliams
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: "Fairness in voting: the tale of Blotto's lieutenants"
   authors:
@@ -30,7 +30,7 @@
     - Antonin Macé
   pdf_file: CasellaEtAlCOMSOC2016.pdf
   sort_key: CasellaLaslierMace
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Proving the Incompatibility of Efficiency and Strategyproofness via SMT Solving
   authors:
@@ -39,7 +39,7 @@
     - Christian Geist
   pdf_file: BrandlEtAlCOMSOC2016.pdf
   sort_key: BrandlBrandtGeist
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Agenda Separability in Judgment Aggregation
   authors:
@@ -48,7 +48,7 @@
     - Srdjan Vesic
   pdf_file: LangEtAlCOMSOC2016.pdf
   sort_key: LangSlavkovikVesic
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Arguing about Voting Rules
   authors:
@@ -56,14 +56,14 @@
     - Ulle Endriss
   pdf_file: CaillouxEndrissCOMSOC2016.pdf
   sort_key: CaillouxEndriss
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Parameterized Complexity Results for the Kemeny Rule in Judgment Aggregation
   authors:
     - Ronald de Haan
   pdf_file: HaanCOMSOC2016.pdf
   sort_key: Haan
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: On Voting and Facility Location
   authors:
@@ -72,7 +72,7 @@
     - Iddan Golomb
   pdf_file: FeldmanEtAlCOMSOC2016.pdf
   sort_key: FeldmanFiatGolomb
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Bounds on Manipulation by Merging in Weighted Voting Games
   authors:
@@ -80,14 +80,14 @@
     - Abibat Lasisi
   pdf_file: LasisiLasisiCOMSOC2016.pdf
   sort_key: LasisiLasisi
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Strong and Weak Acyclicity in Iterative Voting
   authors:
     - Reshef Meir
   pdf_file: MeirCOMSOC2016.pdf
   sort_key: Meir
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Ordinal power relations and social rankings
   authors:
@@ -95,14 +95,14 @@
     - Meltem Ozturk
   pdf_file: MorettiOzturkCOMSOC2016.pdf
   sort_key: MorettiOzturk
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Analyzing games with ambiguous types using the MINthenMAX decision model
   authors:
     - Ilan Nehama
   pdf_file: NehamaCOMSOC2016.pdf
   sort_key: Nehama
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Rules for Choosing Societal Tradeoffs
   authors:
@@ -112,7 +112,7 @@
     - Yuqian Li
   pdf_file: ConitzerEtAlCOMSOC2016.pdf
   sort_key: ConitzerFreemanBrillLi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Condorcet Domains and Median Graphs
   authors:
@@ -120,7 +120,7 @@
     - Arkadii Slinko
   pdf_file: PuppeSlinkoCOMSOC2016.pdf
   sort_key: PuppeSlinko
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Fair Social Choice in Dynamic Settings
   authors:
@@ -129,7 +129,7 @@
     - Vincent Conitzer
   pdf_file: FreemanEtAlCOMSOC2016.pdf
   sort_key: FreemanZahediConitzer
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Computing Pareto Optimal Committees
   authors:
@@ -138,7 +138,7 @@
     - Jérôme Monnot
   pdf_file: AzizLangMonnotCOMSOC2016.pdf
   sort_key: AzizLangMonnot
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Altruistic Hedonic Games
   authors:
@@ -149,7 +149,7 @@
     - Lena Schend
   pdf_file: NguyenEtAlCOMSOC2016.pdf
   sort_key: NguyenReyRotheSchend
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Verification in Incomplete Argumentation Frameworks
   authors:
@@ -159,7 +159,7 @@
     - Hilmar Schadrack
   pdf_file: BaumeisterEtAlCOMSOC2016.pdf
   sort_key: BaumeisterNeugebauerRotheSchadrack
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Natural Interviewing Equilibria for Stable Matching
   authors:
@@ -168,7 +168,7 @@
     - Kate Larson
   pdf_file: DrummondEtAlCOMSOC2016.pdf
   sort_key: DrummondBorodinLarson
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Strategy-Proofness of Scoring Allocation Correspondences
   authors:
@@ -177,7 +177,7 @@
     - Jörg Rothe
   pdf_file: NguyenEtAlCOMSOC2016.pdf
   sort_key: NguyenBaumeisterRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Single-peakedness Based on the Net Preference Matrix: Characterization and Algorithms"
   authors:
@@ -185,7 +185,7 @@
     - Paul Weng
   pdf_file: SpanjaardWengCOMSOC2016.pdf
   sort_key: SpanjaardWeng
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Pareto optimal matchings with lower quotas
   authors:
@@ -193,21 +193,21 @@
     - Tamás Fleiner
   pdf_file: CechlarovaFleinerCOMSOC2016.pdf
   sort_key: CechlarovaFleiner
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Bayesian Estimators As Voting Rules
   authors:
     - Lirong Xia
   pdf_file: XiaCOMSOC2016.pdf
   sort_key: Xia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "The Single-Peaked Domain Revisited: A Simple Global Characterization"
   authors:
     - Clemens Puppe
   pdf_file: PuppeCOMSOC2016.pdf
   sort_key: Puppe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Learning Mixtures of Plackett-Luce models
   authors:
@@ -216,7 +216,7 @@
     - Lirong Xia
   pdf_file: ZhaoEtAlCOMSOC2016.pdf
   sort_key: ZhaoPiechXia
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Misrepresentation in District Voting
   authors:
@@ -226,7 +226,7 @@
     - Yair Zick
   pdf_file: BacharachEtAlCOMSOC2016.pdf
   sort_key: BachrachLevLewenbergZick
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Divide and Conquer: Using Geographic Manipulation to Win District-Based Elections"
   authors:
@@ -234,7 +234,7 @@
     - Omer Lev
   pdf_file: LewenbergLevCOMSOC2016.pdf
   sort_key: LewenbergLev
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: How effective can simple ordinal peer grading be?
   authors:
@@ -243,14 +243,14 @@
     - Alexandros Voudouris
   pdf_file: CaragiannisEtAlCOMSOC2016.pdf
   sort_key: CaragiannisKrimpasVoudouris
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Recognising Multidimensional Euclidean Preferences
   authors:
     - Dominik Peters
   pdf_file: PetersCOMSOC2016.pdf
   sort_key: Peters
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: How Hard Is It to Control a Group?
   authors:
@@ -258,7 +258,7 @@
     - Dinko Dimitrov
   pdf_file: YangDimitrovCOMSOC2016.pdf
   sort_key: YangDimitrov
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Efficiency and Sequenceability in Fair Division of Indivisible Goods with Additive Preferences
   authors:
@@ -266,7 +266,7 @@
     - Michel Lemaître
   pdf_file: BouveretLemaitreCOMSOC2016.pdf
   sort_key: BouveretLemaitre
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Truth-revealing voting rules for large populations
   authors:
@@ -274,7 +274,7 @@
     - Marcus Pivato
   pdf_file: NunezPivatoCOMSOC2016.pdf
   sort_key: NunezPivato
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: On Truthful Mechanisms for Maximin Share Allocations
   authors:
@@ -283,7 +283,7 @@
     - Evangelos Markakis
   pdf_file: AmanatidisEtAlCOMSOC2016.pdf
   sort_key: AmanatidisBirmpasMarkakis
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Object allocation problems under constraints
   authors:
@@ -292,7 +292,7 @@
     - Jérôme Monnot
   pdf_file: GourvesEtAlCOMSOC2016.pdf
   sort_key: GourvesMartinhonMonnot
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Conditional and Sequential Approval Voting on Combinatorial Domains
   authors:
@@ -300,7 +300,7 @@
     - Jérôme Lang
   pdf_file: BarrotLangCOMSOC2016.pdf
   sort_key: BarrotLang
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A Majoritarian Representative Voting System
   authors:
@@ -308,7 +308,7 @@
     - Daniele A. Gewurz
   pdf_file: SperoniGewurzCOMSOC2016.pdf
   sort_key: SperoniGewurz
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Structure in Dichotomous Preferences
   authors:
@@ -316,14 +316,14 @@
     - Martin Lackner
   pdf_file: ElkindLacknerCOMSOC2016.pdf
   sort_key: ElkindLackner
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Borda, Condorcet, and Pareto optimality in ordinal group activity selection
   authors:
     - Andreas Darmann
   pdf_file: DarmannCOMSOC2016.pdf
   sort_key: Darmann
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Proportional Borda Allocations
   authors:
@@ -331,7 +331,7 @@
     - Christian Klamler
   pdf_file: DarmannKlamlerCOMSOC2016.pdf
   sort_key: DarmannKlamler
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Majority Graphs of Assignment Problems and Properties of Popular Random Assignments
   authors:
@@ -340,7 +340,7 @@
     - Martin Suderland
   pdf_file: BrandtHofbauerSuderlandCOMSOC2016.pdf
   sort_key: BrandtHofbauerSuderland
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Optimal Reallocation under Additive and Ordinal Preferences
   authors:
@@ -351,7 +351,7 @@
     - Jérôme Monnot
   pdf_file: AzizEtAlCOMSOC2016.pdf
   sort_key: AzizBiroLangLescaMonnot
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Committee Scoring Rules
   authors:
@@ -361,7 +361,7 @@
     - Nimrod Talmon
   pdf_file: FaliszewskiEtAlCOMSOC2016.pdf
   sort_key: FaliszewskiSkowronSlinkoTalmon
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Analyzing the Practical Relevance of Voting Paradoxes via Ehrhart Theory, Computer Simulations, and Empirical Data
   authors:
@@ -370,7 +370,7 @@
     - Martin Strobel
   pdf_file: BrandtGeistStrobelCOMSOC2016.pdf
   sort_key: BrandtGeistStrobel
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "The one-dimensional Euclidean preferences: Finitely many forbidden substructures are not enough"
   authors:
@@ -379,7 +379,7 @@
     - Gerhard J. Woeginger
   pdf_file: ChenEtAlCOMSOC2016.pdf
   sort_key: ChenPruhsWoeginger
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "And the winner is ... Chevalier de Borda: Neural networks vote according to Borda's Rule"
   authors:
@@ -389,7 +389,7 @@
     - Attila Tasnadi
   pdf_file: BurkaEtAlCOMSOC2016.pdf
   sort_key: BurkaPuppeSzepesvaryTasnadi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Axiomatic Characterization of Committee Scoring Rules
   authors:
@@ -398,7 +398,7 @@
     - Arkadii Slinko
   pdf_file: SkowronEtAlCOMSOC2016.pdf
   sort_key: SkowronFaliszewskiSlinko
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Incremental Approval Voting for Multi-agent Knapsack Problems
   authors:
@@ -406,7 +406,7 @@
     - Patrice Perny
   pdf_file: BenabbouPernyCOMSOC2016.pdf
   sort_key: BenabbouPerny
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: "Edge-Compressed Majority Graph: Where Social Choice Meets Information Visualization"
   authors:
@@ -415,7 +415,7 @@
     - Sylvain Bouveret
   pdf_file: KaranikolasEtAlCOMSOC2016.pdf
   sort_key: KaranikolasBlanchBouveret
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Doodle Poll Games
   authors:
@@ -425,7 +425,7 @@
     - Edith Elkind
   pdf_file: ObraztsovaEtAlCOMSOC2016.pdf
   sort_key: ObraztsovaPolukarovRabinovichElkind
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Automated Verification for Functional and Relational Properties of Voting Rules
   authors:
@@ -436,7 +436,7 @@
     - Mattias Ulbrich
   pdf_file: BeckertEtAlCOMSOC2016.pdf
   sort_key: BeckertBormerKirstenNeuberUlbrich
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Complexity of Manipulative Actions When Voting with Ties
   authors:
@@ -444,14 +444,14 @@
     - Edith Hemaspaandra
   pdf_file: FitzsimmonsHemaspaandraCOMSOC2016.pdf
   sort_key: FitzsimmonsHemaspaandra
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: "The Random Pairs Voting Rule: Introduction and Evaluation With a Large Dataset"
   authors:
     - Jeremy Hansen
   pdf_file: HansenCOMSOC2016.pdf
   sort_key: Hansen
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: "Equilibria of Plurality Voting: Lazy and Truth-biased Voters"
   authors:
@@ -461,7 +461,7 @@
     - Piotr Skowron
   pdf_file: ElkindEtAlCOMSOC2016.pdf
   sort_key: ElkindMarkakisObraztsovaSkowron
-  accepted_as: poster
+  accepted_as: Posters
 
 - title: Refinement and randomised versions of some tournament solutions
   authors:
@@ -470,4 +470,4 @@
     - Jérôme Lang
   pdf_file: KrugerEtAlCOMSOC2016.pdf
   sort_key: KrugerAiriauLang
-  accepted_as: poster
+  accepted_as: Posters

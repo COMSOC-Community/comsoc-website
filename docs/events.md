@@ -3,14 +3,25 @@ layout: default
 title: Events | COMSOC
 ---
 
-<section markdown="1">
+<section markdown="1" class="section-with-navs">
 # Related Events
 
 We provide below a non-exhaustive list of related venues that can be of interest to COMSOC researchers.
+
+<div class="page-navigation-wrap">
+<div class="page-navigation">
+<span><a href="#summer-schools">Summer Schools</a></span>
+<span><a href="#dagstuhl">Dagsthul Seminars</a></span>
+<span><a href="#explore">EXPLORE</a></span>
+<span><a href="#other">Other</a></span>
+</div>
+</div>
 </section>
 
-<section markdown="1">
+<section markdown="1" id="summer-schools">
+
 ## Summer Schools
+
   - [Summer School on Computational Social Choice](https://events.illc.uva.nl/comsoc-school-2023/)  
     Amsterdam, 17-21 July 2023
 
@@ -19,10 +30,13 @@ We provide below a non-exhaustive list of related venues that can be of interest
 
   - [COST-ADT Doctoral School on Computational Social Choice](archive/estoril-2010/)  
     Estoril, 9-14 April 2010
+
 </section>
     
-<section markdown="1">
+<section markdown="1" id="dagstuhl">
+
 ## Dagstuhl Seminars on Topics in Computational Social Choice
+
   - [Algorithms for Participatory Democracy](http://www.dagstuhl.de/22271/)  
     3-8 July 2022
 
@@ -43,10 +57,13 @@ We provide below a non-exhaustive list of related venues that can be of interest
 
   - [Computational Issues in Social Choice](http://www.dagstuhl.de/07431/)  
     21-26 October 2007
+
 </section>
     
-<section markdown="1">
+<section markdown="1" id="explore">
+
 ## AAMAS Workshop on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)
+
  - [4th Workshop: EXPLORE-2017](http://www.explore-2017.preflib.org/)  
     S&atilde;o Paulo, 9 May 2017
 
@@ -58,16 +75,18 @@ We provide below a non-exhaustive list of related venues that can be of interest
 
   - [1st Workshop: EXPLORE-2014](http://www.explore14.preflib.org/)  
     Paris, 6 May 2014
+
 </section>
 
-<section markdown="1">
+<section markdown="1" id="other">
+
 ## Other Events
-  
 
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
 
   - [Session on COMSOC](http://research.illc.uva.nl/COMSOC/FET11/) at the European Future Technologies Conference FET'11  
     Budapest, 4 May 2011
+
 </section>
 

@@ -3,7 +3,7 @@
     - Lirong Xia
   pdf_file: Xia.pdf
   sort_key: Xia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Housing Markets with Indifferences: a Tale of Two Mechanisms"
   authors:
@@ -11,7 +11,7 @@
     - Bart de Keijzer
   pdf_file: Aziz.pdf
   sort_key: AzizKeijzer
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The Complexity of Online Manipulation of Sequential Elections
   authors:
@@ -20,7 +20,7 @@
     - Jörg Rothe
   pdf_file: Hemaspaandra.pdf
   sort_key: HemaspaandraRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Manipulation Under Voting Rule Uncertainty
   authors:
@@ -28,7 +28,7 @@
     - Gábor Erdélyi
   pdf_file: Elkind.pdf
   sort_key: ElkindErdelyi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: An Empirical Study of Voting Rules and Manipulation with Large Datasets
   authors:
@@ -37,7 +37,7 @@
     - Judy Goldsmith
   pdf_file: Mattei.pdf
   sort_key: MatteiForsheeGoldsmith
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The Price of Neutrality for the Ranked Pairs Method
   authors:
@@ -45,7 +45,7 @@
     - Felix Fischer
   pdf_file: Brill.pdf
   sort_key: BrillFischer
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Goodness of fit measures for revealed preference tests: Complexity results and algorithms"
   authors:
@@ -55,7 +55,7 @@
     - Frits Spieksma
   pdf_file: Cherchye.pdf
   sort_key: CherchyeDeRockSmeuldersSpieksma
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The Possible Winner Problem with Uncertain Weights
   authors:
@@ -66,7 +66,7 @@
     - Lirong Xia
   pdf_file: Baumeister.pdf
   sort_key: BaumeisterRoosRotheSchendXia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Possible and Necessary Winners of Partial Tournaments
   authors:
@@ -78,14 +78,14 @@
     - Hans Georg Seedig
   pdf_file: Aziz_2.pdf
   sort_key: AzizBrillFischerHarrensteinLangSeedig
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Exploiting Polyhedral Symmetries in Social Choice
   authors:
     - Achill Schürmann
   pdf_file: Schuermann.pdf
   sort_key: Schurmann
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Bounding the Cost of Stability in Games with Restricted Interaction
   authors:
@@ -95,7 +95,7 @@
     - Jeffrey Rosenschein
   pdf_file: Meir.pdf
   sort_key: MeirZickElkindRosenschein
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Graph Aggregation
   authors:
@@ -103,7 +103,7 @@
     - Umberto Grandi
   pdf_file: Endriss.pdf
   sort_key: EndrissGrandi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Analysis and Optimization of Multi-dimensional Percentile Mechanisms
   authors:
@@ -112,7 +112,7 @@
     - Tuomas Sandholm
   pdf_file: Sui.pdf
   sort_key: SuiBoutilierSandholm
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Computing Socially-Efficient Cake Divisions
   authors:
@@ -121,7 +121,7 @@
     - Avinatan Hassidim
   pdf_file: Aumann.pdf
   sort_key: AumannDombbHassidim
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Voting with Partial Information: Minimal Sets of Questions to Decide an Outcome"
   authors:
@@ -129,7 +129,7 @@
     - Fangzhen Lin
   pdf_file: Ding.pdf
   sort_key: DingLin
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: College admissions with stable score-limits
   authors:
@@ -137,7 +137,7 @@
     - Sofya Kiselgof
   pdf_file: Biro.pdf
   sort_key: BiroKiselgof
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Bribery and Control in Judgment Aggregation
   authors:
@@ -147,7 +147,7 @@
     - Jörg Rothe
   pdf_file: Baumeister_2.pdf
   sort_key: BaumeisterErdelyiErdelyiRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Being caught between a rock and a hard place in an election–voter deterrence by deletion of candidates
   authors:
@@ -155,7 +155,7 @@
     - Dominikus Krüger
   pdf_file: Dorn.pdf
   sort_key: DornKruger
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Aggregating Conditionally Lexicographic Preferences on Multi-Issue Domains
   authors:
@@ -164,7 +164,7 @@
     - Lirong Xia
   pdf_file: Lang.pdf
   sort_key: LangMenginXia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Empirical Aspects of Plurality Election Equilibria
   authors:
@@ -174,7 +174,7 @@
     - Jeffrey Rosenschein
   pdf_file: Thompson.pdf
   sort_key: ThompsonLevLeytonBrownRosenschein
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: On the Complexity of Voting Manipulation Under Randomized Tie-Breaking
   authors:
@@ -183,7 +183,7 @@
     - Edith Elkind
   pdf_file: Obraztsova.pdf
   sort_key: ObraztsovaZickElkind
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Resistance to bribery when aggregating soft constraints
   authors:
@@ -193,7 +193,7 @@
     - Kristen Brent Venable
   pdf_file: Maran.pdf
   sort_key: MaranPiniRossiVenable
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The Complexity of Nearly Single-Peaked Consistency
   authors:
@@ -202,7 +202,7 @@
     - Andreas Pfandler
   pdf_file: Erdelyi.pdf
   sort_key: ErdelyiLacknerPfandler
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Models of Manipulation on Aggregation of Binary Evaluations
   authors:
@@ -210,7 +210,7 @@
     - Dvir Falik
   pdf_file: Dokow.pdf
   sort_key: DokowFalik
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Complexity and Approximability of Social Welfare Optimization in Multiagent Resource Allocation
   authors:
@@ -220,7 +220,7 @@
     - Jörg Rothe
   pdf_file: Nguyen.pdf
   sort_key: NguyenNguyenRoosRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Manipulating Two Stage Voting Rules
   authors:
@@ -228,7 +228,7 @@
     - Toby Walsh
   pdf_file: Narodytska.pdf
   sort_key: NarodytskaWalsh
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Elicitation-free Protocols for Allocating Indivisible Goods
   authors:
@@ -238,7 +238,7 @@
     - Lirong Xia
   pdf_file: Kalinowski.pdf
   sort_key: KalinowskiNarodytskaWalshXia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Online (Budgeted) Social Choice
   authors:
@@ -246,7 +246,7 @@
     - Joel Oren
   pdf_file: Lucier.pdf
   sort_key: LucierOren
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Cost-sharing of continuous knapsacks
   authors:
@@ -254,7 +254,7 @@
     - Christian Klamler
   pdf_file: Darmann.pdf
   sort_key: DarmannKlamler
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Group Activity Selection Problem
   authors:
@@ -266,7 +266,7 @@
     - Gerhard Woeginger
   pdf_file: Darmann_2.pdf
   sort_key: DarmannElkindKurzLangSchauerWoeginger
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: On Elections with Robust Winners
   authors:
@@ -275,14 +275,14 @@
     - Edith Elkind
   pdf_file: Shiryaev.pdf
   sort_key: ShiryaevYuElkind
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The common structure of paradoxes in aggregation theory
   authors:
     - Umberto Grandi
   pdf_file: Grandi.pdf
   sort_key: Grandi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Robust Winners and Winner Determination Policies under Candidate Uncertainty
   authors:
@@ -292,14 +292,14 @@
     - Hector Palacios
   pdf_file: Boutilier.pdf
   sort_key: BoutilierLangOrenPalacios
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Implementation by Agenda Voting
   authors:
     - Sean Horan
   pdf_file: Horan.pdf
   sort_key: Horan
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Empathetic Social Choice on Social Networks
   authors:
@@ -307,7 +307,7 @@
     - Craig Boutilier
   pdf_file: SalehiAbari.pdf
   sort_key: SalehiAbariBoutilier
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Coordination via Polling in Plurality Voting Games under Inertia
   authors:
@@ -316,7 +316,7 @@
     - Javad Khazaei
   pdf_file: Reyhani.pdf
   sort_key: ReyhaniWilsonKhazaei
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A characterization of the single-crossing domain
   authors:
@@ -325,7 +325,7 @@
     - Gerhard Woeginger
   pdf_file: Bredereck.pdf
   sort_key: BredereckChenWoeginger
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Bounded single-peaked width and proportional representation
   authors:
@@ -334,4 +334,4 @@
     - Olivier Spanjaard
   pdf_file: Cornaz.pdf
   sort_key: CornazGalandSpanjaard
-  accepted_as: presentation
+  accepted_as: Presentations

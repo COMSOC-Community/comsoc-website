@@ -129,6 +129,43 @@ img {
   font-size: 0.8rem;
 }
 
+.section-with-navs {
+  padding-bottom: 0;
+}
+
+.page-navigation-wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.page-navigation {
+  display: inline-block;
+  background-color: var(--color-frame-secondary);
+  color: white;
+  font-size: 0.8rem;
+}
+
+.page-navigation > span {
+  display: inline-flex;
+  margin: 5px 0;
+}
+
+.page-navigation > span:not(:last-child) {
+  border-right: 2px solid white;
+}
+
+.page-navigation > span > a {
+  padding: 4px 20px;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-navigation > span > a:hover {
+  color: #162442;
+}
+
 /* ===
 Header
 === */

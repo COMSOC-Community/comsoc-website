@@ -4,7 +4,7 @@
     - Miguel A. Ballester
   pdf_file: Apesteguia.pdf
   sort_key: ApesteguiaBallester
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Computing Spanning Trees in a Social Choice Context
   authors:
@@ -13,7 +13,7 @@
     - Ulrich Pferschy
   pdf_file: Darmann.pdf
   sort_key: DarmannKlamlerPferschy
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Approval-rating systems that never reward insincerity
   authors:
@@ -21,14 +21,14 @@
     - Ron K. Cytron
   pdf_file: LeGrand.pdf
   sort_key: LeGrandCytron
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Aggregating Referee Scores: an Algebraic Approach"
   authors:
     - Rolf Haenni
   pdf_file: Haenni.pdf
   sort_key: Haenni
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Computing Kemeny Rankings, Parameterized by the Average KT-Distance
   authors:
@@ -39,7 +39,7 @@
     - Frances A. Rosamond
   pdf_file: Betzler.pdf
   sort_key: BetzlerFellowsGuoNiedermeierRosamond
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Preference Functions That Score Rankings and Maximum Likelihood Estimation
   authors:
@@ -48,7 +48,7 @@
     - Lirong Xia
   pdf_file: Conitzer.pdf
   sort_key: ConitzerRognlieXia
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Equilibria in Social Belief Removal
   authors:
@@ -56,7 +56,7 @@
     - Thomas Meyer
   pdf_file: Booth.pdf
   sort_key: BoothMeyer
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Confluence Operators: Negotiation as Pointwise Merging"
   authors:
@@ -64,7 +64,7 @@
     - Ramón Pino Pérez
   pdf_file: Konieczny.pdf
   sort_key: KoniecznyPerez
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Llull and Copeland Voting Computationally Resist Bribery and Control
   authors:
@@ -74,7 +74,7 @@
     - Jörg Rothe
   pdf_file: Faliszewski.pdf
   sort_key: FaliszewskiHemaspaandraRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Sincere-Strategy Preference-Based Approval Voting Fully Resists Constructive Control and Broadly Resists Destructive Control
   authors:
@@ -83,7 +83,7 @@
     - Jörg Rothe
   pdf_file: Erdelyi.pdf
   sort_key: ErdelyiNowakRothe
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Approximability of Manipulating Elections
   authors:
@@ -94,7 +94,7 @@
     - Ilka Schnoor
   pdf_file: Brelsford.pdf
   sort_key: BrelsfordFaliszewskiHemaspaandraSchnoor
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Complexity of Unweighted Coalitional Manipulation Under Some Common Voting Rules
   authors:
@@ -104,7 +104,7 @@
     - Jeffrey Rosenschein
   pdf_file: Xia.pdf
   sort_key: XiaConitzerProcacciaRosenschein
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A Qualitative Vickrey Auction
   authors:
@@ -113,7 +113,7 @@
     - Mathijs de Weerdt
   pdf_file: Harrenstein.pdf
   sort_key: HarrensteinMahrDeWeerdt
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: The Cost and Windfall of Manipulability
   authors:
@@ -121,7 +121,7 @@
     - Tuomas Sandholm
   pdf_file: Othman.pdf
   sort_key: OthmanSandholm
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: On the Agenda Control Problem for Knockout Tournaments
   authors:
@@ -130,7 +130,7 @@
     - Yoav Shoham
   pdf_file: Vu.pdf
   sort_key: VuAltmanShoham
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: How to Rig Elections and Competitions
   authors:
@@ -140,7 +140,7 @@
     - Michael Wooldridge
   pdf_file: Hazon.pdf
   sort_key: HazonDunneKrausWooldridge
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "On Voting Caterpillars: Approximating Maximum Degree in a Tournament by Binary Trees"
   authors:
@@ -149,7 +149,7 @@
     - Alex Samorodnitsky
   pdf_file: Fischer.pdf
   sort_key: FischerProcacciaSamorodnitsky
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A Computational Analysis of the Tournament Equilibrium Set
   authors:
@@ -159,7 +159,7 @@
     - Maximilian Mair
   pdf_file: Brandt.pdf
   sort_key: BrandtFischerHarrensteinMair
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Non-dictatorial Social Choice Rules are Safely Manipulable
   authors:
@@ -167,7 +167,7 @@
     - Shaun White
   pdf_file: Slinko.pdf
   sort_key: SlinkoWhite
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Computing the Degree of Manipulability in the Case of Multiple Choice
   authors:
@@ -177,7 +177,7 @@
     - Vyacheslav Yakuba
   pdf_file: Aleskerov.pdf
   sort_key: AleskerovKarabekyanSanverYakuba
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Majority voting on restricted domains: a summary"
   authors:
@@ -185,7 +185,7 @@
     - Christian List
   pdf_file: Dietrich.pdf
   sort_key: DietrichList
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A geometric approach to judgment aggregation
   authors:
@@ -193,21 +193,21 @@
     - Daniel Eckert
   pdf_file: Klamler.pdf
   sort_key: KlamlerEckert
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: From Preferences to Judgments and Back
   authors:
     - Davide Grossi
   pdf_file: Grossi.pdf
   sort_key: Grossi
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Judgment Aggregation as Maximization of Epistemic and Social Utility
   authors:
     - Szymon Klarman
   pdf_file: Klarman.pdf
   sort_key: Klarman
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A Deontic Logic for Socially Optimal Norms
   authors:
@@ -217,7 +217,7 @@
     - Paolo Turrini
   pdf_file: Broersen.pdf
   sort_key: BroersenMastopMeyerTurrini
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Welfare properties of argumentation-based semantics
   authors:
@@ -225,21 +225,21 @@
     - Iyad Rahwan
   pdf_file: Larson.pdf
   sort_key: LarsonRahwan
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Dodgson's Rule: Approximations and Absurdity"
   authors:
     - John McCabe-Dansted
   pdf_file: McCabe.pdf
   sort_key: McCabeDansted
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Informational requirements of social choice rules
   authors:
     - Shin Sato
   pdf_file: Sato.pdf
   sort_key: Sato
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Compiling the votes of a subelectorate
   authors:
@@ -249,7 +249,7 @@
     - Guillaume Ravilly-Abadie
   pdf_file: Chevaleyre.pdf
   sort_key: ChevaleyreLangMaudetRavillyAbadie
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Alternatives to Truthfulness are Hard to Recognize
   authors:
@@ -259,14 +259,14 @@
     - Carmine Ventre
   pdf_file: Auletta.pdf
   sort_key: AulettaPennaPersianoVentre
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Complexity of comparison of influence of players in simple games
   authors:
     - Haris Aziz
   pdf_file: Aziz.pdf
   sort_key: Aziz
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Coalition Structures in Weighted Voting Games
   authors:
@@ -275,7 +275,7 @@
     - Nick Jennings
   pdf_file: Chalkiadakis.pdf
   sort_key: ChalkiadakisElkindJennings
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: "Divide and Conquer: False-Name Manipulations in Weighted Voting Games"
   authors:
@@ -283,7 +283,7 @@
     - Edith Elkind
   pdf_file: Bachrach.pdf
   sort_key: BachrachElkind
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Computing the Nucleolus of Weighted Voting Games
   authors:
@@ -291,7 +291,7 @@
     - Dmitrii Pasechnik
   pdf_file: Elkind.pdf
   sort_key: ElkindPasechnik
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: A fair payoff distribution for myopic rational agents
   authors:
@@ -299,7 +299,7 @@
     - Sandip Sen
   pdf_file: Airiau.pdf
   sort_key: AiriauSen
-  accepted_as: presentation
+  accepted_as: Presentations
 
 - title: Three-sided stable matchings with cyclic preferences and the kidney exchange problem
   authors:
@@ -307,4 +307,4 @@
     - Eric McDermid
   pdf_file: Biro.pdf
   sort_key: BiroMcDermid
-  accepted_as: presentation
+  accepted_as: Presentations

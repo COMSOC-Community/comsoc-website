@@ -3,7 +3,10 @@ layout: default
 all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 ---
 
-<section>
+{% assign data_key = "proceedings" | append: page.year %}
+{% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
+
+<section{% if papers_per_pub_type.size > 1 %} class="section-with-navs"{% endif %}>
 
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
@@ -25,37 +28,34 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
     Workshop Series</a>.
 </p>
 
-{% assign data_key = "proceedings" | append: page.year %}
-{% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
-
 <p>
     The papers in the proceedings are
     {% if papers_per_pub_type.size > 1 %}categorised by their acceptance status (e.g., "poster" and "presentation") and {% endif %}
     ordered by last name of the authors.
 </p>
 
-{% if papers_per_pub_type.size > 1 %}
-<p>The publication categories are:</p>
-<ul>
-    {% for pub_type in papers_per_pub_type %}
-        <li><a href="#{{ pub_type.name }}">{{ pub_type.name | capitalize }}</a></li>
-    {% endfor %}
-</ul>
-
-{% endif %}
-
 {% if page.complete_proceedings %}
 <p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank">[Full Proceedings]</a></p>
+{% endif %}
+
+{% if papers_per_pub_type.size > 1 %}
+<div class="page-navigation-wrap">
+<div class="page-navigation">
+{% for pub_type in papers_per_pub_type %}
+<span><a href="#{{ pub_type.name }}">{{ pub_type.name }}</a></span>
+{% endfor %}
+</div>
+</div>
 {% endif %}
 
 </section>
 
 {% for pub_type in papers_per_pub_type %}
 
-<section>
+<section id="{{ pub_type.name }}">
 
 {% if papers_per_pub_type.size > 1 %}
-<h2 id="{{ pub_type.name }}">{{ pub_type.name | capitalize }}</h2>
+<h2>{{ pub_type.name }}</h2>
 {% endif %}
 
 {% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
