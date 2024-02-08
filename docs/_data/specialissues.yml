@@ -1,0 +1,25 @@
+- journal: "Annals of Mathematics and Artificial Intelligence"
+  topic: "Algorithms, Approximation, and Empirical Studies in Behavioral and Computational Social Choice"
+  year: 2013
+  volume: "68:1&#8212;3"
+  url: "http://link.springer.com/journal/10472/68/1/page/1"
+
+- journal: "Mathematical Social Sciences"
+  topic: "Computational Foundations of Social Choice"
+  year: 2012
+  volume: "64:1"
+  url: "https://www.sciencedirect.com/journal/mathematical-social-sciences/vol/64/issue/1"
+
+- journal: "Journal of Autonomous Agents and Multiagent Systems"
+  topic: "Computational Social Choice"
+  year: 2011
+  volume: "22:1"
+  url: "https://link.springer.com/journal/10458/volumes-and-issues/22-1"
+  call_for_papers: "assets/docs/jaamas-flyer.pdf"
+
+- journal: "Mathematical Logic Quarterly"
+  topic: "Logic and Complexity in Computational Social Choice"
+  year: 2009
+  volume: "55:4"
+  url: "https://onlinelibrary.wiley.com/toc/15213870/2009/55/4"
+  call_for_papers: "http://ccc.cs.uni-duesseldorf.de/~rothe/MLQ-special-issue-CFP"

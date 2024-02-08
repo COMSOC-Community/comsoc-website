@@ -45,6 +45,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  font-size: 1.2rem;
+}
+
 p {
   font-size: 1rem;
 }
@@ -79,7 +83,7 @@ section:nth-child(even) {
 }
 
 section {
-  padding: 20px 30px;
+  padding: 50px 50px;
 }
 
 h1 {
@@ -119,6 +123,10 @@ img {
 .hline {
   border-top: 3px var(--color-frame-secondary) solid;
   width: 100%;
+}
+
+.resource-link {
+  font-size: 0.8rem;
 }
 
 /* ===
@@ -351,10 +359,6 @@ Video Seminar Page
   margin-left: auto;
 }
 
-.video-seminar-event-title .video-link {
-  font-size: 0.8rem;
-}
-
 .video-seminar-event-content {
   display: none;
 }
@@ -373,10 +377,6 @@ Video Seminar Page
 
 .video-seminar-presentation-title {
   font-weight: bold;
-}
-
-.video-seminar-presentation-title > .slides-link{
-  font-size: 0.8rem;
 }
 
 /* =======
@@ -400,6 +400,7 @@ Index Page
   margin-right: 10px;
   border-radius: 5px;
   font-weight: bold;
+  font-size: inherit;
 }
 
 .interdisciplinary-header {
@@ -464,4 +465,8 @@ Publications Page
 
 .books-wrapper img {
   height: 200px;
+}
+
+#special-issues-list h4 {
+  margin-bottom: 5px;
 }
