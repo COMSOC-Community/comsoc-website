@@ -1,3 +1,11 @@
+- title: Finding and Recognizing Popular Coalition Structures
+  authors:
+    - Felix Brandt
+    - Martin Bullinger
+  pdf_file: BrandtBullinger.pdf
+  sort_key: BrandtBullinger
+  accepted_as: Presentations
+
 - title: Deliberation and Epistemic Democracy
   authors:
     - Huihui Ding
@@ -22,14 +30,6 @@
   pdf_file: BrandtEtAl-2.pdf
   sort_key: BrandtBullingerLederer
   accepted_as: Posters
-
-- title: Finding and Recognizing Popular Coalition Structures
-  authors:
-    - Felix Brandt
-    - Martin Bullinger
-  pdf_file: BrandtBullinger.pdf
-  sort_key: BrandtBullinger
-  accepted_as: Presentations
 
 - title: Approximate Group Fairness for Clustering
   authors:
