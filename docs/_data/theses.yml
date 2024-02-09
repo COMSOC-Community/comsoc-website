@@ -1,3 +1,11 @@
+- name: Andrzej Kaczmarczyk
+  affiliation: Technische Universität Berlin
+  year: 2021
+  url: https://library.oapen.org/handle/20.500.12657/54062
+  title: "Algorithmic Aspects of Resource Allocation and Multiwinner Voting: Theory and Experiments"
+  supervisors:
+    - Rolf Niedermeier
+
 - name: Yuzhe Zhang
   affiliation: University of Groningen
   year: 2023
