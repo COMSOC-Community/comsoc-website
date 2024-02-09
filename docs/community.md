@@ -6,11 +6,10 @@ title: Community | COMSOC
 <section markdown="1">
 # The COMSOC Community
 
-The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
-communication channels. Events such as the [video seminars](video-seminar) and the [COMSOC workshops](workshops)
-are regular meetup points offering easy opportunities to exchange ideas.
+The computational social choice research community actively fosters collaboration through conferences, workshops, and other 
+communication channels.
 
-The COMSOC community is committed to fostering an inclusive and diverse environment that values the
+The computational social choice community is committed to fostering an inclusive and diverse environment that values the
 contributions of individuals from all backgrounds. We believe in the strength that arises from a
 multiplicity of perspectives, experiences, and voices. Our community is dedicated to creating a space
 where everyone, regardless of race, ethnicity, gender identity, sexual orientation, ability, age, or
@@ -27,9 +26,9 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 <section markdown="1">
 
-## Community Meet-ups
+## Community Meetup Points
 
-- [COMSOC video seminar](video-seminar), regular online seminar on social choice run by COMSOC people
+- [COMSOC video seminar](video-seminar), regular online seminar on social choice run by computational social choice researchers
 
 - [COMSOC workshop series](workshops), bi-annual workshops aiming at bringing together COMSOC-enthusiasts from all communities
 

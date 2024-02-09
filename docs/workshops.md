@@ -14,7 +14,7 @@ logicians interested in logic-based specification and analysis of social procedu
 social choice theory.
 
 These workshops occur biannually, with the exception of 2020 due to the COVID-19 pandemic. The 
-coordination is managed by a [Steering Committee](#comsoc-workshop-steering-committee).
+coordination is managed by a [Steering Committee](#steering-committee).
 
 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
 {% for workshop in sorted_workshops %}
@@ -36,7 +36,7 @@ coordination is managed by a [Steering Committee](#comsoc-workshop-steering-comm
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="steering-committee">
 
 ## COMSOC Workshop Steering Committee
 

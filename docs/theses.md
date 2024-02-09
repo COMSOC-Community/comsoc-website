@@ -25,7 +25,8 @@ Suggestions for further additions are more than welcome, ping us on <a href="htt
 <section id="{{ year.name }}">
 <h2>{{ year.name }}</h2>
 <ul>
-    {% for thesis in year.items %}
+    {% assign theses_by_year_sorted = year.items | sort: 'name' %}
+    {% for thesis in theses_by_year_sorted %}
         <li><p>
             <strong>{{ thesis.name }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
             <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>

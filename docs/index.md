@@ -30,21 +30,22 @@ problems in multi-agent systems or network design
 ## Interdisciplinarity by Design
 {: #interdisciplinarity}
 
-COMSOC is by design an interdisciplinary research field.
-It draws inspiration and methodologies from a diverse range of disciplines, including computer science,
-artificial intelligence, logic, political science, and economics. This interdisciplinary nature allows
-researchers to tackle complex problems in collective decision-making from multiple perspectives.
+Computational social choice is by design an interdisciplinary research field.
+It draws inspiration and methodologies from a diverse range of disciplines, including computer
+science, artificial intelligence, logic, political science, and economics. This interdisciplinary
+nature allows researchers to tackle complex problems in collective decision-making from multiple
+perspectives.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
 Social choice theory focuses on designing and analyzing methods for collective decision-making,
 including voting protocols and procedures for fair resource division among agents. Classical work
-in this field establishes abstract results on the existence of procedures meeting certain requirements,
-often without considering computational aspects. Complexity analysis and algorithm design are now integral
-to studying aggregation procedures. To name a few standard problems, COMSOC researchers have typically
-studied algorithmic issues linked to determining the outcome of an aggregation scenario, to selecting an
-outcome that satisfies a given property, or to manipulating voting protocols.
+in this field establishes abstract results on the existence of procedures meeting certain
+requirements, often without considering computational aspects. Complexity analysis and algorithm
+design are now integral to studying aggregation procedures. Standard problems that have been studied
+include algorithmic issues linked to determining the outcome of an aggregation scenario, to selecting
+an outcome that satisfies a given property, or to manipulating voting protocols.
 
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
 Methods from social choice theory may face challenges when dealing with a large number of alternatives,
@@ -61,8 +62,8 @@ social procedures like voting protocols or fair division algorithms.
 Voters reason about the voting process as a whole and the impact they can have on its outcome.
 Social choice theory thus builds on game-theoretic concepts to analyse strategic interaction in
 collective decision-making
-There is thus an important exchange of ideas between COMSOC and algorithmic game theory (which is
-to game theory what COMSOC is to social choice).
+There is thus an important exchange of ideas between computational social choice and algorithmic 
+game theory (which is to game theory what COMSOC is to social choice).
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Assessment</span>
 Social choice problems mostly models real-life processes.
@@ -82,7 +83,7 @@ property...
 ## Selected Topics
 {: #topics}
 
-COMSOC researchers engage in a broad range of research topics, all based on scenarios in which
+Researchers in computational social choice engage in a broad range of research topics, all based on scenarios in which
 collective decisions are to be reached based on individual preferences.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
@@ -113,7 +114,7 @@ The key point of these scenarios is an outcome consists in disjoints groups of a
 additional constraints) and that agents have preferences over who else is part of their group.
 
 <span class="topics-header lettrine">Opinion<br>Aggregation</span>
-Lastly, COMSOC researchers also look into how to aggregate,
+Lastly, computational social choice scientists also look into how to aggregate,
 or merge, conflicting opinions about the truth value of given propositions when only certain
 combination of propositions are acceptable.
 This can be seen as aggregation problems over logical formulas, given the constraint that the

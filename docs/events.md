@@ -6,14 +6,14 @@ title: Events | COMSOC
 <section markdown="1" class="section-with-navs">
 # Related Events
 
-We provide below a non-exhaustive list of related venues that can be of interest to COMSOC researchers.
+We provide below a non-exhaustive list of related venues that can be of interest to 
+computational social choice researchers.
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
 <span><a href="#summer-schools">Summer Schools</a></span>
 <span><a href="#dagstuhl">Dagstuhl Seminars</a></span>
-<span><a href="#explore">EXPLORE</a></span>
-<span><a href="#other">Other</a></span>
+<span><a href="#workshops">Conference Workshops</a></span>
 </div>
 </div>
 </section>
@@ -60,28 +60,31 @@ We provide below a non-exhaustive list of related venues that can be of interest
 
 </section>
     
-<section markdown="1" id="explore">
+<section markdown="1" id="workshops">
 
-## AAMAS Workshop on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)
+## Workshops organised at conferences
 
- - [4th Workshop: EXPLORE-2017](http://www.explore-2017.preflib.org/)  
-    S&atilde;o Paulo, 9 May 2017
+  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)  
+    [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
+    [2022](https://sites.google.com/view/m-pref2022) &middot;
+    [2020](https://www.markusendres.de/mpref/mpref2020/) &middot;
+    [2018](http://www.mpref-2018.preflib.org/) &middot;
+    [2016](http://www.mpref-2016.preflib.org/) &middot;
+    [2014](http://www.explore14.preflib.org/)  &middot;
+    ...
 
-  - [3rd Workshop: EXPLORE-2016](http://www.explore-2016.preflib.org/)  
-    Singapore, 10 May 2016
+  - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)  
+    [2024](https://preflib.github.io/gaiw2024/) &middot;
+    [2023](https://preflib.github.io/gaiw2023/) &middot; 
+    [2022](https://preflib.github.io/gaiw2022/) &middot;
+    [2021](https://preflib.github.io/gaiw2021/)
 
-  - [2nd Workshop: EXPLORE-2015](http://www.explore-2015.preflib.org/)  
-    Istanbul, 4 May 2015
-
-  - [1st Workshop: EXPLORE-2014](http://www.explore14.preflib.org/)  
-    Paris, 6 May 2014
-
-</section>
-
-<section markdown="1" id="other">
-
-## Other Events
-
+  - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)  
+    [2017](http://www.explore-2017.preflib.org/) &middot; 
+    [2016](http://www.explore-2016.preflib.org/) &middot;
+    [2015](http://www.explore-2015.preflib.org/) &middot;
+    [2014](http://www.explore14.preflib.org/)  
+  
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
 
@@ -89,4 +92,3 @@ We provide below a non-exhaustive list of related venues that can be of interest
     Budapest, 4 May 2011
 
 </section>
-
