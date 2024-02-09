@@ -17,19 +17,50 @@ to do is to push your changes, wait a bit, and check the outcome looks fine.
 
 Below is a description of how to perform the most common management tasks.
 
+Note that if you are not a "GitHub collaborator" of this repository you need to first clone the
+repository and submit pull requests.
+
+### Modify/Add a COMSOC Workshop Event
+
+To add a new edition of the COMSOC workshop series, simply add the new entry to the file 
+`docs/_data/workshops.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/workshops.yml)
+and it will be automatically added to the website. To modify an existing entry, simply find it in
+the file and modify it.
+
+The .yml format for a COMSOC workshop is as presented in the example below.
+
+```
+- year: 2023
+  edition: 9th International Workshop on Computational Social Choice
+  location: Beersheba
+  dates: 3-5 July
+  website_url: https://tzin.bgu.ac.il/~omerlev/comsoc.html
+  image: COMSOC_2023_banner.jpg
+```
+
+Note the refer to the image of the workshop (the banner used in the standard theme of the workshop
+series). The image file iteself need to be added to the repository `docs/assets/images/workshops/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/workshops).
+This image is used as background for the box describing the workshop.
+
 ### Modify/Add a PhD thesis
 
-To add a new PhD theis simply add the new entry to the `docs/_data/theses.yml` and it's all automatic from there.
-To modify an existing entry simply find it in the `docs/_data/theses.yml` file and modify it.
+To add a new PhD theis simply add the new entry to the file
+`docs/_data/theses.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/theses.yml)
+and it's all automatic from there. To modify an existing entry, simply find it in the file and
+modify it.
 
-The .yml format for a thesis is as presented on this example:
+The .yml format for a thesis is as presented in the example below.
+Note that ":" need to be in quote-encapsulated strings (typically in titles).
+If there is only on supervisor, keep the syntax and only include a single element in 
+the `supervisors` list.
 
 ```
 - name: Simon Rey
   affiliation: University of Amsterdam, ILLC
   year: 2023
   url: https://hdl.handle.net/11245.1/99e2cdb9-0c9a-46ca-8568-8bb2b77ca225
-  title: Variations on Participatory Budgeting
+  title: "Variations on Participatory Budgeting: An example"
   supervisors:
     - Ulle Endriss
     - Ronald de Haan
