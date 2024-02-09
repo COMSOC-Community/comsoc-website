@@ -20,7 +20,7 @@ We present below the past events of the video seminar below.
 If you spot a mistake or want to update this list, check the [GitHub repository](https://github.com/Simon-Rey/comsoc-website)
 for the procedure to follow.
 
-{% assign sorted_events = site.data.videoseminar | sort: '-date' %}
+{% assign sorted_events = site.data.videoseminar | sort: 'date' | reverse %}
 {% for event in sorted_events %}
 <div class="video-seminar-event">
 <h3 class="video-seminar-event-title">

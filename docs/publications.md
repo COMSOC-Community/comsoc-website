@@ -57,7 +57,7 @@ Research related to COMSOC is being published in many different venues. Here is 
 special issues on COMSOC-related topics.
 
 
-{% assign sorted_special_issues = site.data.specialissues | sort: '-year' %}
+{% assign sorted_special_issues = site.data.specialissues | sort: 'year' | reverse %}
 
 <ul id="special-issues-list">
 {% for special_issue in sorted_special_issues %}

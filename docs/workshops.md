@@ -16,7 +16,7 @@ social choice theory.
 These workshops occur biannually, with the exception of 2020 due to the COVID-19 pandemic. The 
 coordination is managed by a [Steering Committee](#comsoc-workshop-steering-committee).
 
-{% assign sorted_workshops = site.data.workshops | sort: '-date' %}
+{% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
 {% for workshop in sorted_workshops %}
 <div class="workshop-wrapper">
 <div class="workshop-image" style="background-image: url('{{ site.baseurl }}/assets/images/workshops/{{ workshop.image }}');">

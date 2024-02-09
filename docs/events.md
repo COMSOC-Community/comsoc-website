@@ -11,7 +11,7 @@ We provide below a non-exhaustive list of related venues that can be of interest
 <div class="page-navigation-wrap">
 <div class="page-navigation">
 <span><a href="#summer-schools">Summer Schools</a></span>
-<span><a href="#dagstuhl">Dagsthul Seminars</a></span>
+<span><a href="#dagstuhl">Dagstuhl Seminars</a></span>
 <span><a href="#explore">EXPLORE</a></span>
 <span><a href="#other">Other</a></span>
 </div>
