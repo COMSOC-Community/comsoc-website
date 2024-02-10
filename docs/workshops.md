@@ -10,7 +10,7 @@ title: Workshop Series | COMSOC
 The central event in the international calendar for the COMSOC community is the biannual COMSOC Workshop. 
 COMSOC is an interdisciplinary, informal, and inclusive event. 
 It attracts both computer scientists and economists (and many others), 
-and both firmly established members of the community and newcomers. 
+and it welcomes both firmly established members of the community and newcomers. 
 Papers are carefully reviewed, yet the proceedings are informal only, 
 meaning that authors are free to formally publish their work elsewhere. 
 Nobody presents more than one paper. 
