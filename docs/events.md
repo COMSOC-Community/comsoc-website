@@ -14,7 +14,7 @@ On this page you will find a non-exhaustive list of such events.
 <div class="page-navigation">
 <span><a href="#summer-schools">Summer Schools</a></span>
 <span><a href="#dagstuhl">Dagstuhl Seminars</a></span>
-<span><a href="#workshops">Workshops</a></span>
+<span><a href="#workshops">Other Workshops</a></span>
 </div>
 </div>
 </section>
