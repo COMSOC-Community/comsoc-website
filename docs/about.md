@@ -7,11 +7,9 @@ title: About | COMSOC
 
 # About this Website
 
-This website is the second version of the COMSOC website. It has been developed mainly by Simon Rey
-and Ulle Endriss.
-
-The first version of the website, developped by Ulle Endriss can still be accessed [here](archive/comsoc-website).
-The switch to the new version occured in 2024.
+The original COMSOC community site was set up by Ulle Endriss in 2007 
+and maintaned by him until 2024 (see [archived version](archive/comsoc-website)). 
+The current version was designed by Simon Rey in 2024.
 
 </section>
 
@@ -20,8 +18,8 @@ The switch to the new version occured in 2024.
 ## Modify me on Github
 
 The website has been designed to be easy to modify and maintain. It is all happening on the
-[GitHub repository](https://github.com/Simon-Rey/comsoc-website). You are all welcome to 
-edit the content of the website, do not hesitate!
+[GitHub repository](https://github.com/comsoc-community/comsoc-website). Everyone in the community
+is welcome to contribute by editing the content of the site.
 
 </section>
 
@@ -30,13 +28,13 @@ edit the content of the website, do not hesitate!
 
 ## Archive
 
-We also use this website to archive old websites of the community (some of them being mirrors).
+We also use this website to archive old websites of the community (some of them being mirrors of sites that are still live).
 
-- [Old COMSOC website]({{ "archive/comsoc-website" | relative_url}})
-- [COMSOC Workshop 2006]({{ "archive/comsoc-2006" | relative_url}})
-- [COMSOC Workshop 2008]({{ "archive/comsoc-2008" | relative_url}})
-- [COST-ADT Doctoral School on COMSOC 2010]({{ "archive/estoril-2010" | relative_url}})
-- [IJCAI Workshop on Social Choice and Artificial Intelligence 2011]({{ "archive/ijcai-2011" | relative_url}})
+- [Original COMSOC site]({{ "archive/comsoc-website" | relative_url}})
+- [COMSOC-2006: 1st International Workshop on Computational Social Choice]({{ "archive/comsoc-2006" | relative_url}})
+- [COMSOC-2008: 2nd International Workshop on Computational Social Choice]({{ "archive/comsoc-2008" | relative_url}})
+- [COST-ADT Doctoral School on Computational Social Choice (2010)]({{ "archive/estoril-2010" | relative_url}})
+- [IJCAI Workshop on Social Choice and Artificial Intelligence (2011)]({{ "archive/ijcai-2011" | relative_url}})
 - [Computational Social Choice at FET'11]({{ "archive/fet-2011" | relative_url}})
 
 </section>
