@@ -4,7 +4,7 @@ title: Video Seminar | COMSOC
 ---
 
 <section markdown="1">
-# COMSOC Video Seminar
+# The COMSOC Video Seminar
 
 The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank"}, 
 launched in April 2020, is an international seminar series on social choice taking place online. 
