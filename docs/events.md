@@ -4,16 +4,17 @@ title: Events | COMSOC
 ---
 
 <section markdown="1" class="section-with-navs">
-# Related Events
+# Events
 
-We provide below a non-exhaustive list of related venues that can be of interest to 
-computational social choice researchers.
+Besides the [COMSOC Workshop](workshops) and the [COMSOC Video Seminar](video-seminar),
+there are also lots of other events where work on COMSOC gets presented and where COMSOC people meet.
+On this page you will find a non-exhaustive list of such events.
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
 <span><a href="#summer-schools">Summer Schools</a></span>
 <span><a href="#dagstuhl">Dagstuhl Seminars</a></span>
-<span><a href="#workshops">Conference Workshops</a></span>
+<span><a href="#workshops">Workshops</a></span>
 </div>
 </div>
 </section>
@@ -62,7 +63,7 @@ computational social choice researchers.
     
 <section markdown="1" id="workshops">
 
-## Workshops organised at conferences
+## Other Workshops 
 
   - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)  
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
