@@ -1,7 +1,7 @@
 # The COMSOC Community Website
 
 This is the main website used by the Computation Social Choice (COMSOC) research community.
-This website is intended to serve as a general presentation platform of COMSOC while also
+It is intended to serve as a general presentation platform for COMSOC, while also
 providing all kinds of relevant resources and information to COMSOC researchers.
 
 This website is made for the community *by* the community. If you want to 
@@ -17,17 +17,17 @@ to do is to push your changes, wait a bit, and check the outcome looks fine.
 
 Below is a description of how to perform the most common management tasks.
 
-Note that if you are not a "GitHub collaborator" of this repository you need to first clone the
-repository and submit pull requests.
+Note that if you are not a "GitHub collaborator" of this repository, 
+you first need to clone the repository and submit pull requests.
 
 ### Modify/Add a COMSOC Workshop Event
 
-To add a new edition of the COMSOC workshop series, simply add the new entry to the file 
+To add a new edition of the COMSOC workshop, add the new entry to the file 
 `docs/_data/workshops.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/workshops.yml)
-and it will be automatically added to the website. To modify an existing entry, simply find it in
+and it will be automatically added to the website. To correct an existing entry, simply find it in
 the file and modify it.
 
-The .yml format for a COMSOC workshop is as presented in the example below.
+The .yml format for a COMSOC workshop is as shown in the example below.
 
 ```
 - year: 2023
@@ -38,20 +38,20 @@ The .yml format for a COMSOC workshop is as presented in the example below.
   image: COMSOC_2023_banner.jpg
 ```
 
-Note the refer to the image of the workshop (the banner used in the standard theme of the workshop
-series). The image file iteself need to be added to the repository `docs/assets/images/workshops/`
+Note the reference to the image of the workshop (the banner used in the standard theme of the workshop
+series). The image file iteself needs to be added to the repository `docs/assets/images/workshops/`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/workshops).
 This image is used as background for the box describing the workshop.
 
 ### Modify/Add a PhD thesis
 
-To add a new PhD theis simply add the new entry to the file
+To add a new PhD thesis, add the new entry to the file
 `docs/_data/theses.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/theses.yml)
-and it's all automatic from there. To modify an existing entry, simply find it in the file and
+and it's all automatic from there. To correct an existing entry, simply find it in the file and
 modify it.
 
-The .yml format for a thesis is as presented in the example below.
-Note that ":" need to be in quote-encapsulated strings (typically in titles).
+The .yml format for a thesis is as shown in the example below.
+Note that for titles including a ":" the title string needs to be put in quotes.
 If there is only on supervisor, keep the syntax and only include a single element in 
 the `supervisors` list.
 
@@ -60,7 +60,7 @@ the `supervisors` list.
   affiliation: University of Amsterdam, ILLC
   year: 2023
   url: https://hdl.handle.net/11245.1/99e2cdb9-0c9a-46ca-8568-8bb2b77ca225
-  title: "Variations on Participatory Budgeting: An example"
+  title: "Variations on Participatory Budgeting: An Example"
   supervisors:
     - Ulle Endriss
     - Ronald de Haan
