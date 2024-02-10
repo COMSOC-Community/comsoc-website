@@ -11,7 +11,7 @@ The original COMSOC community site was set up by Ulle Endriss in 2007
 and maintaned by him until 2024 (see [archived version](archive/comsoc-website)). 
 
 The site was redesigned from scracth in 2024 by Simon Rey, 
-with the a view towards making it easier for everyone in the community to contribute content.
+with the goal of making it easier for everyone in the community to contribute content.
 
 </section>
 
