@@ -7,8 +7,9 @@ title: PhD Theses | COMSOC
 
 # PhD Theses
 
-This is an (incomplete) list of PhD theses in the field of computational social choice, listed in inverse chronological order.
-Suggestions for further additions are more than welcome, ping us on <a href="https://github.com/Simon-Rey/comsoc-website">GitHub</a>.
+This is an (incomplete) list of PhD theses in the field of computational social choice.
+Suggestions for further additions are very welcome. 
+Just ping us on <a href="https://github.com/comsoc-community/comsoc-website">GitHub</a>.
 
 {% assign theses_sorted = site.data.theses | sort: 'year' | reverse %}
 {% assign theses_by_year = theses_sorted | group_by: 'year' %}
