@@ -9,15 +9,16 @@ title: About | COMSOC
 
 The original COMSOC community site was set up by Ulle Endriss in 2007 
 and maintaned by him until 2024 (see [archived version](archive/comsoc-website)). 
+
 The current version was designed by Simon Rey in 2024.
 
 </section>
 
 <section markdown="1">
 
-## Modify me on Github
+## Modify me on GitHub
 
-The website has been designed to be easy to modify and maintain. It is all happening on the
+The website has been designed so as to be easy to modify and maintain. It is all happening on the
 [GitHub repository](https://github.com/comsoc-community/comsoc-website). Everyone in the community
 is welcome to contribute by editing the content of the site.
 
