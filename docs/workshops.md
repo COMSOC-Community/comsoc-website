@@ -7,11 +7,18 @@ title: Workshop Series | COMSOC
 
 # The COMSOC Workshop Series
 
-The central event in the international calendar for the COMSOC community is the COMSOC Workshop, which takes place every other year (with the exception of 2020, due to the COVID-19 pandemic). 
+The central event in the international calendar for the COMSOC community is the biannual COMSOC Workshop. 
+COMSOC is an interdisciplinary, informal, and inclusive event. 
+It attracts both computer scientists and economists (and many others), 
+and both firmly established members of the community and newcomers. 
+Papers are carefully reviewed, yet the proceedings are informal only, 
+meaning that authors are free to formally publish their work elsewhere. 
+Nobody presents more than one paper. 
 
-COMSOC is an interdisciplinary, informal, and inclusive event. It attracts both computer scientists and economists (and many others), and both firmly established members of the community and newcomers. Papers are carefully reviewed, yet the proceedings are informal only, meaning that authors are free to formally publish their work elsewhere. Nobody presents more than one paper. 
-
-The coordination of the series is managed by a [Steering Committee](#steering-committee).
+The workshop has been taking place every other year since 2006, 
+with the exception of 2020, when we skipped a year due to the COVID-19 pandemic. 
+The coordination of the series is in the hands of a [Steering Committee](#steering-committee) 
+serving at the pleasure of the community.
 
 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
 {% for workshop in sorted_workshops %}
@@ -64,8 +71,8 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 ### Responsibilities of the Committee
 
 The role of the Steering Committee is to:
-(1) Select the venue and PC chairs of the next edition of the workshop.
-(2) Ensure continuity from one edition of the workshop to the next.
+1. Select the venue and PC chairs of the next edition of the workshop.
+2. Ensure continuity from one edition of the workshop to the next.
 
 Regarding point (1), the Steering Committee will aim to decide on the next venue and PC chairs at least 18 months before 
 the event. The preferred method for choosing a venue is by publicly soliciting bids to host the workshop. One PC chair is
