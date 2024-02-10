@@ -7,14 +7,11 @@ title: Workshop Series | COMSOC
 
 # The COMSOC Workshop Series
 
-The COMSOC workshop series aims to bring together diverse communities, including computer scientists
-interested in computational aspects of social choice, researchers in artificial intelligence and 
-multiagent systems using social choice ideas for organizing artificial software agent societies, 
-logicians interested in logic-based specification and analysis of social procedures, and experts in
-social choice theory.
+The central event in the international calendar for the COMSOC community is the COMSOC Workshop, which takes place every other year (with the exception of 2020, due to the COVID-19 pandemic). 
 
-These workshops occur biannually, with the exception of 2020 due to the COVID-19 pandemic. The 
-coordination is managed by a [Steering Committee](#steering-committee).
+COMSOC is an interdisciplinary, informal, and inclusive event. It attracts both computer scientists and economists (and many others), and both firmly established members of the community and newcomers. Papers are carefully reviewed, yet the proceedings are informal only, meaning that authors are free to formally publish their work elsewhere. Nobody presents more than one paper. 
+
+The coordination of the series is managed by a [Steering Committee](#steering-committee).
 
 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
 {% for workshop in sorted_workshops %}
@@ -67,8 +64,8 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 ### Responsibilities of the Committee
 
 The role of the Steering Committee is to:
-1. Select the venue and PC chairs of the next edition of the workshop.
-2. Ensure continuity from one edition of the workshop to the next.
+(1) Select the venue and PC chairs of the next edition of the workshop.
+(2) Ensure continuity from one edition of the workshop to the next.
 
 Regarding point (1), the Steering Committee will aim to decide on the next venue and PC chairs at least 18 months before 
 the event. The preferred method for choosing a venue is by publicly soliciting bids to host the workshop. One PC chair is
@@ -79,8 +76,8 @@ Regarding point (2), some of the characteristics of the COMSOC workshop series a
 informal, and inclusive event. Specifically, this means that there is no attempt to provide a narrow definition of topics
 of interest; that both established researchers and newcomers to the field can present their work; that authors can expect
 to receive in-depth feedback on their papers from the members of a dedicated PC; that there is no attempt to compete with
-archival conferences; and that registration fees are very low (i.e., organizers must find substantial sponsorship to be
-able to offer an attractive program with several high-profile invited speakers).
+archival conferences; and that registration fees are very low (i.e., organisers must find substantial sponsorship to be
+able to offer an attractive programme with several high-profile invited speakers).
 
 </section>
 
@@ -88,7 +85,7 @@ able to offer an attractive program with several high-profile invited speakers).
 
 ## Organising a COMSOC Workshop
 
-To get an idea of what is involved in organising the COMSOC Workshop, have a look at the (expired)
+To get an idea of what is involved in organising one of the workshops in the series, have a look at the (expired)
 [Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2023.txt)
 to host the 2023 edition.
 
