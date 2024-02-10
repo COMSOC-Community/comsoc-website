@@ -15,7 +15,7 @@ Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/
 <section markdown="1">
 ## Past Events
 
-We present below the past events of the video seminar below.
+Below you will find a repository of past sessions of the seminar, with links to recordings.
 If you spot a mistake or want to update this list, check the [GitHub repository](https://github.com/Simon-Rey/comsoc-website)
 for the procedure to follow.
 
