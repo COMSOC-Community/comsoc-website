@@ -94,7 +94,7 @@ collective decisions are to be reached based on individual preferences.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
-<span class="topics-header lettrine">Voting</span>
+<span class="topics-header lettrine">Voting and<br>Elections</span>
 The most classical research topic is (single-winner) voting, where a single candidate
 has to be elected based on the preferences of the voters.
 In recent years the focus has been extended
@@ -106,7 +106,7 @@ their preferences over time, voting on social network where a network of exchang
 between the voters is added to the setting, liquid democracy where voters can transmit their voting
 power to other voters before the vote occurs...
 
-<span class="topics-header lettrine">Fair Allocation</span>
+<span class="topics-header lettrine">Fair<br>Allocation</span>
 The second main cornerstone of social choice theory is fair division, the study
 of how to allocate resources among agents who have different tastes over the resources.
 Typical examples include how to share a cake among agents who like different parts of the cakes,
