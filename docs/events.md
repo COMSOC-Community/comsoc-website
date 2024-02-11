@@ -79,7 +79,9 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://preflib.github.io/gaiw2024/) &middot;
     [2023](https://preflib.github.io/gaiw2023/) &middot; 
     [2022](https://preflib.github.io/gaiw2022/) &middot;
-    [2021](https://preflib.github.io/gaiw2021/)
+    [2021](https://preflib.github.io/gaiw2021/) &middot;
+    [2020](https://preflib.github.io/gaiw2020/) &middot;
+    [2019](https://preflib.github.io/gaiw2019/)
 
   - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)  
     [2017](http://www.explore-2017.preflib.org/) &middot; 
