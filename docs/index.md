@@ -11,6 +11,7 @@ title: Computational Social Choice
 Computational social choice (COMSOC) is concerned with the design and analysis of methods for collective decision making. 
 It is a dynamic interdisciplinary field of study at the interface of computer science and economics, 
 fostering an exchange of ideas in both directions.
+
 On one hand, it applies techniques from computer science, such as algorithm design and complexity analysis,
 to the study of social choice mechanisms, such voting rules or fair division protocols.
 On the other hand, it imports concepts from social choice theory as traditionally studed in economics,
@@ -32,16 +33,16 @@ such as multiagent systems and network design.
 ## Interdisciplinarity by Design
 {: #interdisciplinarity}
 
-Computational social choice is by design an interdisciplinary research field.
-It draws inspiration and methodologies from a diverse range of disciplines, including computer
-science, artificial intelligence, logic, political science, and economics. This interdisciplinary
-nature allows researchers to tackle complex problems in collective decision-making from multiple
-perspectives.
+Computational social choice is, by design, an interdisciplinary research field.
+It draws inspiration and employs methodologies from a diverse range of disciplines, 
+including computer science, AI, economics, political science, philosophy, logic, and mathematics.
+This interdisciplinary nature allows researchers to tackle complex problems in collective decision making 
+from multiple perspectives.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
-Social choice theory focuses on designing and analyzing methods for collective decision-making,
+Social choice theory focuses on designing and analysing methods for collective decision making,
 including voting protocols and procedures for fair resource division among agents. Classical work
 in this field establishes abstract results on the existence of procedures meeting certain
 requirements, often without considering computational aspects. Complexity analysis and algorithm
@@ -50,14 +51,14 @@ include algorithmic issues linked to determining the outcome of an aggregation s
 an outcome that satisfies a given property, or to manipulating voting protocols.
 
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
-Methods from social choice theory may face challenges when dealing with a large number of alternatives,
-especially those with combinatorial structures. Computational social choice addresses problems like
+Methods from social choice theory may face challenges when dealing with large numbers of alternatives,
+especially alternatives with a combinatorial structure. Computational social choice addresses problems like
 negotiation over indivisible goods or committee elections, applying artificial intelligence and logic
 techniques for the compact representation of preferences.
 
 <span class="interdisciplinary-header lettrine">Thinking<br>Logically</span>
 Logic is applied to formally specify, verify, and analyze social procedures, known as "social software".
-Similar to how logic is used in computer science to specify system behavior, it can be used to define
+Similar to how logic is used in computer science to specify system behaviour, it can be used to define
 social procedures like voting protocols or fair division algorithms.
 
 <span class="interdisciplinary-header lettrine">Strategic<br>Interplay</span>
@@ -68,7 +69,7 @@ There is thus an important exchange of ideas between computational social choice
 game theory (which is to game theory what COMSOC is to social choice).
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Assessment</span>
-Social choice problems mostly models real-life processes.
+Social choice problems mostly model real-life processes.
 There is thus an important interplay between (computational) social scientist and behavioural scientists.
 Assumptions and hypotheses can thus be tested in controlled environments to assess how realistic they are.
 Feedback can be collected on voting rules and other aggregation mechanisms to determine their usability.
@@ -102,13 +103,13 @@ their preferences over time, voting on social network where a network of exchang
 between the voters is added to the setting, liquid democracy where voters can transmit their voting
 power to other voters before the vote occurs...
 
-<span class="topics-header lettrine">Fair division</span>
+<span class="topics-header lettrine">Fair Allocation</span>
 The second main cornerstone of social choice theory is fair division, the study
 of how to allocate resources among agents who have different tastes over the resources.
 Typical examples include how to share a cake among agents who like different parts of the cakes,
 how to partition a piece of land, how to assign tasks within a team...
 
-<span class="topics-header lettrine">Coalition formation</span>
+<span class="topics-header lettrine">Coalition Formation</span>
 How to assign students to schools, doctors to hospitals?
 Which teams would be formed if we let the students freely decide?
 These questions fall into the broad research topic of coalition formation.
