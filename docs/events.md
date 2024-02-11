@@ -65,7 +65,7 @@ On this page you will find a non-exhaustive list of such events.
 
 ## Other Events 
 
-  - Meetings of the Society for Social Choice and Welfare
+  - Meetings of the Society for Social Choice and Welfare   
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
   
