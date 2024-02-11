@@ -13,12 +13,12 @@ is concerned with the design and analysis of methods for collective decision mak
 It is a dynamic interdisciplinary field of study at the interface of computer science and economics, 
 fostering an exchange of ideas in both directions.
 
-On the one hand, it applies techniques from computer science, such as algorithm design and complexity analysis,
+<!-- On the one hand, it applies techniques from computer science, such as algorithm design and complexity analysis,
 to the study of social choice mechanisms, such voting rules or fair division protocols.
 On the other hand, it imports concepts from social choice theory as traditionally studed in economics,
 such as the normative ananlysis of mechansims for decison making by means of the axiomatic method,
 into computing, where it then applies those concepts to novel application scenarios, 
-such as multiagent systems and network design.
+such as multiagent systems and network design. -->
 
 </section>
 
