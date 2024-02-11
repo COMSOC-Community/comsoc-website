@@ -71,8 +71,9 @@ On this page you will find a non-exhaustive list of such events.
     [2020](https://www.markusendres.de/mpref/mpref2020/) &middot;
     [2018](http://www.mpref-2018.preflib.org/) &middot;
     [2016](http://www.mpref-2016.preflib.org/) &middot;
-    [2014](http://www.explore14.preflib.org/)  &middot;
+    [2015](https://events.mpref.org/MPref15/)  &middot;
     ...
+    [2005](https://events.mpref.org/MPref05/)
 
   - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)  
     [2024](https://preflib.github.io/gaiw2024/) &middot;
