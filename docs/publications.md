@@ -23,7 +23,7 @@ conference proceedings and journals at the interface of computer science with ec
 and journals in economics (such as 
 [SCW](http://dblp.uni-trier.de/db/journals/scw/), 
 [JET](http://dblp.uni-trier.de/db/journals/jet/)), 
-but occasionally also journals in discrete mathematics, logic, political science, and philosophy.
+but occasionally also journals in applied mathematics, logic, political science, and philosophy.
 
 Below we gather information on relevant books, which might offer a particularly convenient entry point into the field, 
 as well as an overview of special issues on topics in computational social choice published in a number of different journals.
