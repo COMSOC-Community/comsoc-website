@@ -6,16 +6,17 @@ title: Community | COMSOC
 <section markdown="1">
 # The COMSOC Community
 
-The computational social choice research community actively fosters collaboration through conferences, workshops, and other 
+The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
 communication channels.
 
-The computational social choice community is committed to fostering an inclusive and diverse environment that values the
-contributions of individuals from all backgrounds. We believe in the strength that arises from a
-multiplicity of perspectives, experiences, and voices. Our community is dedicated to creating a space
-where everyone, regardless of race, ethnicity, gender identity, sexual orientation, ability, age, or
-socio-economic background, feels welcomed, heard, and respected. Every member of the community is
-expected to act and behave in accordance with these principles and to provide equal opportunities for
-engagement, collaboration, and advancement within our community.
+The computational social choice community is committed to fostering an inclusive environment that values 
+the contributions of individuals from all backgrounds. We believe in the strength that arises from 
+a multiplicity of perspectives and experiences. Our community is dedicated to creating a space
+where everyone, regardless of race, ethnicity, nationality, gender identity, sexual orientation, 
+(dis)ability, age, religion, or socio-economic status, feels welcome, heard, and respected. 
+Every member of the community is expected to act and behave in accordance with these principles and 
+to provide equal opportunities for engagement, collaboration, and advancement within our community.
+
 </section>
 
 <section markdown="1">
