@@ -8,7 +8,8 @@ title: Computational Social Choice
 # What is Computational Social Choice?
 {: #comsoc}
 
-Computational social choice (COMSOC) is concerned with the design and analysis of methods for collective decision making. 
+The research field of computational social choice (COMSOC) 
+is concerned with the design and analysis of methods for collective decision making. 
 It is a dynamic interdisciplinary field of study at the interface of computer science and economics, 
 fostering an exchange of ideas in both directions.
 
