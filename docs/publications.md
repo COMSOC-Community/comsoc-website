@@ -26,7 +26,7 @@ and journals in economics (such as
 but occasionally also journals in discrete mathematics, logic, political science, and philosophy.
 
 Below we gather information on relevant books, which might offer a particularly convenient entry point into the field, 
-as well as an overview of spceial issues on topics in computational social choice published in a various journals.
+as well as an overview of special issues on topics in computational social choice published in a number of different journals.
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
