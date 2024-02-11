@@ -38,7 +38,7 @@ as well as an overview of special issues on topics in computational social choic
 
 <section markdown="1">
 
-## Published Books
+## Books
 {: #books }
 
 The following books offer comprehensive overviews of either COMSOC as a whole 
