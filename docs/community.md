@@ -6,10 +6,11 @@ title: Community | COMSOC
 <section markdown="1">
 # The COMSOC Community
 
-The COMSOC research community actively fosters collaboration through conferences, workshops, and other 
-communication channels.
+The COMSOC research community is a diverse group of individuals, 
+defined by a common interest in the study of mechanisms for collective decision making. 
+People regualrly meet in person and online, at a wide variety of events.
 
-The computational social choice community is committed to fostering an inclusive environment that values 
+The COMSOC community is committed to fostering an inclusive environment that values 
 the contributions of individuals from all backgrounds. We believe in the strength that arises from 
 a multiplicity of perspectives and experiences. Our community is dedicated to creating a space
 where everyone, regardless of race, ethnicity, nationality, gender identity, sexual orientation, 
@@ -27,21 +28,23 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 <section markdown="1">
 
-## Community Meetup Points
+## Community Meeting Places
 
-- [COMSOC video seminar](video-seminar), regular online seminar on social choice run by computational social choice researchers
+- [COMSOC Video Seminar](video-seminar), a regular online seminar on social choice run by COMSOC researchers
 
-- [COMSOC workshop series](workshops), bi-annual workshops aiming at bringing together COMSOC-enthusiasts from all communities
+- [COMSOC Workshop Series](workshops), bi-annual workshops bringing together COMSOC-enthusiasts from across the world
 
-- [COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/), a COST Action that ran from 2012 to 2016 and organised many events for COMSOC researchers
+- [COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/),
+  a European research network that ran from 2012 to 2016 and organised many events 
 
 </section>
 
 <section markdown="1">
 
-## Other Research Communities
+## Related Research Communities
 
 Being a interdisciplinary research field, COMSOC relates to many other research communities.
-The most important one being the social choice community. There are many exchange channels between
-the two communities, notably through the events organised by the [Society for Social Choice and Welfare](https://scwsociety.org/).
+The most important is the (classical) social choice community, which is represented by the 
+[Society for Social Choice and Welfare](https://scwsociety.org/).
+
 </section>
