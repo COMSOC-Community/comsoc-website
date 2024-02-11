@@ -41,8 +41,8 @@ as well as an overview of spceial issues on topics in computational social choic
 ## Published Books
 {: #books }
 
-The following books offer comprehensive views of either COMSOC as a whole or some major research
-topics. Check them up!
+The following books offer comprehensive overviews of either COMSOC as a whole 
+or some major research topics within COMSOC. Have a look!
 
 ### Overview Books
 
@@ -69,10 +69,6 @@ topics. Check them up!
 
 ## Journal Special Issues
 {: #special-issues }
-
-Research related to COMSOC is being published in many different venues. Here is a list of journal
-special issues on COMSOC-related topics.
-
 
 {% assign sorted_special_issues = site.data.specialissues | sort: 'year' | reverse %}
 
