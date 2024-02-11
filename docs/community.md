@@ -30,12 +30,14 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 ## Community Meeting Places
 
-- [COMSOC Video Seminar](video-seminar), a regular online seminar on social choice run by COMSOC researchers
+- [COMSOC Video Seminar](video-seminar): a regular online seminar on social choice,
+  run by COMSOC researchers
 
-- [COMSOC Workshop Series](workshops), bi-annual workshops bringing together COMSOC-enthusiasts from across the world
+- [COMSOC Workshop](workshops): a series of biannual workshops,
+  bringing together COMSOC-enthusiasts from across the world
 
-- [COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/),
-  a European research network that ran from 2012 to 2016 and organised many events 
+- [COST Action IC1205 on Computational Social Choice](https://archive.illc.uva.nl/COST-IC1205/):
+  a European research network that ran from 2012 to 2016 and organised many events for COMSOC researchers
 
 </section>
 
