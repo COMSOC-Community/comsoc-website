@@ -6,7 +6,7 @@ title: Community | COMSOC
 <section markdown="1">
 # The COMSOC Community
 
-The COMSOC research community is made up of a diverse group of individuals, 
+The COMSOC research community is made up of a diverse group of individuals and 
 defined by a common interest in the study of mechanisms for collective decision making. 
 People regualrly meet in person and online, at a wide variety of events.
 
