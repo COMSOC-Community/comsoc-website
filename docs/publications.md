@@ -7,9 +7,26 @@ title: Publications | COMSOC
 
 # Publications
 
-We gather below interesting publications relating to COMSOC. Our goal is not to provide a list of
-COMSOC papers but rather more substantial publications.
+Owing to its interdisciplinary nature, research in computational social choice gets published at a very wide variety of venues. 
+This includes, in particular, conference proceedings and journals in AI (such as 
+[AAMAS](http://dblp.uni-trier.de/db/conf/atal/), 
+[IJCAI](http://dblp.uni-trier.de/db/conf/ijcai/), 
+[AAAI](http://dblp.uni-trier.de/db/conf/aaai/), 
+[AIJ](http://dblp.uni-trier.de/db/journals/ai/), 
+[JAIR](http://dblp.uni-trier.de/db/journals/jair/)), 
+conference proceedings and journals at the interface of computer science with economics (such as 
+[EC](http://dblp.uni-trier.de/db/conf/sigecom/), 
+[WINE](http://dblp.uni-trier.de/db/conf/wine/), 
+[SAGT](http://dblp.uni-trier.de/db/conf/sagt/), 
+[ADT](http://dblp.uni-trier.de/db/conf/aldt/), 
+[TEAC](http://dblp.uni-trier.de/db/journals/teco/)), 
+and journals in economics (such as 
+[SCW](http://dblp.uni-trier.de/db/journals/scw/), 
+[JET](http://dblp.uni-trier.de/db/journals/jet/)), 
+but occasionally also journals in discrete mathematics, logic, political science, and philosophy.
 
+Below we gather information on relevant books, which might offer a particularly convenient entry point into the field, 
+as well as an overview of spceial issues on topics in computational social choice published in a various journals.
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
