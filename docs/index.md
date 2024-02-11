@@ -12,11 +12,11 @@ Computational social choice (COMSOC) is concerned with the design and analysis o
 It is a dynamic interdisciplinary field of study at the interface of computer science and economics, 
 fostering an exchange of ideas in both directions.
 
-On one hand, it applies techniques from computer science, such as algorithm design and complexity analysis,
+On the one hand, it applies techniques from computer science, such as algorithm design and complexity analysis,
 to the study of social choice mechanisms, such voting rules or fair division protocols.
 On the other hand, it imports concepts from social choice theory as traditionally studed in economics,
 such as the normative ananlysis of mechansims for decison making by means of the axiomatic method,
-into computing, where it applies those concepts to novel application scenarios, 
+into computing, where it then applies those concepts to novel application scenarios, 
 such as multiagent systems and network design.
 
 </section>
@@ -33,8 +33,8 @@ such as multiagent systems and network design.
 ## Interdisciplinarity by Design
 {: #interdisciplinarity}
 
-Computational social choice is, by design, an interdisciplinary research field.
-It draws inspiration and employs methodologies from a diverse range of disciplines, 
+Computational social choice is, by design, an interdisciplinary field of research.
+It draws inspiration from and employs methodologies originating in a diverse range of disciplines, 
 including computer science, AI, economics, political science, philosophy, logic, and mathematics.
 This interdisciplinary nature allows researchers to tackle complex problems in collective decision making 
 from multiple perspectives.
@@ -42,19 +42,22 @@ from multiple perspectives.
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
-Social choice theory focuses on designing and analysing methods for collective decision making,
-including voting protocols and procedures for fair resource division among agents. Classical work
-in this field establishes abstract results on the existence of procedures meeting certain
-requirements, often without considering computational aspects. Complexity analysis and algorithm
-design are now integral to studying aggregation procedures. Standard problems that have been studied
-include algorithmic issues linked to determining the outcome of an aggregation scenario, to selecting
-an outcome that satisfies a given property, or to manipulating voting protocols.
+Classical results in social choice theory often concern the mathematical possibility (or impossibility) 
+of designing mechansims for collective decision making that meet certain desirable properties.
+These usually are normative properties, such as satisfying some notion of fairness 
+or being immume to strategic manipulation. 
+But those classical results typically do not take computational considerations into account.
+In computational social choice, on the other hand, algorithmic questions take centre stage:
+How hard, in the complexity-theoretic sense, is it to solve the problem at hand?
+Can we design an algorithm for it?
 
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
-Methods from social choice theory may face challenges when dealing with large numbers of alternatives,
-especially alternatives with a combinatorial structure. Computational social choice addresses problems like
-negotiation over indivisible goods or committee elections, applying artificial intelligence and logic
-techniques for the compact representation of preferences.
+Mechansms for collective decison making, such as voting rules or protocols for the fair allocation 
+of resources, may face serious challenges when dealing with very large numbers of alternatives,
+especially alternatives with a combinatorial structure. 
+Computational social choice makes the need for the compact representation of preferences explicit:
+How should we represent the preferences of individuals over a complex space of alternatives?
+What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
 
 <span class="interdisciplinary-header lettrine">Thinking<br>Logically</span>
 Logic is applied to formally specify, verify, and analyze social procedures, known as "social software".
