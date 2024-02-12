@@ -11,29 +11,36 @@ most common modifications are provided below.
 
 ## How To
 
-This website has been designed so as to as to make maintaining it as easy as possible.
+This website has been designed so as to make maintaining it as easy as possible.
 The website is automatically updated after each push to the repository, so all you have
-to do is to push your changes, wait a bit, and check the outcome looks fine.
+to do is to push your changes, wait a bit, and check that the outcome looks fine.
 
-Below is a description of how to perform the most common management tasks.
+Below is a description of how to perform the most common management tasks:
 
-Note that if you are not a "GitHub collaborator" of this repository, 
-you first need to clone the repository and then submit pull requests
-(so in that case, the site will update only after one of the maintainers has approved your pull request).
+- [PhD Theses](#modifyadd-a-phd-thesis)
+- [COMSOC Workshop Event](#modifyadd-a-comsoc-workshop-event)
+- [COMSOC Workshop Proceedings](#modifyadd-proceedings-of-a-comsoc-workshop)
+- [COMSOC Video Seminar](#modifyadd-a-past-event-of-the-comsoc-video-seminar)
+- [Group Photos](#modifyadd-a-group-photo-for-the-front-page)
+- [Archive Static Website](#archive-a-static-website)
+
+Note that if you are not a 'GitHub collaborator' of this repository, you first need to clone the
+repository and then submit pull requests (so in that case, the site will update only after one of
+the maintainers has approved your pull request).
 
 ### Modify/Add a PhD thesis
 
-To add a new PhD thesis, add the new entry to the file
-`docs/_data/theses.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/theses.yml)
+To add a new PhD thesis, add the new entry to the file `docs/_data/theses.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/theses.yml)
 and it's all automatic from there. 
 To correct an existing entry, simply find it in the file and modify it.
 
-The .yml format for a thesis is as shown in the example below.
+The YAML format for a thesis is as shown in the example below.
 Note that for titles including a ":" the title string needs to be put in quotes.
 If there is only one supervisor, keep the syntax and only include a single element in 
 the `supervisors` list.
 
-```
+```yaml
 - name: Simon Rey
   affiliation: University of Amsterdam, ILLC
   year: 2023
@@ -54,7 +61,7 @@ To correct an existing entry, simply find it in the file and modify it.
 
 The .yml format for a COMSOC Workshop is as shown in the example below.
 
-```
+```yaml
 - year: 2023
   edition: 9th International Workshop on Computational Social Choice
   location: Beersheba
@@ -71,16 +78,186 @@ This image is used as background for the box describing the workshop.
 ### Modify/Add Proceedings of a COMSOC Workshop
 
 The proceedings of the COMSOC Workshops are described in a .yml file.
-To add the proceedings of a new workshop create a file `docs/_data/proceedingsYEAR.yml` where `YEAR` corresponds to the year of the workshop.
+To add the proceedings of a new workshop create a file `docs/_data/proceedingsYEAR.yml`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data) 
+where `YEAR` corresponds to the year of the workshop.
 
-Add to the list in layout [[UNFINISHED]]
+The YAML format is as in the following example:
 
-### Add a static HTML website
+```yaml
+- title: The Computational Complexity of Choice Sets
+  authors:
+    - Felix Brandt
+    - Felix Fischer
+    - Paul Harrenstein
+  pdf_file: Brandt.pdf
+  sort_key: BrandtFischerHarrenstein
+  accepted_as: Presentations
+```
+
+The `accepted_as` describes the format in which the paper as been accepted. This is typically either
+`Presentations` or `Posters`.
+
+To create the page corresponding to the proceedings, creat a file `docs/proceedings-YEAR.md`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/) 
+where `YEAR` corresponds to the year of the workshop. This file should containt the following:
+
+```markdown
+---
+layout: proceedings
+title: Proceedings COMSOC Workshop 2006
+year: 2006
+permalink: /proceedings/2006/
+complete_proceedings: /assets/proceedings/comsoc2006.pdf
+---
+```
+
+The `complete_proceedings` is not mandatory, it corresponds to the full proceedings (it is for now
+only available for the first 4 editions). If such file exists, add it to the folder 
+`docs/assets/proceedings/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
+
+Finally, update the file `docs/_layouts/proceedings.html`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/proceedings.html)
+by adding the year in the `all_years` array in the header:
+
+```markdown
+---
+layout: default
+all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
+---
+```
+
+### Modify/Add a Past Event of the COMSOC Video Seminar
+
+Past events of the COMSOC video seminar are described in the file `docs/_data/videoseminar.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/videoseminar.yml).
+
+The YAML format is as follows:
+
+```yaml
+
+- date: 2020-04-24
+  chair: Dominik Peters
+  video_links:
+    - https://www.youtube.com/watch?v=cDbFeLD0WTw
+  presentations:
+    - title: "Computational Social Choice for Moral Artificial Intelligence"
+      speaker:
+        name: "Vincent Conitzer"
+        affiliation: "Duke"
+        url: https://www.cs.cmu.edu/~conitzer/
+      abstract: >
+        Many algorithms in AI require an objective function to be specified.  When such an algorithm is to be deployed
+        in the real world, it is often not obvious what the objective function should be.  For example, there are often
+        nontrivial ethical tradeoffs.  Generally, stakeholders will disagree on how these should be made.  Moreover, 
+        even for themselves, they will generally not be able to write down a complete objective function; perhaps at 
+        most, they can be asked to make a few judgments on some concrete examples.  How do we aggregate these individual
+        judgments into an objective function for the algorithm to use?
+      joint_work: >
+        Lok Chan, Yuan Deng, John Dickerson, Kenzie Doyle, Rachel Freedman, Max Kramer, Duncan McElfresh, 
+        Jana Schaich Borg, Walter Sinnott-Armstrong and Hanrui Zhang
+      slides_link: https://drive.google.com/file/d/1tZGDn40Etd_pVtf5jFZYIHpfQtVbYm2B/view
+
+    - title: "Keeping Your Friends Close: Land Allocation with Friends"
+      speaker:
+        name: "Edith Elkind"
+        affiliation: "Oxford"
+        url: https://www.cs.ox.ac.uk/people/edith.elkind/
+      abstract: >
+        We examine the problem of assigning plots of land to prospective buyers who prefer living next to their friends.
+        They care not only about the plot they receive, but also about their neighbors. This externality results in a
+        highly non-trivial problem structure, as both friendship and land value play a role in determining agent behavior.
+        We examine mechanisms that guarantee truthful reporting of both land values and friendships. We propose variants 
+        of random serial dictatorship (RSD) that can offer both truthfulness and welfare guarantees. Interestingly, our
+        social welfare guarantees are parameterized by the value of friendship: if these values are low, enforcing truthful
+        behavior results in poor welfare guarantees and imposes significant constraints on agents' choices; if they are 
+        high, we achieve good approximation to the optimal social welfare.
+      joint_work: "Neel Patel, Alan Tsang and Yair Zick"
+      links:
+        - "https://arxiv.org/abs/2003.03558"
+      slides_link: https://drive.google.com/file/d/1XHgQayu2LDD0RszG7xTHDHpmQcJ_QPpF/view
+```
+
+The `video_links` entry has to be a list event if there is only one (to account for some sessions
+for which the video has been split in two). An event of the seminar can also have a `title` entry
+(see the rump session example below). If this is not provided, the title follows this format:
+`DATE: NAMES_OF_PRESENTERS`.
+
+For a presentation, `joint_work`, `links` and `slides_link` are optional. The `links` entry should
+always be a list event if there is only one link. It should not contain the link to the slides
+(use `slides_link` for this). The list of co-authors (in `joint_work`) is coma-separated with and 
+`and` linking the last two co-authors.
+
+For rump sessions, the format is as follows:
+
+```yaml
+- date: 2020-05-22
+  chair: Ulle Endriss
+  video_links:
+    - https://www.youtube.com/watch?v=_hRiHF_V39o
+  title: "Rump Session"
+  presentations:
+    - title: Nick Arnosti (Columbia)
+    - title: Haris Aziz (Sydney)
+    - title: Paul Gölz (CMU)
+    - title: Ronald de Haan (Amsterdam)
+    - title: Hadi Hosseini (Rochester)
+    - title: Neeldhara Misra (Gandhinagar)
+    - title: Joe Singleton (Cardiff)
+    - title: Piotr Skowron (Warsaw)
+    - title: Zoi Terzopoulou (Amsterdam)
+    - title: Stanislav Zhydkov (Warwick)
+```
+
+The name of the presenters is used here as the `title` of their presentation. Do not use the `speaker`
+entry.
+
+### Modify/Add a Journal Special Issue
+
+Journal special issues are described in the file `docs/_data/specialissues.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/specialissues.yml).
+
+The YAML format is as exemplified below.
+
+```yaml
+- journal: "Annals of Mathematics and Artificial Intelligence"
+  topic: "Algorithms, Approximation, and Empirical Studies in Behavioral and Computational Social Choice"
+  year: 2013
+  volume: "68:1&ndash;3"
+  url: "https://link.springer.com/journal/10472/68/1/page/1"
+```
+
+The `volume` entry typically includes both the volume and the issue number (but not all journals
+follow this format).
+
+### Modify/Add a Group Photo for the Front Page
+
+The photos displayed on the front page are described in the file `docs/_data/groupphotos.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/specialissues.yml).
+
+The format is as follows.
+
+```yaml
+- src: Matching_Summer_School_2013.jpg
+  title: Summer School on Matching Problems, Markets, and Mechanisms in Budapest (2013)
+  url: https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/Budapest-2013/index.html
+```
+
+The `src` points to the photo in the directory `docs/assets/image/group-photos`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/image/group-photos/).
+The `url` points to the website of the event where the photo was taken.
+
+If you are adding a new group photo, do not forget to put in the directory `docs/assets/image/group-photos`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/image/group-photos/).
+
+### Archive a Static Website
 
 To serve a standalone HTML website form the Jekyll project, perform the following steps:
 
-- In the `docs/_collections` folder, add an HTML file corresponding to the website you are adding, for instance `website.html`
+- In the `docs/_collections` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_collections) folder, add an HTML file corresponding to the website you are adding, for instance `website.html`
 - The content of `docs/_collections/website.html` should be:
+
 ```
 ---
 permalink: /URL_TO_WEBSITE/:title
@@ -88,14 +265,15 @@ permalink: /URL_TO_WEBSITE/:title
 ```
 Where `URL_TO_WEBSITE` is the path at which the website is anchored.
 
-- Create a folder `docs/archive/website` where `website` is the name of the HTML representing the collection.
+- Create a folder `docs/archive/website` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/archive) where `website` is the name of the HTML representing the collection.
 - Dump the content of the website in the folder.
 - You are done.
 
-This is useful, for instsnce, to archive the website of an old COMSOC Workshop.
+This is used, for instance, to archive websites of old COMSOC Workshops.
 
 Note that Server Side Includes like `<!--#include file="header.html" -->` are not supported.
-If you have a website that uses them, you should first flatten it.
+If you have a website that uses them, you should first flatten it. Similarly, you cannot serve
+a PhP website that way. Convert it into HTML before.
 
 ## Development
 
@@ -133,6 +311,6 @@ The CSS style sheet is located in the `assets/css` folder.
 
 ### Data
 
-Many pages (PhD theses, seminar sessions, worskhop proceedings, ...) are automatically constructed
+Many pages (theses, video seminars, proceedings...) are automatically constructed
 based on some data. These data files are located in the `_data` folder. They are
 all `.yml` files, the syntax of which can be easily deduced from an example.

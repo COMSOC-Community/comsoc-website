@@ -11,8 +11,8 @@ This is an (incomplete) list of PhD theses in the field of computational social 
 Suggestions for further additions are very welcome. 
 Just ping us on <a href="https://github.com/comsoc-community/comsoc-website">GitHub</a>.
 
-{% assign theses_sorted = site.data.theses | sort: 'year' | reverse %}
-{% assign theses_by_year = theses_sorted | group_by: 'year' %}
+{% assign theses_by_year = site.data.theses | group_by: 'year' %}
+{% assign theses_by_year_sorted = theses_by_year | sort: 'name' | reverse %}
 <div class="page-navigation-wrap">
 <div class="page-navigation">
 {% for year in theses_by_year %}
@@ -22,7 +22,7 @@ Just ping us on <a href="https://github.com/comsoc-community/comsoc-website">Git
 </div>
 </section>
 
-{% for year in theses_by_year %}
+{% for year in theses_by_year_sorted %}
 <section id="{{ year.name }}">
 <h2>{{ year.name }}</h2>
 <ul>
