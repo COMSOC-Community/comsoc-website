@@ -82,7 +82,7 @@ Can this methodology be applied to open problems in social choice theory as well
 <span class="interdisciplinary-header lettrine">Learning and<br>Social Choice</span>
 There are also a intriguing open questions at the interface of social choice theory with machine learning. 
 Also here, the exchange of ideas can go in both directions. 
-Can we learn a good voting rules from data on collective decisions taken in specific situations? 
+Can we learn a good voting rule from data on collective decisions taken in specific situations? 
 Vice versa, can we use the axiomatic method of social choice theory to improve machine learning algorithms 
 that are required to adhere to certain ethical standards?
 
