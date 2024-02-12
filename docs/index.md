@@ -88,7 +88,7 @@ that are required to adhere to certain ethical standards?
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Assessment</span>
 The formal models we study in social choice theory are intended to to represent real-life processes.
-There is thus an important interplay between the social choice theorists and behavioural scientists.
+There is thus an important interplay between social choice theorists and behavioural scientists.
 What are realistic assumptions regarding the preferences found in a population?
 Are the decisons taken by a given mechansim perceived as fair by its users?
 Assumptions and hypotheses need to be tested in controlled environments to assess how realistic they are.
