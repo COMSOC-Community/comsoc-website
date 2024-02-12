@@ -35,10 +35,7 @@ To add a new PhD thesis, add the new entry to the file `docs/_data/theses.yml`
 and it's all automatic from there. 
 To correct an existing entry, simply find it in the file and modify it.
 
-The YAML format for a thesis is as shown in the example below.
-Note that for titles including a ":" the title string needs to be put in quotes.
-If there is only one supervisor, keep the syntax and only include a single element in 
-the `supervisors` list.
+The YAML format for a thesis is as shown in the example below:
 
 ```yaml
 - name: Simon Rey
@@ -51,6 +48,12 @@ the `supervisors` list.
     - Ronald de Haan
     - Jan Maly
 ```
+
+Note that for titles including a ":" the title string needs to be put in quotes.
+If there is only one supervisor, keep the syntax and only include a single element in 
+the `supervisors` list.
+For the URL, use either a permanent link provided by the degree-granting institution 
+or add a PDF to the repository (other kinds of links usually break after a few years).
 
 ### Modify/Add a COMSOC Workshop Event
 
@@ -100,7 +103,7 @@ The `accepted_as` describes the format in which the paper as been accepted. This
 
 To create the page corresponding to the proceedings, creat a file `docs/proceedings-YEAR.md`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/) 
-where `YEAR` corresponds to the year of the workshop. This file should containt the following:
+where `YEAR` corresponds to the year of the workshop. This file should containt the following information:
 
 ```markdown
 ---
@@ -111,11 +114,10 @@ permalink: /proceedings/2006/
 complete_proceedings: /assets/proceedings/comsoc2006.pdf
 ---
 ```
-The `complete_proceedings` is not mandatory, it corresponds to the full proceedings (it is for now
-only available for the first 4 editions). If such file exists, add it to the folder 
+The `complete_proceedings` is not mandatory; it corresponds to the full proceedings (it is for now
+only available for the first four editions). If such a file exists, add it to the folder 
 `docs/assets/proceedings/`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
-
 
 To add the PDF files of the papers, create a folder `assets/proceedings/comsoc-YEAR/` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
@@ -134,7 +136,7 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 
 ### Modify/Add a Past Event of the COMSOC Video Seminar
 
-Past events of the COMSOC video seminar are described in the file `docs/_data/videoseminar.yml` 
+Past sessions of the COMSOC video seminar are described in the file `docs/_data/videoseminar.yml` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/videoseminar.yml).
 
 The YAML format is as follows:
@@ -183,14 +185,14 @@ The YAML format is as follows:
       slides_link: https://drive.google.com/file/d/1XHgQayu2LDD0RszG7xTHDHpmQcJ_QPpF/view
 ```
 
-The `video_links` entry has to be a list event if there is only one (to account for some sessions
-for which the video has been split in two). An event of the seminar can also have a `title` entry
+The `video_links` entry has to be a list, even when there is only one (to account for some sessions
+for which the video has been split in two). A seminar session can also have a `title` entry
 (see the rump session example below). If this is not provided, the title follows this format:
 `DATE: NAMES_OF_PRESENTERS`.
 
 For a presentation, `joint_work`, `links` and `slides_link` are optional. The `links` entry should
-always be a list event if there is only one link. It should not contain the link to the slides
-(use `slides_link` for this). The list of co-authors (in `joint_work`) is coma-separated with and 
+always be a list, even if there is only one link. It should not contain the link to the slides
+(use `slides_link` for this). The list of co-authors (in `joint_work`) is comma-separated with an 
 `and` linking the last two co-authors.
 
 For rump sessions, the format is as follows:
@@ -222,7 +224,7 @@ entry.
 Journal special issues are described in the file `docs/_data/specialissues.yml` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/specialissues.yml).
 
-The YAML format is as exemplified below.
+The YAML format is as exemplified below:
 
 ```yaml
 - journal: "Annals of Mathematics and Artificial Intelligence"
@@ -240,7 +242,7 @@ follow this format).
 The photos displayed on the front page are described in the file `docs/_data/groupphotos.yml` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/groupphotos.yml).
 
-The format is as follows.
+The format is as follows:
 
 ```yaml
 - src: Matching_Summer_School_2013.jpg
@@ -267,7 +269,7 @@ To serve a standalone HTML website form the Jekyll project, perform the followin
 permalink: /URL_TO_WEBSITE/:title
 ---
 ```
-Where `URL_TO_WEBSITE` is the path at which the website is anchored.
+Here `URL_TO_WEBSITE` is the path at which the website is anchored.
 
 - Create a folder `docs/archive/website` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/archive) where `website` is the name of the HTML representing the collection.
 - Dump the content of the website in the folder.
@@ -290,14 +292,16 @@ Page requirements).
 
 ### Layouts
 
-The general layouts of the pages are described in the `_layouts` folder [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/). These layouts
-define the general structure of every page.
+The general layouts of the pages are described in the `_layouts` folder 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/). 
+These layouts define the general structure of every page.
 
 ### Pages
 
-All pages are described in markdown files, mostly located in the root of the `docs` folder [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/).
+All pages are described in markdown files, mostly located in the root of the `docs` folder 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/).
 
-They all start with such a header that indicates which layout is to be used, 
+They all start with a header that indicates which layout is to be used, 
 together with some additional information:
 
 ```
@@ -362,7 +366,7 @@ The CSS style sheets are located in the `assets/css` folder
 
 ### Data
 
-Many pages (theses, video seminars, proceedings...) are automatically constructed
+Many pages (PhD theses, seminar sessions, workshop proceedings, ...) are automatically constructed
 based on some data. These data files are located in the `_data` folder
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data/).
 They are all `.yml` files, the syntax of which is described above.
@@ -387,7 +391,7 @@ To build the website as a static HTML site, run the following command inside the
 bundle exec jekyll build
 ```
 
-Note that you may have to change some parameters for this to run smoothly. Typical example
-is the `baseurl` parameter. Do not change the one in the `_config.yml` file, simply pass
+Note that you may have to change some parameters for this to run smoothly. A typical example
+is the `baseurl` parameter. Do not change the one in the `_config.yml` file, but simply pass
 the argument `--baseurl YOUR_BASE_URL` to the above commands.
 
