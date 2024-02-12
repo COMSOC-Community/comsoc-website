@@ -54,8 +54,10 @@ Can we design an algorithm for it?
 
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
 Mechansms for collective decison making, such as voting rules or protocols for the fair allocation 
-of resources, may face serious challenges when dealing with very large numbers of alternatives,
-especially alternatives with a combinatorial structure. 
+of resources, may face serious challenges when dealing with very large numbers of alternatives.
+And the number of alternatives can grow large very quickly for many decision scenarios of practical interest, 
+given that alternatives often have a combinatorial strutcure, 
+meaning that the overall decion to be taken really is made up of several smaller decisions.  
 Computational social choice makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
 What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
