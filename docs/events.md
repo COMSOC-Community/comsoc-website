@@ -4,6 +4,7 @@ title: Events | COMSOC
 ---
 
 <section markdown="1" class="section-with-navs">
+
 # Events
 
 Besides the [COMSOC Workshop](workshops) and the [COMSOC Video Seminar](video-seminar),

@@ -290,12 +290,12 @@ Page requirements).
 
 ### Layouts
 
-The general layouts of the pages are described in the `_layouts` folder. These layouts
+The general layouts of the pages are described in the `_layouts` folder [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/). These layouts
 define the general structure of every page.
 
 ### Pages
 
-All pages are described in markdown files, mostly located in the root of the `docs` folder.
+All pages are described in markdown files, mostly located in the root of the `docs` folder [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/).
 
 They all start with such a header that indicates which layout is to be used, 
 together with some additional information:
@@ -308,13 +308,86 @@ title: This is the Title of the Page
 ```
 
 Note that markdown files can incorporate HTML tags in case you need more flexibility for the display.
+Markdown parsing is automatically disabled in an HTML tag. You can enable it by adding the
+attribute `markdown="1"` to the HTML tag:
+
+```html
+<section markdown="1">
+
+# What is Computational Social Choice?
+{: #comsoc}
+
+The research field of computational social choice (COMSOC) 
+is concerned with the design and analysis of methods for collective decision making. 
+It is a dynamic interdisciplinary field of study at the interface of computer science and economics, 
+fostering an exchange of ideas in both directions.
+</section>
+```
+
+### Page Structure
+
+The page structure is as follows:
+- Header with main menu (described in `docs/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/default.html))
+- Alternation of `<section> </section>` for the content of the page.
+- If there is need for in-page navigation links, there are added in the first section of the page (more on that below).
+- Footer with the additional pages (described in `docs/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/default.html))
+
+About the in-page navigation links. The section has to have the class `section-with-navs`. The 
+navigation links are described in a `<div class="page-navigation-wrap"> </div>` that needs to be
+the last child of the `<section> </section>`. See the example below:
+
+```html
+<section markdown="1" class="section-with-navs">
+
+# Events
+
+Besides the [COMSOC Workshop](workshops) and the [COMSOC Video Seminar](video-seminar),
+there are also lots of other events where work on COMSOC gets presented and where COMSOC people meet.
+On this page you will find a non-exhaustive list of such events.
+
+<div class="page-navigation-wrap">
+<div class="page-navigation">
+<span><a href="#summer-schools">Summer Schools</a></span>
+<span><a href="#dagstuhl">Dagstuhl Seminars</a></span>
+<span><a href="#other">Other Events</a></span>
+</div>
+</div>
+</section>
+```
 
 ### Style
 
-The CSS style sheet is located in the `assets/css` folder.
+The CSS style sheets are located in the `assets/css` folder 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/css).
 
 ### Data
 
 Many pages (theses, video seminars, proceedings...) are automatically constructed
-based on some data. These data files are located in the `_data` folder. They are
-all `.yml` files, the syntax of which can be easily deduced from an example.
+based on some data. These data files are located in the `_data` folder
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data/).
+They are all `.yml` files, the syntax of which is described above.
+
+### Local Development
+
+You can clone the repository and update it locally on your machine.
+On your machine, you can install all the prerequisites for a Jekyll website
+([see the Jekyll docs](https://jekyllrb.com/docs/)) and then run things locally.
+
+To serve the website locally and see your changes live, run the following command inside the
+`docs` folder:
+
+```shell
+bundle exec jekyll serve
+```
+
+To build the website as a static HTML site, run the following command inside the
+`docs` folder:
+
+```shell
+bundle exec jekyll build
+```
+
+Note that you may have to change some parameters for this to run smoothly. Typical example
+is the `baseurl` parameter. Do not change the one in the `_config.yml` file, simply pass
+the argument `--baseurl YOUR_BASE_URL` to the above commands.
+
