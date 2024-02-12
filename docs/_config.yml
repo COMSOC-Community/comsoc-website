@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Computational social choice is an interdisciplinary field of study
   at the interface of social choice theory and computer science,
   promoting an exchange of ideas in both directions.
-baseurl: "/comsoc-website" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://comsoc-community.org/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
