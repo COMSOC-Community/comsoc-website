@@ -79,7 +79,7 @@ Can we use logic in a similart fashion to also verify the adequate behaviour of
 Relatedly, logic is at the core of attempts to automate the derivation of proofs in several branches of mathematics. 
 Can this methodology be applied to open problems in social choice theory as well?
 
-<span class="interdisciplinary-header lettrine">Machine<br>Learning</span>
+<span class="interdisciplinary-header lettrine">Learning and<br>Social Choice</span>
 There are also a intriguing open questions at the interface of social choice theory with machine learning. 
 Also here, the exchange of ideas can go in both directions. 
 Can we learn a good voting rules from data on collective decisions taken in specific situations? 
