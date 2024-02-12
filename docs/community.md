@@ -32,7 +32,7 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 ## Community Meeting Places
 
 - [COMSOC Video Seminar](video-seminar): a regular online seminar on social choice,
-  run by COMSOC researchers
+  run by COMSOC researchers and open to everyone
 
 - [COMSOC Workshop](workshops): a series of biannual workshops,
   bringing together COMSOC-enthusiasts from across the world
@@ -47,7 +47,7 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 ## Related Research Communities
 
 Being a interdisciplinary research field, COMSOC relates to many other research communities.
-The most important is the (classical) social choice community, which is represented by the 
-[Society for Social Choice and Welfare](https://scwsociety.org/).
+The most important of these is the (classical) social choice community, which is represented 
+by the [Society for Social Choice and Welfare](https://scwsociety.org/).
 
 </section>
