@@ -60,15 +60,6 @@ meaning that the overall decision to be taken really is made up of several small
 Computational social choice makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
 What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
-
-<span class="interdisciplinary-header lettrine">Thinking<br>Logically</span>
-Logic has long been used to formally specify the behaviour of computer systems, 
-so as to allow for the automatic verification of certain desirable properties of such systems.
-Can we use logic in a similart fashion to also verify the adequate behaviour of
-"social procedures" such as voting rules? 
-Relatedly, logic is at the core of attempts to automate the derivation of proofs in several branches of mathematics. 
-Can this methodology be applied to open problems in social choice theory as well?
-
 <span class="interdisciplinary-header lettrine">Strategic<br>Interplay</span>
 Social choice theory is a close cousin of game theory, 
 the study of mathematical models for the analysis of strategic interactions between rational agents.
@@ -78,6 +69,21 @@ There thus is an intensive exchange of ideas between the fields of computational
 algorithmic game theory.
 Can we avoid voters acting strategically? Does this depend on the ifnormation voyers have access to? 
 Does it depend on their computational abilities?
+
+<span class="interdisciplinary-header lettrine">Thinking<br>Logically</span>
+Logic has long been used to formally specify the behaviour of computer systems, 
+so as to allow for the automatic verification of certain desirable properties of such systems.
+Can we use logic in a similart fashion to also verify the adequate behaviour of
+"social procedures" such as voting rules? 
+Relatedly, logic is at the core of attempts to automate the derivation of proofs in several branches of mathematics. 
+Can this methodology be applied to open problems in social choice theory as well?
+
+<span class="interdisciplinary-header lettrine">Machine<br>Learning</span>
+There are also a intriguing open questions at the interface of social choice theory with machine learning. 
+Also here, the exchange of ideas can go in both directions. 
+Can we learn a good voting rules from data on collective decisions taken in specific situations? 
+Vice versa, can we use the axiomatic method of social choice theory to improve machine learning algorithms 
+that are required to adhere to certain ethical standards?
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Assessment</span>
 The formal models we study in social choice theory are intended to to represent real-life processes.
