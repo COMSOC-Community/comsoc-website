@@ -26,8 +26,7 @@ Just ping us on <a href="https://github.com/comsoc-community/comsoc-website">Git
 <section id="{{ year.name }}">
 <h2>{{ year.name }}</h2>
 <ul>
-    {% assign theses_by_year_sorted = year.items | sort: 'name' %}
-    {% for thesis in theses_by_year_sorted %}
+    {% for thesis in year.items %}
         <li><p>
             <strong>{{ thesis.name }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
             <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>
