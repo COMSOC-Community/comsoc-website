@@ -54,33 +54,39 @@ Can we design an algorithm for it?
 
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
 Mechansms for collective decison making, such as voting rules or protocols for the fair allocation 
-of resources, may face serious challenges when dealing with very large numbers of alternatives.
-And the number of alternatives can become large quickly when alternatives have a combinatorial structure, 
+of resources, may face serious challenges when dealing with large numbers of alternatives.
+Those number can get large when alternatives have a combinatorial structure, 
 meaning that the overall decision to be taken really is made up of several smaller decisions.
 Computational social choice makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
 What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
 
 <span class="interdisciplinary-header lettrine">Thinking<br>Logically</span>
-Logic is applied to formally specify, verify, and analyze social procedures, known as "social software".
-Similar to how logic is used in computer science to specify system behaviour, it can be used to define
-social procedures like voting protocols or fair division algorithms.
+Logic has long been used to formally specify the behaviour of computer systems, 
+so as to allow for the automatic verification of certain desirable properties of such systems.
+Can we use logic in a similart fashion to also verify the adequate behaviour of
+"social procedures" such as voting rules? 
+Relatedly, logic is at the core of attempts to automate the derivation of proofs in several branches of mathematics. 
+Can this methodology be applied to open problems in social choice theory as well?
 
 <span class="interdisciplinary-header lettrine">Strategic<br>Interplay</span>
-Voters reason about the voting process as a whole and the impact they can have on its outcome.
-Social choice theory thus builds on game-theoretic concepts to analyse strategic interaction in
-collective decision-making
-There is thus an important exchange of ideas between computational social choice and algorithmic 
-game theory (which is to game theory what COMSOC is to social choice).
+Social choice theory is a close cousin of game theory, 
+the study of mathematical models for the analysis of strategic interactions between rational agents.  
+Indeed, a voter seeking to act in their own best interest will need to reason about 
+the impact their own vote will have in view of the strategies adoped by everybody else. 
+There thus is an intensive exchange of ideas between the fields of computational social choice and 
+algorithmic game theory.
+Can we avoid voters acting strategically? Does this depend on the ifnormation voyers have access to? 
+Does it depend on their computational abilities?
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Assessment</span>
-Social choice problems mostly model real-life processes.
-There is thus an important interplay between (computational) social scientist and behavioural scientists.
-Assumptions and hypotheses can thus be tested in controlled environments to assess how realistic they are.
-Feedback can be collected on voting rules and other aggregation mechanisms to determine their usability.
-Numerical simulation and experiments with real-life data are also often run to offer experimental insights
-on the object of study: frequency of occurrence of specific phenomenon, satisfaction degree of a given
-property...
+The formal models we study in social choice theory are intended to to represent real-life processes.
+There is thus an important interplay between the social choice theorists and behavioural scientists.
+What are realistic assumptions regarding the preferences found in a population?
+Are the decisons taken by a given mechansim perceived as fair by its users?
+Assumptions and hypotheses need to be tested in controlled environments to assess how realistic they are.
+Human feedback must be collected on voting rules and other aggregation mechanisms to determine their usability.
+Numerical simulation and experiments with real-life data also can offer experimental insights.
 
 </div>
 
