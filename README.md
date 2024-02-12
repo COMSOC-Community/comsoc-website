@@ -52,8 +52,12 @@ The YAML format for a thesis is as shown in the example below:
 Note that for titles including a ":" the title string needs to be put in quotes.
 If there is only one supervisor, keep the syntax and only include a single element in 
 the `supervisors` list.
+
 For the URL, use either a permanent link provided by the degree-granting institution 
 or add a PDF to the repository (other kinds of links usually break after a few years).
+To add a PDF file, add it to the folder `docs/assets/theses/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/theses/).
+The `url` entry then needs to be: `url: assets/theses/FILE_NAME.pdf`.
 
 ### Modify/Add a COMSOC Workshop Event
 
