@@ -111,11 +111,15 @@ permalink: /proceedings/2006/
 complete_proceedings: /assets/proceedings/comsoc2006.pdf
 ---
 ```
-
 The `complete_proceedings` is not mandatory, it corresponds to the full proceedings (it is for now
 only available for the first 4 editions). If such file exists, add it to the folder 
 `docs/assets/proceedings/`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
+
+
+To add the PDF files of the papers, create a folder `assets/proceedings/comsoc-YEAR/` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
+where `YEAR` corresponds to the year of the workshop. The PDF files have to be dumped there.
 
 Finally, update the file `docs/_layouts/proceedings.html`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/proceedings.html)
@@ -234,7 +238,7 @@ follow this format).
 ### Modify/Add a Group Photo for the Front Page
 
 The photos displayed on the front page are described in the file `docs/_data/groupphotos.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/specialissues.yml).
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/groupphotos.yml).
 
 The format is as follows.
 
@@ -244,12 +248,12 @@ The format is as follows.
   url: https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/Budapest-2013/index.html
 ```
 
-The `src` points to the photo in the directory `docs/assets/image/group-photos`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/image/group-photos/).
+The `src` points to the photo in the directory `docs/assets/images/group-photos`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/group-photos).
 The `url` points to the website of the event where the photo was taken.
 
 If you are adding a new group photo, do not forget to put in the directory `docs/assets/image/group-photos`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/image/group-photos/).
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/group-photos).
 
 ### Archive a Static Website
 
