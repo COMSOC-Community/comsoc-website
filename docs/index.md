@@ -71,7 +71,7 @@ Can this methodology be applied to open problems in social choice theory as well
 
 <span class="interdisciplinary-header lettrine">Strategic<br>Interplay</span>
 Social choice theory is a close cousin of game theory, 
-the study of mathematical models for the analysis of strategic interactions between rational agents.  
+the study of mathematical models for the analysis of strategic interactions between rational agents.
 Indeed, a voter seeking to act in their own best interest will need to reason about 
 the impact their own vote will have in view of the strategies adoped by everybody else. 
 There thus is an intensive exchange of ideas between the fields of computational social choice and 
