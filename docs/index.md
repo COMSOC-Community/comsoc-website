@@ -60,6 +60,7 @@ meaning that the overall decision to be taken really is made up of several small
 Computational social choice makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
 What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
+
 <span class="interdisciplinary-header lettrine">Strategic<br>Interplay</span>
 Social choice theory is a close cousin of game theory, 
 the study of mathematical models for the analysis of strategic interactions between rational agents.
