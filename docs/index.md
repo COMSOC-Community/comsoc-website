@@ -115,10 +115,13 @@ Novel models of voting are partiuclarly relevant to exciting innovations in the 
 such as participatory budegting or liquid democracy.
 
 <span class="topics-header lettrine">Fair<br>Allocation</span>
-The second main cornerstone of social choice theory is fair division, the study
-of how to allocate resources among agents who have different tastes over the resources.
-Typical examples include how to share a cake among agents who like different parts of the cakes,
-how to partition a piece of land, how to assign tasks within a team...
+The second major cornerstone of social choice theory is fair allocation, the study of mechansims
+to determine how to divide a number of jointly owned resources between several individuals, 
+who may each have different preferences regarding these resources.
+The classical problem in the field concerns the question of how to fairly share a cake between several people.
+Other examples include questions such as how to partition a piece of land, 
+how to allocate bandwith to users on a communication network, 
+and how to distribute tasks betwee the members of a team.
 
 <span class="topics-header lettrine">Coalition Formation</span>
 How to assign students to schools, doctors to hospitals?
