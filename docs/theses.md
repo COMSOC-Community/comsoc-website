@@ -9,7 +9,7 @@ title: PhD Theses | COMSOC
 
 This is an (incomplete) list of PhD theses in the field of computational social choice.
 Suggestions for further additions are very welcome. 
-Just ping us on <a href="https://github.com/comsoc-community/comsoc-website">GitHub</a>.
+Just ping us on <a href="{{ site.github_url }}">GitHub</a>.
 
 {% assign theses_by_year = site.data.theses | group_by: 'year' %}
 {% assign theses_by_year_sorted = theses_by_year | sort: 'name' | reverse %}

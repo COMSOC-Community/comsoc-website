@@ -20,7 +20,7 @@ with the goal of making it easier for everyone in the community to contribute co
 ## Modify me on GitHub
 
 This website has been designed so as to be easy to modify and maintain. 
-It is all happening on the [GitHub repository](https://github.com/comsoc-community/comsoc-website). 
+It is all happening on the [GitHub repository]({{ site.github_url }}). 
 Everyone in the community is welcome to contribute.
 
 </section>

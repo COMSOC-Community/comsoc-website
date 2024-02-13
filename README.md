@@ -375,6 +375,12 @@ based on some data. These data files are located in the `_data` folder
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data/).
 They are all `.yml` files, the syntax of which is described above.
 
+### Configuration
+
+Global parameters for the website are stored in the file `docs/_config.yml`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/config.yml/).
+You can typically change the URL settings there, or update the link to the main repository.
+
 ### Local Development
 
 You can clone the repository and update it locally on your machine.
