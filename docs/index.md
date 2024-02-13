@@ -123,12 +123,13 @@ Other examples include questions such as how to partition a piece of land,
 how to allocate bandwith to users on a communication network, 
 and how to distribute tasks betwee the members of a team.
 
-<span class="topics-header lettrine">Coalition Formation</span>
-How to assign students to schools, doctors to hospitals?
-Which teams would be formed if we let the students freely decide?
-These questions fall into the broad research topic of coalition formation.
-The key point of these scenarios is an outcome consists in disjoints groups of agents (with potential
-additional constraints) and that agents have preferences over who else is part of their group.
+<span class="topics-header lettrine">Coalition<br>Formation</span>
+How should we partition a group of workers into teams?
+How should we go about assigning students to schools, or resident doctors to hospitals?
+Which teams would be formed, which students/doctors and schools/hospitals would team up, if we let everyone decide freely?
+These questions fall under the broad heading of coalition formation.
+The common characteristic of these scenarios is that any valid outcome consists of a partition of the individuals into groups
+and that individuals have preferences over who else is part of their group.
 
 <span class="topics-header lettrine">Opinion<br>Aggregation</span>
 Lastly, computational social choice scientists also look into how to aggregate,
