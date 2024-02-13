@@ -101,22 +101,18 @@ Numerical simulations with real-life data also can offer important insights.
 ## Selected Topics
 {: #topics}
 
-Researchers in computational social choice engage in a broad range of research topics, all based on scenarios in which
-collective decisions are to be reached based on individual preferences.
+COMSOC researchers engage in the study of a broad range of research topics, all involving scenarios in which
+collective decisions are to be reached on the basis of individual preferences.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
 
 <span class="topics-header lettrine">Voting and<br>Elections</span>
-The most classical research topic is (single-winner) voting, where a single candidate
-has to be elected based on the preferences of the voters.
-In recent years the focus has been extended
-to multiwinner-voting scenarios where more than one candidate is to be selected. Typical examples
-include the decision of the composition of a parliament, the election of the board members of a committee,
-or the decision on which projects to fund in participatory budgeting processes.
-Other intricate voting scenarios have been studied such as iterative voting where voters can update
-their preferences over time, voting on social network where a network of exchange of information
-between the voters is added to the setting, liquid democracy where voters can transmit their voting
-power to other voters before the vote occurs...
+The archetypal scenario studied in social choice theory is that of voting, 
+where a number of individuals each express their preferences regarding a set of alternatives (or candidates). 
+Depending on the situation, we need to select either a single winning alternative or a set of winning alternatives. 
+Examples for the latter include elections to determin the composition of a parliament or to choose the members of a committee.
+Novel models of voting are partiuclarly relevant to exciting innovations in the area of direct democracy,
+such as participatory budegting or liquid democracy.
 
 <span class="topics-header lettrine">Fair<br>Allocation</span>
 The second main cornerstone of social choice theory is fair division, the study
