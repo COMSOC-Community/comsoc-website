@@ -34,7 +34,7 @@ such as multiagent systems and network design. -->
 ## Interdisciplinarity by Design
 {: #interdisciplinarity}
 
-Computational social choice is, by design, an interdisciplinary field of research.
+COMSOC is, by design, an interdisciplinary field of research.
 It draws inspiration from and employs methodologies originating in a diverse range of disciplines, 
 including computer science, AI, economics, political science, philosophy, logic, and mathematics.
 This interdisciplinary nature allows researchers to tackle complex problems in collective decision making 
@@ -45,10 +45,9 @@ from multiple perspectives.
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
 Classical results in social choice theory often concern the mathematical possibility (or impossibility) 
 of designing mechansims for collective decision making that meet certain desirable properties.
-These usually are normative properties, such as satisfying some notion of fairness 
-or being immume to strategic manipulation. 
+These usually are normative properties, such as satisfying some notion of fairness or being immume to strategic manipulation. 
 But those classical results typically do not take computational considerations into account.
-In computational social choice, on the other hand, algorithmic questions take centre stage:
+In COMSOC, on the other hand, algorithmic questions take centre stage:
 How hard, in the complexity-theoretic sense, is it to solve the problem at hand?
 Can we design an algorithm for it?
 
@@ -57,7 +56,7 @@ Mechansms for collective decison making, such as voting rules or protocols for t
 of resources, may face serious challenges when dealing with large numbers of alternatives.
 Those number can get large when alternatives have a combinatorial structure, 
 meaning that the overall decision to be taken really is made up of several smaller decisions.
-Computational social choice makes the need for the compact representation of preferences explicit:
+COMSOC makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
 What is the impact of the chosen format of representation on the mechansims and algorithms we can design?
 
@@ -66,16 +65,14 @@ Social choice theory is a close cousin of game theory,
 the study of mathematical models for the analysis of strategic interactions between rational agents.
 Indeed, a voter seeking to act in their own best interest will need to reason about 
 the impact their own vote will have in view of the strategies adoped by everybody else. 
-There thus is an intensive exchange of ideas between the fields of computational social choice and 
-algorithmic game theory.
-Can we avoid voters acting strategically? Does this depend on the ifnormation voyers have access to? 
+There thus is an intensive exchange of ideas between COMSOC and the field of algorithmic game theory.
+Can we avoid voters acting strategically? Does this depend on the information voters have access to? 
 Does it depend on their computational abilities?
 
-<span class="interdisciplinary-header lettrine">Logical<br>Modelling</span>
-Logic has long been used to formally specify the behaviour of computer systems, 
+<span class="interdisciplinary-header lettrine">Formal<br>Reasoning</span>
+Logic has long been used to formally specify the behaviour of both hardware and software systems, 
 so as to allow for the automatic verification of certain desirable properties of such systems.
-Can we use logic in a similart fashion to also verify the adequate behaviour of
-"social procedures" such as voting rules? 
+Can we use logic in a similart fashion to also verify the adequate behaviour of "social procedures", such as voting rules? 
 Relatedly, logic is at the core of attempts to automate the derivation of proofs in several branches of mathematics. 
 Can this methodology be applied to open problems in social choice theory as well?
 
@@ -84,7 +81,7 @@ There are also a intriguing open questions at the interface of social choice the
 Also here, the exchange of ideas can go in both directions. 
 Can we learn a good voting rule from data on collective decisions taken in specific situations? 
 Vice versa, can we use the axiomatic method of social choice theory to improve machine learning algorithms 
-that are required to adhere to certain ethical standards?
+that may affect groups of individuals and that are required to adhere to certain ethical standards?
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Findings</span>
 The formal models we study in social choice theory are intended to to represent real-life processes.
@@ -92,8 +89,8 @@ There is thus an important interplay between social choice theorists and behavio
 What are realistic assumptions regarding the preferences found in a population?
 Are the decisons taken by a given mechansim perceived as fair by its users?
 Assumptions and hypotheses need to be tested in controlled environments to assess how realistic they are.
-Human feedback must be collected on voting rules and other aggregation mechanisms to determine their usability.
-Numerical simulation and experiments with real-life data also can offer important insights.
+Human feedback must be collected on aggregation mechanisms to determine their usability.
+Numerical simulations with real-life data also can offer important insights.
 
 </div>
 
