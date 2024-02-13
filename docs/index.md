@@ -132,13 +132,11 @@ The common characteristic of these scenarios is that any valid outcome consists 
 and that individuals have preferences over who else is part of their group.
 
 <span class="topics-header lettrine">Opinion<br>Aggregation</span>
-Lastly, computational social choice scientists also look into how to aggregate,
-or merge, conflicting opinions about the truth value of given propositions when only certain
-combination of propositions are acceptable.
-This can be seen as aggregation problems over logical formulas, given the constraint that the
-collective outcome needs to be logically consistent.
-Opinions here can take the form of a judgment (when investigating judgment aggregation) or beliefs
-(in the case of belief merging).
+Lastly, COMSOC researchers also study how to aggregate, or merge, conflicting opinions about what is and what is not true in this world.
+Examples include the jury in a trial jointly decising on a legal question 
+or a panel of experts agreeing on a recommendation regarding a complex policy domain, such as sustainability.  
+These are challenging decision scenarios to model and analyse, because the range of reasonable outcomes 
+may be subject to a rich set of constraints encoding interdependencies between different issues. 
 
 </div>
 
