@@ -71,7 +71,7 @@ algorithmic game theory.
 Can we avoid voters acting strategically? Does this depend on the ifnormation voyers have access to? 
 Does it depend on their computational abilities?
 
-<span class="interdisciplinary-header lettrine">Logical<br>Modeliing</span>
+<span class="interdisciplinary-header lettrine">Logical<br>Modelling</span>
 Logic has long been used to formally specify the behaviour of computer systems, 
 so as to allow for the automatic verification of certain desirable properties of such systems.
 Can we use logic in a similart fashion to also verify the adequate behaviour of
