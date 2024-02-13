@@ -134,7 +134,7 @@ and that individuals have preferences over who else is part of their group.
 <span class="topics-header lettrine">Opinion<br>Aggregation</span>
 Lastly, COMSOC researchers also study how to aggregate, or merge, conflicting opinions about what is and what is not true in this world.
 Examples include the jury in a trial jointly decising on a legal question 
-or a panel of experts agreeing on a recommendation regarding a complex policy domain, such as sustainability.  
+or a panel of experts agreeing on a recommendation regarding a complex policy domain, such as sustainability.
 These are challenging decision scenarios to model and analyse, because the range of reasonable outcomes 
 may be subject to a rich set of constraints encoding interdependencies between different issues. 
 
