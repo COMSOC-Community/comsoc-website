@@ -10,7 +10,7 @@ title: About | COMSOC
 The original COMSOC community site was set up by Ulle Endriss in 2007 
 and hosted at the University of Amsterdam until 2024 (see [archived version](archive/comsoc-website)). 
 
-The site was redesigned from scracth by Simon Rey in 2024, 
+The site was redesigned from scratch by Simon Rey in 2024, 
 with the goal of making it easier for everyone in the community to contribute content.
 
 </section>

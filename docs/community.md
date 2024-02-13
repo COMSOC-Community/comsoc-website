@@ -9,7 +9,7 @@ title: Community | COMSOC
 The international community of researchers in computational social choice 
 is made up of a diverse group of individuals and 
 defined by a common interest in the study of mechanisms for collective decision making. 
-People regualrly meet in person and online, at a wide variety of events.
+People regularly meet in person and online, at a wide variety of events.
 
 The COMSOC community is committed to fostering an inclusive environment that values 
 the contributions of individuals from all backgrounds. We believe in the strength that arises from 
