@@ -102,8 +102,12 @@ The YAML format is as in the following example:
   accepted_as: Presentations
 ```
 
-The `accepted_as` describes the format in which the paper as been accepted. This is typically either
-`Presentations` or `Posters`.
+The `accepted_as` describes the format in which the paper as been accepted. This value needs to be
+exactly one from the list `proceedings_publication_types` defined in the `docs/_config.yml` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_config.yml). If you
+use a different value, the display will not work. Update the list if needed. Note that the order
+of this list defines the order in which the different sections are displayed on a proceedings 
+page.
 
 To create the page corresponding to the proceedings, create a file `docs/proceedings-YEAR.md`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/) 
@@ -222,6 +226,54 @@ For rump sessions, the format is as follows:
 
 The name of the presenters is used here as the `title` of their presentation. Do not use the `speaker`
 entry.
+
+### Modify/Add a Tool
+
+Tools are described in the file `docs/_data/tools.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/tools.yml).
+
+The YAML format is as exemplified below:
+
+```yaml
+- name: preflib-tools
+  topic: Preferences
+  category: Preferences
+  reference-tool: false
+  type: Python
+  url: https://github.com/PrefLib/preflibtools
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr/
+      maintainer: true
+  language: Python
+  has-tests: true
+  documentation-url: https://preflib.github.io/preflibtools/
+  description: >
+    The PrefLib-Tools is a set of Python tools developed to work with preference data from the
+    PrefLib.org website. This package provides input and output operations on PrefLib instances,
+    and several property checks for the instance (preference domain, etc...)
+```
+
+The `topic` attribute needs to be one of the value of the list `tools_topics` defined in the `docs/_config.yml` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_config.yml). If you
+use a different value, the display will not work. Update the list if needed.
+
+The `category` attribute indicates the end goal of the tool. Typical values are: `Preferences`,
+`Aggregation`, `Analysis`, `Outreach`.
+
+The `reference-tool` attribute indicate if this tool should be considered as a reference tool. These
+are tools that deserve special attention because of their significance within the COMSOC ecosystem.
+
+The `type` attribute represents the kind of tool it is: "Website", "Python", ...
+
+The `language` attribute is the programing language used to develop the tool. It is used to define
+the best practices.
+
+The attribute `has-tests` indicates if unit-tests are included. This is mostly relevant for code
+libraries.
+
+The `documentation-url` attribute points to the documentation of the tool. This is mostly relevant
+for code libraries.
 
 ### Modify/Add a Journal Special Issue
 

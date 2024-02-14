@@ -557,6 +557,9 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
   color: inherit;
 }
 
+.tool-wrap > h4 .badges-wrap > span {
+  margin: 0 5px;
+}
 .tool-wrap > h4 .badge {
   background-color: var(--color-frame-secondary);
   display: inline-flex;

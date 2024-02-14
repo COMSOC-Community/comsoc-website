@@ -14,7 +14,7 @@
     - name: Toby Walsh
       url: https://www.cse.unsw.edu.au/~tw/
       maintainer: false
-  source-url: https://www.preflib.org/
+  source-url: https://github.com/PrefLib/PrefLib-Django
   language: Django
   description: >
     PrefLib is a reference library of preference data that provides carefully curated data, 

@@ -5,13 +5,24 @@ title: Tools | COMSOC
 
 <section markdown="1" class="section-with-navs">
 
-# Tools for COMSOC
+# The COMSOC Ecosystem
 
 COMSOC researchers have developed throughout the years a large set of tools. These tools serve 
 different objectives. Some of them are developed to help researchers produce better research.
 Some others are designed as outreach tools to advertise the research to a general audience.
 
-We compile below a list of tools, and provide some "best practice" advices.
+We compile below a list of tools.
+The tools are classified in categories based on their topic of study and on their type of tool.
+Additional information is also provided, in particular:
+- <i class="fa-solid fa-laptop-code"></i> indicates that the tool is open source, click on the icon to view the sources;
+- <i class="fa-solid fa-list-check"></i> indicates that the tool has been tested (mostly relevant for code libraries);
+- <i class="fa-solid fa-book"></i> indicates that the tool has been documented, click on the icon to view the documentation.
+
+For each topic, we have identified "reference tools". These are tools that are particularly
+important and need to be considered by anyone who is thinking of developing new tools on the topic.
+Before developing a new tool, explore the reference tools on the topic to assess what are the
+conventions (data format, etc...). Consider extending the reference tools rather than creating a new
+one.
 
 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
 
@@ -64,7 +75,7 @@ We compile below a list of tools, and provide some "best practice" advices.
 
 <h4 class="{{ tool_type }}-tool-title">
     <span>
-        <a href="{{ tool.url }}">
+        <a href="{{ tool.url }}" target="_blank">
             {% if tool.type == "Website" %}
                 <i class="fa-solid fa-globe"></i>
             {% elsif tool.type == "Python" %}
@@ -74,10 +85,10 @@ We compile below a list of tools, and provide some "best practice" advices.
         </a>
     </span>
     <span class="badges-wrap">
-        {% if tool.category %}<span class="badge">{{ tool.category }}</span>{% endif %}
-        {% if tool.source-url %}<span class="badge"><a href="{{ tool.source-url }}">Open Source</a></span>{% endif %}
-        {% if tool.has-tests %}<span class="badge">Tested</span>{% endif %}
-        {% if tool.documentation-url %}<span class="badge"><a href="{{ tool.documentation-url }}">Docs</a></span>{% endif %}
+        {% if tool.source-url %}<span class=""><a href="{{ tool.source-url }}"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
+        {% if tool.has-tests %}<span class=""><i class="fa-solid fa-list-check"></i></span>{% endif %}
+        {% if tool.documentation-url %}<span class=""><a href="{{ tool.documentation-url }}"><i class="fa-solid fa-book"></i></a></span>{% endif %}
+        {% if tool.category %}<span class="badge tool-category">{{ tool.category }}</span>{% endif %}
         {% if tool_type == "other"%}<span class="toggle-arrow">&#9662;</span>{% endif %}
     </span>
 </h4>
