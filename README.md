@@ -78,7 +78,7 @@ The .yml format for a COMSOC Workshop is as shown in the example below.
 ```
 
 Note the reference to the image of the workshop (the banner used in the standard theme of the workshop
-series). The image file iteself needs to be added to the repository `docs/assets/images/workshops/`
+series). The image file itself needs to be added to the repository `docs/assets/images/workshops/`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/workshops).
 This image is used as background for the box describing the workshop.
 
@@ -105,9 +105,9 @@ The YAML format is as in the following example:
 The `accepted_as` describes the format in which the paper as been accepted. This is typically either
 `Presentations` or `Posters`.
 
-To create the page corresponding to the proceedings, creat a file `docs/proceedings-YEAR.md`
+To create the page corresponding to the proceedings, create a file `docs/proceedings-YEAR.md`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/) 
-where `YEAR` corresponds to the year of the workshop. This file should containt the following information:
+where `YEAR` corresponds to the year of the workshop. This file should contain the following information:
 
 ```markdown
 ---

@@ -16,7 +16,7 @@ Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/
 <section markdown="1">
 ## Past Sessions
 
-Below you will find a listining of past sessions of the COMSOC Video Seminar, with links to recordings.
+Below you will find a listing of past sessions of the COMSOC Video Seminar, with links to recordings.
 If you spot a mistake or want to update this list, check the [GitHub repository]({{ site.github_url }})
 for the procedure to follow.
 
