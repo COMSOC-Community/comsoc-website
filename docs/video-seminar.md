@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const titles = document.querySelectorAll('.video-seminar-event-title');
     titles.forEach(function (title) {
         title.addEventListener('click', function () {
-            console.log("Clicked!");
             const content = title.nextElementSibling;
             content.classList.toggle('show');
             title.classList.toggle('show');

@@ -507,3 +507,65 @@ Publications Page
 #special-issues-list h4 {
   margin-bottom: 5px;
 }
+
+/* =======
+Tools Page
+======= */
+
+section:nth-child(odd) .tool-wrap:nth-child(odd) {
+  background-color: var(--color-background-verylight);
+}
+
+section:nth-child(odd) .tool-wrap:nth-child(even) {
+  background-color: var(--color-background-light);
+}
+
+section:nth-child(even) .tool-wrap:nth-child(odd) {
+  background-color: var(--color-background-light);
+}
+
+section:nth-child(even) .tool-wrap:nth-child(even) {
+  background-color: var(--color-background-dark);
+}
+
+.tool-wrap {
+  padding: 10px;
+  border-top: 2px var(--color-frame-secondary) solid;
+}
+
+.tool-wrap:last-of-type {
+  border-bottom: 2px var(--color-frame-secondary) solid;
+}
+
+.other-tool-details {
+  display: none;
+}
+
+.other-tool-details.show {
+  display: block;
+}
+
+.tool-wrap > h4 {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-frame-main);
+  margin: 0;
+  padding: 10px 0;
+}
+
+.tool-wrap > h4 a {
+  color: inherit;
+}
+
+.tool-wrap > h4 .badge {
+  background-color: var(--color-frame-secondary);
+  display: inline-flex;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.tool-wrap > h4 .toggle-arrow {
+  margin-left: 10px;
+}

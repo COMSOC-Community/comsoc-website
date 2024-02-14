@@ -1,12 +1,18 @@
 ---
 layout: default
 all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
+sort_order: ["Presentations", "Posters", "LogICCC Session"]
 ---
 
 {% assign data_key = "proceedings" | append: page.year %}
 {% assign papers_per_pub_type = site.data[data_key] | group_by: "accepted_as" %}
+{% if papers_per_pub_type.size > 1 %}
+    {% assign several_pub_types = true %}
+{% else %}
+    {% assign several_pub_types = false %}
+{% endif %}
 
-<section{% if papers_per_pub_type.size > 1 %} class="section-with-navs"{% endif %}>
+<section{% if several_pub_types %} class="section-with-navs"{% endif %}>
 
 <h1>Proceedings of the COMSOC Workshop {{ page.year }}</h1>
 
@@ -30,7 +36,7 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 
 <p>
     The papers in the proceedings are
-    {% if papers_per_pub_type.size > 1 %}categorised by their acceptance status (e.g., "poster" and "presentation") and {% endif %}
+    {% if several_pub_types %}categorised by their acceptance status (e.g., "poster" and "presentation") and {% endif %}
     ordered by last name of the authors.
 </p>
 
@@ -38,11 +44,14 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 <p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank">[Full Proceedings]</a></p>
 {% endif %}
 
-{% if papers_per_pub_type.size > 1 %}
+{% if several_pub_types %}
 <div class="page-navigation-wrap">
 <div class="page-navigation">
-{% for pub_type in papers_per_pub_type %}
-<span><a href="#{{ pub_type.name }}">{{ pub_type.name }}</a></span>
+{% for pub_type in site.proceedings_publication_types %}
+{% assign papers = papers_per_pub_type | where: "name", pub_type %}
+{% if papers.size > 0 %}
+<span><a href="#{{ pub_type }}">{{ pub_type }}</a></span>
+{% endif %}
 {% endfor %}
 </div>
 </div>
@@ -50,15 +59,19 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 
 </section>
 
-{% for pub_type in papers_per_pub_type %}
+{% for pub_type in site.proceedings_publication_types %}
 
-<section id="{{ pub_type.name }}">
+{% assign current_papers = papers_per_pub_type | where: "name", pub_type | first %}
 
-{% if papers_per_pub_type.size > 1 %}
-<h2>{{ pub_type.name }}</h2>
+{% if current_papers.items.size > 0 %}
+
+<section id="{{ pub_type }}">
+{% if several_pub_types %}
+<h2>{{ pub_type }}</h2>
 {% endif %}
 
-{% assign sorted_papers = pub_type.items | sort: 'sort_key' %}
+{% assign sorted_papers = current_papers.items | sort: "sort_key" %}
+
 <ul>
 {% for paper in sorted_papers %}
     <li><p>
@@ -75,4 +88,5 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 
 </section>
 
+{% endif %}
 {% endfor %}

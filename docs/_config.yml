@@ -33,7 +33,6 @@ github_url: "https://github.com/comsoc-community/comsoc-website"
 # Build settings
 theme: minima
 #plugins:
-#  - jekyll-feed
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
@@ -61,3 +60,16 @@ kramdown:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+proceedings_publication_types:
+  - "Presentations"
+  - "Posters"
+  - "LogICCC Session"
+
+tools_topics:
+  - "Preferences"
+  - "Single-Winner Voting"
+  - "Multi-Winner Voting"
+  - "Participatory Budgeting"
+  - "Fair Division"
+  - "Other"

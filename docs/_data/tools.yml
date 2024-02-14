@@ -1,0 +1,379 @@
+- name: PrefLib.org
+  topic: Preferences
+  category: Preferences
+  reference-tool: true
+  type: Website
+  url: https://www.preflib.org/
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr/
+      maintainer: true
+    - name: Nick Mattei
+      url: https://www.nickmattei.net/
+      maintainer: true
+    - name: Toby Walsh
+      url: https://www.cse.unsw.edu.au/~tw/
+      maintainer: false
+  source-url: https://www.preflib.org/
+  language: Django
+  description: >
+    PrefLib is a reference library of preference data that provides carefully curated data, 
+    formatted in a unified format.
+
+- name: pabulib.org
+  topic: Participatory Budgeting
+  category: Preferences
+  reference-tool: true
+  type: Website
+  url: https://pabulib.org/
+  contributors:
+    - name: Dariusz Stolicki
+      url: https://inp.uj.edu.pl/dr-dariusz-stolicki
+      maintainer: true
+    - name: Stanisław Szufa
+      url: https://szufa.simple.ink/
+      maintainer: true
+    - name: Nimrod Talmon
+      url: https://sites.google.com/view/zutot/
+      maintainer: false
+  description: >
+    Pabulib is an open PArticipatory BUdgeting LIBrary. The aim of this website is to collect the
+    participatory budgeting data from all over the world.
+
+- name: preflib-tools
+  topic: Preferences
+  category: Preferences
+  reference-tool: false
+  type: Python
+  url: https://github.com/PrefLib/preflibtools
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr/
+      maintainer: true
+  language: Python
+  has-tests: true
+  documentation-url: https://preflib.github.io/preflibtools/
+  description: >
+    The PrefLib-Tools is a set of Python tools developed to work with preference data from the
+    PrefLib.org website. This package provides input and output operations on PrefLib instances,
+    and several property checks for the instance (preference domain, etc...)
+
+- name: prefsampling
+  topic: Preferences
+  category: Preferences
+  reference-tool: true
+  type: Python
+  url: https://github.com/COMSOC-Community/prefsampling
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr/
+      maintainer: true
+    - name: Stanisław Szufa
+      url: https://szufa.simple.ink/
+      maintainer: true
+  language: Python
+  has-tests: true
+  documentation-url: https://comsoc-community.github.io/prefsampling/
+  description: >
+    PrefSampling is a lightweight Python library that provides preference samplers. These are 
+    algorithms that generate random preferences based on precisely defined statistical cultures.
+    We consider different type of preferences: Ordinal: preferences are expressed as rankings of
+    the candidates; Approval: preferences are expressed by indicating a set of approved candidates.
+
+- name: abcvoting
+  topic: Multi-Winner Voting
+  category: Aggregation
+  reference-tool: true
+  type: Python
+  url: https://github.com/martinlackner/abcvoting
+  contributors:
+    - name: Martin Lackner
+      url: https://martin.lackner.xyz/
+      maintainer: true
+    - name: Peter Regner
+      url: https://boku.ac.at/en/personen/person/E723BB6B969E1F3A
+      maintainer: false
+    - name: Benjamin Krenn
+      maintainer: false
+  language: Python
+  has-tests: true
+  documentation-url: https://abcvoting.readthedocs.io/en/latest/
+  description: >
+    Approval-based committee rules (ABC rules) are voting methods for selecting a committee, 
+    i.e., a fixed-size subset of candidates. ABC rules are also known as approval-based
+    multi-winner rules. The input of such rules are approval ballots.
+    
+- name: apportionment
+  topic: Multi-Winner Voting
+  category: Aggregation
+  reference-tool: true
+  type: Python
+  url: https://github.com/martinlackner/apportionment
+  contributors:
+    - name: Martin Lackner
+      url: https://martin.lackner.xyz/
+      maintainer: true
+  language: Python
+  has-tests: true
+  description: >
+    This is a collection of common apportionment methods. Apportionment has two main applications:
+    to assign a fixed number of parliamentary seats to parties (proportionally to their vote count),
+    and to assign representatives in a senate to states (proportionally to their population count).
+
+- name: fairpy
+  topic: Fair Division
+  category: Aggregation
+  reference-tool: true
+  type: Python
+  url: https://github.com/erelsgl/fairpy
+  contributors:
+    - name: Erel Segal-Halevi
+      url: https://erelsgl.github.io/
+      maintainer: true
+  language: Python
+  has-tests: true
+  description: >
+    fairpy is an open-source library of fair division algorithms in Python.
+
+- name: fairpyx
+  topic: Fair Division
+  category: Aggregation
+  reference-tool: false
+  type: Python
+  url: https://github.com/ariel-research/fairpyx
+  contributors:
+    - name: Erel Segal-Halevi
+      url: https://erelsgl.github.io/
+      maintainer: true
+  language: Python
+  has-tests: true
+  description: >
+    fairpyx is a Python library containing various algorithms for fair allocation, with an emphasis
+    on Course allocation.
+
+- name: mapel
+  topic: Other
+  category: Analysis
+  type: Python
+  reference-tool: false
+  url: https://github.com/szufix/mapel
+  contributors:
+    - name: Stanisław Szufa
+      url: https://szufa.simple.ink/
+      maintainer: true
+    - name: Andrzej Kaczmarczyk
+      url: https://akaczmarczyk.com/
+      maintainer: false
+  language: Python
+  has-tests: false
+  description: >
+    mapel is a Python library to generate maps of elections.
+
+- name: pabutool
+  topic: Participatory Budgeting
+  category: Aggregation
+  reference-tool: true
+  type: Python
+  url: https://github.com/pbvoting/pabutools
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr
+      maintainer: true
+    - name: Grzegorz Pierczyński
+      url: https://mimuw.edu.pl/~pierczynski/
+      maintainer: false
+    - name: Markus Utke
+      url: https://research.tue.nl/en/persons/markus-utke
+      maintainer: false
+    - name: Piotr Skowron
+      url: https://duch.mimuw.edu.pl/~ps219737/
+      maintainer: false
+  language: Python
+  has-tests: true
+  documentation-url: https://pbvoting.github.io/pabutools/
+  description: >
+    The pabutools are a complete set of tools work with participatory budgeting instances.
+    It provides the tools to handle PB instances of different kinds, together with voting rules to
+    determine the outcome of the elections and some analytic tools.
+
+- name: pref_voting
+  topic: Single-Winner Voting
+  category: Aggregation
+  reference-tool: true
+  type: Python
+  url: https://github.com/voting-tools/pref_voting
+  contributors:
+    - name: Eric Pacuit
+      url: https://pacuit.org/
+      maintainer: true
+    - name: Wesley H. Holliday
+      url: https://sites.google.com/site/wesholliday/
+      maintainer: true
+  language: Python
+  has-tests: false
+  documentation-url: https://pref-voting.readthedocs.io/en/latest/
+  description: >
+    Preferential Voting Tools (pref_voting) is a Python library that can be used to study and run
+    elections with different preferential voting methods (graded voting methods and cardinal voting
+    methods are also included for comparison). In a preferential voting election, each voter
+    submits a ranking of the candidates, and the winners are determined based on the submitted
+    rankings. The rankings may include ties between candidates, and some candidates may be left
+    off the ranking.
+
+- name: votelib
+  topic: Single-Winner Voting
+  category: Aggregation
+  reference-tool: false
+  type: Python
+  url: https://github.com/simberaj/votelib
+  contributors:
+    - name: Jan Šimbera
+      maintainer: true
+  language: Python
+  has-tests: true
+  description: >
+    Votelib is a package to evaluate results of elections under various systems. It aims to provide
+    reliable implementations of many voting systems so that they may be evaluated as they are used
+    in real-world conditions and compared. The primary focus is on political decision making, but
+    the library is not limited to evaluating political decisions only.
+
+- name: "Pref.Tools: Apportionment"
+  topic: Multi-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://pref.tools/apportionment/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+  description: >
+    Online tool to visualise the behaviours of different apportionment rules.
+
+- name: "Pref.Tools: ABCvoting"
+  topic: Multi-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://pref.tools/abcvoting/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+  maintainers:
+  language: Java Script
+  source-url: https://github.com/DominikPeters/abcvoting-app
+  description: >
+    Online tool to visualise the behaviours of different approval-based committee rules.
+
+- name: "Pref.Tools: Pabutools"
+  topic: Participatory Budgeting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://pref.tools/pabutools/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+  description: >
+    Online tool to visualise the behaviours of different participatory budgeting rules.
+
+- name: "Pref.Tools: Fair rent division"
+  topic: Fair Division
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://pref.tools/rent/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+  description: >
+    Online tool to visualise the behaviours of different participatory budgeting rules.
+
+- name: "MES online computation tool"
+  topic: Participatory Budgeting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://equalshares.net/tools/compute/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+  language: Java Script
+  source-url: https://github.com/equalshares/equalshares-compute-tool
+  description: >
+    Online tool to compute output of the Method of Equal Shares for participatory budgeting.
+
+- name: "Maximal Lotteries"
+  topic: Single-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://voting.ml/
+  contributors:
+    - name: Florian Brandl
+      url: http://brandlf.com/
+      maintainer: true
+    - name: Felix Brandt
+      url: https://www.cs.cit.tum.de/en/dss/brandt/
+      maintainer: true
+    - name: René Romen
+      url: https://www.cs.cit.tum.de/en/dss/members/rene-romen/
+      maintainer: true
+    - name: Dominik Spies
+      maintainer: false
+    - name: Christian Stricker
+      maintainer: false
+  maintainers:
+    - Felix Brandt
+    - René Romen
+  language: Java Script
+  source-url: https://github.com/VotingTool/Online-Voting-Tool-Backend
+  description: >
+    Online tool to compute visualise the output of the maximal lotteries rule. Maximal lotteries 
+    is an attractive randomized voting rule, first considered by Germaine Kreweras in 1965 and 
+    independently proposed by Peter C. Fishburn in 1984.
+
+- name: "Whale - Which Alternative is Elected?"
+  topic: Single-Winner Voting
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://whale5.noiraudes.net/
+  contributors:
+    - name: Sylvain Bouveret
+      url: https://recherche.noiraudes.net/fr/
+      maintainer: true
+    - name: François Durand
+      url: https://cv.hal.science/fradurand
+      maintainer: true
+    - name: Michael Ortega
+      url: http://iihm.imag.fr/member/ortega/
+      maintainer: true
+    - name: Marie-Jeanne Natete
+      maintainer: false
+  source-url: https://gricad-gitlab.univ-grenoble-alpes.fr/bouveres/whale5
+  description: >
+    Online polling platform that implements the main voting rules.
+
+- name: "Stable Voting"
+  topic: Single-Winner Voting
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://stablevoting.org/
+  contributors:
+    - name: Eric Pacuit
+      url: https://pacuit.org/
+      maintainer: true
+    - name: Wesley H. Holliday
+      url: https://sites.google.com/site/wesholliday/
+      maintainer: true
+  source-url: https://github.com/voting-tools/stablevoting-backend
+  language: Python
+  description: >
+    Stable Voting is a free and easy way to make a group decision by voting using the stable voting
+    rule.

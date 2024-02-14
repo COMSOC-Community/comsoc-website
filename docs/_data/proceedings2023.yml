@@ -1,3 +1,12 @@
+- title: Fairness in Temporal Slot Assignment
+  authors:
+    - Edith Elkind
+    - Sonja Kraiczy
+    - Nicholas Teh
+  pdf_file: NicholasTeh.pdf
+  sort_key: ElkindKraiczyTeh
+  accepted_as: Posters
+
 - title: Balanced Donor Coordination
   authors:
     - Felix Brandt
