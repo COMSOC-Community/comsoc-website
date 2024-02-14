@@ -71,6 +71,7 @@
     - name: Stanisław Szufa
       url: https://szufa.simple.ink/
       maintainer: true
+  source-url: https://github.com/COMSOC-Community/prefsampling
   language: Python
   has-tests: true
   documentation-url: https://comsoc-community.github.io/prefsampling/
@@ -95,6 +96,7 @@
       maintainer: false
     - name: Benjamin Krenn
       maintainer: false
+  source-url: https://github.com/martinlackner/abcvoting
   language: Python
   has-tests: true
   documentation-url: https://abcvoting.readthedocs.io/en/latest/
@@ -113,6 +115,7 @@
     - name: Martin Lackner
       url: https://martin.lackner.xyz/
       maintainer: true
+  source-url: https://github.com/martinlackner/apportionment
   language: Python
   has-tests: true
   description: >
@@ -130,6 +133,7 @@
     - name: Erel Segal-Halevi
       url: https://erelsgl.github.io/
       maintainer: true
+  source-url: https://github.com/erelsgl/fairpy
   language: Python
   has-tests: true
   description: >
@@ -145,6 +149,7 @@
     - name: Erel Segal-Halevi
       url: https://erelsgl.github.io/
       maintainer: true
+  source-url: https://github.com/ariel-research/fairpyx
   language: Python
   has-tests: true
   description: >
@@ -164,6 +169,7 @@
     - name: Andrzej Kaczmarczyk
       url: https://akaczmarczyk.com/
       maintainer: false
+  source-url: https://github.com/szufix/mapel
   language: Python
   has-tests: false
   description: >
@@ -188,6 +194,7 @@
     - name: Piotr Skowron
       url: https://duch.mimuw.edu.pl/~ps219737/
       maintainer: false
+  source-url: https://github.com/pbvoting/pabutools
   language: Python
   has-tests: true
   documentation-url: https://pbvoting.github.io/pabutools/
@@ -226,6 +233,7 @@
     - name: Wesley H. Holliday
       url: https://sites.google.com/site/wesholliday/
       maintainer: true
+  source-url: https://github.com/voting-tools/pref_voting
   language: Python
   has-tests: false
   documentation-url: https://pref-voting.readthedocs.io/en/latest/
@@ -246,6 +254,7 @@
   contributors:
     - name: Jan Šimbera
       maintainer: true
+  source-url: https://github.com/simberaj/votelib
   language: Python
   has-tests: true
   description: >
@@ -267,6 +276,7 @@
     - name: Piotr Skowron
       url: https://duch.mimuw.edu.pl/~ps219737/
       maintainer: true
+  source-url: https://github.com/equalshares/equalshares.net
   description: >
     Outreach website aiming at collecting resources about the Method of Equal Shares for 
     participatory budgeting and to provide an explanation of the method to interested members of 
