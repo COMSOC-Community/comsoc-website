@@ -196,6 +196,23 @@
     It provides the tools to handle PB instances of different kinds, together with voting rules to
     determine the outcome of the elections and some analytic tools.
 
+- name: pabuviz
+  topic: Participatory Budgeting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://pabuviz.org/
+  contributors:
+    - name: Markus Utke
+      url: https://research.tue.nl/en/persons/markus-utke
+      maintainer: true
+    - name: Simon Rey
+      url: https://simonrey.fr
+      maintainer: true
+  language: Django and React
+  description: >
+    pabuviz is an interactive computation and visualization tool for participatory budgeting.
+
 - name: pref_voting
   topic: Single-Winner Voting
   category: Aggregation
@@ -236,6 +253,24 @@
     reliable implementations of many voting systems so that they may be evaluated as they are used
     in real-world conditions and compared. The primary focus is on political decision making, but
     the library is not limited to evaluating political decisions only.
+
+- name: "equalshares.net"
+  topic: Participatory Budgeting
+  category: Outreach
+  reference-tool: false
+  type: Website
+  url: https://equalshares.net/
+  contributors:
+    - name: Dominik Peters
+      url: https://dominik-peters.de/
+      maintainer: true
+    - name: Piotr Skowron
+      url: https://duch.mimuw.edu.pl/~ps219737/
+      maintainer: true
+  description: >
+    Outreach website aiming at collecting resources about the Method of Equal Shares for 
+    participatory budgeting and to provide an explanation of the method to interested members of 
+    the public, to city officials, and to researchers.
 
 - name: "Pref.Tools: Apportionment"
   topic: Multi-Winner Voting
@@ -377,3 +412,23 @@
   description: >
     Stable Voting is a free and easy way to make a group decision by voting using the stable voting
     rule.
+
+- name: "QuickVote"
+  topic: Single-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://ewanchelley.github.io/voting/
+  contributors:
+    - name: Ewan Chelley
+      maintainer: true
+    - name: David Manlove
+      url: https://www.dcs.gla.ac.uk/~davidm/
+      maintainer: false
+  source-url: https://github.com/ewanchelley/voting
+  language: Python
+  description: >
+    This website presents various preference aggregation algorithms, so that these different voting
+    rules could be compared to one another. A particular focus is given to mechanisms involving
+    Kendall distance, such as Kemeny consensus and Popular ranking, and trying to find solutions
+    as efficiently as possible. 

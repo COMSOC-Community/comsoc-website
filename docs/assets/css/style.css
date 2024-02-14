@@ -568,4 +568,5 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
 
 .tool-wrap > h4 .toggle-arrow {
   margin-left: 10px;
+  margin-right: 5px;
 }
