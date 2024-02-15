@@ -1,3 +1,11 @@
+- name: Xinhang Lu
+  affiliation: Nanyang Technological University
+  year: 2021
+  url: https://hdl.handle.net/10356/152488
+  title: Fair Resource Allocation in Rich Domains
+  supervisors:
+    - Xiaohui Bei
+    
 - name: Niclas Böhmer
   affiliation: Technische Universität Berlin
   year: 2023
