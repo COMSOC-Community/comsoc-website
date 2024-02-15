@@ -529,11 +529,14 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
 }
 
 .tool-wrap {
-  padding: 10px;
+  padding-bottom: 1px;
+}
+
+.other-tool-wrap {
   border-top: 2px var(--color-frame-secondary) solid;
 }
 
-.tool-wrap:last-of-type {
+.other-tool-wrap:last-of-type {
   border-bottom: 2px var(--color-frame-secondary) solid;
 }
 
@@ -550,7 +553,12 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
   justify-content: space-between;
   color: var(--color-frame-main);
   margin: 0;
-  padding: 10px 0;
+  padding: 10px;
+}
+
+.reference-tool-wrap > h4 {
+  background-color: var(--color-frame-main);
+  color: white;
 }
 
 .tool-wrap > h4 a {
@@ -572,4 +580,8 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
 .tool-wrap > h4 .toggle-arrow {
   margin-left: 10px;
   margin-right: 5px;
+}
+
+.tool-details {
+  padding: 0 10px;
 }

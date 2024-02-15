@@ -85,15 +85,15 @@ one.
         </a>
     </span>
     <span class="badges-wrap">
-        {% if tool.source-url %}<span class=""><a href="{{ tool.source-url }}"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
+        {% if tool.source-url %}<span class=""><a href="{{ tool.source-url }}" target="_blank"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
         {% if tool.has-tests %}<span class=""><i class="fa-solid fa-list-check"></i></span>{% endif %}
-        {% if tool.documentation-url %}<span class=""><a href="{{ tool.documentation-url }}"><i class="fa-solid fa-book"></i></a></span>{% endif %}
+        {% if tool.documentation-url %}<span class=""><a href="{{ tool.documentation-url }}" target="_blank"><i class="fa-solid fa-book"></i></a></span>{% endif %}
         {% if tool.category %}<span class="badge tool-category">{{ tool.category }}</span>{% endif %}
         {% if tool_type == "other"%}<span class="toggle-arrow">&#9662;</span>{% endif %}
     </span>
 </h4>
 
-<div class="{{ tool_type }}-tool-details">
+<div class="{{ tool_type }}-tool-details tool-details">
 
 <p>{{ tool.description }}</p>
 
