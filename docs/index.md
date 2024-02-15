@@ -63,7 +63,7 @@ What is the impact of the chosen format of representation on the mechanisms and 
 <span class="interdisciplinary-header lettrine">Strategic<br>Thinking</span>
 Social choice theory is a close cousin of game theory, 
 the study of mathematical models for the analysis of strategic interactions between rational agents.
-Indeed, a voter seeking to act in their own best interest will need to reason about 
+Indeed, a voter seeking to act in their own best interest must reason about 
 the impact their own vote will have in view of the strategies adopted by everybody else. 
 There thus is an intensive exchange of ideas between COMSOC and the field of algorithmic game theory.
 Can we avoid voters acting strategically? Does this depend on the information voters have access to? 
@@ -80,12 +80,12 @@ Can this methodology be applied to open problems in social choice theory as well
 There are also intriguing open questions at the interface of social choice theory with machine learning. 
 Also here, the exchange of ideas can go in both directions. 
 Can we learn a good voting rule from data on collective decisions taken in specific situations? 
-Vice versa, can we use the axiomatic method of social choice theory to improve machine learning algorithms 
+*Vice versa*, can we use the axiomatic method of social choice theory to improve machine learning algorithms 
 that may affect groups of individuals and that are required to adhere to certain ethical standards?
 
 <span class="interdisciplinary-header lettrine">Experimental<br>Findings</span>
 The formal models we study in social choice theory are intended to to represent real-life processes.
-There is thus an important interplay between social choice theorists and behavioural scientists.
+There thus is a need for collaboration between social choice theorists and behavioural scientists.
 What are realistic assumptions regarding the preferences found in a population?
 Are the decisions taken by a given mechansism perceived as fair by its users?
 Assumptions and hypotheses need to be tested in controlled environments to assess how realistic they are.
@@ -101,7 +101,7 @@ Numerical simulations with real-life data also can offer important insights.
 ## Selected Topics
 {: #topics}
 
-COMSOC researchers engage in the study of a broad range of research topics, all involving scenarios in which
+COMSOC researchers engage in the study of a broad range of research topics, all involving scenarios where
 collective decisions are to be reached on the basis of individual preferences.
 
 <div markdown="1" class="paragraphs-with-lettrine-wrapper">
@@ -128,12 +128,12 @@ How should we partition a group of workers into teams?
 How should we go about assigning students to schools, or resident doctors to hospitals?
 Which teams would be formed, which students/doctors and schools/hospitals would team up, if we let everyone decide freely?
 These questions fall under the broad heading of coalition formation.
-The common characteristic of these scenarios is that any valid outcome consists of a partition of the individuals into groups
+The common characteristic of these scenarios is that any valid outcome consists of a partition of the individuals into groups,
 and that individuals have preferences over who else is part of their group.
 
 <span class="topics-header lettrine">Opinion<br>Aggregation</span>
 Lastly, COMSOC researchers also study how to aggregate, or merge, conflicting opinions about what is and what is not true in this world.
-Examples include the jury in a trial jointly deciding on a legal question 
+Examples include the jury in a trial jointly deciding on a legal question,
 or a panel of experts agreeing on a recommendation regarding a complex policy domain, such as sustainability.
 These are challenging decision scenarios to model and analyse, because the range of reasonable outcomes 
 may be subject to a rich set of constraints encoding interdependencies between different issues. 
