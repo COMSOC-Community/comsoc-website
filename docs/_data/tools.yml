@@ -1,5 +1,5 @@
 - name: PrefLib.org
-  topic: Preferences
+  topic: General Tools
   category: Preferences
   reference-tool: true
   type: Website
@@ -15,7 +15,8 @@
       url: https://www.cse.unsw.edu.au/~tw/
       maintainer: false
   source-url: https://github.com/PrefLib/PrefLib-Django
-  language: Django
+  languages: 
+    - Django
   description: >
     PrefLib is a reference library of preference data that provides carefully curated data, 
     formatted in a unified format.
@@ -41,7 +42,7 @@
     participatory budgeting data from all over the world.
 
 - name: preflib-tools
-  topic: Preferences
+  topic: General Tools
   category: Preferences
   reference-tool: false
   type: Python
@@ -50,7 +51,8 @@
     - name: Simon Rey
       url: https://simonrey.fr/
       maintainer: true
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   documentation-url: https://preflib.github.io/preflibtools/
   description: >
@@ -59,7 +61,7 @@
     and several property checks for the instance (preference domain, etc...)
 
 - name: prefsampling
-  topic: Preferences
+  topic: General Tools
   category: Preferences
   reference-tool: true
   type: Python
@@ -72,7 +74,8 @@
       url: https://szufa.simple.ink/
       maintainer: true
   source-url: https://github.com/COMSOC-Community/prefsampling
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   documentation-url: https://comsoc-community.github.io/prefsampling/
   description: >
@@ -97,7 +100,8 @@
     - name: Benjamin Krenn
       maintainer: false
   source-url: https://github.com/martinlackner/abcvoting
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   documentation-url: https://abcvoting.readthedocs.io/en/latest/
   description: >
@@ -116,7 +120,8 @@
       url: https://martin.lackner.xyz/
       maintainer: true
   source-url: https://github.com/martinlackner/apportionment
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   description: >
     This is a collection of common apportionment methods. Apportionment has two main applications:
@@ -134,7 +139,8 @@
       url: https://erelsgl.github.io/
       maintainer: true
   source-url: https://github.com/erelsgl/fairpy
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   description: >
     fairpy is an open-source library of fair division algorithms in Python.
@@ -150,14 +156,15 @@
       url: https://erelsgl.github.io/
       maintainer: true
   source-url: https://github.com/ariel-research/fairpyx
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   description: >
     fairpyx is a Python library containing various algorithms for fair allocation, with an emphasis
     on Course allocation.
 
 - name: mapel
-  topic: Other
+  topic: General Tools
   category: Analysis
   type: Python
   reference-tool: false
@@ -170,7 +177,8 @@
       url: https://akaczmarczyk.com/
       maintainer: false
   source-url: https://github.com/szufix/mapel
-  language: Python
+  languages: 
+    - Python
   has-tests: false
   description: >
     mapel is a Python library to generate maps of elections.
@@ -195,7 +203,8 @@
       url: https://duch.mimuw.edu.pl/~ps219737/
       maintainer: false
   source-url: https://github.com/pbvoting/pabutools
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   documentation-url: https://pbvoting.github.io/pabutools/
   description: >
@@ -216,7 +225,9 @@
     - name: Simon Rey
       url: https://simonrey.fr
       maintainer: true
-  language: Django and React
+  languages: 
+    - Django 
+    - React
   description: >
     pabuviz is an interactive computation and visualization tool for participatory budgeting.
 
@@ -234,7 +245,8 @@
       url: https://sites.google.com/site/wesholliday/
       maintainer: true
   source-url: https://github.com/voting-tools/pref_voting
-  language: Python
+  languages: 
+    - Python
   has-tests: false
   documentation-url: https://pref-voting.readthedocs.io/en/latest/
   description: >
@@ -255,7 +267,8 @@
     - name: Jan Šimbera
       maintainer: true
   source-url: https://github.com/simberaj/votelib
-  language: Python
+  languages: 
+    - Python
   has-tests: true
   description: >
     Votelib is a package to evaluate results of elections under various systems. It aims to provide
@@ -306,7 +319,8 @@
       url: https://dominik-peters.de/
       maintainer: true
   maintainers:
-  language: Java Script
+  languages: 
+    - Java Script
   source-url: https://github.com/DominikPeters/abcvoting-app
   description: >
     Online tool to visualise the behaviours of different approval-based committee rules.
@@ -347,7 +361,9 @@
     - name: Dominik Peters
       url: https://dominik-peters.de/
       maintainer: true
-  language: Java Script
+  languages: 
+    - Java Script
+    - Docusaurus
   source-url: https://github.com/equalshares/equalshares-compute-tool
   description: >
     Online tool to compute output of the Method of Equal Shares for participatory budgeting.
@@ -375,7 +391,8 @@
   maintainers:
     - Felix Brandt
     - René Romen
-  language: Java Script
+  languages: 
+    - Java Script
   source-url: https://github.com/VotingTool/Online-Voting-Tool-Backend
   description: >
     Online tool to compute visualise the output of the maximal lotteries rule. Maximal lotteries 
@@ -418,7 +435,8 @@
       url: https://sites.google.com/site/wesholliday/
       maintainer: true
   source-url: https://github.com/voting-tools/stablevoting-backend
-  language: Python
+  languages: 
+    - Python
   description: >
     Stable Voting is a free and easy way to make a group decision by voting using the stable voting
     rule.
@@ -436,7 +454,8 @@
       url: https://www.dcs.gla.ac.uk/~davidm/
       maintainer: false
   source-url: https://github.com/ewanchelley/voting
-  language: Python
+  languages: 
+    - Python
   description: >
     This website presents various preference aggregation algorithms, so that these different voting
     rules could be compared to one another. A particular focus is given to mechanisms involving

@@ -5,7 +5,7 @@ title: Tools | COMSOC
 
 <section markdown="1" class="section-with-navs">
 
-# The COMSOC Ecosystem
+# Tools for COMSOC
 
 COMSOC researchers have developed throughout the years a large set of tools. These tools serve 
 different objectives. Some of them are developed to help researchers produce better research.
@@ -24,10 +24,19 @@ Before developing a new tool, explore the reference tools on the topic to assess
 conventions (data format, etc...). Consider extending the reference tools rather than creating a new
 one.
 
+Tools are also assigned a tag based on where in the typical pipeline of a COMSOC problem they are
+useful:
+- **Preferences**: Tools that deal with the preferences of the agents
+- **Aggregation**: Tools that focus on the aggregation stage, when the preferences are aggregated into a collective decision
+- **Analysis**: Tools that are used for analysis purposes, most often regarding the outcome
+- **Application**: Application platforms that offer COMSOC tools to the general audience
+- **Outreach**: Tools designed for outreach purposes
+
 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
+<span><a href="#BestPractices">Best Practices</a></span>
 {% for topic in site.tools_topics %}
 {% assign tools = tools_per_topic | where: "name", topic %}
 {% if tools.size > 0 %}
@@ -35,6 +44,55 @@ one.
 {% endif %}
 {% endfor %}
 </div>
+</div>
+
+</section>
+
+<section id="BestPractices" markdown="1">
+
+## Best Practices
+
+The development of tools for and by the COMSOC community is guided by the sense of [community]({{ "community" | relative_url }})
+together with the principles of [open source development](https://opensource.com/resources/what-open-source){:target="_blank"}.
+We aim to create a vibrant and inclusive ecosystem that is inviting and inclusive to everyone.
+The success of the tools can only come together with support from the community.
+
+We have assembled below a set of best practices to be considered when developing tools.
+
+- **Assess the need**: a lot of tools have already been developed, it is often better to develop further existing tools than to create new ones. Explore the tools below to get an idea of what exists, what are the standards etc... 
+- **Ensure maintainability**: tools are developped for the long term, keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
+- **Easy adoption**: tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
+- **Reliability**: confidence in the tool is needed for it to be used. Demonstrate that your tool does what it should. Tests are not overrated.
+- **Visibility**: ensure that your tools are visible on the platforms use by the community. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank"}), on the [COMSOC zenodo](https://zenodo.org/communities/comsoc){:target="_blank"} organisation, etc...
+
+Below is a list of programming languages together with the number of tools using them. This can be
+used to determine suitable programming languages for future tools.
+
+
+{% assign all_languages = "" | split: "" %}
+{% assign all_languages_unique = "" | split: "" %}
+{% for tool in site.data.tools %}
+{% if tool.languages %}
+{% for lang in tool.languages %}
+{% assign all_languages = all_languages | push: lang %}
+{% if all_languages_unique contains lang %}
+{% else %}
+{% assign all_languages_unique = all_languages_unique | push: lang %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+<div class="programming-languages-wrap">
+{% for unique_lang in all_languages_unique %}
+{% assign count = 0 %}
+{% for lang in all_languages %}
+{% if unique_lang == lang %}
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% endfor %}
+<div class="programming-languages"><span>{{ unique_lang }}:</span><span>{{ count }}</span></div>
+{% endfor %}
 </div>
 
 </section>

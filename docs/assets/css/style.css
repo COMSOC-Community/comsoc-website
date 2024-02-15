@@ -585,3 +585,24 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
 .tool-details {
   padding: 0 10px;
 }
+
+.programming-languages-wrap {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.programming-languages > span:first-child {
+  background-color: var(--color-background-dark);
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.programming-languages > span:last-child {
+  background-color: var(--color-frame-main);
+  color: white;
+  padding: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
