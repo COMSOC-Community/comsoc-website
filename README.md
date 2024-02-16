@@ -21,6 +21,7 @@ Below is a description of how to perform the most common management tasks:
 - [COMSOC Workshop Event](#modifyadd-a-comsoc-workshop-event)
 - [COMSOC Workshop Proceedings](#modifyadd-proceedings-of-a-comsoc-workshop)
 - [COMSOC Video Seminar](#modifyadd-a-past-event-of-the-comsoc-video-seminar)
+- [Tools](#modifyadd-a-tool)
 - [Group Photos](#modifyadd-a-group-photo-for-the-front-page)
 - [Archive Static Website](#archive-a-static-website)
 
@@ -258,8 +259,10 @@ The `topic` attribute needs to be one of the value of the list `tools_topics` de
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_config.yml). If you
 use a different value, the display will not work. Update the list if needed.
 
-The `category` attribute indicates the end goal of the tool. Typical values are: `Preferences`,
-`Aggregation`, `Analysis`, `Outreach`.
+The `category` attribute indicates the end goal of the tool. Current values are: `Preferences`,
+`Aggregation`, `Analysis`, `Application` and `Outreach`. If you add additional values, remember to
+update the first section of the `docs/tools.md` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/tools.md).
 
 The `reference-tool` attribute indicate if this tool should be considered as a reference tool. These
 are tools that deserve special attention because of their significance within the COMSOC ecosystem.

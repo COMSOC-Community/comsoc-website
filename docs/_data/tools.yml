@@ -461,3 +461,60 @@
     rules could be compared to one another. A particular focus is given to mechanisms involving
     Kendall distance, such as Kemeny consensus and Popular ranking, and trying to find solutions
     as efficiently as possible. 
+
+- name: "Spliddit"
+  topic: Fair Division
+  category: Application
+  reference-tool: true
+  type: Website
+  url: http://www.spliddit.org/
+  contributors:
+    - name: Ariel Procaccia
+      maintainer: true
+      url: https://procaccia.info/
+    - name: Jonathan Goldman
+      maintainer: false
+    - name: Nisarg Shah
+      url: https://www.cs.toronto.edu/~nisarg/
+      maintainer: true
+  description: >
+    Spliddit offers quick, free solutions to everyday fair division problems, using methods that 
+    provide indisputable fairness guarantees and build on decades of research in economics, 
+    mathematics, and computer science.
+
+- name: "Kajibuntan"
+  topic: Fair Division
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://housechore-division.com/
+  contributors:
+    - name: Ayumi Igarashi
+      maintainer: true
+      url: https://sites.google.com/site/eigarashayumi/home
+  description: >
+    Kajibuntan proposes algorithms to help with dividing chores for households.
+
+- name: "Fast & Fair"
+  topic: Fair Division
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://fair-alloc.streamlit.app/
+  contributors:
+    - name: Jiatong Han
+      maintainer: true
+    - name: Warut Suksompong
+      maintainer: true
+      url: https://www.comp.nus.edu.sg/~warut/
+  languages:
+    - Python
+    - Streamlit
+  description: >
+    Fast & Fair is designed to help you achieve fair division of indivisible items!
+    We offer a variety of algorithmic implementations to ensure a fair distribution
+    of these items, taking into account standard fairness notions such as envy-freeness up to one
+    item (EF1) and weighted envy-freeness (WEF).
+    Our app will help you find an allocation that fulfills these notions as closely as possible
+    while maximizing overall satisfaction.
+

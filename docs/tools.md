@@ -26,11 +26,15 @@ one.
 
 Tools are also assigned a tag based on where in the typical pipeline of a COMSOC problem they are
 useful:
-- **Preferences**: Tools that deal with the preferences of the agents
-- **Aggregation**: Tools that focus on the aggregation stage, when the preferences are aggregated into a collective decision
-- **Analysis**: Tools that are used for analysis purposes, most often regarding the outcome
-- **Application**: Application platforms that offer COMSOC tools to the general audience
-- **Outreach**: Tools designed for outreach purposes
+- <span class="badge tool-category">Preferences</span>: Tools that deal with the preferences of the agents  
+
+- <span class="badge tool-category">Aggregation</span>: Tools that focus on the aggregation stage, when the preferences are aggregated into a collective decision
+
+- <span class="badge tool-category">Analysis</span>: Tools that are used for analysis purposes, most often regarding the outcome
+
+- <span class="badge tool-category">Application</span>: Application platforms that offer COMSOC tools to the general audience
+
+- <span class="badge tool-category">Outreach</span>: Tools designed for outreach purposes
 
 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
 
@@ -82,6 +86,8 @@ used to determine suitable programming languages for future tools.
 {% endfor %}
 {% endif %}
 {% endfor %}
+
+{% assign all_languages_unique = all_languages_unique | sort %}
 
 <div class="programming-languages-wrap">
 {% for unique_lang in all_languages_unique %}
@@ -143,9 +149,9 @@ used to determine suitable programming languages for future tools.
         </a>
     </span>
     <span class="badges-wrap">
-        {% if tool.source-url %}<span class=""><a href="{{ tool.source-url }}" target="_blank"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
-        {% if tool.has-tests %}<span class=""><i class="fa-solid fa-list-check"></i></span>{% endif %}
-        {% if tool.documentation-url %}<span class=""><a href="{{ tool.documentation-url }}" target="_blank"><i class="fa-solid fa-book"></i></a></span>{% endif %}
+        {% if tool.source-url %}<span><a href="{{ tool.source-url }}" target="_blank"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
+        {% if tool.has-tests %}<span><i class="fa-solid fa-list-check"></i></span>{% endif %}
+        {% if tool.documentation-url %}<span><a href="{{ tool.documentation-url }}" target="_blank"><i class="fa-solid fa-book"></i></a></span>{% endif %}
         {% if tool.category %}<span class="badge tool-category">{{ tool.category }}</span>{% endif %}
         {% if tool_type == "other"%}<span class="toggle-arrow">&#9662;</span>{% endif %}
     </span>

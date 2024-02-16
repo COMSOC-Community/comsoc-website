@@ -166,6 +166,10 @@ img {
   color: #162442;
 }
 
+ul > li > p {
+  margin: 10px 0;
+}
+
 /* ===
 Header
 === */
@@ -568,7 +572,8 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
 .tool-wrap > h4 .badges-wrap > span {
   margin: 0 5px;
 }
-.tool-wrap > h4 .badge {
+
+.badge {
   background-color: var(--color-frame-secondary);
   display: inline-flex;
   color: white;

@@ -15,7 +15,7 @@ Just ping us on <a href="{{ site.github_url }}">GitHub</a>.
 {% assign theses_by_year_sorted = theses_by_year | sort: 'name' | reverse %}
 <div class="page-navigation-wrap">
 <div class="page-navigation">
-{% for year in theses_by_year %}
+{% for year in theses_by_year_sorted %}
 <span><a href="#{{ year.name }}">{{ year.name }}</a></span>
 {% endfor %}
 </div>
