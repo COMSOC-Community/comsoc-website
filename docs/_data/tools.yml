@@ -38,8 +38,9 @@
       url: https://sites.google.com/view/zutot/
       maintainer: false
   description: >
-    Pabulib is an open PArticipatory BUdgeting LIBrary. The aim of this website is to collect the
-    participatory budgeting data from all over the world.
+    Pabulib is an open PArticipatory BUdgeting LIBrary. The aim of this website is to collect
+    participatory budgeting voting data from all over the world. It also describes a
+    standard data format for representing a PB voting instance.
 
 - name: preflib-tools
   topic: General Tools
@@ -124,7 +125,7 @@
     - Python
   has-tests: true
   description: >
-    This is a collection of common apportionment methods. Apportionment has two main applications:
+    This is an implementation of common apportionment methods. Apportionment has two main applications:
     to assign a fixed number of parliamentary seats to parties (proportionally to their vote count),
     and to assign representatives in a senate to states (proportionally to their population count).
 
@@ -161,7 +162,7 @@
   has-tests: true
   description: >
     fairpyx is a Python library containing various algorithms for fair allocation, with an emphasis
-    on Course allocation.
+    on course allocation.
 
 - name: mapel
   topic: General Tools
@@ -183,7 +184,7 @@
   description: >
     mapel is a Python library to generate maps of elections.
 
-- name: pabutool
+- name: pabutools
   topic: Participatory Budgeting
   category: Aggregation
   reference-tool: true
@@ -208,7 +209,7 @@
   has-tests: true
   documentation-url: https://pbvoting.github.io/pabutools/
   description: >
-    The pabutools are a complete set of tools work with participatory budgeting instances.
+    The pabutools are a complete set of tools for working with participatory budgeting instances.
     It provides the tools to handle PB instances of different kinds, together with voting rules to
     determine the outcome of the elections and some analytic tools.
 
@@ -306,7 +307,7 @@
       url: https://dominik-peters.de/
       maintainer: true
   description: >
-    Online tool to visualise the behaviours of different apportionment rules.
+    Online tool to visualise the behaviour of different apportionment rules.
 
 - name: "Pref.Tools: ABCvoting"
   topic: Multi-Winner Voting
@@ -324,6 +325,7 @@
   source-url: https://github.com/DominikPeters/abcvoting-app
   description: >
     Online tool to visualise the behaviours of different approval-based committee rules.
+    Uses the abcvoting python package as its backend.
 
 - name: "Pref.Tools: Pabutools"
   topic: Participatory Budgeting
@@ -337,6 +339,7 @@
       maintainer: true
   description: >
     Online tool to visualise the behaviours of different participatory budgeting rules.
+    Uses pabutools as its backend.
 
 - name: "Pref.Tools: Fair rent division"
   topic: Fair Division
@@ -349,7 +352,7 @@
       url: https://dominik-peters.de/
       maintainer: true
   description: >
-    Online tool to visualise the behaviours of different participatory budgeting rules.
+    Online tool to visualise the behaviours of two different rules for fair rent division.
 
 - name: "MES online computation tool"
   topic: Participatory Budgeting
@@ -366,7 +369,7 @@
     - Docusaurus
   source-url: https://github.com/equalshares/equalshares-compute-tool
   description: >
-    Online tool to compute output of the Method of Equal Shares for participatory budgeting.
+    Online tool to compute the output of the Method of Equal Shares for participatory budgeting.
 
 - name: "Maximal Lotteries"
   topic: Single-Winner Voting
@@ -419,7 +422,7 @@
       maintainer: false
   source-url: https://gricad-gitlab.univ-grenoble-alpes.fr/bouveres/whale5
   description: >
-    Online polling platform that implements the main voting rules.
+    Online polling platform that implements many major voting rules.
 
 - name: "Stable Voting"
   topic: Single-Winner Voting
@@ -439,7 +442,7 @@
     - Python
   description: >
     Stable Voting is a free and easy way to make a group decision by voting using the stable voting
-    rule.
+    Condorcet method.
 
 - name: "QuickVote"
   topic: Single-Winner Voting
@@ -493,7 +496,7 @@
       maintainer: true
       url: https://sites.google.com/site/eigarashayumi/home
   description: >
-    Kajibuntan proposes algorithms to help with dividing chores for households.
+    Kajibuntan proposes a way to divide household chores between two partners.
 
 - name: "Fast & Fair"
   topic: Fair Division
