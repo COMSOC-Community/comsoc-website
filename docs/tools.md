@@ -9,34 +9,32 @@ description: >
 
 # Tools for COMSOC
 
-COMSOC researchers have developed throughout the years a large set of tools. These tools serve 
-different objectives. Some of them are developed to help researchers produce better research.
-Some others are designed as outreach tools to advertise the research to a general audience.
+COMSOC researchers have developed a large set of tools. 
+These tools serve different objectives. 
+Some of them are meant to help people produce better research.
+Others are intended for outreach, to bring the benefits and excitement of COMSOC research to a broader audience.
 
-We compile below a list of tools.
-The tools are classified in categories based on their topic of study and on their type of tool.
-Additional information is also provided, in particular:
-- <i class="fa-solid fa-laptop-code"></i> indicates that the tool is open source, click on the icon to view the sources;
+Below you will find a list of such tools, organised by topic of study and by type of tool.
+Additional information is also provided; in particular:
+- <i class="fa-solid fa-laptop-code"></i> indicates that the tool is open-source (click on the icon to view the sources);
 - <i class="fa-solid fa-list-check"></i> indicates that the tool has been tested (mostly relevant for code libraries);
-- <i class="fa-solid fa-book"></i> indicates that the tool has been documented, click on the icon to view the documentation.
+- <i class="fa-solid fa-book"></i> indicates that the tool has been documented (click on the icon to view the documentation).
 
 For each topic, we have identified "reference tools". These are tools that are particularly
-important and need to be considered by anyone who is thinking of developing new tools on the topic.
-Before developing a new tool, explore the reference tools on the topic to assess what are the
-conventions (data format, etc...). Consider extending the reference tools rather than creating a new
-one.
+important and that should to be considered by anyone who is thinking of developing new tools on the topic.
+Before developing a new tool, explore the reference tools on the topic to assess what the
+conventions are (data format, etc.). Consider extending the reference tools rather than creating a new ones.
 
-Tools are also assigned a tag based on where in the typical pipeline of a COMSOC problem they are
-useful:
-- <span class="badge tool-category">Preferences</span>: Tools that deal with the preferences of the agents  
+Each tool also is assigned a tag based on where in the typical pipeline of a COMSOC problem it is most useful:
+- <span class="badge tool-category">Preferences</span>: tools to deal with data on preferences  
 
-- <span class="badge tool-category">Aggregation</span>: Tools that focus on the aggregation stage, when the preferences are aggregated into a collective decision
+- <span class="badge tool-category">Aggregation</span>: tools to perform aggregation of individual preferences into collective decisions
 
-- <span class="badge tool-category">Analysis</span>: Tools that are used for analysis purposes, most often regarding the outcome
+- <span class="badge tool-category">Analysis</span>: tools used for the analysis of aggregation processes and their outcomes
 
-- <span class="badge tool-category">Application</span>: Application platforms that offer COMSOC tools to the general audience
+- <span class="badge tool-category">Application</span>: application platforms offering COMSOC tools to the general public
 
-- <span class="badge tool-category">Outreach</span>: Tools designed for outreach purposes
+- <span class="badge tool-category">Outreach</span>: tools designed for outreach purposes
 
 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
 
