@@ -146,7 +146,7 @@ may be subject to a rich set of constraints encoding interdependencies between d
 ## Courses
 
 Want to learn more?
-Here is a list of COMSOC courses throughout the world:
+Here is a (not at all exhaustive) list of COMSOC courses throughout the world:
 
 <ul class="course-list">
 {% for course in site.data.courses %}
