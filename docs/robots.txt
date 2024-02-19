@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /archive/
+Sitemap: https://comsoc-community.org/sitemap.xml

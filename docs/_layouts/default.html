@@ -6,6 +6,16 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif layout.description %}{{ layout.description }}{% else %}{{ site.description }}{% endif %}">
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Computational Social Choice (COMSOC)",
+      "description": "{% if page.description %}{{ page.description }}{% elsif layout.description %}{{ layout.description }}{% else %}{{ site.description }}{% endif %}",
+      "url": "{{ site.url }}{{ page.url }}"
+    }
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
