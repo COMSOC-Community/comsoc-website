@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Computational Social Choice (COMSOC)
+sitemap:
+  priority: 1
 ---
 
 <section markdown="1" id="comsoc">

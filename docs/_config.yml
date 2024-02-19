@@ -31,14 +31,16 @@ github_url: "https://github.com/comsoc-community/comsoc-website"
 
 # Build settings
 theme: minima
-#plugins:
+plugins:
+  - jekyll-sitemap
+
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   input: GFM
   auto_ids:       true
   toc_levels:     1..3
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

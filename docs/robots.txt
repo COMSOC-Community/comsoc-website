@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /archive/
+Disallow:
 Sitemap: https://comsoc-community.org/sitemap.xml
