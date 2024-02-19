@@ -106,3 +106,16 @@
   editions:
     - url: https://duch.mimuw.edu.pl/~ps219737/teaching/computational-social-choice/
       name: Course Page
+
+- title: Computational Social Choice
+  lecturer: Ashish Goel
+  lecturer_url: https://web.stanford.edu/~ashishg/
+  institution: Stanford University
+  institution_url: https://www.stanford.edu/
+  editions:
+    - url: https://web.stanford.edu/~ashishg/msande336/
+      name: 2023
+    - url: https://web.stanford.edu/~ashishg/msande336/aut2021/
+      name: 2021
+    - url: https://web.stanford.edu/~ashishg/msande336/aut2021/win2020/
+      name: 2020
