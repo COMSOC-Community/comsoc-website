@@ -21,11 +21,8 @@
 title: COMSOC Website
 email: ulle.endriss@uva.nl
 description: >
-  Discover the field of Computational Social Choice (COMSOC), where researchers
-  explore methods for collective decision making at the intersection of computer science
-  and economics. Learn about voting mechanisms, fair allocation methods, coalition formation,
-  and opinion aggregation. This website provides a great variety of resources for the COMSOC
-  community but also for prospective students, researchers or any COMSOC enthusiast.
+  Discover Computational Social Choice (COMSOC), where researchers explore collective decision 
+  making at the intersection of computer science and economics.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://comsoc-community.org/" # the base hostname & protocol for your site, e.g. http://example.com

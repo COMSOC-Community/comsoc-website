@@ -3,9 +3,7 @@ layout: default
 title: Publications | COMSOC
 description: >
   Discover the main publications related to Computational Social Choice (COMSOC), a research 
-  field focusing on methods for collective decision making at the intersection of computer science
-  and economics. Check out the books published about COMSOC research, or the COMSOC special issues
-  from prestigious academic journals.
+  field focusing on methods for collective decision making.
 ---
 
 <section markdown="1" class="section-with-navs">
