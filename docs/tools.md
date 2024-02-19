@@ -26,15 +26,15 @@ Before developing a new tool, explore the reference tools on the topic to assess
 conventions are (data format, etc.). Consider extending the reference tools rather than creating a new ones.
 
 Each tool also is assigned a tag based on where in the typical pipeline of a COMSOC problem it is most useful:
-- <span class="badge tool-category">Preferences</span>: tools to deal with data on preferences  
+- <span class="badge tool-category">Preferences</span> tools to deal with data on preferences  
 
-- <span class="badge tool-category">Aggregation</span>: tools to perform aggregation of individual preferences into collective decisions
+- <span class="badge tool-category">Aggregation</span> tools to perform aggregation of individual preferences into collective decisions
 
-- <span class="badge tool-category">Analysis</span>: tools used for the analysis of aggregation processes and their outcomes
+- <span class="badge tool-category">Analysis</span> tools used for the analysis of aggregation processes and their outcomes
 
-- <span class="badge tool-category">Application</span>: application platforms offering COMSOC tools to the general public
+- <span class="badge tool-category">Application</span> application platforms offering COMSOC tools to the general public
 
-- <span class="badge tool-category">Outreach</span>: tools designed for outreach purposes
+- <span class="badge tool-category">Outreach</span> tools designed for outreach purposes
 
 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
 
@@ -56,21 +56,21 @@ Each tool also is assigned a tag based on where in the typical pipeline of a COM
 
 ## Best Practices
 
-The development of tools for and by the COMSOC community is guided by the sense of [community]({{ "community" | relative_url }})
+The development of tools for and by the COMSOC community is guided by the general spirit of this [community]({{ "community" | relative_url }})
 together with the principles of [open source development](https://opensource.com/resources/what-open-source){:target="_blank" rel="noreferrer"}.
-We aim to create a vibrant and inclusive ecosystem that is inviting and inclusive to everyone.
+We aim to create a vibrant and inclusive ecosystem that benefits everyone.
 The success of the tools can only come together with support from the community.
 
-We have assembled below a set of best practices to be considered when developing tools.
+To this end, we have assembled a list of best practices to be considered when developing tools:
 
-- **Assess the need**: a lot of tools have already been developed, it is often better to develop further existing tools than to create new ones. Explore the tools below to get an idea of what exists, what are the standards etc... 
-- **Ensure maintainability**: tools are developped for the long term, keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
-- **Easy adoption**: tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
-- **Reliability**: confidence in the tool is needed for it to be used. Demonstrate that your tool does what it should. Tests are not overrated.
-- **Visibility**: ensure that your tools are visible on the platforms use by the community. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}), on the [COMSOC zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"} organisation, etc...
-
-Below is a list of programming languages together with the number of tools using them. This can be
-used to determine suitable programming languages for future tools.
+- **Assess the need**: A lot of tools have been developed already. It is often better to improve existing tools rather than to create new ones. Explore the tools below to get an idea of what exists and what the standards are. 
+- **Ensure maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
+- **Easy adoption**: Tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
+- **Reliability**: Confidence in the tool is needed for it to be used by others. Demonstrate that your tool does what it should. Tests are not overrated.
+- **Visibility**: Ensure that your tools are visible on the platforms used by the community, such as the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}).
+ 
+Below is a list of programming languages together with the number of tools on this page that use them. 
+This can be helpful to determine what might be a suitable programming languages for future tools.
 
 
 {% assign all_languages = "" | split: "" %}
