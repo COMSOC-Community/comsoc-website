@@ -46,7 +46,7 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 </section>
 
-<section markdown="1" id="others">
+<section markdown="1" id="zenodo">
 
 ## COMSOC Community on Zenodo
 
