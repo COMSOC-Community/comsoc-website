@@ -2,9 +2,7 @@
 layout: default
 title: PhD Theses | COMSOC
 description: >
-  Discover the PhD thesis that have been written by COMSOC researchers. These thesis focus on
-  methods for collective decision making at the intersection of computer science
-  and economics.
+  Discover the PhD thesis that have been written by Computational Social Choice (COMSOC) scientists.
 ---
 
 <section markdown="1" class="section-with-navs">

@@ -22,6 +22,8 @@ Below is a description of how to perform the most common management tasks:
 - [COMSOC Workshop Proceedings](#modifyadd-proceedings-of-a-comsoc-workshop)
 - [COMSOC Video Seminar](#modifyadd-a-past-event-of-the-comsoc-video-seminar)
 - [Tools](#modifyadd-a-tool)
+- [Special Issue](#modifyadd-a-journal-special-issue)
+- [Course](#modifyadd-a-course)
 - [Group Photos](#modifyadd-a-group-photo-for-the-front-page)
 - [Archive Static Website](#archive-a-static-website)
 
@@ -295,6 +297,27 @@ The YAML format is as exemplified below:
 
 The `volume` entry typically includes both the volume and the issue number (but not all journals
 follow this format).
+
+### Modify/Add a Course
+
+Courses are described in the file `docs/_data/courses.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/courses.yml).
+
+The YAML format is as exemplified below:
+
+```yaml
+- title: Computational Social Choice
+  lecturer: Rohit Vaish
+  lecturer_url: https://rohitvaish.in/
+  institution: Indian Institute of Technology Delhi
+  institution_url: https://home.iitd.ac.in/
+  editions:
+    - url: https://rohitvaish.in/Teaching/2023-Fall/
+      name: 2023
+    - url: https://rohitvaish.in/Teaching/2022-Fall/
+      name: 2022-Fall
+
+```
 
 ### Modify/Add a Group Photo for the Front Page
 

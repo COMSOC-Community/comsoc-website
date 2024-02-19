@@ -3,9 +3,6 @@ layout: default
 title: Tools | COMSOC
 description: >
   Discover the tools that have been designed by Computational Social Choice (COMSOC) researchers.
-  These tools are used to present the research on COMSOC, a research field focusing on collective 
-  decision making. You will find here relevant tools but also important resources such as best
-  practices.
 ---
 
 <section markdown="1" class="section-with-navs">

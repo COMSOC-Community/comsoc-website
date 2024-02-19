@@ -2,9 +2,8 @@
 layout: default
 title: Video Seminar | COMSOC
 description: >
-  Discover the COMSOC video seminar, an online seminar organised by computational social choice
-  (COMSOC) scientists to discuss their research. Check out the past events and learn about collective
-  decision making at the intersection of computer science and economics.
+  Discover the COMSOC video seminar, an online seminar organised by Computational Social Choice
+  (COMSOC) scientists to discuss their research.
 ---
 
 <section markdown="1">
