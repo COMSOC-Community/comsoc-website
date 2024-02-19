@@ -31,7 +31,7 @@ serving at the pleasure of the community.
 <div class="image-overlay"></div>
 
 <div class="workshop-details">
-<h2><a href="{{ workshop.website_url }}" target="_blank">COMSOC-{{ workshop.year }}</a></h2>
+<h2><a href="{{ workshop.website_url }}" target="_blank" rel="noreferrer">COMSOC-{{ workshop.year }}</a></h2>
 <p>{{ workshop.edition }}</p>
 <p>{{ workshop.location }}, {{ workshop.dates }} {{ workshop.year }}</p>
 <p><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">[Proceedings]</a></p>
@@ -51,25 +51,25 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 
 ### Committee Members
 
-- [Omer Lev](https://tzin.bgu.ac.il/~omerlev/){:target="_blank"} (Ben-Gurion University): 2023-2027
-- [Reshef Meir](https://reshef.net.technion.ac.il/){:target="_blank"} (Technion): 2021-2025
-- [Marcus Pivato](https://sites.google.com/site/marcuspivato/home){:target="_blank"} (Panth&eacute;on-Sorbonne University): 2023-2027
-- [Bill Zwicker](https://www.union.edu/mathematics/faculty-staff/william-s-zwicker){:target="_blank"} (Union College): 2021-2025
+- [Omer Lev](https://tzin.bgu.ac.il/~omerlev/){:target="_blank" rel="noreferrer"} (Ben-Gurion University): 2023-2027
+- [Reshef Meir](https://reshef.net.technion.ac.il/){:target="_blank" rel="noreferrer"} (Technion): 2021-2025
+- [Marcus Pivato](https://sites.google.com/site/marcuspivato/home){:target="_blank" rel="noreferrer"} (Panth&eacute;on-Sorbonne University): 2023-2027
+- [Bill Zwicker](https://www.union.edu/mathematics/faculty-staff/william-s-zwicker){:target="_blank" rel="noreferrer"} (Union College): 2021-2025
 
 ### Past Committee Members
 
-- [Ulle Endriss](https://staff.fnwi.uva.nl/u.endriss/){:target="_blank"} (ILLC, University of Amsterdam): 2006-2012
-- [J&eacute;r&ocirc;me Lang](https://www.lamsade.dauphine.fr/~lang/){:target="_blank"} (LAMSADE, Paris-Dauphine University): 2006-2012
-- [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank"} (Duke University): 2012-2014
-- [J&ouml;rg Rothe](https://ccc.cs.uni-duesseldorf.de/~rothe/){:target="_blank"} (University of D&uuml;sseldorf): 2012-2014
-- [Felix Brandt](https://www.cs.cit.tum.de/en/dss/brandt/){:target="_blank"} (Technical University Munich): 2012-2016
-- [Piotr Faliszewski](https://home.agh.edu.pl/~faliszew/){:target="_blank"} (AGH University of Science and Technology): 2012-2016
-- [Ariel Procaccia](https://procaccia.info/){:target="_blank"} (Carnegie Mellon University): 2014-2018
-- [Toby Walsh](https://www.cse.unsw.edu.au/~tw/){:target="_blank"} (NICTA and University of New South Wales): 2014-2018
-- [Umberto Grandi](https://www.irit.fr/~Umberto.Grandi/){:target="_blank"} (IRIT, University of Toulouse): 2016-2021
-- [Jeff Rosenschein](https://www.cs.huji.ac.il/~jeff/){:target="_blank"} (Hebrew University of Jerusalem): 2016-2021
-- [Edith Elkind](https://www.cs.ox.ac.uk/people/edith.elkind/){:target="_blank"} (University of Oxford): 2018-2023
-- [Lirong Xia](https://www.cs.rpi.edu/~xial/){:target="_blank"} (Rensselaer Polytechnic Institute): 2018-2023
+- [Ulle Endriss](https://staff.fnwi.uva.nl/u.endriss/){:target="_blank" rel="noreferrer"} (ILLC, University of Amsterdam): 2006-2012
+- [J&eacute;r&ocirc;me Lang](https://www.lamsade.dauphine.fr/~lang/){:target="_blank" rel="noreferrer"} (LAMSADE, Paris-Dauphine University): 2006-2012
+- [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank" rel="noreferrer"} (Duke University): 2012-2014
+- [J&ouml;rg Rothe](https://ccc.cs.uni-duesseldorf.de/~rothe/){:target="_blank" rel="noreferrer"} (University of D&uuml;sseldorf): 2012-2014
+- [Felix Brandt](https://www.cs.cit.tum.de/en/dss/brandt/){:target="_blank" rel="noreferrer"} (Technical University Munich): 2012-2016
+- [Piotr Faliszewski](https://home.agh.edu.pl/~faliszew/){:target="_blank" rel="noreferrer"} (AGH University of Science and Technology): 2012-2016
+- [Ariel Procaccia](https://procaccia.info/){:target="_blank" rel="noreferrer"} (Carnegie Mellon University): 2014-2018
+- [Toby Walsh](https://www.cse.unsw.edu.au/~tw/){:target="_blank" rel="noreferrer"} (NICTA and University of New South Wales): 2014-2018
+- [Umberto Grandi](https://www.irit.fr/~Umberto.Grandi/){:target="_blank" rel="noreferrer"} (IRIT, University of Toulouse): 2016-2021
+- [Jeff Rosenschein](https://www.cs.huji.ac.il/~jeff/){:target="_blank" rel="noreferrer"} (Hebrew University of Jerusalem): 2016-2021
+- [Edith Elkind](https://www.cs.ox.ac.uk/people/edith.elkind/){:target="_blank" rel="noreferrer"} (University of Oxford): 2018-2023
+- [Lirong Xia](https://www.cs.rpi.edu/~xial/){:target="_blank" rel="noreferrer"} (Rensselaer Polytechnic Institute): 2018-2023
 
 ### Responsibilities of the Committee
 

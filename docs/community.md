@@ -28,7 +28,7 @@ to provide equal opportunities for engagement, collaboration, and advancement wi
 
 ## Mailing List
 
-Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target="_blank"} for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank"}.
+Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target="_blank" rel="noreferrer"} for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank" rel="noreferrer"}.
 </section>
 
 <section markdown="1" id="meeting-places">

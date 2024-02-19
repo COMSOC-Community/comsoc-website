@@ -44,7 +44,7 @@ sort_order: ["Presentations", "Posters", "LogICCC Session"]
 </p>
 
 {% if page.complete_proceedings %}
-<p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank">[Full Proceedings]</a></p>
+<p class="center-align"><a href="{{ site.baseurl }}{{ page.complete_proceedings }}" target="_blank" rel="noreferrer">[Full Proceedings]</a></p>
 {% endif %}
 
 {% if several_pub_types %}
@@ -84,7 +84,7 @@ sort_order: ["Presentations", "Posters", "LogICCC Session"]
             {{ author }}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}
         {% endfor %}
         </strong><br>
-        <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank">[PDF File]</a>
+        <a href="{{ site.baseurl }}/assets/proceedings/comsoc-{{ page.year }}/{{ paper.pdf_file }}" target="_blank" rel="noreferrer">[PDF File]</a>
     </p></li>
 {% endfor %}
 </ul>

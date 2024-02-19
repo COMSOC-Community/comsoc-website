@@ -31,7 +31,7 @@ Just ping us on <a href="{{ site.github_url }}">GitHub</a>.
     {% for thesis in year.items %}
         <li><p>
             <strong>{{ thesis.name }}</strong> ({{ thesis.affiliation }}, {{ thesis.year }}) <br>
-            <a href="{{ thesis.url }}" target="_blank">{{ thesis.title }}</a> <br>
+            <a href="{{ thesis.url }}" target="_blank" rel="noreferrer">{{ thesis.title }}</a> <br>
             {% if thesis.supervisors.size == 1 %}
                 Supervisor: {{ thesis.supervisors[0] }}
             {% else %}

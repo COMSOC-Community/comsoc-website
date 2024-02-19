@@ -59,7 +59,7 @@ useful:
 ## Best Practices
 
 The development of tools for and by the COMSOC community is guided by the sense of [community]({{ "community" | relative_url }})
-together with the principles of [open source development](https://opensource.com/resources/what-open-source){:target="_blank"}.
+together with the principles of [open source development](https://opensource.com/resources/what-open-source){:target="_blank" rel="noreferrer"}.
 We aim to create a vibrant and inclusive ecosystem that is inviting and inclusive to everyone.
 The success of the tools can only come together with support from the community.
 
@@ -69,7 +69,7 @@ We have assembled below a set of best practices to be considered when developing
 - **Ensure maintainability**: tools are developped for the long term, keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
 - **Easy adoption**: tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
 - **Reliability**: confidence in the tool is needed for it to be used. Demonstrate that your tool does what it should. Tests are not overrated.
-- **Visibility**: ensure that your tools are visible on the platforms use by the community. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank"}), on the [COMSOC zenodo](https://zenodo.org/communities/comsoc){:target="_blank"} organisation, etc...
+- **Visibility**: ensure that your tools are visible on the platforms use by the community. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}), on the [COMSOC zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"} organisation, etc...
 
 Below is a list of programming languages together with the number of tools using them. This can be
 used to determine suitable programming languages for future tools.
@@ -141,7 +141,7 @@ used to determine suitable programming languages for future tools.
 
 <h4 class="{{ tool_type }}-tool-title">
     <span>
-        <a href="{{ tool.url }}" target="_blank">
+        <a href="{{ tool.url }}" target="_blank" rel="noreferrer">
             {% if tool.type == "Website" %}
                 <i class="fa-solid fa-globe"></i>
             {% elsif tool.type == "Python" %}
@@ -151,9 +151,9 @@ used to determine suitable programming languages for future tools.
         </a>
     </span>
     <span class="badges-wrap">
-        {% if tool.source-url %}<span><a href="{{ tool.source-url }}" target="_blank"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
+        {% if tool.source-url %}<span><a href="{{ tool.source-url }}" target="_blank" rel="noreferrer"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
         {% if tool.has-tests %}<span><i class="fa-solid fa-list-check"></i></span>{% endif %}
-        {% if tool.documentation-url %}<span><a href="{{ tool.documentation-url }}" target="_blank"><i class="fa-solid fa-book"></i></a></span>{% endif %}
+        {% if tool.documentation-url %}<span><a href="{{ tool.documentation-url }}" target="_blank" rel="noreferrer"><i class="fa-solid fa-book"></i></a></span>{% endif %}
         {% if tool.category %}<span class="badge tool-category">{{ tool.category }}</span>{% endif %}
         {% if tool_type == "other"%}<span class="toggle-arrow">&#9662;</span>{% endif %}
     </span>
