@@ -51,7 +51,7 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 ## COMSOC Community on Zenodo
 
 [Zenodo](https://zenodo.org/) is an open-access data repository run by CERN on behalf of the OpenAIRE programme of the European Council.
-Zenodo includes a [curated list of records](https://zenodo.org/communities/comsoc) in the area of computational social choice.
+It includes a [curated list of records](https://zenodo.org/communities/comsoc) in computational social choice.
 This is a good place to archive the supplementary material (consisting of data or code) of your papers. 
 It makes those records visible and allows people to cite them independently from the paper itself.
 
