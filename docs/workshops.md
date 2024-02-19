@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Workshop Series | COMSOC
+description: >
+  Discover the COMSOC workshop series, the regular meeting place of the computational social choice
+  (COMSOC) research community. Learn about previous editions of the series and discover fascinating
+  content about collective decision making.
 ---
 
 <section markdown="1">

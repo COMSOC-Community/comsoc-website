@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Events | COMSOC
+description: >
+  Discover the all the events related to Computational Social Choice (COMSOC), a research community
+  exploring methods for collective decision making at the intersection of computer science
+  and economics. Learn about where the researchers meet to exchange ideas: workshops, summer schools,
+  seminars...
 ---
 
 <section markdown="1" class="section-with-navs">

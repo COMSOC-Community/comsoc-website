@@ -1,6 +1,11 @@
 ---
 layout: default
 title: About | COMSOC
+description: >
+  Discover the field of Computational Social Choice (COMSOC), where researchers
+  explore methods for collective decision making at the intersection of computer science
+  and economics. On this page you will precious information about who made this website
+  and how it can be updated.
 ---
 
 <section markdown="1">

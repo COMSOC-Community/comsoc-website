@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Community | COMSOC
+description: >
+  Discover the Computational Social Choice (COMSOC) community. An international community of
+  researchers working in computational social choice. Discover the official communication channels
+  of the community, the usual meeting places and much more.
 ---
 
 <section markdown="1">
