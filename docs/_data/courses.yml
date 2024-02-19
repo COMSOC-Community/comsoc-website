@@ -1,0 +1,108 @@
+- title: Computational Social Choice
+  lecturer: Ulle Endriss
+  lecturer_url: https://staff.science.uva.nl/u.endriss/
+  institution: ILLC, University of Amsterdam
+  institution_url: https://www.illc.uva.nl/
+  editions:
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2023/
+      name: 2023
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2022/
+      name: 2022
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2021/
+      name: 2021
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2020/
+      name: 2020
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2019/
+      name: 2019
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2017/
+      name: 2017
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2015/
+      name: 2015
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2013/
+      name: 2013
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2012/
+      name: 2012
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2011/
+      name: 2011
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2010/
+      name: 2010
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2009/
+      name: 2009
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2008/
+      name: 2008
+    - url: https://staff.science.uva.nl/u.endriss/teaching/comsoc/2007/
+      name: 2007
+
+- title: Optimized Democracy
+  lecturer: Ariel Procaccia
+  lecturer_url: https://procaccia.info/
+  institution: Harvard University
+  institution_url: https://www.harvard.edu/
+  editions:
+    - url: https://sites.google.com/view/optdemocracy23/
+      name: 2023
+    - url: https://sites.google.com/view/optdemocracy22/
+      name: 2022
+    - url: https://sites.google.com/view/optdemocracy/
+      name: 2021
+
+- title: Algorithms for Collective Decision Making
+  lecturer: Nisarg Shah
+  lecturer_url: https://www.cs.toronto.edu/~nisarg/
+  institution: University of Toronto
+  institution_url: https://www.utoronto.ca/
+  editions:
+    - url: https://www.cs.toronto.edu/~nisarg/teaching/2556s22/
+      name: 2022
+    - url: https://www.cs.toronto.edu/~nisarg/teaching/2556s21/
+      name: 2021
+    - url: https://www.cs.toronto.edu/~nisarg/teaching/2556s20/
+      name: 2020
+    - url: https://www.cs.toronto.edu/~nisarg/teaching/2556s19/
+      name: 2019
+    - url: https://www.cs.toronto.edu/~nisarg/teaching/2556s18/
+      name: 2018
+
+- title: Computational Social Choice
+  lecturer: Rohit Vaish
+  lecturer_url: https://rohitvaish.in/
+  institution: Indian Institute of Technology Delhi
+  institution_url: https://home.iitd.ac.in/
+  editions:
+    - url: https://rohitvaish.in/Teaching/2023-Fall/
+      name: 2023
+    - url: https://rohitvaish.in/Teaching/2022-Fall/
+      name: 2022-Fall
+    - url: https://rohitvaish.in/Teaching/2022-Spring/
+      name: 2022-Spring
+
+- title: Computational Social Choice
+  lecturer: Felix Brandt
+  lecturer_url: https://www.cs.cit.tum.de/en/dss/brandt/
+  institution: Technical University of Munich
+  institution_url: https://www.tum.de/en/
+  editions:
+    - url: https://www.youtube.com/watch?v=zAmSVCcHx2o&list=PLOfTMPqb4h4YpejIw7acMsdUnBm51a-FD
+      name: Youtube Playlist
+
+- title: Computational Social Choice
+  lecturer: Lirong Xia
+  lecturer_url: https://www.cs.rpi.edu//~xial/
+  institution: Rensselaer Polytechnic Institute
+  institution_url: https://www.rpi.edu/
+  editions:
+    - url: https://www.cs.rpi.edu/~xial/Teaching/2016S/COMSOC/COMSOC2016S.htm
+      name: 2016
+    - url: https://www.cs.rpi.edu/~xial/Teaching/2014F/COMSOC2014F.htm
+      name: 2014
+    - url: https://www.cs.rpi.edu/~xial/Teaching/2013F/COMSOC2013F.htm
+      name: 2013
+
+- title: Computational Social Choice
+  lecturer: Piotr Skowron
+  lecturer_url: https://duch.mimuw.edu.pl/~ps219737/
+  institution: University of Warsaw
+  institution_url: https://www.uw.edu.pl/
+  editions:
+    - url: https://duch.mimuw.edu.pl/~ps219737/teaching/computational-social-choice/
+      name: Course Page

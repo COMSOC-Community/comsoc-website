@@ -51,9 +51,83 @@
 </main>
 
 <footer>
-    <div id="footer-content">
+    <div id="footer-content-top">
         <span><a href="{{ "about" | relative_url }}">About this website</a></span>
         <span><a href="{{ site.github_url }}" target="_blank"><img src="{{ site.baseurl }}/assets/images/github-mark-white.svg" alt="GitHub.com logo"> Edit on GitHub</a></span>
+    </div>
+    <div id="footer-navigation-wrap">
+        <div class="footer-navigation">
+            <p><a href="{{ "/" | relative_url }}">COMSOC</a></p>
+            <ul>
+                <li><a href="{{ "/" | relative_url }}#interdisciplinarity">Interdisciplinarity</a></li>
+                <li><a href="{{ "/" | relative_url }}#topics">Topics</a></li>
+                <li><a href="{{ "/" | relative_url }}#courses">Courses</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "community" | relative_url }}">Community</a></p>
+            <ul>
+                <li><a href="{{ "community" | relative_url }}#mailing-list">Mailing List</a></li>
+                <li><a href="{{ "community" | relative_url }}#meeting-places">Meeting Places</a></li>
+                <li><a href="{{ "community" | relative_url }}#others">Others</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "workshops" | relative_url }}">Workshops</a></p>
+            <ul>
+                <li><a href="{{ "workshops" | relative_url }}#steering-committee">Steering Committee</a></li>
+                <li><a href="{{ "workshops" | relative_url }}#organising">Organising</a></li>
+                {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
+                {% for workshop in sorted_workshops %}
+                    <li><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">Proceedings {{ workshop.year }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "video-seminar" | relative_url }}">Seminar</a></p>
+            <ul>
+                <li><a href="{{ "video-seminar" | relative_url }}#past-sessions">Past Sessions</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "events" | relative_url }}">Events</a></p>
+            <ul>
+                <li><a href="{{ "events" | relative_url }}#summer-schools">Summer Schools</a></li>
+                <li><a href="{{ "events" | relative_url }}#dagstuhl">Dagstuhl</a></li>
+                <li><a href="{{ "events" | relative_url }}#other">Other</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "publications" | relative_url }}">Publications</a></p>
+            <ul>
+                <li><a href="{{ "publications" | relative_url }}#books">Books</a></li>
+                <li><a href="{{ "publications" | relative_url }}#special-issues">Special Issues</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "theses" | relative_url }}">Theses</a></p>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "tools" | relative_url }}">Tools</a></p>
+            <ul>
+                <li><a href="{{ "tools" | relative_url }}#best-practices">Best Practices</a></li>
+                {% for topic in site.tools_topics %}
+                {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
+                {% assign tools = tools_per_topic | where: "name", topic | first %}
+                {% if tools.items.size > 0 %}
+                <li><a href="{{ "tools" | relative_url }}#{{ topic }}">{{ topic }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <p><a href="{{ "about" | relative_url }}">About</a></p>
+            <ul>
+                <li><a href="{{ "about" | relative_url }}#modify">Modify</a></li>
+                <li><a href="{{ "about" | relative_url }}#archive">Archive</a></li>
+                <li><a href="{{ "about" | relative_url }}#contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 

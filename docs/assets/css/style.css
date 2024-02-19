@@ -62,7 +62,7 @@ Page layout
 ======== */
 
 body {
-  background-color: var(--color-background-verylight);
+  background-color: var(--color-background-dark);
   margin: 0;
   padding: 0;
   display: flex;
@@ -343,16 +343,17 @@ footer {
   color: #FFFFFF;
   background-color: var(--color-frame-main);
   text-align: center;
-  padding: 20px 0;
+  padding: 0 20px 20px;
   margin: 0;
   border-top: 4px solid var(--color-frame-secondary);
   font-size: 0.8rem;
 }
 
-#footer-content {
+#footer-content-top {
   display: flex;
   justify-content: center;
   gap: 0 50px;
+  margin: 40px 0;
 }
 
 footer img {
@@ -365,13 +366,39 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--color-frame-secondary);
+  color: var(--color-background-dark);
+}
+
+#footer-navigation-wrap {
+  margin-top: 20px;
+  border-top: 3px solid var(--color-background-dark);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-navigation > p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footer-navigation > ul {
+  margin-top: 5px;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-navigation > li {
 }
 
 /* ===============
 Video Seminar Page
 =============== */
-
 
 .video-seminar-event {
   padding: 10px;
@@ -454,6 +481,11 @@ Index Page
 
 .paragraphs-with-lettrine-wrapper > p {
   display: inline-block;
+}
+
+.course-list .institution-link > a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* ===========

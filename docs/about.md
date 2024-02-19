@@ -15,7 +15,7 @@ with the goal of making it easier for everyone in the community to contribute co
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="modify">
 
 ## Modify me on GitHub
 
@@ -25,7 +25,7 @@ Everyone in the community is welcome to contribute.
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="archive">
 
 ## Archive
 
@@ -40,7 +40,7 @@ We also use this website to archive old websites of the community (some of them 
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="contact">
 
 ## Contact
 

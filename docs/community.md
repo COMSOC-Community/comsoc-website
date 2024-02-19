@@ -21,13 +21,14 @@ to provide equal opportunities for engagement, collaboration, and advancement wi
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="mailing-list">
+
 ## Mailing List
 
 Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target="_blank"} for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank"}.
 </section>
 
-<section markdown="1">
+<section markdown="1" id="meeting-places">
 
 ## Community Meeting Places
 
@@ -42,7 +43,7 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="others">
 
 ## Related Research Communities
 

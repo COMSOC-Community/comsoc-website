@@ -40,7 +40,7 @@ useful:
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
-<span><a href="#BestPractices">Best Practices</a></span>
+<span><a href="#best-practices">Best Practices</a></span>
 {% for topic in site.tools_topics %}
 {% assign tools = tools_per_topic | where: "name", topic %}
 {% if tools.size > 0 %}
@@ -52,7 +52,7 @@ useful:
 
 </section>
 
-<section id="BestPractices" markdown="1">
+<section id="best-practices" markdown="1">
 
 ## Best Practices
 

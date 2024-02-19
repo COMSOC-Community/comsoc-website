@@ -88,7 +88,7 @@ able to offer an attractive programme with several high-profile invited speakers
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="organising">
 
 ## Organising a COMSOC Workshop
 

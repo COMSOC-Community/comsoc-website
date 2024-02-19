@@ -13,7 +13,8 @@ Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="past-sessions">
+
 ## Past Sessions
 
 Below you will find a listing of past sessions of the COMSOC Video Seminar, with links to recordings.

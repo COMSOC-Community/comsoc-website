@@ -3,10 +3,9 @@ layout: default
 title: Computational Social Choice
 ---
 
-<section markdown="1">
+<section markdown="1" id="comsoc">
 
 # What is Computational Social Choice?
-{: #comsoc}
 
 The research field of computational social choice (COMSOC) 
 is concerned with the design and analysis of methods for collective decision making. 
@@ -29,10 +28,9 @@ such as multiagent systems and network design. -->
     </div>
 </section>
 
-<section markdown="1">
+<section markdown="1" id="interdisciplinarity">
 
 ## Interdisciplinarity by Design
-{: #interdisciplinarity}
 
 COMSOC is, by design, an interdisciplinary field of research.
 It draws inspiration from and employs methodologies originating in a diverse range of disciplines, 
@@ -96,10 +94,9 @@ Numerical simulations with real-life data also can offer important insights.
 
 </section>
 
-<section markdown="1">
+<section markdown="1" id="topics">
 
 ## Selected Topics
-{: #topics}
 
 COMSOC researchers engage in the study of a broad range of research topics, all involving scenarios where
 collective decisions are to be reached on the basis of individual preferences.
@@ -139,6 +136,26 @@ These are challenging decision scenarios to model and analyse, because the range
 may be subject to a rich set of constraints encoding interdependencies between different issues. 
 
 </div>
+
+</section>
+
+<section markdown="1" id="courses">
+
+## Want to learn more?
+
+Here is a list of COMSOC courses throughout the world. Check out the content!
+
+<ul class="course-list">
+{% for course in site.data.courses %}
+<li><p>
+<strong>{{ course.title }}</strong> &ndash; <a href="{{ course.lecturer_url }}">{{ course.lecturer }}</a> <span class="institution-link">(<a href="{{ course.institution_url }}">{{ course.institution }}</a>)</span> </p>
+<p>
+{% for edition in course.editions %}
+<span><a href="{{ edition.url }}">{{ edition.name }}</a></span> {% unless forloop.last %} &middot; {% endunless %}
+{% endfor %}
+</p></li>
+{% endfor %}
+</ul>
 
 </section>
 
