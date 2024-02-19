@@ -143,9 +143,10 @@ may be subject to a rich set of constraints encoding interdependencies between d
 
 <section markdown="1" id="courses">
 
-## Want to learn more?
+## Courses
 
-Here is a list of COMSOC courses throughout the world. Check out the content!
+Want to learn more?
+Here is a list of COMSOC courses throughout the world:
 
 <ul class="course-list">
 {% for course in site.data.courses %}
