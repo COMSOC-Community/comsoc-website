@@ -97,6 +97,10 @@ On this page you will find a non-exhaustive list of such events.
     [2015](http://www.explore-2015.preflib.org/) &middot;
     [2014](http://www.explore14.preflib.org/)  
   
+  - SC4AI Workshop Series on Social Choice for AI Ethics and Safety  
+    2024: Santiago de Compostela, 19+20 October 2024 (details to follow) <br>
+    2023: Berkeley, 6-8 December 2023
+
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
 
