@@ -1,3 +1,11 @@
+- name: Gogulapati Sreedurga
+  affiliation: Indian Institute of Science, Bangalore
+  year: 2023
+  url: assets/theses/phd-sreedurga.pdf
+  title: Exploring Welfare Maximization and Fairness in Participatory Budgeting
+  supervisors:
+    - Y. Narahari
+
 - name: Xinhang Lu
   affiliation: Nanyang Technological University
   year: 2021
