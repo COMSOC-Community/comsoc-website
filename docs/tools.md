@@ -9,28 +9,28 @@ description: >
 
 # Tools for COMSOC
 
-COMSOC researchers have developed a large set of tools. 
+COMSOC researchers have developed a large number of tools over the years. 
 These tools serve different objectives. 
-Some of them are meant to help people produce better research.
+Some are meant to help people produce better research.
 Others are intended for outreach, to bring the benefits and excitement of COMSOC research to a broader audience.
 
 Below you will find a list of such tools, organised by topic of study and by type of tool.
-Additional information is also provided; in particular:
+Badges are used to indicate relevant features:
 - <i class="fa-solid fa-laptop-code"></i> indicates that the tool is open-source (click on the icon to view the sources);
 - <i class="fa-solid fa-list-check"></i> indicates that the tool has been tested (mostly relevant for code libraries);
 - <i class="fa-solid fa-book"></i> indicates that the tool has been documented (click on the icon to view the documentation).
 
-For each topic, we have identified "reference tools". These are tools that are particularly
-important and that should to be considered by anyone who is thinking of developing new tools on the topic.
+For each topic, we have identified some "reference tools". These are tools that are particularly
+helpful and that should to be considered by anyone who is thinking of developing new tools on the same topic.
 Before developing a new tool, explore the reference tools on the topic to assess what the
-conventions are (data format, etc.). Consider extending the reference tools rather than creating a new ones.
+conventions are (data format, etc.). Consider extending the reference tools rather than creating new ones.
 
 Each tool also is assigned a tag based on where in the typical pipeline of a COMSOC problem it is most useful:
 - <span class="badge tool-category">Preferences</span> tools to deal with data on preferences  
 
 - <span class="badge tool-category">Aggregation</span> tools to perform aggregation of individual preferences into collective decisions
 
-- <span class="badge tool-category">Analysis</span> tools used for the analysis of aggregation processes and their outcomes
+- <span class="badge tool-category">Analysis</span> tools for the analysis of aggregation processes and their outcomes
 
 - <span class="badge tool-category">Application</span> application platforms offering COMSOC tools to the general public
 
@@ -57,21 +57,19 @@ Each tool also is assigned a tag based on where in the typical pipeline of a COM
 ## Best Practices
 
 The development of tools for and by the COMSOC community is guided by the general spirit of this [community]({{ "community" | relative_url }})
-together with the principles of [open source development](https://opensource.com/resources/what-open-source){:target="_blank" rel="noreferrer"}.
-We aim to create a vibrant and inclusive ecosystem that benefits everyone.
+together with the principles of [open-source development](https://opensource.com/resources/what-open-source){:target="_blank" rel="noreferrer"}.
+We want to create a vibrant and inclusive ecosystem that benefits everyone.
 The success of the tools can only come together with support from the community.
 
 To this end, we have assembled a list of best practices to be considered when developing tools:
-
 - **Assess the need**: A lot of tools have been developed already. It is often better to improve existing tools rather than to create new ones. Explore the tools below to get an idea of what exists and what the standards are. 
 - **Ensure maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
 - **Easy adoption**: Tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
-- **Reliability**: Confidence in the tool is needed for it to be used by others. Demonstrate that your tool does what it should. Tests are not overrated.
-- **Visibility**: Ensure that your tools are visible on the platforms used by the community, such as the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}. Add your tools to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}).
+- **Reliability**: Confidence in the tool is crucial for it to be used by others. Demonstrate that your tool does what it should do. Tests are not overrated.
+- **Visibility**: Ensure that your tools are visible on the platforms used by the community. Consider adding them to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}) and archiving them in the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}.
  
 Below is a list of programming languages together with the number of tools on this page that use them. 
-This can be helpful to determine what might be a suitable programming languages for future tools.
-
+This can be helpful in determining what might be a suitable programming languages for a future tool.
 
 {% assign all_languages = "" | split: "" %}
 {% assign all_languages_unique = "" | split: "" %}
