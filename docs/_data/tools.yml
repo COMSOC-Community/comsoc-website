@@ -18,8 +18,7 @@
   languages: 
     - Django
   description: >
-    PrefLib is a reference library of preference data that provides carefully curated data, 
-    formatted in a unified format.
+    PrefLib is a reference library of preference data that provides carefully curated data in a unified format.
 
 - name: pabulib.org
   topic: Participatory Budgeting
@@ -57,9 +56,9 @@
   has-tests: true
   documentation-url: https://preflib.github.io/preflibtools/
   description: >
-    The PrefLib-Tools is a set of Python tools developed to work with preference data from the
-    PrefLib.org website. This package provides input and output operations on PrefLib instances,
-    and several property checks for the instance (preference domain, etc...)
+    PrefLib-Tools is a set of Python tools developed to work with preference data from
+    PrefLib.org. It provides input and output operations on PrefLib instances,
+    and several property checks for such instance (such as checking for preference domain membership).
 
 - name: prefsampling
   topic: General Tools
@@ -82,8 +81,7 @@
   description: >
     PrefSampling is a lightweight Python library that provides preference samplers. These are 
     algorithms that generate random preferences based on precisely defined statistical cultures.
-    We consider different type of preferences: Ordinal: preferences are expressed as rankings of
-    the candidates; Approval: preferences are expressed by indicating a set of approved candidates.
+    It covers both ordinal and approval preferences.
 
 - name: abcvoting
   topic: Multi-Winner Voting
@@ -144,7 +142,7 @@
     - Python
   has-tests: true
   description: >
-    fairpy is an open-source library of fair division algorithms in Python.
+    Fairpy is an open-source library of fair division algorithms in Python.
 
 - name: fairpyx
   topic: Fair Division
@@ -161,7 +159,7 @@
     - Python
   has-tests: true
   description: >
-    fairpyx is a Python library containing various algorithms for fair allocation, with an emphasis
+    Fairpyx is a Python library with various algorithms for fair allocation, with an emphasis
     on course allocation.
 
 - name: mapel
@@ -182,7 +180,7 @@
     - Python
   has-tests: false
   description: >
-    mapel is a Python library to generate maps of elections.
+    Mapel is a Python library to generate maps of elections.
 
 - name: pabutools
   topic: Participatory Budgeting
@@ -211,7 +209,7 @@
   description: >
     The pabutools are a complete set of tools for working with participatory budgeting instances.
     It provides the tools to handle PB instances of different kinds, together with voting rules to
-    determine the outcome of the elections and some analytic tools.
+    determine the outcome of an election as well as some analytical tools.
 
 - name: pabuviz
   topic: Participatory Budgeting
@@ -230,7 +228,7 @@
     - Django 
     - React
   description: >
-    pabuviz is an interactive computation and visualization tool for participatory budgeting.
+    Pabuviz is an interactive computation and visualisation tool for participatory budgeting.
 
 - name: pref_voting
   topic: Single-Winner Voting
@@ -272,9 +270,9 @@
     - Python
   has-tests: true
   description: >
-    Votelib is a package to evaluate results of elections under various systems. It aims to provide
-    reliable implementations of many voting systems so that they may be evaluated as they are used
-    in real-world conditions and compared. The primary focus is on political decision making, but
+    Votelib is a package to evaluate results of elections under various voting rukes. It aims to provide
+    reliable implementations of many rules so that they can be evaluated and compared as they are used
+    under real-world conditions. The primary focus is on political decision making, but
     the library is not limited to evaluating political decisions only.
 
 - name: "equalshares.net"
@@ -324,7 +322,7 @@
     - Java Script
   source-url: https://github.com/DominikPeters/abcvoting-app
   description: >
-    Online tool to visualise the behaviours of different approval-based committee rules.
+    Online tool to visualise the behaviour of different approval-based committee rules.
     Uses the abcvoting python package as its backend.
 
 - name: "Pref.Tools: Pabutools"
@@ -338,7 +336,7 @@
       url: https://dominik-peters.de/
       maintainer: true
   description: >
-    Online tool to visualise the behaviours of different participatory budgeting rules.
+    Online tool to visualise the behaviour of different participatory budgeting rules.
     Uses pabutools as its backend.
 
 - name: "Pref.Tools: Fair rent division"
@@ -352,7 +350,7 @@
       url: https://dominik-peters.de/
       maintainer: true
   description: >
-    Online tool to visualise the behaviours of two different rules for fair rent division.
+    Online tool to visualise the behaviour of two different rules for fair rent division.
 
 - name: "MES online computation tool"
   topic: Participatory Budgeting
@@ -398,8 +396,8 @@
     - Java Script
   source-url: https://github.com/VotingTool/Online-Voting-Tool-Backend
   description: >
-    Online tool to compute visualise the output of the maximal lotteries rule. Maximal lotteries 
-    is an attractive randomized voting rule, first considered by Germaine Kreweras in 1965 and 
+    Online tool to compute and visualise the output of the maximal lotteries rule, 
+    an attractive randomised voting rule first considered by Germaine Kreweras in 1965 and 
     independently proposed by Peter C. Fishburn in 1984.
 
 - name: "Whale - Which Alternative is Elected?"
@@ -422,7 +420,7 @@
       maintainer: false
   source-url: https://gricad-gitlab.univ-grenoble-alpes.fr/bouveres/whale5
   description: >
-    Online polling platform that implements many major voting rules.
+    Online polling platform that implements many of the major voting rules.
 
 - name: "Stable Voting"
   topic: Single-Winner Voting
@@ -441,8 +439,7 @@
   languages: 
     - Python
   description: >
-    Stable Voting is a free and easy way to make a group decision by voting using the stable voting
-    Condorcet method.
+    Stable Voting is a free and easy way to make a group decision by voting using the stable voting method.
 
 - name: "QuickVote"
   topic: Single-Winner Voting
@@ -460,10 +457,8 @@
   languages: 
     - Python
   description: >
-    This website presents various preference aggregation algorithms, so that these different voting
-    rules could be compared to one another. A particular focus is given to mechanisms involving
-    Kendall distance, such as Kemeny consensus and Popular ranking, and trying to find solutions
-    as efficiently as possible. 
+    This website presents algorithms for various voting rules, with a focus on mechanisms involving the
+    Kendall-tau distance, such as Kemeny consensus and Popular ranking.  
 
 - name: "Spliddit"
   topic: Fair Division
@@ -514,10 +509,9 @@
     - Python
     - Streamlit
   description: >
-    Fast & Fair is designed to help you achieve fair division of indivisible items!
-    We offer a variety of algorithmic implementations to ensure a fair distribution
+    Fast & Fair is designed to help you achieve a fair division of indivisible items.
+    It offers a variety of algorithmic implementations to ensure a fair distribution
     of these items, taking into account standard fairness notions such as envy-freeness up to one
     item (EF1) and weighted envy-freeness (WEF).
-    Our app will help you find an allocation that fulfills these notions as closely as possible
-    while maximizing overall satisfaction.
+    
 
