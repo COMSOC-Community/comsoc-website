@@ -63,7 +63,7 @@ The success of the tools can only come together with support from the community.
 
 To this end, we have assembled a list of best practices to be considered when developing tools:
 - **Assess the need**: A lot of tools have been developed already. It is often better to improve existing tools rather than to create new ones. Explore the tools below to get an idea of what exists and what the standards are. 
-- **Ensure maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
+- **Maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
 - **Easy adoption**: Tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
 - **Reliability**: Confidence in the tool is crucial for it to be used by others. Demonstrate that your tool does what it should do. Tests are not overrated.
 - **Visibility**: Ensure that your tools are visible on the platforms used by the community. Consider adding them to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}) and archiving them in the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}.
