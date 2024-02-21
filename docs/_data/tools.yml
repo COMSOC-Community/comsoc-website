@@ -460,6 +460,28 @@
     This website presents algorithms for various voting rules, with a focus on mechanisms involving the
     Kendall-tau distance, such as Kemeny consensus and Popular ranking.  
 
+- name: "vodle – everygroup's consensus"
+  topic: Single-Winner Voting
+  category: Application
+  reference-tool: false
+  type: Website
+  url: http://vodle.it/
+  contributors:
+    - name: Jobst Heitzig
+      url: https://www.pik-potsdam.de/members/heitzig
+      maintainer: true
+    - name: several contributors from the open-source community
+      maintainer: false
+  maintainers:
+    - Jobst Heitzig
+  languages: 
+    - Typescript
+  source-url: https://github.com/pik-gane/vodle
+  description: >
+    Online tool to make consensus-aiming probabilistic single-winner (or more general resource apportionment) decisions with proportional power guarantees,
+    using an interactive version of the [Maximum Partial Consensus](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3751225) method.
+    Available in several languages.
+
 - name: "Spliddit"
   topic: Fair Division
   category: Application
