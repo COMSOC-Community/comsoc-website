@@ -470,10 +470,6 @@
     - name: Jobst Heitzig
       url: https://www.pik-potsdam.de/members/heitzig
       maintainer: true
-    - name: several contributors from the open-source community
-      maintainer: false
-  maintainers:
-    - Jobst Heitzig
   languages: 
     - Typescript
   source-url: https://github.com/pik-gane/vodle
