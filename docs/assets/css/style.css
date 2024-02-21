@@ -79,7 +79,7 @@ body {
 }
 
 main {
-  flex: 1
+  flex: 1;
 }
 
 section:nth-child(odd) {
@@ -91,7 +91,7 @@ section:nth-child(even) {
 }
 
 section {
-  padding: 50px;
+  padding: 50px 10%;
 }
 
 
