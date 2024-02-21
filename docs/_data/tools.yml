@@ -106,7 +106,7 @@
   description: >
     Approval-based committee rules (ABC rules) are voting methods for selecting a committee, 
     i.e., a fixed-size subset of candidates. ABC rules are also known as approval-based
-    multi-winner rules. The input of such rules are approval ballots.
+    multi-winner rules. The inputs of such rules are approval ballots.
     
 - name: apportionment
   topic: Multi-Winner Voting
