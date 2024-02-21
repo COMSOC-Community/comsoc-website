@@ -475,7 +475,7 @@
   source-url: https://github.com/pik-gane/vodle
   description: >
     Online tool to make consensus-aiming probabilistic single-winner (or more general resource apportionment) decisions with proportional power guarantees,
-    using an interactive version of the [Maximum Partial Consensus](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3751225) method.
+    using an interactive version of the <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3751225">Maximum Partial Consensus</a> method.
     Available in several languages.
 
 - name: "Spliddit"

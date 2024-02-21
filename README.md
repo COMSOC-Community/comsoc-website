@@ -280,6 +280,9 @@ libraries.
 The `documentation-url` attribute points to the documentation of the tool. This is mostly relevant
 for code libraries.
 
+If you want the `description` to be more fancy, by including a link for instance,
+you can include HTML tags in it (not markdown).
+
 ### Modify/Add a Journal Special Issue
 
 Journal special issues are described in the file `docs/_data/specialissues.yml` 
