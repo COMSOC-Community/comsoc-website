@@ -160,8 +160,14 @@ This can be helpful in determining what might be a suitable programming language
 <p>{{ tool.description }}</p>
 
 <p>
-    {% for contrib in tool.contributors %}<span{% if contrib.maintainer %} class="tool-contributor"{% endif%}>{% if contrib.url %}<a href="{{ contrib.url }}">{% endif %}{{ contrib.name }}{% if contrib.url %}</a>{% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}
+    {% for contrib in tool.contributors %}<span{% if contrib.maintainer %} class="tool-contributor"{% endif%}>{% if contrib.url %}<a href="{{ contrib.url }}">{% endif %}{{ contrib.name }}{% if contrib.url %}</a>{% endif %}{% if contrib.maintainer %} (<i class="fa-solid fa-wrench maintainer-badge"></i>){% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}
 </p>
+
+{% if tool.languages %}
+<p class="programming-languages">
+    {% for language in tool.languages %}<span>{{ language }}</span>{% endfor %}
+</p>
+{% endif %}
 </div>
 </div>
 {% endfor %}

@@ -668,3 +668,7 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
+
+.maintainer-badge {
+  font-size: 0.8rem;
+}
