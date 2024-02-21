@@ -71,16 +71,16 @@
     </div>
     <div id="footer-navigation-wrap">
         <div class="footer-navigation">
-            <p><a href="{{ "/" | relative_url }}">COMSOC</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "/" | relative_url }}">COMSOC</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "/" | relative_url }}#interdisciplinarity">Interdisciplinarity</a></li>
                 <li><a href="{{ "/" | relative_url }}#topics">Topics</a></li>
                 <li><a href="{{ "/" | relative_url }}#courses">Courses</a></li>
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "community" | relative_url }}">Community</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "community" | relative_url }}">Community</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "community" | relative_url }}#mailing-list">Mailing List</a></li>
                 <li><a href="{{ "community" | relative_url }}#meeting-places">Meeting Places</a></li>
                 <li><a href="{{ "community" | relative_url }}#zenodo">Zenodo</a></li>
@@ -88,8 +88,8 @@
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "workshops" | relative_url }}">Workshops</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "workshops" | relative_url }}">Workshops</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "workshops" | relative_url }}#steering-committee">Steering Committee</a></li>
                 <li><a href="{{ "workshops" | relative_url }}#organising">Organising</a></li>
                 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
@@ -99,32 +99,32 @@
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "video-seminar" | relative_url }}">Seminar</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "video-seminar" | relative_url }}">Seminar</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "video-seminar" | relative_url }}#past-sessions">Past Sessions</a></li>
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "events" | relative_url }}">Events</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "events" | relative_url }}">Events</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "events" | relative_url }}#summer-schools">Summer Schools</a></li>
                 <li><a href="{{ "events" | relative_url }}#dagstuhl">Dagstuhl</a></li>
                 <li><a href="{{ "events" | relative_url }}#other">Other</a></li>
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "publications" | relative_url }}">Publications</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "publications" | relative_url }}">Publications</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "publications" | relative_url }}#books">Books</a></li>
                 <li><a href="{{ "publications" | relative_url }}#special-issues">Special Issues</a></li>
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "theses" | relative_url }}">Theses</a></p>
+            <p class="footer-navigation-page"><a href="{{ "theses" | relative_url }}">Theses</a></p>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "tools" | relative_url }}">Tools</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "tools" | relative_url }}">Tools</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "tools" | relative_url }}#best-practices">Best Practices</a></li>
                 {% for topic in site.tools_topics %}
                 {% assign tools_per_topic = site.data.tools | group_by: "topic" %}
@@ -136,8 +136,8 @@
             </ul>
         </div>
         <div class="footer-navigation">
-            <p><a href="{{ "about" | relative_url }}">About</a></p>
-            <ul>
+            <p class="footer-navigation-page"><a href="{{ "about" | relative_url }}">About</a></p>
+            <ul class="footer-navigation-sections">
                 <li><a href="{{ "about" | relative_url }}#modify">Modify</a></li>
                 <li><a href="{{ "about" | relative_url }}#archive">Archive</a></li>
                 <li><a href="{{ "about" | relative_url }}#contact">Contact</a></li>
