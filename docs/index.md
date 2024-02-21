@@ -40,7 +40,7 @@ including computer science, AI, economics, political science, philosophy, logic,
 This interdisciplinary nature allows researchers to tackle complex problems in collective decision making 
 from multiple perspectives.
 
-<div markdown="1" class="paragraphs-with-lettrine-wrapper">
+<div markdown="1" class="paragraphs-with-lettrine-wrap">
 
 <span class="interdisciplinary-header lettrine">Algorithmic<br>Insights</span>
 Classical results in social choice theory often concern the mathematical possibility (or impossibility) 
