@@ -95,8 +95,8 @@ able to offer an attractive programme with several high-profile invited speakers
 
 ## Organising a COMSOC Workshop
 
-To get an idea of what is involved in organising one of the workshops in the series, have a look at the (expired)
-[Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2023.txt)
-to host the 2023 edition.
+To get an idea of what is involved in organising one of the workshops in the series, have a look at the
+[Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2025.txt)
+to host the 2025 edition. And maybe even submit a bid? Deadline: 30 April 2024
 
 </section>
