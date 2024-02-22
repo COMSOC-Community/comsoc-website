@@ -102,7 +102,7 @@ This can be helpful in determining what might be a suitable programming language
 
 Tools are often used to conduct numerical experiments. Consult this recent
 [survey paper](https://arxiv.org/abs/2402.11765){:target="_blank" rel="noreferrer"}
-for advice to run such experiments as well as a discussion of current standards and practices
+for advice on how to run such experiments as well as a discussion of current standards and practices
 (see also the associated [database](https://guide.cbip.matinf.uj.edu.pl/articles/){:target="_blank" rel="noreferrer"}
 of experimental papers in COMSOC).
 
