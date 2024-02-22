@@ -63,11 +63,11 @@ The success of the tools can only come together with support from the community.
 
 To this end, we have assembled a list of best practices to be considered when developing tools:
 - **Assess the need**: A lot of tools have been developed already. It is often better to improve existing tools rather than to create new ones. Explore the tools below to get an idea of what exists and what the standards are. 
-- **Maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
+- **Maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be available 10 years down the line. Documentation is key.
 - **Easy adoption**: Tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
-- **Interoperability**: It is important to think of the tools for COMSOC as an ecosystem. When developing a new tool, think about its interoperability with other tools. Use standard data formats (see PrefLib or Pabulib) for instance.
-- **Reliability**: Confidence in the tool is crucial for it to be used by others. Demonstrate that your tool does what it should do. Tests are not overrated.
-- **Visibility**: Ensure that your tools are visible on the platforms used by the community. Consider adding them to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}) and archiving them in the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}.
+- **Interoperability**: It is important to think of the tools for COMSOC as an ecosystem. When developing a new tool, think about its interoperability with other tools. Use standard data formats (such as the [PrefLib](https://www.preflib.org/format){:target="_blank" rel="noreferrer"} and [Pabulib](https://pabulib.org/format){:target="_blank" rel="noreferrer"} format).
+- **Reliability**: Confidence in the tool is crucial for it to be used by others. Demonstrate that your tool does what it should do. Tests are not overrated. As a first step, use all relevant examples from papers and textbooks as tests.
+- **Visibility**: Ensure that your tools are visible on the platforms used by the community. Consider adding them to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}) and archiving them in the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"} (you can easily archive GitHub repositories on Zenodo by [linking your account](https://help.zenodo.org/docs/profile/linking-accounts/){:target="_blank" rel="noreferrer"}).
  
 Below is a list of programming languages together with the number of tools on this page that use them. 
 This can be helpful in determining what might be a suitable programming languages for a future tool.
