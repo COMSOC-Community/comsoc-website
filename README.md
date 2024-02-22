@@ -344,7 +344,7 @@ If you are adding a new group photo, do not forget to put in the directory `docs
 
 ### Archive a Static Website
 
-To serve a standalone HTML website form the Jekyll project, perform the following steps:
+To serve a standalone HTML website from the Jekyll project, perform the following steps:
 
 - In the `docs/_collections` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_collections) folder, add an HTML file corresponding to the website you are adding, for instance `website.html`
 - The content of `docs/_collections/website.html` should be:
