@@ -82,6 +82,8 @@
     PrefSampling is a lightweight Python library that provides preference samplers. These are 
     algorithms that generate random preferences based on precisely defined statistical cultures.
     It covers both ordinal and approval preferences.
+    This tool is part of the <a href="https://arxiv.org/abs/2402.11765" target="_blank" rel="noreferrer">Guide to
+    Numerical Experiments on Elections in Computational Social Choice</a>.
 
 - name: abcvoting
   topic: Multi-Winner Voting
