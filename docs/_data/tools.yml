@@ -103,7 +103,7 @@
     - name: Dominik Peters
       url: https://dominik-peters.de/
       maintainer: false
-    - name: others
+    - name: many more
       url: https://abcvoting.readthedocs.io/en/latest/acks.html
       maintainer: false    
   source-url: https://github.com/martinlackner/abcvoting
