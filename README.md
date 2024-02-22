@@ -332,7 +332,7 @@ The format is as follows:
 ```yaml
 - src: Matching_Summer_School_2013.jpg
   title: Summer School on Matching Problems, Markets, and Mechanisms in Budapest (2013)
-  url: https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/Budapest-2013/index.html
+  url: https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/Budapest-2013/
 ```
 
 The `src` points to the photo in the directory `docs/assets/images/group-photos`
