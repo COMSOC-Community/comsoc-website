@@ -1,5 +1,6 @@
 CALL FOR BIDS TO HOST COMSOC-2025
 ----------------------------------------------------------
+
 We are now soliciting bids to host COMSOC-2025, the 10th International
 Workshop on Computational Social Choice. In previous years, COMSOC has
 been held as a 3/4-day meeting, attracting around 100 participants,
@@ -10,11 +11,15 @@ more than half of the workshop participants. COMSOC-2021 was held in a
 hybrid format due to the COVID-19 pandemic.
 
 If you would like to host COMSOC-2025, please email your bid to:
+
 - Reshef Meir: reshefm@dds.technion.ac.il (primary contact for bidding)
+
 or to one or more of the other membe rs of the COMSOC steering committee:
+
 - Bill Zwicker: zwickerw@union.edu
 - Omer Lev: omerlev@bgu.ac.il
 - Marcus Pivato: marcuspivato@gmail.com
+
 The bid should arrive no later than *30 April 2024*. We encourage
 everyone to apply, however please bear in mind the following:
 We aim for COMSOC to balance between areas that are geographically
@@ -23,6 +28,7 @@ and North America), and locations with potential for growth of the
 community.
 
 Your bid should consider the following issues:
+
 (1) Location and facilities: Where do you propose to hold COMSOC-2025?
 Please state both the city and the exact location, and comment on the
 suitability of the available facilities (rooms) for the scientific
@@ -30,15 +36,18 @@ programme as well as lunches and coffee breaks. Please also comment on
 ac cessibility and attractiveness of the location, and on the
 availability of suitable (including low budget) accommodation and
 transport.
+
 (2) Organization: Who would be the main local organizer of COMSOC-2025?
 Which organization (e.g., university) would be hosting the workshop?
 Please also comment on local research groups that would benefit from
 attracting COMSOC.
+
 (3) Schedule: What dates do you suggest? The workshop should take place
 in or around May-September 2025. Are there any local constraints? Are
 you aware of any other international events that may constrain the
 choice of dates (see partial list below)? What schedule do you suggest
 for the paper reviewing procedure?
+
 (4) Budget: How do you intend to finance the workshop? Please provide a
 preliminary budget. Expenses to keep in mind include: invited speakers;
 coffee breaks; lunch; social dinner; possibly room and equipment hire;
@@ -46,15 +55,18 @@ possibly secretarial and administrative support; possibly a half-day
 excursion. What level of registration fees do you anticipate and what
 would they cover? Please make sure that the costs are as low as
 possible, preferably no higher than those of recent COMSOC events.
+
 Finally, please include any other issues that you consider important.
 
 All potential proposers are encouraged to contact us informally before
 submitting their bid. Please do not hesitate to get in touch with any
 questions that you may have.
+
 ========================
 Partial list of relevant events that might collide with COMSOC:
 - IJCAI-25, (typically July/August
 - AAMAS-25, (typically May/June)
 - EC-25, (typically June/July)
+
 ------------------------------------------------------------------------
 
