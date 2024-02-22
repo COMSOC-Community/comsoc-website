@@ -65,6 +65,7 @@ To this end, we have assembled a list of best practices to be considered when de
 - **Assess the need**: A lot of tools have been developed already. It is often better to improve existing tools rather than to create new ones. Explore the tools below to get an idea of what exists and what the standards are. 
 - **Maintainability**: Tools should be developed for the long term. Keep in mind that the initial developer may not be around 10 years down the line. Documentation is key.
 - **Easy adoption**: Tools are successful only if they are easy to use. Documentation is key once again. Provide examples on how to use them.
+- **Interoperability**: It is important to think of the tools for COMSOC as an ecosystem. When developing a new tool, think about its interoperability with other tools. Use standard data formats (see PrefLib or Pabulib) for instance.
 - **Reliability**: Confidence in the tool is crucial for it to be used by others. Demonstrate that your tool does what it should do. Tests are not overrated.
 - **Visibility**: Ensure that your tools are visible on the platforms used by the community. Consider adding them to this list ([how to]({{ site.github_url}}){:target="_blank" rel="noreferrer"}) and archiving them in the [COMSOC repository on Zenodo](https://zenodo.org/communities/comsoc){:target="_blank" rel="noreferrer"}.
  
@@ -98,6 +99,12 @@ This can be helpful in determining what might be a suitable programming language
 <div class="programming-languages"><span>{{ unique_lang }}:</span><span>{{ count }}</span></div>
 {% endfor %}
 </div>
+
+Tools are often used to conduct numerical experiments. Consult this recent
+[survey paper](https://arxiv.org/abs/2402.11765){:target="_blank" rel="noreferrer"}
+for advice to run such experiments as well as a discussion of current standards and practices
+(see also the associated [database](https://guide.cbip.matinf.uj.edu.pl/articles/){:target="_blank" rel="noreferrer"}
+of experimental papers in COMSOC).
 
 </section>
 

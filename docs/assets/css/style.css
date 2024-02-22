@@ -652,6 +652,7 @@ section:nth-child(even) .tool-wrap:nth-child(even) {
   display: flex;
   gap: 20px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .programming-languages > span:first-child {
