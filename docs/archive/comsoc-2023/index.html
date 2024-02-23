@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>COMSOC@BGU 2023</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+
+/*
+ * Global add-ons
+ */
+.sub-header {
+ padding-bottom: 10px;
+ border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+ margin-top:0px;
+ position: fixed;
+ top:0px;
+ /*top: 51px;
+ bottom: 0;
+ z-index: 1000;*/
+ left: 0;
+ 
+ display: block;
+ 
+ overflow-x: hidden;
+ overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+ background-color: #f5f5f5;
+ border-right: 1px solid #eee;
+ font-size: 18px;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+ margin-right: -21px; /* 20px padding + 1px border */
+ margin-bottom: 20px;
+ margin-left: -20px;
+ 
+}
+.nav-sidebar > li > a {
+ padding-right: 20px;
+ padding-left: 20px;
+ color:#ff9900;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+ color: #fff;
+ background-color: #ff9900;
+}
+
+
+/*
+ * Main content
+ */
+p,li {
+	font-size: 18px;
+}
+
+h3 {
+	color: #ff9900;
+}
+
+.main {
+ padding: 0px; 
+}
+
+.main .page-header {
+ margin-top: 0;
+}
+
+.topMargin {
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+table.prog {
+border-collapse: separate;
+}
+
+table.prog th, table.prog td {
+padding: 10px;
+border: 0.5px solid black;
+text-align: center
+}
+
+table.photos th, table.photos td {
+padding: 10px;
+}
+
+.keynote {
+background-color: LightYellow;
+}
+
+.food {
+background-color: PeachPuff;
+}
+
+.talk {
+background-color: PaleTurquoise;
+}
+
+.posters {
+background-color: SkyBlue;
+}
+
+
+@media screen and (max-width: 1024px){
+.nav-sidebar {
+ margin-bottom: 0px;
+ margin-left: -14px;
+ 
+}
+
+.topMargin{
+margin-left: 5%;
+margin-right: 5%;
+}
+		 .nav-sidebar > li > a {
+ padding-right: 0px;
+ padding-left: 0px;
+		}
+}
+
+ </style>
+
+</head>
+
+<body>
+
+<div class="topMargin">
+
+
+
+<div style ="display:inline-block; position:relative; width: 100%;">
+	<div style = "position:absolute;background-color: #fff; opacity: 0.8; width: 100%; text-align:left;">
+		<h3 style ="margin:10px;color: #f37421; font-weight: bold;">COMSOC in the Desert:<br /> 9th International Workshop on Computational Social Choice (COMSOC 2023)</h3>
+	
+<h4 style ="margin:10px;color: #f37421; font-weight: bold;">Ben-Gurion University of the Negev, Beersheba, Israel, 3-5 July 2023</h4>
+</div> 
+	<div><img src="./comsoc/img/banner.jpg" alt="Picture of BGU campus" style="width:100%;"> </div>
+
+
+<div class="tab-content col-xs-12" style = "position:absolute;text-align:left; padding-top: 10px;"> 
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade in active" id="about">
+<h3> Important Dates!</h3>
+<h4>All dates are 23:59 anywhere on Earth</h4>
+<table style="border-collapse: collapse; border: none;">
+<tr>
+<td style="padding-bottom: 10px;">February 1</td>
+<td style="padding-bottom: 10px;">:&nbsp</td>
+<td style="padding-bottom: 10px;">Submissions open</td>
+</tr>
+<tr>
+<td style="padding-bottom: 10px;">March 10</td>
+<td style="padding-bottom: 10px;">:&nbsp</td>
+<td style="padding-bottom: 10px;">Abstract submission deadline</td>
+</tr>
+<tr>
+<td style="padding-bottom: 10px;">March 15</td>
+<td style="padding-bottom: 10px;">:&nbsp</td>
+<td style="padding-bottom: 10px;">Deadline for submissions of full papers</td>
+</tr>
+<tr>
+<td style="padding-bottom: 10px;"></td>
+<td style="padding-bottom: 10px;"></td>
+<td style="padding-bottom: 10px;"><h5>Due to multiple requests, we will leave the server open for 3 more days</h5></td>
+</tr>
+
+<tr>
+<td style="padding-bottom: 10px;">May 14</td>
+<td style="padding-bottom: 10px;">:&nbsp</td>
+<td style="padding-bottom: 10px;">Acceptance decisions</td>
+</tr>
+<tr>
+<td style="padding-bottom: 10px;">June 11</td>
+<td style="padding-bottom: 10px;">:&nbsp</td>
+<td style="padding-bottom: 10px;">Deadline for conference registration</td>
+</tr>
+<tr>
+<td style="padding-bottom: 10px; color:#ff0000;">July 3-5</td>
+<td style="padding-bottom: 10px; color:#ff0000;">:&nbsp</td>
+<td style="padding-bottom: 10px; color:#ff0000;">COMSOC conference</td>
+</tr>
+</table>
+
+
+ <h3>About COMSOC@BGU 2023</h3>
+ <p>
+Computational social choice is a discipline at the interface of social choice theory and computer science. 
+It is concerned with the application of computational techniques to the study of social choice mechanisms, and with the integration of social choice paradigms into computing 
+(<a href="http://research.illc.uva.nl/COMSOC/what-is-comsoc.html">read more</a>).</p>
+
+
+
+<p>The 9th International Workshop on Computational Social Choice (COMSOC) will take place on 3-5 July 2023, at Ben-Gurion University of the Negev, Beersheba, Israel. 
+The aim of the workshop is to bring together different communities: computer scientists interested in computational issues in social choice; 
+people working in artificial intelligence and multiagent systems who are using ideas from social choice to organize societies of artificial software agents; 
+logicians interested in the logic-based specification and analysis of social procedures; computer science theorists analyzing algorithmic properties of social phenomena; 
+and &mdash; last but not least &mdash; people coming from social choice theory itself: economists, mathematicians, and political scientists.
+</p>
+
+<br />
+<br />
+
+<h3>Funding Support</h3>
+<a href="https://www.bsf.org.il"><img src="./comsoc/img/bsf.jpg" alt="U.S-Israel Binational Science Foundation logo" width="20%"></a>
+<a href="https://labex-mme-dii.u-cergy.fr/"><img src="./comsoc/img/labex.jpg" alt="Labex MME-DII logo" width="20%"></a>
+<a href="https://in.bgu.ac.il/en/pivanierpm/Pages/default.aspx"><img src="./comsoc/img/pi.jpg" alt="Paul Ivanier Center for Production Management logo" width="20%"></a>
+<a href="https://aij.ijcai.org"><img src="./comsoc/img/aij.jpg" alt="Artificial Intelligenc Journal logo" width="20%"></a>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="photos">
+<h3>Event Photographs</h3>
+<p>Click on a thumbnail to open the photo in full resolution.</p>
+<br />
+
+<table class="photos" style="border-spacing:100px;">
+
+<tr><td><a href="./comsoc/pics/pic1.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic1.jpg" alt="Picture 1" /></a></td>
+<td><a href="./comsoc/pics/pic2.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic2.jpg" alt="Picture 2" /></a></td>
+<td><a href="./comsoc/pics/pic3.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic3.jpg" alt="Picture 3" /></a></td>
+<td><a href="./comsoc/pics/pic4.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic4.jpg" alt="Picture 4" /></a></td>
+<td><a href="./comsoc/pics/pic5.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic5.jpg" alt="Picture 5" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic6.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic6.jpg" alt="Picture 6" /></a></td>
+<td><a href="./comsoc/pics/pic7.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic7.jpg" alt="Picture 7" /></a></td>
+<td><a href="./comsoc/pics/pic8.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic8.jpg" alt="Picture 8" /></a></td>
+<td><a href="./comsoc/pics/pic9.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic9.jpg" alt="Picture 9" /></a></td>
+<td><a href="./comsoc/pics/pic10.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic10.jpg" alt="Picture 10" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic11.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic11.jpg" alt="Picture 11" /></a></td>
+<td><a href="./comsoc/pics/pic12.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic12.jpg" alt="Picture 12" /></a></td>
+<td><a href="./comsoc/pics/pic13.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic13.jpg" alt="Picture 13" /></a></td>
+<td><a href="./comsoc/pics/pic14.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic14.jpg" alt="Picture 14" /></a></td>
+<td><a href="./comsoc/pics/pic15.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic15.jpg" alt="Picture 15" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic16.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic16.jpg" alt="Picture 16" /></a></td>
+<td><a href="./comsoc/pics/pic17.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic17.jpg" alt="Picture 17" /></a></td>
+<td><a href="./comsoc/pics/pic18.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic18.jpg" alt="Picture 18" /></a></td>
+<td><a href="./comsoc/pics/pic19.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic19.jpg" alt="Picture 19" /></a></td>
+<td><a href="./comsoc/pics/pic20.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic20.jpg" alt="Picture 20" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic21.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic21.jpg" alt="Picture 21" /></a></td>
+<td><a href="./comsoc/pics/pic22.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic22.jpg" alt="Picture 22" /></a></td>
+<td><a href="./comsoc/pics/pic23.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic23.jpg" alt="Picture 23" /></a></td>
+<td><a href="./comsoc/pics/pic24.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic24.jpg" alt="Picture 24" /></a></td>
+<td><a href="./comsoc/pics/pic25.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic25.jpg" alt="Picture 25" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic26.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic26.jpg" alt="Picture 26" /></a></td>
+<td><a href="./comsoc/pics/pic27.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic27.jpg" alt="Picture 27" /></a></td>
+<td><a href="./comsoc/pics/pic28.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic28.jpg" alt="Picture 28" /></a></td>
+<td><a href="./comsoc/pics/pic29.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic29.jpg" alt="Picture 29" /></a></td>
+<td><a href="./comsoc/pics/pic30.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic30.jpg" alt="Picture 30" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic31.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic31.jpg" alt="Picture 31" /></a></td>
+<td><a href="./comsoc/pics/pic32.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic32.jpg" alt="Picture 32" /></a></td>
+<td><a href="./comsoc/pics/pic33.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic33.jpg" alt="Picture 33" /></a></td>
+<td><a href="./comsoc/pics/pic34.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic34.jpg" alt="Picture 34" /></a></td>
+<td><a href="./comsoc/pics/pic35.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic35.jpg" alt="Picture 35" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic36.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic36.jpg" alt="Picture 36" /></a></td>
+<td><a href="./comsoc/pics/pic37.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic37.jpg" alt="Picture 37" /></a></td>
+<td><a href="./comsoc/pics/pic38.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic38.jpg" alt="Picture 38" /></a></td>
+<td><a href="./comsoc/pics/pic39.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic39.jpg" alt="Picture 39" /></a></td>
+<td><a href="./comsoc/pics/pic40.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic40.jpg" alt="Picture 40" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic41.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic41.jpg" alt="Picture 41" /></a></td>
+<td><a href="./comsoc/pics/pic42.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic42.jpg" alt="Picture 42" /></a></td>
+<td><a href="./comsoc/pics/pic43.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic43.jpg" alt="Picture 43" /></a></td>
+<td><a href="./comsoc/pics/pic44.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic44.jpg" alt="Picture 44" /></a></td>
+<td><a href="./comsoc/pics/pic45.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic45.jpg" alt="Picture 45" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic46.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic46.jpg" alt="Picture 46" /></a></td>
+<td><a href="./comsoc/pics/pic47.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic47.jpg" alt="Picture 47" /></a></td>
+<td><a href="./comsoc/pics/pic48.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic48.jpg" alt="Picture 48" /></a></td>
+<td><a href="./comsoc/pics/pic49.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic49.jpg" alt="Picture 49" /></a></td>
+<td><a href="./comsoc/pics/pic50.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic50.jpg" alt="Picture 50" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic51.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic51.jpg" alt="Picture 51" /></a></td>
+<td><a href="./comsoc/pics/pic52.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic52.jpg" alt="Picture 52" /></a></td>
+<td><a href="./comsoc/pics/pic53.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic53.jpg" alt="Picture 53" /></a></td>
+<td><a href="./comsoc/pics/pic54.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic54.jpg" alt="Picture 54" /></a></td>
+<td><a href="./comsoc/pics/pic55.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic55.jpg" alt="Picture 55" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic56.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic56.jpg" alt="Picture 56" /></a></td>
+<td><a href="./comsoc/pics/pic57.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic57.jpg" alt="Picture 57" /></a></td>
+<td><a href="./comsoc/pics/pic58.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic58.jpg" alt="Picture 58" /></a></td>
+<td><a href="./comsoc/pics/pic59.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic59.jpg" alt="Picture 59" /></a></td>
+<td><a href="./comsoc/pics/pic60.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic60.jpg" alt="Picture 60" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic61.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic61.jpg" alt="Picture 61" /></a></td>
+<td><a href="./comsoc/pics/pic62.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic62.jpg" alt="Picture 62" /></a></td>
+<td><a href="./comsoc/pics/pic63.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic63.jpg" alt="Picture 63" /></a></td>
+<td><a href="./comsoc/pics/pic64.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic64.jpg" alt="Picture 64" /></a></td>
+<td><a href="./comsoc/pics/pic65.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic65.jpg" alt="Picture 65" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic66.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic66.jpg" alt="Picture 66" /></a></td>
+<td><a href="./comsoc/pics/pic67.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic67.jpg" alt="Picture 67" /></a></td>
+<td><a href="./comsoc/pics/pic68.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic68.jpg" alt="Picture 68" /></a></td>
+<td><a href="./comsoc/pics/pic69.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic69.jpg" alt="Picture 69" /></a></td>
+<td><a href="./comsoc/pics/pic70.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic70.jpg" alt="Picture 70" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic71.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic71.jpg" alt="Picture 71" /></a></td>
+<td><a href="./comsoc/pics/pic72.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic72.jpg" alt="Picture 72" /></a></td>
+<td><a href="./comsoc/pics/pic73.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic73.jpg" alt="Picture 73" /></a></td>
+<td><a href="./comsoc/pics/pic74.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic74.jpg" alt="Picture 74" /></a></td>
+<td><a href="./comsoc/pics/pic75.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic75.jpg" alt="Picture 75" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic76.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic76.jpg" alt="Picture 76" /></a></td>
+<td><a href="./comsoc/pics/pic77.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic77.jpg" alt="Picture 77" /></a></td>
+<td><a href="./comsoc/pics/pic78.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic78.jpg" alt="Picture 78" /></a></td>
+<td><a href="./comsoc/pics/pic79.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic79.jpg" alt="Picture 79" /></a></td>
+<td><a href="./comsoc/pics/pic80.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic80.jpg" alt="Picture 80" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic81.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic81.jpg" alt="Picture 81" /></a></td>
+<td><a href="./comsoc/pics/pic82.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic82.jpg" alt="Picture 82" /></a></td>
+<td><a href="./comsoc/pics/pic83.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic83.jpg" alt="Picture 83" /></a></td>
+<td><a href="./comsoc/pics/pic84.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic84.jpg" alt="Picture 84" /></a></td>
+<td><a href="./comsoc/pics/pic85.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic85.jpg" alt="Picture 85" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic86.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic86.jpg" alt="Picture 86" /></a></td>
+<td><a href="./comsoc/pics/pic87.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic87.jpg" alt="Picture 87" /></a></td>
+<td><a href="./comsoc/pics/pic88.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic88.jpg" alt="Picture 88" /></a></td>
+<td><a href="./comsoc/pics/pic89.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic89.jpg" alt="Picture 89" /></a></td>
+<td><a href="./comsoc/pics/pic90.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic90.jpg" alt="Picture 90" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic91.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic91.jpg" alt="Picture 91" /></a></td>
+<td><a href="./comsoc/pics/pic92.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic92.jpg" alt="Picture 92" /></a></td>
+<td><a href="./comsoc/pics/pic93.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic93.jpg" alt="Picture 93" /></a></td>
+<td><a href="./comsoc/pics/pic94.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic94.jpg" alt="Picture 94" /></a></td>
+<td><a href="./comsoc/pics/pic95.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic95.jpg" alt="Picture 95" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic96.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic96.jpg" alt="Picture 96" /></a></td>
+<td><a href="./comsoc/pics/pic97.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic97.jpg" alt="Picture 97" /></a></td>
+<td><a href="./comsoc/pics/pic98.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic98.jpg" alt="Picture 98" /></a></td>
+<td><a href="./comsoc/pics/pic99.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic99.jpg" alt="Picture 99" /></a></td>
+<td><a href="./comsoc/pics/pic100.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic100.jpg" alt="Picture 100" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic101.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic101.jpg" alt="Picture 101" /></a></td>
+<td><a href="./comsoc/pics/pic102.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic102.jpg" alt="Picture 102" /></a></td>
+<td><a href="./comsoc/pics/pic103.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic103.jpg" alt="Picture 103" /></a></td>
+<td><a href="./comsoc/pics/pic104.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic104.jpg" alt="Picture 104" /></a></td>
+<td><a href="./comsoc/pics/pic105.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic105.jpg" alt="Picture 105" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic106.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic106.jpg" alt="Picture 106" /></a></td>
+<td><a href="./comsoc/pics/pic107.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic107.jpg" alt="Picture 107" /></a></td>
+<td><a href="./comsoc/pics/pic108.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic108.jpg" alt="Picture 108" /></a></td>
+<td><a href="./comsoc/pics/pic109.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic109.jpg" alt="Picture 109" /></a></td>
+<td><a href="./comsoc/pics/pic110.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic110.jpg" alt="Picture 110" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic111.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic111.jpg" alt="Picture 111" /></a></td>
+<td><a href="./comsoc/pics/pic112.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic112.jpg" alt="Picture 112" /></a></td>
+<td><a href="./comsoc/pics/pic113.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic113.jpg" alt="Picture 113" /></a></td>
+<td><a href="./comsoc/pics/pic114.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic114.jpg" alt="Picture 114" /></a></td>
+<td><a href="./comsoc/pics/pic115.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic115.jpg" alt="Picture 115" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic116.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic116.jpg" alt="Picture 116" /></a></td>
+<td><a href="./comsoc/pics/pic117.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic117.jpg" alt="Picture 117" /></a></td>
+<td><a href="./comsoc/pics/pic118.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic118.jpg" alt="Picture 118" /></a></td>
+<td><a href="./comsoc/pics/pic119.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic119.jpg" alt="Picture 119" /></a></td>
+<td><a href="./comsoc/pics/pic120.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic120.jpg" alt="Picture 120" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic121.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic121.jpg" alt="Picture 121" /></a></td>
+<td><a href="./comsoc/pics/pic122.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic122.jpg" alt="Picture 122" /></a></td>
+<td><a href="./comsoc/pics/pic123.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic123.jpg" alt="Picture 123" /></a></td>
+<td><a href="./comsoc/pics/pic124.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic124.jpg" alt="Picture 124" /></a></td>
+<td><a href="./comsoc/pics/pic125.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic125.jpg" alt="Picture 125" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic126.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic126.jpg" alt="Picture 126" /></a></td>
+<td><a href="./comsoc/pics/pic127.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic127.jpg" alt="Picture 127" /></a></td>
+<td><a href="./comsoc/pics/pic128.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic128.jpg" alt="Picture 128" /></a></td>
+<td><a href="./comsoc/pics/pic129.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic129.jpg" alt="Picture 129" /></a></td>
+<td><a href="./comsoc/pics/pic130.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic130.jpg" alt="Picture 130" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic131.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic131.jpg" alt="Picture 131" /></a></td>
+<td><a href="./comsoc/pics/pic132.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic132.jpg" alt="Picture 132" /></a></td>
+<td><a href="./comsoc/pics/pic133.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic133.jpg" alt="Picture 133" /></a></td>
+<td><a href="./comsoc/pics/pic134.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic134.jpg" alt="Picture 134" /></a></td>
+<td><a href="./comsoc/pics/pic135.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic135.jpg" alt="Picture 135" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic136.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic136.jpg" alt="Picture 136" /></a></td>
+<td><a href="./comsoc/pics/pic137.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic137.jpg" alt="Picture 137" /></a></td>
+<td><a href="./comsoc/pics/pic138.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic138.jpg" alt="Picture 138" /></a></td>
+<td><a href="./comsoc/pics/pic139.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic139.jpg" alt="Picture 139" /></a></td>
+<td><a href="./comsoc/pics/pic140.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic140.jpg" alt="Picture 140" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic141.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic141.jpg" alt="Picture 141" /></a></td>
+<td><a href="./comsoc/pics/pic142.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic142.jpg" alt="Picture 142" /></a></td>
+<td><a href="./comsoc/pics/pic143.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic143.jpg" alt="Picture 143" /></a></td>
+<td><a href="./comsoc/pics/pic144.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic144.jpg" alt="Picture 144" /></a></td>
+<td><a href="./comsoc/pics/pic145.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic145.jpg" alt="Picture 145" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic146.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic146.jpg" alt="Picture 146" /></a></td>
+<td><a href="./comsoc/pics/pic147.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic147.jpg" alt="Picture 147" /></a></td>
+<td><a href="./comsoc/pics/pic148.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic148.jpg" alt="Picture 148" /></a></td>
+<td><a href="./comsoc/pics/pic149.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic149.jpg" alt="Picture 149" /></a></td>
+<td><a href="./comsoc/pics/pic150.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic150.jpg" alt="Picture 150" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic151.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic151.jpg" alt="Picture 151" /></a></td>
+<td><a href="./comsoc/pics/pic152.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic152.jpg" alt="Picture 152" /></a></td>
+<td><a href="./comsoc/pics/pic153.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic153.jpg" alt="Picture 153" /></a></td>
+<td><a href="./comsoc/pics/pic154.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic154.jpg" alt="Picture 154" /></a></td>
+<td><a href="./comsoc/pics/pic155.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic155.jpg" alt="Picture 155" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic156.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic156.jpg" alt="Picture 156" /></a></td>
+<td><a href="./comsoc/pics/pic157.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic157.jpg" alt="Picture 157" /></a></td>
+<td><a href="./comsoc/pics/pic158.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic158.jpg" alt="Picture 158" /></a></td>
+<td><a href="./comsoc/pics/pic159.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic159.jpg" alt="Picture 159" /></a></td>
+<td><a href="./comsoc/pics/pic160.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic160.jpg" alt="Picture 160" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic161.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic161.jpg" alt="Picture 161" /></a></td>
+<td><a href="./comsoc/pics/pic162.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic162.jpg" alt="Picture 162" /></a></td>
+<td><a href="./comsoc/pics/pic163.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic163.jpg" alt="Picture 163" /></a></td>
+<td><a href="./comsoc/pics/pic164.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic164.jpg" alt="Picture 164" /></a></td>
+<td><a href="./comsoc/pics/pic165.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic165.jpg" alt="Picture 165" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic166.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic166.jpg" alt="Picture 166" /></a></td>
+<td><a href="./comsoc/pics/pic167.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic167.jpg" alt="Picture 167" /></a></td>
+<td><a href="./comsoc/pics/pic168.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic168.jpg" alt="Picture 168" /></a></td>
+<td><a href="./comsoc/pics/pic169.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic169.jpg" alt="Picture 169" /></a></td>
+<td><a href="./comsoc/pics/pic170.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic170.jpg" alt="Picture 170" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic171.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic171.jpg" alt="Picture 171" /></a></td>
+<td><a href="./comsoc/pics/pic172.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic172.jpg" alt="Picture 172" /></a></td>
+<td><a href="./comsoc/pics/pic173.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic173.jpg" alt="Picture 173" /></a></td>
+<td><a href="./comsoc/pics/pic174.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic174.jpg" alt="Picture 174" /></a></td>
+<td><a href="./comsoc/pics/pic175.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic175.jpg" alt="Picture 175" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic176.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic176.jpg" alt="Picture 176" /></a></td>
+<td><a href="./comsoc/pics/pic177.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic177.jpg" alt="Picture 177" /></a></td>
+<td><a href="./comsoc/pics/pic178.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic178.jpg" alt="Picture 178" /></a></td>
+<td><a href="./comsoc/pics/pic179.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic179.jpg" alt="Picture 179" /></a></td>
+<td><a href="./comsoc/pics/pic180.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic180.jpg" alt="Picture 180" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic181.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic181.jpg" alt="Picture 181" /></a></td>
+<td><a href="./comsoc/pics/pic182.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic182.jpg" alt="Picture 182" /></a></td>
+<td><a href="./comsoc/pics/pic183.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic183.jpg" alt="Picture 183" /></a></td>
+<td><a href="./comsoc/pics/pic184.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic184.jpg" alt="Picture 184" /></a></td>
+<td><a href="./comsoc/pics/pic185.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic185.jpg" alt="Picture 185" /></a></td></tr>
+
+<tr><td><a href="./comsoc/pics/pic186.jpg"><img width="100%" src="./comsoc/pics/thumbs/pic186.jpg" alt="Picture 186" /></a></td>
+<td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="cfp">
+ <h3>Call for Papers</h3>
+<p>Submissions of papers describing original, under review, or recently published work on all aspects of computational social choice are invited. Topics of interest include, but are not limited to computational issues that arise in the analysis of:</p>
+
+<br />
+<ul>
+	<li>Voting and collective decision-making
+	<ul>
+		<li>Axiomatic properties</li>
+		<li>Manipulation, control, and bribery</li>
+		<li>Voting equilibria and dynamics</li>
+		<li>Delegation, proxy voting, and liquid democracy</li>
+		<li>Participatory budgeting</li>
+	</ul>
+	</li>
+	<li>Preference representation and elicitation</li>
+	<li>Opinion diffusion and aggregation on social networks</li>
+	<li>Peer Evaluation</li>
+	<li>Judgement aggregation, belief aggregation, and epistemic voting</li>
+	<li>Fair division, allocation, and matching</li>
+	<li>Coalition formation</li>
+	<li>Recommendation systems</li>
+</ul>
+<br />
+
+<p>We welcome theoretical, empirical and experimental work on these topics, including, in particular, research on algorithms (exact, approximate, parameterized, online and distributed), learning, logic, and simulations in the context of social choice.</p>
+
+<p>All submitted papers will be reviewed by the program committee. Accepted papers will be collected in informal workshop notes, as the workshop has no formal proceedings and the authors retain their copyright. To accommodate the publishing needs of different scientific communities, we stress that authors will retain the copyright of their papers and that submitting to COMSOC 2023 does not preclude publication of the same material in a journal or in a conference with formal proceedings. Each accepted paper will have to be presented by one of the authors, with the constraint that <b>each workshop participant gives at most one talk</b> (exceptions can be made due to unforeseen circumstances).</p>
+
+<h3>Submission Guidelines</h3>
+<p>Regular papers should not exceed 12 pages in length, excluding references, contact information, acknowledgements, and a clearly-marked appendix of arbitrary length that will be read at the discretion of the PC members. When preparing your submission, please follow these formatting instructions. The easiest way of doing so is to use the Latex typesetting system with the class file <a href="./comsoc/template/comsoc2023.cls"><samp>comsoc2023.cls</samp></a>. The formatting instructions are based on a sample file (<a href="./comsoc/template/comsoc2023.tex"><samp>comsoc2023.tex</samp></a>), which you can use as a starting point for your own paper (download full example from <a href="./comsoc/template/comsoc2023.zip">here</a>).</p>
+
+<p>Submission is done through CMT: <a href="https://cmt3.research.microsoft.com/COMSOC2023">https://cmt3.research.microsoft.com/COMSOC2023</a>. You can revise your submission any number of times before the deadline.</p>
+
+<h4>Anonymous Submissions</h4>
+<p>COMSOC does not require anonymous submissions, but this is allowed (e.g. in case you want to comply with anonymity requirements of other conferences, or for any other reason). In order to support this, the reviewing system is anonymous, but authors can write their names, as is done usually in camera-ready versions. Authors that do not wish to do so will maintain their anonymity.</p>
+
+
+
+
+</div>
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="schedule">
+<h3>Program</h3>
+
+<table class="prog">
+	<thead>
+	<tr>
+		<th></th>
+		<th>Day I <br /> July 3rd</th>
+		<th>Day II <br /> July 4th</th>
+		<th>Day III <br /> July 5th</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<th>8:30</th>
+		<td class="food">Registeration and coffee</td>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+	</tr>
+	<tr>
+		<th>9:00</th>
+		<td rowspan="3" class="keynote"><a href="#keynoteKraus">Keynote: Sarit Kraus<br /><b>Explaining Decisions in Multi-Agent Environments</b></a></td>
+		<td rowspan="3" class="keynote"><a href="#keynoteGilboa">Keynote: Itzhak Gilboa<br /><b>Social Choice and Likelihood Regions</b></a></td>
+		<td class="talk"><a href="#paper39">Levinger et al.: <b>Socially Aware Coalition&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>9:20</th>
+		<td class="talk"><a href="#paper51">Pierczyński et al.: <b>Core-Stable Committees under&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>9:40</th>
+		<td class="talk"><a href="#paper69">Boehmer et al.: <b>Causes of Stability&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>10:00</th>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+	</tr>
+	<tr>
+		<th>10:20</th>
+		<td class="talk"><a href="#paper31">Nehring et al.: <b>The Tukey Median&#8230;</b></a></td>
+		<td class="talk"><a href="#paper8">Brandt et al.: <b>Balanced Donor Coordination</b></a></td>
+		<td class="talk"><a href="#paper45">Grandi et al.: <b>Voting behavior in&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>10:40</th>
+		<td class="talk"><a href="#paper46">Imber et al.: <b>Finding Possible and&#8230;</b></a></td>
+		<td class="talk"><a href="#paper47">Schmerler et al.: <b>Strategic Voting in&#8230;</b></a></td>
+		<td class="talk"><a href="#paper53">Sornat et al.: <b>Fine-Grained Complexity and&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>11:00</th>
+		<td class="talk"><a href="#paper81">BARDIER: <b>Non Binary Social&#8230;</b></a></td>
+		<td class="talk"><a href="#paper67">Yokoyama et al.: <b>Asymptotic Existence of&#8230;</b></a></td>
+		<td class="talk"><a href="#paper59">Pennock et al.: <b>Toward fair and&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>11:20</th>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+	</tr>
+	<tr>
+		<th>11:40</th>
+		<td class="talk"><a href="#paper10">Heller et al.: <b>Evolutionary Foundation for&#8230;</b></a></td>
+		<td class="talk"><a href="#paper86">Peters et al.: <b>The Method of&#8230;</b></a></td>
+		<td class="talk"><a href="#paper1718">Dong et al.: <b>Characterizations of Sequential&#8230;</b>+ <b>Refined Characterizations&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>12:00</th>
+		<td class="talk"><a href="#paper16">Arieli et al.: <b>A Random Dictator&#8230;</b></a></td>
+		<td class="talk"><a href="#paper30">Brill et al.: <b>Proportionality in Approval-Based&#8230;</b></a></td>
+		<td class="talk"><a href="#paper58">Kraiczy et al.: <b>Properties of Local&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>12:20</th>
+		<td class="talk"><a href="#paper37">Meir et al.: <b>Frustratingly Easy Truth&#8230;</b></a></td>
+		<td class="talk"><a href="#paper55">Fairstein et al.: <b>Participatory Budgeting Designs&#8230;</b></a></td>
+		<td class="talk"><a href="#paper78">Delemazure et al.: <b>Strategyproofness and Proportionality&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>12:40</th>
+		<td rowspan="3" class="food">Lunch</td>
+		<td rowspan="3" class="food">Lunch</td>
+		<td rowspan="3" class="food">Lunch</td>
+	</tr>
+	<tr>
+		<th>&nbsp</th>
+	</tr>
+	<tr>
+		<th>&nbsp</th>
+	</tr>
+	<tr>
+		<th>14:00</th>
+		<td rowspan="3" class="keynote"><a href="#keynoteAumann">Keynote: Robert Aumann<br /><b>Bankruptcy in the Talmud: The three wives</b></a></td>
+		<td class="talk"><a href="#paper35">Boehmer et al.: <b>Properties of the&#8230;</b></a></td>
+		<td class="talk"><a href="#paper32">Zwicker et al.: <b>Cutsets and EF1&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>14:20</th>
+		<td class="talk"><a href="#paper50">Nizri et al.: <b>Improving the Perception&#8230;</b></a></td>
+		<td class="talk"><a href="#paper36">Igarashi et al.: <b>Repeated Fair Allocation&#8230;</b></a></td>
+	</tr>	
+	<tr>
+		<th>14:40</th>
+		<td class="talk"><a href="#paper57">Tatli et al.: <b>Learning Preference Distributions&#8230;</b></a></td>
+		<td class="talk"><a href="#paper75">Markakis et al.: <b>Improved EFX approximation&#8230;</b></a></td>
+	</tr>	
+	<tr>
+		<th>15:00</th>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+		<td class="food">Coffee</td>
+	</tr>
+	<tr>
+		<th>15:20</th>
+		<td class="talk"><a href="#paper60">Wagner et al.: <b>Strategy-Proof Participatory Budgeting&#8230;</b></a></td>
+		<td class="talk"><a href="#paper33">Ebadian et al.: <b>Efficient Resource Allocation&#8230;</b></a></td>
+		<td class="talk"><a href="#paper25">Abramowitz et al.: <b>Social Mechanism Design:&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>15:40</th>
+		<td class="talk"><a href="#paper68">Venema-Los et al.: <b>Limited Voting for&#8230;</b></a></td>
+		<td class="talk"><a href="#paper65">Igarashi et al.: <b>Envy-free division of&#8230;</b></a></td>
+		<td class="talk"><a href="#paper34">Faliszewski et al.: <b>Diversity, Agreement, and&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>16:00</th>
+		<td class="talk"><a href="#paper92">Skowron: <b>Proportionality Degree of&#8230;</b></a></td>
+		<td class="talk"><a href="#paper70">Hartman et al.: <b>Leximin Approximation: From&#8230;</b></a></td>
+		<td class="talk"><a href="#paper74">Boratyn et al.: <b>Spoiler Susceptibility in&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>16:20</th>
+		<td rowspan="3" class="posters"><a href="#monPosters">Poster Session I <br /> Accepted posters</a></td>
+		<td rowspan="3" class="posters"><a href="#tuePosters">Poster Session II <br /> Accepted posters</a></td>
+		<td rowspan="3" class="posters">Poster Session II <br /> Free for all</td>
+	</tr>
+	<tr>
+		<th>16:40</th>
+	</tr>
+	<tr>
+		<th>17:00</th>
+	</tr>
+	<tr>
+		<th>17:20</th>
+		<td rowspan="3" class="keynote"><a href="#keynoteMaskin">Keynote: Eric Maskin<br /><b>Arrow’s Theorem, May’s Axioms, and Borda’s Rule</b></a></td>
+		<td class="talk"><a href="#paper4">Gradwohl et al.: <b>Social Media and&#8230;</b></a></td>
+		<td class="talk"><a href="#paper21">Knop et al.: <b>Host Community Respecting&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>17:40</th>
+		<td class="talk"><a href="#paper27">Grandi et al.: <b>Identifying and Eliminating&#8230;</b></a></td>
+		<td class="talk"><a href="#paper38">Rozencweig et al.: <b>Mitigating Skewed Bidding&#8230;</b></a></td>
+	</tr>	
+	<tr>
+		<th>18:00</th>
+		<td class="talk"><a href="#paper76">Bielous et al.: <b>Proxy Manipulation for&#8230;</b></a></td>
+		<td class="talk"><a href="#paper77">Brandt et al.: <b>Towards a Characterization&#8230;</b></a></td>
+	</tr>
+	<tr>
+		<th>18:20</th>
+		<td></td>
+		<td>Bus pickup</td>
+		<td rowspan="3" style="background-color: Lavender;">Business Meeting</td>		
+
+	</tr>
+	<tr>
+		<th>18:40</th>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>19:00</th>
+		<td></td>
+		<td rowspan="5" style="background-color: HoneyDew;">Banquet</td>	
+	</tr>
+	<tr>
+		<th>19:20</th>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th>&nbsp</th>
+		<td></td>
+		<td></td>
+	</tr>
+		<tr>
+		<th>&nbsp</th>
+		<td></td>
+		<td></td>
+	</tr>
+		<tr>
+		<th>&nbsp</th>
+		<td></td>
+		<td></td>
+	</tr>
+	</tbody>
+</table>
+
+<h3>Monday (July 3rd):</h3>
+<p id="keynoteKraus"><b>Explaining Decisions in Multi-Agent Environments</b>, <i>Sarit Kraus</i>:<br /> Understanding and accepting decisions made by artificial intelligence (AI) systems is crucial for human collaboration and trust. This importance grows even further in multi-agent environments, where AI systems make decisions based on unknown goals, potentially influenced by the preferences of other agents. In such complex scenarios, explanations become important in increasing user satisfaction and acceptance by considering factors like the system's decision, user preferences, agent preferences, environmental settings, and key attributes such as fairness, envy, and privacy. In this talk, we will explore the concept of Explainable Decisions in Multi-Agent Environments (xMASE) through two cases: constraints-driven optimization problems and explanations for multi-agent Reinforcement Learning (RL) and elucidating preferences. For each case, we propose an algorithm that generates comprehensive explanations. Furthermore, we will report on human experiments that demonstrate the informativeness and acceptability of explanations to users. Lastly, we present preliminary results on formal models for explanations by a mediator, which aim to assist human negotiators in achieving unanimous agreements.<br />
+<i>(chaired by Noam Hazon)</i></p>
+<ul>
+(chaired by Davide Grossi)
+ <li id="paper31"><b>The Tukey Median as Ex-Ante Condorcet Winner</b>: <i>Klaus Nehring (UC Davis); Clemens Puppe (Karlsruhe Institute of Technology)</i>. <a href="./comsoc/papers/paper31.pdf">[paper]</a></li>
+ <li id="paper46"><b>Finding Possible and Necessary Winners in Spatial Voting with Partial Information</b>: <i>Aviram Imber (Technion); Jonas Israel (TU Berlin); Markus Brill (University of Warwick); Hadas Shachnai (Technion); Benny Kimelfeld (Technion)</i>. <a href="./comsoc/papers/paper46.pdf">[paper]</a></li>
+ <li id="paper81"><b>Non Binary Social Choice</b>: <i>Pierre BARDIER (Ecole Normale Supérieure and Paris School of Economics)</i>. <a href="./comsoc/papers/paper81.pdf">[paper]</a></li>
+ <br />
+(chaired by Lihi Dery)
+ <li id="paper10"><b>Evolutionary Foundation for Heterogeneity in Risk Aversion</b>: <i>Yuval Heller (Bar Ilan University); Ilan Nehama (University of Haifa at Oranim)</i>. <a href="./comsoc/papers/paper10.pdf">[paper]</a></li>
+ <li id="paper16"><b>A Random Dictator Is All You Need</b>: <i>Itai Arieli (Technion); Yakov Babichenko (Technion); Inbal Talgam-Cohen (Technion); Konstantin Zabarnyi (Technion – Israel Institute of Technology)</i>. <a href="./comsoc/papers/paper16.pdf">[paper]</a></li>
+ <li id="paper37"><b>Frustratingly Easy Truth Discovery for Rank Aggregation</b>: <i>Reshef Meir (Technion); Ofra Amir (Technion); Omer Ben-Porat (Technion); Tsviel Ben Shabat (Technion); Gal Cohensius (Technion); Lirong Xia (RPI)</i>. <a href="./comsoc/papers/paper37.pdf">[paper]</a></li>
+</ul>
+<p id="keynoteAumann"><b>Bankruptcy in the Talmud: The three wives</b>, <i>Robert Yisrael Aumann (joint work with the late Michael Maschler)</i>:<br /> retell the Talmudic story of the three wives and its ramifications, stressing the methodological, historical and computational aspects.<br />
+<i>(chaired by Jérôme Lang)</i></p>
+
+<ul>
+(chaired by Andrzej Kaczmarczyk)
+ <li id="paper60"><b>Strategy-Proof Participatory Budgeting via a VCG-Like Mechanism</b>: <i>Jonathan Wagner (Technion - Israel Institute of Technology); Reshef Meir (Technion)</i>. <a href="./comsoc/papers/paper60.pdf">[paper]</a></li>
+ <li id="paper68"><b>Limited Voting for More Diversity?</b>: <i>Maaike D Venema-Los (Rijksuniversiteit Groningen); Zoé Christoff (University of Groningen); Davide Grossi (Universiteit van Groningen and University of Amsterdam)</i>. <a href="./comsoc/papers/paper68.pdf">[paper]</a></li>
+ <li id="paper92"><b>Proportionality Degree of Multiwinner Rules</b>: <i>Piotr Skowron (University of Warsaw)</i>. <a href="./comsoc/papers/paper92.pdf">[paper]</a></li>
+</ul>
+
+<p id="keynoteMaskin"><b>Arrow’s Theorem, May’s Axioms, and Borda’s Rule</b>, <i>Eric Maskin</i>:<br /> We argue that Arrow’s (1951) independence of irrelevant alternatives condition (IIA) is unjustifiably stringent. Although, in elections, it has the desirable effect of ruling out spoilers (Candidate A spoils the election for B if B beats C when all voters rank A low, but C beats B when some voters rank A high &mdash; A splits off support from B), it is stronger than necessary for this purpose. Worse, it makes a voting rule insensitive to voters’ preference intensities. Accordingly, we propose a modified version of IIA to address these problems. Rather than obtaining an impossibility result, we show that a voting rule satisfies modified IIA, Arrow’s other conditions, May’s (1952) axioms for majority rule, and a mild consistency condition if and only if it is the Borda count (Borda 1781), i.e., rank-order voting.<br />
+<i>(chaired by Ella Segev)</i></p>
+
+<h3>Tuesday (July 4th):</h3>
+<p id="keynoteGilboa"><b>Social Choice and Likelihood Regions</b>, <i>Itzhak Gilboa</i>:<br /> The aggregation of preferences under uncertainty highlights questions of rationality of the Bayesian approach. Taking the viewpoint that it is sometimes more rational to admit that we do not know a distribution than to pretend we do, one is faced with the question, what is a rational way to select a set of distributions, given a database of observations? We offer an axiomatic approach to this selection problem, yielding likelihood regions: sets of distributions that are monotonic with respect to the likelihood function. Starting with an abstract set of theories, we propose conditions on choice functions (across different databases) for which there exists a statistical model such that the choice function is a likelihood region relative to that model -- for the general case and for the case of a fixed likelihood-ratio threshold. We interpret the results as supporting the notion of likelihood regions for the selection of theories.<br />
+<i>(chaired by Ulle Endriss)</i></p>
+
+<ul>
+(chaired by Bill Zwicker)
+ <li id="paper8"><b>Balanced Donor Coordination</b>: <i>Felix Brandt (TU Munich); Matthias Greger (Technical University of Munich); Erel Segal-Halevi (Ariel University); Warut Suksompong (National University of Singapore)</i>. <a href="./comsoc/papers/paper8.pdf">[paper]</a></li>
+ <li id="paper47"><b>Strategic Voting in the Context of Stable-Matching of Teams</b>: <i>Leora Schmerler (Ariel University); Noam Hazon (Ariel University); Sarit Kraus (Bar Ilan University)</i>. <a href="./comsoc/papers/paper47.pdf">[paper]</a></li>
+ <li id="paper67"><b>Asymptotic Existence of Class Envy-free Matchings</b>: <i>Tomohiko Yokoyama (The University of Tokyo); Ayumi Igarashi (University of Tokyo)</i>. <a href="./comsoc/papers/paper67.pdf">[paper]</a></li>
+<br />
+(chaired by Martin Bullinger) 
+ <li id="paper86"><b>The Method of Equal Shares for Participatory Budgeting</b>: <i>Dominik Peters (CNRS, Paris Dauphine); Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw)</i>. <a href="./comsoc/papers/paper86.pdf">[paper]</a></li>
+ <li id="paper30"><b>Proportionality in Approval-Based Participatory Budgeting</b>: <i>Markus Brill (University of Warwick); Stefan Forster (Vienna University of Technology); Martin Lackner (TU Wien); Jan Maly (TU Wien); Jannik Peters (TU Berlin)</i>. <a href="./comsoc/papers/paper30.pdf">[paper]</a></li>
+ <li id="paper55"><b>Participatory Budgeting Designs for the Real World</b>: <i>Roy Fairstein (BGU); Gerdus Benade (Boston University); Kobi Gal (BGU)</i>. <a href="./comsoc/papers/paper55.pdf">[paper]</a></li>
+<br />
+(chaired by Reshef Meir) 
+ <li id="paper35"><b>Properties of the Mallows Model Depending on the Number of Alternatives: A Warning for an Experimentalist</b>: <i>Niclas Boehmer (TU Berlin); Piotr Faliszewski (AGH University); Sonja Kraiczy (University of Oxford)</i>. <a href="./comsoc/papers/paper35.pdf">[paper]</a></li>
+ <li id="paper50"><b>Improving the Perception of Fairness in Shapley-Based Allocations</b>: <i>Meir Nizri (Ariel University); Amos Azaria (Ariel University); Noam Hazon (Ariel University)</i>. <a href="./comsoc/papers/paper50.pdf">[paper]</a></li>
+ <li id="paper57"><b>Learning Preference Distributions From Pairwise Comparisons</b>: <i>Gokcan Tatli (University of Wisconsin-Madison); Yi Chen (University of Wisconsin-Madison); Ramya Korlakai Vinayak (University of Wisconsin-Madison)</i>. <a href="./comsoc/papers/paper57.pdf">[paper]</a></li>
+ <br />
+(chaired by Piotr Skowron) 
+ <li id="paper33"><b>Efficient Resource Allocation with Secretive Agents</b>: <i>Soroush Ebadian (University of Toronto); Rupert Freeman (University of Virginia); Nisarg Shah (University of Toronto)</i>. <a href="./comsoc/papers/paper33.pdf">[paper]</a></li>
+ <li id="paper65"><b>Envy-free division of multi-layered cakes</b>: <i>Ayumi Igarashi (University of Tokyo); Frédéric Meunier (Ecole Nationale des Ponts)</i>. <a href="./comsoc/papers/paper65.pdf">[paper]</a></li>
+ <li id="paper70"><b>Leximin Approximation: From Single-Objective to Multi-Objective</b>: <i>Eden Hartman (Bar Ilan University); Avinatan Hassidim (Bar Ilan University); Yonatan Aumann (Bar-Ilan University); Erel Segal-Halevi (Ariel University)</i>. <a href="./comsoc/papers/paper70.pdf">[paper]</a></li>
+ <br />
+(chaired by Rica Gonen) 
+ <li id="paper4"><b>Social Media and Democracy</b>: <i>Ronen Gradwohl (Ariel University); Yuval Heller (Bar Ilan University); Arye Hillman (Bar Ilan University)</i>. <a href="./comsoc/papers/paper4.pdf">[paper]</a></li>
+ <li id="paper27"><b>Identifying and Eliminating Majority Illusion in Social Networks</b>: <i>Umberto Grandi (IRIT, Université Toulouse Capitole); Lawqueen Kanesh (Indian Institute of Technology Jodhpur); Grzegorz Lisowski (AGH University); Ramanujan Sridharan (University of Warwick); Paolo Turrini (University of Warwick)</i>. <a href="./comsoc/papers/paper27.pdf">[paper]</a></li>
+ <li id="paper76"><b>Proxy Manipulation for Better Outcomes</b>: <i>Gili Bielous (Technion- Israel Institute of Technology); Reshef Meir (Technion)</i>. <a href="./comsoc/papers/paper76.pdf">[paper]</a></li>
+</ul>
+
+<h3>Wednesday (July 5th):</h3>
+<ul>
+(chaired by Edith Elkind)
+ <li id="paper39"><b>Socially Aware Coalition Formation with Bounded Coalition Size</b>: <i>Chaya Levinger (Ariel University); Amos Azaria (Ariel University); Noam Hazon (Ariel University)</i>. <a href="./comsoc/papers/paper39.pdf">[paper]</a></li>
+ <li id="paper51"><b>Core-Stable Committees under Restricted Domains</b>: <i>Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw)</i>. <a href="./comsoc/papers/paper51.pdf">[paper]</a></li>
+ <li id="paper69"><b>Causes of Stability in Dynamic Coalition Formation</b>: <i>Niclas Boehmer (TU Berlin); Martin Bullinger (Technical University of Munich); Anna Maria Kerkmann (HHU Duesseldorf)</i>. <a href="./comsoc/papers/paper69.pdf">[paper]</a></li>
+ <br />
+(chaired by Nimrod Talmon)
+ <li id="paper45"><b>Voting behavior in one-shot and iterative multiple referenda</b>: <i>Umberto Grandi (IRIT, Université Toulouse Capitole); Jérôme Lang (CNRS); Ali Özkes (SKEMA); Stephane Airiau (Paris-Dauphine)</i>. <a href="./comsoc/papers/paper45.pdf">[paper]</a></li>
+ <li id="paper53"><b>Fine-Grained Complexity and Algorithms for the Schulze Voting Method</b>: <i>Krzysztof Sornat (IDSIA, USI-SUPSI); Virginia V Vassilevska Williams (MIT); Yinzhan Xu (Massachusetts Institute of Technology)</i>. <a href="./comsoc/papers/paper53.pdf">[paper]</a></li>
+ <li id="paper59"><b>Toward fair and strategyproof tournament rules for tournaments with partially transferable utilities</b>: <i>David Pennock (Rutgers University); Ariel Schvartzman Cohenca (Google Research); Eric Xue (Princeton University)</i>. <a href="./comsoc/papers/paper59.pdf">[paper]</a></li>
+<br />
+(chaired by Federico Fioravanti)
+<li id="paper1718"><b>Characterizations of Sequential Valuation Rules</b>: <i>Chris S Dong (Technische Universität München); Patrick Lederer (Technische Universität München)</i>.<br />
+<b>Refined Characterizations of Approval-Based Committee Scoring Rules</b>: <i>Chris S Dong (Technische Universität München); Patrick Lederer (Technische Universität München)</i>.</li>
+ <li id="paper58"><b>Properties of Local Search PAV</b>: <i>Sonja Kraiczy (University of Oxford); Edith Elkind (Oxford)</i>. <a href="./comsoc/papers/paper58.pdf">[paper]</a></li>
+ <li id="paper78"><b>Strategyproofness and Proportionality in Party-Approval Multiwinner Elections</b>: <i>Théo Delemazure (Paris Dauphine University); Tom Demeulemeester (KU Leuven); Manuel Eberl (University of Innsbruck); Jonas Israel (TU Berlin); Patrick Lederer (Technische Universität München)</i>. <a href="./comsoc/papers/paper78.pdf">[paper]</a></li>
+ 
+<br />
+(chaired by Rupert Freeman)
+ <li id="paper32"><b>Cutsets and EF1 Fair Division of Graphs</b>: <i>William S Zwicker (Union College; Murat Sertel Center for Advanced Economic Studies, Istanbul Bilgi University); Jiehua Chen (TU Wien)</i>. <a href="./comsoc/papers/paper32.pdf">[paper]</a></li>
+ <li id="paper36"><b>Repeated Fair Allocation of Indivisible Items</b>: <i>Ayumi Igarashi (University of Tokyo); Martin Lackner (TU Wien); Oliviero Nardi (DBAI, TU Wien); Arianna Novaro (CES, Université Paris 1 Panthéon-Sorbonne)</i>. <a href="./comsoc/papers/paper36.pdf">[paper]</a></li>
+ <li id="paper75"><b>Improved EFX approximation guarantees under ordinal-based assumptions</b>: <i>Evangelos Markakis (Athens University of Economics and Business); Christodoulos Santorinaios (Athens University of Economics and Business)</i>. <a href="./comsoc/papers/paper75.pdf">[paper]</a></li>
+ <br />
+(chaired by Jan Maly)
+ <li id="paper25"><b>Social Mechanism Design: Making Maximally Acceptable Decisions</b>: <i>Ben Abramowitz (Tulane University); Nicholas Mattei (Tulane University)</i>. <a href="./comsoc/papers/paper25.pdf">[paper]</a></li>
+ <li id="paper34"><b>Diversity, Agreement, and Polarization in Elections</b>: <i>Piotr Faliszewski (AGH University); Andrzej Kaczmarczyk (AGH University); Krzysztof Sornat (IDSIA, USI-SUPSI); Stanisław Szufa (AGH University); Tomasz Wąs (Pennsylvania State University)</i>. <a href="./comsoc/papers/paper34.pdf">[paper]</a></li>
+ <li id="paper74"><b>Spoiler Susceptibility in Party Elections</b>: <i>Daria Boratyn (Jagiellonian University, Center for Quantitative Political Science); Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Wojciech Słomczyński (Jagiellonian University); Stanisław Szufa (AGH University)</i>. <a href="./comsoc/papers/paper74.pdf">[paper]</a></li>
+<br />
+(chaired by Piotr Faliszewski)
+ <li id="paper21"><b>Host Community Respecting Refugee Housing</b>: <i>Dušan Knop (Czech Technical University in Prague); Šimon Schierreich (Czech Technical University in Prague)</i>. <a href="./comsoc/papers/paper21.pdf">[paper]</a></li>
+ <li id="paper38"><b>Mitigating Skewed Bidding for Conference Paper Assignment</b>: <i>Inbal Rozencweig (Technion); Reshef Meir (Technion); Nicholas Mattei (Tulane University); Ofra Amir (Technion)</i>. <a href="./comsoc/papers/paper38.pdf">[paper]</a></li>
+ <li id="paper77"><b>Towards a Characterization of Random Serial Dictatorship</b>: <i>Felix Brandt (TU Munich); Matthias Greger (Technical University of Munich); René Romen (TU Munich)</i>. <a href="./comsoc/papers/paper77.pdf">[paper]</a></li>
+
+</ul>
+
+<h3 id="monPosters">Monday (July 3rd) Posters</h3>
+<ul>
+<li><b>Fairness in Temporal Slot Assignment</b>: <i>Edith Elkind (Oxford); Sonja Kraiczy (University of Oxford); Nicholas Teh (University of Oxford)</i>. <a href="./comsoc/papers/paper1.pdf">[paper]</a></li>
+<li><b>Heuristics for Opinion Diffusion via Local Elections</b>: <i>Rica Gonen (OUI); Martin Koutecky (Charles University); roei menashof (The Open university of Israel); Nimrod Talmon ()</i>. <a href="./comsoc/papers/paper6.pdf">[paper]</a></li>
+<li><b>Ascending-Price Mechanism for General Multi-Sided Markets</b>: <i>Dvir Gilor (The Open University of Israel); Rica Gonen (OUI); Erel Segal-Halevi (Ariel University)</i>. <a href="./comsoc/papers/paper9.pdf">[paper]</a></li>
+<li><b>Influencing Games Through DRL</b>: <i>Colin Brady (OUI); Rica Gonen (OUI); Genadi Rabinovich (OUI)</i>. <a href="./comsoc/papers/paper12.pdf">[paper]</a></li>
+<li><b>Structure of single-peaked preferences</b>: <i>Alexander Karpov (HSE University)</i>. <a href="./comsoc/papers/paper13.pdf">[paper]</a></li>
+<li><b>False-name-proof and Strategy-proof Voting Rules under Separable Preferences</b>: <i>"Federico Fioravanti (Institute for Logic, Language and Computation); Jordi Massó (Universitat Autónoma de Barcelona)"</i>. <a href="./comsoc/papers/paper20.pdf">[paper]</a></li>
+<li><b>Fair Rent Division on a Budget Revisited</b>: <i>"Stephane Airiau (Paris-Dauphine); Hugo Gilbert (LAMSADE, Université Paris-Dauphine); Umberto Grandi (IRIT, Université Toulouse Capitole); Jérôme Lang (CNRS); Anaëlle Wilczynski (CentraleSupélec)"</i>. <a href="./comsoc/papers/paper28.pdf">[paper]</a></li>
+<li><b>Ties in Multiwinner Approval Voting</b>: <i>Łukasz Janeczko (AGH University of Krakow); Piotr Faliszewski (AGH University)</i>. <a href="./comsoc/papers/paper29.pdf">[paper]</a></li>
+<li><b>On fair allocation of indivisible goods to submodular agents</b>: <i>Gilad Ben Uziahu (Weizmann institute of science); Uriel Feige (Weizmann Institute)</i>. <a href="./comsoc/papers/paper40.pdf">[paper]</a></li>
+<li><b>The Leximin Approach for a Sequence of Collective Decisions</b>: <i>Ido Kahana (Ariel University); Noam Hazon (Ariel University)</i>. <a href="./comsoc/papers/paper41.pdf">[paper]</a></li>
+<li><b>When and How to Have Negative Regrets for Online Learners? Profits for Prediction Market Makers as an Example</b>: <i>"Po-An Chen (National Yang Ming Chiao Tung University); Chi-Jen Lu (Academia Sinica); Chuang-Chieh Lin (Department of Computer Science and Information Engineering, Tamkang University); Yu-Qin Lin (National Yang Ming Chiao Tung University)"</i>. <a href="./comsoc/papers/paper43.pdf">[paper]</a></li>
+<li><b>Fair division with splitting</b>: <i>Samuel Bismuth (Ariel university); Vladislav Makarov (St. Petersburg State University); Erel Segal-Halevi (Ariel University); Dana Shapira (Ariel University)</i>. <a href="./comsoc/papers/paper44.pdf">[paper]</a></li>
+<li><b>"Forming a ranking from tied evaluations: a case of an online, interactive student peer assessment system"</b>: <i>Lihi Dery (Ariel University)</i>. <a href="./comsoc/papers/paper48.pdf">[paper]</a></li>
+<li><b>Election control for VCR Euclidean preferences</b>: <i>Michał T Godziszewski (University of Warsaw); Jan Sznajd (CERN)</i>. <a href="./comsoc/papers/paper54.pdf">[paper]</a></li>
+<li><b>Learning Preference Distributions From Distance Measurements</b>: <i>"Gokcan Tatli (University of Wisconsin-Madison); Robert Nowak (University of Wisconsin, Madison); Ramya Korlakai Vinayak (University of Wisconsin-Madison)"</i>. <a href="./comsoc/papers/paper56.pdf">[paper]</a></li>
+</ul>
+
+<h3 id="tuePosters">Tuesday (July 4th) Posters</h3>
+<ul>
+<li><b>Participatory Budgeting: Data, Tools and Analysis</b>: <i>Piotr Faliszewski (AGH University); Jarosław Flis (Jagiellonian University in Krakow); Dominik Peters (CNRS, Paris Dauphine); Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw); Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Stanisław Szufa (AGH University); Nimrod Talmon (Ben Gurion University)</i>. <a href="./comsoc/papers/paper26.pdf">[paper]</a></li>
+<li><b>Reputation-based Persuasion Platforms</b>: <i>Itai Arieli (Technion); Omer Madmon (Technion); Moshe Tennenholtz (Technion – Israel Institute of Technology)</i>. <a href="./comsoc/papers/paper62.pdf">[paper]</a></li>
+<li><b>Stable Dinner Party Seating Arrangements</b>: <i>Damien Berriaud (ETH Zurich); Andrei Constantinescu (ETH Zurich); Roger Wattenhofer (ETH Zurich)</i>. <a href="./comsoc/papers/paper64.pdf">[paper]</a></li>
+<li><b>Nonparametric Methods for Detecting Gerrymandering in Multiparty Elections</b>: <i>"Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Wojciech Słomczyński (Jagiellonian University); Stanisław Szufa (AGH University)"</i>. <a href="./comsoc/papers/paper66.pdf">[paper]</a></li>
+<li><b>Designing binary social decisions</b>: <i>Margarita Kirneva (Ecole Polytechnique); Matias Nuñez (Ecole Polytechnique)</i>. <a href="./comsoc/papers/paper71.pdf">[paper]</a></li>
+<li><b>Proportionality Guarantees in Elections with Interdependent Issues</b>: <i>Markus Brill (University of Warwick); Evangelos Markakis (Athens University of Economics and Business); Georgios Papasotiropoulos (Athens University of Economics and Business); Jannik Peters (TU Berlin)</i>. <a href="./comsoc/papers/paper72.pdf">[paper]</a></li>
+<li><b>Condorcet Markets</b>: <i>Stephane Airiau (Paris-Dauphine); Nicholas Kees Dupuis (Independent researcher); Davide Grossi (Universiteit van Groningen and University of Amsterdam)</i>. <a href="./comsoc/papers/paper73.pdf">[paper]</a></li>
+<li><b>Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules</b>: <i>"Krzysztof Sornat (IDSIA, USI-SUPSI); Virginia V Vassilevska Williams (MIT); Yinzhan Xu (Massachusetts Institute of Technology)"</i>. <a href="./comsoc/papers/paper82.pdf">[paper]</a></li>
+<li><b>Simultaneous manipulation under incomplete information</b>: <i>Yuliya A. Veselova (NRU HSE); Daniel Karabekyan (National Research University Higher School of Economics )</i>. <a href="./comsoc/papers/paper83.pdf">[paper]</a></li>
+<li><b>Designing egalitarian weighted voting games</b>: <i>Fan Wu (Independent)</i>. <a href="./comsoc/papers/paper84.pdf">[paper]</a></li>
+<li><b>Polarization as Probabilistic Dependence</b>: <i>Luke Thorburn (King's College London); Maria Polukarov (King's College London); Carmine Ventre (King's College London)</i>. <a href="./comsoc/papers/paper85.pdf">[paper]</a></li>
+<li><b>Algorithmics of Egalitarian versus Equitable Sequences of Committees</b>: <i>Eva Deltl (Technical University of Berlin); Till Fluschnik (TU Berlin); Robert Bredereck (TU Clausthal)</i>. <a href="./comsoc/papers/paper89.pdf">[paper]</a></li>
+<li><b>On the nucleolus of irreducible minimum cost spanning tree games</b>: <i>Leanne Streekstra (University of Hagen)</i>. <a href="./comsoc/papers/paper90.pdf">[paper]</a></li>
+<li><b>Dynamic Fairness-Aware Recommendation through Multi-Agent Social Choice</b>: <i>Amanda Aird (University of Colorado: Boulder); Paresha Farastu (University of Colorado: Boulder); Joshua Sun (University of Colorado: Boulder); Amy Voida (University of Colorado: Boulder); Nicholas Mattei (Tulane University); Robin Burke ( University of Colroado Boulder)</i>. <a href="./comsoc/papers/paper91.pdf">[paper]</a></li>
+</ul>
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="cfposters">
+ <h3>Call for Posters</h3>
+ <p>Beyond the papers submitted to COMSOC, we allow attendees to bring posters and present research. This might be connected to new research that only crystalized following the workshop deadline, or some other research that was not submitted for some reason, but is still relevant to computational social choice researchers.</p>
+ 
+ <p>We only ask that presenters register in advance, so we know how many posters we need to prepare.<p>
+ 
+ <h2>If your submitted paper was accepted as a poster, you do not need to register in this method.</h2>
+ 
+ <p>To register, fill the information in <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3R1aFy3G4CqI7RAtptAw_D6F-YfOO871SxYGuXiRKdy_hlg/viewform?usp=sf_link">this link</a>.
+ 
+ <h3>Poster Competition</h3>
+<p>We will be holding a poster competition amongst all posters -- both accepted ones and in the free-for-all session -- to encourage good, engaging posters.</p>
+
+ <h3>Poster Feedback</h3>
+<p>For those who want, we now offer (thanks to <a href="http://reshef.net.technion.ac.il">Reshef Meir</a>) free feedback on the design of your poster, before printing. Use <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHzmAOoQg0MWbaQJ0w69d_Wu3apzVYMR67JwOl4lrRdZM7Bw/viewform?usp=sf_link">this form</a>, upload your poster, and we will try to get back to you with recommendations (student posters are prioritized). Expect critical (and potentially snarky, particularly for text-heavy posters) comments, but which aim to be constructive and help you improve your posters. Please take into account that sending you the feedback may take a while, so do not ask for it at the last minute.</p>
+
+<h3> Printing Posters</h3>
+<p>You can bring your own posters, but if you want, you can print your posters at a printer near Ben-Gurion University, and it can wait for you here. COMSOC organizers and Ben-Gurion university are not affiliated with it, but it is a printer often used to print posters by Ben-Gurion University students and professors. The printer is called "DahnoGraph", and it prints a 90 cm x 120cm laminated poster for 88 NIS (about US$24) (you can also print on cloth, but that is pricier). Printing takes about a week, so <b>do not wait to the last minute to send your poster!</b></p>
+
+<p>You need to email a PDF (and <i>ONLY</i> a PDF file) to the email address <a href="mailto:dgraphprint@gmail.com">dgraphprint@gmail.com</a>, and specify that you would like the poster delivered to "Ben-Gurion University, Department of Industrial Engineering and Management, Building 16, Room 147". Following the email, you need to call them by phone to give your credit card number for payment, at <a href="tel:+972-86271848">(+972)-8-6271848</a> or <a href="tel:+972-86235127">(+972)-8-6235127</a>. They suggest calling them about 20 minutes after sending the file, so they would have already received the email.</p>
+
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="invited">
+<h3> Invited Speakers</h3>
+<div>
+	<div style="height:200px;
+	width:200px;
+		margin-left:5%;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+		box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-moz-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-webkit-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);">
+		<img style="height: 200px;width:200px; object-fit: cover;" src="./comsoc/img/aumann.jpg" alt="Robert Aumann picture">
+	</div>
+	<p>Robert Aumann is a Professor of Mathematics at the Hebrew University of Jerusalem, and one of the founders of the Center for Rationality at the Hebrew University. He is one of the world's leading game theorists, and the author of almost a hundred scientific papers and six books. He is a member of the American Academy of Arts and Sciences, the National Academy of Sciences, the British Academy, the Academia Europaea and the Israel Academy of Sciences and Humanities; holds honorary doctorates from the Universities of Chicago, Bonn, Louvain, City University of New York, Bar Ilan University, Ben Gurion University of the Negev, and the University of Paris II; and has received numerous prizes, including the Nobel Memorial Prize in Economic Sciences for 2005 for his work on repeated games.</p>
+</div>
+	<br /><br />
+<div>
+	<div style="height:200px;
+		width:200px;
+		margin-left:5%;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+		box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-moz-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-webkit-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);">
+		<img style="height: 200px; 	width:200px; object-fit: cover;" src="./comsoc/img/gilboa.jpg" alt="Itzhak Gilboa picture">
+	</div>
+	<p>Itzhak Gilboa holds the AXA Chair in Decision Sciences at the École des Hautes Études Commerciales (HEC) Paris, as well as the Chair of Economic Theory and Decision Theory at Tel-Aviv University. He works in decision theory and other fields in economic theory such as game theory and social choice. His main research areas are decision under uncertainty, focusing on the definition of probability, notions of rationality, non-Bayesian decision models, and related issues. He is a Fellow of the Cowles Foundation for Research in Economics at Yale University, a Fellow of the Society for the Advancement of Economic Theory, a Member of Council of the Econometric Society, and an International Honorary Member of the American Academy of Arts and Sciences.</p>
+	</div>
+	<br /><br />
+		<div>
+	<div style="height:200px;
+		width:200px;
+		margin-left:5%;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+		box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-moz-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-webkit-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);">
+		<img style="height: 200px; 	width:200px; object-fit: cover;" src="./comsoc/img/kraus.jpg" alt="Sarit Kraus picture">
+	</div>
+	<p>Sarit Kraus is a Professor of Computer Science at Bar-Ilan University. Her research focuses on intelligent agents and multi-agent systems ---particularly the design of intelligent agents that can interact proficiently with people, in both cooperative and conflicting scenarios. Her work combines methods from Machine Learning, Decision Theory and Game Theory, non-classical logic, optimization under uncertainty and psychology. Kraus was awarded the IJCAI Computers and Thought Award, ACM SIGART Agents Research award, ACM Athena Lecturer, the EMET prize and was twice the winner of the IFAAMAS influential paper award. She is AAAI, ECCAI and ACM fellow and a recipient of the advanced ERC grant. She is a member of The Israel Academy of Sciences and Humanities.</p>
+	</div>
+		<br /><br />
+		<div>
+	<div style="height:200px;
+		width:200px;
+		margin-left:5%;
+		float:left;
+		margin-right:20px;
+		margin-bottom:20px;
+		box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-moz-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);
+		-webkit-box-shadow: 6px 11px 10px 4px rgba(156, 156, 156, 0.75);">
+		<img style="height: 200px; 	width:200px; object-fit: cover;" src="./comsoc/img/maskin.jpg" alt="Eric Maskin picture">
+	</div>
+	<p>Eric Maskin is the Adams University Professor and Professor of Economics and Mathematics at Harvard, and was previously the Albert O. Hirschman Professor of Social Science at the Institute for Advanced Study. He has made contributions to game theory, contract theory, social choice theory, political economy, and other areas of economics, and the author of more than 140 scientific papers and five books. He is a Fellow of the American Academy of Arts and Sciences, Econometric Society, Game Theory Society, and the European Economic Association, and a Corresponding Fellow of the British Academy, and a past president of the Econometric Society. He holds honorary doctorates from the University of Cambridge, the Hebrew University of Jerusalem, Corvinus University of Budapest, Université Libre de Bruxelles, and Georgetown University, among others. In 2007, he was awarded the Nobel Memorial Prize in Economics for laying the foundations of mechanism design theory.</p>
+	</div>
+</div>
+
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="pc">
+<h3>
+PC Chairs
+</h3> 
+ <p><a href="https://sites.google.com/site/marcuspivato/home">Marcus Pivato</a>, CY Cergy Paris Université; <a href="mailto:marcus.pivato@cyu.fr">marcus.pivato@cyu.fr</a></p>
+ 	<p><a href="https://www.bgu.ac.il/~omerlev/">Omer Lev</a>, Ben-Gurion University of the Negev; <a href="mailto:omerlev@bgu.ac.il">omerlev@bgu.ac.il</a></p>
+
+<h3>Program Committee</h3>
+<ul>
+<li>Alan D. Miller, <i>Western University</i>.</li>
+<li>Alan Tsang, <i>Carleton University</i>.</li>
+<li>Andreas Darmann, <i>University of Graz</i>.</li>
+<li>Ariel D. Procaccia, <i>Harvard University</i>.</li>
+<li>Ariel Rosenfeld, <i>Bar-Ilan University</i>.</li>
+<li>Ayumi Igarashi, <i>The University of Tokyo</i>.</li>
+<li>Bart de Keijzer, <i>King's College London</i>.</li>
+<li>Benny Kimelfeld, <i>Technion</i>.</li>
+<li>David Pennock, <i>Rutgers University</i>.</li>
+<li>Davide Grossi, <i>Universiteit van Groningen and University of Amsterdam</i>.</li>
+<li>Dominik Peters, <i>CNRS, Paris Dauphine</i>.</li>
+<li>Dorothea Baumeister, <i>Federal University of Applied Administrative Sciences</i>.</li>
+<li>Edith Elkind, <i>Oxford</i>.</li>
+<li>Erel Segal-Halevi, <i>Ariel University</i>.</li>
+<li>Felix Brandt, <i>Technical University of Munich</i>.</li>
+<li>Florian Brandl, <i>Stanford University</i>.</li>
+<li>Ildiko Schlotter, <i>Budapest University of Technology</i>.</li>
+<li>Jean-Guy Mailly, <i>Université Paris Cité</i>.</li>
+<li>Jérôme Lang, <i>CNRS</i>.</li>
+<li>Jiehua Chen, <i>TU Wien</i>.</li>
+<li>Joerg Rothe, <i>HHU Duesseldorf</i>.</li>
+<li>Judy Goldsmith, <i>University of Kentucky</i>.</li>
+<li>Katarína Cechlárová, <i>P.J. Safarik University, Institute of Mathematics</i>.</li>
+<li>Kate Larson, <i>University of Waterloo</i>.</li>
+<li>Kristen Brent Venable, <i>IHMC</i>.</li>
+<li>Lirong Xia, <i>RPI</i>.</li>
+<li>Maria Polukarov, <i>King's College London</i>.</li>
+<li>Markus Brill, <i>University of Warwick</i>.</li>
+<li>Martin Lackner, <i>TU Wien</i>.</li>
+<li>Matias Nunez, <i>Ecole Polytechnique, CREST</i>.</li>
+<li>Nathan Arnold, <i>University of Kentucky</i>.</li>
+<li>Neeldhara Misra, <i>IIT Gandhinagar</i>.</li>
+<li>Nicholas Mattei, <i>Tulane University</i>.</li>
+<li>Nicolas Maudet, <i>Sorbonne Université</i>.</li>
+<li>Nimrod Talmon, <i>Ben Gurion University</i>.</li>
+<li>Noam Hazon, <i>Ariel University</i>.</li>
+<li>Omer Ben-Porat, <i>Technion</i>.</li>
+<li>Palash Dey, <i>Indian Institute of Technology Kharagpur</i>.</li>
+<li>Paolo Turrini, <i>University of Warwick</i>.</li>
+<li>Paul W. Goldberg, <i>University of Oxford</i>.</li>
+<li>Peter Biro, <i>Hungarian Academy of Sciences</i>.</li>
+<li>Piotr Faliszewski, <i>AGH University</i>.</li>
+<li>Piotr Skowron, <i>University of Oxford</i>.</li>
+<li>Reshef Meir, <i>Technion</i>.</li>
+<li>Rica Gonen, <i>OUI</i>.</li>
+<li>Ronald de Haan, <i>University of Amsterdam</i>.</li>
+<li>Rupert Freeman, <i>University of Virginia</i>.</li>
+<li>Ruth Ben-Yashar, <i>Bar-Ilan university</i>.</li>
+<li>Samuel Bismuth, <i>Ariel university</i>.</li>
+<li>Serge Gaspers, <i>UNSW</i>.</li>
+<li>Simina Branzei, <i>Purdue University</i>.</li>
+<li>Stephane Airiau, <i>Paris-Dauphine</i>.</li>
+<li>Thomas E. Allen, <i>Centre College</i>.</li>
+<li>Ulle Endriss, <i>University of Amsterdam</i>.</li>
+<li>Umberto Grandi, <i>IRIT, University of Toulouse</i>.</li>
+<li>Vincent Merlin, <i>University of Caen</i>.</li>
+<li>Warut Suksompong, <i>National University of Singapore</i>.</li>
+<li>William S. Zwicker, <i>Union College; Murat Sertel Center for Advanced Economic Studies, Istanbul Bilgi University</i>.</li>
+<li>Yair Zick, <i>University of Massachusetts, Amherst</i>.</li>
+<li>Yonatan Aumann, <i>Bar-Ilan University</i>.</li>
+<li>Yongjie Yang, <i>Chair of Economic Theory, Saarland University, Saarbrücken</i>.</li>
+<li>Yuval filmus, <i>Technion</i>.</li>
+<li>Zack Fitzsimmons, <i>College of the Holy Cross</i>.</li>
+</ul>
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="visa">
+<h3>Visa Requirement</h3>
+<p>Visitors from most OECD countries are exempt from visitor visa. See full list <a href="https://www.gov.il/en/departments/publications/reports/tourist-visa-table">here</a>.</p>
+
+<p> If you require a visa to enter, please see the details in the <a href="https://www.gov.il/en/service/request_for_tourist_visa_b2">Israeli government page</a>. Several countries without diplomatic relations with Israel require special Foreign Ministry confirmation to issue a visa, requiring a formal invitation (which we can provide). Please <a href="mailto:omerlev@bgu.ac.il">contact Omer Lev</a> to request one.</p>
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="location">
+ <h3>Location</h3>
+ <p>The workshop will be held at Ben-Gurion University main campus in Beersheba. The campus sits next to an Israel Railways train station: Be'er Sheva North-University. This allows to reach it from Tel-Aviv with a 65 minute ride, from Jerusalem with a 2 hour ride (including time to switch trains in one of the Tel-Aviv trains stations), as well as directly from Ben-Gurion Airport within 105 minutes (this also requires switching trains at Tel-Aviv).</p>
+ 
+<p>For further details on reaching the university, including by car or bus, see <a href="https://americansforbgu.org/about/ben-gurion-university-of-the-negev/visit-bgu/getting-to-bgu/">in this information page (see info for the Marcus Family campus)</a>. For those interested, we offer a car-pool coordination spreadsheet <b><a href="https://docs.google.com/spreadsheets/d/1AnAXF0S_EvK9WnXlYpu-VYl0dZL1swDuC0eimYRCZ2c/edit?usp=sharing">here</a></b>.</p>
+
+<p style="color:red;"> Please note that there is no public transportation in Israel from sundown Friday to sundown Saturday. Please check specific services for precise hours (some services do not operate on Saturdays at all, and some stop early on Friday).</p>
+
+<h3>Where in the campus?</h3>
+<p>The workshop will be at the Senate hall. It is in building 71 on campus, which is circled in the map of the campus, below (notice the map includes the railway station as well, for those coming by train)</p>
+<img src="./comsoc/img/map.png" alt="Map of BGU campus" style="width:100%;">
+ 
+ <p>The Senate hall itself is in the -1 level (so just below street level), and while the building has many entrances, the easiest one, leading directly to our hall, is using the stairs shown in the picture below.</p>
+ <img src="./comsoc/img/entrance.png" alt="Entrance to Senate Hall picture" style="width:100%;">
+ 
+ <h3>Accommodation</h3>
+ <p>Due to the proximity to the train station, some may choose to stay in Tel-Aviv or elsewhere in Israel. In any case, there are rooms near the campus, where COMSOC will be held:</p>
+ <ul>
+ <li><b><a href="https://in.bgu.ac.il/en/housing/Pages/u-tel.aspx">UTel:</a></b> A university owned small semi-hotel for guests of the university (it has no breakfast option). Room prices can be seen in the <a href="https://in.bgu.ac.il/en/housing/Pages/u-tel.aspx">link</a>, but range from 320 NIS (approximately $90) per day for a single room to 480 NIS (approximately $132) for a deluxe double room (there are no rooms with 2 single beds). Due to the university bureaucracy, the order needs to be made by a university faculty member, though payment is handled directly between UTel and you. Please fill out the form, which will allow us to initiate the process between you and the UTel, and they will send you the payment link (which might be a bit flaky). Note that there are very few rooms, so please only fill out the form if you know you want the room.<br />
+ Form: <a href="https://forms.gle/QvLmHVjkMGU9MZYt6">https://forms.gle/QvLmHVjkMGU9MZYt6</a>.</li>
+ <li><b><a href="https://www.habaitbe.co.il">Habait Be Matityahu:</a></b> Apartments near campus.</li>
+ <li><b><a href="https://www.leonardo-hotels.com/beer-sheva/leonardo-hotel-negev">Leonardo Negev:</a></b> A large-chain hotel, located 30 minute walk from the Ben-Gurion campus (less than 20 minutes by bus). It is an older hotel but has plenty of rooms. They offer COMSOC attendees 15% discount on their stay from July 1st to July 8th. In order to get this discount, attendees should enter the promo code <tt>COMSOC</tt> before completing their booking.</li>
+</ul>
+
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="reg">
+<h3>Registration</h3>
+<p>Registration is $70 (or &#8362;255 for Israelis). It includes lunch for all days as well as the conference dinner. Registration is non-refundable.</p>
+<h3><b>Now that registration time has passed, registration now no longer includes lunch or the banquet (those can be paid separately), only participation.</b></h3>
+<p><b style="font-size:24px">However</b> if you are a <b>student</b> and an <b>author</b> of a paper or poster that was accepted to the workshop (i.e., appear <a data-toggle="tab" href="#accepted">here</a>) from <b>outside Israel</b>, you do not need to pay, but you still need to register: we hope to be able to give international student authors some money to help with travel expenses, so you need to register and mark this clearly in the form.</p>
+
+<p>If you are an <b>Israeli student</b>, we offer you the option of free registration, but without access to the workshop lunches and the workshop dinner. So you will need to provide your own food. But you still need to register to attend!</p>
+<center>
+<h1>Registration link: <a href="https://forms.gle/rcXuSzFmKyvtkfk3A">https://forms.gle/rcXuSzFmKyvtkfk3A</a></h1>
+</center>
+<br />
+<br />
+<p>In addition, <a href="https://reshef.net.technion.ac.il/">Reshef Meir</a> is organizing a trip in Israel following the workshop. It is not affiliated with the workshop, but we are happy to connect those interesting. To join, write him at: <a href="mailto:reshefm@ie.technion.ac.il">reshefm@ie.technion.ac.il</a>, or join the WhatsApp group at <a href="https://chat.whatsapp.com/CMEPDBS8PMgKJa6LpHRD33">https://chat.whatsapp.com/CMEPDBS8PMgKJa6LpHRD33</a>.</p>
+</div>
+
+<div class="col-xs-10 col-xs-offset-2 tab-pane fade" id="accepted">
+<h3>Accepted Papers</h3>
+<ol>
+
+<li>Social Media and Democracy: <i>Ronen Gradwohl (Ariel University); Yuval Heller (Bar Ilan University); Arye Hillman (Bar Ilan University)</i>.</li>
+<li>Balanced Donor Coordination: <i>Felix Brandt (TU Munich); Matthias Greger (Technical University of Munich); Erel Segal-Halevi (Ariel University); Warut Suksompong (National University of Singapore)</i>.</li>
+<li>Evolutionary Foundation for Heterogeneity in Risk Aversion: <i>Yuval Heller (Bar Ilan University); Ilan Nehama (University of Haifa at Oranim)</i>.</li>
+<li>Universally Robust Information Aggregation for Binary Decisions: <i>Itai Arieli (Technion); Yakov Babichenko (Technion); Inbal Talgam-Cohen (Technion); Konstantin Zabarnyi (Technion – Israel Institute of Technology)</i>.</li>
+<li>Characterizations of Sequential Valuation Rules: <i>Chris S Dong (Technische Universität München); Patrick Lederer (Technische Universität München)</i>.</li>
+<li>Refined Characterizations of Approval-Based Committee Scoring Rules: <i>Chris S Dong (Technische Universität München); Patrick Lederer (Technische Universität München)</i>.</li>
+<li>Host Community Respecting Refugee Housing: <i>Dušan Knop (Czech Technical University in Prague); Šimon Schierreich (Czech Technical University in Prague)</i>.</li>
+<li>Social Mechanism Design: Making Maximally Acceptable Decisions: <i>Ben Abramowitz (Tulane University); Nicholas Mattei (Tulane University)</i>.</li>
+<li>Participatory Budgeting: Data, Tools and Analysis: <i>Piotr Faliszewski (AGH University); Jarosław Flis (Jagiellonian University in Krakow); Dominik Peters (CNRS, Paris Dauphine); Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw); Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Stanisław Szufa (AGH University); Nimrod Talmon (Ben Gurion University)</i>.</li>
+<li>Identifying and Eliminating Majority Illusion in Social Networks: <i>Umberto Grandi (IRIT, Université Toulouse Capitole); Lawqueen Kanesh (Indian Institute of Technology Jodhpur); Grzegorz Lisowski (AGH University); Ramanujan Sridharan (University of Warwick); Paolo Turrini (University of Warwick)</i>.</li>
+<li>Proportionality in Approval-Based Participatory Budgeting: <i>Markus Brill (University of Warwick); Stefan Forster (Vienna University of Technology); Martin Lackner (TU Wien); Jan Maly (TU Wien); Jannik Peters (TU Berlin)</i>.</li>
+<li>The Tukey Median as Ex-Ante Condorcet Winner: <i>Klaus Nehring (UC Davis); Clemens Puppe (Karlsruhe Institute of Technology)</i>.</li>
+<li>Cutsets and EF1 Fair Division of Graphs: <i>William S Zwicker (Union College; Murat Sertel Center for Advanced Economic Studies, Istanbul Bilgi University); Jiehua Chen (TU Wien)</i>.</li>
+<li>Efficient Resource Allocation with Secretive Agents: <i>Soroush Ebadian (University of Toronto); Rupert Freeman (University of Virginia); Nisarg Shah (University of Toronto)</i>.</li>
+<li>Diversity, Agreement, and Polarization in Elections: <i>Piotr Faliszewski (AGH University); Andrzej Kaczmarczyk (AGH University); Krzysztof Sornat (IDSIA, USI-SUPSI); Stanisław Szufa (AGH University); Tomasz Wąs (Pennsylvania State University)</i>.</li>
+<li>Properties of the Mallows Model Depending on the Number of Alternatives: A Warning for an Experimentalist: <i>Niclas Boehmer (TU Berlin); Piotr Faliszewski (AGH University); Sonja Kraiczy (University of Oxford)</i>.</li>
+<li>Repeated Fair Allocation of Indivisible Items: <i>Ayumi Igarashi (University of Tokyo); Martin Lackner (TU Wien); Oliviero Nardi (DBAI, TU Wien); Arianna Novaro (CES, Université Paris 1 Panthéon-Sorbonne)</i>.</li>
+<li>Frustratingly Easy Truth Discovery for Rank Aggregation: <i>Reshef Meir (Technion); Ofra Amir (Technion); Omer Ben-Porat (Technion); Tsviel Ben Shabat (Technion); Gal Cohensius (Technion); Lirong Xia (RPI)</i>.</li>
+<li>Mitigating Skewed Bidding for Conference Paper Assignment: <i>Inbal Rozencweig (Technion); Reshef Meir (Technion); Nicholas Mattei (Tulane University); Ofra Amir (Technion)</i>.</li>
+<li>Social Aware Coalition Formation with Bounded Coalition Size: <i>Chaya Levinger (Ariel University); Amos Azaria (Ariel University); Noam Hazon (Ariel University)</i>.</li>
+<li>Voting behavior in one-shot and iterative multiple referenda: <i>Umberto Grandi (IRIT, Université Toulouse Capitole); Jérôme Lang (CNRS); Ali Özkes (SKEMA); Stephane Airiau (Paris-Dauphine)</i>.</li>
+<li>Finding Possible and Necessary Winners in Spatial Voting with Partial Information: <i>Aviram Imber (Technion); Jonas Israel (TU Berlin); Markus Brill (University of Warwick); Hadas Shachnai (Technion); Benny Kimelfeld (Technion)</i>.</li>
+<li>Strategic Voting in the Context of Stable-Matching of Teams: <i>Leora Schmerler (Ariel University); Noam Hazon (Ariel University); Sarit Kraus (Bar Ilan University)</i>.</li>
+<li>Improving the Perception of Fairness in Shapley-Based Allocations: <i>Meir Nizri (Ariel University); Amos Azaria (Ariel University); Noam Hazon (Ariel University)</i>.</li>
+<li>Core-Stable Committees under Restricted Domains: <i>Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw)</i>.</li>
+<li>Fine-Grained Complexity and Algorithms for the Schulze Voting Method: <i>Krzysztof Sornat (IDSIA, USI-SUPSI); Virginia V Vassilevska Williams (MIT); Yinzhan Xu (Massachusetts Institute of Technology)</i>.</li>
+<li>Participatory Budgeting Designs for the Real World: <i>Roy Fairstein (BGU); Gerdus Benade (Boston University); Kobi Gal (BGU)</i>.</li>
+<li>Learning Preference Distributions From Pairwise Comparisons: <i>Gokcan Tatli (University of Wisconsin-Madison); Yi Chen (University of Wisconsin-Madison); Ramya Korlakai Vinayak (University of Wisconsin-Madison)</i>.</li>
+<li>Properties of Local Search PAV: <i>Sonja Kraiczy (University of Oxford); Edith Elkind (Oxford)</i>.</li>
+<li>Toward fair and strategyproof tournament rules for tournaments with partially transferable utilities: <i>David Pennock (Rutgers University); Ariel Schvartzman Cohenca (Google Research); Eric Xue (Princeton University)</i>.</li>
+<li>Strategy-Proof Participatory Budgeting via a VCG-Like Mechanism: <i>Jonathan Wagner (Technion - Israel Institute of Technology); Reshef Meir (Technion)</i>.</li>
+<li>Envy-free division of multi-layered cakes: <i>Ayumi Igarashi (University of Tokyo); Frédéric Meunier (Ecole Nationale des Ponts)</i>.</li>
+<li>Asymptotic Existence of Class Envy-free Matchings: <i>Tomohiko Yokoyama (The University of Tokyo); Ayumi Igarashi (University of Tokyo)</i>.</li>
+<li>Limited Voting for More Diversity?: <i>Maaike D Venema-Los (Rijksuniversiteit Groningen); Zoé Christoff (University of Groningen); Davide Grossi (Universiteit van Groningen and University of Amsterdam)</i>.</li>
+<li>Causes of Stability in Dynamic Coalition Formation: <i>Niclas Boehmer (TU Berlin); Martin Bullinger (Technical University of Munich); Anna Maria Kerkmann (HHU Duesseldorf)</i>.</li>
+<li>Leximin Approximation: From Single-Objective to Multi-Objective: <i>Eden Hartman (Bar Ilan University); Avinatan Hassidim (Bar Ilan University); Yonatan Aumann (Bar-Ilan University); Erel Segal-Halevi (Ariel University)</i>.</li>
+<li>Spoiler Susceptibility in Party Elections: <i>Daria Boratyn (Jagiellonian University, Center for Quantitative Political Science); Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Wojciech Słomczyński (Jagiellonian University); Stanisław Szufa (AGH University)</i>.</li>
+<li>Improved EFX approximation guarantees under ordinal-based assumptions: <i>Evangelos Markakis (Athens University of Economics and Business); Christodoulos Santorinaios (Athens University of Economics and Business)</i>.</li>
+<li>Proxy Manipulation for Better Outcomes: <i>Gili Bielous (Technion- Israel Institute of Technology); Reshef Meir (Technion)</i>.</li>
+<li>Towards a Characterization of Random Serial Dictatorship: <i>Felix Brandt (TU Munich); Matthias Greger (Technical University of Munich); René Romen (TU Munich)</i>.</li>
+<li>Strategyproofness and Proportionality in Party-Approval Multiwinner Elections: <i>Théo Delemazure (Paris Dauphine University); Tom Demeulemeester (KU Leuven); Manuel Eberl (University of Innsbruck); Jonas Israel (TU Berlin); Patrick Lederer (Technische Universität München)</i>.</li>
+<li>Non Binary Social Choice: <i>Pierre BARDIER (Ecole Normale Supérieure and Paris School of Economics)</i>.</li>
+<li>The Method of Equal Shares for Participatory Budgeting: <i>Dominik Peters (CNRS, Paris Dauphine); Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw)</i>.</li>
+<li>Proportionality Degree of Multiwinner Rules: <i>Piotr Skowron (University of Warsaw)</i>.</li>
+</ol>
+
+<h3>Accepted Posters</h3>
+<ol>
+<li>Fairness in Temporal Slot Assignment: <i>Edith Elkind (Oxford); Sonja Kraiczy (University of Oxford); Nicholas Teh (University of Oxford)</i>.</li>
+<li>Heuristics for Opinion Diffusion via Local Elections: <i>Rica Gonen (OUI); Martin Koutecky (Charles University); Roei Menashof (The Open university of Israel); Nimrod Talmon (Ben Gurion University)</i>.</li>
+<li>Ascending-Price Mechanism for General Multi-Sided Markets: <i>Dvir Gilor (The Open University of Israel); Rica Gonen (OUI); Erel Segal-Halevi (Ariel University)</i>.</li>
+<li>Influencing Games Through DRL: <i>Colin Brady (OUI); Rica Gonen (OUI); Genadi Rabinovich (OUI)</i>.</li>
+<li>Structure of single-peaked preferences: <i>Alexander Karpov (HSE University)</i>.</li>
+<li>False-name-proof and Strategy-proof Voting Rules under Separable Preferences: <i>Federico Fioravanti (Institute for Logic, Language and Computation); Jordi Massó (Universitat Autónoma de Barcelona)</i>.</li>
+<li>Participatory Budgeting: Data, Tools and Analysis: <i>Piotr Faliszewski (AGH University); Jarosław Flis (Jagiellonian University in Krakow); Dominik Peters (CNRS, Paris Dauphine); Grzegorz Pierczyński (University of Warsaw); Piotr Skowron (University of Warsaw); Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Stanisław Szufa (AGH University); Nimrod Talmon (Ben Gurion University)</i>.</li>
+<li>Fair Rent Division on a Budget Revisited: <i>Stephane Airiau (Paris-Dauphine); Hugo Gilbert (LAMSADE, Université Paris-Dauphine); Umberto Grandi (IRIT, Université Toulouse Capitole); Jérôme Lang (CNRS); Anaëlle Wilczynski (CentraleSupélec)</i>.</li>
+<li>Ties in Multiwinner Approval Voting: <i>Łukasz Janeczko (AGH University of Krakow); Piotr Faliszewski (AGH University)</i>.</li>
+<li>On fair allocation of indivisible goods to submodular agents: <i>Gilad Ben Uziahu (Weizmann institute of science); Uriel Feige (Weizmann Institute)</i>.</li>
+<li>The Leximin Approach for a Sequence of Collective Decisions: <i>Ido Kahana (Ariel University); Noam Hazon (Ariel University)</i>.</li>
+<li>When and How to Have Negative Regrets for Online Learners? Profits for Prediction Market Makers as an Example: <i>Po-An Chen (National Yang Ming Chiao Tung University); Chi-Jen Lu (Academia Sinica); Chuang-Chieh Lin (Department of Computer Science and Information Engineering, Tamkang University); Yu-Qin Lin (National Yang Ming Chiao Tung University)</i>.</li>
+<li>Fair division with splitting: <i>Samuel Bismuth (Ariel university); Vladislav Makarov (St. Petersburg State University); Erel Segal-Halevi (Ariel University); Dana Shapira (Ariel University)</i>.</li>
+<li>Forming a ranking from tied evaluations: a case of an online, interactive student peer assessment system: <i>Lihi Dery (Ariel University)</i>.</li>
+<li>Election control for VCR Euclidean preferences: <i>Michał T Godziszewski (University of Warsaw); Jan Sznajd (CERN)</i>.</li>
+<li>Learning Preference Distributions From Distance Measurements: <i>Gokcan Tatli (University of Wisconsin-Madison); Robert Nowak (University of Wisconsin, Madison); Ramya Korlakai Vinayak (University of Wisconsin-Madison)</i>.</li>
+<li>Reputation-based Persuasion Platforms: <i>Itai Arieli (Technion); Omer Madmon (Technion); Moshe Tennenholtz (Technion – Israel Institute of Technology)</i>.</li>
+<li>Stable Dinner Party Seating Arrangements: <i>Damien Berriaud (ETH Zurich); Andrei Constantinescu (ETH Zurich); Roger Wattenhofer (ETH Zurich)</i>.</li>
+<li>Nonparametric Methods for Detecting Gerrymandering in Multiparty Elections: <i>Dariusz Stolicki (Jagiellonian University, Center for Quantitative Political Science); Wojciech Słomczyński (Jagiellonian University)</i>.</li>
+<li>Designing binary social decisions: <i>Margarita Kirneva (Ecole Polytechnique); Matias Nuñez (Ecole Polytechnique)</i>.</li>
+<li>Proportionality Guarantees in Elections with Interdependent Issues: <i>Markus Brill (University of Warwick); Evangelos Markakis (Athens University of Economics and Business); Georgios Papasotiropoulos (Athens University of Economics and Business); Jannik Peters (TU Berlin)</i>.</li>
+<li>Condorcet Markets: <i>Stephane Airiau (Paris-Dauphine); Nicholas Kees Dupuis (Independent researcher); Davide Grossi (Universiteit van Groningen and University of Amsterdam)</i>.</li>
+<li>Near-Tight Algorithms for the Chamberlin-Courant and Thiele Voting Rules: <i>Krzysztof Sornat (IDSIA, USI-SUPSI); Virginia V Vassilevska Williams (MIT); Yinzhan Xu (Massachusetts Institute of Technology)</i>.</li>
+<li>Simultaneous manipulation under incomplete information: <i>Yuliya A. Veselova (NRU HSE); Daniel Karabekyan (National Research University Higher School of Economics )</i>.</li>
+<li>Designing egalitarian weighted voting games: <i>Fan Wu (Independent)</i>.</li>
+<li>Polarization as Probabilistic Dependence: <i>Luke Thorburn (King's College London); Maria Polukarov (King's College London); Carmine Ventre (King's College London)</i>.</li>
+<li>Algorithmics of Egalitarian versus Equitable Sequences of Committees: <i>Robert Bredereck (TU Clausthal); Till Fluschnik (TU Berlin)</i>.</li>
+<li>On the nucleolus of irreducible minimum cost spanning tree games: <i>Leanne Streekstra (University of Hagen)</i>.</li>
+<li>Dynamic fairness-aware recommendation through multi-agent social choice: <i>Amanda Aird (University of Colorado: Boulder); Paresha Farastu (University of Colorado: Boulder); Joshua Sun (University of Colorado: Boulder); Amy Voida (University of Colorado: Boulder); Nicholas Mattei (Tulane University); Robin Burke (University of Colroado Boulder)</i>.</li>
+</ol>
+</div>
+
+</div>
+
+<div class="col-xs-2 sidebar" style ="position:relative;text-align:left;font-size:28; ">
+ <ul class="nav nav-sidebar " > 
+ <li class="active"><a data-toggle="tab" href="#about">COMSOC@BGU</a></li>
+  <li><a data-toggle="tab" href="#photos">Event Pictures</a></li>
+
+ <li><a data-toggle="tab" href="#schedule">Program</a></li>
+ <!-- 
+ <li><a data-toggle="tab" href="#accepted">Accepted Papers &amp; Posters</a></li>
+ -->
+ <li><a data-toggle="tab" href="#cfp">Call for Papers</a></li>
+ <li><a data-toggle="tab" href="#cfposters">Call for Posters</a></li>
+ <li><a data-toggle="tab" href="#reg">Registration</a></li>
+
+<!-- 
+ <li><a data-toggle="tab" href="#submission">Submission</a></li>
+ <li><a data-toggle="tab" href="#invited">Invited Speakers</a></li>
+ <li><a data-toggle="tab" href="#accepted">Accepted Papers</a></li>
+ <li><a data-toggle="tab" href="#schedule">Program</a></li>
+ -->
+ <li><a data-toggle="tab" href="#invited">Invited Speakers</a></li>
+ <li><a data-toggle="tab" href="#location">Location and Accommodation</a></li>
+ <li><a data-toggle="tab" href="#visa">Visa Information</a></li>
+ <li><a data-toggle="tab" href="#pc">Committee</a></li>
+ <li><a href="http://research.illc.uva.nl/COMSOC/workshops.html">COMSOC Series</a></li>
+ 
+ </ul> 
+</div>
+</div>
+</div>
+<script>
+$(function(){
+ var hash = window.location.hash;
+ hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+ $('.nav-sidebar a').click(function (e) {
+ $(this).tab('show');
+ var scrollmem = $('body').scrollTop() || $('html').scrollTop();
+ window.location.hash = this.hash;
+ $('html,body').scrollTop(scrollmem);
+ });
+ 
+});
+</script>
+</body>
+
+</html>

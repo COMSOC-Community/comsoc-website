@@ -36,6 +36,7 @@ We also use this website to archive old websites of the community (some of them 
 - [Original COMSOC site]({{ "archive/comsoc-website" | relative_url}})
 - [COMSOC-2006: 1st International Workshop on Computational Social Choice]({{ "archive/comsoc-2006" | relative_url}})
 - [COMSOC-2008: 2nd International Workshop on Computational Social Choice]({{ "archive/comsoc-2008" | relative_url}})
+- [COMSOC-2023: 9th International Workshop on Computational Social Choice]({{ "archive/comsoc-2023" | relative_url}})
 - [COST-ADT Doctoral School on Computational Social Choice (2010)]({{ "archive/estoril-2010" | relative_url}})
 - [IJCAI Workshop on Social Choice and Artificial Intelligence (2011)]({{ "archive/ijcai-2011" | relative_url}})
 - [Computational Social Choice at FET'11]({{ "archive/fet-2011" | relative_url}})
