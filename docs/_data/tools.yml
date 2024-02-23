@@ -362,7 +362,7 @@
 
 - name: "MES online computation tool"
   topic: Participatory Budgeting
-  category: Analysis
+  category: Aggregation
   reference-tool: false
   type: Website
   url: https://equalshares.net/tools/compute/
