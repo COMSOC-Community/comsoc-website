@@ -154,9 +154,9 @@ of experimental papers in COMSOC).
         </a>
     </span>
     <span class="badges-wrap">
-        {% if tool.source-url %}<span><a href="{{ tool.source-url }}" target="_blank" rel="noreferrer"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
-        {% if tool.has-tests %}<span><i class="fa-solid fa-list-check"></i></span>{% endif %}
-        {% if tool.documentation-url %}<span><a href="{{ tool.documentation-url }}" target="_blank" rel="noreferrer"><i class="fa-solid fa-book"></i></a></span>{% endif %}
+        {% if tool.source-url %}<span><a href="{{ tool.source-url }}" title="To the source" target="_blank" rel="noreferrer"><i class="fa-solid fa-laptop-code"></i></a></span>{% endif %}
+        {% if tool.has-tests %}<span title="Has been duly tested"><i class="fa-solid fa-list-check"></i></span>{% endif %}
+        {% if tool.documentation-url %}<span><a href="{{ tool.documentation-url }}" title="To the documentation" target="_blank" rel="noreferrer"><i class="fa-solid fa-book"></i></a></span>{% endif %}
         {% if tool.category %}<span class="badge tool-category">{{ tool.category }}</span>{% endif %}
         {% if tool_type == "other"%}<span class="toggle-arrow">&#9662;</span>{% endif %}
     </span>
@@ -167,7 +167,7 @@ of experimental papers in COMSOC).
 <p>{{ tool.description }}</p>
 
 <p>
-    {% for contrib in tool.contributors %}<span{% if contrib.maintainer %} class="tool-contributor"{% endif%}>{% if contrib.url %}<a href="{{ contrib.url }}">{% endif %}{{ contrib.name }}{% if contrib.url %}</a>{% endif %}{% if contrib.maintainer %} (<i class="fa-solid fa-wrench maintainer-badge"></i>){% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}
+    {% for contrib in tool.contributors %}<span{% if contrib.maintainer %} class="tool-contributor" title="Maintainer"{% endif%}>{% if contrib.url %}<a href="{{ contrib.url }}">{% endif %}{{ contrib.name }}{% if contrib.url %}</a>{% endif %}{% if contrib.maintainer %} (<i class="fa-solid fa-wrench maintainer-badge"></i>){% endif %}</span>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}
 </p>
 
 {% if tool.languages %}
