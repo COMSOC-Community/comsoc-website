@@ -34,7 +34,6 @@ theme: minima
 plugins:
   - jekyll-sitemap
 
-
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
