@@ -12,7 +12,8 @@ description: >
 The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank" rel="noreferrer"}, 
 launched in April 2020, is an international seminar series on social choice taking place online. 
 Researchers from all disciplines are welcome to present and attend.
-Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/).
+Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/) and 
+recordings of past sessions are available on the seminar's [YouTube channel](https://www.youtube.com/channel/UCa_l2EzXiJxzfZKtu2mTkdA/videos).
 
 </section>
 
@@ -20,7 +21,7 @@ Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/
 
 ## Past Sessions
 
-Below you will find a listing of past sessions of the COMSOC Video Seminar, with links to recordings.
+Below you will find a listing of past sessions of the COMSOC Video Seminar, with direct links to recordings.
 If you spot a mistake or want to update this list, check the [GitHub repository]({{ site.github_url }})
 for the procedure to follow.
 
