@@ -636,6 +636,15 @@
   supervisors:
     - Vincent Conitzer
 
+- name: Noam Hazon
+  affiliation: Bar-Ilan University
+  year: 2010
+  url: assets/theses/phd-hazon.pdf
+  title: Social Interactions under Uncertainty in Multi Agent Systems
+  supervisors:
+    - Yonatan Aumann
+    - Sarit Kraus
+    
 - name: Souvik Roy
   affiliation: Maastricht University
   year: 2010
