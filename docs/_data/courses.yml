@@ -82,8 +82,21 @@
   institution: Technical University of Munich
   institution_url: https://www.tum.de/en/
   editions:
-    - url: https://www.youtube.com/watch?v=zAmSVCcHx2o&list=PLOfTMPqb4h4YpejIw7acMsdUnBm51a-FD
-      name: Youtube Playlist
+    - url: https://www.youtube.com/playlist?list=PLOfTMPqb4h4YpejIw7acMsdUnBm51a-FD
+      name: YouTube
+    - url: https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2023-24/computational-social-choice-ws-23-24/
+      name: 2023
+    - url: https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-2022-23/computational-social-choice-ws-22-23/
+      name: 2022
+    - url: https://www.cs.cit.tum.de/en/dss/teaching/winter-semester-202122/computational-social-choice-ws-2122/
+      name: 2021
+    - name: 2018
+    - name: 2016
+    - name: 2014
+    - name: 2013
+    - name: 2012
+    - name: 2011
+    - name: 2010
 
 - title: Computational Social Choice
   lecturer: Lirong Xia
