@@ -73,7 +73,8 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
   
-  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)  
+  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)
+    [2024](https://mpref2024.mpref.org/) &middot; 
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
     [2022](https://sites.google.com/view/m-pref2022) &middot;
     [2020](https://www.markusendres.de/mpref/mpref2020/) &middot;
@@ -97,7 +98,7 @@ On this page you will find a non-exhaustive list of such events.
     [2015](http://www.explore-2015.preflib.org/) &middot;
     [2014](http://www.explore14.preflib.org/)
     
-  - [Social Choice for AI Ethics and Safety (SC4AI)](https://sites.google.com/view/sc4ai) Workshop Series   
+  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI) 
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
   
