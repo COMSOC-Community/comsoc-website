@@ -72,10 +72,6 @@ On this page you will find a non-exhaustive list of such events.
   - Meetings of the Society for Social Choice and Welfare   
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
-
-  - [Social Choice for AI Ethics and Safety (SC4AI)](https://sites.google.com/view/sc4ai) Workshop Series   
-    [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
-    [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
   
   - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)  
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
@@ -99,7 +95,11 @@ On this page you will find a non-exhaustive list of such events.
     [2017](http://www.explore-2017.preflib.org/) &middot; 
     [2016](http://www.explore-2016.preflib.org/) &middot;
     [2015](http://www.explore-2015.preflib.org/) &middot;
-    [2014](http://www.explore14.preflib.org/)  
+    [2014](http://www.explore14.preflib.org/)
+    
+  - [Social Choice for AI Ethics and Safety (SC4AI)](https://sites.google.com/view/sc4ai) Workshop Series   
+    [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
+    [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
   
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
