@@ -73,7 +73,7 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
   
-  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)
+  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)   
     [2024](https://mpref2024.mpref.org/) &middot; 
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
     [2022](https://sites.google.com/view/m-pref2022) &middot;
