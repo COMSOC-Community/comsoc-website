@@ -1,3 +1,89 @@
+- date: 2024-03-21
+  chair: Florian Brandl
+  video_links:
+    - https://www.youtube.com/watch?v=D22_QtL7AcM
+  presentations:
+    - title: "On Connected Strongly-Proportional Cake-Cutting"
+      speaker:
+        name: "Zsuzsanna Jankó"
+        url: "https://scholar.google.com/citations?user=wvozCtwAAAAJ&hl=en"
+        affiliation: "Budapest"
+      abstract: >
+        We investigate the problem of fairly dividing a divisible heterogeneous resource, also known
+        as a cake, among a set of agents. We characterize the existence of an allocation in which
+        every agent receives a contiguous piece worth strictly more than their proportional share,
+        also known as a strongly-proportional allocation. The characterization is supplemented with
+        an algorithm that determines the existence of a connected strongly-proportional allocation
+        using at most n · 2^(n−1) queries. We provide a simpler characterization for agents with 
+        strictly positive valuations, and show that the number of queries required to determine 
+        the existence of a connected strongly-proportional allocation is in Θ(n^2). Our proofs are 
+        constructive and yield a connected strongly-proportional allocation, when it exists, using 
+        a similar number of queries.
+      joint_work: "Attila Joó, Erel Segal-Halevi and Sheung Man Yuen"
+
+    - title: "Towards Rawlsian justice in food rescue"
+      speaker:
+        name: "Evi Micha"
+        url: "https://www.cs.toronto.edu/~emicha/"
+        affiliation: "Harvard"
+      abstract: >
+        Sortition is based on the idea of choosing randomly selected representatives for 
+        decision-making. The main properties that make sortition particularly appealing are 
+        fairness — all citizens can be selected with the same probability — and proportional
+        representation — a randomly selected panel likely reflects the composition of the whole
+        population. When a population lies on a representation metric, we formally define
+        proportional representation using a notion called the core. A panel is in the core if no
+        group of individuals is underrepresented proportional to its size. While uniform selection 
+        is fair, it does not always return panels that are in the core. Thus, we ask: Can we design
+        a selection algorithm that satisfies fairness and the core simultaneously? We answer this 
+        question affirmatively and present an efficient selection algorithm, called Fair Greedy 
+        Capture, that is fair and provides a constant-factor approximation to the optimal core.
+        We also ask: Do these panels reflect the entire population’s opinion? We present a positive
+        answer by adopting the concept of metric distortion. We show that while uniform selection 
+        does not provide a reasonable distortion, Fair Greedy Capture achieves a constant distortion.
+
+- date: 2024-02-15
+  chair: Dominik Peters
+  video_links:
+    - https://www.youtube.com/watch?v=9Wg9OoJ_hBw
+  presentations:
+    - title: "Core Stability and Strategy-Proofness in Hedonic Coalition Formation Problems with Friend-Oriented Preferences"
+      speaker:
+        name: "Flip Klijn"
+        url: "https://sites.google.com/view/flipklijn/"
+        affiliation: "Institute for Economic Analysis (CSIC) and Barcelona School of Economics"
+      abstract: >
+        We study hedonic coalition formation problems with friend-oriented preferences; that is, 
+        each agent has preferences over his coalitions based on a partition of the set of agents, 
+        except himself, into "friends" and "enemies" such that (E) adding an enemy makes him 
+        strictly worse off and (F) adding a friend together with a set of enemies makes him 
+        strictly better off. Friend-oriented preferences induce a so-called friendship graph where 
+        vertices are agents and directed edges point to friends. We show that the partition
+        associated with the strongly connected components (SCC) of the friendship graph is in the
+        strict core. We then prove that the SCC mechanism, which assigns the SCC partition to each 
+        hedonic coalition formation problem with friend-oriented preferences, satisfies a strong 
+        group incentive compatibility property: group strategy-proofness. Our main result is that 
+        on any "rich" subdomain of friend-oriented preferences, the SCC mechanism is the only 
+        mechanism that satisfies core stability and strategy-proofness.
+
+    - title: "Towards Rawlsian justice in food rescue"
+      speaker:
+        name: "Gerdus Benadè"
+        url: "https://www.gerdusbenade.com/"
+        affiliation: "Boston"
+      abstract: >
+        We study a problem faced by a national food rescue platform which matches donations to the 
+        first recipient who claims it. Recipients have very different response rates, leading to a 
+        few highly responsive recipients claiming the bulk of the donations. We ask if priority 
+        lists, which control when the donation is announced to each recipient, are a remedy. We 
+        find that an n-stage priority list, which controls the announcement time for every agent 
+        individually, can achieve any desired fractional allocation when goods are non-perishable. 
+        Two-stage priority lists, which announce a donation in only two waves, are simpler to 
+        implement and administer but offer less fine-grained control. We give polynomial-time 
+        algorithms to find the 2-stage and n-stage priority lists that maximize a class of Rawlsian 
+        objective functions. Computational experiments find that even 2-stage priority lists lead to
+        significantly more balanced allocations than the existing first-come first-served rule.
+
 - date: 2024-01-18
   chair: Florian Brandl
   video_links:
