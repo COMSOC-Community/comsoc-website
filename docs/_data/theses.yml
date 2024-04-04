@@ -1,3 +1,11 @@
+- name: Martin Bullinger
+  affiliation: Technische Universität München
+  year: 2023
+  url: https://mediatum.ub.tum.de/1692636
+  title: Computing Desirable Outcomes in Coalition Formation
+  supervisors:
+    - Felix Brandt
+
 - name: Gogulapati Sreedurga
   affiliation: Indian Institute of Science, Bangalore
   year: 2023
@@ -636,6 +644,15 @@
   supervisors:
     - Vincent Conitzer
 
+- name: Noam Hazon
+  affiliation: Bar-Ilan University
+  year: 2010
+  url: assets/theses/phd-hazon.pdf
+  title: Social Interactions under Uncertainty in Multi Agent Systems
+  supervisors:
+    - Yonatan Aumann
+    - Sarit Kraus
+    
 - name: Souvik Roy
   affiliation: Maastricht University
   year: 2010

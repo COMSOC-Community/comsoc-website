@@ -154,7 +154,7 @@ Here is a (not at all exhaustive) list of COMSOC courses throughout the world:
 <strong>{{ course.title }}</strong> &ndash; <a href="{{ course.lecturer_url }}">{{ course.lecturer }}</a> <span class="institution-link">(<a href="{{ course.institution_url }}">{{ course.institution }}</a>)</span> </p>
 <p>
 {% for edition in course.editions %}
-<span><a href="{{ edition.url }}">{{ edition.name }}</a></span> {% unless forloop.last %} &middot; {% endunless %}
+<span>{% if edition.url %}<a href="{{ edition.url }}">{% endif %}{{ edition.name }}{% if edition.url %}</a>{% endif %}</span> {% unless forloop.last %} &middot; {% endunless %}
 {% endfor %}
 </p></li>
 {% endfor %}
