@@ -23,6 +23,8 @@ with the exception of 2020, when we skipped a year due to the COVID-19 pandemic.
 The coordination of the series is in the hands of a [Steering Committee](#steering-committee) 
 serving at the pleasure of the community.
 
+**COMSOC-2025:** The 10th International Workshop on Computational Social Choice will take place in Vienna in September 2025! It will be chaired by Péter Biró (Budapest) and Jiehua Chen (Vienna). Exact dates and more information coming soon.
+
 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
 {% for workshop in sorted_workshops %}
 <div class="workshop-wrapper">
