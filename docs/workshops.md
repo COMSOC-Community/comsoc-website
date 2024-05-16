@@ -34,7 +34,9 @@ serving at the pleasure of the community.
 <h2><a href="{{ workshop.website_url }}" target="_blank" rel="noreferrer">COMSOC-{{ workshop.year }}</a></h2>
 <p>{{ workshop.edition }}</p>
 <p>{{ workshop.location }}, {{ workshop.dates }} {{ workshop.year }}</p>
+{% if workshop.has_proceedings %}
 <p><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">[Proceedings]</a></p>
+{% endif %}
 </div>
 
 </div>

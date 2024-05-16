@@ -4,6 +4,7 @@
   dates: 17-19 September
   website_url: https://www.ac.tuwien.ac.at/comsoc2025/
   image: COMSOC_2025_banner.jpg
+  has_proceedings: false
 
 - year: 2023
   edition: 9th International Workshop on Computational Social Choice
@@ -11,6 +12,7 @@
   dates: 3-5 July
   website_url: archive/comsoc-2023/
   image: COMSOC_2023_banner.jpg
+  has_proceedings: true
 
 - year: 2021
   edition: 8th International Workshop on Computational Social Choice
@@ -18,6 +20,7 @@
   dates: 7-10 June
   website_url: https://comsoc2021.net.technion.ac.il/
   image: COMSOC_2021_banner.jpg
+  has_proceedings: true
 
 - year: 2018
   edition: 7th International Workshop on Computational Social Choice
@@ -25,6 +28,7 @@
   dates: 25-27 June
   website_url: https://www.cs.rpi.edu/~xial/COMSOC18/
   image: COMSOC_2018_banner.jpg
+  has_proceedings: true
 
 - year: 2016
   edition: 6th International Workshop on Computational Social Choice
@@ -32,6 +36,7 @@
   dates: 22-24 June
   website_url: https://www.irit.fr/COMSOC-2016/
   image: COMSOC_2016_banner.jpg
+  has_proceedings: true
 
 - year: 2014
   edition: 5th International Workshop on Computational Social Choice
@@ -39,6 +44,7 @@
   dates: 23-25 June
   website_url: https://www.cs.cmu.edu/~arielpro/comsoc-14/
   image: COMSOC_2014_banner.jpg
+  has_proceedings: true
 
 - year: 2012
   edition: 4th International Workshop on Computational Social Choice
@@ -46,6 +52,7 @@
   dates: 11-13 September
   website_url: https://home.agh.edu.pl/~faliszew/COMSOC-2012/
   image: COMSOC_2012_banner.jpg
+  has_proceedings: true
 
 - year: 2010
   edition: 3rd International Workshop on Computational Social Choice
@@ -53,6 +60,7 @@
   dates: 13-16 September
   website_url: https://ccc.cs.uni-duesseldorf.de/COMSOC-2010/index.shtml
   image: COMSOC_2010_banner.jpg
+  has_proceedings: true
 
 - year: 2008
   edition: 2nd International Workshop on Computational Social Choice
@@ -60,6 +68,7 @@
   dates: 2-5 September
   website_url: archive/comsoc-2008/
   image: COMSOC_2008_banner.jpg
+  has_proceedings: true
 
 - year: 2006
   edition: 1st International Workshop on Computational Social Choice
@@ -67,3 +76,4 @@
   dates: 6-8 December
   website_url: https://staff.science.uva.nl/u.endriss/COMSOC-2006/
   image: COMSOC_2006_banner.jpg
+  has_proceedings: true

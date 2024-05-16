@@ -78,12 +78,16 @@ The .yml format for a COMSOC Workshop is as shown in the example below.
   dates: 3-5 July
   website_url: https://tzin.bgu.ac.il/~omerlev/comsoc.html
   image: COMSOC_2023_banner.jpg
+  has_proceedings: true
 ```
 
 Note the reference to the image of the workshop (the banner used in the standard theme of the workshop
 series). The image file itself needs to be added to the repository `docs/assets/images/workshops/`
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/workshops).
 This image is used as background for the box describing the workshop.
+
+If the value of `has_proceedings` is true, a link is automatically added to `proceedings/YEAR`.
+Only set this value to true if you have also added the proceedings (see below for that).
 
 ### Modify/Add Proceedings of a COMSOC Workshop
 
