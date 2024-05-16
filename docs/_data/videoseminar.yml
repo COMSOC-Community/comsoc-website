@@ -1,3 +1,23 @@
+- date: 2024-04-18
+  chair: Dominik Peters
+  video_links:
+    - https://www.youtube.com/watch?v=IONeSv4M2Og&feature=youtu.be&themeRefresh=1
+  presentations:
+    - title: "Patience ensures fairness"
+      speaker:
+        name: "Andrew Mackenzie"
+        url: "https://sites.google.com/site/andrewkmackenzie/home"
+        affiliation: "Maastricht"
+      abstract: >
+        We revisit the problem of fairly allocating a sequence of time slots when agents may have
+        different levels of patience (Mackenzie and Komornik, 2023). For each number of agents, we
+        provide a lower threshold and an upper threshold on the level of patience such that (i) if
+        each agent is at least as patient as the lower threshold, then there is a proportional
+        allocation, and (ii) if each agent is at least as patient as the upper threshold and
+        moreover has weak preference for earlier time slots, then there is an envy-free allocation.
+        In both cases, the proof is constructive.
+      joint_work: "Florian Brandl"
+
 - date: 2024-03-21
   chair: Florian Brandl
   video_links:
