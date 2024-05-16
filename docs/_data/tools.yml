@@ -539,5 +539,57 @@
     It offers a variety of algorithmic implementations to ensure a fair distribution
     of these items, taking into account standard fairness notions such as envy-freeness up to one
     item (EF1) and weighted envy-freeness (WEF).
-    
 
+- name: "MatchU"
+  topic: Matching
+  category: Application
+  reference-tool: false
+  type: Website
+  url: http://www.matchu.ai/
+  contributors:
+    - name: Hadi Hosseini
+      maintainer: true
+      url: https://faculty.ist.psu.edu/hadi/
+    - name: James Ferris
+      maintainer: false
+    - name: Yeting Bao
+      maintainer: false
+  description: >
+    MatchU blends education and research by offering an interactive platform to find how to form 
+    mutually beneficial relationships, decide how to distribute resources, or resolve conflicts 
+    about a set of alternatives through a suite of algorithms that are rooted in economics, 
+    computer science, and artificial intelligence.
+
+- name: "MATWA: Matching Algorithm Toolkit"
+  topic: Matching
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://matwa.optimalmatching.com/
+  contributors:
+    - name: David Manlove
+      maintainer: true
+      url: https://www.dcs.gla.ac.uk/~davidm/
+    - name: many more
+      url: https://matwa.optimalmatching.com/matching/manual
+      maintainer: false
+  description: >
+    This application provides an interface to access implementations of almost 40 algorithms to
+    compute matchings and associated structures in instances of matching problems with ordinal
+    preferences. 
+
+- name: "MAV: Matching Algorithm Visualiser"
+  topic: Matching
+  category: Application
+  reference-tool: false
+  type: Website
+  url: https://matchingalgorithmvisualiser.github.io/
+  contributors:
+    - name: David Manlove
+      maintainer: true
+      url: https://www.dcs.gla.ac.uk/~davidm/
+  languages:
+    - Java Script
+  source-url: https://github.com/MatchingAlgorithmVisualiser/MatchingAlgorithmVisualiser.github.io
+  description: >
+    Small application presenting visualisation of some matching algorithms.
