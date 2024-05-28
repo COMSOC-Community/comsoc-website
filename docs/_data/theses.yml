@@ -1,3 +1,12 @@
+- name: Ann-Kathrin Selker
+  affiliation: University of Düsseldorf
+  year: 2021
+  url: assets/theses/phd-selker.pdf
+  title: "Voting and Judgment Aggregation: An Axiomatic and Algorithmic Analysis"
+  supervisors:
+    - Dorothea Baumeister
+    - Jörg Rothe
+
 - name: Patrick Lederer
   affiliation: Technische Universität München
   year: 2024
