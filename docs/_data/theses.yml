@@ -1,3 +1,12 @@
+- name: Linus Boes
+  affiliation: University of Düsseldorf
+  year: 2024
+  url: "https://uni-duesseldorf.sciebo.de/s/BgkFI67Nhljix7E"
+  title: "From Individual to Collective: Exploring Multiwinner Elections, Participatory Budgeting, and Judgment Aggregation on a Local and Global Level"
+  supervisors:
+    - Dorothea Baumeister
+    - Jörg Rothe
+
 - name: Ann-Kathrin Selker
   affiliation: University of Düsseldorf
   year: 2021
@@ -10,7 +19,7 @@
 - name: Patrick Lederer
   affiliation: Technische Universität München
   year: 2024
-  url: https://mediatum.ub.tum.de/1720835
+  url: "https://mediatum.ub.tum.de/1720835"
   title: Strategic Manipulation in Social Choice Theory
   supervisors:
     - Felix Brandt
@@ -18,7 +27,7 @@
 - name: Martin Bullinger
   affiliation: Technische Universität München
   year: 2023
-  url: https://mediatum.ub.tum.de/1692636
+  url: "https://mediatum.ub.tum.de/1692636"
   title: Computing Desirable Outcomes in Coalition Formation
   supervisors:
     - Felix Brandt
@@ -34,7 +43,7 @@
 - name: Xinhang Lu
   affiliation: Nanyang Technological University
   year: 2021
-  url: https://hdl.handle.net/10356/152488
+  url: "https://hdl.handle.net/10356/152488"
   title: Fair Resource Allocation in Rich Domains
   supervisors:
     - Xiaohui Bei
@@ -42,7 +51,7 @@
 - name: Niclas Böhmer
   affiliation: Technische Universität Berlin
   year: 2023
-  url: https://doi.org/10.14279/depositonce-19123
+  url: "https://doi.org/10.14279/depositonce-19123"
   title: "Application-oriented Collective Decision Making: Experimental Toolbox and Dynamic Environments"
   supervisors:
     - Rolf Niedermeier
@@ -59,7 +68,7 @@
 - name: Yuzhe Zhang
   affiliation: University of Groningen
   year: 2023
-  url: https://doi.org/10.33612/diss.821820523
+  url: "https://doi.org/10.33612/diss.821820523"
   title: Power and Truth in Liquid Democracy
   supervisors:
     - Davide Grossi
