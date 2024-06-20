@@ -7,6 +7,15 @@
     - Dorothea Baumeister
     - Jörg Rothe
 
+ - name: Rachael Colley
+  affiliation: Université Toulouse Capitole
+  year: 2023
+  url: "https://theses.fr/2023TOU10018"
+  title: "Expressive and Rational Delegations in Voting"
+  supervisors:
+    - Umberto Grandi
+    - Laurent Perrussel
+
 - name: Ann-Kathrin Selker
   affiliation: University of Düsseldorf
   year: 2021
