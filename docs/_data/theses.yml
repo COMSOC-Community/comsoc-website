@@ -1,3 +1,11 @@
+- name: Stanisław Szufa
+  affiliation: AGH University
+  year: 2024
+  url: "https://arxiv.org/pdf/2407.11889"
+  title: "Map of Elections"
+  supervisors:
+    - Piotr Faliszewski
+
 - name: Linus Boes
   affiliation: University of Düsseldorf
   year: 2024
