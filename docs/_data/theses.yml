@@ -1,3 +1,12 @@
+- name: Christian Laußmann
+  affiliation: University of Düsseldorf
+  year: 2023
+  url: assets/theses/phd-laussmann.pdf
+  title: COMSOC Methods in Real-World Applications
+  supervisors:
+    - Jörg Rothe
+    - Dorothea Baumeister
+    
 - name: Stanisław Szufa
   affiliation: AGH University
   year: 2024
@@ -156,7 +165,6 @@
   title: "Deciding the Uncertain: Axiomatic Aspects of Fair Division and Computational Complexity Studies in Computational Social Choice and Graph Theory"
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Anna Maria Kerkmann
   affiliation: University of Düsseldorf
@@ -197,7 +205,6 @@
   title: A Computational Complexity Study of Various Types of Electoral Control, Cloning, and Bribery
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Cynthia Maushagen
   affiliation: University of Düsseldorf
@@ -206,7 +213,6 @@
   title: "Wahlbetrug mit festen und variablen Präferenzen: Eine Komplexitätsanalyse von Kontroll- und Bestechungsproblemen"
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Zoi Terzopoulou
   affiliation: University of Amsterdam, ILLC
