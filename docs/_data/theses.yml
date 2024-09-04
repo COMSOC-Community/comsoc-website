@@ -1,7 +1,59 @@
+- name: Christian Laußmann
+  affiliation: University of Düsseldorf
+  year: 2023
+  url: assets/theses/phd-laussmann.pdf
+  title: COMSOC Methods in Real-World Applications
+  supervisors:
+    - Jörg Rothe
+    - Dorothea Baumeister
+    
+- name: Stanisław Szufa
+  affiliation: AGH University
+  year: 2024
+  url: "https://arxiv.org/pdf/2407.11889"
+  title: "Map of Elections"
+  supervisors:
+    - Piotr Faliszewski
+
+- name: Linus Boes
+  affiliation: University of Düsseldorf
+  year: 2024
+  url: "https://uni-duesseldorf.sciebo.de/s/BgkFI67Nhljix7E"
+  title: "From Individual to Collective: Exploring Multiwinner Elections, Participatory Budgeting, and Judgment Aggregation on a Local and Global Level"
+  supervisors:
+    - Dorothea Baumeister
+    - Jörg Rothe
+
+- name: Rachael Colley
+  affiliation: Université Toulouse Capitole
+  year: 2023
+  url: "https://theses.fr/2023TOU10018"
+  title: "Expressive and Rational Delegations in Voting"
+  supervisors:
+    - Umberto Grandi
+    - Laurent Perrussel
+
+- name: Ann-Kathrin Selker
+  affiliation: University of Düsseldorf
+  year: 2021
+  url: assets/theses/phd-selker.pdf
+  title: "Voting and Judgment Aggregation: An Axiomatic and Algorithmic Analysis"
+  supervisors:
+    - Dorothea Baumeister
+    - Jörg Rothe
+
+- name: Patrick Lederer
+  affiliation: Technische Universität München
+  year: 2024
+  url: "https://mediatum.ub.tum.de/1720835"
+  title: Strategic Manipulation in Social Choice Theory
+  supervisors:
+    - Felix Brandt
+
 - name: Martin Bullinger
   affiliation: Technische Universität München
   year: 2023
-  url: https://mediatum.ub.tum.de/1692636
+  url: "https://mediatum.ub.tum.de/1692636"
   title: Computing Desirable Outcomes in Coalition Formation
   supervisors:
     - Felix Brandt
@@ -17,7 +69,7 @@
 - name: Xinhang Lu
   affiliation: Nanyang Technological University
   year: 2021
-  url: https://hdl.handle.net/10356/152488
+  url: "https://hdl.handle.net/10356/152488"
   title: Fair Resource Allocation in Rich Domains
   supervisors:
     - Xiaohui Bei
@@ -25,7 +77,7 @@
 - name: Niclas Böhmer
   affiliation: Technische Universität Berlin
   year: 2023
-  url: https://doi.org/10.14279/depositonce-19123
+  url: "https://doi.org/10.14279/depositonce-19123"
   title: "Application-oriented Collective Decision Making: Experimental Toolbox and Dynamic Environments"
   supervisors:
     - Rolf Niedermeier
@@ -42,7 +94,7 @@
 - name: Yuzhe Zhang
   affiliation: University of Groningen
   year: 2023
-  url: https://doi.org/10.33612/diss.821820523
+  url: "https://doi.org/10.33612/diss.821820523"
   title: Power and Truth in Liquid Democracy
   supervisors:
     - Davide Grossi
@@ -67,7 +119,7 @@
     - Ton Storcken
 
 - name: Ulrike Schmidt-Kraepelin
-  affiliation: TU Berlin
+  affiliation: Technische Universität Berlin
   year: 2023
   url: https://doi.org/10.14279/depositonce-17956
   title: Models and Algorithms for Scalable Collective Decision Making
@@ -113,7 +165,6 @@
   title: "Deciding the Uncertain: Axiomatic Aspects of Fair Division and Computational Complexity Studies in Computational Social Choice and Graph Theory"
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Anna Maria Kerkmann
   affiliation: University of Düsseldorf
@@ -154,7 +205,6 @@
   title: A Computational Complexity Study of Various Types of Electoral Control, Cloning, and Bribery
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Cynthia Maushagen
   affiliation: University of Düsseldorf
@@ -163,7 +213,6 @@
   title: "Wahlbetrug mit festen und variablen Präferenzen: Eine Komplexitätsanalyse von Kontroll- und Bestechungsproblemen"
   supervisors:
     - Jörg Rothe
-    - Dorothea Baumeister
 
 - name: Zoi Terzopoulou
   affiliation: University of Amsterdam, ILLC
@@ -191,7 +240,7 @@
     - Lefteris Kirousis
 
 - name: Jan Maly
-  affiliation: TU Wien
+  affiliation: Technische Universität Wien
   year: 2020
   url: https://repositum.tuwien.at/handle/20.500.12708/15741
   title: "Ranking Sets of Objects: How to Deal with Impossibility Results"
@@ -513,7 +562,7 @@
     - Bracha Shapira
     -
 - name: Martin Lackner
-  affiliation: TU Vienna
+  affiliation: Technische Universität Wien
   year: 2014
   url: https://repositum.tuwien.at/handle/20.500.12708/2602
   title: Detecting Structure in Permutations and Preferences

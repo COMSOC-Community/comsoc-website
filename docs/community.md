@@ -2,7 +2,7 @@
 layout: default
 title: Community | COMSOC
 description: >
-  Learn about the Computational Social Choice (COMSOC) community. A research community dedicated to
+  Learn about the Computational Social Choice (COMSOC) community, a research community dedicated to
   understanding collective decision making.
 ---
 

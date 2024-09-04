@@ -39,6 +39,8 @@
   institution: Harvard University
   institution_url: https://www.harvard.edu/
   editions:
+    - url: https://sites.google.com/view/optdemocracy24/
+      name: 2024
     - url: https://sites.google.com/view/optdemocracy23/
       name: 2023
     - url: https://sites.google.com/view/optdemocracy22/

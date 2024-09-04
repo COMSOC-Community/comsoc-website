@@ -94,7 +94,9 @@
                 <li><a href="{{ "workshops" | relative_url }}#organising">Organising</a></li>
                 {% assign sorted_workshops = site.data.workshops | sort: 'year' | reverse %}
                 {% for workshop in sorted_workshops %}
-                    <li><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">Proceedings {{ workshop.year }}</a></li>
+                    {% if workshop.has_proceedings %}
+                        <li><a href="{{ '/proceedings/' | append: workshop.year | relative_url }}">Proceedings {{ workshop.year }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
