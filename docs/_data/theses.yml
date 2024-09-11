@@ -1,3 +1,11 @@
+- name: Georgios Papasotiropoulos
+  affiliation: Athens University of Economics and Business
+  year: 2024
+  url: "https://duch.mimuw.edu.pl/~gpapasotiropoulos/thesis.pdf" 
+  title: "Algorithmic and Game-Theoretic Aspects of Computational Social Choice"
+  supervisors:
+    - Evangelos Markakis
+
 - name: Christian Laußmann
   affiliation: University of Düsseldorf
   year: 2023
