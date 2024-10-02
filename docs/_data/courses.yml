@@ -100,18 +100,18 @@
     - name: 2011
     - name: 2010
 
-- title: Computational Social Choice
-  lecturer: Lirong Xia
-  lecturer_url: https://www.cs.rpi.edu//~xial/
-  institution: Rensselaer Polytechnic Institute
-  institution_url: https://www.rpi.edu/
-  editions:
-    - url: https://www.cs.rpi.edu/~xial/Teaching/2016S/COMSOC/COMSOC2016S.htm
-      name: 2016
-    - url: https://www.cs.rpi.edu/~xial/Teaching/2014F/COMSOC2014F.htm
-      name: 2014
-    - url: https://www.cs.rpi.edu/~xial/Teaching/2013F/COMSOC2013F.htm
-      name: 2013
+#- title: Computational Social Choice
+#  lecturer: Lirong Xia
+#  lecturer_url: https://www.cs.rpi.edu//~xial/
+#  institution: Rensselaer Polytechnic Institute
+#  institution_url: https://www.rpi.edu/
+#  editions:
+#    - url: https://www.cs.rpi.edu/~xial/Teaching/2016S/COMSOC/COMSOC2016S.htm
+#      name: 2016
+#    - url: https://www.cs.rpi.edu/~xial/Teaching/2014F/COMSOC2014F.htm
+#      name: 2014
+#    - url: https://www.cs.rpi.edu/~xial/Teaching/2013F/COMSOC2013F.htm
+#      name: 2013
 
 - title: Computational Social Choice
   lecturer: Piotr Skowron
