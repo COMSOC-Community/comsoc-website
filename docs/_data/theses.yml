@@ -1,3 +1,11 @@
+- name: Grzegorz Pierczyński
+  affiliation: University of Warsaw
+  year: 2024
+  url: assets/theses/phd-pierczynski.pdf
+  title: "Proportional Participatory Budgeting"
+  supervisors:
+    - Piotr Skowron
+
 - name: Georgios Papasotiropoulos
   affiliation: Athens University of Economics and Business
   year: 2024
