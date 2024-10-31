@@ -54,7 +54,7 @@ Can we design an algorithm for it?
 <span class="interdisciplinary-header lettrine">Information<br>Encoding</span>
 Mechanisms for collective decision making, such as voting rules or protocols for the fair allocation 
 of resources, may face serious challenges when dealing with large numbers of alternatives.
-Those number can get large when alternatives have a combinatorial structure, 
+Those numbers can get large when alternatives have a combinatorial structure, 
 meaning that the overall decision to be taken really is made up of several smaller decisions.
 COMSOC makes the need for the compact representation of preferences explicit:
 How should we represent the preferences of individuals over a complex space of alternatives?
