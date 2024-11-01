@@ -9,3 +9,5 @@ vendor/
 .idea
 
 *.lock
+
+.DS_STORE
