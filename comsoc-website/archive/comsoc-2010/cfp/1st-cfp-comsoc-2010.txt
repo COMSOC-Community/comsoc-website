@@ -1,0 +1,121 @@
+**********************************************************************
+
+                         1st Call for Papers
+
+      Third International Workshop on Computational Social Choice
+                            (COMSOC-2010)
+
+               Duesseldorf, Germany, September 13--16, 2010
+
+            URL: http://ccc.cs.uni-duesseldorf.de/COMSOC-2010/
+
+**********************************************************************
+MISSION
+**********************************************************************
+
+Computational social choice  is  a  new  discipline  emerging  at  the 
+interface  of  social  choice  theory  and  computer  science.  It  is 
+concerned with the application  of  computational  techniques  to  the 
+study of social choice mechanisms, and with the integration of  social 
+choice paradigms into computing. The aim of this workshop is to  bring 
+together the different communities  that  have  been  addressing  such 
+issues: computer scientists  interested  in  computational  issues  in 
+social choice; people working in artificial  intelligence  and  multi-
+agent systems who are using  ideas  from  social  choice  to  organize 
+societies of artificial software agents; logicians interested  in  the 
+logic-based specification and analysis of  social  procedures  (social 
+software); and last but not least people  coming  from  social  choice 
+theory itself. 
+
+COMSOC-2010  will  be  held  in  association  with  the  COST   Action
+``Algorithmic Decision Theory,'' and will also  be  accompanied  by  a
+``LogICCC tutorial day'' with general introductory talks.  The invited
+talks of the workshop and the tutorials will be presented by a  number
+of prominent  scientists.   Registration  fees  will  cover  both  the
+workshop and the LogICCC tutorial day and will be kept very low.
+
+**********************************************************************
+INVITED SPEAKERS
+**********************************************************************
+
+Invited speakers will include Gabrielle  Demange  (Paris;  tentative),
+Matthew O. Jackson (Stanford), Bettina Klaus (Lausanne), Herve  Moulin
+(Rice University), and Hannu Nurmi (Turku).
+
+**********************************************************************
+PAPER SUBMISSION
+**********************************************************************
+
+Submissions of full papers describing original or  recently  published 
+work on all aspects of computational social choice are invited. Topics
+of interest include, but are not limited to:
+
+ o complexity-theoretic analysis of voting procedures
+ o computational aspects of fair division 
+ o multiagent resource allocation
+ o cake-cutting algorithms
+ o distributed negotiation in multiagent systems
+ o preference representation in combinatorial domains
+ o computational aspects of preference aggregation rules
+ o preference elicitation
+ o social choice and constraint programming
+ o social choice and the web: ranking systems
+ o social networks
+ o belief and judgement aggregation
+ o algorithmic game theory
+ o computational aspects of coalition formation
+ o social choice under uncertainty
+ o logics for collective decision making
+ o logic-based verification of social procedures 
+ o communication complexity of social choice mechanisms
+ o computational issues in mechanism design
+
+Paper submission is electronic via the workshop website. Papers should 
+not exceed 14  pages in length (roughly  5000  words)  and  should  be 
+formatted according to the  instructions  available  at  the  workshop
+website. Accepted papers will be collected in informal workshop notes,
+printed copies of which will be  available  at  the  workshop.  Please
+contact either one of the program chairs in case of any questions:
+
+ o Vince Conitzer (conitzer@cs.duke.edu)
+ o Joerg Rothe (rothe@cs.uni-duesseldorf.de)
+
+**********************************************************************
+IMPORTANT DATES
+**********************************************************************
+
+ o Paper submission deadline: June 1, 2010
+ o Notification of authors: July 15, 2010
+ o Camera-ready papers due: August 1, 2010
+ o Early registration deadline: August 1, 2010
+ o LogICCC tutorial day: September 13, 2010
+ o Workshop dates: September 14--16, 2010
+
+**********************************************************************
+PROGRAM COMMITTEE
+**********************************************************************
+
+ o Steven Brams
+ o Felix Brandt
+ o Vincent Conitzer (co-chair)
+ o Edith Elkind
+ o Ulle Endriss
+ o Piotr Faliszewski
+ o Michael R. Fellows
+ o Marc Kilgour
+ o Jerome Lang
+ o Jean-Francois Laslier
+ o Noam Nisan
+ o Ariel Procaccia
+ o Fran Rosamond
+ o Jeffrey S. Rosenschein
+ o Francesca Rossi
+ o Joerg Rothe (co-chair)
+ o Remzi Sanver
+ o Arkadii Slinko
+ o Kristen Brent Venable
+ o Toby Walsh
+ o Michael Wooldridge
+ o William S. Zwicker
+ 
+**********************************************************************

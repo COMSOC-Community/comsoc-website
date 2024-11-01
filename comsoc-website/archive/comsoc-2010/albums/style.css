@@ -1,0 +1,33 @@
+
+body { color: black; background: white; }
+
+/* Fonts in the title */
+h1.title { font-family: "Comic Sans MS",Helvetica,sans-serif; font-size: 200%; font-weight: bold; text-align: center; }
+h2.daterange { font-family: Arial,Helvetica,sans-serif; font-size: 125%; text-align: center; }
+h3 { font-family: Arial,Helvetica,sans-serif; font-size: 90%; text-align: center; }
+
+/* Photo captions & Directory titles */
+div.caption { font-family: Arial,Helvetica,sans-serif; font-size: 100%; font-weight: bold; margin: 1em; }
+
+/* Overall fonts on the index and details page */
+div.index { font-family: Arial,Helvetica,sans-serif; font-size: 80%; }
+div.detail { font-family: Arial,Helvetica,sans-serif; font-size: 80%; }
+div.credits { font-family: Arial,Helvetica,sans-serif; font-size: 80%; text-align: right; margin: 10px }
+
+/* Table attributes */
+table.index { background: #ffffff; border: none; border-spacing: 8px; }
+td.index { border: none; padding: 3px }
+table.frame { background: #ffffff; border: none }
+td.frame { border: none; padding: 0px }
+
+/* Image attributes */
+img.index { border: none; }
+img.slide { border: none; }
+img.frame { border: none; }
+
+/* Link attributes */
+a:link { color: blue; }
+a:visited { color: green; }
+a:hover { color: red; }
+a:active { color: red; }
+
