@@ -1,0 +1,155 @@
+/*
+Theme Name:     Ada
+Theme URI:      http: //www.technion.ac.il/
+Description:    Accessible child theme of the zacklive customized for Technion WordPress multisite. Named after Prof. Ada Yonath Nobel prize laureate in Chemistry 2009
+Author:         Cis WebDev
+Author URI:     http: //net.technion.ac.il/
+Template:       zacklive
+Version:        1.3.10
+Text Domain:  	ada
+*/
+
+/* Include the parent theme's stylesheet(s). Then anything you change below that will
+ * override those styles. If you'd rather start from scratch, you can comment out this
+ * next line.
+ */
+@import url("../zacklive/style.css");
+
+/* FIX [@v1.3.9c] - fix title vspace */
+body.category header > .entry-title , 
+body.single-post header > .entry-title { margin: 12px 0 3px ; }
+
+/* FIX [@v1.3.4] - hide author of member page */
+body.single-tg_members footer.entry-footer .byline { display: none; }
+
+/* RTL FIX [@v1.3.2] set .dropdown-submenu arrow direction to right */
+body.rtl .dropdown-submenu>a:after {
+	border-right-color: #ccc;
+	border-width: 5px 5px 5px 0px;
+}
+
+/* members fixes */
+.member_wrap .member_title { margin-top:5px; }
+
+/* wp-accessibility plugin-fixes */
+.wpa-hide-rtl#skiplinks a, .wpa-hide-rtl#skiplinks a:hover, .wpa-hide-rtl#skiplinks a:visited ,
+.wpa-hide-ltr#skiplinks a, .wpa-hide-ltr#skiplinks a:hover, .wpa-hide-ltr#skiplinks a:visited {
+    z-index: 100000;
+}
+/* skiplinks: rtl fix */
+.wpa-hide-rtl#skiplinks a:focus , 
+body.rtl #wpadminbar .screen-reader-shortcut { 
+	left: auto;     right:2px !important; min-width: 150px !important;
+} 
+
+#lang_sel{ margin: 16px 0 0px; }
+#lang_sel_list.lang_sel_list_vertical { margin: 10px 0 8px; }
+
+
+
+/* fix focus outline */
+body #content:focus ,body #site-navigation:focus { outline:none !important; }
+
+/* fix breadcrumbs */
+body .breadcrumbs { padding: 0 38px;}
+body .breadcrumbs a { color: #23527c; }
+
+/* Service menu */
+	
+.header-top-1 	.service-nav-menu  { margin: 20px 10px 0;} 
+.header-top-1 	.service-nav-menu .service-menu-container { display:inline-block; }
+.header-top-1 	.service-nav-menu  a { color: #23527c;}  	
+
+/* heigher entry title */
+body header.entry-header { padding-top: 3px; } 
+
+/* hide entry-footer: posted-on and author  */
+article.type-page .entry-footer { border-top :none; }
+article.type-page .entry-footer .posted-on ,
+article.type-page .entry-footer .byline {display:none;}
+
+/* FIX for pages with admin-bar caused by: tcc-site-init/css/technion-admin-bar-style.css?ver=1.6.7.wp2 */
+body.admin-bar #page { margin-top: 0 !important;}	
+
+/* Fix footer credits */
+footer .site-info {text-align: center;}
+footer #cis-foot-links { top:5px !important ; }
+
+/* Site Branding fixes */
+.site-branding 	{ margin-top:10px ; margin-bottom:5px ; }
+.site-branding .technion-logo-link img 	{ max-height:65px ; vertical-align: baseline;} 
+
+
+
+@media (min-width: 768px) {
+	 body.page-template-default  .site-branding .site-header-text { margin-top:4px; }
+}
+
+/* Add extra Head Space  */
+ 
+#content.site-content { margin-top: 50px; }
+/* ____________  body.design-style-default _________________ */
+body.design-style-default  .site-branding  { min-height: 90px;  margin-top: 30px;	} 
+
+
+
+/* optional fix(???)  for collapsed dropdownmenu */
+@media (max-width: 767px) {
+	XXX body .navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;     background-color: red;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+
+
+/*
+_______________________________________
+fixes for a11y-toggle-fontsize contrast button 
+_______________________________________
+*/
+
+body.contrast .su-tabs-nav span {background-color:#E0E0E0;}
+body.contrast .su-tabs-current  {background-color:#FFF !important;}
+html.fontsize .su-tabs-panes div, html.fontsize .su-tabs-nav span {font-size:1.5em !important;}
+html.fontsize .wp-caption .wp-caption-text {font-size:1.3em !important;}
+
+
+/* FIX [@v1.3.6] */
+
+html.fontsize .breadcrumbs ,
+html.fontsize #cis-foot-links ,
+html.fontsize #service-navigation { font-size: 120% ; }
+
+html.fontsize .widget .textwidget { font-size: 140% ; }
+body.contrast .featuredposts-excerpt { background: #000 !important;  }
+body.contrast #content #secondary aside.widget {
+    background-color: inherit !important;
+}
+
+
+
+html.fontsize h1 { font-size: 38px !important ;  line-height: 1.1; }
+html.fontsize h2 { font-size: 32px !important ;  line-height: 1.1; }
+html.fontsize h2.widget-title { 
+				   font-size: 18px !important ;  line-height: 1.1; }
+html.fontsize h3 { font-size: 28px !important ;  line-height: 1.1; }
+html.fontsize h4 { font-size: 24px !important ;  line-height: 1.1; }
+html.fontsize h5 { font-size: 20px !important ;  line-height: 1.1; }
+html.fontsize h6 { font-size: 16px !important ;  line-height: 1.1; }
+
+html.fontsize li:not(.a11y-toolbar-list-item) li ,
+html.fontsize li:not(.a11y-toolbar-list-item) li li {
+    font-size: 100% !important;
+}
+
+
+
+
+

@@ -1,0 +1,456 @@
+/*
+___________________________________________________________________________
+
+	 CIS Theme js-functions file cis-theme-functions.js
+
+___________________________________________________________________________
+
+*/
+
+ 
+( function( $ ) {
+	var body    = $( 'body' ),
+		_window = $( window );
+
+	// Distribute footer widgets evenly EXTENDED version of below url
+	// https://bigwilliam.com/auto-distribute-footer-widgets-in-wordpress-with-bootstrap-roots-theme/		
+	
+	$('.widget-area.auto-distribute-widgets').each(function(area_index, widget_area) {			
+		
+		//	console.log('multi-col-widget-area(' + area_index + ') id=' + $(widget_area).attr('id')); 
+		
+			var all_widgets = $(widget_area).children(".widget"); 
+			
+			// Asign Boostrap column class col-sm-## 
+			all_widgets.each(function(widget_index, widget){
+				
+				$(widget).addClass('col-sm-' + Math.floor(12 / all_widgets.length) );
+				
+				
+				!true && console.log(' ** widget['+ area_index + '_' + widget_index + 
+							'] id=(' + $(widget_area).attr('id') +'/' + $(widget).attr('id') + 
+							') class="' + $(widget).attr('class') +'"' 
+							); 
+			});			
+	});
+
+	/* 
+	_________________________________________________  
+	 FIX [@v1.3.7]  : 
+	resolve the conflict between bootstrap tooltip with jquery UI. 
+	caused by photonic 1.64 see: https://wordpress.org/support/topic/bootstrap-and-photonic-issue/
+	see : http://seegatesite.com/problem-solve-tooltip-adminlte-bootstrap-framework-conflict-with-jquery-ui/
+	_________________________________________________
+	*/
+	//alert('FIX 1.3.7 - resolve the conflict between bootstrap tooltip with jquery UI');
+	//console.log( 'jQuery.ui.tooltip is already defined as a - ' , typeof jQuery.ui.tooltip);
+	
+	// if jQuery.ui.tooltip is()  already defined 
+	// tell  Bootstrap to RENAME the  function tooltip() to bstooltip() and button() to bsbutton()
+	if ( typeof jQuery.ui !== 'undefined') { 					//  FIX [@v1.3.8]  	
+		if ( typeof jQuery.ui.tooltip !== 'undefined') {
+			var bootstrapTooltip = $.fn.tooltip.noConflict(); 
+			$.fn.bstooltip = bootstrapTooltip;
+		}			
+		if ( typeof jQuery.ui.button !== 'undefined') {	
+			var bootstrapButton = $.fn.button.noConflict(); 
+			$.fn.bsbutton = bootstrapButton;	
+		}	
+	}		
+	/* _________________________________________________ */
+	
+	
+} )( jQuery );
+
+jQuery( document ).ready( function( $ ) {
+
+
+
+	/* append to footer: Credits : Technion Web Development Group  */
+
+	var lang_is_heb 		= ( $('html[lang^="he-"]').length > 0 ) ;
+	var theme_is_accessible = ( $('body[class*="access-"]').length > 0 ) ;
+	var header_service_nav  = $('header #service-navigation');
+
+
+	/* append to footer : accessibility links */	
+
+
+	
+
+	/*  ___ test for toggle logon on cotrast switch _____
+	
+		$('body.rtl.contrast .technion-logo-link > img').attr('src','/wp-content/themes/access-technion-zacklive-ada/cis-assets/images/techlogo/heb_hor_light.png');
+		
+		$('body.contrast .technion-logo-link > img').attr('src','/wp-content/themes/access-technion-zacklive-ada/cis-assets/images/techlogo/eng_hor_light.png');
+		
+	*/	
+	
+	
+	//___________________________________________________
+	//
+	//	NAVBAR Hover & Focus navigation behaviours ( EXPERIMENTAL ) 
+	//___________________________________________________
+	
+	
+	
+	// see: https://github.com/twbs/bootstrap/issues/684
+	// see: https://github.com/ZacharyChim/zacklive/blob/master/assets/js/bootstrap/bootstrap.js#L681
+
+	// If item has_children add atts to a  ==>  a href="#" data-toggle="dropdown" class="dropdown-toggle"
+	// i.e. It original href is lost and replaced by href="#" 
+	// see: https://github.com/ZacharyChim/zacklive/blob/master/library/bootstrap-wp-navwalker.php#L105
+	
+	// get the navbar dropdowns to slide down on hover instead of just popping in
+	// this is a Buggy solution ( better is to toggle the open class ) 
+	// http://stackoverflow.com/a/13245391
+	$('XX body .navbar .dropdown').hover(function() {
+		  delay_time = 180 ; // m.sec
+		  slide_time = 200 ; // m.sec
+		  $(this).find('.dropdown-menu').first().stop(true, true).delay(delay_time).slideDown(slide_time);
+		}, function() {
+		  $(this).find('.dropdown-menu').first().stop(true, true).delay(delay_time).slideUp(slide_time)
+	});
+
+
+
+
+	//  @FIX [V1.3.5] - hover simulation on touch screens
+	// (0) ==> inspired  by http://www.hnldesign.nl/work/code/mouseover-hover-on-touch-devices-using-jquery/
+	$('body .navbar .dropdown a.dropdown-toggle.link_url').on('touchstart', function(e){
+		"use strict"; //satisfy the code inspectors
+		var link = $(this); //preselect the link
+		if (link.hasClass('touch_start')) {
+			window.location.href = $(this).attr("href");
+			e.preventDefault();
+			return false;
+		} else {
+			link.addClass("touch_start");
+			$('a').not(this).removeClass("touch_start");
+			//___ FIX 1.3.5b if touch_start then add class 'open' to (expand) menu  ____
+			
+			//console.log( "adding touch_start to -> (%s))", $(this).text());
+			$(this).parent().addClass('open');
+			e.preventDefault();
+		//	return false; //extra, and to make sure the function has consistent return points
+		}
+	});		
+	
+	// (1) ==> Enable Clicking on a dropdown-toggle to goto the original url
+	$('body .navbar .dropdown a.dropdown-toggle.link_url').on('click', function(e){
+
+		var clicked_link = $(this); //preselect the link
+		// on mobile : Ignore click event  - if already handled  by touchstart event
+		if (clicked_link.hasClass('touch_start')) {
+			return false;	
+		}
+		
+	//	console.log( "goto link url:  (href=%s) (event=%O)", $(this).attr("href"), e);
+		window.location.href = $(this).attr("href");
+	//	e.preventDefault();
+		return false;
+		
+    });
+
+	
+ 	// enable-bootstrap-3 navbar  hover-dropdowns
+	// (2) ==> http://stackoverflow.com/a/33152550  more stable solution
+	$('body .navbar .dropdown').hover(function() {
+		if (!($(this).hasClass('open'))) {
+			$(this).addClass('open');
+			//$('.dropdown-toggle', this).trigger('click');
+		}
+	}, function() {
+		if ($(this).hasClass('open')) {
+			 $(this).removeClass('open');
+			//$('.dropdown-toggle', this).trigger('click');
+		}
+	});
+
+	
+	
+	
+	// http://stackoverflow.com/a/33131332
+	
+	//____________________________________________
+		
+//	$("#menu-item-1781").on("focus",function() {
+	// NOTES: use one instead of on so that event handler function is only run ONCE for each element.
+	// use one("focus click" so that click continues to work OK 
+	$("XX body nav ul.nav li a.dropdown-toggle").one("click focus blur",function(e) {
+		//console.log( $( this ).text() );
+		console.log( "debug: %s %s %O" , e.type  ,$(this).text() , e );
+	//	kuku = $(this).parent();
+	//	$( this ).trigger('mouseenter');
+	//	kuku.toggleClass('open');
+	
+	//	$(this).next(".dropdown-menu").toggle();
+		
+	//	$(".dropdown-toggle").dropdown('toggle');
+		
+	//	e.stopPropagation(); e.preventDefault();
+		
+	//	$(this).dropdown('toggle');
+		
+		 if(e.type === 'focus') {	
+				$(this).css({ "background-color": "#f00" });
+			//	$(this).dropdown('toggle');
+				$(this).parent().toggleClass('open');
+				
+		 }
+		 
+		 if(e.type === 'blur') {	
+				$(this).css({ "background-color": "#ff0" });
+				//$(this).parent().toggleClass('open');
+				
+		 }
+    
+		
+	}); 
+	//____________________________________________
+	
+
+	window.last_focused_item_open_parents_num = 0 ; 
+	window.last_focused_item = null;
+	
+	$("XX body nav ul.nav li.menu-item  a").one("click focus blur",function(e) {
+
+
+		var focused_item_open_parents_num = $(this).parents('.open').length; 
+		var menu_label = $(this).text(); 
+
+		if(e.type === 'focus') {	
+			
+
+			console.log( "debug: (%s: '%s') open_parent=%i (last_focused_item_open_parents_num=%i)",e.type,  menu_label, focused_item_open_parents_num, window.last_focused_item_open_parents_num );
+						
+			
+			if( $(this).hasClass( "dropdown-toggle" ) )  {	
+			//	$(this).css({ "background-color": "#f00" });
+				$(this).parent().toggleClass('open');	
+				
+			}
+						
+			
+			
+			if ($(this).parents('.open').length == 0 ) {
+				$(this).dropdown('toggle'); 
+			}		
+			
+			
+			
+		} // e.type === 'focus'
+		
+		
+		if(e.type === 'blur') {	
+			//$(this).css({ "background-color": "#ff0" });
+			console.log( "debug: (%s: '%s') open_parent=%i ",e.type,  menu_label, focused_item_open_parents_num );
+				//$(this).parent().toggleClass('open');
+				
+		}		
+		
+	
+	}); 	
+	
+	$("XXX body nav ul.nav li.menu-item > a.dropdown-toggle").one("click focus blur",function(e) {
+		if(e.type === 'focus') {	
+			$(this).parent().toggleClass('open');	
+		}
+	});
+	
+//	$("body nav ul.nav li.dropdown  a").one("click focus blur",function(e) {
+//	$("body nav ul.nav li.menu-item > a").one("click focus blur",function(e) {
+	
+	// (3)===>  FOCUS - use only .on("focus") !!!
+	$("body nav ul.nav li.menu-item > a").on("focus Xblur",function(e) {
+		
+	//	console.log( "debug: %s:(%s)  -- %O ", e.type  ,$(this).text() , e );
+	
+	//	kuku = $(this).parent();
+	//	$( this ).trigger('mouseenter');
+	//	kuku.toggleClass('open');
+	
+	//	$(this).next(".dropdown-menu").toggle();
+		
+	//	$(".dropdown-toggle").dropdown('toggle');
+		
+	//	e.stopPropagation(); e.preventDefault();
+		
+	//	$(this).dropdown('toggle');
+	
+		  if(e.type === 'focus') {	
+			
+		 	var focused_item_open_parents_num = $(this).parents('.open').length; 
+		 	var menu_label = $(this).text(); 
+		 	// console.log( "debug: open parents (%s) %i (%i) (last_focused_item_open_parents_num=%i)", e.type,  $(this).parents('.open').length, focused_item_open_parents_num ,window.last_focused_item_open_parents_num);
+	
+				
+
+	
+			if( $(this).hasClass( "dropdown-toggle" ) )  {	
+			//	$(this).css({ "background-color": "#f00" });
+				
+			//	$(this).parent().toggleClass('open');
+				$(this).parent().addClass('open');
+				//$(this).trigger('click');
+
+			
+			}
+			
+			
+			// we have left a sub-menu tree :  make sure to close all related sub-menus  	
+			if (focused_item_open_parents_num < window.last_focused_item_open_parents_num ) {
+				
+			// ==>	 console.log( "CLOSE last menu:  open parents (%s) (%i) (last_focused_item_open_parents_num=%i) (last_focus=%O)", e.type,   focused_item_open_parents_num ,window.last_focused_item_open_parents_num , window.last_focused_item);
+			
+			
+			
+				//$(this).dropdown('toggle'); 
+				//$( this ).trigger('click');
+				
+			//	$(window.last_focused_item).parent().toggleClass('open');
+			//	$(window.last_focused_item).parents('.open').css({ "background-color": "#f00" });
+			//	$(window.last_focused_item).parents('.open').first().toggleClass('open');
+			
+
+			//	$(window.last_focused_item).closest('.open').toggleClass('open');
+				
+				// close from BOTTOM to TOP - all open parent-sub-menus of the last focused item 
+				for (i=focused_item_open_parents_num ; i < window.last_focused_item_open_parents_num ; i++)  { 
+					// close the closest open-parent-menu
+					$(window.last_focused_item).closest('.open').toggleClass('open');
+				}
+				
+			}	
+			
+			
+			// remember last focused item and #open menus (parents) 
+			window.last_focused_item_open_parents_num = focused_item_open_parents_num;
+			window.last_focused_item = this;
+			
+		  } // if(e.type === 'focus')
+		  
+		  
+		 if(e.type === 'blur') {	
+				//$(this).css({ "background-color": "#ff0" });
+				
+				//  console.log( "debug: open parents (%s) %i (%i) (last_focused_item_open_parents_num=%i)", e.type,  $(this).parents('.open').length, focused_item_open_parents_num ,window.last_focused_item_open_parents_num);
+				//$(this).parent().toggleClass('open');
+				//$(this).parent().removeClass('open');
+				
+		 }
+    
+	
+	
+		
+	}); 	
+	
+	
+	
+	
+//	$("body nav ul.nav li a.dropdown-toggle").on("keydown", function(e){
+	$("XX body nav ul.nav li.menu-item > a").one("keydown", function(e){
+		var $this = $(this);
+		
+		//if (!/9/.test(e.keyCode)) return
+		
+		console.log( "keyCode: %s " ,e.keyCode,e );
+		
+		switch(e.keyCode) {
+		  //case 13: // Enter key
+		  //case 32: // Space bar
+			//$this.click();
+			//$this.closest('.dropdown').removeClass('open');
+			//e.stopPropagation();
+			//break;
+		  case 9: // Tab key
+		//	if (e.shiftKey) select_previous();
+			
+		    if ($this.hasClass('dropdown-toggle')) {
+				//$this.click(); 
+				$this.trigger('click');
+				
+				
+			} else {			
+				$this.focus();
+				 $this.trigger('focus');
+				
+			}
+			break;	
+		}
+		
+		//e.preventDefault();
+		//e.stopPropagation();
+		// $(this).trigger('click');
+		
+    });
+
+	
+});
+
+// ____________________________________________________________________________
+//
+// ==> TWITTER BOOTSTRAP 3 DROPDOWNS ON HOVER WITH SLIDE EFFECT
+// https://ameronix.com/twitter-bootstrap-dropdowns-on-hover-with-slide-effect-2/	
+// ____________________________________________________________________________
+	
+jQuery(function($) {
+    var hoverIntentDelayOpen = 90;				
+    var hoverIntentDelayClose = 110;
+    var effectDuration = 90;					
+    $('XXX body .navbar .dropdown').each(function() {
+        var $dropdown = $(this);
+        var $toggle = $dropdown.find('[data-toggle="dropdown"]:eq(0)');
+        var $menu = $dropdown.find('.dropdown-menu:eq(0)');
+ 
+        var toggle = function(action) {
+            switch (action) {
+                case 'open' :
+                    $menu.slideDown(effectDuration, function () {
+                        $dropdown.addClass('open');
+                    });
+                    break;
+                case 'close' :
+                    $menu.slideUp(effectDuration, function () {
+                        $dropdown.removeClass('open');
+                    });
+                    break;
+                default:
+                    toggle($menu.is(':hidden') ? 'open' : 'close');
+                    break;
+            }
+        };
+ 
+        $toggle.on({
+            click: function(e) {
+                if ($dropdown.hasClass('open') && $toggle.attr('href') && $toggle.attr('href') !== '#') {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.location = $toggle.attr('href');
+                }
+            },
+            mouseover: function () {
+                clearTimeout($dropdown.data('hoverIntent'));
+                $dropdown.data('hoverIntent', setTimeout($.proxy(function () {
+                    toggle('open');
+                }, this), hoverIntentDelayOpen));
+            },
+            mouseout: function () {
+                clearTimeout($dropdown.data('hoverIntent'));
+                $dropdown.data('hoverIntent', setTimeout($.proxy(function () {
+                    toggle('close');
+                }, this), hoverIntentDelayClose));
+            }
+        });
+ 
+        $menu.on({
+            mouseover: function () {
+                $toggle.trigger('mouseover');
+            },
+            mouseout: function () {
+                $toggle.trigger('mouseout');
+            }
+        });
+    });
+});
+	

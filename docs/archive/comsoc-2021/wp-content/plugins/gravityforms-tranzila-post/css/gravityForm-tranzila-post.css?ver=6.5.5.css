@@ -1,0 +1,53 @@
+﻿@charset "utf-8";
+/* CSS Document For Technion admissions sign up combined with wordpress classes and ids*/
+
+
+#confirmation_page{
+	width:100%
+}
+
+#confirmation_page .first_column, #confirmation_page .second_column{
+	display:inline-block;
+	width:35%;
+	padding-left:20px;
+}
+
+.content_info{
+	font-weight: bold;
+	color: #002d62;
+}
+
+p.content_info{
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #002d62; 
+}
+
+
+.gform_wrapper .gform_page_footer{
+	border-top:none !important;
+}
+
+/*Show only for screen reader*/
+/*
+.hidden 
+{
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0,0,0,0);
+border: 0;
+}
+*/
+
+
+@media print {
+   header nav, footer, #pageheader, .a11y-toolbar, .buttons_place
+   {
+   display: none;
+   }
+}

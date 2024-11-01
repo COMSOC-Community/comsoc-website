@@ -1,0 +1,254 @@
+// <![CDATA[ 
+
+/*
+___________________________________________________________________________
+
+	Accesibility issues
+	
+	1. footer links
+	2. Sliders on\off
+___________________________________________________________________________
+
+*/
+
+jQuery( document ).ready( function( $ ) {
+
+
+	/* append to footer: Credits : Technion Web Development Group  */
+
+	var lang_is_heb 		= ( $('html[lang^="he-"]').length > 0 ) ;
+	var theme_is_accessible = ( $('body[class*="access-"]').length > 0 ) ;
+
+	if ( lang_is_heb ) {
+		$('<div id="cis-foot-links">'+
+			'<a href="http://net.technion.ac.il">המדור לפיתוח אתרים בטכניון</a>' +
+			'</div>')
+			.css({ 'position':'relative', 'top':'-25px', 'margin':'0 auto' , 'text-align':'center' , 'direction':'rtl'})
+			.appendTo('#page footer#colophon');
+	}
+
+	else {
+		$('<div id="cis-foot-links">'+
+			'<a href="http://net.technion.ac.il/en/">Technion Web Development Group</a>' +
+			'</div>')
+			.css({ 'position':'relative', 'top':'-25px', 'margin':'0 auto' , 'text-align':'center' , 'direction':'ltr'})
+			.appendTo('#page footer#colophon');
+	}
+
+	/* append to footer : accessibility links */
+
+	let sitemap_url = window.location.origin + '/sitemap.xml';
+	let sitemap_exist = false;
+
+	$.ajax({
+		url:sitemap_url, //be sure to check the right attribute
+		success: function () { //pass an anonymous callback function
+			sitemap_exist = true;
+		},
+		complete :function () {
+			footer_links = "";
+			if ( lang_is_heb ) {
+				if (sitemap_exist) {
+					footer_links = ' <span><a href="/sitemap.xml" title="מפת אתר">מפת אתר</a></span>' + '<span> | </span>';
+				}
+				footer_links = footer_links + '<span><a href="https://net.technion.ac.il/wp-content/uploads/2021/08/accessibility.pdf" title="הצהרת נגישות"> הצהרת נגישות</a></span>' +
+					'<span> </span>' ;
+			} else {
+				if (sitemap_exist) {
+					footer_links = '<span><a href="/sitemap.xml" title="Site map">Site Map</a></span>' + '<span>&nbsp; |&nbsp; </span>';
+				}
+				footer_links = footer_links +
+					'<span><a href="https://net.technion.ac.il/wp-content/uploads/2021/08/accessibility.pdf" title="Accessibility Statement in Hebrew"> Accessibility Statement </a></span>' +
+					'<span> </span>' ;
+			}
+
+			if ( theme_is_accessible ) {
+				$('footer #cis-foot-links').append('&nbsp; |&nbsp; '+ footer_links);
+			}
+
+		}
+	});
+
+// END of fotter links
+
+////////////////*******************************////////////////////////
+
+// Pause & Play Sliders / Post rotatore / Tabs
+//**********************************************
+
+	if ($('.nivoSlider').length > 0 && theme_is_accessible) {
+
+		var slider = $('.nivoSlider');
+		var toggle = '';
+		var pause  = '';
+		var start  = '';
+		var GaLable = '';
+
+		if (lang_is_heb){
+			toggle = 'עצור או הפעל מצגת';
+			pause  = 'עצור';
+			play   = 'הפעל';
+			GaLable = "מצגת תמונות מתחלפות";
+		}
+		else{
+			toggle = "Toggle start stop slideshow";
+			pause  = 'Pause';
+			play   = 'Play';
+			GaLable = "Rotating Image Gallery";
+		}
+
+		$("<style type='text/css'> #sliderControl {position:absolute;z-index:99999;background-color:#FFF;margin:3px;padding:5px;opacity:.8} </style>").appendTo("head");
+
+		// By Niel's proposal'
+
+		$( ".nivoSlider" ).before( "<div roll='button' id='sliderControl' aria-label='Toggle start stop slideshow' tabindex=0>"+pause+"</div>" );
+
+		$("div[id^='pb_slideshow_']:eq(0)").attr("aria-label",GaLable);
+
+		$(document).keypress(function(e){
+			if (e.which == 13){
+				if ($("#sliderControl").html() == "Pause" || $("#sliderControl").html() == "עצור"){
+					slider.data('nivoslider').stop();
+					if (lang_is_heb)
+						$("#sliderControl").html("הפעל");
+					else
+						$("#sliderControl").html("Play");
+				}
+				else {
+					slider.data('nivoslider').start();
+					if (lang_is_heb)
+						$("#sliderControl").html("עצור");
+					else
+						$("#sliderControl").html("Pause");
+				}
+			}
+		});
+
+		$( "#sliderControl" ).click(function() {
+			if ($("#sliderControl").html() == "Pause" || $("#sliderControl").html() == "עצור"){
+				slider.data('nivoslider').stop();
+				if (lang_is_heb)
+					$("#sliderControl").html("הפעל");
+				else
+					$("#sliderControl").html("Play");
+			}
+			else {
+				slider.data('nivoslider').start();
+				if (lang_is_heb)
+					$("#sliderControl").html("עצור");
+				else
+					$("#sliderControl").html("Pause");
+			}
+		});
+	}
+
+
+	/************************************
+	 * Featured Posts
+	 ***********************************/
+
+	if ($('.featuredposts-container').length > 0 && theme_is_accessible) {
+
+		var slider = $('.featuredposts-slides');
+
+		var pageLang = $('html').attr('lang');
+		var link = "";
+		var linkTITLE = "";
+		var aLable = "";
+
+		if (lang_is_heb){
+			link = "פורמט נגיש";
+			linkTITLE = "הקלק לקבלת תוכן המצגת בפורמט נגיש";
+			linkHREF = "/category/featuredposts-he/";
+			if ( $('link[href*="/he/feed/"]').length > 0 )
+				linkHREF = "/he/category/featuredposts-he/";
+			aLable = "מצגת פוסטים מתחלפים";
+		}
+
+		else {
+			link = "Accessible Format";
+			linkTITLE = "Click for Slider content in accessible format";
+			linkHREF = "/category/featuredposts/";
+			if ( $('link[href*="/en/feed/"]').length > 0 )
+				linkHREF = "/en/category/featuredposts/";
+			aLable = "Post rotator showing alternating posts";
+		}
+
+		$("<style type='text/css'> #sliderControl {position:absolute;z-index:99999;background-color:#FFF;margin:2px;padding:3px;opacity:.8; color:#0000FF} </style>").appendTo("head");
+
+		slider.before( "<a id='sliderControl' tabindex=0  href='" + linkHREF + "' title='"+ linkTITLE +"'>"+link+"</a>" );
+
+		$(".featuredposts").attr("aria-label",aLable);
+
+	}
+
+
+	/************************************
+	 * Tabs in WP Shortcodes
+	 ***********************************/
+
+	if ($('.su-tabs-nav').length > 0 && theme_is_accessible) {
+
+		$('.su-tabs-nav').find( "span" ).attr( "roll", "tab" );
+		$('.su-tabs-nav').find( "span" ).attr( "tabindex", "0" );
+		$('.su-tabs-panes').find( "div" ).attr( "role", "tabpanel" );
+
+		$( ".su-tabs-nav > span" ).each(function( index ) {
+			$(this).attr( "id", "tabIndex"+index ) ;
+		});
+
+		$(".su-tabs-panes > .su-tabs-pane").each(function( index ) {
+			$(this).attr( "aria-labelledby", "tabIndex"+index ) ;
+		});
+
+		$('.su-tabs-nav span').keypress(function(e){
+			if (e.which == 13){
+				var indexnum = $(this).index();
+				$(".su-tabs-current", ".su-tabs-nav").removeClass("su-tabs-current");
+				$(this).addClass( "su-tabs-current" );
+				$('.su-tabs-panes div').css({'display':'none'})
+				$('.su-tabs-panes div').eq(indexnum).css({'display':'block'})
+			}
+		});
+	}
+
+	// customize lang selector
+
+	if ($('.widget_icl_lang_sel_widget').length > 0 && theme_is_accessible) {
+
+		$( "#lang_sel_list ul" ).before( "<label class='screen-reader-text' for='langselector'>Select Site Language</label>" );
+		$( ".wpml-ls ul" ).before( "<label class='screen-reader-text' for='langselector'>Select Site Language</label>" );
+		$( "#lang_sel_list ul" ).attr( "id", "langselector" );
+		$( ".wpml-ls > ul" ).attr( "id", "langselector" );
+	}
+
+	if ($(".category-featuresposts").length > 0 && theme_is_accessible) {
+
+		$("article > header.entry-header > h1").each(function( index ) {
+			$(this).replaceWith('<h2>' + $(this).html() +'</h2>') ;
+		});
+	}
+
+	if ($(".category-featuresposts").length > 0 && theme_is_accessible) {
+
+		$("article > header.entry-header > h1").each(function( index ) {
+			$(this).replaceWith('<h2>' + $(this).html() +'</h2>') ;
+		});
+	}
+	/*
+
+        if ($(".a11y-toolbar").length > 0 && theme_is_accessible) {
+
+            $('.a11y-toolbar ul > li:nth-child(2)').css({'display':'none'})
+
+        }
+
+    */
+
+
+
+});
+
+// ]]>
+
+

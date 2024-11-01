@@ -1,0 +1,141 @@
+/*
+		Site wide css file
+*/
+
+/* Accessibility fixes  [V1.6.11] */
+body .a11y-toolbar ul li a.active { background: #676767; }
+
+/* DisplayBuddy (iThemes) Slideshow v3.0.12 nivoSlider quick-fix for Tiles Overflow problem [ @FIX-V1.6.13 ] */
+body #pb_slideshow_rslider-1.nivoSlider {overflow: hidden !important;}
+
+
+/* 	Fixes for twentyeleven-child themes 
+	____________________________________
+*/
+
+
+/*html , *//* Only for Admin-bar at bottom */
+/* body.twentyeleven-child.admin-bar { margin-top: 0px; } */
+
+
+
+body.twentyeleven-child footer #site-generator {
+ background: none ;
+}
+
+/* @FIX for DisplayBuddy - featured posts */
+body .featuredposts-image img {max-width: 100%;}
+
+/*  Gravify Forms  - RTL fixes 
+   ___________________________________  
+*/
+body.rtl .gform_wrapper form {text-align:right;}
+/* Noam's Fix for radio button and checkboxes */
+body.rtl .gfield_radio li input[type="radio"] {float:right;}
+body.rtl .gfield_checkbox li input[type="checkbox"] {float:right;}
+
+
+/*  Plugin WPML - fixes */
+
+#wpml_credit_footer { display:none; }
+
+body #lang_sel_footer {
+  background: none;
+  border: none;
+}
+/* body.rtl #lang_sel li   { float:right; }  RTL fix for lang-selector widget . removde on WPML 3.6.3 */
+
+
+body.status-private #content  h1.entry-title 	{  color:red; }
+body.status-protected #content  h1.entry-title 	{  color:magenta; }
+body.status-pending #content  h1.entry-title 	{  color:#C99A12; }
+body.status-draft 	#content  h1.entry-title 	{  color:green; }
+
+
+
+
+/* Emulate CSS properties of {display: table} for IE6 and IE7 (since they do not have its native support.)
+ 	see: http://tanalin.com/en/projects/display-table-htc/ 
+*/	
+.css-table { display:table; 	 }
+.css-td 	    { display:table-cell;}
+
+
+/*  CSS workarounds for table elements VALIGN="top|bottom|center" attribute (obsolete in html5)   
+    see: http://www.w3.org/TR/html5/obsolete.html#non-conforming-features
+*/
+.valign-top ,   tr[valign="top"] ,    td[valign="top"]    { vertical-align:top; }
+.valign-bottom ,tr[valign="bottom"] , td[valign="bottom"] { vertical-align:bottom; }
+.valign-middle ,tr[valign="middle"] , td[valign="middle"] { vertical-align:middle; }
+
+/* 	
+	\____CSS HACKS____/
+	
+	clearfix  http://nicolasgallagher.com/micro-clearfix-hack/ __________________
+	The problem: 	
+		happens when a floated element is within a container box, that element does not automatically force the container’s height adjust to the floated element. When an element is floated, its parent no longer contains it because the float is removed from the flow.	
+		
+*/	
+
+.clearfix:before,
+.clearfix:after 	{ content:""; display:table;}	/* For modern browsers */
+.clearfix:after 	{ clear:both;}
+.clearfix			{ zoom:1;}					/* For IE 6/7 (trigger hasLayout) */
+
+/* \____Extra Classes & Fixes for J-shortcodes ____/ */
+
+.jbox-content  > img  { max-width: 100%; }  /* Overwrite default twentyeleven 97.5% */
+.jbox.right-box {
+    display: inline; float:right; margin: 0.5em 0 0.5em 1.625em;
+}
+.jbox.left-box {
+    display: inline; float:left; margin: 0.5em 1.625em 0.5em 0 ;
+}
+
+/* \____ Photonic Lightboxes FIXES ____/ */
+
+/* ensure #fancybox-wrap is always ABOVE  twentyeleven  header#branding */
+body #fancybox-wrap { z-index: 99999; }
+ 
+/* FIX for prettyphoto lighbox on RTL pages - HIDE buttons-texts  */
+.pp_nav .pp_play,
+ .pp_nav .pp_pause,
+ a.pp_arrow_previous,
+ a.pp_arrow_next,
+ a.pp_next,
+ a.pp_previous ,
+ a.pp_expand,
+ a.pp_contract ,
+ a.pp_close {
+       text-indent: 10000px;
+       direction:ltr;
+ }
+ body.rtl div.pp_default .pp_description { text-align:right ; }
+
+#wpml_credit_footer {display:none;}
+
+/* Hide Confirm use of weak password */
+.pw-weak {display:none !important;}
+
+
+/* By Noam FEB-2021 for BB plugin rtl */
+.rtl .fl-post-slider-content {direction:rtl !important;}
+.rtl .fl-tabs.fl-tabs-vertical {display: flex; }
+.rtl .fl-post-grid {display: flex; flex-direction: row-reverse; }
+.rtl .fl-list-item-heading-text {direction:rtl !important;}
+/*.rtl .fl-post-carousel-wrapper.fl-post-carousel-loaded
+{display: flex; }*/
+
+/* By Noam FEB-2021 for blogs shortcode in /mu-plugins/technion-shortcodes.php */
+.wrapBlogItems {direction:ltr !important}
+.wrapBlogItems .siteTable{
+    padding:8px 8px 10px 18px;
+    margin-bottom:1px;
+    max-width:800px;
+    margin:auto;
+    border-bottom: 1px solid #E3E3E3;
+    line-height:20px;
+}
+.wrapBlogItems .siteTable:nth-child(even) {background-color: #F6FFF6;}
+.wrapBlogItems .siteTable:nth-child(odd) {background-color: #F6F6F6 ;}
+.wrapBlogItems .numerator {text-align: center;width:90%;margin:auto;margin-top:25px;}

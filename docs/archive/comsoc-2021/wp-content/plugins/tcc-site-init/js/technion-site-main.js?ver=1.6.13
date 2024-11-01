@@ -1,0 +1,88 @@
+// <![CDATA[ 
+
+/*
+___________________________________________________________________________
+
+	technion main js file
+
+___________________________________________________________________________
+
+examples :
+	https://raw.github.com/mfields/Widget-Dropdowns/master/dropdowns.js
+	http://core.trac.wordpress.org/browser/tags/3.2.1/wp-content/themes/twentyeleven/inc/theme-options.js
+
+*/
+
+jQuery( document ).ready( function( $ ) {
+	
+	var jq_version = jQuery.fn.jquery; 
+
+	// Get Varibales passed from PHP via wp_localize_script( )
+	
+	//var refresh 	= parseInt( site_settings.refreshtime );
+	var plugin_ver 	= site_settings.plugin_ver ;
+	
+	var example_config = {
+		container   : '#dropdown-widgets',
+		dropdowns   : '.dropdown',
+		triggers    : '.widget-title',
+		maxBoxWidth : 765
+	};	
+	
+	
+//	$( '#site-title' ).remove();
+
+//	$('<p>&nbsp; Running jQuery - ' + jq_version + '</p>' )
+
+/*	
+	$('<p>&nbsp; Running jQuery - ' + jq_version + '<br/> plugin: ' + plugin_ver + '</p>' )
+		.css({'color': 'red', 'margin': '0 10px'})
+		.appendTo('body.user-superadmin #site-generator');   // show debug info only to superadmin 
+*/		
+	
+
+	
+	/*______________________________________________
+	 * WORKAROUND for CSS3PIE - which does not currently work when applied to the <body> or <html> elements. 
+	 * Try using a wrapper div around the BODY-CONTENTS and applying your CSS3 styles and PIE.htc to it instead.
+	 * see: http://css3pie.com/documentation/known-issues/ 
+	 *______________________________________________
+	 * @BUG: DISABLED since 2-7-2013 - 
+	 * 		BREAKS Pages on IE 7-9 which embeds iframed-PDF , pdf not shown 
+	 */	
+	//	$('html.pre-ie10 body')
+	//		.wrapInner('<div style="position:relative;zoom:1;" class="inner-body-ie css3-pie" />'); // style fix for ie7 
+			
+
+//______________________________________________
+// Jquery Adds edit-link button above title (auto Hovers )	
+//______________________________________________	
+	
+	
+	// (1) IF enhanced edit usability is required ( via body-class called "tcc-usable-edit" )
+	//        then Create a clone of  .edit-link from content-page footer
+	//        ONLY for singular page
+	
+	var post_edit_menu = 
+	$("body.page.tcc-usable-edit .edit-link:first")
+	.clone()							
+	.prependTo(".entry-header")
+	.wrap("<div class='entry-meta'></div>")
+	.css({'position':'absolute','margin-top':'-5px'})
+	.hide()
+	;
+	
+	// (2) Show the link when the mouse is over header / title 
+	//  Only for SINGLE page/post (not for a list of posts) 		
+	if( post_edit_menu.length == 1  ) {		
+		$("header.entry-header").hover(function () {
+		  post_edit_menu.slideDown('fast');
+		}, function () {
+		 post_edit_menu.slideUp('fast');
+		});
+	}
+	
+	
+});
+
+// ]]> 

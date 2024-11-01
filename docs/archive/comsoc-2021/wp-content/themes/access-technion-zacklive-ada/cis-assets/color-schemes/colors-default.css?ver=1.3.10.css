@@ -1,0 +1,9 @@
+/*-------------------------------------
+	default color scheme 
+--------------------------------------*/
+
+body .navbar-default .navbar-nav>li>a {
+    color: #777;
+    color: #222;
+}
+

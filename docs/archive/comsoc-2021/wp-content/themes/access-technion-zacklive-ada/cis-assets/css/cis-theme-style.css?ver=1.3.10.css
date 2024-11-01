@@ -1,0 +1,426 @@
+/*--------------------------------------------------------------
+   cis-site-style.css - Extra CSS file fixes for technion cis
+----------------------------------------------------------------*/
+
+/* ___  responsive fixes ____ V1.3.6  */
+@media (max-width: 768px) {
+	body   .site-branding  { min-height: 0px !important;  margin-top: 0px !important; 	} 
+	body   .site-branding  .site-header-text {  margin-top: 4px !important; 	} 
+	body   #content.site-content {  margin-top: 0px !important;  } 
+}
+/* ___  end responsive fixes ____ */
+
+
+/* wp-accessibility plugin-fixes */
+
+body.fontsize .faculty-title    { font-size: 20px !important;}
+body.fontsize h1.entry-title    { font-size: 47px !important;}  
+
+body.fontsize .breadcrumbs > a , 
+body.fontsize #service-navigation > span > a    { font-size: 150% !important;}  
+body.fontsize .site-description { font-size: 120% !important;}  
+body.fontsize #lang_sel a , 
+body.fontsize input[type=search] { font-size: 110% !important; line-height: 1;}  
+
+body.fontsize #cis-foot-links , 
+body.fontsize .site-info { font-size: 120% !important; line-height: 1;}  
+body.fontsize .breadcrumbs > a , 
+body.fontsize nav .dropdown-menu li a { font-size: 140% !important; }  
+
+body.fontsize .widget .textwidget { font-size: 140% !important;  font-size: 1.4em !important;}
+body.fontsize .widget .textwidget p { font-size: 100% !important; }
+body.fontsize #lang_sel_list #langselector a { font-size: 70% !important;}
+
+body.fontsize .member_details, body.fontsize .member_about { font-size: 1.2em !important;}
+
+
+/* Bootstrap Dropdown with Hover 
+
+ see: https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know#how-to-enable-bootstrap-3-hover-dropdowns
+*/
+
+@media  (min-width : 768px) {
+	XXX #site-navigation .dropdown:hover > .dropdown-menu {
+		display: block ;
+		margin-top: 0;
+	 }
+}
+/*
+ * Navigation ____________________ */
+
+
+/** 
+Xbody nav ul.nav li a:hover,
+Xbody nav ul.nav li a:focus {
+  background-color: #Ff0 !important;
+} 
+XXbody nav ul.nav li a.dropdown-toggle:hover + .dropdown-menu { display:block ; margin-top: 0;}
+XXbody nav ul.nav li a.dropdown-toggle:focus + .dropdown-menu { display:block ; margin-top: 0;}
+
+
+body .navbar-default .navbar-nav>.open>a, 
+body .navbar-default .navbar-nav>.open>a:focus, 
+body .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #e7e7e7; background: #f0f;
+} 
+**/ 
+ 
+
+/*
+	moved to : cis-templates\header-manlam.php
+	body.design-style-manlam .site-branding { margin-top: 20px; margin-bottom: 20px; }
+*/
+
+/*--------------------------------------------------------------
+7.0 Widgets
+--------------------------------------------------------------*/
+/* Check out bootstrap-wp.js for more style settings. */
+
+
+/* fix: prevent truncation of wpml lang-switcher dropdown  */
+.widget.widget_icl_lang_sel_widget {
+	overflow: visible;
+	background: none; 
+}
+
+
+/* do not use white background */
+.widget-area.footer .widget {
+  background: none;
+}
+
+footer.site-footer , footer.site-footer a {
+    color: #AAA;
+    color: #333;
+}
+
+
+/*--------------------------------------------------------------
+4.0  Header
+--------------------------------------------------------------*/
+
+.site-branding .site-title  { margin-top: 0px ;  margin-bottom: 1px ;}
+.site-branding .site-description  {  margin-top: 1px;  }
+
+
+/*--------------------------------------------------------------
+ navbar
+--------------------------------------------------------------*/
+
+
+/* see: http://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo 
+		http://codepen.io/candid/pen/KwYGwq/ 
+*/
+/* dont edit this selector. these settings should keep the logo always fitting by default. see below examples for how to edit  */
+
+.navbar-brand>img {
+        -o-object-fit: contain; /* Opera Support */
+          object-fit: contain; /* Resize down to fit container */
+
+        max-height: 100%; /* resize DOWN to height of container which is set to 50px */
+        height: 100%; /* resize UP to fit*/
+        max-width: 100%; 
+        width: auto; /* resize based on height */
+        margin: 0 auto;
+}
+
+
+/* Default Navbar Brand Settings. Use this to resize or move your logo up and down */
+
+.navbar-brand {
+  padding: 15px 15px;   padding: 7px 10px; 
+  margin-top: 0px; /* you can adjust this if your logo needs to be moved up or down but simply adjusting the padding is easier */
+  height: 50px; /* this should be equal to computed height of .navbar-nav>li>a */
+}
+
+
+/* Extra headspace for main sidebar (#secondary)  */
+body #secondary.widget-area  { padding-top: 1em; padding-top: 5px;} 
+
+
+.site-header-logo2 #logo2 { max-height:100px; }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+	TEXT (responsive with media queries) 
+	http://snapcode.co/snap/show/49/bootstrap-3-responsive-text-size-with-media-queries-css-font-style-classes-1
+--------------------------------------------------------------*/
+	
+	
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+	body .textHuge {
+		font-size: 110px;
+		line-height: normal;
+	}
+	body .textxxLarge {
+		font-size: 60px;
+		line-height: normal;
+	}
+	body .textxLarge {
+		font-size: 40px;
+		line-height: normal;
+	}
+	body .textLarge {
+		font-size: 36px; font-size: 33px;
+		line-height: normal;
+	}
+	body .textxxMedium {
+		font-size: 26px;
+		line-height: normal;
+	}
+	body .textxMedium {
+		font-size: 18px;
+		line-height: normal;
+	}
+	body .textMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	body .textRegular {
+		font-size: 14px;
+		line-height: normal;
+	}
+	body .textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	body .textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	body .textHuge {
+		font-size: 77px;
+		line-height: normal;
+	}
+	body .textxxLarge {
+		font-size: 42px;
+		line-height: normal;
+	}
+	body .textxLarge {
+		font-size: 28px;
+		line-height: normal;
+	}
+	body .textLarge {
+		font-size: 33px;
+		line-height: normal;
+	}
+	body .textxxMedium {
+		font-size: 18px;
+		line-height: normal;
+	}
+	body .textxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	body .textMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	body .textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	body .textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	body .textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	body .textHuge {
+		font-size: 54px;
+		line-height: normal;
+	}
+	body .textxxLarge {
+		font-size: 30px;
+		line-height: normal;
+	}
+	body .textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	body .textLarge {
+		font-size: 18px;
+		line-height: normal;
+	}
+	body .textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	body .textxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	body .textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	body .textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	body .textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	body .textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	body .textHuge {
+		font-size: 38px;
+		line-height: normal;
+	}
+	body .textxxLarge {
+		font-size: 24px;
+		line-height: normal;
+	}
+	body .textxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	body .textLarge {
+		font-size: 18px;
+		line-height: normal;
+	}
+	body .textxxMedium {
+		font-size: 16px;
+		line-height: normal;
+	}
+	body .textxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	body .textMedium {
+		font-size: 12px;
+		line-height: normal;
+	}
+	body .textRegular {
+		font-size: 12px;
+		line-height: normal;
+	}
+	body .textSmall {
+		font-size: 11px;
+		line-height: normal;
+	}
+	body .textMini {
+		font-size: 9px;
+		line-height: normal;
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+
+	body .textHuge {
+		font-size: 32px;
+		line-height: normal;
+	}
+	body .textxxLarge {
+		font-size: 22px;
+		line-height: normal;
+	}
+	body .textxLarge {
+		font-size: 20px;
+		line-height: normal;
+	}
+	body .textLarge {
+		font-size: 16px;
+		line-height: normal;
+	}
+	body .textxxMedium {
+		font-size: 14px;
+		line-height: normal;
+	}
+	body .textxMedium {
+		font-size: 13px;
+		line-height: normal;
+	}
+	body .textMedium {
+		font-size: 11px;
+		line-height: normal;
+	}
+	body .textRegular {
+		font-size: 10px;
+		line-height: normal;
+	}
+	body .textSmall {
+		font-size: 9px;
+		line-height: normal;
+	}
+	body .textMini {
+		font-size: 8px;
+		line-height: normal;
+	}
+
+
+
+}
+
+/* font style */
+
+	body  .font-bold {
+		font-style: bold; 
+	}
+
+	body  .font-oblique {
+		font-style: oblique;
+	}
+
+	body  .font-italic {
+		font-style: italic;		
+	}
+
+	body  .font-normal{
+		font-style: normal; 
+	}
+
+/* font decoration */
+
+	body .text-line-through {
+		text-decoration: line-through;
+	}
+
+	body .text-overline {
+		text-decoration: overline;
+	}
+
+	body .text-underline {
+		text-decoration: underline;
+	}
+
+	body .text-underline {		
+		text-decoration: underline;	
+	}
+
+
+
