@@ -3,33 +3,23 @@
 <head>
     <title>Archived WordPress Site</title>
     <style>
-        .post { margin: 20px 0; padding: 20px; }
+        .post {
+            margin: 20px 0;
+            padding: 20px;
+            border-bottom: 1px solid #ccc;
+        }
     </style>
 </head>
 <body>
-    <div id="content"></div>
-
-    <script>
-        fetch('content/wp-comsoc21.xml')
-            .then(response => response.text())
-            .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-            .then(data => {
-                const posts = data.getElementsByTagName('item');
-                const contentDiv = document.getElementById('content');
-                
-                for(let post of posts) {
-                    const title = post.getElementsByTagName('title')[0].textContent;
-                    const content = post.getElementsByTagName('content:encoded')[0].textContent;
-                    
-                    const article = document.createElement('article');
-                    article.className = 'post';
-                    article.innerHTML = `
-                        <h2>${title}</h2>
-                        <div class="post-content">${content}</div>
-                    `;
-                    contentDiv.appendChild(article);
-                }
-            });
-    </script>
+    <header>
+        <h1>Site Archive</h1>
+    </header>
+    <nav>
+        <h2>Contents</h2>
+        <!-- Add links to your posts here -->
+    </nav>
+    <main>
+        <!-- Copy and paste your posts content here -->
+    </main>
 </body>
 </html>
