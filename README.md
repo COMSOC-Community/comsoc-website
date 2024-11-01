@@ -33,8 +33,8 @@ the maintainers has approved your pull request).
 
 ### Modify/Add a PhD thesis
 
-To add a new PhD thesis, add the new entry to the file `docs/_data/theses.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/theses.yml)
+To add a new PhD thesis, add the new entry to the file `comsoc-website/_data/theses.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/theses.yml)
 and it's all automatic from there. 
 To correct an existing entry, simply find it in the file and modify it.
 
@@ -58,14 +58,14 @@ the `supervisors` list.
 
 For the URL, use either a permanent link provided by the degree-granting institution 
 or add a PDF to the repository (other kinds of links usually break after a few years).
-To add a PDF file, add it to the folder `docs/assets/theses/`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/assets/theses/).
+To add a PDF file, add it to the folder `comsoc-website/assets/theses/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/assets/theses/).
 The `url` entry then needs to be: `url: assets/theses/FILE_NAME.pdf`.
 
 ### Modify/Add a COMSOC Workshop Event
 
 To add a new edition of the COMSOC Workshop, add the new entry to the file 
-`docs/_data/workshops.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/workshops.yml)
+`comsoc-website/_data/workshops.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/workshops.yml)
 and it will be automatically added to the website. 
 To correct an existing entry, simply find it in the file and modify it.
 
@@ -82,8 +82,8 @@ The .yml format for a COMSOC Workshop is as shown in the example below.
 ```
 
 Note the reference to the image of the workshop (the banner used in the standard theme of the workshop
-series). The image file itself needs to be added to the repository `docs/assets/images/workshops/`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/workshops).
+series). The image file itself needs to be added to the repository `comsoc-website/assets/images/workshops/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/images/workshops).
 This image is used as background for the box describing the workshop.
 
 If the value of `has_proceedings` is true, a link is automatically added to `proceedings/YEAR`.
@@ -92,8 +92,8 @@ Only set this value to true if you have also added the proceedings (see below fo
 ### Modify/Add Proceedings of a COMSOC Workshop
 
 The proceedings of the COMSOC Workshops are described in a .yml file.
-To add the proceedings of a new workshop create a file `docs/_data/proceedingsYEAR.yml`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data) 
+To add the proceedings of a new workshop create a file `comsoc-website/_data/proceedingsYEAR.yml`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_data) 
 where `YEAR` corresponds to the year of the workshop.
 
 The YAML format is as in the following example:
@@ -110,14 +110,14 @@ The YAML format is as in the following example:
 ```
 
 The `accepted_as` describes the format in which the paper as been accepted. This value needs to be
-exactly one from the list `proceedings_publication_types` defined in the `docs/_config.yml` file
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_config.yml). If you
+exactly one from the list `proceedings_publication_types` defined in the `comsoc-website/_config.yml` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_config.yml). If you
 use a different value, the display will not work. Update the list if needed. Note that the order
 of this list defines the order in which the different sections are displayed on a proceedings 
 page.
 
-To create the page corresponding to the proceedings, create a file `docs/proceedings-YEAR.md`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/) 
+To create the page corresponding to the proceedings, create a file `comsoc-website/proceedings-YEAR.md`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/) 
 where `YEAR` corresponds to the year of the workshop. This file should contain the following information:
 
 ```markdown
@@ -131,15 +131,15 @@ complete_proceedings: /assets/proceedings/comsoc2006.pdf
 ```
 The `complete_proceedings` is not mandatory; it corresponds to the full proceedings (it is for now
 only available for the first four editions). If such a file exists, add it to the folder 
-`docs/assets/proceedings/`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
+`comsoc-website/assets/proceedings/`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/proceedings/) 
 
 To add the PDF files of the papers, create a folder `assets/proceedings/comsoc-YEAR/` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/proceedings/) 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/proceedings/) 
 where `YEAR` corresponds to the year of the workshop. The PDF files have to be dumped there.
 
-Finally, update the file `docs/_layouts/proceedings.html`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/proceedings.html)
+Finally, update the file `comsoc-website/_layouts/proceedings.html`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_layouts/proceedings.html)
 by adding the year in the `all_years` array in the header:
 
 ```markdown
@@ -151,8 +151,8 @@ all_years: [2006, 2008, 2010, 2012, 2014, 2016, 2018, 2021, 2023]
 
 ### Modify/Add a Past Event of the COMSOC Video Seminar
 
-Past sessions of the COMSOC video seminar are described in the file `docs/_data/videoseminar.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/videoseminar.yml).
+Past sessions of the COMSOC video seminar are described in the file `comsoc-website/_data/videoseminar.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/videoseminar.yml).
 
 The YAML format is as follows:
 
@@ -236,8 +236,8 @@ entry.
 
 ### Modify/Add a Tool
 
-Tools are described in the file `docs/_data/tools.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/tools.yml).
+Tools are described in the file `comsoc-website/_data/tools.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/tools.yml).
 
 The YAML format is as exemplified below:
 
@@ -261,14 +261,14 @@ The YAML format is as exemplified below:
     and several property checks for the instance (preference domain, etc...)
 ```
 
-The `topic` attribute needs to be one of the value of the list `tools_topics` defined in the `docs/_config.yml` file
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_config.yml). If you
+The `topic` attribute needs to be one of the value of the list `tools_topics` defined in the `comsoc-website/_config.yml` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_config.yml). If you
 use a different value, the display will not work. Update the list if needed.
 
 The `category` attribute indicates the end goal of the tool. Current values are: `Preferences`,
 `Aggregation`, `Analysis`, `Application` and `Outreach`. If you add additional values, remember to
-update the first section of the `docs/tools.md` file
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/tools.md).
+update the first section of the `comsoc-website/tools.md` file
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/tools.md).
 
 The `reference-tool` attribute indicate if this tool should be considered as a reference tool. These
 are tools that deserve special attention because of their significance within the COMSOC ecosystem.
@@ -289,8 +289,8 @@ you can include HTML tags in it (not markdown).
 
 ### Modify/Add a Journal Special Issue
 
-Journal special issues are described in the file `docs/_data/specialissues.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/specialissues.yml).
+Journal special issues are described in the file `comsoc-website/_data/specialissues.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/specialissues.yml).
 
 The YAML format is as exemplified below:
 
@@ -307,8 +307,8 @@ follow this format).
 
 ### Modify/Add a Course
 
-Courses are described in the file `docs/_data/courses.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/courses.yml).
+Courses are described in the file `comsoc-website/_data/courses.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/courses.yml).
 
 The YAML format is as exemplified below:
 
@@ -328,8 +328,8 @@ The YAML format is as exemplified below:
 
 ### Modify/Add a Group Photo for the Front Page
 
-The photos displayed on the front page are described in the file `docs/_data/groupphotos.yml` 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_data/groupphotos.yml).
+The photos displayed on the front page are described in the file `comsoc-website/_data/groupphotos.yml` 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/groupphotos.yml).
 
 The format is as follows:
 
@@ -339,19 +339,19 @@ The format is as follows:
   url: https://archive.illc.uva.nl/COST-IC1205/Events/Action-Summer-Schools/Budapest-2013/
 ```
 
-The `src` points to the photo in the directory `docs/assets/images/group-photos`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/group-photos).
+The `src` points to the photo in the directory `comsoc-website/assets/images/group-photos`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/images/group-photos).
 The `url` points to the website of the event where the photo was taken.
 
-If you are adding a new group photo, do not forget to put in the directory `docs/assets/image/group-photos`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/images/group-photos).
+If you are adding a new group photo, do not forget to put in the directory `comsoc-website/assets/image/group-photos`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/images/group-photos).
 
 ### Archive a Static Website
 
 To serve a standalone HTML website from the Jekyll project, perform the following steps:
 
-- In the `docs/_collections` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/_collections) folder, add an HTML file corresponding to the website you are adding, for instance `website.html`
-- The content of `docs/_collections/website.html` should be:
+- In the `comsoc-website/_collections` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_collections) folder, add an HTML file corresponding to the website you are adding, for instance `website.html`
+- The content of `comsoc-website/_collections/website.html` should be:
 
 ```
 ---
@@ -360,7 +360,7 @@ permalink: /URL_TO_WEBSITE/:title
 ```
 Here `URL_TO_WEBSITE` is the path at which the website is anchored.
 
-- Create a folder `docs/archive/website` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/docs/archive) where `website` is the name of the HTML representing the collection.
+- Create a folder `comsoc-website/archive/website` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/archive) where `website` is the name of the HTML representing the collection.
 - Dump the content of the website in the folder.
 - You are done.
 
@@ -376,19 +376,19 @@ The website was developed in Jekyll to provide easy integration with the GitHub 
 It should be relatively easy for anyone to make basic changes, even if they are not very
 familiar with Jekyll.
 
-All the source files for the website are placed in the `docs` folder (due to GitHub 
+All the source files for the website are placed in the `comsoc-website` folder (due to GitHub 
 Page requirements).
 
 ### Layouts
 
 The general layouts of the pages are described in the `_layouts` folder 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/). 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_layouts/). 
 These layouts define the general structure of every page.
 
 ### Pages
 
-All pages are described in markdown files, mostly located in the root of the `docs` folder 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/).
+All pages are described in markdown files, mostly located in the root of the `comsoc-website` folder 
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/).
 
 They all start with a header that indicates which layout is to be used, 
 together with some additional information:
@@ -420,10 +420,10 @@ fostering an exchange of ideas in both directions.
 ### Page Structure
 
 The page structure is as follows:
-- Header with main menu (described in `docs/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/default.html))
+- Header with main menu (described in `comsoc-website/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_layouts/default.html))
 - Alternation of `<section> </section>` for the content of the page.
 - If there is need for in-page navigation links, there are added in the first section of the page (more on that below).
-- Footer with the additional pages (described in `docs/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_layouts/default.html))
+- Footer with the additional pages (described in `comsoc-website/_layouts/default` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_layouts/default.html))
 
 About the in-page navigation links. The section has to have the class `section-with-navs`. The 
 navigation links are described in a `<div class="page-navigation-wrap"> </div>` that needs to be
@@ -451,36 +451,36 @@ On this page you will find a non-exhaustive list of such events.
 ### Style
 
 The CSS style sheets are located in the `assets/css` folder 
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/assets/css).
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/assets/css).
 
 ### Data
 
 Many pages (PhD theses, seminar sessions, workshop proceedings, ...) are automatically constructed
 based on some data. These data files are located in the `_data` folder
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/_data/).
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/_data/).
 They are all `.yml` files, the syntax of which is described above.
 
 ### Configuration
 
-Global parameters for the website are stored in the file `docs/_config.yml`
-[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/docs/config.yml/).
+Global parameters for the website are stored in the file `comsoc-website/_config.yml`
+[\[link\]](https://github.com/COMSOC-Community/comsoc-website/tree/main/comsoc-website/config.yml/).
 You can typically change the URL settings there, or update the link to the main repository.
 
 ### Local Development
 
 You can clone the repository and update it locally on your machine.
 On your machine, you can install all the prerequisites for a Jekyll website
-([see the Jekyll docs](https://jekyllrb.com/docs/)) and then run things locally.
+([see the Jekyll docs](https://jekyllrb.com/comsoc-website/)) and then run things locally.
 
 To serve the website locally and see your changes live, run the following command inside the
-`docs` folder:
+`comsoc-website` folder:
 
 ```shell
 bundle exec jekyll serve
 ```
 
 To build the website as a static HTML site, run the following command inside the
-`docs` folder:
+`comsoc-website` folder:
 
 ```shell
 bundle exec jekyll build

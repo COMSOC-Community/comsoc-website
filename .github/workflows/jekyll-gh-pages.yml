@@ -33,20 +33,20 @@ jobs:
 
       - name: Install Jekyll and plugins
         run: |
-          cd docs
+          cd comsoc-website
           gem install jekyll
           gem install bundler
           bundle install  # Assumes there is a Gemfile in the repository
 
       - name: Build with Jekyll
         run: |
-          cd docs
+          cd comsoc-website
           bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "docs/_site"
+          path: "comsoc-website/_site"
 
   deploy:
     environment:
