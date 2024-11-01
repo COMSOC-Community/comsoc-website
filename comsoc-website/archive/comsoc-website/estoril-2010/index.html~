@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>COST-ADT Doctoral School on Computational Social Choice, Estoril, Portugal, 9-14 April 2010</title>
+</head>
+
+<body bgcolor="#66ccff">
+
+<p>
+<b>COST-ADT Doctoral School on Computational Social Choice</b><br>
+Eden Hotel, Estoril, Portugal, 9-14 April 2010
+</p>
+
+<p>
+On 9-14 April 2010, the European Science Foundation's <a href="http://algodec.org">COST Action on Algorithmic Decision Theory</a> sponsored a doctoral school on  <a href="http://www.illc.uva.nl/COMSOC/what-is-comsoc.html">Computational Social Choice</a> in Estoril, near Lisbon, Portugal.
+The chair of the organising committee was Jos&eacute; Rui Figueira.
+The programme consisted of three courses, five invited talks, and a series of contributed talks by some of the participants. 
+On this page you can find the <a href="#slides">slides</a> used during the school, a few <a href="#photos">photos</a>, and various other bits and pieces.
+</p>
+
+<p>
+<b>Documents:</b>
+<a href="docs/cfp-cost-adt-school-on-comsoc-2010.txt">Announcement</a>,
+<a href="docs/estoril-programme.pdf">Programme</a>,
+<a href="docs/estoril-participants.txt">List of Participants</a>,
+<a href="http://haris-aziz.blogspot.com/2010_04_25_archive.html#8008670834822019937">Report by Haris Aziz</a>
+</p>
+
+
+<p>
+<center>
+<a href="pics/Group.jpg"><img src="pics/Group.jpg" width="70%"></a>
+</center>
+</p>
+
+<a name="slides">
+
+<p>
+<b>Courses</b>
+
+<ul>
+
+<li>Christian Klamler (University of Graz) <br>
+Introduction to Social Choice and Voting / Geometry of Voting 
+(<a href="slides/Klamler1.pdf">slides 1</a>,
+<a href="slides/Klamler2.pdf">2</a>,
+<a href="slides/Klam;er3.pdf">3</a>)</li>
+
+<li>J&eacute;r&ocirc;me Lang (CNRS and LAMSADE, Univ. Paris-Dauphine) <br>
+Computational and Communicational Aspects of Voting
+(<a href="slides/Lang.pdf">slides</a>)</li>
+
+<li>Ulle Endriss (ILLC, University of Amsterdam) <br>
+Fair Division
+(<a href="slides/Endriss.pdf">slides</a>, 
+<a href="docs/endriss-fair-division.pdf">notes</a>,
+<a href="http://staff.science.uva.nl/~ulle/teaching/cost-adt-2010/">website</a>)</li>
+
+</ul>
+</p>
+
+<p>
+<b>Invited Talks</b>
+
+<ul>
+
+<li>Jos&eacute; Rui Figueira (IST, Technical University of Lisbon) <br>
+History of Social Choice Theory
+(<a href="slides/Figueira.pdf">slides</a>)</li>
+
+<li>Felix Brandt (University of Munich) <br>
+From Arrow's Impossibility to Schwartz's Tournament Equilibrium Set
+(<a href="slides/Brandt.pdf">slides</a>)</li>
+
+<li>S&eacute;bastien Konieczny (CNRS and CRIL, Univ. d'Artois) <br>
+Information Fusion and Social Choice 
+(<a href="slides/konieczny.pdf">slides</a>)</li>
+
+<li>Thierry Marchant (Ghent University) <br>
+From Social Choice to Multi-Criteria Decision Analysis 
+(<a href="slides/Marchant.pdf">slides</a>)</li>
+
+<li>Stefano Moretti (LAMSADE, Univ. Paris-Dauphine) <br>
+Power Indices and Game Theory, with Applications to Bioinformatics
+(<a href="slides/Moretti.pdf">slides</a>)</li>
+
+</li>
+
+</ul>
+</p>
+
+<p>
+<b>Contributed Talks</b>
+
+<ul>
+
+<li>Saturday Session:
+<a href="slides/Can.pdf">Burak Can</a>,
+<a href="slides/Robledo.pdf">Jos&eacute; Robledo</a>,
+<a href="slides/Zappala.pdf">Julian Zappala</a>,
+<a href="slides/Speroni.pdf">Pietro Speroni</a>,
+<a href="slides/Montes.pdf">Marco Montes de Oca</a>,
+<a href="slides/Baumeister.pdf">Dorothea Baumeister</a>
+</li>
+
+<li>Monday Session:
+<a href="slides/Brill.pdf">Markus Brill</a>,
+<a href="slides/Karanikolas.pdf">Nikos Karanikolas</a>,
+<a href="slides/Dorn.pdf">Britta Dorn</a>,
+<a href="slides/Geist.pdf">Christian Geist</a>,
+<a href="slides/Bredereck.pdf">Robert Bredereck</a>,
+<a href="slides/Grandi.pdf">Umberto Grandi</a>,
+<a href="slides/Cailloux.pdf">Olivier Cailloux</a>
+</li>
+
+<li>Tuesday Session:
+Dorota Marciniak,
+<a href="slides/Paolotti.pdf">Luisa Paolotti</a>,
+<a href="slides/Nongaillard.pdf">Antoine Nongaillard</a>,
+<a href="slides/Aziz.pdf">Haris Aziz</a>,
+<a href="slides/Todo.pdf">Taiki Todo</a>,
+<a href="slides/Duetting.pdf">Paul D&uuml;tting</a>
+</li>
+
+</ul>
+</p>
+
+<a name="photos">
+
+<p>
+<b>Photos</b>
+</p>
+
+<p>
+<a href="pics/Venue.jpg"><img src="pics/x-Venue.jpg"></a>
+<a href="pics/View.jpg"><img src="pics/x-View.jpg"></a>
+<a href="pics/Complexity.jpg"><img src="pics/x-Complexity.jpg"></a>
+<a href="pics/Audience1.jpg"><img src="pics/x-Audience1.jpg"></a>
+<a href="pics/CakeCutting.jpg"><img src="pics/x-CakeCutting.jpg"></a>
+<a href="pics/Audience2.jpg"><img src="pics/x-Audience2.jpg"></a>
+<a href="pics/CommunicationComplexity.jpg"><img src="pics/x-CommunicationComplexity.jpg"></a>
+<a href="pics/NumberTheory.jpg"><img src="pics/x-NumberTheory.jpg"></a>
+<a href="pics/Audience3.jpg"><img src="pics/x-Audience3.jpg"></a>
+<a href="pics/CombinatorialExplosion.jpg"><img src="pics/x-CombinatorialExplosion.jpg"></a>
+<a href="pics/Explanation.jpg"><img src="pics/x-Explanation.jpg"></a>
+<a href="pics/Audience4.jpg"><img src="pics/x-Audience4.jpg"></a>
+<a href="pics/Audience5.jpg"><img src="pics/x-Audience5.jpg"></a>
+<a href="pics/SwimmingPool.jpg"><img src="pics/x-SwimmingPool.jpg"></a>
+<a href="pics/OnTheBus.jpg"><img src="pics/x-OnTheBus.jpg"></a>
+<a href="pics/WesternPoint.jpg"><img src="pics/x-WesternPoint.jpg"></a>
+<a href="pics/Party1.jpg"><img src="pics/x-Party1.jpg"></a>
+<a href="pics/Party2.jpg"><img src="pics/x-Party2.jpg"></a>
+<a href="pics/Party3.jpg"><img src="pics/x-Party3.jpg"></a>
+<a href="pics/WhatsABand.jpg"><img src="pics/x-WhatsABand.jpg"></a>
+<a href="pics/Surprise.jpg"><img src="pics/x-Surprise.jpg"></a>
+<a href="pics/Dancing1.jpg"><img src="pics/x-Dancing1.jpg"></a>
+<a href="pics/Dancing2.jpg"><img src="pics/x-Dancing2.jpg"></a>
+<a href="pics/Dancing3.jpg"><img src="pics/x-Dancing3.jpg"></a>
+<a href="pics/OneMore.jpg"><img src="pics/x-OneMore.jpg"></a>
+<a href="pics/AfterParty.jpg"><img src="pics/x-AfterParty.jpg"></a>
+<a href="pics/Casino.jpg"><img src="pics/x-Casino.jpg"></a>
+<a href="pics/NecessaryWinner.jpg"><img src="pics/x-NecessaryWinner.jpg"></a>
+<a href="pics/Group.jpg"><img src="pics/x-Group.jpg"></a>
+</p>
+
+<p>
+Page maintained by <a href="http://staff.science.uva.nl/~ulle/">Ulle Endriss</a>.
+</p>
+
+</body>
+</html>
+

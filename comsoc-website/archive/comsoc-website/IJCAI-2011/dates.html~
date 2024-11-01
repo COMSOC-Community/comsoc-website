@@ -1,0 +1,20 @@
+<!--#include file="header.html" -->
+
+<h1>Important Dates</h1>
+
+<p>
+<table>
+<tr><td><b>Submission deadline: &nbsp;</b><td>Wednesday, 6 April 2011 <font color="#9b0b00">(extension: see below)</font></td></tr>
+<tr><td><b>Paper notifications: &nbsp;</b><td>Friday, 6 May 2011</td></tr>
+<tr><td><b>Final papers due:</b><td>Monday, 16 May 2011</td></tr>
+<tr><td><b>Workshop:</b></td><td>Saturday, 16 July 2011</td></tr>
+</table>
+</p>
+
+<p><font color="#9b0b00"><b>Deadline extension:</b> Authors who register an abstract on the EasyChair submission website by the official deadline (Wednesday, 6 April 2011) may delay uploading the PDF of their paper until Sunday, 10 April 2011.</font></p>
+
+
+<!--#include file="footer-1.html" -->
+<!--#echo var="LAST_MODIFIED" -->
+<!--#include file="footer-2.html" -->
+

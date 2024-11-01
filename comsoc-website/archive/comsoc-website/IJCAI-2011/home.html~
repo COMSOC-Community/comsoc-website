@@ -1,0 +1,18 @@
+<!--#include file="header.html" -->
+
+<p>
+The <i>IJCAI Workshop on Social Choice and Artificial Intelligence</i> is part of the workshop programme of the <i>22nd International Joint Conference on Artificial Intelligence</i> (<a href="http://ijcai-11.iiia.csic.es/">IJCAI-2011</a>), to be held in Barcelona in July 2011.  
+
+<p>
+We invite submissions on all aspects of <a href="http://www.illc.uva.nl/COMSOC/what-is-comsoc.html">computational social choice</a>, particularly contributions focusing on questions at the interface of social choice and AI and position papers on new challenges and research directions for our field. Full details are available in the <a href="cfp.html">Call for Papers</a>. This is intended to be an informal event: we hope to receive submissions on work in progress and we will try to schedule ample time for discussion during the workshop.
+</p>
+
+<p>
+We hope to see you in Barcelona!
+</p>
+
+
+<!--#include file="footer-1.html" -->
+<!--#echo var="LAST_MODIFIED" -->
+<!--#include file="footer-2.html" -->
+

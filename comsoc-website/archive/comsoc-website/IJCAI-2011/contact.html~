@@ -1,0 +1,21 @@
+<!--#include file="header.html" -->
+
+<h1>Contacting the Organisers</h1>
+
+<p>
+If you have any questions regarding the workshop, please do not hesitate to contact anyone of us: 
+<ul>
+<li><a href="http://www1.spms.ntu.edu.sg/~eelkind/">Edith Elkind</a>
+(email: <a href="mailto:eelkind@gmail.com">eelkind@gmail.com</a>)</li>
+<li><a href="http://staff.science.uva.nl/~ulle/">Ulle Endriss</a>
+(email: <a href="mailto:ulle.endriss@uva.nl">ulle.endriss@uva.nl</a>)</li>
+<li><a href="http://www.lamsade.dauphine.fr/~lang/">J&eacute;r&ocirc;me Lang</a>
+(email: <a href="mailto:lang@lamsade.dauphine.fr">lang@lamsade.dauphine.fr</a>)</li>
+</ul>
+</p>
+
+
+<!--#include file="footer-1.html" -->
+<!--#echo var="LAST_MODIFIED" -->
+<!--#include file="footer-2.html" -->
+
