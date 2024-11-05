@@ -31,11 +31,23 @@ to provide equal opportunities for engagement, collaboration, and advancement wi
 Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target="_blank" rel="noreferrer"} for announcements related to computational social choice, such as events and job opportunities. The list is managed by [Vincent Conitzer](https://www.cs.cmu.edu/~conitzer/){:target="_blank" rel="noreferrer"}.
 </section>
 
+<section markdown="1" id="mailing-list">
+
+## The COMSOC Video Seminar
+
+The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank" rel="noreferrer"}, 
+launched in April 2020, is an international seminar series on social choice taking place online. 
+Researchers from all disciplines are welcome to present and attend.
+Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/) and 
+recordings of past sessions are available on the seminar's [YouTube channel](https://www.youtube.com/channel/UCa_l2EzXiJxzfZKtu2mTkdA/videos).
+
+</section>
+
 <section markdown="1" id="meeting-places">
 
 ## Community Meeting Places
 
-- [COMSOC Video Seminar](video-seminar): a regular online seminar on social choice,
+- [COMSOC Video Seminar](https://comsocseminar.org/): a regular online seminar on social choice,
   run by COMSOC researchers and open to everyone
 
 - [COMSOC Workshop](workshops): a series of biannual workshops,
