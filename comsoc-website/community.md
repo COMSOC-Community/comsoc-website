@@ -35,20 +35,17 @@ Join the [COMSOC mailing list](https://lists.duke.edu/sympa/info/comsoc){:target
 
 ## The COMSOC Video Seminar
 
-The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank" rel="noreferrer"}, 
+The [COMSOC Video Seminar](https://comsocseminar.org/){:target="_blank" rel="noreferrer"} (, 
 launched in April 2020, is an international seminar series on social choice taking place online. 
 Researchers from all disciplines are welcome to present and attend.
 Upcoming sessions are announced on the [seminar site](https://comsocseminar.org/) and 
-recordings of past sessions are available on the seminar's [YouTube channel](https://www.youtube.com/channel/UCa_l2EzXiJxzfZKtu2mTkdA/videos).
+recordings of past sessions are available on the seminar's [YouTube channel](https://www.youtube.com/@comdocseminar/videos).
 
 </section>
 
 <section markdown="1" id="meeting-places">
 
 ## Community Meeting Places
-
-- [COMSOC Video Seminar](https://comsocseminar.org/): a regular online seminar on social choice,
-  run by COMSOC researchers and open to everyone
 
 - [COMSOC Workshop](workshops): a series of biannual workshops,
   bringing together COMSOC-enthusiasts from across the world
