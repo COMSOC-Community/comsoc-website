@@ -10,7 +10,7 @@ description: >
 
 # Events
 
-Besides the [COMSOC Workshop](workshops) and the [COMSOC Video Seminar](video-seminar),
+Besides the [COMSOC Workshop](workshops) and the [COMSOC Video Seminar](https://www.comsocseminar.org/),
 there are also lots of other events where work on COMSOC gets presented and where COMSOC people meet.
 On this page you will find a non-exhaustive list of such events.
 
