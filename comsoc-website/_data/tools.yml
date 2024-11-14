@@ -195,7 +195,7 @@
   category: Aggregation
   reference-tool: true
   type: Python
-  url: https://github.com/pbvoting/pabutools
+  url: https://github.com/COMSOC-Community/pabutools
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr
@@ -209,11 +209,11 @@
     - name: Piotr Skowron
       url: https://duch.mimuw.edu.pl/~ps219737/
       maintainer: false
-  source-url: https://github.com/pbvoting/pabutools
+  source-url: https://github.com/COMSOC-Community/pabutools
   languages: 
     - Python
   has-tests: true
-  documentation-url: https://pbvoting.github.io/pabutools/
+  documentation-url: https://comsoc-community.github.io/pabutools/
   description: >
     The pabutools are a complete set of tools for working with participatory budgeting instances.
     It provides the tools to handle PB instances of different kinds, together with voting rules to
@@ -232,6 +232,7 @@
     - name: Simon Rey
       url: https://simonrey.fr
       maintainer: true
+  source-url: https://github.com/COMSOC-Community/pabuviz-web
   languages: 
     - Django 
     - React
