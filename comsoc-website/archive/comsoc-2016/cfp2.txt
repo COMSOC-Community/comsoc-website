@@ -1,0 +1,119 @@
+**********************************************************************
+
+                         2nd Call for Papers
+
+     Fourth International Workshop on Computational Social Choice
+                            (COMSOC-2012)
+ 
+                Krakow, Poland, September 11--13, 2012
+
+              URL:  http://www.ki.agh.edu.pl/COMSOC-2012
+
+**********************************************************************
+MISSION
+**********************************************************************
+
+Computational social choice  is  a  discipline  that  emerged  at  the 
+interface  of  social  choice  theory  and  computer  science.  It  is 
+concerned with the application  of  computational  techniques  to  the 
+study of social choice mechanisms, and with the integration of  social 
+choice paradigms into computing.  The aim of the workshop is to  bring 
+together  different  communities:  computer scientists  interested  in
+computational issues  in social choice;  people working in  artificial
+intelligence and multiagent systems  who are  using ideas from  social
+choice to organize societies of artificial software agents;  logicians
+interested  in  the logic-based specification  and analysis of  social
+procedures;   computer   science   theorists   analyzing   algorithmic  
+properties of social phenomena;  and last but not least, people coming
+from social choice theory itself.
+
+**********************************************************************
+INVITED SPEAKERS
+**********************************************************************
+
+Invited speakers  will  include  Michel Le Breton  (Toulouse School of 
+Economics;   tentative),   Clemens  Puppe   (Karlsruhe  Institute   of  
+Technology), Craig A. Tovey (Georgia Institute of Technology), Gerhard
+J. Woeginger  (Eindhoven University of Technology).  There  will  also
+be an invited tutorial  by  Rolf Niedermeier (Technische  Universitaet 
+Berlin).
+
+**********************************************************************
+PAPER SUBMISSION
+**********************************************************************
+
+Submissions of full papers describing original or  recently  published 
+work on all aspects of computational social choice are invited. Topics
+of interest include, but are not limited to:
+
+ o complexity-theoretic analysis of voting procedures
+ o computational aspects of fair division 
+ o computational aspects of matching problems
+ o multiagent resource allocation
+ o cake-cutting algorithms
+ o distributed negotiation in multiagent systems
+ o preference representation in combinatorial domains
+ o computational aspects of preference aggregation rules
+ o preference elicitation
+ o social choice and constraint programming
+ o social choice and the web: ranking systems
+ o social networks
+ o belief and judgement aggregation
+ o algorithmic game theory
+ o computational aspects of coalition formation
+ o cooperative game theory
+ o social choice under uncertainty
+ o logics for collective decision making
+ o logic-based verification of social procedures 
+ o communication complexity of social choice mechanisms
+ o computational issues in mechanism design
+
+Paper submission is electronic via the workshop website. Papers should 
+not exceed  12 pages in length (roughly  5000  words)  and  should  be 
+formatted according to the  instructions  available  at  the  workshop
+website. Accepted papers will be collected in informal workshop notes,
+printed copies of which will be  available  at  the  workshop.  Please
+contact either one of the program chairs in case of any questions:
+
+ o Felix Brandt (brandtf@in.tum.de)
+ o Piotr Faliszewski (faliszew@agh.edu.pl)
+
+**********************************************************************
+IMPORTANT DATES
+**********************************************************************
+
+ o Paper submission deadline: May 25, 2012
+ o Notification of authors: June 25, 2012
+ o Camera-ready papers due: July 10, 2012
+ o Early registration deadline: July 20, 2012
+ o Late registration deadline: August 20, 2012 (afterward only on-site
+   registration)
+ o Workshop dates: September 11--13, 2012
+
+**********************************************************************
+PROGRAM COMMITTEE
+**********************************************************************
+
+ o Craig Boutilier
+ o Felix Brandt (co-chair)
+ o Edith Elkind
+ o Ulle Endriss
+ o Piotr Faliszewski (co-chair)
+ o Bettina Klaus
+ o Jérôme Lang
+ o Christian List
+ o Hannu Nurmi
+ o Maria Silvia Pini
+ o Ariel Procaccia
+ o Jeffrey S. Rosenschein
+ o Jörg Rothe
+ o Tuomas Sandholm
+ o Michael Trick
+ o Virginia Vassilevska-Williams
+ o Toby Walsh
+ o Michael Wooldridge
+ o Lirong Xia
+ o Makoto Yokoo
+ o William S. Zwicker
+ 
+**********************************************************************
