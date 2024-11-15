@@ -1,0 +1,483 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>COMSOC-2012: Fourth International Workshop on Computational Social Choice</title>
+<link rel="stylesheet" href="web/comsoc.css" type="text/css">
+</head>
+
+<body>
+
+<center>
+
+<!-- top banner starts here -->
+<table border="0" cellspacing="0" cellpadding="0" width="850px">
+<tr><td background="images/krakow2.jpg" height="220px" valign="top">
+
+  <div id="top">
+  Fourth International Workshop on Computational Social Choice<br>
+  Krak&oacute;w, Poland, September 11&ndash;13, 2012
+  </div>
+</td></tr>
+</table>
+<!-- top banner ends here -->
+
+<table border="0" cellspacing="0" cellpadding="0" width="850px">
+<tr><td height="2px"></td></tr>
+<tr valign="top">
+
+<!-- menu starts here -->
+<td width="175px" align="left">
+  <div id="menu">
+  <a href="index.html">COMSOC-2012</a>
+  <a href="program.html">Program / Photos</a>
+  <a href="acc.html">Accepted Papers</a>
+  <!-- <a href="program.html">Program</a> -->
+  <!--<a href="proceedings.html">Workshop Notes</a> -->
+  <!-- <a href="slides.html">Slides and Photos</a> -->
+  <a href="invited.html">Invited Speakers</a>
+  <!-- <a href="tutorial.html">LogICCC Tutorial Day</a> -->
+  <!-- <a href="accepted.html">Accepted Papers</a> -->
+  <a href="pc.html">Committees</a>
+  <a href="cfp.html">Call for Papers</a>
+  <a href="submission.html">Paper Submission</a>
+  <a href="registration.html">Registration</a>
+  <a href="hotels.html">Travel and Accommodation</a>
+  <a href="dates.html">Important Dates</a>
+  <!-- <a href="registration.html">Registration</a> -->
+  <a href="location.html">Location</a>
+  <!-- <a href="travel.html">Travel and Accommodation</a> -->
+  <!-- <a href="sponsors.html">Sponsors</a> -->
+  <a href="previous.html">Previous COMSOCs</a>
+  <a href="sponsors.html">Sponsors</a>
+  <a href="contact.html">Contact</a>
+  </div>
+</td>
+<!-- menu ends here -->
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td width="100%">
+<!-- page content starts here -->
+
+
+
+<h1>COMSOC 2012 Program</h1>
+
+<p>
+The COMSOC-2012 program consists of 
+an invited tutorial, four invited talks, and the presentation
+of 38 contributed papers, which have been selected from
+amongst 54 submissions received by the program committee.
+</p>
+
+<p>Additional information:
+<ul>
+<li> Registration: starting Tuesday 08:30
+<li> Social Dinner: Wednesday 20:00
+<li> Welcome: Tuesday 08:50-09:00
+</ul>
+
+<p> Each invited talk is 60 minutes long. Contributed talks have been 
+allocated 20 minutes each, including questions and change-over to the next 
+speaker.</p>
+
+
+<h2> Overview of the Schedule </h2>
+
+<center>
+<img src="program.png" width="500pt">
+</center>
+
+<br><br><br>
+
+<h2> Detailed Schedule </h2>
+
+
+<ul>
+<li> <b>Tuesday, September 11th </b>
+  <ul>
+    <li> 8:50--9:00 Welcome to COMSOC 2012
+    <li> 9:00--10:30 Invited Tutorial
+       <ul> 
+          <li> Parameterized Complexity Analysis for Social Choice 
+Problems<br>
+          <i> Rolf Niedermeier</i>
+       </ul>   
+
+  <li> 10:30--10:50 Coffee Break
+
+  <li> 10:50--11:30 Session 1: Winner Determination
+    <ul>
+      <li> The Price of Neutrality for the Ranked Pairs Method<br>
+           <i>Markus Brill, Felix Fischer</i>
+      <li> Robust Winners and Winner Determination Policies under Candidate Uncertainty<br>
+           <i>Craig Boutilier, J&eacute;r&ocirc;me Lang, Joel Oren, Hector Palacios</i>
+    </ul>
+
+  <li> 11:30--12:00 Break
+ 
+  <li> 12:00--13:00 Session 2: Multi-Winner Elections
+    <ul>
+      <li> Online (Budgeted) Social Choice<br>
+           <i>Brendan Lucier, Joel Oren</i>
+      <li> On the Complexity of Voting Manipulation Under Randomized Tie-Breaking<br>
+           <i>Svetlana Obraztsova, Yair Zick, Edith Elkind</i>
+      <li> Bounded single-peaked width and proportional representation<br>
+           <i>Lucie Galand, Denis Cornaz and Olivier Spanjaard</i>
+    </ul>
+
+  <li> 13:00--14:30 Lunch Break
+
+  <li> 14:30--15:30 Invited Talk
+    <ul>
+      <li> Majority Voting over Interconnected Propositions: The Condorcet Set<br>
+      <i> Clemens Puppe</i>
+    </ul>
+  
+  <li> 15:30--16:00 Coffee Break
+  
+  <li> 16:00--17:00 Session 3: Judgement Aggregation
+  <ul>
+    <li> The common structure of paradoxes in aggregation theory<br>
+         <i>Umberto Grandi</i>
+    <li> Models of Manipulation on Aggregation of Binary Evaluations<br>
+         <i>Dvir Falik, Elad Dokow</i>
+    <li> Bribery and Control in Judgment Aggregation<br>
+         <i>Dorothea Baumeister, G&aacute;bor Erd&eacute;lyi, Olivia J. Erd&eacute;lyi, J&ouml;rg Rothe</i>
+  </ul>
+ 
+  <li> 17:00--17:30 Break
+
+  <li> 17:30--18:30 Session 4: New Models of Aggregation
+    <ul>
+      <li> Graph Aggregation<br>
+           <i>Ulle Endriss, Umberto Grandi</i>
+      <li> Aggregating Conditionally Lexicographic Preferences on Multi-Issue Domains<br>
+           <i>J&eacute;r&ocirc;me Lang, J&eacute;r&ocirc;me Mengin and Lirong Xia</i>
+      <li> Empathetic Social Choice on Social Networks<br>
+           <i>Amirali Salehi-Abari and Craig Boutilier</i>
+    </ul>
+  <li> 18:30--19:30 Business Meeting
+</ul>
+
+
+<br><br>
+
+
+<li> <b>Wednesday, September 12th</b>
+ <ul>
+    <li> 9:00--10:00 Invited Talk
+       <ul>
+          <li> Simple Games and the Probability of Casting a Decisive Vote<br>
+          <i> Michel Le Breton</i>
+       </ul>
+  </ul>
+  
+  <li> 10:00--10:30 Coffee Break
+
+  <li> 10:30--11:30 Session 5: Manipulation and Distributions
+    <ul>
+      <li> Exploiting Polyhedral Symmetries in Social Choice<br>
+           <i>Achill Sch&uuml;rmann</i>
+      <li> An Empirical Study of Voting Rules and Manipulation with Large Datasets<br>
+           <i>Nicholas Mattei, James Forshee, Judy Goldsmith</i>
+      <li> How Many Vote Operations Are Needed to Manipulate A Voting System? <br>
+           <i>Lirong Xia</i>
+    </ul>
+
+  <li> 11:30--12:00 Break
+  
+  <li> 12:00--13:00 Session 6: Domain Restrictions
+    <ul>
+      <li> Analysis and Optimization of Multi-dimensional Percentile Mechanisms<br>
+           <i>Xin Sui, Craig Boutilier, Tuomas Sandholm</i>
+      <li> The Complexity of Nearly Single-Peaked Consistency<br>
+           <i>G&aacute;bor Erd&eacute;lyi, Martin Lackner, Andreas Pfandler</i>
+      <li> A characterization of the single-crossing domain<br>
+           <i>Robert Bredereck, Jiehua Chen, Gerhard Woeginger</i>
+    </ul>
+
+  <li> 13:00--14:30 Lunch Break
+
+  <li> 14:30--15:30 Invited Talk
+    <ul>
+      <li> TBA<br>
+           <i>Craig A. Tovey</i>
+    </ul>
+
+  <li> 15:30--16:00 Coffee Break
+
+  <li> 16:00--17:00 Session 7: Cost Sharing and Revealed Preferences
+    <ul>
+      <li> Cost-sharing of continuous knapsacks<br>
+           <i>Andreas Darmann, Christian Klamler</i>
+      <li> Bounding the Cost of Stability in Games with Restricted Interaction<br>
+           <i>Reshef Meir, Yair Zick, Edith Elkind, Jeffrey Rosenschein</i>
+      <li> Goodness of fit measures for revealed preference tests: Complexity results and algorithms<br>
+           <i>Bart Smeulders, Frits Spieksma, Laurens Cherchye, Bram De Rock</i>
+    </ul>
+
+  <li> 17:00--17:30 Break
+
+  <li> 17:30--18:30 Session 8: Hardness of Manipulation
+    <ul>
+      <li> Manipulating Two Stage Voting Rules<br>
+           <i>Nina Narodytska, Toby Walsh</i>
+      <li> Manipulation Under Voting Rule Uncertainty<br>
+           <i>G&aacute;bor Erd&eacute;lyi and Edith Elkind</i>
+      <li> The Complexity of Online Manipulation of Sequential Elections<br>
+           <i>Edith Hemaspaandra, Lane A. Hemaspaandra, J&ouml;rg Rothe</i>
+    </ul>
+  <li> 20:00 Social Dinner
+</ul>
+
+
+<br><br>
+
+<li> <b>Thursday, September 13th</b>
+ <ul>
+  <li> 9:00--10:00 Session 9: Possible Winners
+    <ul>
+      <li> Possible and Necessary Winners of Partial Tournaments<br>
+           <i>Haris Aziz, Markus Brill, Felix Fischer, Paul Harrenstein, J&eacute;r&ocirc;me Lang, Hans Georg Seedig</i>
+      <li> The Possible Winner Problem with Uncertain Weights<br>
+           <i>Dorothea Baumeister, Magnus Roos, J&ouml;rg Rothe, Lena Schend, Lirong Xia</i>
+      <li> Voting with Partial Information: Minimal Sets of Questions to Decide an Outcome<br>
+           <i>Ning Ding, Fangzhen Lin</i>
+    </ul>
+  
+  <li> 10:00--10:30 Coffee Break
+
+  <li> 10:30--11:30 Session 10: Resource Allocation
+    <ul>
+      <li> Computing Socially-Efficient Cake Divisions<br>
+           <i>Yonatan Aumann, Yair Dombb and Avinatan Hassidim</i>
+      <li> Complexity and Approximability of Social Welfare Optimization in Multiagent Resource Allocation<br>
+           <i>Nhan-Tam Nguyen, Trung Thanh Nguyen, Magnus Roos and J&ouml;rg Rothe</i>
+      <li> Elicitation-free Protocols for Allocating Indivisble Goods<br>
+           <i>Thomas Kalinowski, Nina Narodytska, Toby Walsh, Lirong Xia</i>
+    </ul>
+
+  <li> 11:30--12:00 Break
+  
+  <li> 12:00--13:00 Session 11: Matching and Coalition Formation
+    <ul>
+      <li> Housing Markets with Indifferences: a Tale of Two Mechanisms<br>
+           <i>Haris Aziz, Bart de Keijzer</i>
+      <li> College admissions with stable score-limits<br>
+           <i>Peter Biro, Sofya Kiselgof</i>
+      <li> Group Activity Selection Problem<br>
+           <i>Andreas Darmann, Edith Elkind, Sascha Kurz, J&eacute;r&ocirc;me Lang, Joachim Schauer, Gerhard Woeginger</i>
+    </ul>
+
+  <li> 13:00--14:30 Lunch Break
+
+  <li> 14:30--15:30 Invited Talk
+    <ul>
+      <li> Coalitions in Hedonic Games<br>
+           <i>Gerhard Woeginger</i>
+    </ul>
+
+  <li> 15:30--16:00 Coffee Break
+
+  <li> 16:00--17:00 Session 12: Voting Equilibria
+    <ul>
+      <li> Implementation by Agenda Voting<br>
+           <i>Sean Horan</i>
+      <li> Coordination via Polling in Plurality Voting Games under Inertia<br>
+           <i>Reyhaneh Reyhani, Mark Wilson, Javad Khazaei</i>
+      <li> Empirical Aspects of Plurality Election Equilibria<br>
+           <i>David Thompson, Omer Lev, Kevin Leyton-Brown, Jeffrey Rosenschein</i>
+    </ul>
+
+  <li> 17:00--17:30 Break
+
+  <li> 17:30--18:30 Session 13: Bribery and Control
+    <ul>
+      <li> On Elections with Robust Winners<br>
+           <i>Dmitry Shiryaev, Lan Yu, Edith Elkind</i>
+      <li> Resistance to bribery when aggregating soft constraints<br>
+           <i>Alberto Amaran, Maria Silvia Pini, Francesca Rossi and Kristen Brent Venable</i>
+      <li> Being caught between a rock and a hard place in an election&ndash;voter deterrence by deletion of candidates<br>
+           <i>Britta Dorn, Dominikus Kr&uuml;ger</i>
+    </ul>
+</ul>
+
+
+</ul>
+
+
+
+<!--
+<h2>Accepted Papers</h2>
+<ol>
+<li value=1> How Many Vote Operations Are Needed to Manipulate A Voting System? <br>
+     <i>Lirong Xia</i>
+
+<li value=2> Housing Markets with Indifferences: a Tale of Two Mechanisms<br>
+     <i>Haris Aziz, Bart de Keijzer</i>
+
+<li value=3> The Complexity of Online Manipulation of Sequential Elections<br>
+     <i>Edith Hemaspaandra, Lane A. Hemaspaandra, J&ouml;rg Rothe</i>
+
+<li value=7> Manipulation Under Voting Rule Uncertainty<br>
+     <i>G&aacute;bor Erd&eacute;lyi and Edith Elkind</i>
+
+<li value=9> An Empirical Study of Voting Rules and Manipulation with Large Datasets<br>
+     <i>Nicholas Mattei, James Forshee, Judy Goldsmith</i>
+
+<li value=10> The Price of Neutrality for the Ranked Pairs Method<br>
+     <i>Markus Brill, Felix Fischer</i>
+
+<li value=11> Goodness of fit measures for revealed preference tests: Complexity results and algorithms<br>
+     <i>Bart Smeulders, Frits Spieksma, Laurens Cherchye, Bram De Rock</i>
+
+<li value=12> The Possible Winner Problem with Uncertain Weights<br>
+     <i>Dorothea Baumeister, Magnus Roos, J&ouml;rg Rothe, Lena Schend, Lirong Xia</i>
+
+<li value=14> Possible and Necessary Winners of Partial Tournaments<br>
+     <i>Haris Aziz, Markus Brill, Felix Fischer, Paul Harrenstein, J&eacute;r&ocirc;me Lang, Hans Georg Seedig</i>
+
+<li value=15> Exploiting Polyhedral Symmetries in Social Choice<br>
+     <i>Achill Sch&uuml;rmann</i>
+
+
+<li value=17> Bounding the Cost of Stability in Games with Restricted Interaction<br>
+     <i>Reshef Meir, Yair Zick, Edith Elkind, Jeffrey Rosenschein</i>
+
+
+<li value=18> Graph Aggregation<br>
+     <i>Ulle Endriss, Umberto Grandi</i>
+
+
+<li value=19> Analysis and Optimization of Multi-dimensional Percentile Mechanisms<br>
+     <i>Xin Sui, Craig Boutilier, Tuomas Sandholm</i>
+
+
+<li value=20> Computing Socially-Efficient Cake Divisions<br>
+     <i>Yonatan Aumann, Yair Dombb and Avinatan Hassidim</i>
+
+
+
+<li value=21> Voting with Partial Information: Minimal Sets of Questions to Decide an Outcome<br>
+     <i>Ning Ding, Fangzhen Lin</i>.
+
+
+<li value=22> College admissions with stable score-limits<br>
+     <i>Peter Biro, Sofya Kiselgof</i>
+
+
+<li value=23> Bribery and Control in Judgment Aggregation<br>
+     <i>Dorothea Baumeister, G&aacute;bor Erd&eacute;lyi, Olivia J. Erd&eacute;lyi, J&ouml;rg Rothe</i>
+
+
+<li value=25> Being caught between a rock and a hard place in an election&ndash;voter deterrence by deletion of candidates<br>
+     <i>Britta Dorn, Dominikus Kr&uuml;ger</i>
+
+
+<li value=26> Aggregating Conditionally Lexicographic Preferences on Multi-Issue Domains<br>
+     <i>J&eacute;r&ocirc;me Lang, J&eacute;r&ocirc;me Mengin and Lirong Xia</i>
+
+
+<li value=27> Empirical Aspects of Plurality Election Equilibria<br>
+     <i>David Thompson, Omer Lev, Kevin Leyton-Brown, Jeffrey Rosenschein</i>
+
+
+<li value=29> On the Complexity of Voting Manipulation Under Randomized Tie-Breaking<br>
+     <i>Svetlana Obraztsova, Yair Zick, Edith Elkind</i>
+
+
+<li value=31> Resistance to bribery when aggregating soft constraints<br>
+     <i>Alberto Amaran, Maria Silvia Pini, Francesca Rossi and Kristen Brent Venable</i>
+
+
+<li value=32> The Complexity of Nearly Single-Peaked Consistency<br>
+     <i>G&aacute;bor Erd&eacute;lyi, Martin Lackner, Andreas Pfandler</i>
+
+
+<li value=33> Models of Manipulation on Aggregation of Binary Evaluations<br>
+     <i>Dvir Falik, Elad Dokow</i>
+
+
+<li value=36> Complexity and Approximability of Social Welfare Optimization in Multiagent Resource Allocation<br>
+     <i>Nhan-Tam Nguyen, Trung Thanh Nguyen, Magnus Roos and J&ouml;rg Rothe</i>
+
+
+<li value=37> Manipulating Two Stage Voting Rules<br>
+     <i>Nina Narodytska, Toby Walsh</i>
+
+
+<li value=38> Elicitation-free Protocols for Allocating Indivisble Goods<br>
+     <i>Thomas Kalinowski, Nina Narodytska, Toby Walsh, Lirong Xia</i>
+
+
+<li value=39> Online (Budgeted) Social Choice<br>
+     <i>Brendan Lucier, Joel Oren</i>
+
+
+<li value=40> Cost-sharing of continuous knapsacks<br>
+     <i>Andreas Darmann, Christian Klamler</i>
+
+
+<li value=41> Group Activity Selection Problem<br>
+     <i>Andreas Darmann, Edith Elkind, Sascha Kurz, J&eacute;r&ocirc;me Lang, Joachim Schauer, Gerhard Woeginger</i>
+
+
+
+<li value=42> On Elections with Robust Winners<br>
+     <i>Dmitry Shiryaev, Lan Yu, Edith Elkind</i>
+
+
+<li value=45> The common structure of paradoxes in aggregation theory<br>
+     <i>Umberto Grandi</i>
+
+
+<li value=47> Robust Winners and Winner Determination Policies under Candidate Uncertainty<br>
+     <i>Craig Boutilier, J&eacute;r&ocirc;me Lang, Joel Oren, Hector Palacios</i>
+
+
+<li value=49> Implementation by Agenda Voting<br>
+     <i>Sean Horan</i>
+
+
+<li value=50> Empathetic Social Choice on Social Networks<br>
+     <i>Amirali Salehi-Abari and Craig Boutilier</i>
+
+
+<li value=52> Coordination via Polling in Plurality Voting Games under Inertia<br>
+     <i>Reyhaneh Reyhani, Mark Wilson, Javad Khazaei</i>
+
+
+<li value=53> A characterization of the single-crossing domain<br>
+     <i>Robert Bredereck, Jiehua Chen, Gerhard Woeginger</i>
+
+
+<li value=54> Bounded single-peaked width and proportional representation<br>
+     <i>Lucie Galand, Denis Cornaz and Olivier Spanjaard</i>
+<ol>
+
+-->
+
+</p>
+<!-- page content ends here -->
+</td>
+</tr>
+</table>
+
+
+<!-- footer starts here -->
+<table border="0" cellspacing="0" cellpadding="0" width="850px">
+<tr><td bgcolor="#18345A" height="2px"></td></tr>
+<tr><td bgcolor="#FFFF00" height="1px"></td></tr>
+<tr><td bgcolor="#18345A" height="2px"></td></tr>
+<tr><td><div id="footer">last modified on ### (<a href="mailto:faliszew@agh.edu.pl">P. Faliszewski</a>)
+</div></td></tr>
+</table>
+<!-- footer ends here -->
+
+</center>
+
+</body>
+</html>
+
+
