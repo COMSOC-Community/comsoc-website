@@ -1,3 +1,11 @@
+- name: Houyu Zhou
+  affiliation: City University of Hong Kong
+  year: 2024
+  url: https://lbms03.cityu.edu.hk/theses/c_ftt/phd-cs-194502506.pdf
+  title: "Facility Location Games: Groups and Fairness"
+  supervisors:
+    - Minming Li
+
 - name: Grzegorz Pierczyński
   affiliation: University of Warsaw
   year: 2024
