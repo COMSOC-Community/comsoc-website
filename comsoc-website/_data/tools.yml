@@ -7,7 +7,6 @@
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr/
-      maintainer: true
     - name: Nick Mattei
       url: https://www.nickmattei.net/
       maintainer: true
@@ -50,6 +49,8 @@
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr/
+    - name: Nick Mattei
+      url: https://www.nickmattei.net/
       maintainer: true
   languages: 
     - Python
@@ -69,7 +70,6 @@
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr/
-      maintainer: true
     - name: Stanisław Szufa
       url: https://szufa.simple.ink/
       maintainer: true
@@ -199,16 +199,15 @@
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr
-      maintainer: true
     - name: Grzegorz Pierczyński
       url: https://mimuw.edu.pl/~pierczynski/
-      maintainer: false
+      maintainer: true
     - name: Markus Utke
       url: https://research.tue.nl/en/persons/markus-utke
       maintainer: false
     - name: Piotr Skowron
       url: https://duch.mimuw.edu.pl/~ps219737/
-      maintainer: false
+      maintainer: true
   source-url: https://github.com/COMSOC-Community/pabutools
   languages: 
     - Python
@@ -231,7 +230,6 @@
       maintainer: true
     - name: Simon Rey
       url: https://simonrey.fr
-      maintainer: true
   source-url: https://github.com/COMSOC-Community/pabuviz-web
   languages: 
     - Django 
@@ -594,3 +592,27 @@
   source-url: https://github.com/MatchingAlgorithmVisualiser/MatchingAlgorithmVisualiser.github.io
   description: >
     Small application presenting visualisation of some matching algorithms.
+
+- name: "Game Academy"
+  topic: General Tools
+  category: Outreach
+  reference-tool: false
+  type: Website
+  url: https://game-academy.org/
+  contributors:
+    - name: Simon Rey
+      url: https://simonrey.fr/
+    - name: Ulle Endriss
+      url: https://staff.fnwi.uva.nl/u.endriss/
+      maintainer: true
+  languages:
+    - Python
+    - Django
+  source-url: https://github.com/COMSOC-Community/Game-Academy
+  description: >
+    The Game Academy is an online platform hosting a range of interactive games that can be used to
+    bring to life some of the core concepts in game theory and related
+    fields, such as the notions of strategy, rationalisability, equilibrium, backward induction, or
+    wisdom of the crowd. The platform is a usefull tool for both teaching and outreach
+    activities.
+    
