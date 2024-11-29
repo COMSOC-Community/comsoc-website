@@ -277,7 +277,7 @@
     - Python
   has-tests: true
   description: >
-    Votelib is a package to evaluate results of elections under various voting rukes. It aims to provide
+    Votelib is a package to evaluate results of elections under various voting rules. It aims to provide
     reliable implementations of many rules so that they can be evaluated and compared as they are used
     under real-world conditions. The primary focus is on political decision making, but
     the library is not limited to evaluating political decisions only.
