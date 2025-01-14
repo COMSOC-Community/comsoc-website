@@ -1,0 +1,23 @@
+name: Check Jekyll Build
+on: [pull_request]
+jobs:
+  check-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Specify your Ruby version
+          bundler-cache: true  # Caches the gems for faster builds
+      - name: Install Jekyll and plugins
+        run: |
+          cd comsoc-website
+          gem install jekyll
+          gem install bundler
+          bundle install  # Assumes there is a Gemfile in the repository
+      - name: Build with Jekyll
+        run: |
+          cd comsoc-website
+          bundle exec jekyll build -t
