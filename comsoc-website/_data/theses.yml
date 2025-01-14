@@ -22,6 +22,14 @@
   supervisors:
     - Evangelos Markakis
 
+- name: Joshua Kavner
+  affiliation: Rensselaer Polytechnic Institute
+  year: 2024
+  url: assets/theses/phd-kavner.pdf
+  title: "Evaluating Strategic Decision-Making with Iterative Voting"
+  supervisors:
+    - Lirong Xia
+
 - name: Christian Laußmann
   affiliation: University of Düsseldorf
   year: 2023
