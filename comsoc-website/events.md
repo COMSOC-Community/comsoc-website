@@ -98,7 +98,8 @@ On this page you will find a non-exhaustive list of such events.
     [2015](http://www.explore-2015.preflib.org/) &middot;
     [2014](http://www.explore14.preflib.org/)
     
-  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)   
+  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)     
+    [2025 at AAMAS](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
   
