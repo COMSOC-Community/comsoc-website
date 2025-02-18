@@ -615,4 +615,27 @@
     fields, such as the notions of strategy, rationalisability, equilibrium, backward induction, or
     wisdom of the crowd. The platform is a usefull tool for both teaching and outreach
     activities.
-    
+
+- name: VoteKit
+  topic: Multi-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Python
+  url: https://github.com/mggg/VoteKit
+  contributors:
+    - name: MGGG
+      url: https://mggg.org/
+      maintainer: true
+  source-url: https://github.com/voting-tools/pref_voting
+  languages: 
+    - Python
+  has-tests: true
+  documentation-url: https://votekit.readthedocs.io/en/latest/
+  description: >
+    VoteKit is a Python package developed by MGGG in order to support 
+    computational social choice researchers as well as practitioners 
+    and advocates interested in so-called “alternative” systems of election.
+    VoteKit provides an end-to-end pipeline for this analysis, and is equipped
+   with a variety of electoral systems and generative models, with a focus
+   on multi-winner elections and ranked preferences.
+
