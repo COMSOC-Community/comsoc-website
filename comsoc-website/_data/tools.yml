@@ -603,7 +603,7 @@
     - name: Simon Rey
       url: https://simonrey.fr/
     - name: Ulle Endriss
-      url: https://staff.fnwi.uva.nl/u.endriss/
+      url: https://staff.science.uva.nl/u.endriss/
       maintainer: true
   languages:
     - Python
@@ -616,7 +616,7 @@
     wisdom of the crowd. The platform is a usefull tool for both teaching and outreach
     activities.
 
-- name: VoteKit
+- name: "VoteKit"
   topic: Multi-Winner Voting
   category: Analysis
   reference-tool: false
@@ -634,8 +634,8 @@
   description: >
     VoteKit is a Python package developed by MGGG in order to support 
     computational social choice researchers as well as practitioners 
-    and advocates interested in so-called “alternative” systems of election.
+    and advocates interested in so-called alternative systems of election.
     VoteKit provides an end-to-end pipeline for this analysis, and is equipped
-   with a variety of electoral systems and generative models, with a focus
-   on multi-winner elections and ranked preferences.
+    with a variety of electoral systems and generative models, with a focus
+    on multi-winner elections and ranked preferences.
 
