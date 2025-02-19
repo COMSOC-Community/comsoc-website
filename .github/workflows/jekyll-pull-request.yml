@@ -1,5 +1,8 @@
 name: Check Jekyll Build
-on: [pull_request]
+on:
+  pull_request:
+    branches:
+      - main
 jobs:
   check-build:
     runs-on: ubuntu-latest
