@@ -610,11 +610,10 @@
     - Django
   source-url: https://github.com/COMSOC-Community/Game-Academy
   description: >
-    The Game Academy is an online platform hosting a range of interactive games that can be used to
+    Online platform hosting a range of interactive games that can be used to
     bring to life some of the core concepts in game theory and related
-    fields, such as the notions of strategy, rationalisability, equilibrium, backward induction, or
-    wisdom of the crowd. The platform is a usefull tool for both teaching and outreach
-    activities.
+    fields, such as the notions of strategy, equilibrium, or backward induction.
+    Can be used for both teaching and outreach activities.
 
 - name: "VoteKit"
   topic: Multi-Winner Voting
@@ -632,9 +631,8 @@
   has-tests: true
   documentation-url: https://votekit.readthedocs.io/en/latest/
   description: >
-    VoteKit is a Python package developed by MGGG in order to support 
-    computational social choice researchers as well as practitioners 
-    and advocates interested in so-called alternative systems of election.
+    Python package to support researchers as well as practitioners 
+    and advocates interested in so-called 'alternative' systems of election.
     VoteKit provides an end-to-end pipeline for this analysis, and is equipped
     with a variety of electoral systems and generative models, with a focus
     on multi-winner elections and ranked preferences.
