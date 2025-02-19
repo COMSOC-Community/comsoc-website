@@ -625,7 +625,7 @@
     - name: MGGG
       url: https://mggg.org/
       maintainer: true
-  source-url: https://github.com/voting-tools/pref_voting
+  source-url: https://github.com/mggg/VoteKit
   languages: 
     - Python
   has-tests: true
