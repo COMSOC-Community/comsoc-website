@@ -385,20 +385,20 @@
   contributors:
     - name: Florian Brandl
       url: http://brandlf.com/
-      maintainer: true
+      maintainer: false
     - name: Felix Brandt
       url: https://www.cs.cit.tum.de/en/dss/brandt/
       maintainer: true
     - name: René Romen
       url: https://www.cs.cit.tum.de/en/dss/members/rene-romen/
+      maintainer: false
+    - name: Alexander Schlenga
+      url: https://www.cs.cit.tum.de/en/dss/members/alexander-schlenga/
       maintainer: true
     - name: Dominik Spies
       maintainer: false
     - name: Christian Stricker
       maintainer: false
-  maintainers:
-    - Felix Brandt
-    - René Romen
   languages: 
     - Java Script
   source-url: https://github.com/VotingTool/Online-Voting-Tool-Backend
