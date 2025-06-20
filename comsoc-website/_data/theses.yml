@@ -1,3 +1,12 @@
+- name: Magdaléna Tydrichová 
+  affiliation: LIP6, Sorbonne Université
+  year: 2023
+  url: https://theses.hal.science/tel-04143294
+  title: "Structural and Algorithmic Aspects of Preference Domain Restrictions in Collective Decision Making: Contributions to the Study of Single-Peaked and Euclidean Preferences"
+  supervisors:
+    - Bruno Escoffier
+    - Olivier Spanjaard
+
 - name: Aditi Sethia
   affiliation: Indian Institute of Technology, Gandhinagar
   year: 2025
