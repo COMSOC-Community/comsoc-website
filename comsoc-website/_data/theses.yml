@@ -1,3 +1,13 @@
+- name: Virginie Do 
+  affiliation: LAMSADE, Université Paris Dauphine
+  year: 2023
+  url: https://theses.hal.science/tel-04213955
+  title: "Fairness in Recommender Systems: Insights from Social Choice"
+  supervisors:
+    - Nicolas Usunier
+    - Jamal Atif
+    -  Jérôme Lang
+
 - name: Magdaléna Tydrichová 
   affiliation: LIP6, Sorbonne Université
   year: 2023
@@ -16,7 +26,7 @@
     - Neeldhara Misra
 
 - name: Julian Chingoma
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2025
   url: https://hdl.handle.net/11245.1/6634e22f-9259-4fb7-a74e-c9d3e93bd410
   title: On Proportionality in Complex Domains
@@ -158,7 +168,7 @@
     - Davide Grossi
 
 - name: Simon Rey
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2023
   url: https://pure.uva.nl/ws/files/139715105/Thesis.pdf
   title: Variations on Participatory Budgeting
@@ -233,7 +243,7 @@
     - Jörg Rothe
 
 - name: Sirin Botan
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2021
   url: https://hdl.handle.net/11245.1/e97ead75-97cf-4175-aac2-90c5e2d7d8dd
   title: Strategyproof Social Choice for Restricted Domains
@@ -273,7 +283,7 @@
     - Jörg Rothe
 
 - name: Zoi Terzopoulou
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2021
   url: https://hdl.handle.net/11245.1/1b1fb9dd-b633-4ad2-a10e-13124ca3971f
   title: Collective Decisions with Incomplete Individual Opinions
@@ -365,7 +375,7 @@
     - Britta Dorn
 
 - name: Anaëlle Wilczynski
-  affiliation: Université Paris Dauphine, LAMSADE
+  affiliation: LAMSADE, Université Paris Dauphine
   year: 2019
   url: assets/theses/phd-wilczynski.pdf
   title: Interaction among Agents via a Social Network in Computational Social Choice
@@ -710,7 +720,7 @@
     - Jörg Rothe
 
 - name: Umberto Grandi
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2012
   url: https://hdl.handle.net/11245/1.377051
   title: Binary Aggregation with Integrity Constraints
@@ -802,7 +812,7 @@
     - Jörg Rothe
 
 - name: Joel Uckelman
-  affiliation: University of Amsterdam, ILLC
+  affiliation: ILLC, University of Amsterdam
   year: 2009
   url: https://hdl.handle.net/11245/1.309718
   title: "More than the Sum of its Parts: Compact Preference Representation over Combinatorial Domains"
@@ -869,7 +879,7 @@
     - Francesca Rossi
 
 - name: Sylvia Estivie
-  affiliation: Université Paris Dauphine, LAMSADE
+  affiliation: LAMSADE, Université Paris Dauphine
   year: 2006
   url: http://www.lamsade.dauphine.fr/~estivie/pub/These_Estivie.pdf
   title: "Allocation de Ressources Multi-Agents: Théorie et Pratique"
