@@ -1,3 +1,21 @@
+- name: Manel Ayadi
+  affiliation: LAMSADE, Université Paris Dauphine
+  year: 2019
+  url: https://theses.hal.science/tel-03220669
+  title: "Winner Determination under Common Voting Rules using Truncated Ballots"
+  supervisors:
+    - Nahla Ben Amor
+    - Jérôme Lang
+
+- name: Justin Kruger 
+  affiliation: LAMSADE, Université Paris Dauphine
+  year: 2019
+  url: https://theses.hal.science/tel-03220645
+  title: "Steps Towards Decisiveness in Social Choice"
+  supervisors:
+    - Jérôme Lang
+    - Airiau Stéphane
+
 - name: Virginie Do 
   affiliation: LAMSADE, Université Paris Dauphine
   year: 2023
@@ -6,7 +24,7 @@
   supervisors:
     - Nicolas Usunier
     - Jamal Atif
-    -  Jérôme Lang
+    - Jérôme Lang
 
 - name: Magdaléna Tydrichová 
   affiliation: LIP6, Sorbonne Université
