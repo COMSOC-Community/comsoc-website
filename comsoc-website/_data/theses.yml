@@ -553,7 +553,7 @@
 - name: Jiehua Chen
   affiliation: Technische Universität Berlin
   year: 2015
-  url: http://dx.doi.org/10.14279/depositonce-5113
+  url: http://doi.org/10.14279/depositonce-5113
   title: Exploiting Structure in Computationally Hard Voting Problems
   supervisors:
     - Rolf Niedermeier
@@ -641,7 +641,7 @@
 - name: Piotr Skowron
   affiliation: University of Warsaw
   year: 2015
-  url: https://www.depotuw.ceon.pl/bitstream/handle/item/1022/main.pdf?sequence=1
+  url: assets/theses/phd-skowron.pdf
   title: Resource Allocation in Selfish and Cooperative Distributed Systems
   supervisors:
     - Piotr Faliszewski
@@ -656,7 +656,7 @@
     - Meir Kalech
     - Lior Rokach
     - Bracha Shapira
-    -
+    
 - name: Martin Lackner
   affiliation: Technische Universität Wien
   year: 2014
@@ -669,7 +669,7 @@
 - name: Robert Bredereck
   affiliation: Technische Universität Berlin
   year: 2014
-  url: http://dx.doi.org/10.14279/depositonce-4450
+  url: http://doi.org/10.14279/depositonce-4450
   title: Multivariate Complexity Analysis of Team Management Problems
   supervisors:
     - Rolf Niedermeier
@@ -685,7 +685,7 @@
 - name: Reshef Meir
   affiliation: Hebrew University of Jerusalem
   year: 2013
-  url: http://www.cse.unsw.edu.au/~tw/meir.pdf
+  url: assets/theses/phd-meir.pdf
   title: "Mechanisms for Stability and Welfare: Increasing Cooperation among Self-interested Agents"
   supervisors:
     - Jeff Rosenschein
@@ -875,7 +875,7 @@
 - name: Rob LeGrand
   affiliation: Washington University in St. Louis
   year: 2008
-  url: http://www.cs.angelo.edu/~rlegrand/research/dissertation.pdf
+  url: https://doi.org/10.7936/57eq-1r65
   title: Computational Aspects of Approval Voting and Declared-Strategy Voting
   supervisors:
     - Ron K. Cytron
@@ -883,7 +883,7 @@
 - name: Sylvain Bouveret
   affiliation: ISAE Toulouse and University of Toulouse
   year: 2007
-  url: http://recherche.noiraudes.net/en/thesis.php
+  url: assets/theses/phd-bouveret.pdf
   title: "Allocation et Partage Equitables de Ressources Indivisibles: Modélisation, Complexité et Algorithmique"
   supervisors:
     - Jean-Michel Lachiver
