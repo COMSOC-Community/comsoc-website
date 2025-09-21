@@ -53,7 +53,7 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 
 ### Committee Members
 
-- [Péter Biró](https://mechanismdesign.eu/biro/){:target="_blank" rel="noreferrer"}} (HUN-REN Centre for Economic and Regional Studies, Budapest): 2025-2029
+- [Péter Biró](https://mechanismdesign.eu/biro/){:target="_blank" rel="noreferrer"} (HUN-REN Centre for Economic and Regional Studies, Budapest): 2025-2029
 - [Jiehua Chen](https://www.ac.tuwien.ac.at/jchen/about/){:target="_blank" rel="noreferrer"} (TU Wien): 2025-2029
 - [Omer Lev](https://tzin.bgu.ac.il/~omerlev/){:target="_blank" rel="noreferrer"} (Ben-Gurion University): 2023-2027
 - [Marcus Pivato](https://sites.google.com/site/marcuspivato/home){:target="_blank" rel="noreferrer"} (Panth&eacute;on-Sorbonne University): 2023-2027
