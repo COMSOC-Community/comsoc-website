@@ -53,10 +53,10 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 
 ### Committee Members
 
+- [Péter Biró](https://mechanismdesign.eu/biro/){:target="_blank" rel="noreferrer"}} (HUN-REN Centre for Economic and Regional Studies, Budapest): 2025-2029
+- [Jiehua Chen](https://www.ac.tuwien.ac.at/jchen/about/){:target="_blank" rel="noreferrer"} (TU Wien): 2025-2029
 - [Omer Lev](https://tzin.bgu.ac.il/~omerlev/){:target="_blank" rel="noreferrer"} (Ben-Gurion University): 2023-2027
-- [Reshef Meir](https://reshef.net.technion.ac.il/){:target="_blank" rel="noreferrer"} (Technion): 2021-2025
 - [Marcus Pivato](https://sites.google.com/site/marcuspivato/home){:target="_blank" rel="noreferrer"} (Panth&eacute;on-Sorbonne University): 2023-2027
-- [Bill Zwicker](https://www.union.edu/mathematics/faculty-staff/william-s-zwicker){:target="_blank" rel="noreferrer"} (Union College): 2021-2025
 
 ### Past Committee Members
 
@@ -71,7 +71,9 @@ The COMSOC workshop series is coordinated by a Steering Committee. This committe
 - [Umberto Grandi](https://www.irit.fr/~Umberto.Grandi/){:target="_blank" rel="noreferrer"} (IRIT, University of Toulouse): 2016-2021
 - [Jeff Rosenschein](https://www.cs.huji.ac.il/~jeff/){:target="_blank" rel="noreferrer"} (Hebrew University of Jerusalem): 2016-2021
 - [Edith Elkind](https://www.cs.ox.ac.uk/people/edith.elkind/){:target="_blank" rel="noreferrer"} (University of Oxford): 2018-2023
-- [Lirong Xia](https://www.cs.rpi.edu/~xial/){:target="_blank" rel="noreferrer"} (Rensselaer Polytechnic Institute): 2018-2023
+- [Lirong Xia](https://people.cs.rutgers.edu/~lirong.xia/){:target="_blank" rel="noreferrer"} (Rensselaer Polytechnic Institute): 2018-2023
+- [Reshef Meir](https://reshef.net.technion.ac.il/){:target="_blank" rel="noreferrer"} (Technion): 2021-2025
+- [Bill Zwicker](https://en.wikipedia.org/wiki/William_S._Zwicker){:target="_blank" rel="noreferrer"} (Union College): 2021-2025
 
 ### Responsibilities of the Committee
 
