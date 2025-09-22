@@ -1,3 +1,18 @@
+- name: René Romen
+  affiliation: Technical University of Munich
+  year: 2025
+  url: https://mediatum.ub.tum.de/doc/1764812/1764812.pdf
+  title: Performance Guarantees in Probabilistic Social Choice and Online Coalition Formation
+  supervisors:
+    - Felix Brandt
+
+- name: Matthias Greger
+  affiliation: Technical University of Munich
+  year: 2025
+  url: https://mediatum.ub.tum.de/doc/1759811/onlts4hzyc7oqggwzeixzb01l.Matthias%20S.%20Greger.pdf
+  title: Collective Choice from the Probability Simplex with Application to Donor Coordination
+  supervisors:
+    - Felix Brandt
 
 - name: Théo Delemazure
   affiliation: LAMSADE, Université Paris Dauphine
