@@ -4,16 +4,20 @@
 
 - src: COMSOC_2016.JPG
   title: The Sixth COMSOC Workshop in Toulouse (2016)
-  url: https://www.irit.fr/COMSOC-2016/
+  url: archive/comsoc-2016/
 
 - src: COMSOC_2018.jpg
   title: The Seventh COMSOC Workshop in Troy (2018)
-  url: https://www.cs.rpi.edu/~xial/COMSOC18/
+  url: archive/comsoc-2018/
 
 - src: COMSOC_2023.jpg
   title: The Ninth COMSOC Workshop in Beersheba (2023)
-  url: https://tzin.bgu.ac.il/~omerlev/comsoc.html
+  url: archive/comsoc-2023/
 
+- src: COMSOC_2025.jpg
+  title: The Tenth COMSOC Workshop in Beersheba (2025)
+  url: https://www.ac.tuwien.ac.at/comsoc2025/
+  
 - src: COMSOC_Summer_School_2010.jpg
   title: Doctoral School on Computational Social Choice in Estoril (2010)
   url: archive/estoril-2010/
