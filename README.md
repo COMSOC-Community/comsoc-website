@@ -9,11 +9,31 @@ contribute to its development, or think that some changes are needed, please use
 GitHub page (or contact us if you don't know what to do). General instructions for the
 most common modifications are provided below.
 
-## How To
+## How To Contribute
 
 This website has been designed so as to make maintaining it as easy as possible.
 The website is automatically updated after each push to the repository, so all you have
 to do is to push your changes, wait a bit, and check that the outcome looks fine.
+
+### New Contributors
+
+If this is your first time editing this website, there are two ways to get started:
+
+1. **Web-based editor** ("github.dev"). If you only want to make a small change, press 
+   the `.` key on your keyboard while on this page. This will open a web-based editor 
+   where you can edit and upload files to the repository. Once you're done, open the
+   source control panel, briefly describe your changes in the message box, and click
+   "commit & push". If necessary, the editor will guide you through making a "fork"
+   of the repository (which is usually necessary before your first edit). After this
+   has been done, you need to open a "pull request" (either via this editor or via
+   github.com), which is a request to the administrators of this repository to approve 
+   your edit.
+2. **Clone the repository**. For larger changes, you can fork the repository and clone
+   it on your local system. Note that the repository is quite large (> 1 GB).
+
+To learn what files to change to make your edit, read the instruction manuals below.
+
+### List of Instruction Manuals
 
 Below is a description of how to perform the most common management tasks:
 
@@ -26,11 +46,7 @@ Below is a description of how to perform the most common management tasks:
 - [Group Photos](#modifyadd-a-group-photo-for-the-front-page)
 - [Archive Static Website](#archive-a-static-website)
 
-Note that if you are not a 'GitHub collaborator' of this repository, you first need to clone the
-repository and then submit pull requests (so in that case, the site will update only after one of
-the maintainers has approved your pull request).
-
-### Modify/Add a PhD thesis
+### Modify/Add a PhD Thesis
 
 To add a new PhD thesis, add the new entry to the file `comsoc-website/_data/theses.yml` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/theses.yml)
