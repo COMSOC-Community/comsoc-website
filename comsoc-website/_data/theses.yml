@@ -1,3 +1,11 @@
+- name: Jannik Peters
+  affiliation: Technische Universität Berlin
+  year: 2024
+  url: https://doi.org/10.14279/depositonce-23017
+  title: "Facets of Proportionality: Selecting Committees, Budgets, and Clusters"
+  supervisors:
+    - Markus Brill
+
 - name: René Romen
   affiliation: Technical University of Munich
   year: 2025
