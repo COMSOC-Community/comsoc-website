@@ -1,3 +1,13 @@
+- name: François Durand
+  affiliation: Inria
+  year: 2015
+  url: https://inria.hal.science/tel-03654945/document
+  title: "Towards less manipulable voting systems"
+  supervisors:
+    - Sébastien Tixeuil
+    - Fabien Mathieu
+    - Ludovic Noirie
+
 - name: Jannik Peters
   affiliation: Technische Universität Berlin
   year: 2024
