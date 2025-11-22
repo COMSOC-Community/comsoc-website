@@ -42,6 +42,9 @@ On this page you will find a non-exhaustive list of such events.
 
 ## Dagstuhl Seminars on Topics in Computational Social Choice
 
+  - [Societal Impact of Computational Social Choice](http://www.dagstuhl.de/25401/)  
+    28 September - 2 October 2025
+
   - [Algorithms for Participatory Democracy](http://www.dagstuhl.de/22271/)  
     3-8 July 2022
 
@@ -73,7 +76,8 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
   
-  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)   
+  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)
+    [2025](https://events.mpref.org/MPref2025/) &middot; 
     [2024](https://mpref2024.mpref.org/) &middot; 
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
     [2022](https://sites.google.com/view/m-pref2022) &middot;
@@ -84,7 +88,8 @@ On this page you will find a non-exhaustive list of such events.
     ... &middot;
     [2005](https://events.mpref.org/MPref05/)
 
-  - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)  
+  - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)
+    [2025](https://preflib.github.io/gaiw2025/) &middot;
     [2024](https://preflib.github.io/gaiw2024/) &middot;
     [2023](https://preflib.github.io/gaiw2023/) &middot; 
     [2022](https://preflib.github.io/gaiw2022/) &middot;
@@ -98,10 +103,15 @@ On this page you will find a non-exhaustive list of such events.
     [2015](http://www.explore-2015.preflib.org/) &middot;
     [2014](http://www.explore14.preflib.org/)
     
-  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)     
+  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)
+    [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
     [2025 at AAMAS](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
+
+  - Workshop Series on Social Choice and Learning Algorithms (SCaLA)
+    [2025 at IJCAI](https://sites.google.com/view/scala25) &middot;
+    [2024 at AAMAS](https://sites.google.com/view/scala24)
   
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
