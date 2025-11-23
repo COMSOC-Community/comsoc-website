@@ -106,13 +106,13 @@ On this page you will find a non-exhaustive list of such events.
     
   - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI) 
     [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
-    [2025 at AAMAS](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
+    [2025](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
 
   - Workshop Series on Social Choice and Learning Algorithms (SCaLA) 
-    [2025 at IJCAI](https://sites.google.com/view/scala25) &middot;
-    [2024 at AAMAS](https://sites.google.com/view/scala24)
+    [2025](https://sites.google.com/view/scala25) &middot;
+    [2024](https://sites.google.com/view/scala24)
   
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
