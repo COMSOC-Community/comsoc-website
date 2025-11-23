@@ -77,7 +77,7 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://website-50514.eventmaker.io/) &middot;
     [earlier meetings](https://scwsociety.org/List-of-Past-Meetings.html)
   
-  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF) 
+  - The Multidisciplinary Workshop Series on Advances in Preference Handling (M-PREF)   
     [2025](https://events.mpref.org/MPref2025/) &middot; 
     [2024](https://mpref2024.mpref.org/) &middot; 
     [2023](https://sites.google.com/view/m-pref-2023/home) &middot; 
@@ -89,7 +89,7 @@ On this page you will find a non-exhaustive list of such events.
     ... &middot;
     [2005](https://events.mpref.org/MPref05/)
 
-  - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW) 
+  - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)   
     [2025](https://preflib.github.io/gaiw2025/) &middot;
     [2024](https://preflib.github.io/gaiw2024/) &middot;
     [2023](https://preflib.github.io/gaiw2023/) &middot; 
@@ -98,19 +98,19 @@ On this page you will find a non-exhaustive list of such events.
     [2020](http://www.agent-games-2020.preflib.org/) &middot;
     [2019](http://www.agent-games-2019.preflib.org/)
 
-  - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)   
+  - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)     
     [2017](http://www.explore-2017.preflib.org/) &middot; 
     [2016](http://www.explore-2016.preflib.org/) &middot;
     [2015](http://www.explore-2015.preflib.org/) &middot;
     [2014](http://www.explore14.preflib.org/)
     
-  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI) 
+  - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)   
     [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
     [2025](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
 
-  - Workshop Series on Social Choice and Learning Algorithms (SCaLA) 
+  - Workshop Series on Social Choice and Learning Algorithms (SCaLA)   
     [2025](https://sites.google.com/view/scala25) &middot;
     [2024](https://sites.google.com/view/scala24)
   
