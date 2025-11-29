@@ -97,12 +97,6 @@ On this page you will find a non-exhaustive list of such events.
     [2021](https://preflib.github.io/gaiw2021/) &middot;
     [2020](http://www.agent-games-2020.preflib.org/) &middot;
     [2019](http://www.agent-games-2019.preflib.org/)
-
-  - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)     
-    [2017](http://www.explore-2017.preflib.org/) &middot; 
-    [2016](http://www.explore-2016.preflib.org/) &middot;
-    [2015](http://www.explore-2015.preflib.org/) &middot;
-    [2014](http://www.explore14.preflib.org/)
     
   - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)   
     [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
@@ -113,6 +107,16 @@ On this page you will find a non-exhaustive list of such events.
   - Workshop Series on Social Choice and Learning Algorithms (SCaLA)   
     [2025](https://sites.google.com/view/scala25) &middot;
     [2024](https://sites.google.com/view/scala24)
+
+  - Workshop Series on New Directions in Social Choice at EC   
+    [2025](https://ec25.comsocseminar.org/) &middot;
+    [2024](https://ec24.comsocseminar.org/)
+
+  - The AAMAS Workshop Series on Exploring Beyond the Worst Case in Computational Social Choice (EXPLORE)     
+    [2017](http://www.explore-2017.preflib.org/) &middot; 
+    [2016](http://www.explore-2016.preflib.org/) &middot;
+    [2015](http://www.explore-2015.preflib.org/) &middot;
+    [2014](http://www.explore14.preflib.org/)
   
   - [IJCAI Workshop on Social Choice and Artificial Intelligence](archive/ijcai-2011/)  
     Barcelona, 16 July 2011
