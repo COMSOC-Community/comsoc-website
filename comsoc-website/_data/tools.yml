@@ -282,6 +282,22 @@
     under real-world conditions. The primary focus is on political decision making, but
     the library is not limited to evaluating political decisions only.
 
+- name: "Whalrus - Which Alternative Represents Us"
+  topic: Single-Winner Voting
+  category: Aggregation
+  reference-tool: false
+  type: Python
+  url: https://github.com/francois-durand/whalrus/
+  contributors:
+    - name: François Durand
+      maintainer: true
+  source-url: https://github.com/francois-durand/whalrus/
+  languages: 
+    - Python
+  has-tests: true
+  description: >
+    Whalrus implements voting rules with a focus on usability in real-world application. This includes a particular attention on tie-breaking rules, ballot conversions, incomplete ballots, etc. It is used in the most recent versions of Whale (https://whale5.noiraudes.net/).
+
 - name: "equalshares.net"
   topic: Participatory Budgeting
   category: Outreach
@@ -466,6 +482,23 @@
   description: >
     This website presents algorithms for various voting rules, with a focus on mechanisms involving the
     Kendall-tau distance, such as Kemeny consensus and Popular ranking.  
+
+- name: "SVVAMP - Simulator of Various Voting Algorithms in Manipulating Populations"
+  topic: Single-Winner Voting
+  category: Analysis
+  reference-tool: false
+  type: Website
+  url: https://github.com/francois-durand/svvamp/
+  contributors:
+    - name: François Durand
+      url: https://cv.hal.science/fradurand/
+      maintainer: true
+  source-url: https://github.com/francois-durand/svvamp/
+  languages: 
+    - Python
+  has-tests: true
+  description: >
+      This package is specialized in studying the vulnerability of single-winner voting rules to strategic voting.
 
 - name: "vodle – everygroup's consensus"
   topic: Single-Winner Voting
