@@ -295,6 +295,7 @@
   languages: 
     - Python
   has-tests: true
+  documentation-url: https://francois-durand.github.io/whalrus/
   description: >
     Whalrus implements voting rules with a focus on usability in real-world application. This includes a particular attention on tie-breaking rules, ballot conversions, incomplete ballots, etc. It is used in the most recent versions of Whale (https://whale5.noiraudes.net/).
 
@@ -497,6 +498,7 @@
   languages: 
     - Python
   has-tests: true
+  documentation-url: https://francois-durand.github.io/svvamp/
   description: >
       This package is specialized in studying the vulnerability of single-winner voting rules to strategic voting.
 
