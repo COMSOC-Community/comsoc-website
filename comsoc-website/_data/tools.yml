@@ -7,6 +7,7 @@
   contributors:
     - name: Simon Rey
       url: https://simonrey.fr/
+      maintainer: false
     - name: Nick Mattei
       url: https://www.nickmattei.net/
       maintainer: true
@@ -290,6 +291,7 @@
   url: https://github.com/francois-durand/whalrus/
   contributors:
     - name: François Durand
+      url: https://cv.hal.science/fradurand
       maintainer: true
   source-url: https://github.com/francois-durand/whalrus/
   languages: 
@@ -297,7 +299,7 @@
   has-tests: true
   documentation-url: https://francois-durand.github.io/whalrus/
   description: >
-    Whalrus implements voting rules with a focus on usability in real-world application. This includes a particular attention on tie-breaking rules, ballot conversions, incomplete ballots, etc. It is used in the most recent versions of Whale (https://whale5.noiraudes.net/).
+    Whalrus implements voting rules with a focus on usability in real-world application. This includes a particular attention on tie-breaking rules, ballot conversions, incomplete ballots, etc. It is used in the most recent versions of <a href="https://whale5.imag.fr/">Whale</a>.
 
 - name: "equalshares.net"
   topic: Participatory Budgeting
@@ -429,10 +431,10 @@
   category: Application
   reference-tool: false
   type: Website
-  url: https://whale5.noiraudes.net/
+  url: https://whale5.imag.fr/
   contributors:
     - name: Sylvain Bouveret
-      url: https://recherche.noiraudes.net/fr/
+      url: https://recherche.noiraudes.net/
       maintainer: true
     - name: François Durand
       url: https://cv.hal.science/fradurand
@@ -500,7 +502,7 @@
   has-tests: true
   documentation-url: https://francois-durand.github.io/svvamp/
   description: >
-      This package is specialized in studying the vulnerability of single-winner voting rules to strategic voting.
+      This package can be used to study the vulnerability of single-winner voting rules to strategic voting.
 
 - name: "vodle – everygroup's consensus"
   topic: Single-Winner Voting
