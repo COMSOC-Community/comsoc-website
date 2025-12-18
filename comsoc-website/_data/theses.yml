@@ -1,3 +1,11 @@
+- name: Roman Zorn
+  affiliation: University of Düsseldorf
+  year: 2025
+  url: assets/theses/phd-zorn.pdf
+  title: "Computational Analysis of Electoral Control in Single- and Multiwinner Elections"
+  supervisors:
+    - Jörg Rothe
+
 - name: François Durand
   affiliation: Inria
   year: 2015
