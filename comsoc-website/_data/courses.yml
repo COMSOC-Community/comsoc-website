@@ -75,6 +75,8 @@
   institution: Indian Institute of Technology Delhi
   institution_url: https://home.iitd.ac.in/
   editions:
+    - url: https://rohitvaish.in/Teaching/2025-Spring/
+      name: 2025    
     - url: https://rohitvaish.in/Teaching/2023-Fall/
       name: 2023
     - url: https://rohitvaish.in/Teaching/2022-Fall/
