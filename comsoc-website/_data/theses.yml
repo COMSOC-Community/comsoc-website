@@ -1,3 +1,11 @@
+- name: Šimon Schierreich
+  affiliation: Czech Technical University in Prague
+  year: 2025
+  url: https://dspace.cvut.cz/entities/publication/5dbe95de-d3c6-44f4-b0d1-4883dfc12777
+  title: "Multivariate Complexity and Structural Restrictions in Computational Social Choice"
+  supervisors:
+    - Dušan Knop
+
 - name: Roman Zorn
   affiliation: University of Düsseldorf
   year: 2025
