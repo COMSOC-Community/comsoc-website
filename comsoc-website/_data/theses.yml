@@ -1,3 +1,11 @@
+- name: Ben Armstrong
+  affiliation: University of Waterloo
+  year: 2025
+  url: assets/theses/phd-armstrong.pdf
+  title: The Power of Experimental Approaches to Social Choice
+  supervisors:
+    - Kate Larson
+
 - name: Šimon Schierreich
   affiliation: Czech Technical University in Prague
   year: 2025
