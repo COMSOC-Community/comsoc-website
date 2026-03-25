@@ -106,6 +106,6 @@ to host the 2025 edition of the workshop. But note that the deadline has now pas
 -->
 
 Would you like to organise the next edition of COMSOC? 
-The [Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2027.txt) is now open (and closes on the 15th of June 2026).
+The [Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2027.txt) to organise COMSOC-2027 is now open (and closes on the 15th of June 2026).
 
 </section>
