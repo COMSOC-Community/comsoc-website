@@ -99,8 +99,13 @@ able to offer an attractive programme with several high-profile invited speakers
 
 ## Organising a COMSOC Workshop
 
+<!--
 To get an idea of what is involved in organising one of the workshops in the series, have a look at the 
 [Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2025.txt)
 to host the 2025 edition of the workshop. But note that the deadline has now passed.
+-->
+
+Would you like to organise the next edition of COMSOC? 
+The [Call for Bids]({{ site.baseurl }}/assets/docs/call-for-bids-to-host-comsoc-2027.txt) is now open (and closes on the 15th of June 2026).
 
 </section>
