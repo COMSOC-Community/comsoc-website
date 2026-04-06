@@ -90,6 +90,7 @@ On this page you will find a non-exhaustive list of such events.
     [2005](https://events.mpref.org/MPref05/)
 
   - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)   
+    [2026](https://preflib.github.io/gaiw2026/) &middot;
     [2025](https://preflib.github.io/gaiw2025/) &middot;
     [2024](https://preflib.github.io/gaiw2024/) &middot;
     [2023](https://preflib.github.io/gaiw2023/) &middot; 
@@ -97,6 +98,12 @@ On this page you will find a non-exhaustive list of such events.
     [2021](https://preflib.github.io/gaiw2021/) &middot;
     [2020](http://www.agent-games-2020.preflib.org/) &middot;
     [2019](http://www.agent-games-2019.preflib.org/)
+  
+  - The IJCAI Workshop Series on Computational Fair Division (CFD)
+    [2026](https://sites.google.com/view/fairdivisionworkshop2026) &middot;
+    [2025](https://sites.google.com/view/fairdivisionworkshop2025) &middot;
+    [2024](https://sites.google.com/view/fairdivisionworkshop2024) &middot;
+    [2023](https://sites.google.com/view/fairdivisionworkshop)
     
   - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)   
     [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
@@ -105,6 +112,7 @@ On this page you will find a non-exhaustive list of such events.
     [2023](https://sites.google.com/view/sc4ai/workshops/sc4ai23)
 
   - Workshop Series on Social Choice and Learning Algorithms (SCaLA)   
+    [2026](https://sites.google.com/view/scala26) &middot;
     [2025](https://sites.google.com/view/scala25) &middot;
     [2024](https://sites.google.com/view/scala24)
 
