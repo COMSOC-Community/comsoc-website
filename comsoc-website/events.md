@@ -99,7 +99,7 @@ On this page you will find a non-exhaustive list of such events.
     [2020](http://www.agent-games-2020.preflib.org/) &middot;
     [2019](http://www.agent-games-2019.preflib.org/)
   
-  - The IJCAI Workshop Series on Computational Fair Division (CFD)
+  - The IJCAI Workshop Series on Computational Fair Division (CFD)   
     [2026](https://sites.google.com/view/fairdivisionworkshop2026) &middot;
     [2025](https://sites.google.com/view/fairdivisionworkshop2025) &middot;
     [2024](https://sites.google.com/view/fairdivisionworkshop2024) &middot;
