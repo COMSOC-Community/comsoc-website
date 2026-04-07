@@ -90,7 +90,7 @@ On this page you will find a non-exhaustive list of such events.
     [2005](https://events.mpref.org/MPref05/)
 
   - The AAMAS Workshop Series on Games, Agents and Incentives (GAIW)   
-    [2026](https://preflib.github.io/gaiw2026/) &middot;
+    [2026](https://gtep-workshops.github.io/gaiw2026/) &middot;
     [2025](https://preflib.github.io/gaiw2025/) &middot;
     [2024](https://preflib.github.io/gaiw2024/) &middot;
     [2023](https://preflib.github.io/gaiw2023/) &middot; 
