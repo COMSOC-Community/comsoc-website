@@ -1,3 +1,11 @@
+- name: Sofia Simola
+  affiliation: TU Wien
+  year: 2025
+  url: https://doi.org/10.34726/hss.2026.138201
+  title: "Algorithmic Complexity of Matching and Games"
+  supervisors:
+    - Jiehua Chen
+
 - name: Michael C. Chavrimootoo
   affiliation: University of Rochester
   year: 2024
