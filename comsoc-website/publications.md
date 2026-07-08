@@ -29,11 +29,13 @@ and journals in economics (such as
 but occasionally also journals in applied mathematics, logic, political science, and philosophy.
 
 Below we gather information on relevant books, which might offer a particularly convenient entry point into the field, 
-as well as an overview of special issues on topics in computational social choice published in a number of different journals.
+links to curated lists of publications on specific research topics in computational social choice,
+as well as an overview of special issues published in a number of different journals.
 
 <div class="page-navigation-wrap">
 <div class="page-navigation">
 <span><a href="#books">Books</a></span>
+<span><a href="#curated-lists">Curated Lists</a></span>
 <span><a href="#special-issues">Special Issues</a></span>
 </div>
 </div>
@@ -67,6 +69,24 @@ or some major research topics within COMSOC. Have a look!
 </div>
 
 </section>
+
+<section markdown="1">
+
+## Curated Lists of Publications
+{: #curated-lists }
+
+<ul id="special-issues-list">
+{% for curated_list in site.data.curatedlists %}
+<li>
+<h4><a href="{{ curated_list.url }}">{{ curated_list.topic }}</a></h4>
+{{ curated_issue.description }}<br>
+Maintained by {% for maintainer in curated_list.maintainers %}{% if maintainer.url %}<a href="{{ maintainer.url }}">{% endif %}{{ maintainer.name }}{% if maintainer.url %}</a>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}.
+</li>
+{% endfor %}
+</ul>
+
+</section>
+
 
 <section markdown="1">
 

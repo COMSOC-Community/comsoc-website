@@ -1,0 +1,13 @@
+- topic: "Liquid Democracy"
+  url: "https://gpapasot.github.io/ld-comsoc/"
+  maintainers:
+    - name: Davide Grossi
+      url: https://davidegrossi.me/
+    - name: Andreas Nitsche
+      url: https://interaktive-demokratie.org/people/Andreas-Nitsche.en.html
+    - name: Giorgos Papasotiropoulos
+      url: https://duch.mimuw.edu.pl/~gpapasotiropoulos/
+  description: >
+    List of papers on liquid democracy using the methodology of
+    computational social choice, organised by the the underlying model of voting.
+  
