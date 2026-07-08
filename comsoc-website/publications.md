@@ -79,7 +79,7 @@ or some major research topics within COMSOC. Have a look!
 {% for curated_list in site.data.curatedlists %}
 <li>
 <h4><a href="{{ curated_list.url }}">{{ curated_list.topic }}</a></h4>
-<b>Description:</b> {{ curated_list.description }}
+{{ curated_list.description }}
 Maintained by {% for maintainer in curated_list.maintainers %}{% if maintainer.url %}<a href="{{ maintainer.url }}">{% endif %}{{ maintainer.name }}{% if maintainer.url %}</a>{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}.
 </li>
 {% endfor %}
