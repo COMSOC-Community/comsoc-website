@@ -41,6 +41,7 @@ Below is a description of how to perform the most common management tasks:
 - [COMSOC Workshop Event](#modifyadd-a-comsoc-workshop-event)
 - [COMSOC Workshop Proceedings](#modifyadd-proceedings-of-a-comsoc-workshop)
 - [Tools](#modifyadd-a-tool)
+- [Curated List](#modifyadd-a-curated-list-of-publications)
 - [Special Issue](#modifyadd-a-journal-special-issue)
 - [Course](#modifyadd-a-course)
 - [Group Photos](#modifyadd-a-group-photo-for-the-front-page)
@@ -205,7 +206,7 @@ are tools that deserve special attention because of their significance within th
 
 The `type` attribute represents the kind of tool it is: "Website", "Python", ...
 
-The `language` attribute is the programing language used to develop the tool. It is used to define
+The `language` attribute is the programming language used to develop the tool. It is used to define
 the best practices.
 
 The attribute `has-tests` indicates if unit-tests are included. This is mostly relevant for code
@@ -217,9 +218,32 @@ for code libraries.
 If you want the `description` to be more fancy, by including a link for instance,
 you can include HTML tags in it (not markdown).
 
+### Modify/Add a Curated List of Publications
+
+A curated list is a list of publications on a specific research topic within the field of computational social choice. Selected topics should be of broad interest and curated lists should aim to be representative of the literature on the topic and not be limited to the work of only a small set of research groups active in the area.
+
+Curated lists are specified in the file `comsoc-website/_data/curatedlists.yml` [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/curatedlists.yml). 
+
+The YAML format is as exemplified below:
+
+```yaml
+- topic: "Liquid Democracy in Social Choice"
+  url: "https://gpapasot.github.io/ld-comsoc/"
+  maintainers:
+    - name: Davide Grossi
+      url: https://davidegrossi.me/
+    - name: Andreas Nitsche
+      url: https://interaktive-demokratie.org/people/Andreas-Nitsche.en.html
+    - name: Giorgos Papasotiropoulos
+      url: https://duch.mimuw.edu.pl/~gpapasotiropoulos/
+  description: >
+    List of papers on liquid democracy using the methodology of
+    computational social choice, organised by the the underlying model of voting. 
+```
+
 ### Modify/Add a Journal Special Issue
 
-Journal special issues are described in the file `comsoc-website/_data/specialissues.yml` 
+Journal special issues are specified in the file `comsoc-website/_data/specialissues.yml` 
 [\[link\]](https://github.com/COMSOC-Community/comsoc-website/blob/main/comsoc-website/_data/specialissues.yml).
 
 The YAML format is as exemplified below:
