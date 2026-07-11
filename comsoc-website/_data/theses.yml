@@ -1,3 +1,19 @@
+- name: Yair Zick
+  affiliation: Nanyang Technological University
+  year: 2014
+  url: https://dr.ntu.edu.sg/entities/publication/f61f6e96-df02-4cd3-92d7-96dc41c1cf21
+  title: "Arbitration, Fairness and Stability"
+  supervisors:
+    - Edith Elkind
+
+- name: Justin Payan
+  affiliation: University of Massachusetts, Amherst
+  year: 2025
+  url: https://scholarworks.umass.edu/entities/publication/e9044e16-33d0-44bf-a67b-f225e7ced345
+  title: "Data Driven Expert Assignment"
+  supervisors:
+    - Yair Zick
+
 - name: Sofia Simola
   affiliation: TU Wien
   year: 2025
