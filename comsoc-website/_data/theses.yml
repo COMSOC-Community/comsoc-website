@@ -1,3 +1,12 @@
+- name: Jeremy Vollen
+  affiliation: University of New South Wales
+  year: 2025
+  url: https://unsworks.unsw.edu.au/entities/publication/20df9910-80f7-4d53-921d-79272c77111f
+  title: "Representative Fairness in Collective Decisions"
+  supervisors:
+    - Haris Aziz
+    - Toby Walsh
+
 - name: Lodewijk Gelauff
   affiliation: Stanford University
   year: 2023
