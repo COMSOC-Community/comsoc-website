@@ -573,6 +573,14 @@
   supervisors:
     - Felix Brandt
 
+- name: Erel Segal-Halevi
+  affiliation: Bar-Ilan University
+  year: 2017
+  url: https://erelsgl.github.io/papers/FairDivisionOfLand-PhDThesis.pdf
+  title: Fair Division of Land
+  supervisors:
+    - Yonatan Aumann, Avinatan Hassidim, Shmuel Nitzan
+
 - name: Nhan-Tam Nguyen
   affiliation: University of Düsseldorf
   year: 2017
