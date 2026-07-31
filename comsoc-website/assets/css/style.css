@@ -543,7 +543,6 @@ Workshops page
 .workshop-wrapper {
   position: relative;
   border: 2px solid black;
-  border-radius: 10px;
   height: 250px;
   margin-bottom: 30px;
 }
