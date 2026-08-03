@@ -82,16 +82,6 @@
   sort_key: CaillouxHervouinOzkesSanver
   accepted_as: Presentations
 
-- title: "Reconfiguring Proportional Committees"
-  authors:
-    - "Chris Dong"
-    - "Fabian Frank"
-    - "Jannik Peters"
-    - "Warut Suksompong"
-  pdf_file: 39.pdf
-  sort_key: DongFrankPetersSuksompong
-  accepted_as: Presentations
-
 - title: "On Condorcet’s Jury Theorem with Abstention"
   authors:
     - "Reshef Meir"
@@ -111,15 +101,6 @@
   sort_key: PapasotiropoulosPishbinSkibskiSkowronWas
   accepted_as: Presentations
 
-- title: "Strategizing under Rule and Vote Uncertainty: An Experiment"
-  authors:
-    - "Antoine Prévotat"
-    - "Zoi Terzopoulou"
-    - "Adam Zylbersztejn"
-  pdf_file: 53.pdf
-  sort_key: PrevotatTerzopoulouZylbersztejn
-  accepted_as: Presentations
-
 - title: "Generative Social Choice: The Next Generation"
   authors:
     - "Niclas Boehmer"
@@ -127,14 +108,6 @@
     - "Ariel D. Procaccia"
   pdf_file: 62.pdf
   sort_key: BoehmerFishProcaccia
-  accepted_as: Presentations
-
-- title: "An Axiomatic Characterization of the Minimax Voting Method"
-  authors:
-    - "Yifeng Ding"
-    - "Xiaochen Yu"
-  pdf_file: 65.pdf
-  sort_key: DingYu
   accepted_as: Presentations
 
 - title: "Quantile Agent Utility and Implications to Randomized Social Choice"
@@ -260,15 +233,6 @@
     - "Edith Elkind"
   pdf_file: 91.pdf
   sort_key: BerkerCasacubertaRobinsonOngConitzerElkind
-  accepted_as: Presentations
-
-- title: "Robust Committee Voting, or The Other Side of Representation"
-  authors:
-    - "Gregory Kehne"
-    - "Ulrike Schmidt-Kraepelin"
-    - "Krzysztof Sornat"
-  pdf_file: 93.pdf
-  sort_key: KehneSchmidtKraepelinSornat
   accepted_as: Presentations
 
 - title: "Fraud-Proof Revenue Division on Subscription Platforms"
