@@ -1,3 +1,11 @@
+- name: Sanjukta Roy
+  affiliation: The Institute of Mathematical Sciences, Chennai
+  year: 2021
+  url: assets/theses/phd-roy-sanjukta.pdf
+  title: "Select, Allocate, and Manipulate via Multivariate Analysis"
+  supervisors:
+    - Saket Saurabh
+
 - name: Jeremy Vollen
   affiliation: University of New South Wales
   year: 2025
@@ -439,14 +447,6 @@
   title: Collective Decisions with Incomplete Individual Opinions
   supervisors:
     - Ulle Endriss
-
-- name: Sanjukta Roy
-  affiliation: The Institute of Mathematical Sciences, Chennai
-  year: 2021
-  url: https://drive.google.com/file/d/17stSF-nAecJyt3R4QB2D9iyQe58KB2zd/view
-  title: "Select, Allocate, and Manipulate via Multivariate Analysis"
-  supervisors:
-    - Saket Saurabh
 
 - name: Tyrone Strangway
   affiliation: University of Toronto
