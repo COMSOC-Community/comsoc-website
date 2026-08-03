@@ -1,0 +1,190 @@
+/*
+From material design color palette:
+
+#dcedc8 - Light Green 100
+#9ccc65 - Light Green 400
+#558b2f - Light Green 800
+
+#bdbdbd - Gray 400
+#757575 - Gray 600
+#424242 - Gray 800
+
+#000000 - Black
+*/
+
+/* pure colors for HTML documents */
+.primary-color-very-light {
+	color: #dcedc8;
+}
+
+.primary-color {
+	color: #000000;
+}
+
+.gray-light {
+	color: #bdbdbd;
+}
+
+.gray-dark {
+	color: #757575;
+}
+
+.gray-very-dark {
+	color: #424242;
+}
+
+/*
+...1B - 10% transparent
+...4D - 30% transparent
+...80 - 50% transparent
+*/
+.delimiter{
+    border-bottom: 1px solid #0000001B;
+}
+
+.header-text {
+    color: #ffffff;
+}
+
+.header-text .tag-line {
+    color: #ffffff;
+}
+
+.header-text h1 a {
+    color: #ffffff;
+}
+
+.header-text h1 {
+    color: #ffffff;
+}
+
+.header-text h2H a {
+    color: #ffffff;
+}
+
+.header-text h3H a {
+    color: #0000001B;
+}
+.header-text h4 a {
+    color: #ffffff;
+}
+/* The social-icons */
+.global-footer .sns-links a {
+    border: 1px solid #757575;
+    color: #757575;
+}
+
+.global-footer .sns-links a:hover {
+    border: 1px solid #558b2f;
+    color: #558b2f;
+}
+
+/* The whole footer-area */
+.global-footer {
+    color: #757575;
+}
+
+.post-date {
+    color: #757575;
+}
+
+a:link {
+    color: #362204;
+    font-weight: bold;
+}
+
+a:hover,
+a:focus {
+    color:  #362204;
+    background-color: #f0f0f0; 
+}
+
+/* Tags of articles and pages */
+.post-tag a {
+  border: 1px solid #757575;
+  color: #757575;
+}
+
+.post-tag a:hover {
+    background-color: #362204;
+}
+
+.not-found h1 {
+    color: #757575;
+}
+
+.author-bio {
+    color: #757575;
+}
+
+/* Color for e.g. headers and links */
+.text-primary, a {
+    color: #362204;
+}
+
+/* Primary buttons are the ones in the page (not in the header) */
+.btn-primary {
+   /* background-color: transparent;*/
+    border-color: #362204;
+    color:  #362204;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #362204;
+    background-color: #757575;
+    border-color: #362204;
+}
+
+.btn-primary.disabled,
+.btn-primary.disabled:focus,
+a.btn-primary.disabled,
+a.btn-primary.disabled:focus {
+    color: #757575;
+    background-color: #362204;
+    border-color: #bdbdbd;
+}
+
+/* Default buttons are the ones in the header */
+.btn-default {
+  color: #000000;
+ /* background-color: transparent;*/
+  border-color: #fff;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    color: #fff;
+    background-color: #362204;
+    border-color: #fff;
+}
+
+.info {
+  background-color: #424242;
+  color: #fff;
+}
+
+.embedded-image {
+    border: 1px solid #be6400;
+}
+
+.embedded-image:hover,
+.embedded-image:focus {
+    border: 1px solid #be6400;
+}
+
+/* Bootstrap adjustions */
+blockquote {
+	border-left: 3px solid #bdbdbd;
+}
+
+/* Note box */
+.note {
+	border: 1px solid  #bdbdbd;
+	border-left: 3px solid #362204;
+}
+
+/* Table */
+table, th, td {
+    border: 1px solid #bdbdbd;
+}
