@@ -1,0 +1,672 @@
+- title: "Interactive and Iterative Peer Assessment: A Social Choice Approach to Eliciting and Aggregating Student Evaluations"
+  authors:
+    - "Lihi Dery"
+  pdf_file: 5.pdf
+  sort_key: Dery
+  accepted_as: Presentations
+
+- title: "Reallocating Wasted Votes in Proportional Parliamentary Elections with Thresholds"
+  authors:
+    - "Théo Delemazure"
+    - "Dominik Peters"
+    - "Rupert Freeman"
+    - "Jérôme Lang"
+    - "Jean-François Laslier"
+  pdf_file: 9.pdf
+  sort_key: DelemazurePetersFreemanLangLaslier
+  accepted_as: Presentations
+
+- title: "Learning How to Vote with Principles: Axiomatic Insights Into the Collective Decisions of Neural Networks"
+  authors:
+    - "Levin Hornischer"
+    - "Zoi Terzopoulou"
+  pdf_file: 11.pdf
+  sort_key: HornischerTerzopoulou
+  accepted_as: Presentations
+
+- title: "Committee Monotonicity and Proportional Representation for Ranked Preferences"
+  authors:
+    - "Haris Aziz"
+    - "Patrick Lederer"
+    - "Dominik Peters"
+    - "Jannik Peters"
+    - "Angus Ritossa"
+  pdf_file: 17.pdf
+  sort_key: AzizLedererPetersPetersRitossa
+  accepted_as: Presentations
+
+- title: "Condorcet-Consistent Choice Among Three Candidates"
+  authors:
+    - "Felix Brandt"
+    - "Chris Dong"
+    - "Dominik Peters"
+  pdf_file: 23.pdf
+  sort_key: BrandtDongPeters
+  accepted_as: Presentations
+
+- title: "The Power of Matching for Online Fractional Hedonic Games"
+  authors:
+    - "Martin Bullinger"
+    - "René Romen"
+    - "Alexander Schlenga"
+  pdf_file: 27.pdf
+  sort_key: BullingerRomenSchlenga
+  accepted_as: Presentations
+
+- title: "Discrete Budget Aggregation: Truthfulness and Proportionality"
+  authors:
+    - "Ulrike Schmidt-Kraepelin"
+    - "Warut Suksompong"
+    - "Markus Utke"
+  pdf_file: 30.pdf
+  sort_key: SchmidtKraepelinSuksompongUtke
+  accepted_as: Presentations
+
+- title: "Skating System Unveiled: Exploring Preference Aggregation in Ballroom Tournaments"
+  authors:
+    - "Laryssa Horn"
+    - "Paul Nüsken"
+    - "Jörg Rothe"
+    - "Tessa Seeger"
+  pdf_file: 31.pdf
+  sort_key: HornNuskenRotheSeeger
+  accepted_as: Presentations
+
+- title: "Anonymous and neutral classification aggregation"
+  authors:
+    - "Olivier Cailloux"
+    - "Matthieu Hervouin"
+    - "Ali I. Ozkes"
+    - "Remzi Sanver"
+  pdf_file: 36.pdf
+  sort_key: CaillouxHervouinOzkesSanver
+  accepted_as: Presentations
+
+- title: "Reconfiguring Proportional Committees"
+  authors:
+    - "Chris Dong"
+    - "Fabian Frank"
+    - "Jannik Peters"
+    - "Warut Suksompong"
+  pdf_file: 39.pdf
+  sort_key: DongFrankPetersSuksompong
+  accepted_as: Presentations
+
+- title: "On Condorcet’s Jury Theorem with Abstention"
+  authors:
+    - "Reshef Meir"
+    - "Ganesh Ghalme"
+  pdf_file: 40.pdf
+  sort_key: MeirGhalme
+  accepted_as: Presentations
+
+- title: "Method of Equal Shares with Bounded Overspending"
+  authors:
+    - "Georgios Papasotiropoulos"
+    - "Seyedeh Zeinab Pishbin"
+    - "Oskar Skibski"
+    - "Piotr Skowron"
+    - "Tomasz Wąs"
+  pdf_file: 50.pdf
+  sort_key: PapasotiropoulosPishbinSkibskiSkowronWas
+  accepted_as: Presentations
+
+- title: "Strategizing under Rule and Vote Uncertainty: An Experiment"
+  authors:
+    - "Antoine Prévotat"
+    - "Zoi Terzopoulou"
+    - "Adam Zylbersztejn"
+  pdf_file: 53.pdf
+  sort_key: PrevotatTerzopoulouZylbersztejn
+  accepted_as: Presentations
+
+- title: "Generative Social Choice: The Next Generation"
+  authors:
+    - "Niclas Boehmer"
+    - "Sara Fish"
+    - "Ariel D. Procaccia"
+  pdf_file: 62.pdf
+  sort_key: BoehmerFishProcaccia
+  accepted_as: Presentations
+
+- title: "An Axiomatic Characterization of the Minimax Voting Method"
+  authors:
+    - "Yifeng Ding"
+    - "Xiaochen Yu"
+  pdf_file: 65.pdf
+  sort_key: DingYu
+  accepted_as: Presentations
+
+- title: "Quantile Agent Utility and Implications to Randomized Social Choice"
+  authors:
+    - "Ioannis Caragiannis"
+    - "Sanjukta Roy"
+  pdf_file: 74.pdf
+  sort_key: CaragiannisRoy
+  accepted_as: Presentations
+
+- title: "Epistemic EFX Allocations Exist for Monotone Valuations"
+  authors:
+    - "Hannaneh Akrami"
+    - "Nidhi Rathi"
+  pdf_file: 77.pdf
+  sort_key: AkramiRathi
+  accepted_as: Presentations
+
+- title: "Guide to Numerical Experiments on Elections in Computational Social Choice"
+  authors:
+    - "Niclas Boehmer"
+    - "Piotr Faliszewski"
+    - "Łukasz Janeczko"
+    - "Andrzej Kaczmarczyk"
+    - "Grzegorz Lisowski"
+    - "Grzegorz Pierczyński"
+    - "Simon Rey"
+    - "Dariusz Stolicki"
+    - "Stanisław Szufa"
+    - "Tomasz Wąs"
+  pdf_file: 78.pdf
+  sort_key: BoehmerFaliszewskiJaneczkoKaczmarczykLisowskiPierczynskiReyStolickiSzufaWas
+  accepted_as: Presentations
+
+- title: "Computing Efficient and Envy-Free Allocations under Dichotomous Preferences using SAT"
+  authors:
+    - "Ari Conati"
+    - "Andreas Niskanen"
+    - "Ronald de Haan"
+    - "Matti Järvisalo"
+  pdf_file: 79.pdf
+  sort_key: ConatiNiskanenHaanJarvisalo
+  accepted_as: Presentations
+
+- title: "From order lifting to social ranking: retrieving individual rankings from partial lifted preferences"
+  authors:
+    - "Ariane Ravier"
+    - "Sébastien Konieczny"
+    - "Stefano Moretti"
+    - "Paolo Viappiani"
+  pdf_file: 81.pdf
+  sort_key: RavierKoniecznyMorettiViappiani
+  accepted_as: Presentations
+
+- title: "Temporal Fair Division"
+  authors:
+    - "Benjamin Cookson"
+    - "Soroush Ebadian"
+    - "Nisarg Shah"
+  pdf_file: 82.pdf
+  sort_key: CooksonEbadianShah
+  accepted_as: Presentations
+
+- title: "Approximate Core of Participatory Budgeting via Lindahl Equilibrium"
+  authors:
+    - "Thanh Nguyen"
+    - "Haoyu Song"
+  pdf_file: 84.pdf
+  sort_key: NguyenSong
+  accepted_as: Presentations
+
+- title: "Learning Real-Life Approval Elections"
+  authors:
+    - "Piotr Faliszewski"
+    - "Łukasz Janeczko"
+    - "Andrzej Kaczmarczyk"
+    - "Marcin Kurdziel"
+    - "Grzegorz Pierczyński"
+    - "Stanisław Szufa"
+  pdf_file: 86.pdf
+  sort_key: FaliszewskiJaneczkoKaczmarczykKurdzielPierczynskiSzufa
+  accepted_as: Presentations
+
+- title: "Mixed Voting Rules for Participatory Budgeting"
+  authors:
+    - "Anton Baychkov"
+    - "Markus Brill"
+    - "Markus Utke"
+  pdf_file: 87.pdf
+  sort_key: BaychkovBrillUtke
+  accepted_as: Presentations
+
+- title: "Participatory Budgeting Project Strength via Candidate Control"
+  authors:
+    - "Piotr Faliszewski"
+    - "Łukasz Janeczko"
+    - "Dušan Knop"
+    - "Jan Pokorný"
+    - "Šimon Schierreich"
+    - "Mateusz Słuszniak"
+    - "Krzysztof Sornat"
+  pdf_file: 88.pdf
+  sort_key: FaliszewskiJaneczkoKnopPokornySchierreichSuszniakSornat
+  accepted_as: Presentations
+
+- title: "Proportionality in Practice: Quantifying Proportionality in Ordinal Elections"
+  authors:
+    - "Tuva Bardal"
+    - "Markus Brill"
+    - "David McCune"
+    - "Jannik Peters"
+  pdf_file: 89.pdf
+  sort_key: BardalBrillMcCunePeters
+  accepted_as: Presentations
+
+- title: "From Independence of Clones to Composition Consistency: A Hierarchy of Barriers to Strategic Nomination"
+  authors:
+    - "Ratip Emin Berker"
+    - "Sílvia Casacuberta"
+    - "Isaac Robinson"
+    - "Christopher Ong"
+    - "Vincent Conitzer"
+    - "Edith Elkind"
+  pdf_file: 91.pdf
+  sort_key: BerkerCasacubertaRobinsonOngConitzerElkind
+  accepted_as: Presentations
+
+- title: "Robust Committee Voting, or The Other Side of Representation"
+  authors:
+    - "Gregory Kehne"
+    - "Ulrike Schmidt-Kraepelin"
+    - "Krzysztof Sornat"
+  pdf_file: 93.pdf
+  sort_key: KehneSchmidtKraepelinSornat
+  accepted_as: Presentations
+
+- title: "Fraud-Proof Revenue Division on Subscription Platforms"
+  authors:
+    - "Abheek Ghosh"
+    - "Tzeh Yuan Neoh"
+    - "Nicholas Teh"
+    - "Giannis Tyrovolas"
+  pdf_file: 94.pdf
+  sort_key: GhoshNeohTehTyrovolas
+  accepted_as: Presentations
+
+- title: "Streamlining Equal Shares"
+  authors:
+    - "Sonja Kraiczy"
+    - "Isaac Robinson"
+    - "Edith Elkind"
+  pdf_file: 96.pdf
+  sort_key: KraiczyRobinsonElkind
+  accepted_as: Presentations
+
+- title: "Constrained Serial Dictatorships can be Fair"
+  authors:
+    - "Sylvain Bouveret"
+    - "Hugo Gilbert"
+    - "Jérôme Lang"
+    - "Guillaume Méroué"
+  pdf_file: 98.pdf
+  sort_key: BouveretGilbertLangMeroue
+  accepted_as: Presentations
+
+- title: "A Generalised Theory of Proportionality in Collective Decision Making"
+  authors:
+    - "Tomáš Masařík"
+    - "Grzegorz Pierczyński"
+    - "Piotr Skowron"
+  pdf_file: 101.pdf
+  sort_key: MasarikPierczynskiSkowron
+  accepted_as: Presentations
+
+- title: "Byzantine Game Theory: Sun Tzu’s Boxes"
+  authors:
+    - "Andrei Constantinescu"
+    - "Roger Wattenhofer"
+  pdf_file: 110.pdf
+  sort_key: ConstantinescuWattenhofer
+  accepted_as: Presentations
+
+- title: "Delivering Fairly in the Gig Economy"
+  authors:
+    - "Hadi Hosseini"
+    - "Šimon Schierreich"
+  pdf_file: 3.pdf
+  sort_key: HosseiniSchierreich
+  accepted_as: Posters
+
+- title: "On voting rules satisfying false-name-proofness and participation"
+  authors:
+    - "Agustín G. Bonifacio"
+    - "Federico Fioravanti"
+  pdf_file: 6.pdf
+  sort_key: BonifacioFioravanti
+  accepted_as: Posters
+
+- title: "Why Instant-Runoff Voting Is So Resilient to Coalitional Manipulation: Phase Transitions in the Perturbed Culture"
+  authors:
+    - "François Durand"
+  pdf_file: 7.pdf
+  sort_key: Durand
+  accepted_as: Posters
+
+- title: "Diverse Committees with Incomplete or Inaccurate Approval Ballots"
+  authors:
+    - "Feline Lindeboom"
+    - "Martijn Brehm"
+    - "Davide Grossi"
+    - "Pradeep Murukannaiah"
+  pdf_file: 8.pdf
+  sort_key: LindeboomBrehmGrossiMurukannaiah
+  accepted_as: Posters
+
+- title: "Multiwinner Voting with Interval Preferences under Incomplete Information"
+  authors:
+    - "Drew Springham"
+    - "Edith Elkind"
+    - "Maria Polukarov"
+    - "Bart de Keijzer"
+  pdf_file: 10.pdf
+  sort_key: SpringhamElkindPolukarovKeijzer
+  accepted_as: Posters
+
+- title: "Sociotropic Behavior in Voting"
+  authors:
+    - "Jan Maly"
+    - "Oliviero Nardi"
+    - "Zoi Terzopoulou"
+  pdf_file: 13.pdf
+  sort_key: MalyNardiTerzopoulou
+  accepted_as: Posters
+
+- title: "An Incentive-Compatible Utilitarian Voting Procedure for Permanent Citizens’ Assemblies"
+  authors:
+    - "Rajarshi Ghosh"
+    - "Marcus Pivato"
+  pdf_file: 14.pdf
+  sort_key: GhoshPivato
+  accepted_as: Posters
+
+- title: "Budget Division Via Continuous Thiele’s Rules"
+  authors:
+    - "Jonathan Wagner"
+    - "Reshef Meir"
+  pdf_file: 15.pdf
+  sort_key: WagnerMeir
+  accepted_as: Posters
+
+- title: "Metric Distortion in Peer Selection"
+  authors:
+    - "Javier Cembrano"
+    - "Golnoosh Shahkarami"
+  pdf_file: 20.pdf
+  sort_key: CembranoShahkarami
+  accepted_as: Posters
+
+- title: "Voter Priming Campaigns: Strategies, Equilibria, and Algorithms"
+  authors:
+    - "Jonathan Shaki"
+    - "Yonatan Aumann"
+    - "Sarit Kraus"
+  pdf_file: 21.pdf
+  sort_key: ShakiAumannKraus
+  accepted_as: Posters
+
+- title: "Solving Four Open Problems about Core Stability in Altruistic Hedonic Games"
+  authors:
+    - "Jörg Rothe"
+    - "Ildikó Schlotter"
+  pdf_file: 29.pdf
+  sort_key: RotheSchlotter
+  accepted_as: Posters
+
+- title: "Probability of a Condorcet Winner for Large Electorates: An Analytic Combinatorics Approach"
+  authors:
+    - "François Durand"
+    - "Emma Caizergues"
+    - "Élie de Panafieu"
+    - "Marc Noy"
+    - "Vlady Ravelomanana"
+  pdf_file: 34.pdf
+  sort_key: DurandCaizerguesPanafieuNoyRavelomanana
+  accepted_as: Posters
+
+- title: "Scaling Fair and Efficient Course Allocation: From Theory to Practice"
+  authors:
+    - "Paula Navarrete Diaz"
+    - "Cyrus Cousins"
+    - "George Bissias"
+    - "Yair Zick"
+  pdf_file: 35.pdf
+  sort_key: DiazCousinsBissiasZick
+  accepted_as: Posters
+
+- title: "Frankenmandering: Repeated Social Graph Gerrymandering"
+  authors:
+    - "Sahil Agarwal"
+    - "Svetlana Obraztsova"
+    - "Zinovi Rabinovich"
+    - "Alan Tsang"
+  pdf_file: 45.pdf
+  sort_key: AgarwalObraztsovaRabinovichTsang
+  accepted_as: Posters
+
+- title: "Stable Matching under Matroid Rank Valuations"
+  authors:
+    - "Alon Eden"
+    - "Vignesh Viswanathan"
+    - "Yair Zick"
+  pdf_file: 48.pdf
+  sort_key: EdenViswanathanZick
+  accepted_as: Posters
+
+- title: "Cycles in Liquid Democracy: A Game-Theoretic Justification"
+  authors:
+    - "Markus Brill"
+    - "Rachael Colley"
+    - "Anne-Marie George"
+    - "Grzegorz Lisowski"
+    - "Georgios Papasotiropoulos"
+    - "Ulrike Schmidt-Kraepelin"
+  pdf_file: 49.pdf
+  sort_key: BrillColleyGeorgeLisowskiPapasotiropoulosSchmidtKraepelin
+  accepted_as: Posters
+
+- title: "Pareto-efficiency of ordinal multiwinner voting rules"
+  authors:
+    - "Jean Lainé"
+    - "Jérôme Lang"
+    - "Ipek Özkal-Sanver"
+    - "Remzi Sanver"
+  pdf_file: 52.pdf
+  sort_key: LaineLangOzkalSanverSanver
+  accepted_as: Posters
+
+- title: "Selecting Interlacing Committees"
+  authors:
+    - "Chris Dong"
+    - "Martin Bullinger"
+    - "Tomasz Wąs"
+    - "Larry Birnbaum"
+    - "Edith Elkind"
+  pdf_file: 54.pdf
+  sort_key: DongBullingerWasBirnbaumElkind
+  accepted_as: Posters
+
+- title: "Temporal Fair Division of Indivisible Items"
+  authors:
+    - "Edith Elkind"
+    - "Alexander Lam"
+    - "Mohamad Latifian"
+    - "Tzeh Yuan Neoh"
+    - "Nicholas Teh"
+  pdf_file: 55.pdf
+  sort_key: ElkindLamLatifianNeohTeh
+  accepted_as: Posters
+
+- title: "Fair Allocation with Initial Utilities"
+  authors:
+    - "Niclas Boehmer"
+    - "Luca Kreisel"
+  pdf_file: 58.pdf
+  sort_key: BoehmerKreisel
+  accepted_as: Posters
+
+- title: "Proportionality in Thumbs Up and Down Voting"
+  authors:
+    - "Sonja Kraiczy"
+    - "Georgios Papasotiropoulos"
+    - "Grzegorz Pierczyński"
+    - "Piotr Skowron"
+  pdf_file: 60.pdf
+  sort_key: KraiczyPapasotiropoulosPierczynskiSkowron
+  accepted_as: Posters
+
+- title: "Proportional Selection in Networks"
+  authors:
+    - "Georgios Papasotiropoulos"
+    - "Oskar Skibski"
+    - "Piotr Skowron"
+    - "Tomasz Wąs"
+  pdf_file: 61.pdf
+  sort_key: PapasotiropoulosSkibskiSkowronWas
+  accepted_as: Posters
+
+- title: "Connected Equitable Cake Division via Sperner’s Lemma"
+  authors:
+    - "Umang Bhaskar"
+    - "A. R. Sricharan"
+    - "Rohit Vaish"
+  pdf_file: 63.pdf
+  sort_key: BhaskarSricharanVaish
+  accepted_as: Posters
+
+- title: "Core-Stable Kidney Exchange via Altruistic Donors"
+  authors:
+    - "Gergely Csáji"
+    - "Thanh Nguyen"
+  pdf_file: 64.pdf
+  sort_key: CsajiNguyen
+  accepted_as: Posters
+
+- title: "Collusion in the polluted river problem"
+  authors:
+    - "Mikel Álvarez-Mozos"
+    - "René van den Brink"
+    - "Martí Jané-Ballarín"
+  pdf_file: 67.pdf
+  sort_key: AlvarezMozosBrinkJaneBallarin
+  accepted_as: Posters
+
+- title: "Computing Efficient Envy-Free Partial Allocations of Indivisible Goods"
+  authors:
+    - "Bin Sun"
+    - "Robert Bredereck"
+    - "Junjie Luo"
+    - "Andrzej Kaczmarczyk"
+  pdf_file: 75.pdf
+  sort_key: SunBredereckLuoKaczmarczyk
+  accepted_as: Posters
+
+- title: "Whoever Said Money Won’t Solve All Your Problems? Weighted Envy-free Allocation with Subsidy"
+  authors:
+    - "Noga Klein Elmalem"
+    - "Haris Aziz"
+    - "Rica Gonen"
+    - "Xin Huang"
+    - "Kei Kimura"
+    - "Indrajit Saha"
+    - "Erel Segal-Halevi"
+    - "Zhaohong Sun"
+    - "Mashbat Suzuki"
+    - "Makoto Yokoo"
+  pdf_file: 80.pdf
+  sort_key: ElmalemAzizGonenHuangKimuraSahaSegalHaleviSunSuzukiYokoo
+  accepted_as: Posters
+
+- title: "Fairly Stable Two-Sided Matching with Indifferences"
+  authors:
+    - "Benjamin Cookson"
+    - "Nisarg Shah"
+  pdf_file: 83.pdf
+  sort_key: CooksonShah
+  accepted_as: Posters
+
+- title: "An Impossibility Result for Strongly Group-Strategyproof Multi-Winner Approval-Based Voting"
+  authors:
+    - "Iannis Caragiannis"
+    - "Rob LeGrand"
+    - "Evangelos Markakis"
+    - "Emmanouil Pountourakis"
+  pdf_file: 90.pdf
+  sort_key: CaragiannisLeGrandMarkakisPountourakis
+  accepted_as: Posters
+
+- title: "AI-Generated Compromises for Coalition Formation"
+  authors:
+    - "Eyal Briman"
+    - "Ehud Shapiro"
+    - "Nimrod Talmon"
+  pdf_file: 95.pdf
+  sort_key: BrimanShapiroTalmon
+  accepted_as: Posters
+
+- title: "Maximizing Index Diversity in Committee Elections"
+  authors:
+    - "Paula Böhm"
+    - "Robert Bredereck"
+    - "Till Fluschnik"
+  pdf_file: 97.pdf
+  sort_key: BohmBredereckFluschnik
+  accepted_as: Posters
+
+- title: "It’s Not All Black and White: Degree of Truthfulness for Risk-Avoiding Agents"
+  authors:
+    - "Eden Hartman"
+    - "Erel Segal-Halevi"
+    - "Biaoshuai Tao"
+  pdf_file: 99.pdf
+  sort_key: HartmanSegalHaleviTao
+  accepted_as: Posters
+
+- title: "On Iterative Voting Outcomes in Plurality Elections"
+  authors:
+    - "Vincent Mousseau"
+    - "Henri Surugue"
+    - "Magdaléna Tydrichova"
+    - "Anaëlle Wilczynski"
+  pdf_file: 106.pdf
+  sort_key: MousseauSurugueTydrichovaWilczynski
+  accepted_as: Posters
+
+- title: "Agreement among Voting Rules under Single-Peaked Preference Distributions"
+  authors:
+    - "Vincent Mousseau"
+    - "Henri Surugue"
+    - "Anaëlle Wilczynski"
+  pdf_file: 107.pdf
+  sort_key: MousseauSurugueWilczynski
+  accepted_as: Posters
+
+- title: "An O(loglog n)-Approximation for Submodular Facility Location"
+  authors:
+    - "Fateme Abbasi"
+    - "Marek Adamczyk"
+    - "Miguel Bosch-Calvo"
+    - "Jarosław Byrka"
+    - "Fabrizio Grandoni"
+    - "Krzysztof Sornat"
+    - "Antoine Tinguely"
+  pdf_file: 108.pdf
+  sort_key: AbbasiAdamczykBoschCalvoByrkaGrandoniSornatTinguely
+  accepted_as: Posters
+
+- title: "Reducing Leximin Fairness to Utilitarian Optimization"
+  authors:
+    - "Eden Hartman"
+    - "Yonatan Aumann"
+    - "Avinatan Hassidim"
+    - "Erel Segal-Halevi"
+  pdf_file: 109.pdf
+  sort_key: HartmanAumannHassidimSegalHalevi
+  accepted_as: Posters
+
+- title: "Condorcet Winners and Anscombe’s Paradox Under Weighted Binary Voting"
+  authors:
+    - "Carmel Baharav"
+    - "Andrei Constantinescu"
+    - "Roger Wattenhofer"
+  pdf_file: 112.pdf
+  sort_key: BaharavConstantinescuWattenhofer
+  accepted_as: Posters
+
