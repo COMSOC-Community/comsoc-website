@@ -117,6 +117,7 @@ On this page you will find a non-exhaustive list of such events.
     [2024](https://sites.google.com/view/scala24)
 
   - Workshop Series on New Directions in Social Choice at EC   
+    [2026](https://ec26.comsocseminar.org/) &middot;
     [2025](https://ec25.comsocseminar.org/) &middot;
     [2024](https://ec24.comsocseminar.org/)
 
