@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on COMSOC 2025</title><link>/archive/comsoc-2025/</link><description>Recent content in About on COMSOC 2025</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Jul 2025 08:00:00 +0100</lastBuildDate><atom:link href="/archive/comsoc-2025/index.xml" rel="self" type="application/rss+xml"/><item><title>Registration</title><link>/archive/comsoc-2025/registration/</link><pubDate>Mon, 28 Jul 2025 08:00:00 +0100</pubDate><guid>/archive/comsoc-2025/registration/</guid><description>&lt;h2 id="general-terms-and-conditions"&gt;General Terms and Conditions&lt;/h2&gt;
+&lt;p&gt;All participants (including speakers) must register and are encouraged to do so before &lt;strong&gt;15.08.2025&lt;/strong&gt;, to benefit from the early registration fees.&lt;br&gt;
+Travel and accommodation costs are not included in the registration fee and must be covered by the participants themselves.&lt;/p&gt;
+&lt;p&gt;The registration fee (both regular and student) includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conference attendance (17–19 September 2025)&lt;/li&gt;
+&lt;li&gt;Three lunches&lt;/li&gt;
+&lt;li&gt;Finger food during the poster session&lt;/li&gt;
+&lt;li&gt;Five refreshment breaks&lt;/li&gt;
+&lt;li&gt;Conference materials&lt;/li&gt;
+&lt;li&gt;Conference dinner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Registration is handled online via &lt;a href="https://www.conftool.com/archive/comsoc-2025/" target="_blank"&gt;Conftool&lt;/a&gt;
+.&lt;br&gt;
+Participants may pay instantly by credit card.&lt;/p&gt;</description></item><item><title>Accepted Papers/Posters</title><link>/archive/comsoc-2025/accepted/</link><pubDate>Fri, 25 Jul 2025 09:41:34 +0200</pubDate><guid>/archive/comsoc-2025/accepted/</guid><description>&lt;div id="accepted-oral-start"&gt;&lt;div&gt;
+&lt;h2 id="accepted-papers-for-oral-presentation"&gt;Accepted papers for oral presentation&lt;/h2&gt;
+&lt;p&gt;5: Interactive and Iterative Peer Assessment: A Social Choice Approach to Eliciting and Aggregating Student Evaluations | &lt;strong&gt;authors:&lt;/strong&gt; Lihi Dery | &lt;a href="/archive/comsoc-2025/comsoc2025-papers/5.pdf"&gt;paper&lt;/a&gt;
+ | &lt;details&gt;&lt;summary&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/summary&gt;We present a peer assessment model grounded in computational social choice, aimed at mitigating grade inflation and strategic behavior in the evaluation of in-class project presentations. The model elicits individual evaluations through a structured rating process, augmented with pairwise comparison queries, to produce complete and tie-free rankings for each student. Aggregation proceeds in two stages: first, computing the median score for each project; second, applying a ranking-based voting rule to resolve ties. This hybrid approach combines the interpretability of score-based methods with the robustness of ordinal social choice mechanisms. Deployed in a university course, the model significantly reduced both grade inflation and cognitive load, demonstrating the value of integrating elicitation design with voting-based aggregation in peer assessment contexts.&lt;/details&gt;&lt;/p&gt;</description></item><item><title>Practical</title><link>/archive/comsoc-2025/accomodation/</link><pubDate>Sun, 19 Jan 2025 20:43:27 +0200</pubDate><guid>/archive/comsoc-2025/accomodation/</guid><description>&lt;h2 id="travel"; style="text-align:center"&gt;Travelling to Vienna &lt;/h2&gt;
+&lt;h3 id="by-plane"&gt;By plane&lt;/h3&gt;
+&lt;p&gt;Vienna has an international airport (VIE) situated in the south of the city.
+Once you are there the easiest way to reach the city is to take a train from
+the airport train station.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ground transportation from airport to city center&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a href="https://tickets.oebb.at/en/ticket"&gt;here&lt;/a&gt; for online train bookings.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The train ÖBB-Railjet towards the main train station of Vienna. It takes
+about 15 minutes and costs 4.60 Euro. It runs roughly every half hour.&lt;/li&gt;
+&lt;li&gt;Tram S7 towards Floridsdorf takes about 25 minutes to reach the station “Wien
+Mitte”, where you can switch to the subway system and costs 4.60 Euro.
+Runs every half hour too. From there you can just get into the local
+transportation system of the "Wiener Linien" (to subway (U-Bahn), tram
+(Straßenbahn), local bus (Bus)).&lt;/li&gt;
+&lt;li&gt;The CAT train (green one) costs about 14.90 Euro and runs to "Wien Mitte" in about 16 minutes. From there you can just get into the the
+local transportation system of the "Wiener Linien" (to subway (U-Bahn),
+tram (Straßenbahn), local bus (Bus)).&lt;/li&gt;
+&lt;li&gt;A Taxi for one person should costs you about 50 EUR for a drive from the airport to the city center. From there you can just get into the local transportation system of the "Wiener
+Linien" (to subway (U-Bahn), tram (Straßenbahn), local bus (Bus)).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="by-train"&gt;By train&lt;/h3&gt;
+&lt;p&gt;In case you arrive to Vienna via train you will most likely exit at the new
+main train station just south of the city center. From there you can just get
+into the local transportation system of the “Wiener Linien” (to subway
+(U-Bahn), tram (Straßenbahn), local bus (Bus)).&lt;/p&gt;</description></item><item><title>Previous</title><link>/archive/comsoc-2025/previous/</link><pubDate>Sun, 12 Jan 2025 23:55:12 +0100</pubDate><guid>/archive/comsoc-2025/previous/</guid><description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://staff.science.uva.nl/u.endriss/COMSOC-2006/" target="_blank"&gt;COMSOC-2006&lt;/a&gt;
+: Amsterdam, 6-8 December 2006&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://comsoc-community.org/archive/comsoc-2008/" target="_blank"&gt;COMSOC-2008&lt;/a&gt;
+: Liverpool, 2-5 September 2008&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://comsoc-community.org/archive/comsoc-2010/" target="_blank"&gt;COMSOC-2010&lt;/a&gt;
+: Düsseldorf, 13-16 September 2010&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://home.agh.edu.pl/~faliszew/COMSOC-2012/" target="_blank"&gt;COMSOC-2012&lt;/a&gt;
+: Kraków, 11-13 September 2012&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.cs.cmu.edu/~arielpro/comsoc-14/" target="_blank"&gt;COMSOC-2014&lt;/a&gt;
+: Pittsburgh, 23-25 June 2014&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.irit.fr/COMSOC-2016/" target="_blank"&gt;COMSOC-2016&lt;/a&gt;
+: Toulouse, 22-24 June 2016&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.cs.rpi.edu/~xial/COMSOC18/" target="_blank"&gt;COMSOC-2018&lt;/a&gt;
+: RPI, Troy, New York, 25-27 June 2018&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://comsoc2021.net.technion.ac.il/" target="_blank"&gt;COMSOC-2021&lt;/a&gt;
+: Haifa and Online, 7-10 June 2021&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://comsoc-community.org/archive/comsoc-2023/" target="_blank"&gt;COMSOC-2023&lt;/a&gt;
+: Beersheba, 3-5 July 2023&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information about the workshop series can be found in &lt;a href="https://comsoc-community.org/workshops" target="_blank"&gt;COMSOC&lt;/a&gt;
+.&lt;/p&gt;</description></item><item><title>Program</title><link>/archive/comsoc-2025/program/</link><pubDate>Sun, 12 Jan 2025 23:51:37 +0100</pubDate><guid>/archive/comsoc-2025/program/</guid><description>&lt;style&gt;
+table tr th:empty {
+ display: none;
+}
+table tr:nth-child(odd) {
+ background-color: #efede4;
+ color: #000000;!important;
+}
+&lt;/style&gt;
+&lt;p&gt;&lt;strong&gt;COMSOC 2025 venue&lt;/strong&gt; 	 &lt;br/&gt;
+&lt;a href="https://www.tuwien.at/tch/pc/physikalische-chemie-der-atmosphaere/workshop/location" target="_blank"&gt;TUtheSky&lt;/a&gt;
+ at TU Wien, Rooftop lounge&lt;br/&gt;
+&lt;a href="https://maps.tuwien.ac.at/?q=BA11B09" target="_blank"&gt;Getreidemarkt 9/BA, 11th floor&lt;/a&gt;
+&lt;br/&gt;
+1060 Vienna&lt;br/&gt;
+&lt;img src="../images/TUtheSky.jpg" alt="image"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Public transport to the COMSOC 2025 venue&lt;/strong&gt;&lt;br/&gt;
+Subway stop Karlsplatz (U1, U2, U4), walk about 7 minutes&lt;br/&gt;
+Tram stop Burgring (D), walk about 5 minutes&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Registration and information desk&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;Location: 11th floor of the TU Wien building Getreidemarkt. There will be signs guiding you from the entrance of the building.&lt;/p&gt;</description></item><item><title>Committees</title><link>/archive/comsoc-2025/committees/</link><pubDate>Sun, 12 Jan 2025 23:51:18 +0100</pubDate><guid>/archive/comsoc-2025/committees/</guid><description>&lt;h2 id="programm-committee"&gt;Programm committee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mechanismdesign.eu/biro/" target="_blank"&gt;Péter Biró&lt;/a&gt;
+ (KRTK, co-chair)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ac.tuwien.ac.at/jchen/about/" target="_blank"&gt;Jiehua Chen&lt;/a&gt;
+ (TU Vienna, co-chair)&lt;/li&gt;
+&lt;li&gt;Stephane Airiau (Paris-Dauphine)&lt;/li&gt;
+&lt;li&gt;Haris	Aziz	(UNSW Sydney)&lt;/li&gt;
+&lt;li&gt;Niclas Boehmer (Hasso Plattner Institute)&lt;/li&gt;
+&lt;li&gt;Florian	Brandl	(University of Bonn)&lt;/li&gt;
+&lt;li&gt;Felix	Brandt	(Technical University of Munich)&lt;/li&gt;
+&lt;li&gt;Robert	Bredereck	(TU Clausthal)&lt;/li&gt;
+&lt;li&gt;Markus	Brill	(University of Warwick)&lt;/li&gt;
+&lt;li&gt;Martin	Bullinger	(University of Oxford)&lt;/li&gt;
+&lt;li&gt;Ioannis	Caragiannis (Aarhus University)&lt;/li&gt;
+&lt;li&gt;Katarína	Cechlárová (P.J. Safarik University)&lt;/li&gt;
+&lt;li&gt;Andreas	Darmann	(University of Graz)&lt;/li&gt;
+&lt;li&gt;Ronald	de Haan	(University of Amsterdam)&lt;/li&gt;
+&lt;li&gt;Bart de Keijzer (King&amp;rsquo;s College London)&lt;/li&gt;
+&lt;li&gt;Edith	Elkind	(Northwestern University)&lt;/li&gt;
+&lt;li&gt;Ulle	Endriss	(University of Amsterdam)&lt;/li&gt;
+&lt;li&gt;Piotr	Faliszewski	(AGH University)&lt;/li&gt;
+&lt;li&gt;Zack	Fitzsimmons	(College of the Holy Cross)&lt;/li&gt;
+&lt;li&gt;Till	Fluschnik (HU Berlin)&lt;/li&gt;
+&lt;li&gt;Rupert	Freeman	(University of Virginia)&lt;/li&gt;
+&lt;li&gt;Paul	Goldberg	(University of Oxford)&lt;/li&gt;
+&lt;li&gt;Judy	Goldsmith	(University of Kentucky)&lt;/li&gt;
+&lt;li&gt;Umberto	Grandi	(IRIT)&lt;/li&gt;
+&lt;li&gt;Davide	Grossi	(Universiteit van Groningen and University of Amsterdam)&lt;/li&gt;
+&lt;li&gt;Noam	Hazon	(Ariel University)&lt;/li&gt;
+&lt;li&gt;Sarit Kraus (Bar Ilan University)&lt;/li&gt;
+&lt;li&gt;Martin	Lackner	(TU Wien)&lt;/li&gt;
+&lt;li&gt;Jérôme	Lang	(CNRS)&lt;/li&gt;
+&lt;li&gt;Kate	Larson	(University of Waterloo)&lt;/li&gt;
+&lt;li&gt;Patrick Lederer (UNSW Sydney)&lt;/li&gt;
+&lt;li&gt;David	Manlove	(University of Glasgow)&lt;/li&gt;
+&lt;li&gt;Nicholas Mattei	(Tulane University)&lt;/li&gt;
+&lt;li&gt;Nicolas	Maudet	(Sorbonne Université)&lt;/li&gt;
+&lt;li&gt;Reshef	Meir	(Technion)&lt;/li&gt;
+&lt;li&gt;Neeldhara	Misra	(IIT Gandhinagar)&lt;/li&gt;
+&lt;li&gt;Shuichi	Miyazaki	(University of Hyogo)&lt;/li&gt;
+&lt;li&gt;Hervé	Moulin	(University of Glasgow)&lt;/li&gt;
+&lt;li&gt;Thanh Nguyen (Purdue University)&lt;/li&gt;
+&lt;li&gt;Ali Ozkes (WU Vienna)&lt;/li&gt;
+&lt;li&gt;Dominik	Peters	(CNRS)&lt;/li&gt;
+&lt;li&gt;Jannik Peters (National University of Singapore)&lt;/li&gt;
+&lt;li&gt;Marcus	Pivato	(Université de Cergy-Pontoise)&lt;/li&gt;
+&lt;li&gt;Maria Polukarov (King&amp;rsquo;s College London)&lt;/li&gt;
+&lt;li&gt;Clemens	Puppe	(Karlsruhe Institute of Technology)&lt;/li&gt;
+&lt;li&gt;Joerg	Rothe	(HHU Duesseldorf)&lt;/li&gt;
+&lt;li&gt;Ildikó	Schlotter	(HUN-REN Centre for Economic and Regional Studies)&lt;/li&gt;
+&lt;li&gt;Sanjukta Roy (Indian Statistical Institute)&lt;/li&gt;
+&lt;li&gt;Ulrike	Schmidt-Kraepelin	(TU Eindhoven)&lt;/li&gt;
+&lt;li&gt;Erel	Segal-Halevi	(Ariel University)&lt;/li&gt;
+&lt;li&gt;Piotr Skowron (University of Warsaw)&lt;/li&gt;
+&lt;li&gt;Warut	Suksompong	(National University of Singapore)&lt;/li&gt;
+&lt;li&gt;Stanisław Szufa (CNRS, LAMSADE, Université Paris Dauphine-PSL)&lt;/li&gt;
+&lt;li&gt;Nimrod	Talmon	(Ben Gurion University)&lt;/li&gt;
+&lt;li&gt;Zoi Terzopoulou (Saint-Etienne School of Economics)&lt;/li&gt;
+&lt;li&gt;Magdalena Tydrichova (Centrale Supélec)&lt;/li&gt;
+&lt;li&gt;Tomasz Wąs (University of Oxford)&lt;/li&gt;
+&lt;li&gt;Anaëlle	Wilczynski	(CentraleSupélec)&lt;/li&gt;
+&lt;li&gt;Lirong Xia (Rutgers University)&lt;/li&gt;
+&lt;li&gt;Yongjie	Yang	(Saarland Univeristy)&lt;/li&gt;
+&lt;li&gt;Yair	Zick	(University of Massachusetts)&lt;/li&gt;
+&lt;li&gt;William Zwicker	(Union College)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="local-organizers"&gt;Local organizers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jiehua Chen (chair)&lt;/li&gt;
+&lt;li&gt;Christian Hatschka&lt;/li&gt;
+&lt;li&gt;Phuc Hung Hoang&lt;/li&gt;
+&lt;li&gt;Liana Khazaliya&lt;/li&gt;
+&lt;li&gt;Merisa Mustajbasic&lt;/li&gt;
+&lt;li&gt;Oliviero Nardi&lt;/li&gt;
+&lt;li&gt;Sofia Simola&lt;/li&gt;
+&lt;li&gt;Manuel Sorge&lt;/li&gt;
+&lt;li&gt;Doris Brazda (administration)&lt;/li&gt;
+&lt;li&gt;Johannes Strasser (administration)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Call For Papers</title><link>/archive/comsoc-2025/cfp/</link><pubDate>Sun, 12 Jan 2025 23:51:14 +0100</pubDate><guid>/archive/comsoc-2025/cfp/</guid><description>&lt;p&gt;&lt;strong&gt;General information&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Submissions of papers describing original, under review, or recently published work on all aspects of computational social choice are invited. Topics of interest include, but are not limited to computational issues that arise in the analysis of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voting and collective decision-making
+&lt;ul&gt;
+&lt;li&gt;Axiomatic properties&lt;/li&gt;
+&lt;li&gt;Manipulation, control, and bribery&lt;/li&gt;
+&lt;li&gt;Voting equilibria and dynamics&lt;/li&gt;
+&lt;li&gt;Delegation, proxy voting, and liquid democracy&lt;/li&gt;
+&lt;li&gt;Participatory budgeting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Preference representation and elicitation&lt;/li&gt;
+&lt;li&gt;Opinion diffusion and aggregation on social networks&lt;/li&gt;
+&lt;li&gt;Judgement aggregation, belief aggregation, and epistemic voting&lt;/li&gt;
+&lt;li&gt;Fair division, allocation, and matching&lt;/li&gt;
+&lt;li&gt;Coalition formation&lt;/li&gt;
+&lt;li&gt;Recommendation systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We welcome theoretical, empirical and experimental work on these topics, including, in particular, research on algorithms (exact, approximate, parameterized, online and distributed), learning, logic, and simulations in the context of social choice. All submitted papers will be reviewed by the program committee. Accepted papers will be collected in informal workshop notes, as the workshop has no formal proceedings and the authors retain their copyright. To accommodate the publishing needs of different scientific communities, we stress that authors will retain the copyright of their papers and that submitting to COMSOC 2025 does not preclude publication of the same material in a journal or in a conference with formal proceedings. Each accepted paper will have to be presented by one of the authors, with the constraint that each workshop participant gives at most one talk (exceptions can be made due to unforeseen circumstances).&lt;/p&gt;</description></item></channel></rss>

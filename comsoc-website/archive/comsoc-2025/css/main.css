@@ -1,0 +1,523 @@
+main {
+    max-width: 750px;
+    word-wrap: break-word;
+}
+
+/* Header */
+
+.global-header {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: #e1dad0;
+    min-height: 230px;
+    max-height: 280px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18vh;
+/*    height: 100vh; */
+    /*    overflow: visible; */
+    min-height: 300px; 
+}
+
+@media (max-width: 768px) {
+    .global-header {
+        height: 10vh;
+        min-height: 200px; /* Adjusts for smaller screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .global-header {
+        height: 20vh;
+        min-height: 300px; /* Larger view for larger screens */
+    }
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%); 
+    min-height: inherit;
+    text-align: center;
+}
+
+.header-text .tag-line {
+    margin: 5px auto;
+    padding: 0 10px;
+    max-width: 430px;
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+/*    font-size: 45px; */
+    font-size: 4.5vw;
+    max-width: 550px;
+    text-shadow: 1px 1px 30px #000000, 1px 1px 30px #000000, 1px 1px 30px #000000;
+}
+
+/* For smaller screens where 1.5vw might still be too small */
+@media (max-width: 768px) {
+    .header-text {
+        height: 10vh;
+        min-height: 250px;
+      /*  top: 20%; /* Ensures minimum readability */
+    }
+}
+
+
+/* For smaller screens where 1.5vw might still be too small */
+@media (min-width: 769px) {
+    .header-text {
+        height: 25vh;
+        min-height: 300px,
+        top: 40%; /* Ensures minimum readability */
+    }
+}
+
+/* For smaller screens where 1.5vw might still be too small */
+@media (max-width: 768px) {
+    .header-text h1 {
+        font-size: 28px; /* Ensures minimum readability */
+    }
+}
+
+/* For large screens to prevent the font from becoming excessively large */
+@media (min-width: 769px) {
+    .header-text h1 {
+        font-size: 48px; /* Adjusts scaling for larger viewports */
+    }
+}
+
+
+.header-text h1 a {
+    text-decoration: none;
+}
+
+.header-text h2H {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    max-width: 550px;
+}
+
+
+.header-text h2H a {
+    text-decoration: none;
+}
+
+.header-text h3 {
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.6vw;
+    max-width: 550px;
+    text-shadow: 1px 1px 20px #000000, 1px 1px 20px #000000, 1px 1px 20px #000000;
+}
+
+
+/* For smaller screens where 1.5vw might still be too small */
+@media (max-width: 768px) {
+    .header-text h3 {
+        font-size: 16px; /* Ensures minimum readability */
+    }
+}
+
+@media (min-width: 769px) {
+    .header-text h3 {
+        font-size: 28px; /* Adjusts scaling for larger viewports */
+    }
+}
+
+.header-text h3 a {
+    text-decoration: none;
+}
+
+.header-text h4  {
+    font-size: 20px;
+    padding-top: -1px;
+    padding-bottom: -1px;
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 50px 50px 100px #777777;
+}
+
+.btn-home {
+    position: absolute;
+    left: 10px;
+}
+
+/* Navbar */
+
+.navbar-container {
+    display: flex;
+    position: absolute;
+    /* right: 20px; */
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin-left: 4px;
+    font-weight: 440;
+  /*  position: initial !important; */
+}
+
+.navbar-item:last-child {
+    margin-left: 4px;
+}
+
+/* Language list */
+
+.language-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;
+}
+
+.language-button {
+    margin-left: 5px;
+    position: initial !important;
+}
+
+@media (min-width: 900px) {
+  .language-container, .btn-home {
+    top: 10px;
+  }
+}
+
+/* Footer */
+
+.global-footer {
+    padding-top: 10px;
+    max-width: 750px;
+    height: 100px;
+}
+
+.global-footer .sns-links {
+    float: right;
+}
+
+.global-footer .sns-links a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    /*
+    XXX Maybe but this in? Somethimes it's not smooth and that makes it ugly...
+    transition: color,border-color 0.1s linear;
+    */
+}
+
+.global-footer .sns-links a i {
+    vertical-align: middle;
+}
+
+/* Article */
+
+.article-list h2 a {
+    text-decoration: none;
+    /*
+    XXX Maybe but this in? Somethimes it's not smooth and that makes it ugly...
+    transition: color 0.1s linear;
+    */
+}
+
+.article-title {
+    position: relative;
+}
+
+.article-title h1 {
+    font-size: 44px;
+}
+
+.article-title * {
+    text-align: center;
+}
+
+.post-tag a {
+    margin-left: 10px;
+    padding: 0 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    /*
+    XXX Maybe but this in? Somethimes it's not smooth and that makes it ugly...
+    transition: color,border-color,background-color 0.1s linear;
+    */
+}
+
+.not-found h1 {
+    font-weight: 200;
+    font-size: 80px;
+}
+
+.not-found {
+    text-align: center;
+}
+
+.author-info {
+    overflow: auto;
+}
+
+.author-name {
+    margin: 0 0 5px 0;
+}
+
+.author-avatar img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.author-contact {
+    margin-top: 10px;
+}
+
+/* Article list */
+
+.li-h1 {
+    margin-bottom: 2px;
+}
+
+.li-small {
+    font-size: 70%;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.li-content {
+    display: flex;
+}
+
+.li-content img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.summary-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Tag list */
+
+#container-tags-title {
+    display: flex;
+    justify-content: space-between;
+}
+#btn-all-tags {
+    align-self: flex-end;
+    margin-bottom:13px;
+}
+.list-group-item {
+  border-radius: 0px !important;
+}
+
+/* Bootstrap adjustions */
+
+h1,
+.h1 {
+  font-size: 36px;
+}
+h2,
+.h2 {
+  font-size: 30px;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+h4,
+.h4 {
+    font-size: 20px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+pre {
+    font-size: 13px;
+}
+
+pre code {
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+blockquote {
+     font-style:italic;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family:  "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif, "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei', sans-serif !important
+                                                                                                                                                                                 /* "Source Sans Pro", "Kozuka Gothic Pr6N", Meiryo, sans-serif !important; */
+}
+
+small, .small {
+  font-size: 80%;
+}
+
+a > .btn:hover {
+  text-decoration: none;
+}
+
+article section img {
+    max-width: 100%;
+    height: auto;
+    margin: 13px auto;
+}
+
+.btn {
+    font-size: 14px;
+    line-height: 0.900;
+    font-weight:600;
+    /* /\* */
+    /* XXX Specify a radius for the buttons here */
+    /* *\/ */
+    border-radius: -2px;
+    /*background-color: #362204;*/
+    text-shadow: 2px 2px 40px #362204,2px 2px 40px #362204,2px 2px 40px #362204,2px 2px 40px #362204; /*, 1px 0px 20px #fffffff, 1px 0px 20px #fffffff;
+    /*000000, 1px 0px 20px #000000, 1px 0px 20px #000000, 1px 0px 20px #000000, 1px 0px 20px #000000;
+}
+
+blockquote {
+	padding: 20px;
+	margin: 15px 0px;
+	font-size: unset;
+}
+
+/*
+XXX Maybe but this in? Somethimes it's not smooth and that makes it ugly...
+.btn, .btn-primary, a.btn-default, a {
+    transition: all 0.1s linear;
+}
+*/
+
+.btn-older-posts {
+    float: left;
+}
+
+.btn-newer-posts {
+    float: right;
+}
+
+/*
+Paging at the bottom
+
+I don't use the default pager-class because I want to use the normal buttons with my style
+*/
+.pager-container {
+    overflow: auto;
+}
+
+.delimiter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: unset;
+}
+
+.info {
+    position: fixed;
+    bottom:0%;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.info-content {
+  margin: auto;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .info-content {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .info-content {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .info-content {
+    width: 1170px;
+  }
+}
+
+/* Images */
+.embedded-image {
+	padding: 5px;
+}
+
+/* Note box */
+.note {
+	padding: 20px;
+	margin: 15px 0px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+
+nobordertable {
+    margin: 10px 0px;
+}
+nobordertable, th, td, tr {
+    border: 1px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+
+
+highl {
+    color: #362204;
+}
