@@ -1,3 +1,11 @@
+- name: Jonas Karge
+  affiliation: Technische Universität Dresden
+  year: 2026
+  url: https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa2-1060645
+  title: Multi-Agent Belief Management
+  supervisors:
+    - Sebastian Rudolph
+
 - name: Jeremy Vollen
   affiliation: University of New South Wales
   year: 2025
