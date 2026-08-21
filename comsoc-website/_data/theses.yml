@@ -1,3 +1,12 @@
+- name: Qishen Han
+  affiliation: Rutgers University
+  year: 2026
+  url: assets/theses/phd-han.pdf
+  title: "Informed Collective Decision Making via Voting"
+  supervisors:
+    - Lirong Xia
+    - David Pennock
+
 - name: Jonas Karge
   affiliation: Technische Universität Dresden
   year: 2026
