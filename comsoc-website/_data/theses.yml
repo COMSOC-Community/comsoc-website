@@ -64,6 +64,14 @@
   supervisors:
     - Jiehua Chen
 
+- name: Halvard Hummel
+  affiliation: Norwegian University of Science and Technology
+  year: 2024
+  url: https://hdl.handle.net/11250/3156046
+  title: "Maximin Shares in Structured Fair Allocation"
+  supervisors:
+    - Magnus Lie Hetland
+
 - name: Michael C. Chavrimootoo
   affiliation: University of Rochester
   year: 2024
@@ -95,16 +103,6 @@
   title: "Computational Analysis of Electoral Control in Single- and Multiwinner Elections"
   supervisors:
     - Jörg Rothe
-
-- name: François Durand
-  affiliation: Inria
-  year: 2015
-  url: https://inria.hal.science/tel-03654945/document
-  title: "Towards Less Manipulable Voting Systems"
-  supervisors:
-    - Sébastien Tixeuil
-    - Fabien Mathieu
-    - Ludovic Noirie
 
 - name: Jannik Peters
   affiliation: Technische Universität Berlin
@@ -706,6 +704,16 @@
   title: "From Election Fraud to Finding the Dream Team: A Study of the Computational Complexity in Voting Problems and Stability in Hedonic Games"
   supervisors:
     - Jörg Rothe
+
+- name: François Durand
+  affiliation: Inria
+  year: 2015
+  url: https://inria.hal.science/tel-03654945/document
+  title: "Towards Less Manipulable Voting Systems"
+  supervisors:
+    - Sébastien Tixeuil
+    - Fabien Mathieu
+    - Ludovic Noirie
 
 - name: Jiehua Chen
   affiliation: Technische Universität Berlin
