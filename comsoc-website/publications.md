@@ -12,7 +12,7 @@ description: >
 
 Owing to its interdisciplinary nature, research in computational social choice gets published at a very wide variety of venues. 
 This includes, in particular, conference proceedings and journals in AI (such as 
-[AAMAS](http://dblp.uni-trier.de/db/conf/atal/), 
+[AAMAS](http://dblp.uni-trier.de/db/conf/ifaamas/), 
 [IJCAI](http://dblp.uni-trier.de/db/conf/ijcai/), 
 [AAAI](http://dblp.uni-trier.de/db/conf/aaai/), 
 [AIJ](http://dblp.uni-trier.de/db/journals/ai/), 
