@@ -1,3 +1,11 @@
+- name: Christian Hatschka
+  affiliation: TU Wien
+  year: 2026
+  url: assets/theses/phd-hatschka.pdf
+  title: "Classical Problems, New Models: Cooperation and Reconfiguration in Collective Decision-Making"
+  supervisors:
+    - Jiehua Chen
+
 - name: Qishen Han
   affiliation: Rutgers University
   year: 2026
