@@ -106,6 +106,7 @@ On this page you will find a non-exhaustive list of such events.
     [2023](https://sites.google.com/view/fairdivisionworkshop)
     
   - Workshop Series on Social Choice for AI Ethics and Safety (SC4AI)   
+    [2027](https://sites.google.com/view/sc4ai/workshops/sc4ai27) &middot;
     [2026](https://sites.google.com/view/sc4ai/workshops/sc4ai26e) &middot;
     [2025](https://sites.google.com/view/sc4ai/workshops/sc4ai25) &middot;
     [2024](https://sites.google.com/view/sc4ai/workshops/sc4ai24e) &middot;
