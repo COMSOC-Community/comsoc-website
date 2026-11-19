@@ -42,6 +42,12 @@ On this page you will find a non-exhaustive list of such events.
 
 ## Dagstuhl Seminars on Topics in Computational Social Choice
 
+  - [Models and Computation of Proportional Representation](https://www.dagstuhl.de/28181/)
+    1-5 May 2028
+
+  - [Preference Elicitation and Discovery in Social Choice](https://www.dagstuhl.de/27271/)
+    4-9 July 2027  
+
   - [Societal Impact of Computational Social Choice](http://www.dagstuhl.de/25401/)  
     28 September - 2 October 2025
 
